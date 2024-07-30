@@ -1,0 +1,16 @@
+---
+title: "RIGOUR"
+description: ""
+---
+
+**Repeatable**: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.  
+
+**Independent**: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.  
+
+**Grounded in reality**: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem – which is being analysed.  
+
+**Objective**: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.  
+
+**Uncertainty-managed**: Uncertainties have been identified, managed and communicated throughout the analytical process.  
+
+**Robust**: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately. 

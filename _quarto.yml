@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  bread-crumbs: false
+  favicon: static/bsa-favicon.png
+  title: "Producing Quality Analysis" 
+  navbar:
+    title: false
+    logo: "static/logo-nhs.svg"
+    logo-alt: "NHS logo"
+    pinned: true
+    background: "#005EB8"
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - about.qmd
+      # - icon: globe
+      #   href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
+      # - icon: github
+      #   href: https://github.com/nhsbsa-data-analytics
+      # - icon: twitter
+      #   href: https://twitter.com/nhsbsa
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    contents:
+        - index.qmd
+        - guidance/01-principles.qmd
+        - guidance/02-analytical-cycle.qmd
+        - guidance/03-customer-engagement.qmd
+        - guidance/04-analysis-design.qmd
+        - guidance/05-conducting-the-analysis.qmd
+        - guidance/06-delivery-and-approval.qmd
+        - guidance/07-approval-and-distribution.qmd
+        - guidance/08-review.qmd
+        - section: "Responsibilities"
+          contents:
+            
+            - guidance/09-commissioner-responsibilities.qmd
+            - guidance/10-analyst-responsibilities.qmd
+            - guidance/11-critical-friend.qmd
+      
+
+format:
+  html:
+    pagetitle: "Producing Quality Analysis"
+    lang: en-GB
+    theme: cosmo
+    css: styles.css
+    mainfont: "Arial"
+    page-layout: full
+    toc: true
+    
+execute:
+  freeze: auto

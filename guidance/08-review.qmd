@@ -1,0 +1,22 @@
+---
+title: "Review"
+description: ""
+---
+
+Once we produce data or analysis, it is important to understand how it is being used. This is especially true if it is updated regularly.  
+
+Activities may include:  
+
+- monitoring any decisions taken or policy changes which the analysis has informed 
+
+- monitoring usage statistics 
+
+- user research to understand ongoing usefulness and usability 
+
+- identifying future improvements to analysis which is regular/ongoing 
+
+- collecting case studies that show how the data has been used 
+
+- monitoring changes in trends, which the data may have influenced 
+
+- decommissioning analysis where it is no longer useful or relevant.

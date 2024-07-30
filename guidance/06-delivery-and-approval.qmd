@@ -1,0 +1,24 @@
+---
+title: "Delivery and Approval of the Analysis"
+description: ""
+---
+
+ Analysts must communicate clearly and effectively: 
+ 
+-	The results of the analysis 
+-	The level of quality assurance associated with the analysis 
+-	Uncertainty, risk, limitations, constraints and appropriate use of results
+to the commissioner, decision-makers and in any onward communication to enable wider use.
+
+They will work with the commissioner and others to interpret the results correctly. This will help to understand whether the analysis has answered the question.
+
+The analyst will note successes and lessons learned. They will ensure these are available to improve future analysis.
+
+::: {.callout-note title="Delivery Assurance" appearance="minimal" icon=false}
+<br>
+
+A critical friend/analytical assurer must be content that the analyst is showing a true representation of the analysis. This includes ensuring a suitable audit trail is in place that clarifies the level of validation, scope, and risks associated with the analysis.
+
+
+
+:::

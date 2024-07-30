@@ -1,0 +1,44 @@
+---
+title: "Conducting and Checking the Analysis"
+description: ""
+---
+
+The analyst will work through their analytical plan. Activities include:  
+
+-	Collecting the data and understanding accuracy and uncertainties. This will include checking in with Subject Matter Experts as needed.
+
+-	Recording data and assumptions, including uncertainties and accuracy
+
+-	Performing analysis/creating models according to the plan
+
+-	Performing and documenting their own tests to check their analysis. This may include: 
+
+    * testing code quality  
+    *	comparison to other analysis, models or data
+    *	testing the analysis with alternative input data or assumptions.
+ 
+-	Commissioning any other verification and validation activities as needed. 
+
+-	Keeping a record of their analysis and tests, noting any differences from the plan.
+
+-	Understanding all sources of uncertainty and the impact it has on the analysis. This
+will help the decision-maker to give the right weight to the results of the analysis.
+
+The analyst will discuss emerging findings with the commissioner and relevant stakeholders. This will help to shape the work.
+
+::: {.callout-note title="Conducting Analysis Assurance" appearance="minimal" icon=false}
+<br>
+
+A critical friend/analytical assurer will ensure that the analysis if fit for purpose. This includes:
+
+-	that the analysis meets the needs of the commissioner
+
+-	that the analyst has done the correct type of analysis (validation)
+
+-	that the analyst has done the analysis correctly and it is accurate (verification)
+
+-	It is comparable and repeatable
+
+They ensure that quality checking is at the right level for the decision being made. They can approve the analysis, once it meets requirements.
+
+:::

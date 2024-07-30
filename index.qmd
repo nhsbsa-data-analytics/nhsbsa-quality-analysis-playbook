@@ -1,0 +1,45 @@
+---
+title: "NHSBSA Producing Quality Analysis Playbook"
+description: ""
+title-block-banner: true
+format:
+  html:
+    html-math-method: katex
+    css: styles.css
+    embed-resources: true
+toc: false
+---
+
+This playbook sets out the NHSBSA’s expectations for planning and doing analysis. 
+
+It provides direction and guidance for everyone at the NHSBSA. It is especially for: 
+
+- Directors and Heads of Service to ensure appropriate governance of analysis in their areas.  
+
+- Commissioners, users, analysts and analytical assurers. This includes non-analysts and third-party suppliers.  
+
+It covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.  
+
+This will ensure quality and consistency of analysis and support well-informed decisions. 
+
+This Playbook is based on:
+ 
+- [Government functional standard 010: analysis](https://assets.publishing.service.gov.uk/media/64e4cf0a4002ee000d560d5f/2023.02_GovS_010_Analysis_v2.1.pdf)
+
+- [The Aqua Book: guidance on producing quality analysis for government](https://assets.publishing.service.gov.uk/media/5a7f3bb8e5274a2e87db49be/aqua_book_final_web.pdf) 
+
+- [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/)
+
+ 
+
+The [Green Book](https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government) and [Magenta Book](https://www.gov.uk/government/publications/the-magenta-book)  also cover analysis involving appraisal and evaluation. 
+
+::: {.callout-note title="Roles" appearance="minimal" icon=false}
+<br>
+**Commissioner** – the person requesting the analysis. This could be an internal team, external partner or sponsor such as DHSC or NHS England.
+
+**Analyst** – the person planning, undertaking and documenting the analysis. This includes Data Analysts and Performance Analysts. It also includes Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.
+
+**Critical friend/analytical assurer** – the person who signs off that the analysis is fit-for-purpose. This person should not be delivering the analysis. They are usually a Senior Analyst but need not always be an analyst. Ideally, they will have prior knowledge of the subject matter and/or techniques being used.
+:::
+

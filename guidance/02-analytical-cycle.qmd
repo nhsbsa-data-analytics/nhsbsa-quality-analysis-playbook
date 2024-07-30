@@ -1,0 +1,5 @@
+---
+title: "Analytical Cycle"
+description: ""
+---
+![](workflow.jpg){width=100%}
