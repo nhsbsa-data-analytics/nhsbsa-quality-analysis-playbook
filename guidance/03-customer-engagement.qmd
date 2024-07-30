@@ -8,7 +8,7 @@ Here we define the question we want to answer with the analysis. The analyst and
 We need to ensure that the following are agreed, written down and shared with the Commissioner and relevant stakeholders: 
  
 
-- Purpose, use of the analysis, and criticality 
+- Purpose, use of the analysis, and importance of the decision 
 
 - Users of the analysis 
 

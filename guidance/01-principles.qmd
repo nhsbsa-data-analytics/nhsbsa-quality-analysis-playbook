@@ -19,12 +19,13 @@ Quality analysis needs to be repeatable, independent, grounded in reality, objec
 ::: {.callout-note title="At the right time " appearance="simple" collapse=true icon=false}
 <br>
 
+Analysis is provided in time to be useful. This should not be at the expense of quality assurance.
 :::
 
 ::: {.callout-note title="With the right level of quality assurance" appearance="simple" collapse=true icon=false}
 <br>
 
-Ongoing quality assurance is built in to processes. 
+Ongoing quality assurance is built in to processes. It is proportionate to the decision being made and the risks associated with the intended use of the analysis.  
 
 :::
 
@@ -40,7 +41,8 @@ Analysis supports effective decision-making and meets user needs through clearly
 
 ::: {.callout-note title="So the right decisions are made" appearance="simple" collapse=true icon=false}
 <br>
- 
+
+Good quality analysis can be trusted to support effective decision-making and meet user needs.  
 :::
 
  
