@@ -10,4 +10,3 @@ listing:
   sort: "filename"
 toc: false
 ---
-## Pages
