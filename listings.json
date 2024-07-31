@@ -1,0 +1,21 @@
+[
+  {
+    "listing": "/guidance/03-responsibilities/index.html",
+    "items": [
+      "/guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
+      "/guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
+      "/guidance/03-responsibilities/pages/11-critical-friend.html"
+    ]
+  },
+  {
+    "listing": "/guidance/02-analytical-cycle/index.html",
+    "items": [
+      "/guidance/02-analytical-cycle/pages/03-customer-engagement.html",
+      "/guidance/02-analytical-cycle/pages/04-analysis-design.html",
+      "/guidance/02-analytical-cycle/pages/05-conducting-the-analysis.html",
+      "/guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
+      "/guidance/02-analytical-cycle/pages/07-approval-and-distribution.html",
+      "/guidance/02-analytical-cycle/pages/08-review.html"
+    ]
+  }
+]
