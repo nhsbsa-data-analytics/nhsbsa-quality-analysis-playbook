@@ -2,7 +2,7 @@
 
 This repository contains the framework for writing and deploying the NHSBSA Producing Quality Analysis Playbook. The playbook is used to give detailed guidance on producing quality analysis.
 
-The playbook can be found [here](https://nhsbsa-data-analytics.github.io/quality-analysis-playbook/).
+The playbook can be found [here](https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/).
 
 ## Requirements
 
