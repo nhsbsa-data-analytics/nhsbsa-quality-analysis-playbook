@@ -1,1 +1,1 @@
-Sitemap: https://nhsbsa-data-analytics.github.io/quality-analysis-playbook/sitemap.xml
+Sitemap: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/sitemap.xml
