@@ -1,0 +1,13 @@
+---
+title: "Responsibilities"
+description: " "
+image: responsibilities.jpg
+image-alt: "Photo by John Schnobrich on Unsplash"
+title-block-banner: true
+listing: 
+  type: grid
+  contents: pages
+  sort: "filename"
+toc: false
+---
+## Pages

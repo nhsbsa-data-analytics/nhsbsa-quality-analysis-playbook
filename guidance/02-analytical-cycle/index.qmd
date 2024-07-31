@@ -1,0 +1,11 @@
+---
+title: "Analytical Cycle"
+description: " "
+title-block-banner: true
+listing: 
+  type: grid
+  contents: pages
+  sort: "filename"
+toc: false
+---
+![](./workflow.jpg){width=100%}

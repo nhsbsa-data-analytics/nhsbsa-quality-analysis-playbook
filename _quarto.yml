@@ -15,6 +15,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: "Guidance"
+        menu:
+          - href: guidance/01-principles/index.qmd
+          - href: guidance/02-analytical-cycle/index.qmd
+          - href: guidance/03-responsibilities/index.qmd
+          
     right:
       - about.qmd
       # - icon: globe
@@ -27,32 +33,36 @@ website:
     style: "docked"
     collapse-level: 1
     contents:
-        - index.qmd
-        - guidance/01-principles.qmd
-        - guidance/02-analytical-cycle.qmd
-        - guidance/03-customer-engagement.qmd
-        - guidance/04-analysis-design.qmd
-        - guidance/05-conducting-the-analysis.qmd
-        - guidance/06-delivery-and-approval.qmd
-        - guidance/07-approval-and-distribution.qmd
-        - guidance/08-review.qmd
-        - section: "Responsibilities"
-          contents:
-            
-            - guidance/09-commissioner-responsibilities.qmd
-            - guidance/10-analyst-responsibilities.qmd
-            - guidance/11-critical-friend.qmd
+      - index.qmd
+      - guidance/01-principles/index.qmd
+      - section: "Analytical Cycle"
+        contents:        
+          - guidance/02-analytical-cycle/index.qmd
+          - guidance/02-analytical-cycle/pages/03-customer-engagement.qmd
+          - guidance/02-analytical-cycle/pages/04-analysis-design.qmd
+          - guidance/02-analytical-cycle/pages/05-conducting-the-analysis.qmd
+          - guidance/02-analytical-cycle/pages/06-delivery-and-approval.qmd
+          - guidance/02-analytical-cycle/pages/07-approval-and-distribution.qmd
+          - guidance/02-analytical-cycle/pages/08-review.qmd        
+      - section: "Responsibilities"
+        contents:            
+          - guidance/03-responsibilities/pages/09-commissioner-responsibilities.qmd
+          - guidance/03-responsibilities/pages/10-analyst-responsibilities.qmd
+          - guidance/03-responsibilities/pages/11-critical-friend.qmd
       
 
 format:
   html:
-    pagetitle: "Producing Quality Analysis"
-    lang: en-GB
-    theme: cosmo
-    css: styles.css
-    mainfont: "Arial"
-    page-layout: full
-    toc: true
+   grid: 
+    sidebar-width: 25%
+   pagetitle: "Producing Quality Analysis"
+   lang: en-GB
+   theme: cosmo
+   css: styles.css
+   mainfont: "Arial"
+   fontsize: 130%
+   page-layout: full
+   toc: true
     
 execute:
   freeze: auto

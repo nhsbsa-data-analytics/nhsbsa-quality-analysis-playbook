@@ -1,0 +1,26 @@
+---
+title: "Analyst Responsibilities"
+description: " "
+image-alt: "Photo by Markus Spiske on Unsplash"
+image: analyst.jpg
+---
+
+The analyst is accountable to the analysis commissioner. They design, conduct and deliver the analysis. 
+
+The analyst: 
+
+- Assists the Commissioner to structure the question(s). This is to ensure the right analysis is done.  
+
+- Agrees and documents the scope, boundaries, and assumptions of the analysis with the Commissioner and key stakeholders  
+
+- Manages stakeholder expectations in line with what can be delivered  
+
+- Collects data and understands data quality 
+
+- Chooses the models and methods and produces the plan and design documentation  
+
+- Conducts the analysis and quality assurance in line with the agreed plan  
+
+- Communicates timely, clear, and insightful results. They include appropriate caveats, limitations and uncertainty. This is so that commissioners and users of analysis can make informed decisions. 
+
+- Provides the right level of documentation. This outlines the verification and validation activities undertaken and the associated conclusions. 
