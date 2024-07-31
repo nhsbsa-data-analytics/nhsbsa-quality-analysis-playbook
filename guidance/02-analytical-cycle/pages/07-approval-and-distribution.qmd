@@ -1,0 +1,42 @@
+---
+title: "Approval and Distribution"
+description: " "
+image: distribution.jpg
+image-alt: "Photo by Vitaly Gariev on Unsplash"
+---
+
+The commissioner must trust the analysis results. This means it must be fit-for-purpose and answer the question asked. They must also understand any uncertainty associated with the analysis.  And have enough assurance from the quality assurer. 
+
+The commissioner should: 
+
+-	approve the results of the analysis for release
+-	ensure appropriate and timely release of the results of the analysis.
+-	ensure the results are clear, accessible and transparent. They include appropriate caveats and constraints. This helps ensure people use the results appropriately.
+-	make clear any risks or uncertainties and associated level of confidence.
+
+All documentation should be stored centrally.
+
+We must follow NHSBSA accessibility guidelines where data/insights are to be published on internal or external web pages.
+
+Release of Official statistics must follow the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/). The Lead Official for Statistics or an appointed deputy must approve all Official Statistics outputs.
+
+Published or unpublished management information should also follow best practice principles.
+
+NHSBSA Official Statistics are published [here](https://www.nhsbsa.nhs.uk/statistical-collections).
+
+Research/Insight articles are typically published [here](https://www.nhsbsa.nhs.uk/data-science-projects).
+
+Open data sets are typically published [here](https://opendata.nhsbsa.net/).
+
+NHSBSA analytical code is published [here](https://opendata.nhsbsa.net/).
+
+## Business critical analysis and models
+
+Business Critical analysis or models will need to be logged with the Data Science, Advanced Analytics and Statistics team. They will add it to the public register.  This should include:
+
+-	a named officer accountable for it  
+-	a statement of its intended use  
+-	up to date user documentation 
+-	guidance on quality assurance 
+-	confirmation from the accountable officer that it is suitable for its intended use
+

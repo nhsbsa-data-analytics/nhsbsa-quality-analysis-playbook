@@ -1,0 +1,49 @@
+---
+title: "Customer Engagement/Scoping"
+description: " "
+image: customer_engagement.jpg
+image-alt: "Photo by Jason Goodman on Unsplash"
+---
+
+Here we define the question we want to answer with the analysis. The analyst and commissioner need a clear, shared understanding of the questions to be answered. They must also know what can and cannot be achieved. 
+
+We need to ensure that the following are agreed, written down and shared with the Commissioner and relevant stakeholders: 
+ 
+
+- Purpose, use of the analysis, and importance of the decision 
+
+- Users of the analysis 
+
+- Scope and boundaries and context 
+
+- Analytical questions 
+
+- Levels of quality, certainty and quality assurance needed 
+
+- Dependencies and complexities 
+
+- How the analysis will be shared - including whether it is is a one-off or regular.  
+
+- Any previous relevant or related analysis 
+
+This may change as insight is gained and the original questions refined. This will inform the analytical plan. 
+
+Here we should also decide if the analysis is business critical. Business critical analysis is where: 
+
+- the analysis informs essential financial and funding decisions 
+
+- the analysis is essential to the achievement of business plan actions and priorities 
+
+- errors could lead to serious financial, legal, reputational damages or penalties 
+
+If analysis is Business Critical it needs to have a single Senior Responsible Owner (SRO). This person may also be the Commissioner. 
+
+::: {.callout-note title="Scoping Assurance" appearance="minimal" icon=false}
+<br>
+Appoint a critical friend/analytical assurer who can challenge and test:
+
+- the understanding of the problem
+- the requirements, limits, assumptions and scope
+- whether sufficient views have been considered
+
+:::

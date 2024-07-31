@@ -2,6 +2,10 @@
 title: "NHSBSA Producing Quality Analysis Playbook"
 description: ""
 title-block-banner: true
+listing:
+  type: grid
+  contents: "guidance/*/index.qmd"
+  sort: "path"
 format:
   html:
     html-math-method: katex
