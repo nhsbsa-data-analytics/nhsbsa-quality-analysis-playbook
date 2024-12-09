@@ -27,7 +27,7 @@ This may be merged with the Scoping documentation and will also include:
 
 A prototype could be created at this stage. 
 
-The analyst should ensure that they have applied the [RIGOUR](./12-RIGOUR.qmd) principles to the plan. They should develop the plan with a mindset that their work will be shared. 
+The analyst should ensure that they have applied the [RIGOUR](/guidance/12-RIGOUR.qmd) principles to the plan. They should develop the plan with a mindset that their work will be shared. 
 
 The plan should be agreed, written and shared with the Commissioner, Subject Matter Experts and all relevant stakeholders. It may evolve.  
  
