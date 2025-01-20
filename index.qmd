@@ -45,5 +45,7 @@ The [Green Book](https://www.gov.uk/government/publications/the-green-book-appra
 **Analyst** – the person planning, undertaking and documenting the analysis. This includes Data Analysts and Performance Analysts. It also includes Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.
 
 **Critical friend/analytical assurer** – the person who signs off that the analysis is fit-for-purpose. This person should not be delivering the analysis. They are usually a Senior Analyst but need not always be an analyst. Ideally, they will have prior knowledge of the subject matter and/or techniques being used.
+
+**Senior Responsible Owner (SRO)** – the person who takes responsibility of a ‘Business-Critical Model’ resulting from the analysis throughout its lifecycle. The SRO signs-off that a model is fit-for-purpose prior to its use. This may be the Commissioner.
 :::
 
