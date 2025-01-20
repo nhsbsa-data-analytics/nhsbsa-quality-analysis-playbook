@@ -26,6 +26,8 @@ The analyst will work through their analytical plan. Activities include:
 -	Understanding all sources of uncertainty and the impact it has on the analysis. This
 will help the decision-maker to give the right weight to the results of the analysis.
 
+- Presenting the analysis accurately and clearly, following [NHSBSA data visualisation standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/).
+
 The analyst will discuss emerging findings with the commissioner and relevant stakeholders. This will help to shape the work.
 
 ::: {.callout-note title="Conducting Analysis Assurance" appearance="minimal" icon=false}
