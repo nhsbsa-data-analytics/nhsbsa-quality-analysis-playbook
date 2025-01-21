@@ -26,3 +26,7 @@ NHSBSA Producing Quality Analysis Playbook
 ├───README.md ...........................# The README file
 ├───styles.css ..........................# A file containing some additional settings for the quarto document
 ```
+
+## Contributing to The Playbook
+We welcome contributions from community members. 
+Please see our [contributing guide](./CONTRIBUTE.md) for information on how you can get involved!
