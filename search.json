@@ -85,6 +85,48 @@
     ]
   },
   {
+    "objectID": "CONTRIBUTE.html",
+    "href": "CONTRIBUTE.html",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Hi there! Thank you for considering contributing to the NHSBSA Producing Quality Analysis Playbook. The Playbook is meant to serve the D&A community, so contributions from community members themselves are super important in making this a reality!\n\n\nIf you think of something worth including, improving, or want to contribute, please raise an issue on GitHub.\n\n\n\nPlease submit new contributions via a pull request:\n\nFork or clone the repository\nIf you want to run the page on your machine, configure and install the dependencies. See the README for details.\nCreate a new branch: (e.g. git checkout -b my-branch-name)\nMake your change\nPush to your fork and submit a pull request\n\nYour pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.\n\n\n\nIf you are making visual changes, include a screenshot of what the affected element looks like, both before and after.  \nKeep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.\nWrite good commit messages.\n\n\n\n\n\n\n\n\n\nThe easiest way is just to open the repo in Github Codespaces - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment.\n\n\n\nIf you don’t want to use Github codespaces (or can’t because it’s blocked, or you’ve run out of credits), then you can make changes to the repo locally on your machine.\n\n\n\n\nSee the README for guidance on installing the dependencies and getting started with development.\n\n\n\n\n\n\nNavigate to the relevant subfolder within guidance (e.g. guidance/03-responsibilities/pages)\nAdd a qmd file with the following header fields: ---     title: \"This is the title of your page\"     description: \"This is a brief description of your page\"     image-alt: \"This text will show if your image can't be displayed\"     image: &lt;name of a .jpg file stored in the same subfolder to use for the card&gt;     ---\nAdd the content below the header using standard markdown syntax.\nA link to the page will be added as a card on the landing page. If you want to show an image on the card, add a jpeg file to the same subfolder as the content and include the name in the header fields as above.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\nCreate the a subfolder within guidance and name it appropriately (e.g. 04-business-critical-models). Note that the sections will be ordered in the dropdown on the website according to the numbers in front of the subfolders (i.e. first 01- then 02- and so on)\nAdd an index.qmd file to the subfolder (you can use one of the existing files as an example!)\nFollow the steps above to add the new page within the section you’ve just created.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\n\n\nContributing to Projects\nUsing Pull Requests\nGitHub Help\n\n\n\n\nThank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
+  },
+  {
+    "objectID": "CONTRIBUTE.html#creating-an-issue",
+    "href": "CONTRIBUTE.html#creating-an-issue",
+    "title": "How to contribute",
+    "section": "",
+    "text": "If you think of something worth including, improving, or want to contribute, please raise an issue on GitHub."
+  },
+  {
+    "objectID": "CONTRIBUTE.html#submitting-a-pull-request",
+    "href": "CONTRIBUTE.html#submitting-a-pull-request",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Please submit new contributions via a pull request:\n\nFork or clone the repository\nIf you want to run the page on your machine, configure and install the dependencies. See the README for details.\nCreate a new branch: (e.g. git checkout -b my-branch-name)\nMake your change\nPush to your fork and submit a pull request\n\nYour pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.\n\n\n\nIf you are making visual changes, include a screenshot of what the affected element looks like, both before and after.  \nKeep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.\nWrite good commit messages."
+  },
+  {
+    "objectID": "CONTRIBUTE.html#getting-started-with-development",
+    "href": "CONTRIBUTE.html#getting-started-with-development",
+    "title": "How to contribute",
+    "section": "",
+    "text": "The easiest way is just to open the repo in Github Codespaces - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment.\n\n\n\nIf you don’t want to use Github codespaces (or can’t because it’s blocked, or you’ve run out of credits), then you can make changes to the repo locally on your machine.\n\n\n\n\nSee the README for guidance on installing the dependencies and getting started with development.\n\n\n\n\n\n\nNavigate to the relevant subfolder within guidance (e.g. guidance/03-responsibilities/pages)\nAdd a qmd file with the following header fields: ---     title: \"This is the title of your page\"     description: \"This is a brief description of your page\"     image-alt: \"This text will show if your image can't be displayed\"     image: &lt;name of a .jpg file stored in the same subfolder to use for the card&gt;     ---\nAdd the content below the header using standard markdown syntax.\nA link to the page will be added as a card on the landing page. If you want to show an image on the card, add a jpeg file to the same subfolder as the content and include the name in the header fields as above.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\nCreate the a subfolder within guidance and name it appropriately (e.g. 04-business-critical-models). Note that the sections will be ordered in the dropdown on the website according to the numbers in front of the subfolders (i.e. first 01- then 02- and so on)\nAdd an index.qmd file to the subfolder (you can use one of the existing files as an example!)\nFollow the steps above to add the new page within the section you’ve just created.\nOnce you are happy with your changes submit a pull request!"
+  },
+  {
+    "objectID": "CONTRIBUTE.html#resources",
+    "href": "CONTRIBUTE.html#resources",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Contributing to Projects\nUsing Pull Requests\nGitHub Help"
+  },
+  {
+    "objectID": "CONTRIBUTE.html#acknowledgements",
+    "href": "CONTRIBUTE.html#acknowledgements",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Thank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
