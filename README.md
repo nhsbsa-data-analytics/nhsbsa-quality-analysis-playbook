@@ -1,14 +1,20 @@
 # NHSBSA Producing Quality Analysis Playbook
 
-This repository contains the framework for writing and deploying the NHSBSA Producing Quality Analysis Playbook. The playbook is used to give detailed guidance on producing quality analysis.
+This repository contains the framework for writing and deploying the NHSBSA Producing Quality Analysis Playbook. 
+The Playbook is used to give detailed guidance on producing quality analysis.
 
-The playbook can be found [here](https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/).
+The live version of The Playbook can be found [here](https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/).
 
-## Requirements
+## Getting started
 
-To run the document, open `index.qmd`, within the root folder, using either Rstudio or VS Code and click 'Compile' or 'Preview' respectively. For Rstudio usage, you must also load the `quality-analysis-playbook.Rproj` project to be able to compile the document. 
-
-For Rstudio usage, you simply require the latest version of Rstudio. For VS Code, you must install the Quarto extension and install the Quarto CLI. When running Quarto for the first time, you will be prompted with instructions on how to install this. **Please note this is not currently possible with the Azure Virtual Desktop (AVD)**.
+The Playbook is created using [Quarto](https://quarto.org/docs/get-started/). 
+You can run the document by:
+1. Opening the repository in Rstudio or VS Code
+    - For Rstudio usage, you simply require the latest version of Rstudio. 
+    - For VS Code, you must install the Quarto extension and install the Quarto CLI. When running Quarto for the first time, you will be prompted with instructions on how to install this. **Please note this is not currently possible with the Azure Virtual Desktop (AVD)**.
+1. Opening [index.qmd](/index.qmd) in the repository root
+1. Click 'Compile' or 'Preview' respectively. 
+    - Note: for Rstudio usage, you must also load the `quality-analysis-playbook.Rproj` project to be able to compile the document. 
 
 ## Folder Structure
 
@@ -26,3 +32,7 @@ NHSBSA Producing Quality Analysis Playbook
 ├───README.md ...........................# The README file
 ├───styles.css ..........................# A file containing some additional settings for the quarto document
 ```
+
+## Contributing to The Playbook
+We welcome contributions from community members. 
+Please see our [contributing guide](./CONTRIBUTE.md) for information on how you can get involved!
