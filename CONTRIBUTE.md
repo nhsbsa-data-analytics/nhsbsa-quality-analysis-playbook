@@ -72,9 +72,8 @@ If you want to show an image on the card, add a jpeg file to the same subfolder 
 - [Using Pull Requests](https://help.github.com/articles/using-pull-requests/)
 - [GitHub Help](https://help.github.com)
 
-[fork]: https://github.com/pages-themes/slate/fork
-[pr]: https://github.com/pages-themes/slate/compare
-[style]: http://ben.balter.com/jekyll-style-guide/
+[fork]: https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook/fork
+[pr]: https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook/pulls
 [issues]: https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook/issues
 
 ## Acknowledgements
