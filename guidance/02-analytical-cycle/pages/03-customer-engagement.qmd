@@ -34,7 +34,9 @@ Here we should also decide if the analysis is business critical. Business critic
 
 - the analysis is essential to the achievement of business plan actions and priorities 
 
-- errors could lead to serious financial, legal, reputational damages or penalties 
+- errors could lead to significant patient or user impacts or serious financial, legal, reputational damages or penalties 
+
+Our current Business Critical analyses are published [here](https://www.gov.uk/government/publications/business-critical-models-for-department-of-health-and-social-care/e388ec88-b910-4df4-ad63-7ea492df81de#nhs-business-services-authority-nhsbsa).
 
 If analysis is Business Critical it needs to have a single Senior Responsible Owner (SRO). This person may also be the Commissioner. 
 
