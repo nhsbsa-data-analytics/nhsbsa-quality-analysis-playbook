@@ -1,17 +1,21 @@
 [
   {
-    "objectID": "guidance/13-types-of-analytical-model.html",
-    "href": "guidance/13-types-of-analytical-model.html",
-    "title": "Types of analytical model",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NHSBSA Producing Quality Analysis Playbook",
     "section": "",
-    "text": "Policy simulation: to better understand policy options that drive government decisions.Ministers make policy decisions. They base them on assessments of the likely cost and impact of policy choices. For example, the Intra Government Tax Benefit Model is used to analyse the distributional impact of tax and benefit changes.\nForecasting: to predict the future and inform today’s policy choices. For example, demographic projections are essential to understand future cost pressures for education and healthcare. Equally, DECC use the updated Energy and Emissions Model to forecast the energy demand and emissions by fuel type and business sector under existing firm and funded policies.\nFinancial evaluation: to better understand future liabilities or costs. For example, modelling to understand the future cost implications of current pension commitments or the future cost of decommissioning existing nuclear energy plants.\nProcurement and commercial evaluation: for the letting and management of large contracts, and to ensure value for money – for example, where a key service is to be contracted out as in the case of railway franchises or where a major IT upgrades/ new system is being introduced.\nPlanning: to make workforce decisions which affect the delivery of future services. For example, these models may be used to assess the number of trainee teachers, doctors and nurses required to deliver education and healthcare into the future.\nScience based: to better understand and simulate the physical environment, in order to evaluate possible solutions or to mitigate potentially devastating impacts – for example, climate change and flood risk.\nAllocation of funds: to determine how funds allocated to departments are then distributed to, for example: local authorities, schools or across the health service. These models are essential to ensure funds are allocated properly across the country to underpin local service delivery.\nConceptual: to help understand the key influences that are important to a system being modelled. A variety of problem-structuring techniques are used to develop conceptual models"
+    "text": "This playbook sets out the NHSBSA’s expectations for planning and doing analysis.\nIt provides direction and guidance for everyone at the NHSBSA. It is especially for:\n\nDirectors and Heads of Service to ensure appropriate governance of analysis in their areas.\nCommissioners, users, analysts and analytical assurers. This includes non-analysts and third-party suppliers.\n\nIt covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.\nThis will ensure quality and consistency of analysis and support well-informed decisions.\nThis Playbook is based on:\n\nGovernment functional standard 010: analysis\nThe Aqua Book: guidance on producing quality analysis for government\nCode of Practice for Statistics\n\nThe Green Book and Magenta Book also cover analysis involving appraisal and evaluation.\n\n\n\n\n\n\nRoles\n\n\n\n Commissioner – the person requesting the analysis. This could be an internal team, external partner or sponsor such as DHSC or NHS England.\nAnalyst – the person planning, undertaking and documenting the analysis. This includes Data Analysts and Performance Analysts. It also includes Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.\nCritical friend/analytical assurer – the person who signs off that the analysis is fit-for-purpose. This person should not be delivering the analysis. They are usually a Senior Analyst but need not always be an analyst. Ideally, they will have prior knowledge of the subject matter and/or techniques being used.\nSenior Responsible Owner (SRO) – the person who takes responsibility of a ‘Business-Critical Model’ resulting from the analysis throughout its lifecycle. The SRO signs-off that a model is fit-for-purpose prior to its use. This may be the Commissioner.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalytical Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResponsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "NHSBSA Producing Quality Analysis Playbook"
+    ]
   },
   {
     "objectID": "guidance/02-analytical-cycle/index.html",
     "href": "guidance/02-analytical-cycle/index.html",
     "title": "Analytical Cycle",
     "section": "",
-    "text": "Customer Engagement/Scoping\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConducting and Checking the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery and Approval of the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproval and Distribution\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Customer Engagement/Scoping\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConducting and Checking the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery of the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproval and Distribution\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "Analytical Cycle",
@@ -31,27 +35,39 @@
     ]
   },
   {
-    "objectID": "guidance/02-analytical-cycle/pages/03-customer-engagement.html",
-    "href": "guidance/02-analytical-cycle/pages/03-customer-engagement.html",
-    "title": "Customer Engagement/Scoping",
+    "objectID": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html",
+    "href": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html",
+    "title": "Approval and Distribution",
     "section": "",
-    "text": "Here we define the question we want to answer with the analysis. The analyst and commissioner need a clear, shared understanding of the questions to be answered. They must also know what can and cannot be achieved.\nWe need to ensure that the following are agreed, written down and shared with the Commissioner and relevant stakeholders:\n\nPurpose, use of the analysis, and importance of the decision\nUsers of the analysis\nScope and boundaries and context\nAnalytical questions\nLevels of quality, certainty and quality assurance needed\nDependencies and complexities\nHow the analysis will be shared - including whether it is is a one-off or regular.\nAny previous relevant or related analysis\n\nThis may change as insight is gained and the original questions refined. This will inform the analytical plan.\nHere we should also decide if the analysis is business critical. Business critical analysis is where:\n\nthe analysis informs essential financial and funding decisions\nthe analysis is essential to the achievement of business plan actions and priorities\nerrors could lead to serious financial, legal, reputational damages or penalties\n\nIf analysis is Business Critical it needs to have a single Senior Responsible Owner (SRO). This person may also be the Commissioner.\n\n\n\n\n\n\nScoping Assurance\n\n\n\n Appoint a critical friend/analytical assurer who can challenge and test:\n\nthe understanding of the problem\nthe requirements, limits, assumptions and scope\nwhether sufficient views have been considered",
+    "text": "The commissioner must trust the analysis results. This means it must be fit-for-purpose and answer the question asked. They must also understand any uncertainty associated with the analysis. And have enough assurance from the quality assurer.\nThe commissioner should:\nAll documentation should be stored centrally.\nWe must follow NHSBSA accessibility guidelines where data/insights are to be published on internal or external web pages.\nRelease of Official statistics must follow the Code of Practice for Statistics. The Lead Official for Statistics or an appointed deputy must approve all Official Statistics outputs.\nPublished or unpublished management information should also follow best practice principles.\nNHSBSA Official Statistics are published here.\nResearch/Insight articles are typically published here.\nOpen data sets are typically published here.\nNHSBSA analytical code is published here.",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Customer Engagement/Scoping"
+      "Approval and Distribution"
     ]
   },
   {
-    "objectID": "guidance/02-analytical-cycle/pages/04-analysis-design.html",
-    "href": "guidance/02-analytical-cycle/pages/04-analysis-design.html",
-    "title": "Analysis Design",
-    "section": "",
-    "text": "Here the analyst creates a plan that sets out how to achieve the purpose and questions that need answered. It helps highlight any assumptions and known limitations of the proposed approach. It will also take account of any previous or related analysis.\nThis may be merged with the Scoping documentation and will also include:\n\nData to be used\nMethodology including techniques and tools and models\nApproaches to identify, quantify and communicate uncertainty\nAssumptions, accuracy, limitations and caveats\nEthical, Information governance and data security considerations\nOutputs\nTimescales and resources\nAnalytical quality assurance activities\n\nA prototype could be created at this stage.\nThe analyst should ensure that they have applied the RIGOUR principles to the plan. They should develop the plan with a mindset that their work will be shared.\nThe plan should be agreed, written and shared with the Commissioner, Subject Matter Experts and all relevant stakeholders. It may evolve.\nIf the Commissioner considers the analysis or model to be Business Critical, it must be logged with the Data Science, Advanced Analytics and Statistics team. They will add to the public register.\n\n\n\n\n\n\nAnalysis Design Assurance\n\n\n\n A critical friend/analytical assurer will confirm that the approach meets the commissioner’s needs and answers the questions. They will fully understand any limitations of the analysis and ensure the approach and quality checking are at the right level. They will be able to sign off that the approach is fit for purpose. They will do this when confident that the analyst can deliver quality analysis.\nThe level of analytical quality assurance needed will depend on the:\n\nrisks associated with the intended use of the analysis. There could be financial, legal, operational and reputational impacts\ntype and complexity of the analysis\nnovelty of the analytical approach\nimportance of the issue\nrole and criticality of the analysis to the decision-making process\nrequired precision of the analytical outputs\namount of resource available for the analysis and the supporting assurance activities\n\nA formal peer review or analytical quality assurance audit may be done for very complex analysis.",
+    "objectID": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html#business-critical-analysis-and-models",
+    "href": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html#business-critical-analysis-and-models",
+    "title": "Approval and Distribution",
+    "section": "Business critical analysis and models",
+    "text": "Business critical analysis and models\nBusiness Critical analysis or models will need to be logged with the Data Science, Advanced Analytics and Statistics team. They will add it to the public register. This should include:\n\na named officer accountable for it\n\na statement of its intended use\n\nup to date user documentation\nguidance on quality assurance\nconfirmation from the accountable officer that it is suitable for its intended use",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Analysis Design"
+      "Approval and Distribution"
+    ]
+  },
+  {
+    "objectID": "guidance/02-analytical-cycle/pages/08-review.html",
+    "href": "guidance/02-analytical-cycle/pages/08-review.html",
+    "title": "Review",
+    "section": "",
+    "text": "Once we produce data or analysis, it is important to understand how it is being used. This is especially true if it is updated regularly.\nActivities may include:\n\nmonitoring any decisions taken or policy changes which the analysis has informed\nmonitoring usage statistics\nuser research to understand ongoing usefulness and usability\nidentifying future improvements to analysis which is regular/ongoing\ncollecting case studies that show how the data has been used\nmonitoring changes in trends, which the data may have influenced\ndecommissioning analysis where it is no longer useful or relevant.",
+    "crumbs": [
+      "Home",
+      "Analytical Cycle",
+      "Review"
     ]
   },
   {
@@ -62,27 +78,30 @@
     "text": "Commissioner Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyst Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Friend/Analytical Assurer Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
-    "href": "guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
-    "title": "Commissioner Responsibilities",
+    "objectID": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
+    "href": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
+    "title": "Analyst Responsibilities",
     "section": "",
-    "text": "The commissioner may be a Senior Responsible Owner or someone acting on their behalf.\nThe Commissioner:\n\nEnsures that the analyst and analytical assurer understand the brief, context and criticality of the question. This will help ensure that the right level of analysis and quality assurance is done.\nDecides whether the analysis is business critical.\nIdentifies key stakeholders so their views can be considered\nEnsures that there is enough time and resource to deliver the required level of assurance. Understand the associated risks when time and resource pressures are unavoidable.\nProvides constructive challenge to emerging and final results against other evidence that has been gathered\nUnderstands the strengths, limitations, uncertainty and context of the analysis. This will ensure that the results are shared and interpreted correctly.\n\nA Senior Responsible Owner is assigned for Business-Critical Analysis and Models. They are a named person with enough seniority to take responsibility for the risks of the analysis throughout its life cycle. They will approve that it is fit for purpose, prior to its use.",
+    "text": "The analyst is accountable to the analysis commissioner. They design, conduct and deliver the analysis.\nThe analyst:\n\nAssists the Commissioner to structure the question(s). This is to ensure the right analysis is done.\nAgrees and documents the scope, boundaries, and assumptions of the analysis with the Commissioner and key stakeholders\nManages stakeholder expectations in line with what can be delivered\nCollects data and understands data quality\nChooses the models and methods and produces the plan and design documentation\nConducts the analysis and quality assurance in line with the agreed plan\nCommunicates timely, clear, and insightful results. They include appropriate caveats, limitations and uncertainty. This is so that commissioners and users of analysis can make informed decisions.\nProvides the right level of documentation. This outlines the verification and validation activities undertaken and the associated conclusions.",
     "crumbs": [
       "Home",
       "Responsibilities",
-      "Commissioner Responsibilities"
+      "Analyst Responsibilities"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NHSBSA Producing Quality Analysis Playbook",
+    "objectID": "guidance/12-RIGOUR.html",
+    "href": "guidance/12-RIGOUR.html",
+    "title": "RIGOUR",
     "section": "",
-    "text": "This playbook sets out the NHSBSA’s expectations for planning and doing analysis.\nIt provides direction and guidance for everyone at the NHSBSA. It is especially for:\n\nDirectors and Heads of Service to ensure appropriate governance of analysis in their areas.\nCommissioners, users, analysts and analytical assurers. This includes non-analysts and third-party suppliers.\n\nIt covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.\nThis will ensure quality and consistency of analysis and support well-informed decisions.\nThis Playbook is based on:\n\nGovernment functional standard 010: analysis\nThe Aqua Book: guidance on producing quality analysis for government\nCode of Practice for Statistics\n\nThe Green Book and Magenta Book also cover analysis involving appraisal and evaluation.\n\n\n\n\n\n\nRoles\n\n\n\n Commissioner – the person requesting the analysis. This could be an internal team, external partner or sponsor such as DHSC or NHS England.\nAnalyst – the person planning, undertaking and documenting the analysis. This includes Data Analysts and Performance Analysts. It also includes Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.\nCritical friend/analytical assurer – the person who signs off that the analysis is fit-for-purpose. This person should not be delivering the analysis. They are usually a Senior Analyst but need not always be an analyst. Ideally, they will have prior knowledge of the subject matter and/or techniques being used.\nSenior Responsible Owner (SRO) – the person who takes responsibility of a ‘Business-Critical Model’ resulting from the analysis throughout its lifecycle. The SRO signs-off that a model is fit-for-purpose prior to its use. This may be the Commissioner.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalytical Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResponsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "NHSBSA Producing Quality Analysis Playbook"
-    ]
+    "text": "Repeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem – which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately."
+  },
+  {
+    "objectID": "guidance/14-uncertainty.html",
+    "href": "guidance/14-uncertainty.html",
+    "title": "Uncertainty",
+    "section": "",
+    "text": "What is Uncertainty in Analysis?\nUncertainty describes the difference between an estimate and true value in analysis. It helps to show the limitations of our data, statistics and insights. Uncertainty relates to a range of possible factors that can affect accuracy. This includes the impact of measurement or sampling error, how the data had been collected and analysed, missing data or under-reporting.\n\n\nDirect uncertainty\nDirect uncertainty refers to uncertainty about an estimate (or fact).It can be explicitly measured or quantified during data collection or as part of data analysis. Direct uncertainty can be communicated in absolute terms (such as a standard error, confidence intervals, credible intervals and statistical significance).\n\n\nIndirect uncertainty\nIndirect uncertainty refers to uncertainty about the underlying quality of knowledge that surrounds an estimate (or fact). It is not directly measured or quantified but is inferred from uncertainties associated with the analysis. This will often be communicated as a list of caveats about the underlying statistics or data, or it can be summarised into a qualitative or ordered categorical scale. One such example is the GRADE scale.\n\n\nWhy Uncertainty matters\nA good understanding of sources and levels of uncertainty helps us to recognise how reliable numbers are. It is important to communicate this clearly to enable users to apply appropriate weight to the results of the analysis. This can help to reduce misinterpretation, maintain confidence, and protect the integrity of the data, the analysis, and the communicator.\n\n\nCommunicating uncertainty\n\nBe transparent about any uncertainty to avoid misinterpretation and misuse.\nBe specific about what exactly is uncertain and why, how the uncertainty has been quantified, the limitations of the data and any assumptions made in the analysis.\nUse plain and accessible language to make sure that when you write about uncertainty it can be understood by all.\nShow uncertainty in your data visualisations, datasets, data tables etc and explain to readers what the uncertainty represents. It is not enough to only include in Quality and Methods\n\n\n\nDetailed guidance\nCommunicating quality, uncertainty and change – Government Analysis Function\nApproaches to presenting uncertainty in the statistical system"
   },
   {
     "objectID": "CONTRIBUTE.html",
@@ -127,11 +146,15 @@
     "text": "Thank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "guidance/01-principles/index.html",
+    "href": "guidance/01-principles/index.html",
+    "title": "Principles",
     "section": "",
-    "text": "This website has been developed by the NHSBSA to provide guidance for producing quality analyses."
+    "text": "Analysis should answer the right questions\n\n\n\n\n\n There should be a clear, shared understanding of the questions to be answered and how they meet user needs. Analysis should be for the public good and in line with government policy and organisational objectives.\n\n\n\n\n\n\n\n\n\nUsing the right methods\n\n\n\n\n\n Analysis uses appropriate inputs and methods to produce high quality results.\nQuality analysis needs to be repeatable, independent, grounded in reality, objective, have understood and managed uncertainty, and the results should address the initial question robustly (RIGOUR).\n\n\n\n\n\n\n\n\n\nAt the right time\n\n\n\n\n\n\nAnalysis is provided in time to be useful. This should not be at the expense of quality assurance.\n\n\n\n\n\n\n\n\n\nWith the right level of quality assurance\n\n\n\n\n\n\nOngoing quality assurance is built into processes. It is proportionate to the impact of the results on the decision being made and the risks with the intended use of the analysis.\n\n\n\n\n\n\n\n\n\nFollowing the right standards\n\n\n\n\n\n Analysis is undertaken in line with legal and ethical obligations and any other relevant public service codes of conduct\n\n\n\n\n\n\n\n\n\nPresented in the right way\n\n\n\n\n\n Analysis supports effective decision-making and meets user needs through clearly presented, impartial, timely and accessible outputs. This includes clear communication of context, strengths, limitations and any quality and uncertainty issues.\n\n\n\n\n\n\n\n\n\nSo the right decisions are made\n\n\n\n\n\n\nGood quality analysis can be trusted to support effective decision-making and meet user needs.",
+    "crumbs": [
+      "Home",
+      "Principles"
+    ]
   },
   {
     "objectID": "guidance/03-responsibilities/pages/11-critical-friend.html",
@@ -146,81 +169,65 @@
     ]
   },
   {
-    "objectID": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
-    "href": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
-    "title": "Analyst Responsibilities",
+    "objectID": "guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
+    "href": "guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
+    "title": "Commissioner Responsibilities",
     "section": "",
-    "text": "The analyst is accountable to the analysis commissioner. They design, conduct and deliver the analysis.\nThe analyst:\n\nAssists the Commissioner to structure the question(s). This is to ensure the right analysis is done.\nAgrees and documents the scope, boundaries, and assumptions of the analysis with the Commissioner and key stakeholders\nManages stakeholder expectations in line with what can be delivered\nCollects data and understands data quality\nChooses the models and methods and produces the plan and design documentation\nConducts the analysis and quality assurance in line with the agreed plan\nCommunicates timely, clear, and insightful results. They include appropriate caveats, limitations and uncertainty. This is so that commissioners and users of analysis can make informed decisions.\nProvides the right level of documentation. This outlines the verification and validation activities undertaken and the associated conclusions.",
+    "text": "The commissioner may be a Senior Responsible Owner or someone acting on their behalf.\nThe Commissioner:\n\nEnsures that the analyst and analytical assurer understand the brief, context and criticality of the question. This will help ensure that the right level of analysis and quality assurance is done.\nDecides whether the analysis is business critical.\nIdentifies key stakeholders so their views can be considered\nEnsures that there is enough time and resource to deliver the required level of assurance. Understand the associated risks when time and resource pressures are unavoidable.\nProvides constructive challenge to emerging and final results against other evidence that has been gathered\nUnderstands the strengths, limitations, uncertainty and context of the analysis. This will ensure that the results are shared and interpreted correctly.\n\nA Senior Responsible Owner is assigned for Business-Critical Analysis and Models. They are a named person with enough seniority to take responsibility for the risks of the analysis throughout its life cycle. They will approve that it is fit for purpose, prior to its use.",
     "crumbs": [
       "Home",
       "Responsibilities",
-      "Analyst Responsibilities"
+      "Commissioner Responsibilities"
     ]
   },
   {
-    "objectID": "guidance/01-principles/index.html",
-    "href": "guidance/01-principles/index.html",
-    "title": "Principles",
+    "objectID": "guidance/13-types-of-analytical-model.html",
+    "href": "guidance/13-types-of-analytical-model.html",
+    "title": "Types of analytical model",
     "section": "",
-    "text": "Analysis should answer the right questions\n\n\n\n\n\n Analysis is for the public good and in line with government policy and organisational objectives.\n\n\n\n\n\n\n\n\n\nUsing the right methods\n\n\n\n\n\n Analysis uses appropriate inputs and methods to produce high quality results.\nQuality analysis needs to be repeatable, independent, grounded in reality, objective, have understood and managed uncertainty, and the results should address the initial question robustly (RIGOUR).\n\n\n\n\n\n\n\n\n\nAt the right time\n\n\n\n\n\n\nAnalysis is provided in time to be useful. This should not be at the expense of quality assurance.\n\n\n\n\n\n\n\n\n\nWith the right level of quality assurance\n\n\n\n\n\n\nOngoing quality assurance is built in to processes. It is proportionate to the decision being made and the risks associated with the intended use of the analysis.\n\n\n\n\n\n\n\n\n\nFollowing the right standards\n\n\n\n\n\n Analysis is undertaken in line with legal and ethical obligations and any other relevant public service codes of conduct\n\n\n\n\n\n\n\n\n\nPresented in the right way\n\n\n\n\n\n Analysis supports effective decision-making and meets user needs through clearly presented, impartial, timely and accessible outputs. This includes clear communication of context, strengths, limitations and any quality and uncertainty issues.\n\n\n\n\n\n\n\n\n\nSo the right decisions are made\n\n\n\n\n\n\nGood quality analysis can be trusted to support effective decision-making and meet user needs.",
-    "crumbs": [
-      "Home",
-      "Principles"
-    ]
+    "text": "Policy simulation: to better understand policy options that drive government decisions.Ministers make policy decisions. They base them on assessments of the likely cost and impact of policy choices. For example, the Intra Government Tax Benefit Model is used to analyse the distributional impact of tax and benefit changes.\nForecasting: to predict the future and inform today’s policy choices. For example, demographic projections are essential to understand future cost pressures for education and healthcare. Equally, DECC use the updated Energy and Emissions Model to forecast the energy demand and emissions by fuel type and business sector under existing firm and funded policies.\nFinancial evaluation: to better understand future liabilities or costs. For example, modelling to understand the future cost implications of current pension commitments or the future cost of decommissioning existing nuclear energy plants.\nProcurement and commercial evaluation: for the letting and management of large contracts, and to ensure value for money – for example, where a key service is to be contracted out as in the case of railway franchises or where a major IT upgrades/ new system is being introduced.\nPlanning: to make workforce decisions which affect the delivery of future services. For example, these models may be used to assess the number of trainee teachers, doctors and nurses required to deliver education and healthcare into the future.\nScience based: to better understand and simulate the physical environment, in order to evaluate possible solutions or to mitigate potentially devastating impacts – for example, climate change and flood risk.\nAllocation of funds: to determine how funds allocated to departments are then distributed to, for example: local authorities, schools or across the health service. These models are essential to ensure funds are allocated properly across the country to underpin local service delivery.\nConceptual: to help understand the key influences that are important to a system being modelled. A variety of problem-structuring techniques are used to develop conceptual models"
   },
   {
-    "objectID": "guidance/02-analytical-cycle/pages/08-review.html",
-    "href": "guidance/02-analytical-cycle/pages/08-review.html",
-    "title": "Review",
+    "objectID": "guidance/02-analytical-cycle/pages/04-analysis-design.html",
+    "href": "guidance/02-analytical-cycle/pages/04-analysis-design.html",
+    "title": "Analysis Design",
     "section": "",
-    "text": "Once we produce data or analysis, it is important to understand how it is being used. This is especially true if it is updated regularly.\nActivities may include:\n\nmonitoring any decisions taken or policy changes which the analysis has informed\nmonitoring usage statistics\nuser research to understand ongoing usefulness and usability\nidentifying future improvements to analysis which is regular/ongoing\ncollecting case studies that show how the data has been used\nmonitoring changes in trends, which the data may have influenced\ndecommissioning analysis where it is no longer useful or relevant.",
+    "text": "Here the analyst creates a plan that sets out how to achieve the purpose and questions that need answered. It helps highlight any assumptions and known limitations of the proposed approach. It will also take account of any previous or related analysis.\nThis may be merged with the Scoping documentation and will also include:\n\nData to be used\nMethodology including techniques and tools and models\nApproaches to identify, quantify and communicate uncertainty\nAssumptions, accuracy, limitations and caveats\nEthical, Information governance and data security considerations\nOutputs\nTimescales and resources\nAnalytical quality assurance activities\n\nA prototype could be created at this stage.\nThe analyst should ensure that they have applied the RIGOUR principles to the plan. They should develop the plan with a mindset that their work will be shared.\nThe plan should be agreed, written and shared with the Commissioner, Subject Matter Experts and all relevant stakeholders. It may evolve.\nIf the Commissioner considers the analysis or model to be Business Critical, it must be logged with the Data Science, Advanced Analytics and Statistics team. They will add to the public register.\n\n\n\n\n\n\nAnalysis Design Assurance\n\n\n\n A critical friend/analytical assurer will confirm that the approach meets the commissioner’s needs and answers the questions. They will fully understand any limitations of the analysis and ensure the approach and quality checking are at the right level. They will be able to sign off that the approach is fit for purpose. They will do this when confident that the analyst can deliver quality analysis.\nThe level of analytical quality assurance needed will depend on the:\n\nrisks associated with the intended use of the analysis. There could be financial, legal, operational and reputational impacts\ntype and complexity of the analysis\nnovelty of the analytical approach\nimportance of the issue\nrole and criticality of the analysis to the decision-making process\nrequired precision of the analytical outputs\namount of resource available for the analysis and the supporting assurance activities\n\nA formal peer review or analytical quality assurance audit may be done for very complex analysis.",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Review"
-    ]
-  },
-  {
-    "objectID": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html",
-    "href": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html",
-    "title": "Approval and Distribution",
-    "section": "",
-    "text": "The commissioner must trust the analysis results. This means it must be fit-for-purpose and answer the question asked. They must also understand any uncertainty associated with the analysis. And have enough assurance from the quality assurer.\nThe commissioner should:\nAll documentation should be stored centrally.\nWe must follow NHSBSA accessibility guidelines where data/insights are to be published on internal or external web pages.\nRelease of Official statistics must follow the Code of Practice for Statistics. The Lead Official for Statistics or an appointed deputy must approve all Official Statistics outputs.\nPublished or unpublished management information should also follow best practice principles.\nNHSBSA Official Statistics are published here.\nResearch/Insight articles are typically published here.\nOpen data sets are typically published here.\nNHSBSA analytical code is published here.",
-    "crumbs": [
-      "Home",
-      "Analytical Cycle",
-      "Approval and Distribution"
-    ]
-  },
-  {
-    "objectID": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html#business-critical-analysis-and-models",
-    "href": "guidance/02-analytical-cycle/pages/07-approval-and-distribution.html#business-critical-analysis-and-models",
-    "title": "Approval and Distribution",
-    "section": "Business critical analysis and models",
-    "text": "Business critical analysis and models\nBusiness Critical analysis or models will need to be logged with the Data Science, Advanced Analytics and Statistics team. They will add it to the public register. This should include:\n\na named officer accountable for it\n\na statement of its intended use\n\nup to date user documentation\nguidance on quality assurance\nconfirmation from the accountable officer that it is suitable for its intended use",
-    "crumbs": [
-      "Home",
-      "Analytical Cycle",
-      "Approval and Distribution"
+      "Analysis Design"
     ]
   },
   {
     "objectID": "guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
     "href": "guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
-    "title": "Delivery and Approval of the Analysis",
+    "title": "Delivery of the Analysis",
     "section": "",
     "text": "Analysts must communicate clearly and effectively:\n\nThe results of the analysis\nThe level of quality assurance associated with the analysis\nUncertainty, risk, limitations, constraints and appropriate use of results to the commissioner, decision-makers and in any onward communication to enable wider use.\n\nThey will work with the commissioner and others to interpret the results correctly. This will help to understand whether the analysis has answered the question.\nThe analyst will note successes and lessons learned. They will ensure these are available to improve future analysis.\n\n\n\n\n\n\nDelivery Assurance\n\n\n\n\nA critical friend/analytical assurer must be content that the analyst is showing a true representation of the analysis. This includes ensuring a suitable audit trail is in place that clarifies the level of validation, scope, and risks associated with the analysis.",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Delivery and Approval of the Analysis"
+      "Delivery of the Analysis"
     ]
   },
   {
-    "objectID": "guidance/12-RIGOUR.html",
-    "href": "guidance/12-RIGOUR.html",
-    "title": "RIGOUR",
+    "objectID": "guidance/02-analytical-cycle/pages/03-customer-engagement.html",
+    "href": "guidance/02-analytical-cycle/pages/03-customer-engagement.html",
+    "title": "Customer Engagement/Scoping",
     "section": "",
-    "text": "Repeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem – which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately."
+    "text": "Here we define the question we want to answer with the analysis. The analyst and commissioner need a clear, shared understanding of the questions to be answered. They must also know what can and cannot be achieved.\nWe need to ensure that the following are agreed, written down and shared with the Commissioner and relevant stakeholders:\n\nPurpose, use of the analysis, and importance of the decision\nUsers of the analysis\nScope and boundaries and context\nAnalytical questions\nLevels of quality, certainty and quality assurance needed\nDependencies and complexities\nHow the analysis will be shared - including whether it is is a one-off or regular.\nAny previous relevant or related analysis\n\nThis may change as insight is gained and the original questions refined. This will inform the analytical plan.\nHere we should also decide if the analysis is business critical. Business critical analysis is where:\n\nthe analysis informs essential financial and funding decisions\nthe analysis is essential to the achievement of business plan actions and priorities\nerrors could lead to significant patient or user impacts or serious financial, legal, reputational damages or penalties\n\nOur current Business Critical analyses are published here.\nIf analysis is Business Critical it needs to have a single Senior Responsible Owner (SRO). This person may also be the Commissioner.\n\n\n\n\n\n\nScoping Assurance\n\n\n\n Appoint a critical friend/analytical assurer who can challenge and test:\n\nthe understanding of the problem\nthe requirements, limits, assumptions and scope\nwhether sufficient views have been considered",
+    "crumbs": [
+      "Home",
+      "Analytical Cycle",
+      "Customer Engagement/Scoping"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website has been developed by the NHSBSA to provide guidance for producing quality analyses."
   }
 ]
