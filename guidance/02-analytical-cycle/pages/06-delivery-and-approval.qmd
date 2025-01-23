@@ -1,5 +1,5 @@
 ---
-title: "Delivery and Approval of the Analysis"
+title: "Delivery of the Analysis"
 description: " "
 image: approval.jpg
 image-alt: "Photo by Cytonn Photography on Unsplash"
