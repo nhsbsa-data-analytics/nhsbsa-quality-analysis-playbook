@@ -5,7 +5,7 @@ image: distribution.jpg
 image-alt: "Photo by Vitaly Gariev on Unsplash"
 ---
 
-The commissioner must trust the analysis results. This means it must be fit-for-purpose and answer the question asked. They must also understand any uncertainty associated with the analysis.  And have enough assurance from the quality assurer. 
+The commissioner must trust the analysis results. This means it must be fit-for-purpose and answer the question asked. They must also understand any [uncertainty](/guidance/14-uncertainty.qmd) associated with the analysis.  And have enough assurance from the quality assurer. 
 
 The commissioner should: 
 

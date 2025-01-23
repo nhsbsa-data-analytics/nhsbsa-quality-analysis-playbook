@@ -15,7 +15,7 @@ There should be a clear, shared understanding of the questions to be answered an
 <br>
 Analysis uses appropriate inputs and methods to produce high quality results.  
 
-Quality analysis needs to be repeatable, independent, grounded in reality, objective, have understood and managed uncertainty, and the results should address the initial question robustly ([RIGOUR](/guidance/12-RIGOUR.qmd)).  
+Quality analysis needs to be repeatable, independent, grounded in reality, objective, have understood and managed [uncertainty](/guidance/14-uncertainty.qmd), and the results should address the initial question robustly ([RIGOUR](/guidance/12-RIGOUR.qmd)).  
 :::
 
 ::: {.callout-note title="At the right time " appearance="simple" collapse=true icon=false}

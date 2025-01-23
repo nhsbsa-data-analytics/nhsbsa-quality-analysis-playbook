@@ -9,7 +9,7 @@ image-alt: "Photo by Cytonn Photography on Unsplash"
  
 -	The results of the analysis 
 -	The level of quality assurance associated with the analysis 
--	Uncertainty, risk, limitations, constraints and appropriate use of results
+-	[Uncertainty](/guidance/14-uncertainty.qmd), risk, limitations, constraints and appropriate use of results
 to the commissioner, decision-makers and in any onward communication to enable wider use.
 
 They will work with the commissioner and others to interpret the results correctly. This will help to understand whether the analysis has answered the question.

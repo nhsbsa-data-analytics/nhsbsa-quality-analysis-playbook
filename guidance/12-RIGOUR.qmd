@@ -11,6 +11,6 @@ description: ""
 
 **Objective**: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.  
 
-**Uncertainty-managed**: Uncertainties have been identified, managed and communicated throughout the analytical process.  
+**Uncertainty-managed**: [Uncertainties](/guidance/14-uncertainty.qmd) have been identified, managed and communicated throughout the analytical process.  
 
 **Robust**: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately. 
