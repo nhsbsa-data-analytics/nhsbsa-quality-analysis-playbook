@@ -3,7 +3,7 @@ title: "Uncertainty "
 description: ""
 ---
 
-### What is Uncertainty?
+### What is Uncertainty in Analysis?
 
 Uncertainty describes the difference between an estimate and true value in analysis. It helps to show the limitations of our data, statistics and insights. Uncertainty relates to a range of possible factors that can affect accuracy. This includes the impact of measurement or sampling error, how the data had been collected and analysed, missing data or under-reporting. 
 
