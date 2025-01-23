@@ -7,25 +7,17 @@ description: ""
 
 Uncertainty describes the difference between an estimate and true value in analysis. It helps to show the limitations of our data, statistics and insights. Uncertainty relates to a range of possible factors that can affect accuracy. This includes the impact of measurement or sampling error, how the data had been collected and analysed, missing data or under-reporting. 
 
- 
-
 ### Direct uncertainty
 
 Direct uncertainty refers to uncertainty about an estimate (or fact).It can be explicitly measured or quantified during data collection or as part of data analysis. Direct uncertainty can be communicated in absolute terms (such as a standard error, confidence intervals, credible intervals and statistical significance).
-
- 
 
 ### Indirect uncertainty
 
 Indirect uncertainty refers to uncertainty about the underlying quality of knowledge that surrounds an estimate (or fact). It is not directly measured or quantified but is inferred from uncertainties associated with the analysis. This will often be communicated as a list of caveats about the underlying statistics or data, or it can be summarised into a qualitative or ordered categorical scale. One such example is the [GRADE scale](https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade/).
 
- 
-
 ### Why Uncertainty matters
 
 A good understanding of sources and levels of uncertainty helps us to recognise how reliable numbers are. It is important to communicate this clearly to enable users to apply appropriate weight to the results of the analysis. This can help to reduce misinterpretation, maintain confidence, and protect the integrity of the data, the analysis, and the communicator.
-
- 
 
 ### Communicating uncertainty
 
