@@ -8,7 +8,7 @@ image-alt: "Photo by Cytonn Photography on Unsplash"
 
 ::: {.callout-note title="Analysis should answer the right questions" appearance="simple" collapse=true icon=false}
 <br>
-There should be a clear, shared understanding of the questions to be answered and how they contribute to user need. Analysis should be for the public good and in line with government policy and organisational objectives.  
+There should be a clear, shared understanding of the questions to be answered and how they meet user needs. Analysis should be for the public good and in line with government policy and organisational objectives.  
 :::
 
 ::: {.callout-note title="Using the right methods" appearance="simple" collapse=true icon=false}
