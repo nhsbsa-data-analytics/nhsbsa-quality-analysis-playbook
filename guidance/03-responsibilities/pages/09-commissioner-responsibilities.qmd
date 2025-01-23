@@ -19,7 +19,7 @@ The Commissioner:
 
 - Provides constructive challenge to emerging and final results against other evidence that has been gathered  
 
-- Understands the strengths, limitations, uncertainty and context of the analysis. This will ensure that the results are shared and interpreted correctly. 
+- Understands the strengths, limitations, [uncertainty](/guidance/14-uncertainty.qmd) and context of the analysis. This will ensure that the results are shared and interpreted correctly. 
 
  
 A Senior Responsible Owner is assigned for Business-Critical Analysis and Models. They are a named person with enough seniority to take responsibility for the risks of the analysis throughout its life cycle. They will approve that it is fit for purpose, prior to its use. 

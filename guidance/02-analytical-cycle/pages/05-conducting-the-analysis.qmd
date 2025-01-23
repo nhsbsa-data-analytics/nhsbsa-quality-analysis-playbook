@@ -23,7 +23,7 @@ The analyst will work through their analytical plan. Activities include:
 
 -	Keeping a record of their analysis and tests, noting any differences from the plan.
 
--	Understanding all sources of uncertainty and the impact it has on the analysis. This
+-	Understanding all sources of [uncertainty](/guidance/14-uncertainty.qmd) and the impact it has on the analysis. This
 will help the decision-maker to give the right weight to the results of the analysis.
 
 - Presenting the analysis accurately and clearly, following [NHSBSA data visualisation standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/).

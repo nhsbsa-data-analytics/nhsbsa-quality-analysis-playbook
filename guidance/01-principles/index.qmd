@@ -8,14 +8,14 @@ image-alt: "Photo by Cytonn Photography on Unsplash"
 
 ::: {.callout-note title="Analysis should answer the right questions" appearance="simple" collapse=true icon=false}
 <br>
-Analysis is for the public good and in line with government policy and organisational objectives.  
+There should be a clear, shared understanding of the questions to be answered and how they meet user needs. Analysis should be for the public good and in line with government policy and organisational objectives.  
 :::
 
 ::: {.callout-note title="Using the right methods" appearance="simple" collapse=true icon=false}
 <br>
 Analysis uses appropriate inputs and methods to produce high quality results.  
 
-Quality analysis needs to be repeatable, independent, grounded in reality, objective, have understood and managed uncertainty, and the results should address the initial question robustly ([RIGOUR](/guidance/12-RIGOUR.qmd)).  
+Quality analysis needs to be repeatable, independent, grounded in reality, objective, have understood and managed [uncertainty](/guidance/14-uncertainty.qmd), and the results should address the initial question robustly ([RIGOUR](/guidance/12-RIGOUR.qmd)).  
 :::
 
 ::: {.callout-note title="At the right time " appearance="simple" collapse=true icon=false}
@@ -27,7 +27,7 @@ Analysis is provided in time to be useful. This should not be at the expense of 
 ::: {.callout-note title="With the right level of quality assurance" appearance="simple" collapse=true icon=false}
 <br>
 
-Ongoing quality assurance is built in to processes. It is proportionate to the decision being made and the risks associated with the intended use of the analysis.  
+Ongoing quality assurance is built into processes. It is proportionate to the impact of the results on the decision being made and the risks with the intended use of the analysis.  
 
 :::
 

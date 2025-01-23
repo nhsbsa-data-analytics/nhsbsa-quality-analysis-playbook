@@ -21,6 +21,6 @@ The analyst:
 
 - Conducts the analysis and quality assurance in line with the agreed plan  
 
-- Communicates timely, clear, and insightful results. They include appropriate caveats, limitations and uncertainty. This is so that commissioners and users of analysis can make informed decisions. 
+- Communicates timely, clear, and insightful results. They include appropriate caveats, limitations and [uncertainty](/guidance/14-uncertainty.qmd). This is so that commissioners and users of analysis can make informed decisions. 
 
 - Provides the right level of documentation. This outlines the verification and validation activities undertaken and the associated conclusions. 

@@ -1,0 +1,33 @@
+---
+title: "Uncertainty "
+description: ""
+---
+
+### What is Uncertainty in Analysis?
+
+Uncertainty describes the difference between an estimate and true value in analysis. It helps to show the limitations of our data, statistics and insights. Uncertainty relates to a range of possible factors that can affect accuracy. This includes the impact of measurement or sampling error, how the data had been collected and analysed, missing data or under-reporting. 
+
+### Direct uncertainty
+
+Direct uncertainty refers to uncertainty about an estimate (or fact).It can be explicitly measured or quantified during data collection or as part of data analysis. Direct uncertainty can be communicated in absolute terms (such as a standard error, confidence intervals, credible intervals and statistical significance).
+
+### Indirect uncertainty
+
+Indirect uncertainty refers to uncertainty about the underlying quality of knowledge that surrounds an estimate (or fact). It is not directly measured or quantified but is inferred from uncertainties associated with the analysis. This will often be communicated as a list of caveats about the underlying statistics or data, or it can be summarised into a qualitative or ordered categorical scale. One such example is the [GRADE scale](https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade/).
+
+### Why Uncertainty matters
+
+A good understanding of sources and levels of uncertainty helps us to recognise how reliable numbers are. It is important to communicate this clearly to enable users to apply appropriate weight to the results of the analysis. This can help to reduce misinterpretation, maintain confidence, and protect the integrity of the data, the analysis, and the communicator.
+
+### Communicating uncertainty
+
+- Be transparent about any uncertainty to avoid misinterpretation and misuse.
+- Be specific about what exactly is uncertain and why, how the uncertainty has been quantified, the limitations of the data and any assumptions made in the analysis.
+- Use plain and accessible language to make sure that when you write about uncertainty it can be understood by all.
+- Show uncertainty in your data visualisations, datasets, data tables etc  and explain to readers what the uncertainty represents. It is not enough to only include in Quality and Methods
+
+### Detailed guidance
+
+[Communicating quality, uncertainty and change – Government Analysis Function](https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/)
+
+[Approaches to presenting uncertainty in the statistical system](https://osr.statisticsauthority.gov.uk/wp-content/uploads/2022/09/Approaches_to_presenting_uncertainty_in_the_statistical_system.pdf)

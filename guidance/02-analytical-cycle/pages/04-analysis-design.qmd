@@ -13,7 +13,7 @@ This may be merged with the Scoping documentation and will also include:
 
 - Methodology including techniques and tools and [models](/guidance/13-types-of-analytical-model.qmd) 
 
-- Approaches to identify, quantify and communicate uncertainty 
+- Approaches to identify, quantify and communicate [uncertainty](/guidance/14-uncertainty.qmd) 
 
 - Assumptions, accuracy, limitations and caveats 
 
