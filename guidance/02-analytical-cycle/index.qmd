@@ -9,3 +9,5 @@ listing:
 toc: false
 ---
 ![](./workflow.jpg){width=100%}
+
+The analytical cycle is an iterative process. Initial scoping, design, the analysis itself and delivery may be repeated multiple times, before final distribution and review. Quality assurance is an essential action throughout the cycle.
