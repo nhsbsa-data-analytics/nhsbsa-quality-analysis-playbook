@@ -12,6 +12,12 @@ format:
     css: styles.css
     embed-resources: true
 toc: false
+filters:
+  - github-corner
+github-corner:
+  url: "https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook"
+  background-color: "black"
+  size: 150
 ---
 
 This playbook sets out the NHSBSA’s expectations for planning and doing analysis. 
