@@ -45,11 +45,15 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
     *   Using Jupyter Notebooks with clear Markdown explanations between code cells.
     *   Writing a script that downloads data, performs analysis, and generates a report, with clear comments and input parameters.
     *   Providing a Docker container that includes all necessary software and data.
-    *   Using a smaller subset of actual input data, so tests can be run quickly and make it easier to determine when something has broken.
+    *   Using a smaller subset of actual input data to test with, so they run quickly and make it easier to determine when something has broken.
 
 ### Automated Data Analysis
 
 *   **Focus:** Streamlining the data analysis workflow to *minimize manual effort* and *human intervention*.
+
+::: {.callout-note title="Is it worth the time to automate?"}
+[![](https://imgs.xkcd.com/comics/is_it_worth_the_time.png "XKCD - Is it worth the time?")](https://xkcd.com/1205/)
+:::
 
 *   **Key Principles:**
     *   **Scripting:** Writing code to perform repetitive tasks automatically.
@@ -74,7 +78,7 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
 
 *   **Automation *can* contribute to reproducibility:** Automating the data analysis process makes it easier to document and share the steps involved, which is crucial for reproducibility. A well-automated analysis is easier to reproduce.
 *   **Reproducibility does not necessarily imply automation:** You can have a reproducible analysis that is not automated. For example, you might provide detailed instructions and code, but someone still needs to manually run the code.
-*   **Best practice: Aim for both!** The ideal scenario is to have an automated analysis that is also fully reproducible. This ensures that the analysis is both efficient and trustworthy. You can automate your documentation and version control as well!
+*   **Best practice:** The ideal scenario is to have a fully reproducible analysis, that includes a level of automation appropriate to the complexity and effort of repeating it manually.
 
 ### Summary
 
