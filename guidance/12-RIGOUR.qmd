@@ -21,7 +21,7 @@ description: ""
 While both reproducible and automated analysis aim for efficiency and reliability, they focus on different aspects of the process.
 
 *   **Reproducibility:** Can someone else, given the *same* inputs, *understand* and *recreate* your work?
-*   **Automation:** Can a computer *run* the analysis, with *any* valid inputs, with minimal (even none at) human intervention?
+*   **Automation:** Can a computer *run* the analysis, with *any* valid inputs, with minimal (even none at all) human intervention?
 
 ### Reproducible Data Analysis
 
