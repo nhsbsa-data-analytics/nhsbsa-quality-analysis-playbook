@@ -3,7 +3,7 @@ title: "RIGOUR"
 description: ""
 ---
 
-**Repeatable**: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.  
+**Repeatable**: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected. See additional notes in [Reproducible vs. Automated Analysis](/guidance/12-RIGOUR.qmd#reproducible-vs.-automated-analysis).
 
 **Independent**: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.  
 
@@ -13,4 +13,70 @@ description: ""
 
 **Uncertainty-managed**: [Uncertainties](/guidance/14-uncertainty.qmd) have been identified, managed and communicated throughout the analytical process.  
 
-**Robust**: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately. 
+**Robust**: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately.
+
+
+## Reproducible vs. Automated Analysis
+
+While both reproducible and automated analysis aim for efficiency and reliability, they focus on different aspects of the process.
+
+*   **Reproducibility:** Can someone else, given the *same* inputs, *understand* and *recreate* your work?
+*   **Automation:** Can a computer *run* the analysis, with *any* valid inputs, with minimal (even none at) human intervention?
+
+### Reproducible Data Analysis
+
+*   **Focus:** Ensuring that someone else (or even yourself, later on) can obtain the *same results* as you did, using the *same data* and *methods*.
+
+*   **Key Principles:**
+    *   **Complete documentation:** Clear description of *all* steps, including data cleaning, transformations, models used, and parameters.
+    *   **Version control:** Using tools like Git to track changes in code and data, so you can revert to previous versions if needed.
+    *   **Well-organized project structure:** Logical arrangement of files and directories to make it easy to understand and navigate.
+    *   **Dependency management:** Explicitly stating the software versions and libraries needed to run the analysis.
+    *   **Transparent code:** Well-commented and easily understandable code.
+
+*   **Benefits:**
+    *   **Verifiability:** Others can check your work for errors or biases.
+    *   **Trustworthiness:** Increases confidence in the results.
+    *   **Reusability:** The analysis can be adapted or extended for other purposes.
+    *   **Collaboration:** Facilitates collaboration among researchers.
+
+*   **Examples:**
+    *   Using Jupyter Notebooks with clear Markdown explanations between code cells.
+    *   Writing a script that downloads data, performs analysis, and generates a report, with clear comments and input parameters.
+    *   Providing a Docker container that includes all necessary software and data.
+
+### Automated Data Analysis
+
+*   **Focus:** Streamlining the data analysis workflow to *minimize manual effort* and *human intervention*.
+
+*   **Key Principles:**
+    *   **Scripting:** Writing code to perform repetitive tasks automatically.
+    *   **Scheduling:** Using tools like cron or task schedulers to run analyses at regular intervals.
+    *   **Pipelines:** Creating a sequence of steps that automatically process data from input to output.
+    *   **Monitoring:** Setting up alerts to notify you of errors or unexpected results.
+
+*   **Benefits:**
+    *   **Efficiency:** Saves time and resources.
+    *   **Consistency:** Ensures that the same analysis is performed every time.
+    *   **Scalability:** Can handle large volumes of data.
+    *   **Real-time insights:** Enables continuous monitoring and analysis of data.
+
+*   **Examples:**
+    *   A script that automatically downloads data from a database every day, performs calculations, and updates a dashboard.
+    *   A machine learning pipeline that automatically trains a model on new data and deploys it to a production environment.
+    *   A system that automatically detects and flags fraudulent transactions.
+
+### Relationship between Reproducibility and Automation
+
+*   **Automation *can* contribute to reproducibility:** Automating the data analysis process makes it easier to document and share the steps involved, which is crucial for reproducibility. A well-automated analysis is easier to reproduce.
+*   **Reproducibility does not necessarily imply automation:** You can have a reproducible analysis that is not automated. For example, you might provide detailed instructions and code, but someone still needs to manually run the code.
+*   **Best practice: Aim for both!** The ideal scenario is to have an automated analysis that is also fully reproducible. This ensures that the analysis is both efficient and trustworthy. You can automate your documentation and version control as well!
+
+### Summary
+
+| Feature                         | Reproducible Data Analysis                  | Automated Data Analysis                                             |
+|---------------------------------|---------------------------------------------|---------------------------------------------------------------------|
+| **Primary Goal**                | Verifiability, Trustworthiness, Reusability | Efficiency, Consistency, Scalability, Speed                         |
+| **Key Focus**                   | Documenting all steps, managing versions    | Scripting, Scheduling, Pipelines, Monitoring                        |
+| **Does it require automation?** | No                                          | Yes                                                                 |
+| **Is it essential?**            | Yes                                         | No, but is desirable, especially as an analysis grows in complexity |
