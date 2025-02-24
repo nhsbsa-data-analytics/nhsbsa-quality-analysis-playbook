@@ -33,6 +33,7 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
     *   **Well-organized project structure:** Logical arrangement of files and directories to make it easy to understand and navigate.
     *   **Dependency management:** Explicitly stating the software versions and libraries needed to run the analysis.
     *   **Transparent code:** Well-commented and easily understandable code.
+    *   **Static test data:** Take a cut of real data, or otherwise create a static set of input data; this provides a known expected result when you run the analysis.
 
 *   **Benefits:**
     *   **Verifiability:** Others can check your work for errors or biases.
@@ -44,6 +45,7 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
     *   Using Jupyter Notebooks with clear Markdown explanations between code cells.
     *   Writing a script that downloads data, performs analysis, and generates a report, with clear comments and input parameters.
     *   Providing a Docker container that includes all necessary software and data.
+    *   Using a smaller subset of actual input data, so tests can be run quickly and make it easier to determine when something has broken.
 
 ### Automated Data Analysis
 
@@ -54,6 +56,7 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
     *   **Scheduling:** Using tools like cron or task schedulers to run analyses at regular intervals.
     *   **Pipelines:** Creating a sequence of steps that automatically process data from input to output.
     *   **Monitoring:** Setting up alerts to notify you of errors or unexpected results.
+    *   **Testing:** Configure your analysis pipeline so that tests are included, alerting you to anything that breaks.
 
 *   **Benefits:**
     *   **Efficiency:** Saves time and resources.
@@ -65,6 +68,7 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
     *   A script that automatically downloads data from a database every day, performs calculations, and updates a dashboard.
     *   A machine learning pipeline that automatically trains a model on new data and deploys it to a production environment.
     *   A system that automatically detects and flags fraudulent transactions.
+    *   Using a continuous integration (CI) pipeline, such as GitHub workflows, that automatically tests and builds your analysis outputs when changes are made.
 
 ### Relationship between Reproducibility and Automation
 
@@ -80,3 +84,5 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
 | **Key Focus**                   | Documenting all steps, managing versions    | Scripting, Scheduling, Pipelines, Monitoring                        |
 | **Does it require automation?** | No                                          | Yes                                                                 |
 | **Is it essential?**            | Yes                                         | No, but is desirable, especially as an analysis grows in complexity |
+| **Testing the analysis**        | Use static input data, for known results    | Include tests that automatically run when the analysis changes      |
+
