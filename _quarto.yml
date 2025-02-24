@@ -22,13 +22,14 @@ website:
           - href: guidance/03-responsibilities/index.qmd
           
     right:
-      - about.qmd
-      # - icon: globe
-      #   href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
-      # - icon: github
-      #   href: https://github.com/nhsbsa-data-analytics
-      # - icon: twitter
-      #   href: https://twitter.com/nhsbsa
+      - href: about.qmd
+        text: "{{< iconify mdi:information-outline size=xl >}} About"
+      - href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
+        text: "{{< iconify mdi:house-outline size=xl >}} NHSBSA Data Science Home Page"
+      - href: https://github.com/nhsbsa-data-analytics
+        text: "{{< iconify mdi:github size=xl >}} GitHub"
+      - href: https://twitter.com/nhsbsa
+        text: "{{< iconify mdi:twitter size=xl >}} X (formerly Twitter)"
   sidebar:
     style: "docked"
     collapse-level: 1
