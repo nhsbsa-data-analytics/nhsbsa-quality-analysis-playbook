@@ -82,10 +82,10 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
 
 ### Summary
 
-| Feature                         | Reproducible Data Analysis                  | Automated Data Analysis                                             |
+| Consideration                   | Reproducible Data Analysis                  | Automated Data Analysis                                             |
 |---------------------------------|---------------------------------------------|---------------------------------------------------------------------|
-| **Primary Goal**                | Verifiability, Trustworthiness, Reusability | Efficiency, Consistency, Scalability, Speed                         |
-| **Key Focus**                   | Documenting all steps, managing versions    | Scripting, Scheduling, Pipelines, Monitoring                        |
+| **Primary goal**                | Verifiability, Trustworthiness, Reusability | Efficiency, Consistency, Scalability, Speed                         |
+| **Key focus**                   | Documenting all steps, managing versions    | Scripting, Scheduling, Pipelines, Monitoring                        |
 | **Does it require automation?** | No                                          | Yes                                                                 |
 | **Is it essential?**            | Yes                                         | No, but is desirable, especially as an analysis grows in complexity |
 | **Testing the analysis**        | Use static input data, for known results    | Include tests that automatically run when the analysis changes      |
