@@ -32,7 +32,7 @@ Best practice is to have a fully reproducible analysis, that includes a level of
 | **Does it require automation?** | No                                                         | Yes                                                                 |
 | **Is it essential?**            | Yes                                                        | No, but is desirable, especially as an analysis grows in complexity |
 | **Testing the analysis**        | Use static input data, for known results                   | Include tests that automatically run when the analysis changes      |
-| **Consistency*                  | In results                                                 | In processes                                                        |                                 
+| **Consistency**                 | In results                                                 | In processes                                                        |                                 
 
 ### Further guidance
 
