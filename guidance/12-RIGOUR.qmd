@@ -25,13 +25,14 @@ While both reproducible and automated analysis aim for efficiency and reliabilit
 
 Best practice is to have a fully reproducible analysis, that includes a level of automation appropriate to the complexity and effort of repeating it manually.
 
-| Consideration                   | Reproducible Data Analysis                  | Automated Data Analysis                                             |
-|---------------------------------|---------------------------------------------|---------------------------------------------------------------------|
-| **Primary goal**                | Verifiability, trustworthiness, reusability | Efficiency, consistency, scalability, speed                         |
-| **Key focus**                   | Documenting all steps, managing versions    | Scripting, scheduling, pipelines, monitoring                        |
-| **Does it require automation?** | No                                          | Yes                                                                 |
-| **Is it essential?**            | Yes                                         | No, but is desirable, especially as an analysis grows in complexity |
-| **Testing the analysis**        | Use static input data, for known results    | Include tests that automatically run when the analysis changes      |
+| Consideration                   | Reproducible Data Analysis                                 | Automated Data Analysis                                             |
+|---------------------------------|------------------------------------------------------------|---------------------------------------------------------------------|
+| **Primary goal**                | Verifiability, transparency, reusability                   | Efficiency, scalability, speed                                      |
+| **Main activities**             | Documenting all steps and key decisions, managing versions | Scripting, scheduling, pipelines, monitoring                        |
+| **Does it require automation?** | No                                                         | Yes                                                                 |
+| **Is it essential?**            | Yes                                                        | No, but is desirable, especially as an analysis grows in complexity |
+| **Testing the analysis**        | Use static input data, for known results                   | Include tests that automatically run when the analysis changes      |
+| **Consistency*                  | In results                                                 | In processes                                                        |                                 
 
 ### Further guidance
 
