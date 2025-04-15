@@ -78,26 +78,4 @@
       node.removeAttribute("aria-expanded");
       calloutObserver.observe(node, calloutConfig);
     });
-  
-  ////////////
-  
-  /*const calloutObserver = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      if (mutation.type === "attributes") {
-        mutation.target.removeAttribute("aria-expanded");
-      }
-    })
-  });
-  
-  // Not really necessary with just one flag, but may want to add further 
-  // observer behaviour later
-  var calloutConfig = { attributes: true };
-
-  // Initially remove attribute but also add observers to catch the attribute
-  // being added back 
-  document.querySelectorAll('.callout-header').
-    forEach(function(element){
-      element.removeAttribute("aria-expanded");
-      calloutObserver.observe(element, calloutConfig);
-    });*/
 </script>
