@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-9160b98b77792daeeeb0eb001f218ec9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-136e2b1943e1a6331a3409113e68dd0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -150,13 +150,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-right">
+    <div class="quarto-title column-body">
       <h1 class="title d-none d-lg-block">RIGOUR</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-right">
+  <div class="quarto-title-meta column-body">
 
       
     
@@ -268,24 +268,96 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#reproducible-vs.-automated-analysis" id="toc-reproducible-vs.-automated-analysis" class="nav-link active" data-scroll-target="#reproducible-vs.-automated-analysis">Reproducible vs.&nbsp;Automated Analysis</a>
+  <ul class="collapse">
+  <li><a href="#further-guidance" id="toc-further-guidance" class="nav-link" data-scroll-target="#further-guidance">Further guidance</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-right" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
 
 
 
 
-<p><strong>Repeatable</strong>: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.</p>
+<p><strong>Repeatable</strong>: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected. See additional notes in <a href="../guidance/12-RIGOUR.html#reproducible-vs.-automated-analysis">Reproducible vs.&nbsp;Automated Analysis</a>.</p>
 <p><strong>Independent</strong>: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.</p>
 <p><strong>Grounded in reality</strong>: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem – which is being analysed.</p>
 <p><strong>Objective</strong>: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.</p>
 <p><strong>Uncertainty-managed</strong>: <a href="../guidance/14-uncertainty.html">Uncertainties</a> have been identified, managed and communicated throughout the analytical process.</p>
 <p><strong>Robust</strong>: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately.</p>
+<section id="reproducible-vs.-automated-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-vs.-automated-analysis">Reproducible vs.&nbsp;Automated Analysis</h2>
+<p>While both reproducible and automated analysis aim for efficiency and reliability, they focus on different aspects of the process. Automation <em>can</em> contribute to reproducibility, but automation alone is not enough.</p>
+<ul>
+<li><strong>Reproducibility:</strong> Can someone else (or even yourself, later on), given the <em>same</em> inputs, <em>understand</em> and <em>recreate</em> your work?</li>
+<li><strong>Automation:</strong> Can a computer <em>run</em> the analysis, with <em>any</em> valid inputs, with minimal (even none at all) human intervention?</li>
+</ul>
+<p>Best practice is to have a fully reproducible analysis, that includes a level of automation appropriate to the complexity and effort of repeating it manually.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 37%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Consideration</th>
+<th>Reproducible Data Analysis</th>
+<th>Automated Data Analysis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Primary goal</strong></td>
+<td>Verifiability, transparency, reusability</td>
+<td>Efficiency, scalability, speed</td>
+</tr>
+<tr class="even">
+<td><strong>Main activities</strong></td>
+<td>Documenting all steps and key decisions, managing versions</td>
+<td>Scripting, scheduling, pipelines, monitoring</td>
+</tr>
+<tr class="odd">
+<td><strong>Does it require automation?</strong></td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td><strong>Is it essential?</strong></td>
+<td>Yes</td>
+<td>No, but is desirable, especially as an analysis grows in complexity</td>
+</tr>
+<tr class="odd">
+<td><strong>Testing the analysis</strong></td>
+<td>Use static input data, for known results</td>
+<td>Include tests that automatically run when the analysis changes</td>
+</tr>
+<tr class="even">
+<td><strong>Consistency</strong></td>
+<td>In results</td>
+<td>In processes</td>
+</tr>
+</tbody>
+</table>
+<section id="further-guidance" class="level3">
+<h3 class="anchored" data-anchor-id="further-guidance">Further guidance</h3>
+<ul>
+<li><a href="https://best-practice-and-impact.github.io/qa-of-code-guidance/principles.html#reproducible">Quality Assurance of Code for Analysis and Research (ONS)</a></li>
+<li><a href="https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/#automation">What is RAP? (NHS Digital)</a></li>
+<li>The <a href="https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook">NHSBSA Analytical Code Assurance Playbook</a> (Work in progress) offers specific advice on testing analytical pipelines in addition to topics such as documentation and a modular approach to analysis.</li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
