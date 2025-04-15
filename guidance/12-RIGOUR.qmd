@@ -3,7 +3,7 @@ title: "RIGOUR"
 description: ""
 ---
 
-**Repeatable**: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.  
+**Repeatable**: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected. See additional notes in [Reproducible vs. Automated Analysis](/guidance/12-RIGOUR.qmd#reproducible-vs.-automated-analysis).
 
 **Independent**: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.  
 
@@ -13,4 +13,29 @@ description: ""
 
 **Uncertainty-managed**: [Uncertainties](/guidance/14-uncertainty.qmd) have been identified, managed and communicated throughout the analytical process.  
 
-**Robust**: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately. 
+**Robust**: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately.
+
+
+## Reproducible vs. Automated Analysis
+
+While both reproducible and automated analysis aim for efficiency and reliability, they focus on different aspects of the process. Automation *can* contribute to reproducibility, but automation alone is not enough.
+
+*   **Reproducibility:** Can someone else (or even yourself, later on), given the *same* inputs, *understand* and *recreate* your work?
+*   **Automation:** Can a computer *run* the analysis, with *any* valid inputs, with minimal (even none at all) human intervention?
+
+Best practice is to have a fully reproducible analysis, that includes a level of automation appropriate to the complexity and effort of repeating it manually.
+
+| Consideration                   | Reproducible Data Analysis                                 | Automated Data Analysis                                             |
+|---------------------------------|------------------------------------------------------------|---------------------------------------------------------------------|
+| **Primary goal**                | Verifiability, transparency, reusability                   | Efficiency, scalability, speed                                      |
+| **Main activities**             | Documenting all steps and key decisions, managing versions | Scripting, scheduling, pipelines, monitoring                        |
+| **Does it require automation?** | No                                                         | Yes                                                                 |
+| **Is it essential?**            | Yes                                                        | No, but is desirable, especially as an analysis grows in complexity |
+| **Testing the analysis**        | Use static input data, for known results                   | Include tests that automatically run when the analysis changes      |
+| **Consistency**                 | In results                                                 | In processes                                                        |                                 
+
+### Further guidance
+
+* [Quality Assurance of Code for Analysis and Research (ONS)](https://best-practice-and-impact.github.io/qa-of-code-guidance/principles.html#reproducible)
+* [What is RAP? (NHS Digital)](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/#automation)
+* The [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) (Work in progress) offers specific advice on testing analytical pipelines in addition to topics such as documentation and a modular approach to analysis.
