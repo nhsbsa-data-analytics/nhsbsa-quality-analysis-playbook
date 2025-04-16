@@ -1,6 +1,6 @@
-## Accessibility statement for NHSBSA Data Science Playbook
+## Accessibility statement for NHSBSA Producing Quality Analysis Playbook
 
-This accessibility statement applies to the NHSBSA Data Science Playbook website. 
+This accessibility statement applies to the NHSBSA Producing Quality Analysis Playbook website. 
 
 This website is run by the NHS Business Services Authority (NHSBSA). We want as many people as possible to be able to use this website. For example, that means you should be able to:  
   
@@ -81,9 +81,9 @@ Our accessibility compliance statement will be reviewed regularly. Every newly r
 
 ### Preparation of this accessibility statement
 
-This statement was originally prepared on 14 October 2023. It was last reviewed on 18 September 2024.
+This statement was originally prepared on 15 April 2025. It was last reviewed on 15 April 2025.
 
-This website was last tested on 14 October 2024 against the WCAG 2.2 AA standard. 
+This website was last tested on 15 April 2025 against the WCAG 2.2 AA standard. 
 
 The test was carried out by the NHSBSA test and development teams. The most viewed pages were tested using automated testing tools by our website team. A further audit of the website was carried out to the WCAG 2.2 AA standard.
 
