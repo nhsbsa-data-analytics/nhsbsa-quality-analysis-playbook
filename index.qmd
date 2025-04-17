@@ -24,7 +24,7 @@ It provides direction and guidance for everyone at the NHSBSA. It is especially 
 
 It covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.
 
-::: {.callout-note title="Analytical Outputs" appearance="minimal" icon=false}
+::: {.callout-note title="Examples of Analytical Outputs" appearance="minimal" icon=false}
 <br>
 **Data requests** – responses to Freedom of Information (FOI) requests, Parliamentary Questions (PQs), data for sponsors and other adhoc requests.
 
