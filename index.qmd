@@ -22,7 +22,20 @@ It provides direction and guidance for everyone at the NHSBSA. It is especially 
 
 - Commissioners, users, analysts and analytical assurers. This includes non-analysts and third-party suppliers.  
 
-It covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.  
+It covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.
+
+::: {.callout-note title="Examples of Analytical Outputs" appearance="minimal" icon=false}
+<br>
+**Data requests** – responses to Freedom of Information (FOI) requests, Parliamentary Questions (PQs), data for sponsors and other adhoc requests.
+
+**Data products and reports** – for colleagues in the NHS, or external partners, including performance data, customer insight reports, operational forecasts and cost/benfit evaluations.
+
+**Open datasets** – such as those on the [Open Data Portal (ODP)](https://opendata.nhsbsa.net/).
+
+**Official Statistics** – including [publications and data releases](https://www.nhsbsa.nhs.uk/statistical-collections).
+
+**Data Science releases** - including [articles, reports](https://www.nhsbsa.nhs.uk/data-science-projects), [models and code](https://www.nhsbsa.nhs.uk/data-and-analytics-code-repositories).
+:::
 
 This will ensure quality and consistency of analysis and support well-informed decisions. 
 
