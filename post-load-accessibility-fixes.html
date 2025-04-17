@@ -1,0 +1,81 @@
+<script>
+  // 1. Handle 'i' tags - these are added dynamically by quarto. They can have 
+  //    the 'aria-hidden' attribute set to 'true', but quarto does not make them
+  //    unfocusable. This script handles this by setting the 'tabindex' to '-1'.
+  
+  // We observe the entire body for changes to the DOM, since the tags of
+  // interest will be added dynamically and hence we cannot identify them before
+  // they appear.
+  const iTagTargetNode = document.body;
+
+  // We want our observer to be informed when any tag is added within the body. 
+  // For direct children it is 'childList', while for nested children it is
+  // 'subtree'.
+  const iTagConfig = { childList: true, subtree: true };
+
+  // The observer callback receives an array of mutation records, over which we
+  // want to iterate.
+  const forEachMutationRecord = func => 
+    records => 
+      records.forEach(func);
+
+  // Each mutation record holds a node list of added nodes, over which we also
+  // want to iterate.
+  const forEachAddedNode = func => 
+    ({ addedNodes }) => 
+      Array.from(addedNodes).forEach(func);
+  
+  // We want to mutate 'i' nodes that have 'aria-hidden' set to 'true'.
+  const iTagMutate = node => {
+    if (node.tagName === 'I' && node.getAttribute('aria-hidden')) {
+      node.setAttribute('tabindex', '-1');
+    }
+  };
+
+  // The mutation observer gets instantiated with a callback...
+  const iTagObserver = new MutationObserver(
+    forEachMutationRecord(
+      forEachAddedNode(
+      	 iTagMutate)
+      )
+    );
+
+  // ... and registered with the body element to observe.
+  iTagObserver.observe(iTagTargetNode, iTagConfig);
+  
+  
+  // 2. Handle callouts having the 'aria-expanded' attribute - this is not a 
+  //    valid attribute for callouts. Quarto will automatically add this 
+  //    attribute whenever a callout eloement is created and will also add it if
+  //    not already present whenever a callout is expanded or collapsed. This
+  //    script handles this by:
+  //      a. removing the attribute initially
+  //      b. observing all callout elements and again removing it whenever it is
+  //         added back by quarto
+  
+  // The callout elements already exist, so we can observe just relevant nodes.
+  const calloutTargetNodes = document.querySelectorAll('.callout-header');
+  
+  // We only need to observe attribute mutations, since the callouts will be
+  // permanently in the DOM.
+  var calloutConfig = { attributes: true };
+  
+  // We want to remove 'aria-expanded'. Every mutation observed will be relevant,
+  // so no checks are needed.
+  const calloutMutate = mutation => mutation.target.removeAttribute("aria-expanded");
+  
+  // The mutation observer gets instantiated with a callback.
+  const calloutObserver = new MutationObserver(
+    forEachMutationRecord(
+      calloutMutate
+    )
+  );
+    
+  // Initially remove attribute but also add observers to catch the attribute
+  // being added back.
+  calloutTargetNodes.
+    forEach(function(node){
+      node.removeAttribute("aria-expanded");
+      calloutObserver.observe(node, calloutConfig);
+    });
+</script>
