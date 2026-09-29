@@ -1,0 +1,189 @@
+---
+title: "Communicating analysis"
+description: "Writing a quality assurance statement, and making sure caveats travel with the numbers."
+---
+
+Analysis that is understood wrongly is worse than analysis nobody reads, because it gets acted on.
+This section covers how to communicate results so they are used for what they can support and not
+for what they cannot.
+
+*Phase 4, delivery and sign-off. [Where this sits in the lifecycle](../04-analytical-lifecycle/index.qmd).*
+
+## What you must communicate
+
+Analysis should be presented in a way suitable for the intended audience, with **findings, and the
+limitations and uncertainty around them, communicated clearly, objectively and impartially**.[^src-govs-010-section-6-4]
+
+GovS 010 section 5.5 says delivered results **should** include an assurance statement covering
+assumptions, uncertainty, limitations, and comments on the applicability and use of the results,
+together with links to references, code and data.
+
+**At NHSBSA it is not a courtesy.** The statement is what makes an assurance level visible to
+somebody who was not in the room, so this playbook requires one at every level. The standard sets the
+floor and NHSBSA stands above it.
+
+## Caveats travel with the number, or they do not travel
+
+::: {.callout-important title="The annex rule" appearance="minimal" icon=false}
+<br>
+State a material caveat in the same place as the figure it qualifies. Not in an annex, not in a
+methodology note, not in a footnote on a later page.
+
+Figures get copied into slides, board papers and emails. Annexes do not follow them.
+
+**If a caveat is too long to sit alongside the number, the number is not ready to be quoted.**
+:::
+
+This is the single most common way good analysis causes harm. The analysis is right, the caveat is
+documented, and the two become separated somewhere between the report and the decision.
+
+## The quality assurance statement
+
+A quality assurance statement tells a reader what was done to make the analysis trustworthy, and
+what its limits are. Whether you need one depends on your assurance level:
+
+| Level | Statement |
+|---|---|
+| Level 1 Standard | Optional. State your main limitation alongside the result |
+| Level 2 Enhanced | Required |
+| Level 3 Comprehensive | Required, and **published with the output** |
+| Level 4 BCA | Required, published with the output, and covered by the QA appraisal sign-off |
+
+### A worked example
+
+This is a Level 2 Enhanced statement. Bracketed prompts show what belongs in each place.
+
+> This analysis was produced by [analyst], [team], NHS Business Services Authority, in [month year]
+> to support [the decision it informs].
+>
+> It was assessed as Level 2 Enhanced on the NHSBSA assurance level decision sheet,
+> on the basis that it informs a directorate-level operational decision using linked internal data
+> and an established statistical method.
+>
+> Inputs were drawn from [source] as at [extract date]. [Named data quality issue] is present in the
+> source and affects [which part of the result] by [scale or direction]. The method was independently
+> reviewed by [reviewer] on [date], and the code is peer reviewed and version controlled at
+> [repository].
+>
+> Key assumptions and their sensitivity are recorded in the project record at [link]. The principal
+> limitation is [limitation], which means these results should not be used to [the specific misuse
+> this analysis cannot support].
+>
+> Residual uncertainty is [description]. Questions about interpretation should go to [contact].
+
+::: {.callout-note title="Why the brackets are left in" appearance="minimal" icon=false}
+<br>
+The failure mode of a worked example is that people copy it whole, including reasoning that does not
+apply to their work. A statement claiming independent review that did not happen is worse than no
+statement at all.
+
+Bracketed prompts force a decision at each point. Fill them in or delete the sentence.
+:::
+
+### What a Level 3 statement adds
+
+Everything above, plus:
+
+- the Business Critical register reference
+- the assurer, named, independent of the delivering team, with dates
+- confirmation that code was assured against the code assurance playbook
+- uncertainty quantified as a range, with its principal source
+- the sensitivity testing result for the key assumption
+- an Algorithm Transparency Recording Standard entry reference, where applicable
+- the approver, and the next review date
+
+## Writing well
+
+**Lead with the finding, not the method.** The reader wants to know what you found. How you found it
+matters, and it comes second.
+
+**Say what the analysis cannot support.** The sentence "this analysis should not be used to..." does
+more work than any other in a limitations section.
+
+**Use plain language.** Plain does not mean imprecise. It means the precision is in the content
+rather than the vocabulary.
+
+**Show uncertainty in the visualisation**, not only in the text.
+See [section 7](../07-uncertainty/index.qmd).
+
+**Do not let confidence in the method become confidence in the conclusion.** A well-executed analysis
+of limited data is still an analysis of limited data.
+
+## Approval and release
+
+The commissioner must be able to trust the results, understand any uncertainty, and have enough
+assurance from the critical friend. They approve the results for release, ensure release is
+appropriate and timely, and ensure the results are clear, accessible and transparent with appropriate
+caveats and constraints.
+
+Where results are published on internal or external web pages, NHSBSA accessibility guidelines apply.
+
+**Official statistics** must follow the Code of Practice for Statistics, and the Lead Official for
+Statistics or an appointed deputy must approve all official statistics outputs. Standards 7, 9 and 10
+are the ones this section serves: be open about quality, be clear, be accessible.
+See [section 2](../02-standards-landscape/index.qmd).
+
+Published or unpublished management information should follow the same best practice principles.
+
+**Presentation is part of communication.** Charts, tables and dashboards follow the
+[NHSBSA Data Visualisation Standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/),
+which cover how to choose a chart, how to label it and how to make it readable. Where an output
+contains small counts, the **NHSBSA Statistical Disclosure Control protocol** sets the thresholds
+and the methods. It is listed in
+[section 12](../12-tools-and-templates/index.qmd).
+
+## When something turns out to be wrong
+
+Nothing in this playbook prevents an error reaching publication. What decides whether that error
+damages trust is what happens next, and for official statistics NHSBSA has already written down
+what happens next.
+
+{{< include /guidance/_partials/diagram-corrections.qmd >}}
+
+The **NHSBSA Revisions and Corrections Policy** distinguishes a revision from a correction. A
+revision is expected: statistics published as provisional and later finalised, a change of
+methodology, or the arrival of further data. A correction is an error.
+
+The policy grades errors by consequence rather than by size:
+
+| The error | What happens |
+|---|---|
+| **Significant**, where the change would contradict the conclusions previously drawn from the data | A prominent alert on the website, corrected as soon as possible, and communicated to users and stakeholders |
+| **Minor but significant**, insubstantial but warranting immediate correction in professional judgement | The published release is amended and the revision is clearly identified in it |
+| **Minor and insignificant**, where a correction would reasonably be deemed inconsequential | Corrected at the next scheduled release rather than immediately |
+
+Decisions on how to address an error in published statistics are made by the **Lead Official for
+Statistics**, in consultation with the National Statistician as appropriate, and the amendment is
+published alongside the link to the document. Where an error is known but corrected figures are not
+yet available, a note goes on the statistics saying so and making clear the figures are subject to
+change.[^src-nhsbsa-revisions-and-corrections-policy-v002-sections-2-and-3]
+
+::: {.callout-note title="If your output is not official statistics" appearance="minimal" icon=false}
+<br>
+The policy binds official and national statistics. The behaviour it describes is worth following
+anywhere: say what was wrong, say what it changed, say where the corrected version is, and leave
+the original visible rather than replacing it silently.
+
+An analysis that quietly acquires new numbers is indistinguishable from an analysis nobody checked.
+:::
+
+### Where NHSBSA analysis is published
+
+| Output | Published at |
+|---|---|
+| Official statistics | [NHSBSA statistical collections](https://www.nhsbsa.nhs.uk/statistical-collections) |
+| Research and insight articles | [NHSBSA data science projects](https://www.nhsbsa.nhs.uk/data-science-projects) |
+| Open datasets | [NHSBSA Open Data Portal](https://opendata.nhsbsa.net/) |
+| Analytical code | [NHSBSA data and analytics code repositories](https://www.nhsbsa.nhs.uk/data-and-analytics-code-repositories) |
+
+All documentation should be stored centrally.
+
+## Where to go next
+
+- [Section 7, uncertainty, assumptions and limitations](../07-uncertainty/index.qmd)
+- [Section 12, tools, templates and downloads](../12-tools-and-templates/index.qmd), for the
+  statement template
+- [Section 10, ethics and transparency](../10-ethics-and-transparency/index.qmd)
+
+[^src-govs-010-section-6-4]: GovS 010 section 6.4
+[^src-nhsbsa-revisions-and-corrections-policy-v002-sections-2-and-3]: NHSBSA Revisions and Corrections Policy v002, sections 2 and 3

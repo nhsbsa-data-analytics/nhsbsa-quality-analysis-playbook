@@ -1,0 +1,10 @@
+<script>
+  // Skip link. Ported from the NHSBSA Analytical Code Assurance Playbook so the
+  // two playbooks behave consistently. See artefacts/conflicts-register.md C6.
+  var a = document.createElement('a');
+  var linkText = document.createTextNode("Skip to main content");
+  a.appendChild(linkText);
+  a.classList.add("skip");
+  a.href = "#quarto-content";
+  document.body.insertBefore(a, document.body.firstChild);
+</script>

@@ -1,0 +1,36 @@
+![](/static/diagrams/13-business-critical-route.png){fig-alt="A route diagram. The Business Critical question is answered once, at scoping, by scoring six impact dimensions. A yes leads to section 8 and to obligations held in the sections that already own them. The whole route is described in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**The determination is made once, at scoping**, on the assurance level decision sheet, by the
+commissioner and the lead analyst together, when the Scope is complete. Six impact dimensions are
+scored from 1 to 4 and the highest is taken. Any one at 4 is Business Critical.
+
+The six, and what scores 4 in each: **Decision**, major policy, funding, statutory or regulatory
+decisions. **Financial**, over £35 million at risk, or major funding decisions whose consequences
+are not yet known. **Customers**, rights, entitlements, eligibility, access, treatment, benefits or
+statutory obligations. **Legal or regulatory**, challenge, judicial review, enforcement, penalties
+or serious personal data breaches. **Public visibility and reach**, the key evidence base for
+decisions facing intense public, ministerial or media scrutiny. **Reputation**, substantial and
+lasting loss of public confidence.
+
+**If the answer is no**, the ordinary route applies and nothing on this page does. Section 5 sets
+the level, section 6 the checks, section 9 the quality assurance statement. There is no second
+gate: the same six dimensions that answer this question are step 1 of the decision sheet, so the
+level and the designation come out of one scoring rather than two.
+
+**If the answer is yes**, everything in the ordinary route still applies and section 8 applies as
+well. The register entry, the quality assurance appraisal and the Analysis Senior Responsible Officer start
+at scoping rather than being discovered once the work is designed.
+
+**Where the obligations live.** Section 3 holds who the named accountable officer is. Section 5
+holds what level and what checks follow. Section 6 holds the checks themselves and the quality
+assurance appraisal. Section 8 holds only what is true of Business Critical work and nothing else.
+
+**What does not, by itself, make analysis Business Critical.** "Publication status, Board
+consideration, Official Statistics designation, media interest, national visibility, FOI
+disclosure, ministerial interest or parliamentary scrutiny do not by themselves justify a Level 4
+score."
+
+</details>

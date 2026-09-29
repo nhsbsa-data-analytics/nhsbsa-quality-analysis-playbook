@@ -11,3 +11,13 @@
 _site
 /.quarto/
 docs/
+
+# Python cache, written by checks/ on first run
+__pycache__/
+*.py[cod]
+
+# Operating system folder metadata, written by Finder and by Explorer
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb

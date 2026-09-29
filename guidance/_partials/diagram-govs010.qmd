@@ -1,0 +1,55 @@
+![](/static/diagrams/27-what-govs010-requires.png){fig-alt="A bar drawn to scale splits the eleven uses of the word shall in GovS 010 into one, seven and three. Below it, three cards give the three substantive requirements and who each falls on, then six cards give the six principles with the clause each answers to. Everything is set out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**The bar at the top is drawn to scale.** The word *shall* appears eleven times in the whole
+document, split three ways.
+
+- **One** is the conventions table: the entry that defines the word itself, rather than requiring
+  anything.
+- **Seven** point at a different standard. Each says that another functional standard is to be
+  followed: GovS 005 Digital, GovS 008 Commercial or GovS 011 Communication.
+- **Three** are substantive. These are the requirements GovS 010 places on analysis at NHSBSA.
+
+**The three substantive requirements, and who each one falls on.**
+
+- **The principles** [GovS 010 section 2]. *This one falls on you.* The standard puts them as "those
+  engaged in analysis **shall** ensure". Six principles sit below, and following them is how NHSBSA
+  meets the standard rather than something extra on top.
+- **A senior officer accountable for analysis** [GovS 010 section 4.1.3]. *This one falls on the
+  organisation.* NHSBSA shall have a senior officer accountable for its analysis activities.
+  [Section 3](/guidance/03-roles-and-responsibilities/index.qmd) is where it is met.
+- **Roles defined, and assigned** [GovS 010 section 4.4.1]. *This one falls on the organisation.*
+  Analytical roles and accountabilities shall be defined in the relevant governance and management
+  framework, and assigned to people with appropriate seniority, skills and experience.
+  [Section 3](/guidance/03-roles-and-responsibilities/index.qmd) does both.
+
+**The six principles.** Five are GovS 010's own five; the third comes from GovS 010 section 5.5
+rather than the principles.
+
+1. **Analysis answers the right questions** [GovS 010 principle 1 and section 5.2]. A clear, shared
+   understanding of the questions, how they meet user needs, and how certain the answer needs to be.
+2. **Using the right methods** [GovS 010 principle 2, and the AQuA Book]. Appropriate inputs and
+   methods. Repeatable, independent, grounded in reality, objective, uncertainty understood and
+   managed. That is RIGOUR.
+3. **At the right time** [GovS 010 section 5.5]. In time to be useful, never at the expense of
+   quality assurance. Where time is short, the proportionate answer is a narrower question answered
+   properly.
+4. **With the right level of quality assurance** [GovS 010 principle 4]. Proportionate to the impact
+   on the decision and the risks of how the results will be used, with continuous improvement built
+   in.
+5. **Following the right standards** [GovS 010 principle 5]. Legal and ethical obligations, public
+   service codes of conduct, and those of your own profession.
+6. **Presented in the right way** [GovS 010 principle 3]. Clearly presented, impartial, timely and
+   accessible outputs, clear about context, strengths, limitations and what remains uncertain.
+
+**Everything else is a should.** That is not permission to skip it. A *should* you depart from is a
+decision you have to be able to explain, which is why this playbook asks you to record the ones you
+depart from rather than to treat them as optional.
+
+**So the right decisions are made.** Good quality analysis can be trusted to support effective
+decision-making and meet user needs. That is the whole of it, and everything else in this playbook
+is how.
+
+</details>

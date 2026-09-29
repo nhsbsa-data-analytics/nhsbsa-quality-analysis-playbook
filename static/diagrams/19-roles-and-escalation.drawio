@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="19-roles-and-escalation" name="19 roles and escalation">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1216" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n7" value="shall be separate, in all cases" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#DA291C;strokeWidth=2.5;dashed=0;endArrow=block;startArrow=block;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="683.0" y="286" />
+              <mxPoint x="1117.0" y="286" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007F3B;strokeWidth=2;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n13" target="n14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007F3B;strokeWidth=2;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n17" target="n18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007F3B;strokeWidth=2;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n21" target="n22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007F3B;strokeWidth=2;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n25" target="n26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;Who decides what, and where to escalate&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;Four roles. One person may hold more than one of them, except the two that shall always be separate. Disagreement is healthy, and the routes out of it are short.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b style=&quot;font-size:14px&quot;&gt;Commissioner&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 4.4.5&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The person requesting the analysis. May be an internal team, an external partner, or a sponsor such as DHSC or NHS England.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Owns the decision the analysis supports. Accountable to a named person for commissioning the work and for the use and dissemination of its results.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="418" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:14px&quot;&gt;Analyst&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 4.4.7&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The person planning, undertaking and documenting the analysis. Includes analysts, insight officers, statistical officers, statisticians and data scientists.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Accountable to the commissioner for designing, conducting and delivering the analysis. Provides challenge where a request arrives framed as an output.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="474" y="130" width="418" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:14px&quot;&gt;Critical friend, or analytical assurer&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 4.4.6, AQuA Book 5.1&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Independent advice on a specific assignment. Two names, one role: critical friend is the name NHSBSA uses, analytical assurer the term the standards use.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Confirms appropriate and sufficient quality assurance has taken place and that the use of the outputs is appropriate. Not delivering the analysis.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="908" y="130" width="418" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;b style=&quot;font-size:14px&quot;&gt;Analysis Senior Responsible Officer&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 6.11&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Assigned for Business Critical analysis and models. Senior enough to take responsibility for the risks across the lifecycle. May be the commissioner.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Confirms the work is suitable for its intended use before it is used. The AQuA Book calls this role the approver.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="130" width="418" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;b style=&quot;font-size:12px&quot;&gt;The analyst and the assurer shall be separate from one another, in all cases.&lt;/b&gt;&lt;span style=&quot;font-size:12px&quot;&gt; That holds at Level 1 as firmly as at Level 3. What changes with the level is how far apart the two people sit, not whether there are two of them. AQuA Book chapter 3.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF0EF;strokeColor=#DA291C;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="312" width="1720" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;The decision&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="376" width="640" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;Decided by&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="376" width="480" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;If you cannot agree, it goes to&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="376" width="560" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;The assurance level&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="640" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;span style=&quot;font-size:12px&quot;&gt;The commissioner and the analyst, scored together at scoping&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="480" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;span style=&quot;font-size:12px&quot;&gt;The Analytical Quality and Assurance Lead&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="400" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;Whether the analysis is Business Critical&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="466" width="640" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;span style=&quot;font-size:12px&quot;&gt;The commissioner decides&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="466" width="480" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;span style=&quot;font-size:12px&quot;&gt;The Analytical Quality and Assurance Lead, if unresolved&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="466" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;Whether the analysis is fit for purpose&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="532" width="640" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="&lt;span style=&quot;font-size:12px&quot;&gt;The critical friend advises&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="532" width="480" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="&lt;span style=&quot;font-size:12px&quot;&gt;The Head of Profession, if unresolved&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="532" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;Whether there is enough time for the assurance required&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="598" width="640" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;span style=&quot;font-size:12px&quot;&gt;The commissioner&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="598" width="480" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="&lt;span style=&quot;font-size:12px&quot;&gt;The Analytical Quality and Assurance Lead&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="598" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;How far the reviewer sits from the work, by level. There is no level at which nobody independent looks at it.&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="672" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;b style=&quot;font-size:13px&quot;&gt;Level 1 Standard&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;A colleague, within your team&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="698" width="418" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="&lt;b style=&quot;font-size:13px&quot;&gt;Level 2 Enhanced&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Someone who had no hand in producing the work&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="474" y="698" width="418" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;b style=&quot;font-size:13px&quot;&gt;Level 3 Comprehensive&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;An assurer from outside the delivering team&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="908" y="698" width="418" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="&lt;b style=&quot;font-size:13px&quot;&gt;Level 4 BCA&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;A Lead Assurer from outside the delivering team, with external review&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="698" width="418" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="848" width="848" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Deadline pressure is not resolved by lowering the level&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="860" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;It is resolved by narrowing the question, or by stating plainly what assurance was not done. Making sure there is enough time and resource for the assurance the work needs is a commissioner responsibility, not something the analyst absorbs quietly. AQuA Book section 6.1.1.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="884" width="808" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="848" width="848" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Defining a role is not the same as assigning it&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="860" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Section 3 defines the Analytical Quality and Assurance Lead, the Head of Profession for Statistics and the senior officer accountable for analysis, and says what each is responsible for. Who holds each post is recorded in the governance and management framework, so that a change of post holder is not a change to this playbook.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="884" width="808" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="982" width="860" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="&lt;b style=&quot;font-size:11px;color:#003087&quot;&gt;How to read this&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="990" width="836" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1012" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="&lt;span style=&quot;font-size:11px&quot;&gt;Blue card: one of the four roles, with the clause that defines it&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1011" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF0EF;strokeColor=#DA291C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1038" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="&lt;span style=&quot;font-size:11px&quot;&gt;Red arrow and red band: the one separation that is never optional&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1037" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1064" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="&lt;span style=&quot;font-size:11px&quot;&gt;White card: a decision someone has to own&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1063" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1090" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n48" value="&lt;span style=&quot;font-size:11px&quot;&gt;Grey card: who owns it&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1089" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1116" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n50" value="&lt;span style=&quot;font-size:11px&quot;&gt;Green card, and the green arrow: where it goes if you cannot agree&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1115" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n51" value="&lt;span style=&quot;font-size:12px&quot;&gt;One person may hold more than one role, and on small pieces of work often will. A role may be held by a team or a committee rather than by one person, in which case one named individual carries the accountability for it. The exception is the analyst and the assurer, who are separate in all cases. Every card here is written out in the text description below the picture, and section 13 is how to find out who currently holds each post.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="912" y="990" width="848" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n52" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1172" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,261 @@
+---
+title: "The analytical lifecycle"
+description: "How a piece of analysis moves from a question to a signed-off result, and where assurance happens along the way."
+---
+
+<!--
+No `image:` key. The existing playbook gives every section a thumbnail whose `image-alt` is a photo
+credit, for example "Photo by Cytonn Photography on Unsplash". A credit is not a description, and
+that is a WCAG 2.2 AA failure of success criterion 1.1.1.
+
+If a thumbnail is added here, either describe what it shows, or mark it decorative with an empty
+alt and move the credit to visible text. Do not repeat the existing pattern.
+-->
+
+
+Every piece of analysis follows the same path, whether it takes two hours or six months. This
+section sets out that path, who is involved at each point, and what assurance happens along the way.
+
+The single most important thing to take from it is that **assurance happens throughout, not at the
+end**. Checking work only once it is finished tells you whether it is wrong. It does not stop it
+being wrong, and by then the time to do anything about it has usually gone.
+
+## The four phases
+
+The lifecycle has four phases, following the AQuA Book.
+
+::: {.callout-note title="The four phases" appearance="minimal" icon=false}
+<br>
+**1. Engagement and scoping.** Agreeing what question is being answered, why, and how much
+assurance the answer needs.
+
+**2. Design.** Deciding how it will be answered, and planning the assurance the level calls for.
+
+**3. Analysis.** Doing the work, and checking it as you go.
+
+**4. Delivery and sign-off.** Communicating the result honestly, and approving it.
+
+**Then: review.** What happened to the analysis after it was released, and what the next piece of
+work should do differently. This is a stage in its own right, it repeats, and it is
+[section 11](../11-review-and-continuous-improvement/index.qmd).
+:::
+
+{{< include /guidance/_partials/diagram-lifecycle.qmd >}}
+
+The four phases describe producing an analysis, which is where the AQuA Book's lifecycle ends.
+Review sits after them because it is about the released output rather than the work, and it happens
+more than once. What happens to an analysis after it is released is GovS 010's own subject at
+sections 6.10, learning from experience, and 6.13, monitoring and evaluation after implementation;
+it is the Code of Practice's Value pillar for anything published; and it is the Magenta Book's whole
+subject where the analysis supported an intervention.
+
+Phases are not a one-way street. Scoping, design and analysis are frequently revisited as you learn
+more, and that is normal rather than a sign something has gone wrong. What should not change late
+without a recorded reason is the assurance level, because that is the judgement everything else
+rests on.
+
+## Phase 1: engagement and scoping
+
+The commissioner and the analyst agree what is actually being asked.
+
+**You should record the purpose of the analysis and the level of quality and certainty needed to
+achieve it.**[^src-govs-010-section-5-2] This is not bureaucracy. It is the only thing that later tells
+anyone whether the analysis did what it was asked to do.
+
+Explore the boundaries and scope with stakeholders, and seek a wide range of perspectives before
+settling the question.[^src-govs-010-section-5-2]
+
+If a request arrives already framed as an output rather than a question, say so and reframe it.
+Providing appropriate challenge is expected of you, not obstructive, and GovS 010 section 6.2 is
+explicit that analysts partner with policy colleagues and provide challenge where appropriate. The
+record of that conversation is what makes the challenge defensible afterwards.
+
+### Is it Business Critical?
+
+{{< include /guidance/_partials/bca-determination.qmd >}}
+
+{{< include /guidance/_partials/diagram-bca-route.qmd >}}
+
+Everything that follows from a yes is gathered in
+[section 8, Business Critical analysis](/guidance/08-business-critical/index.qmd).
+
+### Setting the assurance level
+
+How much assurance a piece of work needs depends on its risk, complexity and impact.[^src-govs-010-section-6-8] That is decided here, at scoping, and not later.
+
+The specification you agree with your commissioner is where the level of assurance required is
+defined, and it should state the acceptable level of risk alongside it.[^src-aqua-book-section-6-1-2]
+GovS 010 asks for the levels of quality and certainty required to be recorded at the same point.[^src-govs-010-section-5-2] The Business Critical answer above feeds straight into it.
+
+[Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd), sets out
+how to reach that decision and record it. It takes about five minutes.
+
+::: {.callout-important title="Early enough to change the method" appearance="minimal" icon=false}
+<br>
+A level chosen before the work starts is a judgement about the work. One chosen afterwards is a
+description of what happened to be done. Only the first is assurance.
+
+It also has to be early enough to shape the design rather than describe it. A level agreed once the
+method is already chosen cannot change the method.
+
+If circumstances genuinely change, change the level and record why. Reuse is the most common
+legitimate reason: analysis built once and then run monthly is a different piece of work.
+:::
+
+**What good looks like at this phase:** the commissioner can state the decision the analysis
+supports, the analyst can state the question in one sentence, the Business Critical answer is
+recorded either way, and the assurance level is agreed and written down. If any of the four is
+missing, you are not ready to move on.
+
+## Phase 2: design
+
+This is where the assurance the level calls for is turned into a plan, and it is the phase that
+decides how much of the rest will have to be done twice. The level itself came out of scoping.
+
+Produce a design and plan covering the analytical cycle, and share it with everyone involved.[^src-govs-010-section-5-3] It should cover the data to be used, the method, how uncertainty will be
+identified and communicated, the assumptions and known limitations, ethical and information
+governance considerations, the outputs, timescales and resources, and the assurance activities
+themselves.
+
+Your design should:[^src-govs-010-section-5-3]
+
+- **be repeatable**, producing the same results from the same inputs if someone else runs it
+- consider uncertainty
+- consider whether the underlying data sources are fit to answer the question
+- be documented
+
+### Planning the assurance the level requires
+
+The level came from scoping. What happens here is turning it into something that will actually be
+done. Establish the assurance requirements, develop a plan for proportionate verification and
+validation, and **plan in sufficient time for the assurance activity**.[^src-aqua-book-section-7-1-2]
+Your assurer should review that plan, confirm they can carry out the assurance it asks for, and
+plan their own time for it.[^src-aqua-book-section-7-1-3]
+
+The last of those is the one most often skipped. An assurance plan with no time in the schedule is
+a statement of intent, not a plan.
+
+[Section 6, doing the work](../06-doing-the-work/index.qmd), sets out what each level requires.
+
+### The design gate
+
+A critical friend or analytical assurer confirms that the approach meets the commissioner's needs
+and answers the question, and that the assurance planned is at the right level. The commissioner
+approves the design before work proceeds.[^src-govs-010-section-5-3]
+
+Name your reviewer before the work starts, not after it finishes. A reviewer found afterwards
+reviews what was produced. A reviewer named beforehand shapes what gets produced, which is
+considerably more useful and usually cheaper.
+
+## Phase 3: analysis
+
+Undertake the analysis following the approved design and plan.[^src-govs-010-section-5-4]
+
+Quality assurance runs through this phase rather than sitting at the end of it. Verification asks
+whether the analysis was conducted properly. Validation asks whether the right kind of analysis was
+used at all. Both should be proportionate to the purpose and constraints of the work, and both
+should happen throughout the cycle.[^src-govs-010-section-6-6]
+
+**Document the verification and validation activities you carry out, and what you concluded from
+them.**[^src-govs-010-section-6-6] This is what a quality assurance log is for. A checklist shows
+somebody knew what to do. A log shows they did it, when, and what they found.
+
+Keep records proportionate to the work. They can include the specification and design, **notes of
+any deviations from the plan**, a log of data and assumptions, an outline of the assurance
+activities, technical documentation, and **lessons learned**. Records should be version controlled,
+securely stored and retrievable.[^src-govs-010-section-6-7]
+
+::: {.callout-note title="Lessons are captured as you go" appearance="minimal" icon=false}
+<br>
+Identify relevant lessons from earlier work when you plan, and capture new ones throughout rather
+than reconstructing them at the end.[^src-govs-010-sections-6-7-and-6-10]
+
+Lessons written up a month later are a summary of what someone remembers. Lessons written down when
+they happen are evidence.
+:::
+
+Where your analysis involves code, the
+[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+sets out expectations for version control, testing, peer review and documentation.
+
+## Phase 4: delivery and sign-off
+
+Deliver draft results to the commissioner so they are properly understood before anything is
+approved.[^src-govs-010-section-5-5]
+
+**What you deliver includes an assurance statement.** That statement covers the assumptions made,
+the uncertainty, the limitations, and what the results can and cannot be used for, together with
+links to references, code and data.
+
+GovS 010 section 5.5 puts this as a should. This playbook requires it at every assurance level,
+because a result whose assumptions travel separately from it is a result that will be used without
+them.
+
+[Section 9, communicating analysis](../09-communicating-analysis/index.qmd), shows what a good assurance statement looks like and gives
+a worked example.
+
+Communicate findings, limitations and uncertainty clearly, objectively and impartially.[^src-govs-010-section-6-4] Where you can express uncertainty quantitatively, do so, and avoid
+unwarranted confidence in any single option.[^src-govs-010-section-6-5]
+
+::: {.callout-important title="Caveats travel with the number, or they do not travel" appearance="minimal" icon=false}
+<br>
+State a material caveat in the same place as the figure it qualifies, not in an annex. Figures get
+copied into slides and papers; annexes do not follow them.
+
+If a caveat is too long to sit alongside the number, the number is not yet ready to be quoted.
+:::
+
+Sign-off then approves the analytical results.[^src-govs-010-section-5-6] Who signs off depends on the
+assurance level, and [section 6, doing the work](../06-doing-the-work/index.qmd), sets that out per level.
+
+## Assurance activity at every phase
+
+| Phase | Assurance activity | Who |
+|---|---|---|
+| 1. Engagement and scoping | Purpose, and the quality and certainty required, recorded. Assurance level agreed and recorded | Commissioner and analyst |
+| 2. Design | The assurance the level requires turned into a plan, with time in the schedule. Design confirmed as fit for purpose | Analyst, critical friend, commissioner |
+| 3. Analysis | Verification and validation throughout, documented with conclusions | Analyst and critical friend |
+| 4. Delivery and sign-off | Assurance statement produced. Results approved | Analyst, commissioner, approver |
+
+Notice that no row is empty. That is the point of the table.
+
+## How this maps to other structures
+
+You may meet the analytical lifecycle described with different names elsewhere. They describe the
+same path.
+
+| This playbook, and the AQuA Book | GovS 010 | Other names you may meet |
+|---|---|---|
+| 1. Engagement and scoping | 5.2 Initial customer engagement and scoping | Customer engagement |
+| 2. Design | 5.3 Designing the analysis | Analysis design |
+| 3. Analysis | 5.4 Conducting and checking analysis | Conducting the analysis |
+| 4. Delivery and sign-off | 5.5 Delivering the analysis, 5.6 Sign-off | Delivery and approval, Approval and distribution |
+| **5. Review**, [section 11](../11-review-and-continuous-improvement/index.qmd) | 6.10 Learning from experience, 6.13 Monitoring and evaluation after implementation | Review |
+
+**Delivery and sign-off is one phase, not two.** Some documents split approval from distribution.
+GovS 010 keeps them adjacent at sections 5.5 and 5.6 and the AQuA Book treats them as one stage, so
+this playbook does too. Carrying approval in two names leaves a reader with two places to look for
+the same obligation.
+
+## Where to go next
+
+- [Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd), to work out how much assurance your analysis needs
+- [Section 6, doing the work](../06-doing-the-work/index.qmd), for what is required at each level, phase by phase
+- [Section 7, uncertainty, assumptions and limitations](../07-uncertainty/index.qmd)
+- [Section 11, review and continuous improvement](../11-review-and-continuous-improvement/index.qmd), for what happens after the analysis is released
+- [Section 9, communicating analysis](../09-communicating-analysis/index.qmd), for assurance statements and caveats
+
+[^src-govs-010-section-5-2]: GovS 010 section 5.2
+[^src-govs-010-section-6-8]: GovS 010 section 6.8
+[^src-aqua-book-section-6-1-2]: AQuA Book section 6.1.2
+[^src-govs-010-section-5-3]: GovS 010 section 5.3
+[^src-aqua-book-section-7-1-2]: AQuA Book section 7.1.2
+[^src-aqua-book-section-7-1-3]: AQuA Book section 7.1.3
+[^src-govs-010-section-5-4]: GovS 010 section 5.4
+[^src-govs-010-section-6-6]: GovS 010 section 6.6
+[^src-govs-010-section-6-7]: GovS 010 section 6.7
+[^src-govs-010-sections-6-7-and-6-10]: GovS 010 sections 6.7 and 6.10
+[^src-govs-010-section-5-5]: GovS 010 section 5.5
+[^src-govs-010-section-6-4]: GovS 010 section 6.4
+[^src-govs-010-section-6-5]: GovS 010 section 6.5
+[^src-govs-010-section-5-6]: GovS 010 section 5.6

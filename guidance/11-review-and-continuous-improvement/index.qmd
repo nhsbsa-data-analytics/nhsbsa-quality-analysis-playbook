@@ -1,0 +1,151 @@
+---
+title: "Review and continuous improvement"
+description: "What happens to an analysis after it is released, and how the next piece of work gets better because of it."
+---
+
+*After release, once the analysis is in use. [Where this sits in the
+lifecycle](../04-analytical-lifecycle/index.qmd).*
+
+Assurance asks whether the analysis was done well. Review asks whether it did any good, and it asks
+after release rather than before it. The two questions are different and this section answers the
+second one.
+
+::: {.callout-note title="This is not peer review" appearance="minimal" icon=false}
+<br>
+Peer review and independent challenge happen **during** the work. They gate release, and they are in
+[section 6, doing the work](../06-doing-the-work/index.qmd), with the roles defined in
+[section 3](../03-roles-and-responsibilities/index.qmd).
+
+The Review stage happens **after** delivery, and it repeats. It is evaluation rather than assurance,
+and what it produces feeds the next piece of work rather than this one.
+
+Both are called review in ordinary speech. If you are looking for how to get your work checked
+before it goes out, section 6 is the page you want.
+:::
+
+## Why this stage exists
+
+Analysis that is never looked at again cannot tell you whether it was worth producing. Four sources
+ask for what this section describes:
+
+| Source | What it asks for |
+|---|---|
+| **GovS 010 section 6.13** | Proposals are required to include proportionate provision for monitoring and evaluation before, during and after implementation |
+| **GovS 010 section 6.10** | Lessons captured throughout the cycle, evaluated, and acted on. Senior officers update knowledge sources and communicate learning |
+| **Code of Practice for Statistics 3.0, Standards 8, 9 and 10** | The Value pillar: relevance to users, clarity of presentation, accessibility of the output. All three are judged after release |
+| **Magenta Book, chapter 6** | The use and dissemination of evaluation findings, including building an evaluation culture and being open about what was found |
+
+The Value pillar is the one worth noticing. Standards 8, 9 and 10 bind official statistics and they
+are judged on the released output, not the production process. This section is where NHSBSA meets
+them.
+
+{{< include /guidance/_partials/diagram-review.qmd >}}
+
+## What review covers
+
+Seven activities. They are the ones NHSBSA already does, and they are here so that they are expected
+rather than optional.
+
+- **Decisions taken and policy changes informed.** What actually changed because of this analysis.
+- **Usage.** Downloads, page views, requests, onward citation. Whatever the publication route
+  records.
+- **Ongoing usefulness.** User research with the people who use the output, asking whether it still
+  answers their question.
+- **Case studies.** How the data has been used, written down while someone still remembers.
+- **Trend changes the analysis may have influenced.** Where the analysis was meant to move something,
+  did it move.
+- **Improvements to regular analysis.** What the last cycle showed could be better.
+- **Decommissioning.** Analysis that is no longer useful should stop being produced. This is a
+  finding, not a failure.
+
+The first four are Code Standards 8, 9 and 10 in practice. The last three are GovS 010 section 6.13.
+
+## When review happens, and who owns it
+
+Review is not something to fit in when there is time. It has a trigger, an owner and a cadence, and
+they scale with the assurance level set in
+[section 5](../05-deciding-your-assurance-level/index.qmd).
+
+| Assurance level | Trigger | Owner | Cadence |
+|---|---|---|---|
+| Level 1 Standard | On request, or when the output changes | The analyst who produced it | At each reissue |
+| Level 2 Enhanced | Scheduled | The commissioner, with the analyst | Annually, or at each reissue if more frequent |
+| Level 3 Comprehensive, and Level 4 BCA | Scheduled, and on any material change | The commissioner, with the Analysis Senior Responsible Officer | Annually, and before any reuse for a new purpose |
+
+**Why annual.** It is the longest interval at which an assumption can go stale without anyone
+noticing, and anything shorter will not survive contact with workload. Business Critical work
+reviews before reuse for a new purpose as well, because a new purpose is the change most likely to
+invalidate the assumptions the original was built on. Level 1 needs no cadence at all: it is reviewed
+when it is reissued.
+
+::: {.callout-important title="The monthly cycle" appearance="minimal" icon=false}
+<br>
+NHSBSA runs a review cycle **monthly** for regular and ongoing outputs, checking that what has been
+produced was peer reviewed, that it was completed correctly, and that it is still doing its job.
+
+**No standard asks for that.** GovS 010 section 6.13 asks for proportionate provision and says
+nothing about frequency. The Code's Value pillar is judged at release. The Magenta Book describes the
+activity and not the cadence. The monthly cycle is a place where NHSBSA goes beyond what is required,
+and it is written down here so that it survives a change of staff and so that it can be evidenced.
+
+It covers regular published outputs. It looks at what changed and what went wrong rather than
+reapproving what did not, and it is chaired by the Analytical Quality and Assurance Lead.
+:::
+
+## Lessons, and how they get back to the start
+
+A lesson that stays in the review is not a lesson. GovS 010 section 6.10 asks for lessons to be
+identified, evaluated, acted on, and applied **at the start of the next piece of work**, which means
+this section has to reach back to
+[section 4, phase 1](../04-analytical-lifecycle/index.qmd#phase-1-engagement-and-scoping).
+
+The loop, in three steps:
+
+1. **Record the lesson where the next analyst will look for it.** The analytical plan for the next
+   cycle of a regular output, not a document nobody opens.
+2. **Raise anything that applies beyond one output.** A method that did not work, a data quality
+   problem, an assurance step that was disproportionate in either direction. The routes are in
+   [section 13](../13-getting-help/index.qmd).
+3. **Check the last cycle's lessons at scoping.** Phase 1 of the lifecycle asks what was learned last
+   time. This is where the answer comes from.
+
+Lessons that change how NHSBSA does analysis, rather than how one output is produced, go to the same
+forum that runs the monthly cycle above, so that the guidance changes rather than the custom. It is
+that forum rather than a new one, because a lesson and a guidance change are the same conversation
+ten minutes apart, and a separate forum is a forum that will not meet.
+
+## Public value
+
+The Code's Value pillar asks three questions about a released output, and they are worth asking about
+any analysis, not only official statistics.
+
+- **Relevance to users.** Does it answer a question someone actually has? [Standard 8]
+- **Clarity of presentation.** Can the intended reader understand it without help? [Standard 9]
+- **Accessibility.** Can everyone who needs it get to it, including people using assistive
+  technology? [Standard 10]
+
+Standards 8, 9 and 10 bind official statistics. For everything else they are good practice, and they
+are the cheapest quality improvement available, because an output nobody can use has no value however
+well it was assured. See [section 9](../09-communicating-analysis/index.qmd) for what to do about the
+answers.
+
+## Recording a review
+
+Keep the record proportionate. For most outputs the review is a short entry against the output in the
+analytical plan: what was checked, what was found, what changed as a result, and who was involved.
+
+For Business Critical analysis and for official statistics, the review is recorded formally and the
+record is kept, because these are the outputs where someone will ask.
+
+**Keep the record with the project record**, so that an output and everything said about it after
+release sit in one place. A review filed separately from the analysis it reviews is a record nobody
+finds when the analysis is next reused.
+
+## Where to go next
+
+- [Section 6, doing the work](../06-doing-the-work/index.qmd), for peer review and independent
+  challenge, which is the other thing called review
+- [Section 9, communicating analysis](../09-communicating-analysis/index.qmd), for what to do when a
+  review finds the output is not landing
+- [Section 4, the analytical lifecycle](../04-analytical-lifecycle/index.qmd), where lessons rejoin
+  the next piece of work

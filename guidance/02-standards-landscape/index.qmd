@@ -1,0 +1,225 @@
+---
+title: "The standards landscape"
+description: "Which standards apply to your analysis, what each is for, and when it bites."
+---
+
+Several standards govern analysis in government. They overlap, they are not all mandatory for all
+work, and it is not obvious from their titles which apply to you.
+
+This section says what each is for and, more usefully, **when it bites**.
+
+## The short answer
+
+::: {.callout-note title="Which applies to your work" appearance="minimal" icon=false}
+<br>
+**All NHSBSA analysis** follows GovS 010 and the AQuA Book.
+
+**Official statistics** additionally follow the Code of Practice for Statistics. That is a narrower
+set of outputs than "everything we publish".
+
+**Analysis involving code** additionally follows the NHSBSA Analytical Code Assurance Playbook.
+
+**Appraisal and evaluation** additionally follow the Green and Magenta Books.
+:::
+
+{{< include /guidance/_partials/diagram-standards.qmd >}}
+
+Getting the boundary wrong is costly in both directions. Applying the full Code of Practice to a
+routine internal data request wastes effort the organisation does not have. Failing to apply it to
+an official statistic is a regulatory matter.
+
+## The two that apply to everything
+
+### GovS 010: Analysis
+
+The government functional standard for analysis. It sets out five principles, the governance and
+accountabilities that must exist, the analytical cycle in five stages, and **thirteen supporting
+practices**, which is where most of its detail sits.
+
+The thirteen are: public interest; inputs and methods; supporting decision-making; uncertainty;
+analytical verification and validation; documentation and record keeping; quality assurance;
+collaborative working; learning from experience; analytical models; statistics; appraisal and
+evaluation; and personal data.[^src-govs-010-sections-6-2-to-6-14] Every one of them has a section of
+this playbook that answers to it, and
+[appendix A2](../A-appendices/index.qmd) says which.
+
+**What is binding.** The standard separates *shall*, a requirement, from *should*, a recommendation.
+*Shall* appears eleven times, once in the conventions table that defines it, and seven of the
+remaining ten require a different functional standard to be followed. Only three are substantive
+requirements, and they are set out in [section 1](../01-why-quality-matters/index.qmd). Everything else, the thirteen practices included,
+is a *should*: a departure you have to be able to explain rather than an option you may take or
+leave.
+
+**When it bites:** always. It applies to all analysis undertaken in government, whoever does it.
+
+NHSBSA is assessed against GovS 010, and improving that assessment is why this playbook exists.
+
+### The AQuA Book
+
+Guidance on producing quality analysis for government. Where GovS 010 sets the requirement, the
+AQuA Book says how to meet it.
+
+It is the source of the analytical lifecycle in [section 4](../04-analytical-lifecycle/index.qmd),
+which is its four stages[^src-aqua-book-section-5-2]; of the proportionality approach in
+[section 5](../05-deciding-your-assurance-level/index.qmd), which is its chapter 3[^src-aqua-book-chapter-3]; of the four roles in [section 3](../03-roles-and-responsibilities/index.qmd)[^src-aqua-book-section-5-1]; and of the **RIGOUR** principles.[^src-aqua-book-section-1-3-5]
+
+### RIGOUR, in full
+
+**Repeatable.** For an analytical process to be considered "valid" it might reasonably be expected
+that for the "same" inputs and constraints the analysis produces the "same" outputs. Different
+analysts will consider the analytical problem differently, potentially resulting in differing
+results; but if any one approach is repeated the results should be as expected. Repeatable is not
+the same as automated, and
+[section 6](../06-doing-the-work/index.qmd) sets out the difference.
+
+**Independent.** To produce analysis that is free of prejudice or bias. In doing so, care should be
+taken to appropriately balance the views across all stakeholders and experts.
+
+**Grounded in reality.** Quality analysis takes the commissioner and analyst on a journey as views
+and perceptions are challenged and connections are made between the analysis and its real
+consequences. Connecting with reality in this way guards against failing to properly grasp the
+context of the problem being analysed.
+
+**Objective.** Effective engagement and suitable challenge reduces potential bias and enables the
+commissioner and the analyst to be clear about the interpretation of the analytical results.
+
+**Uncertainty-managed.** [Uncertainties](../07-uncertainty/index.qmd) have been identified, managed
+and communicated throughout the analytical process.
+
+**Robust.** Provide the analytical result in the context of residual uncertainty and limitations in
+order to ensure it is used appropriately.
+
+It is also the more prescriptive of the two documents, and by some margin. Read it as the stricter
+of the pair wherever they overlap.
+
+**When it bites:** always, as the practical companion to GovS 010.
+
+## The one that applies to official statistics
+
+### The Code of Practice for Statistics
+
+Maintained by the UK Statistics Authority and regulated by the Office for Statistics Regulation.
+Edition 3.0 has been in force since 30 October 2025.
+
+It keeps the three pillars of **Trustworthiness, Quality and Value**, and sets out ten Standards for
+Official Statistics beneath them.
+
+| Standard | Pillar | Producers must |
+|---|---|---|
+| 1. Show integrity | Trustworthiness | Act honestly, objectively and professionally, and challenge misuse |
+| 2. Lead responsibly | Trustworthiness | Make impartial decisions under the Head of Profession for Statistics |
+| 3. Be transparent | Trustworthiness | Release at a standard time, pre-announced |
+| 4. Manage data responsibly | Trustworthiness | Handle data safely and be open about its use |
+| 5. Prioritise quality | Quality | Support a quality culture that encourages learning and improvement |
+| 6. Be rigorous | Quality | Use suitable data and sound methods, and assure quality across production and release |
+| 7. Be open about quality | Quality | Explain strengths, limitations and uncertainty prominently |
+| 8. Be relevant | Value | Put users at the centre of decisions about the statistics |
+| 9. Be clear | Value | Present statistics to support appropriate interpretation |
+| 10. Be accessible | Value | Ensure statistics are accessible and freely available to all |
+
+**When it bites:** for official statistics, in full and as a regulatory requirement. NHSBSA official
+statistics are listed in the
+[statistical collections](https://www.nhsbsa.nhs.uk/statistical-collections).
+
+::: {.callout-note title="You may apply the Code voluntarily" appearance="minimal" icon=false}
+<br>
+Those producing data, statistics or analysis that is **not** official statistics may still apply the
+Code to demonstrate a commitment to trustworthiness, quality and public value.[^src-govs-010-section-6-12]
+
+That is worth considering for anything published or quoted externally. It is a choice, not an
+obligation, and choosing it should be a deliberate decision rather than an accident.
+:::
+
+**Standards 5, 6 and 7 are what most of this playbook is about.** Following
+[section 5](../05-deciding-your-assurance-level/index.qmd) and
+[section 6](../06-doing-the-work/index.qmd) is how NHSBSA meets them in practice.
+
+## The ones that apply to particular work
+
+| Standard | What it covers | When it bites |
+|---|---|---|
+| **NHSBSA Analytical Code Assurance Playbook** | Version control, testing, peer review, readable and modular code, documentation, open sourcing | Whenever your analysis involves code |
+| **NHSBSA Data Science Playbook** | The workflow for Data Science initiatives: problem definition, assigning a critical friend, analysis, wrap up | Data Science initiatives |
+| **NHSBSA Open Data Standards** | How NHSBSA publishes open data | Open data releases |
+| **Green Book** | Appraisal of policies, programmes and projects: costs, benefits and risks of alternatives | Appraisal work |
+| **Magenta Book** | Evaluation: assessing an intervention's design, implementation and outcomes | Evaluation work |
+| **Orange Book** | Risk management principles and concepts | Assessing analytical risk. Referenced by GovS 010 section 4.2 |
+| **Government Data Quality Framework** | Managing and describing data quality | Where data quality is a material concern |
+| **Data and AI Ethics Framework** | Using data and AI appropriately and responsibly. Seven principles | See [section 10](../10-ethics-and-transparency/index.qmd) |
+| **Algorithmic Transparency Recording Standard** | Publishing how an algorithmic tool informs decisions | Where an algorithmic tool informs a decision affecting the public |
+| **AI Playbook for the UK Government** | Ten principles for building, buying and using AI in government | Where your analysis builds on or uses an AI system |
+| **Introduction to AI assurance** (DSIT) | Assurance mechanisms for AI systems: risk assessment, algorithmic impact assessment, bias audit, compliance audit, conformity assessment, formal verification | Where an AI system has to be evaluated rather than just built |
+
+### If your analysis uses AI or an algorithmic tool
+
+This playbook covers analysis. It does not cover building or assuring AI systems, and you should not
+read it as though it does. What it can tell you is which obligations attach.
+
+- **The Data and AI Ethics Framework applies, in full.** Its scope was extended to AI and algorithmic
+  technologies in December 2025 and its seven principles cover both. [Section 10](../10-ethics-and-transparency/index.qmd)
+- **The Algorithmic Transparency Recording Standard may apply.** If an algorithmic tool informs a
+  decision affecting the public, a record is expected. NHSBSA already has published records, so there
+  are worked examples to follow. The analyst drafts the record as part of delivery and the Head of
+  Profession for Statistics owns submission, because an ATRS record is a public statement about a
+  tool and needs the same sign-off as a published statistic.
+- **The AI Playbook's ten principles apply to the system**, and DSIT's assurance mechanisms are how
+  it gets evaluated. Both are linked in [section 12](../12-tools-and-templates/index.qmd).
+- **An AI system can still be Business Critical**, and if it is, [section 8](../08-business-critical/index.qmd)
+  applies on top of everything above.
+
+**The short version is that AI analysis is assured the same way as any other analysis**, plus the
+transparency duties named above. This playbook signposts the AI estate rather than duplicating it,
+because building and assuring an AI system is a different subject with its own guidance, and a
+playbook that half-covers it would be worse than one that points at the guidance that covers it
+properly.
+
+## How they fit together
+
+They are layers rather than alternatives, and they rarely conflict.
+
+GovS 010 sets the requirement. The AQuA Book explains how to meet it. The Code of Practice adds
+obligations for official statistics. The code assurance playbook adds obligations where there is
+code. The Green, Magenta and Orange Books add depth for particular kinds of work. The AI estate applies
+on top when a system rather than an analysis is what is being assured.
+
+**Where two sources appear to conflict, the more specific and more recent governs, and you should
+raise it.** If this playbook disagrees with a standard, the standard is right and this playbook needs
+fixing. Say so via the route in [section 13](../13-getting-help/index.qmd).
+
+## The five NHSBSA playbooks
+
+This is one of five, and they are designed to work together rather than overlap.
+
+| Playbook | Use it for |
+|---|---|
+| **Producing Quality Analysis**, this one | Planning, assuring and communicating any piece of analysis |
+| [Analytical Code Assurance](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) | Version control, testing, peer review and documentation of analytical code |
+| [Data Science](https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook) | The end-to-end workflow for a Data Science initiative |
+| [Data Visualisation Standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/) | Charts, tables and dashboards, in the Digital, Data and Technology Playbook |
+| Official Statistics | Developing, maintaining and publishing official statistics. In development |
+
+If your work involves code, you need this playbook and the code assurance one. If it is a Data
+Science initiative, the Data Science Playbook is the one that sequences your work. If it produces a
+chart, a table or a dashboard, the Data Visualisation Standards say how it should look and how it
+should be labelled.
+
+## Where to find them
+
+Every standard named here is linked from [section 12](../12-tools-and-templates/index.qmd).
+
+
+## Where to go next
+
+- [Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd), to
+  turn the standards above into a level for your own work
+- [Section 3, roles and responsibilities](../03-roles-and-responsibilities/index.qmd), for who
+  answers for each of them at NHSBSA
+- [Appendix A2](../A-appendices/index.qmd), for the clause-by-clause mapping between GovS 010 and
+  the sections of this playbook
+
+[^src-govs-010-sections-6-2-to-6-14]: GovS 010 sections 6.2 to 6.14
+[^src-aqua-book-section-5-2]: AQuA Book section 5.2
+[^src-aqua-book-chapter-3]: AQuA Book chapter 3
+[^src-aqua-book-section-5-1]: AQuA Book section 5.1
+[^src-aqua-book-section-1-3-5]: AQuA Book section 1.3.5
+[^src-govs-010-section-6-12]: GovS 010 section 6.12

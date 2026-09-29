@@ -1,0 +1,69 @@
+![](/static/diagrams/30-playbook-map.png){fig-alt="A two-step fast path at the top, then the fifteen sections arranged in four bands: Start here, Through the work, If this is you, and Look it up. Each section carries a one-line description. Below, nine cards say where to find a subject that lives inside another section. Everything is set out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**The fast path, at the top.** **1. Decide your assurance level**
+([section 5](/guidance/05-deciding-your-assurance-level/index.qmd)): score impact and likelihood with your
+commissioner and read the level off the matrix, in about five minutes. **2. Find what it requires**
+([section 6](/guidance/06-doing-the-work/index.qmd)): read the block for your level and the blocks inside
+it, because the checks are cumulative. That is the whole path. Everything else here exists for when
+you need it, and the four bands below say when that is.
+
+**Start here.** The job most people arrive with, in the order you do it.
+
+- **Section 0, How to use this playbook.** Who it is for, how it is organised, and how to find things
+  quickly.
+- **Section 5, Deciding your assurance level.** Score the impact, score the likelihood, read the
+  level off the decision sheet. Five minutes, at scoping.
+- **Section 5, After you have your level.** Disagreement, time pressure, Business Critical work, and
+  recording the decision.
+- **Section 6, Doing the work.** What each level requires, phase by phase, and what to record as you
+  go.
+
+**Through the work.** The path a piece of analysis takes, from question to review.
+
+- **Section 4, The analytical lifecycle.** How analysis moves from a question to a signed-off result,
+  and where assurance happens.
+- **Section 7, Uncertainty, assumptions and limitations.** Identifying what you do not know,
+  recording it, and saying so honestly.
+- **Section 9, Communicating analysis.** Writing a quality assurance statement, and making sure
+  caveats travel with the numbers.
+- **Section 11, Review and continuous improvement.** What happens after release, and how the next
+  piece of work gets better because of it.
+
+**If this is you.** Two sections that apply to some work and not to most.
+
+- **Section 8, Business Critical analysis.** The whole route in the order you meet it: the
+  determination, the register, the Analysis Senior Responsible Officer, enhanced assurance.
+- **Section 10, Ethics and transparency.** Using data responsibly, and being open about how analysis
+  informs decisions.
+
+**Look it up.** Reference. Nobody reads these end to end, and nobody needs to.
+
+- **Section 1, Why analytical quality matters.** The principles this playbook rests on, and what goes
+  wrong when quality is assumed.
+- **Section 2, The standards landscape.** Which standards apply, what each is for, and when it bites.
+- **Section 3, Roles and responsibilities.** Who does what across the lifecycle, and what to do when
+  you disagree.
+- **Section 12, Tools, templates and downloads.** Everything referenced in this playbook, in one
+  place.
+- **Section 13, Getting help.** Who to ask, and where the communities are.
+- **Appendices.** Glossary, change log, accessibility, and how this playbook maps to the standards.
+
+**And if you are looking for one particular thing.** Some subjects sit inside the section that uses
+them rather than having a section of their own. RIGOUR, the six principles of quality analysis, is in
+section 2 beside the AQuA Book clause it comes from. What a 1, 2, 3 or 4 means on each scoring
+dimension is in section 5, steps 1 and 2. The eight types of analytical model are in section 5, after
+you have your level. Reproducible and automated, and why they are not the same, is in section 6,
+phase 3. Who signs off at each assurance level is in section 6, phase 4. The quality assurance
+statement, with a worked example, is in section 9. What to do when a published figure turns out to be
+wrong is in section 9. The Business Critical register is in section 8, step 4. What a word means is
+in appendix A1, and which GovS 010 clause a section answers to is in appendix A2.
+
+**Section 8 is the one section that gathers rather than adds.** Being Business Critical changes what
+happens at seven points in the lifecycle, and each of those points belongs to the section that owns
+it, so section 8 puts them in the order you meet them and *includes* each passage from its owner
+rather than copying it. The two cannot drift apart.
+
+</details>

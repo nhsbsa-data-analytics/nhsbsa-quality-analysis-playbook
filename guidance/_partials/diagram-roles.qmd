@@ -1,0 +1,61 @@
+![](/static/diagrams/19-roles-and-escalation.png){fig-alt="Four role cards across the top: commissioner, analyst, critical friend or analytical assurer, and Analysis Senior Responsible Officer. A red connector joins the analyst and the critical friend, marked as separate in all cases. Below, four decisions are shown with who owns each one and where it escalates if you cannot agree, then the reviewer ladder by assurance level. All of it is written out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**Four role cards across the top.**
+
+- **Commissioner** [GovS 010 section 4.4.5]. The person requesting the analysis. May be an internal
+  team, an external partner, or a sponsor such as the Department of Health and Social Care or NHS
+  England. Owns the decision the analysis supports, and is accountable to a named person for
+  commissioning the work and for the use and dissemination of its results.
+- **Analyst** [GovS 010 section 4.4.7]. The person planning, undertaking and documenting the
+  analysis, including analysts, insight officers, statistical officers, statisticians and data
+  scientists. Accountable to the commissioner for designing, conducting and delivering the analysis,
+  and provides challenge where a request arrives framed as an output.
+- **Critical friend, or analytical assurer** [GovS 010 section 4.4.6, AQuA Book section 5.1].
+  Independent advice on a specific assignment. Two names, one role: *critical friend* is the name
+  NHSBSA uses, *analytical assurer* the term the standards use. Confirms appropriate and sufficient
+  quality assurance has taken place and that the use of the outputs is appropriate. Not delivering
+  the analysis.
+- **Analysis Senior Responsible Officer** [GovS 010 section 6.11]. Assigned for Business Critical analysis and
+  models. Senior enough to take responsibility for the risks across the lifecycle, and may be the
+  commissioner. Confirms the work is suitable for its intended use before it is used. The AQuA Book
+  calls this role the approver.
+
+**A red connector joins the analyst and the critical friend**, labelled "shall be separate, in all
+cases", and a red band below repeats it: that holds at Level 1 as firmly as at Level 3. What changes
+with the level is how far apart the two people sit, not whether there are two of them. [AQuA Book
+chapter 3]
+
+**Then four decisions, each with who owns it and where it goes if you cannot agree.**
+
+| The decision | Decided by | If you cannot agree, it goes to |
+|---|---|---|
+| The assurance level | The commissioner and the analyst, scored together at scoping | The Analytical Quality and Assurance Lead |
+| Whether the analysis is Business Critical | The commissioner decides | The Analytical Quality and Assurance Lead, if unresolved |
+| Whether the analysis is fit for purpose | The critical friend advises | The Head of Profession, if unresolved |
+| Whether there is enough time for the assurance required | The commissioner | The Analytical Quality and Assurance Lead |
+
+**Then the reviewer ladder**, showing how far the reviewer sits from the work at each level. There is
+no level at which nobody independent looks at it. Level 1 Standard: a colleague, within your team.
+Level 2 Enhanced: someone who had no hand in producing the work. Level 3 Comprehensive: an assurer
+from outside the delivering team. Level 4 BCA: a Lead Assurer from outside the delivering team, with
+external review.
+
+**Deadline pressure is not resolved by lowering the level.** It is resolved by narrowing the
+question, or by stating plainly what assurance was not done. Making sure there is enough time and
+resource for the assurance the work needs is a commissioner responsibility, not something the
+analyst absorbs quietly. [AQuA Book section 6.1.1]
+
+**Defining a role is not the same as assigning it.** This section defines the Analytical Quality and
+Assurance Lead, the Head of Profession for Statistics and the senior officer accountable for
+analysis, and says what each is responsible for. Who holds each post is recorded in the governance
+and management framework, so that a change of post holder is not a change to this playbook.
+[Section 13](/guidance/13-getting-help/index.qmd) is how to find out who currently holds each one.
+
+One person may hold more than one role, and on small pieces of work often will. A role may be held
+by a team or a committee rather than by one person, in which case one named individual carries the
+accountability for it. The exception is the analyst and the assurer, who are separate in all cases.
+
+</details>

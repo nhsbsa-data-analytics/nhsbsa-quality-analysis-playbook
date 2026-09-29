@@ -1,0 +1,33 @@
+![](/static/diagrams/22-journey-critical-friend.png){fig-alt="Seven stops down the page for a critical friend, each with the question in your head, the section that answers it, what you do there, and what you leave behind. A yellow band explains why being named before the work starts comes second rather than last, and a dashed line loops from the last stop back to the second. Every stop is set out in the table below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+| Where you are | Section | What you do there | What you leave behind |
+|---|---|---|---|
+| You have been asked to be a critical friend | **Section 3**, roles and responsibilities | You give independent advice on this one assignment. You are not delivering the analysis, and you and the analyst shall be separate from one another in all cases | Nothing recorded yet. What you have is a clear answer on whether you are independent enough to take this on |
+| How far from the work do I have to sit? | **Section 3**, independence | The degree of separation follows the level: a colleague within the team at Level 1, someone with no hand in the work at Level 2, an assurer from outside the delivering team at Level 3, a Lead Assurer with external review at Level 4 BCA | Your name on the design and plan, recorded before the work starts rather than found after it finishes |
+| What am I actually reviewing? | **Section 6**, doing the work, phase 2 | Review the plan, confirm the approach answers the question, confirm the assurance planned is at the right level, and plan your own time for it. An assurance plan with no time in the schedule is a statement of intent | A reviewed assurance plan, and your time in the schedule |
+| What checks am I doing? | **Section 6**, the checks, by level | Read the block for the level and everything inside it. At Level 2 that includes independently reproducing the calculations from source; at Level 3 it includes reading the documentation as a document, not only the numbers | Entries in the quality assurance log against your name, with what you found rather than only that you looked |
+| I have found something | **Section 6**, doing the work, phase 3 | You **shall** review the assurance the analyst has done and report errors and improvements back. Reporting them is yours; acting on them is the analyst's | Findings recorded, and the analyst's response to each one |
+| Has the uncertainty been handled honestly? | **Section 7**, uncertainty | Check the assumptions are traceable to a source, a precedent or a stated expert judgement; that limitations are in the output rather than only in an annex; and that uncertainty is quantified where the method allows | A recorded view on whether the uncertainty is handled adequately |
+| Saying what I assured | **Section 9**, communicating analysis | Communicate the assurance state: that the work was appropriately scoped, executed, validated, verified and documented, and that uncertainty is handled adequately. That is what the statement is for | The quality assurance statement, or your part of it |
+
+**A band across the journey**, after the independence stop: a reviewer found afterwards reviews what
+was produced. A reviewer named beforehand shapes what gets produced, which is considerably more
+useful and usually cheaper. That is why that stop comes second and not seventh.
+
+**Your own checks are the first line, not the last one.** Independence does not mean the analyst
+stops assuring their own work. It means there shall **also** be formal independent assurance. There
+is no level at which nobody independent looks at the work, and no level at which the analyst is
+excused their own checks. [AQuA Book chapter 3]
+
+**Open alongside, at any stop.** [Section 2](/guidance/02-standards-landscape/index.qmd) for what binds the
+work in front of you. [Section 5](/guidance/05-deciding-your-assurance-level/index.qmd) to check the level
+is right, because assuring to the wrong level is a finding in itself.
+[Section 12](/guidance/12-tools-and-templates/index.qmd) for the checklist and the log.
+
+**The dashed line is the loop**, running from the last stop back to the second. What you report back
+is what the next piece of work avoids. [GovS 010 section 6.10]
+
+</details>

@@ -1,8 +1,25 @@
 ---
 title: "About"
+description: "Who maintains this playbook, what it covers, and how to suggest a change."
 title-block-banner: true
 ---
 
-This website has been developed by the NHSBSA to provide guidance for producing quality analyses.
+The NHSBSA Producing Quality Analysis Playbook is maintained by the Data Science, Advanced Analytics
+and Statistics team.
 
+It sets out how analysis is planned, produced, assured and communicated at NHSBSA, and it applies to
+all analysis and datasets: published externally, used for internal decisions, or supplied to
+sponsors and partners.
 
+## Suggesting a change
+
+This playbook is a repository, so a change to it is a pull request like any other.
+[CONTRIBUTE.md](https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook/blob/main/CONTRIBUTE.md)
+explains how to raise something and how to send it, and the pull request template shapes what a
+contributor needs to include. That is the same route the
+[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+uses, so the two behave the same way.
+
+If what you want to raise is not a change to the text, take it to the Data Science, Advanced
+Analytics and Statistics team. [Section 13](guidance/13-getting-help/index.qmd) has the routes for
+everything else.

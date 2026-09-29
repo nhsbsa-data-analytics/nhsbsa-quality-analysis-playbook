@@ -1,0 +1,77 @@
+![](/static/diagrams/16-analytical-lifecycle.png){fig-alt="The analytical lifecycle as five columns read left to right: engagement and scoping, design, analysis, delivery and sign-off, then review. Each column carries who acts, the assurance activity in that phase, what the phase leaves behind, and what has to be true before the work moves on. Dashed arrows run backwards from design to scoping, from analysis to design, and from review to the next scoping. Everything in the picture is set out in the text below it."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+The diagram has five columns, one per phase, read left to right. A blue arrow joins each phase to
+the next. Under each column are four rows: who acts, the assurance activity in that phase, what the
+phase leaves behind, and what has to be true before the work moves on.
+
+**1. Engagement and scoping.** Agree what question is being answered, why, and how much assurance
+the answer needs. *Who acts:* the commissioner and the analyst. The commissioner states the
+decision and the deadline; the analyst clarifies the real question and challenges a request that
+arrives as an output. *Assurance:* purpose and certainty recorded, and the assurance level agreed,
+early enough to shape the method rather than describe it. [GovS 010 section 5.2, AQuA Book section
+6.1.2] *Leaves behind:* the scope and specification, with the assurance level decision sheet
+completed and attached, and the Business Critical answer recorded either way. *Ready to move on
+when:* the commissioner can state the decision, the analyst can state the question in one sentence,
+the Business Critical answer is recorded, and the level is written down.
+
+**2. Design.** Decide how it will be answered, and plan the assurance the level calls for. *Who
+acts:* the analyst, the critical friend and the commissioner. The analyst plans; the critical friend
+reviews the plan and confirms they can do the assurance it asks for; the commissioner approves the
+design. *Assurance:* the design is confirmed as fit for purpose, the assurance the level requires
+becomes a plan with time in the schedule, and the reviewer is named. [GovS 010 section 5.3] *Leaves
+behind:* the design and plan, and the assurance plan, shared with everyone involved, with the
+reviewer named and their time in the schedule. *Ready to move on when:* the critical friend
+confirms the approach answers the question and the assurance planned is at the right level, and the
+commissioner approves the design.
+
+**3. Analysis.** Do the work following the approved design, and check it as you go. *Who acts:* the
+analyst and the critical friend. The analyst verifies and validates; the critical friend reviews
+what the analyst has done and reports errors and improvements back. *Assurance:* verification and
+validation throughout, both proportionate, both documented with the conclusions you drew from them.
+[GovS 010 section 6.6] *Leaves behind:* the quality assurance log and the project record: what was
+checked, when, and what was found, with decisions, deviations from the plan and lessons logged as
+they happen. *Ready to move on when:* the analysis and the checks the plan called for are both
+complete, and both are documented.
+
+**4. Delivery and sign-off.** Communicate the result honestly, and approve it. *Who acts:* the
+analyst, the commissioner and the approver. Who approves depends on the level: you at Level 1, your
+team lead at Level 2, the Head of Profession or Analysis Senior Responsible Officer at Level 3. *Assurance:*
+the quality assurance statement is produced, then sign-off, covering assumptions, uncertainty,
+limitations, and what the results can and cannot be used for. [GovS 010 sections 5.5 and 5.6]
+*Leaves behind:* the output, the statement and the signed-off record, with the project record, log
+and code archived together and linked from the output, and a review date set at Level 3. *Ready to
+move on when:* the approver has reviewed the assurance evidence and signed it off as fit for its
+intended use, and the output is released.
+
+**5. Review.** A stage in its own right, and it repeats. It is [section
+11](/guidance/11-review-and-continuous-improvement/index.qmd), and it happens after the output is released.
+*Who acts:* the commissioner and the analyst. The analyst owns review at Level 1, the commissioner
+above that, with the Analysis Senior Responsible Officer at Levels 3 and 4 BCA. *Assurance:* did it do any
+good, after release: decisions informed, how it is being used, whether it is still useful, and when
+to decommission it. [GovS 010 sections 6.10 and 6.13] *Leaves behind:* the review record and the
+lessons, kept with the project record and recorded where the next analyst will look for them rather
+than in a folder they will not open. *Then:* round again, because what review finds is what the
+next piece of work starts from.
+
+**The band across all five phases** says that assurance runs through every phase. No row is empty,
+and that is the point of it. Checking work only once it is finished tells you it is wrong; it does
+not stop it being wrong.
+
+**Three dashed arrows run backwards.** From design to scoping, labelled "scope revisited as you
+learn more". From analysis to design, labelled "design revisited as you learn more". From review to
+scoping, labelled "lessons checked at the next scoping". Revisiting is normal rather than a sign
+something has gone wrong. What should not change late without a recorded reason is the assurance
+level.
+
+**A dashed box underneath** says that if the analysis is Business Critical, section 8 applies as
+well. The ordinary route above still runs. What is added is the register entry and an Analysis Senior Responsible Officer, both starting at scoping, and Level 4 BCA assurance. Any one impact dimension
+scoring 4 triggers it.
+
+**Review is a stage, not a tidy-up.** It sits after the four phases because it is about the released
+output rather than the work, and it happens more than once. The four phases follow the AQuA Book;
+review answers GovS 010 sections 6.10 and 6.13.
+
+</details>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="17-levels-are-cumulative" name="17 levels are cumulative">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1274" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;What each assurance level requires&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;The levels contain one another. Everything inside a box is required at that level too, so reading the Level 3 block on its own tells you a third of what Level 3 asks for.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="116" width="1720" height="736" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:16px;color:#FFB81C&quot;&gt;Level 4 BCA&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Contains all of the above and adds five checks. Business Critical work only, and section 8 carries the rest of what that means.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="128" width="1052" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:12px&quot;&gt;Reviewed by: A Lead Assurer from outside the delivering team, with external review&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Signed off by the Lead Assurer, then the Analysis Senior Responsible Officer. Register entry required.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1128" y="128" width="620" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;span style=&quot;font-size:11px&quot;&gt;Formal audits&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="764" width="418" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;span style=&quot;font-size:11px&quot;&gt;External review&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="478" y="764" width="418" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;span style=&quot;font-size:11px&quot;&gt;Additional scrutiny of documentation&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="764" width="418" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;span style=&quot;font-size:11px&quot;&gt;Scrutiny of structural and conceptual assumptions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="764" width="418" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;span style=&quot;font-size:11px&quot;&gt;Additional scenario testing &lt;span style=&quot;color:#425563&quot;&gt;(listed at Level 3 and again here)&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="806" width="418" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="68" y="194" width="1664" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;b style=&quot;font-size:16px;color:#005EB8&quot;&gt;Level 3 Comprehensive&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Contains Levels 1 and 2 and adds eight checks. What the step up buys is separation from the team, and published transparency.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="88" y="206" width="996" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;b style=&quot;font-size:12px&quot;&gt;Reviewed by: An assurer from outside the delivering team&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Signed off by the Head of Profession or Analysis Senior Responsible Officer. Statement published with the output. Review date set.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="206" width="620" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;span style=&quot;font-size:11px&quot;&gt;Change control processes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="666" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="&lt;span style=&quot;font-size:11px&quot;&gt;Ethical risks&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="492" y="666" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="&lt;span style=&quot;font-size:11px&quot;&gt;Knowledge sharing&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="666" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;span style=&quot;font-size:11px&quot;&gt;Detailed documentation review&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="666" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;span style=&quot;font-size:11px&quot;&gt;Usability testing&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="708" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="&lt;span style=&quot;font-size:11px&quot;&gt;Automated checks&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="492" y="708" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;span style=&quot;font-size:11px&quot;&gt;Additional scenario testing&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="708" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="&lt;span style=&quot;font-size:11px&quot;&gt;Independent peer review&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="708" width="404" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="96" y="272" width="1608" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="&lt;b style=&quot;font-size:16px;color:#0072C6&quot;&gt;Level 2 Enhanced&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Contains Level 1 and adds nine checks. What the step up buys is separation from the work.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="116" y="284" width="940" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="&lt;b style=&quot;font-size:12px&quot;&gt;Reviewed by: Someone who had no hand in producing the work&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Signed off by your team lead. Reviewer named before the work starts. Quality assurance statement required.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="284" width="620" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;span style=&quot;font-size:11px&quot;&gt;Responsibilities and accountabilities&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="108" y="526" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="&lt;span style=&quot;font-size:11px&quot;&gt;Appropriateness of methodology&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="506" y="526" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;span style=&quot;font-size:11px&quot;&gt;Documentation and audit trails&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="526" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="&lt;span style=&quot;font-size:11px&quot;&gt;Understanding of the impacts of data quality&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1302" y="526" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;span style=&quot;font-size:11px&quot;&gt;Evidence based assumptions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="108" y="568" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="&lt;span style=&quot;font-size:11px&quot;&gt;Code scrutiny&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="506" y="568" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;span style=&quot;font-size:11px&quot;&gt;Validation with stakeholders and subject matter experts&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="568" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="&lt;span style=&quot;font-size:11px&quot;&gt;Sensitivity testing&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1302" y="568" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="&lt;span style=&quot;font-size:11px&quot;&gt;Triangulation and independent validation of results&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="108" y="610" width="390" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="124" y="350" width="1552" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;b style=&quot;font-size:16px;color:#007F3B&quot;&gt;Level 1 Standard&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;The innermost box. Seven checks start here. Produce the analysis well and record enough that someone could re-run it.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="144" y="362" width="884" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="&lt;b style=&quot;font-size:12px&quot;&gt;Reviewed by: A colleague, within your team&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;No formal sign-off beyond you. Quality assurance statement optional.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="362" width="620" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="&lt;span style=&quot;font-size:11px&quot;&gt;Validation of requirements&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="136" y="428" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="&lt;span style=&quot;font-size:11px&quot;&gt;Specification, user guide and notes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="428" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="&lt;span style=&quot;font-size:11px&quot;&gt;Data sources and assumptions clear&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="428" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="&lt;span style=&quot;font-size:11px&quot;&gt;Accuracy of data transformations and calculations&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="428" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="&lt;span style=&quot;font-size:11px&quot;&gt;Methodological correctness&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="136" y="470" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="&lt;span style=&quot;font-size:11px&quot;&gt;Sense checking results&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="&lt;span style=&quot;font-size:11px&quot;&gt;Clarity, accessibility and security of outputs&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="904" y="470" width="376" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="882" width="848" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;A Level is not a tier&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="894" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;A tier is one band of activity. A Level includes every level below it as well as its own. Reading Tier 3 as Level 3 means doing the third band and none of the two beneath it, which is why this playbook uses Level throughout. Section 5 sets the level; this is what it buys you.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="918" width="808" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="882" width="848" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n48" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Why the Level 4 BCA block is short&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="894" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Everything that is true only of Business Critical work, including the register entry, the quality assurance appraisal and the documentation stack, is in section 8 rather than repeated here. If you scored 4 on any impact dimension, do the Level 3 block and then go there.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="918" width="808" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="n50" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1008" width="860" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="n51" value="&lt;b style=&quot;font-size:11px;color:#003087&quot;&gt;How to read this&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1016" width="836" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1038" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n53" value="&lt;span style=&quot;font-size:11px&quot;&gt;The outer box contains the inner ones: its checks are additional, not instead of&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1037" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n54" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1064" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n55" value="&lt;span style=&quot;font-size:11px&quot;&gt;Level 1 Standard, innermost: seven checks start here&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1063" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n56" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1090" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n57" value="&lt;span style=&quot;font-size:11px&quot;&gt;Level 2 Enhanced: nine more, and separation from the work&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1089" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n58" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1116" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n59" value="&lt;span style=&quot;font-size:11px&quot;&gt;Level 3 Comprehensive: eight more, separation from the team, published statement&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1115" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n60" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1142" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n61" value="&lt;span style=&quot;font-size:11px&quot;&gt;Level 4 BCA: five more, Business Critical work only&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1141" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" value="&lt;span style=&quot;font-size:12px&quot;&gt;Twenty-nine checks in all: seven first required at Level 1, nine more at Level 2, eight more at Level 3 and five more at Level 4 BCA. They are NHSBSA's own, from the assurance level decision sheet, and section 6 says what each one means in practice. Your quality assurance log records which you did, when, and what you found. Every check named in the picture is listed in the text description below it.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="912" y="1016" width="848" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n63" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1230" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

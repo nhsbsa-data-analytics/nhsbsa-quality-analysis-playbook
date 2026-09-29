@@ -1,0 +1,60 @@
+![](/static/diagrams/26-uncertainty.png){fig-alt="Two cards name direct and indirect uncertainty. Below them, four cards read left to right as a timeline: agree it at scoping, mine for it at design, record and test it during analysis, communicate it at delivery. Five green cards give the fields of the assumption record. Everything is set out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**Two kinds, and most analysis has both.** **Direct uncertainty** is uncertainty about an estimate
+that can be measured or quantified, and communicated in absolute terms: a standard error, a
+confidence or credible interval, statistical significance. **Indirect uncertainty** is uncertainty
+about the underlying quality of knowledge surrounding an estimate. It is not directly measured but
+inferred, and is usually communicated as caveats, or on a qualitative or ordered scale. Reporting
+only the first, because it is the one with a number attached, is a common and misleading omission.
+
+**Then four moments, read left to right.**
+
+**1. Engagement and scoping: agree how much of it the decision can carry.** Agree with your
+commissioner how certain the answer needs to be, and record the levels of quality and certainty
+required. [GovS 010 section 5.2] An analysis with no agreed margin of error has no threshold to be
+tested against, and a commissioner who was never asked has no grounds for saying an answer is not
+good enough.
+
+**2. Design: mine for it, while you can still design around it.** Mine the planned analysis
+systematically for possible sources and types of uncertainty, to catch any large enough to breach the
+acceptable margin of error. [AQuA Book section 7.4] Identify the sources and consider their impacts.
+Analyse it at the level the decision requires, and no further. Develop options for managing it, and
+take control and mitigation actions. [GovS 010 section 6.5]
+
+**3. Analysis: record it, and test what rests on it.** Record each material assumption with its
+rationale, the impact if wrong, whether sensitivity was tested and who agreed it. Test the
+sensitivity of your key assumptions, planned at design rather than retrofitted. At Level 3
+Comprehensive this is required, and uncertainty is quantified where the method allows.
+
+**4. Delivery and sign-off: say it in a way the reader can act on.** Be quantitative where possible
+and balanced, avoiding unwarranted confidence in a particular option. [GovS 010 section 6.5] Be
+transparent about it, be specific about what exactly is uncertain and why, use plain language, and
+show it in the visualisations, data tables and datasets. Confining it to a quality and methodology
+annex is not enough.
+
+**What to record for each material assumption**, as five fields: *the assumption*, stated plainly so
+someone else can judge it; *rationale*, why it is reasonable; *impact if wrong*, direction and rough
+scale, which is the field people skip and the one that matters; *sensitivity tested*, yes or no, and
+at Level 3 tested where material; *agreed with*, who accepted it and when.
+
+**Uncertainty is not a hedge.** Presented well, a range tells the commissioner whether the analysis
+is decisive. If the decision would be the same at both ends of the plausible range, say so and they
+can proceed with confidence. If it would differ, that is often the most useful finding you have, and
+it may be worth reducing the uncertainty before deciding. Quantified uncertainty makes analysis more
+useful, not less.
+
+**State limitations in terms of use, not method.** Rather than "the data has incomplete coverage for
+two months", write "these figures understate activity in July and August, so they should not be used
+to compare quarters". The most useful sentence in any limitations section is usually "this analysis
+should not be used to...", followed by the specific misuse it cannot support.
+
+**The first moment is the one most often skipped.** GovS 010 asks for the levels of quality and
+certainty required to be agreed and recorded at scoping; the AQuA Book asks analysts at design to
+mine for uncertainty large enough to breach "the acceptable margin of error", which only means
+something if somebody has said what that margin is. Neither is about measuring uncertainty. They are
+about agreeing how much of it the decision can carry, while there is still time to design for it.
+
+</details>

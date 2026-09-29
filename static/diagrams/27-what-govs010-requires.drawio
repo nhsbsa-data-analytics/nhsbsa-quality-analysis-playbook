@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="27-what-govs010-requires" name="27 what govs010 requires">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1108" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;What GovS 010 actually requires of you&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;The standard distinguishes shall, a requirement, from should, a recommendation. Knowing which is which is the difference between a rule and a decision you have to explain.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;The word shall appears eleven times in the whole document. Most of them are not what you might expect.&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="122" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:26px&quot;&gt;1&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;One is the conventions table&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The entry that defines the word itself, rather than requiring anything.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=26;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="148" width="148" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:26px&quot;&gt;7&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;Seven point at a different standard&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Each says that another functional standard is to be followed: GovS 005 Digital, GovS 008 Commercial or GovS 011 Communication.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=26;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="196" y="148" width="1086" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;b style=&quot;font-size:26px&quot;&gt;3&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;Three are substantive&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;These are the requirements GovS 010 places on analysis at NHSBSA, and they are set out below.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=26;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="148" width="461" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;The three substantive requirements, and who each one falls on&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;b style=&quot;font-size:14px&quot;&gt;The principles&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 section 2&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;This one falls on you&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The standard puts them as &quot;those engaged in analysis &lt;b&gt;shall&lt;/b&gt; ensure&quot;. Six principles sit below, and following them is how NHSBSA meets the standard rather than something extra on top.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="316" width="562" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:14px&quot;&gt;A senior officer accountable for analysis&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 section 4.1.3&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;This one falls on the organisation&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;NHSBSA &lt;b&gt;shall&lt;/b&gt; have a senior officer accountable for its analysis activities. §3 is where it is met.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="618" y="316" width="562" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;b style=&quot;font-size:14px&quot;&gt;Roles defined, and assigned&lt;/b&gt; &lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 section 4.4.1&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;This one falls on the organisation&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Analytical roles and accountabilities &lt;b&gt;shall&lt;/b&gt; be defined in the relevant governance and management framework, and assigned to people with appropriate seniority, skills and experience. §3 does both.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="316" width="562" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;The six principles. Five are GovS 010’s own five; the third comes from GovS 010 section 5.5 rather than the principles.&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="498" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;b style=&quot;font-size:13px&quot;&gt;1. Analysis answers the right questions&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 principle 1 and section 5.2&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;A clear, shared understanding of the questions, how they meet user needs, and how certain the answer needs to be.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="524" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;b style=&quot;font-size:13px&quot;&gt;2. Using the right methods&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 principle 2, and the AQuA Book&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Appropriate inputs and methods. Repeatable, independent, grounded in reality, objective, uncertainty understood and managed. That is RIGOUR.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="618" y="524" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;b style=&quot;font-size:13px&quot;&gt;3. At the right time&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 section 5.5&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;In time to be useful, never at the expense of quality assurance. Where time is short, the proportionate answer is a narrower question answered properly.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="524" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="&lt;b style=&quot;font-size:13px&quot;&gt;4. With the right level of quality assurance&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 principle 4&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Proportionate to the impact on the decision and the risks of how the results will be used, with continuous improvement built in.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="644" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="&lt;b style=&quot;font-size:13px&quot;&gt;5. Following the right standards&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 principle 5&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Legal and ethical obligations, public service codes of conduct, and those of your own profession.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="618" y="644" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;b style=&quot;font-size:13px&quot;&gt;6. Presented in the right way&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;GovS 010 principle 3&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Clearly presented, impartial, timely and accessible outputs, clear about context, strengths, limitations and what remains uncertain.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="644" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="776" width="848" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Everything else is a should&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="788" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;That is not permission to skip it. &lt;b&gt;A should you depart from is a decision you have to be able to explain&lt;/b&gt;, which is why this playbook asks you to record the ones you depart from rather than to treat them as optional.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="812" width="808" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="776" width="848" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;So the right decisions are made&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="788" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Good quality analysis can be trusted to support effective decision-making and meet user needs. That is the whole of it, and everything else in this playbook is how. §1 carries the principles in full, with the section that meets each one.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="812" width="808" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="910" width="860" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;b style=&quot;font-size:11px;color:#003087&quot;&gt;How to read this&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="918" width="836" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="940" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;span style=&quot;font-size:11px&quot;&gt;The bar at the top is drawn to scale: eleven uses of the word, split three ways&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="939" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="966" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;span style=&quot;font-size:11px&quot;&gt;Yellow: the three that require something of analysis at NHSBSA&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="965" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="992" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;span style=&quot;font-size:11px&quot;&gt;Blue card: a requirement, or a principle, that falls on you&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="991" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="1018" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="&lt;span style=&quot;font-size:11px&quot;&gt;Green card: a requirement that falls on the organisation, met in §3&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1017" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="&lt;span style=&quot;font-size:12px&quot;&gt;Reading the standard this way matters because a playbook that presents every sentence of GovS 010 as mandatory is one nobody can prioritise, and one that presents none of it that way is one nobody has to follow. Three things are required. One of them is yours, and §3 is where the other two are met. Every card here is written out in the text description below the picture.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="912" y="918" width="848" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1064" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

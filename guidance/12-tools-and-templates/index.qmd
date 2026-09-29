@@ -1,0 +1,126 @@
+---
+title: "Tools, templates and downloads"
+description: "Everything referenced in this playbook, in one place."
+---
+
+Every template, checklist and standard referenced elsewhere in this playbook.
+
+{{< include /guidance/_partials/diagram-documents.qmd >}}
+
+## NHSBSA templates
+
+| Template | Use it for | Where it is described |
+|---|---|---|
+| Analytical project record | Recording scope, data, method, assumptions, uncertainty, decisions and sign-off | [Section 6](../06-doing-the-work/index.qmd) |
+| Quality assurance checklist | The checks required at your assurance level | [Section 6](../06-doing-the-work/index.qmd) |
+| Quality assurance log | Recording checks as you do them, with what you found | [Section 6](../06-doing-the-work/index.qmd) |
+| Quality assurance statement | Telling readers what was done and what the limits are | [Section 9](../09-communicating-analysis/index.qmd) |
+| Assurance level decision sheet | Scoring impact and likelihood to reach your assurance level, and the Business Critical test | [Section 5](../05-deciding-your-assurance-level/index.qmd) |
+
+The templates and the decision sheet are held on the NHSBSA SharePoint, alongside the rest of the
+analytical documentation. **Opening them needs NHSBSA network access.** If you cannot reach them,
+ask the Data Science, Advanced Analytics and Statistics team.
+
+What matters is that a template is **created in place** rather than downloaded: created in place it
+is versioned and can be linked from the output, while one downloaded, filled in and saved somewhere
+is a template nobody can find afterwards. The field lists are the part this playbook owns, so take
+them wherever your team works.
+
+## NHSBSA internal documents
+
+Some of the sources named at the foot of these pages are NHSBSA's own documents rather than
+published standards. They are held on the NHSBSA SharePoint and **need NHSBSA network access**.
+
+| Document | What the playbook uses it for |
+|---|---|
+| Criteria for determining the level of analytical risk v3, 10 September 2026 | The assurance level decision sheet: the impact and likelihood scales, the matrix, and the worked examples. [Section 5](../05-deciding-your-assurance-level/index.qmd) |
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026 | The Business Critical definition, the six criteria, and the documentation stack. [Section 8](../08-business-critical/index.qmd) |
+| NHSBSA Analytical operating model and implementation plan, Summer 2026 | What NHSBSA counts as an analytical output, and the range it covers. [Section 0](../00-how-to-use/index.qmd) |
+| NHSBSA Revisions and Corrections Policy | What counts as a revision and what counts as a correction, and who decides. [Section 9](../09-communicating-analysis/index.qmd) |
+| NHSBSA Statistical Disclosure Control protocol | Thresholds and methods for protecting small counts. [Section 9](../09-communicating-analysis/index.qmd) |
+
+If you cannot reach one of these, ask the Data Science, Advanced Analytics and Statistics team.
+
+## NHSBSA guidance
+
+| Resource | For |
+|---|---|
+| [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) | Version control, testing, peer review, documentation and open sourcing of analytical code |
+| [NHSBSA Data Science Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook) | The workflow for a Data Science initiative, from problem definition to wrap up |
+| [NHSBSA Data Visualisation Standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/) | Charts, tables and dashboards, and how to label them so they can be read |
+| [NHSBSA Open Data Standards](https://github.com/nhsbsa-data-analytics/open-data-standards) | How NHSBSA publishes open data |
+| [Coffee and Coding](https://github.com/nhsbsa-data-analytics/coffee-and-coding) | Monthly hands-on sessions. Materials from every session since 2021 |
+
+## NHSBSA statistics policies
+
+These bind official and national statistics. The behaviour they describe is worth following for any
+published output. [Section 9](../09-communicating-analysis/index.qmd) says where each one bites.
+
+| Policy | For |
+|---|---|
+| NHSBSA Revisions and Corrections Policy | What counts as a revision and what counts as a correction, how errors are graded by consequence, and who decides |
+| NHSBSA Statistical Disclosure Control protocol | Thresholds and methods for protecting small counts in a published output |
+
+## Standards
+
+| Standard | Applies to |
+|---|---|
+| [GovS 010: Analysis](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis) | All government analysis |
+| [The AQuA Book](https://www.gov.uk/guidance/the-aqua-book) | All government analysis, as practical guidance |
+| [Code of Practice for Statistics](https://osr.statisticsauthority.gov.uk/the-code-of-practice-for-statistics/) | Official statistics |
+| [The Green Book](https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government) | Appraisal |
+| [The Magenta Book](https://www.gov.uk/government/publications/the-magenta-book) | Evaluation |
+| [The Orange Book](https://www.gov.uk/government/publications/orange-book) | Risk management |
+| [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html) | Analytical code |
+| [Reproducible Analytical Pipelines, NHS England](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/) | Automating an analysis that is already reproducible |
+
+### The Magenta Book supplementary guides
+
+Where your work is an evaluation rather than an analysis, the Magenta Book has a set of
+supplementary guides. Three are worth naming because they are about quality and competence rather
+than about method:
+
+| Guide | For |
+|---|---|
+| [Quality in qualitative evaluation](https://www.gov.uk/government/publications/the-magenta-book) | A framework for appraising the quality of qualitative evaluation evidence |
+| [Quality in policy impact evaluation](https://www.gov.uk/government/publications/the-magenta-book) | Choosing between impact evaluation designs, and what each one can and cannot attribute |
+| [Government Analytical Evaluation Capabilities Framework](https://www.gov.uk/government/publications/the-magenta-book) | The competences an evaluation team needs, and how to judge whether it has them |
+
+The rest cover realist evaluation, handling complexity, regulatory post-implementation reviews,
+transparency and test and learn.
+
+## AI and algorithmic tools
+
+Applies where your analysis builds on, uses or evaluates an AI system. See the boundary in
+[section 2](../02-standards-landscape/index.qmd).
+
+| Resource | What it is for |
+|---|---|
+| [The Data and AI Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework) | Seven principles, with recommended actions and a self-assessment tool |
+| [AI Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) | Ten principles for building, buying and using AI |
+| [Introduction to AI assurance](https://www.gov.uk/government/publications/introduction-to-ai-assurance) | Assurance mechanisms, and how to measure, evaluate and communicate |
+| [AI Standards Hub](https://aistandardshub.org/ai-standards-search/) | Searchable AI standards, and a training platform with e-learning on AI assurance |
+| [Algorithmic Transparency Recording Standard](https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub) | The record expected where an algorithmic tool informs a decision affecting the public |
+
+## Communicating uncertainty
+
+- [Communicating quality, uncertainty and change, Government Analysis Function](https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/)
+- [Approaches to presenting uncertainty in the statistical system, Office for Statistics Regulation](https://osr.statisticsauthority.gov.uk/wp-content/uploads/sites/3/2022/09/Approaches_to_presenting_uncertainty_in_the_statistical_system.pdf)
+
+## Where NHSBSA analysis is published
+
+| Output | Published at |
+|---|---|
+| Official statistics | [Statistical collections](https://www.nhsbsa.nhs.uk/statistical-collections) |
+| Research and insight | [Data science projects](https://www.nhsbsa.nhs.uk/data-science-projects) |
+| Open datasets | [Open Data Portal](https://opendata.nhsbsa.net/) |
+| Analytical code | [Code repositories](https://www.nhsbsa.nhs.uk/data-and-analytics-code-repositories) |
+
+
+## Where to go next
+
+- [Section 6, doing the work](../06-doing-the-work/index.qmd), which says which of these you need
+  at your assurance level
+- [Section 9, communicating analysis](../09-communicating-analysis/index.qmd), for the quality
+  assurance statement and the worked example of one
+- [Section 13, getting help](../13-getting-help/index.qmd), if what you need is not here

@@ -1,0 +1,46 @@
+![](/static/diagrams/15-assurance-level-decision.png){fig-alt="A four step diagram. Step one scores six impact dimensions, step two scores six likelihood dimensions, step three reads the level off a four by four matrix, step four says what each level asks for. Every combination in the matrix is described in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**Step 1. Score the impact of an error, and take the highest.** The six impact dimensions are
+Decision, Finance, Customers, Legal or compliance, Public visibility and reach, and Reputation.
+Each scores 1 for low or informational, 2 for moderate or operational, 3 for high or
+organisational, and 4 for very high or business critical. Any one dimension at 4 is Business
+Critical: it does not need two, and it carries the analysis to Level 4 whatever the likelihood.
+
+**Step 2. Score the likelihood of an error, and take the highest.** The six likelihood dimensions
+are Data complexity, Analytical complexity, Assumptions and proxies and judgement, Novelty, Manual
+intervention or automated, and Documentation and reproducibility. Each scores 1 for a low risk of
+error up to 4 for very high.
+
+**Step 3. Read the level off the matrix.** The matrix is four impact rows by four likelihood
+columns.
+
+| Impact | Likelihood 1 | Likelihood 2 | Likelihood 3 | Likelihood 4 |
+|---|---|---|---|---|
+| **4** | Level 4 BCA | Level 4 BCA | Level 4 BCA | Level 4 BCA |
+| **3** | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive | Level 3 Comprehensive |
+| **2** | Level 1 Standard | Level 2 Enhanced | Level 2 Enhanced | Level 3 Comprehensive |
+| **1** | Level 1 Standard | Level 1 Standard | Level 1 Standard | Level 2 Enhanced |
+
+Every cell in the top row is Level 4, which is the same rule as step 1.
+
+**Step 4. Do what the level asks.** Level 1 Standard is routine work whose consequences are
+contained. Level 2 Enhanced is work that matters operationally, or is harder to get right. Level 3
+Comprehensive is work that carries organisational consequence. Level 4 BCA is Business Critical,
+where consequences are large and external. Each level adds to the one below it, and section 6
+lists every check and the level at which it is first required.
+
+**What does not, by itself, make analysis Business Critical.** "Publication status, Board
+consideration, Official Statistics designation, media interest, national visibility, FOI
+disclosure, ministerial interest or parliamentary scrutiny do not by themselves justify a Level 4
+score."
+
+**Where NHSBSA has placed its own work**, from the worked examples annex to the decision sheet,
+which the workbook marks as still to be developed. Level 1 Standard: exploratory analysis,
+internal data investigation. Level 2 Enhanced: monthly operational dashboard, team workforce
+planning. Level 3 Comprehensive: Prescription Cost Analysis, Dental Statistics, FOI response,
+Board report, ministerial briefing. Level 4 BCA: funding allocation formula, eligibility model.
+
+</details>

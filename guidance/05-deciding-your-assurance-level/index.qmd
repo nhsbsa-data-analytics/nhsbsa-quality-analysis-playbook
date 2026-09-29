@@ -1,0 +1,253 @@
+---
+title: "Deciding your assurance level"
+description: "Score the impact, score the likelihood, read your assurance level off NHSBSA's decision sheet. Five minutes, at scoping."
+---
+
+*Phase 1, engagement and scoping. [Where this sits in the lifecycle](../04-analytical-lifecycle/index.qmd).*
+
+**All analysis shall be assured.**[^src-aqua-book-chapter-3] How much depends on the work.
+
+This section gives you a way to decide how much, record the decision, and explain it later. It takes
+about five minutes, and you do it **at scoping**, before the design is settled and long before the
+analysis starts.
+
+That timing is the standards' own. The specification you agree with your commissioner defines what
+level of assurance is required, and should state the acceptable level of risk alongside it.[^src-aqua-book-section-6-1-2] GovS 010 asks for the levels of quality and certainty required to be
+recorded at the same point.[^src-govs-010-section-5-2] Design is then where you establish the assurance
+requirements that deliver the level, plan the verification and validation, and plan in enough time
+to carry them out.[^src-aqua-book-section-7-1-2]
+
+## How to use it
+
+1. Open the **Decision sheet**.
+2. Score the **six impact dimensions**, 1 to 4. **Take your highest single score.**
+3. Score the **six likelihood dimensions**, 1 to 4. **Take your highest single score.**
+4. Read your level where the two meet.
+5. Record it in the Scope and in the specification you agree with your commissioner, with the date.
+
+Then go to [section 6, doing the work](../06-doing-the-work/index.qmd) for what your level requires.
+
+{{< include /guidance/_partials/diagram-assurance-level.qmd >}}
+
+## Step 1: score the impact
+
+This step is about **what happens if the analysis is wrong, and who is affected**. It is the AQuA
+Book's factors of business criticality, relevance to the decision and effects on the public[^src-aqua-book-table-3-1], as NHSBSA has written them.
+
+Six dimensions. Score each from 1 to 4, and **take the highest single score, not an average**. Score
+against the descriptions below, not against the dimension name.
+
+| Dimension | 1 low, informational | 2 moderate, operational | 3 high, organisational | 4 very high, business critical |
+|---|---|---|---|---|
+| **Decision**<br><br>What decision does the analysis inform? If it were wrong, what is the highest level of decision that could be adversely affected? | No decision, action, resource allocation, policy, service or performance assessment would be materially affected. Exploratory, informative, or for learning | Day-to-day operational decisions: service management, workforce deployment, scheduling, local resource allocation, performance monitoring, process improvement. Limited in scope and readily reversible | Strategic or organisational decisions. The analysis is a key input to, or critical evidence base for, a major policy, funding, statutory or regulatory decision, and a material error could affect the outcome reached | Major policy, funding, statutory or regulatory decisions that decision makers would be expected to rely on it to determine. Funding allocation methodologies, spending reviews, major business cases, eligibility and entitlement decisions, regulatory decisions, major service transformation |
+| **Finance**<br><br>The maximum credible financial consequence of an error: incorrect expenditure, misallocation, lost income, unrealised savings, remediation costs and associated liabilities | No or negligible consequence. Easily corrected and needing no management intervention. Typically below £25k, or affecting local operational activity only | Local budgeting, workforce planning, operational resource allocation, local contract management, or one programme or service. Manageable within normal management processes. Typically £25k to £500k | Planning, budgeting, commissioning, investment, contracting, workforce or resource-allocation decisions with material financial implications. Typically £500k to £35m, or where the consequences are uncertain but could materially affect service delivery | The analysis determines, or is relied on for, major funding, investment, commissioning, resource-allocation or policy decisions. Typically above £35m, or where it directly informs a major funding decision and the full consequences are not yet known. DHSC defines Business Critical analysis at £40m or more |
+| **Customers**<br><br>The most serious impact on patients', customers' or service users' rights, entitlements, access, experience or outcomes | No direct impact. Consequences limited to internal processes or reporting, including a statistics publication with no direct customer impact | A small number of individuals inconvenienced, delayed, or affected by a communication issue or minor service disruption. No impact on rights, entitlements or access | Larger groups affected, or a meaningful impact on service quality, prioritisation, access, experience or outcomes whatever the number of individuals. Remedial action required | Rights, entitlements, eligibility, access to services, treatment, benefits or statutory obligations affected. Potential for widespread harm, inequity, complaints, legal challenge or loss of public confidence. Benefit payment decisions, fraud and error targeting, funding entitlement calculations |
+| **Legal or compliance**<br><br>The most serious legal, regulatory, governance or compliance consequence that could result | None beyond internal governance. No personal data, confidential information, statutory reporting or legally protected groups involved | A minor breach needing no or minor action to rectify. Correction or clarification, but no mandatory external reporting, enforcement action or material harm | A breach requiring corrective action, investigation or formal reporting. Limited personal data breaches, reporting to governance bodies, regulator notification, the Office for Statistics Regulation, or a substantiated complaint | A major or multiple breach requiring immediate action. Legal challenge, judicial review, discrimination claim, statutory non-compliance, regulatory enforcement, significant financial penalties or serious personal data breaches. Senior management and legal involvement likely |
+| **Public visibility and reach**<br><br>How widely the consequences could be experienced, used, scrutinised or noticed | A small number of individuals or a single team. Errors unlikely to be noticed outside the immediate team. A single manager, a single dental contract or pharmacy | A service, department or programme, or a limited group of external stakeholders. Several departments, several contracts, an ICB or local team. Could attract local scrutiny | Official Statistics, national publications, Board papers, FOI responses, parliamentary questions, ministerial briefings, or other outputs under substantial external scrutiny. Regional or national analysis, or analysis used across organisations | The key evidence base for major policy, funding, regulatory or statutory decisions likely to attract intense public, ministerial, parliamentary, regulatory or media scrutiny, because an error could contribute directly to major public, legal, financial or customer consequences |
+| **Reputation**<br><br>How much damage could be done to confidence in the organisation, the service or the decision-making | Internal only. The project team or immediate stakeholders. Internal working analysis, ad hoc requests, exploratory analysis | Local concern within a department, programme or local organisation. Explanation, correction or reassurance needed, but confidence outside the immediate area is unlikely to be materially affected | Significant national media attention, stakeholder criticism, correction of a published output, or material loss of confidence in NHSBSA's analytical capability. Analysis relied on by multiple teams or organisations | Public trust at risk. A substantial and lasting loss of confidence arising from materially incorrect policy, funding, regulatory or statutory decisions caused by analytical error |
+
+The wording above is the decision sheet's own, shortened to the deciding
+phrases.[^src-decision-sheet]
+
+**Check the sheet for the finance figure in force before you score that dimension.** The thresholds
+are marked "tbc" on the sheet pending alignment with the Standing Financial Instructions, and the
+sheet carries the Department of Health and Social Care's figure of £40 million alongside its own
+£35 million.
+
+::: {.callout-important title="A score of 4 on any one dimension is the Business Critical test" appearance="minimal" icon=false}
+<br>
+Business critical analysis "must meet at least one of the following criteria, these are rated at the
+highest level for impact", and the criteria are these six dimensions.[^src-bca-assurance-journey-s5]
+
+So step 1 answers two questions at once. It is also why the sheet is completed when the Scope is
+finished: everything that follows from a Business Critical designation takes time to arrange.
+:::
+
+::: {.callout-important title="What does not, by itself, justify a score of 4" appearance="minimal" icon=false}
+<br>
+"Level 4 should be reserved for analysis where a material error could directly influence major
+policy, funding, statutory, regulatory or customer-impacting decisions, or cause substantial
+financial, legal or service consequences. Publication status, Board consideration, Official
+Statistics designation, media interest, national visibility, FOI disclosure, ministerial interest or
+parliamentary scrutiny do not by themselves justify a Level 4 score."[^src-decision-sheet-impact-note]
+
+Those things raise how much assurance the work needs. They do not, on their own, make it Business
+Critical, and they are scored under **public visibility and reach** rather than being added on top.
+:::
+
+## Step 2: score the likelihood
+
+This step is about **how easily the analysis could be wrong**. Six dimensions again, 1 to 4, highest
+single score, scored against the descriptions rather than the dimension name.
+
+| Dimension | 1 low | 2 moderate | 3 high | 4 very high |
+|---|---|---|---|---|
+| **Data complexity**<br><br>How difficult is it to obtain, clean, link, validate and prepare the data? Score the most challenging aspect: a small number of datasets can still score higher where substantial cleaning, validation or interpretation is needed | A single, well-understood, structured dataset. Definitions established, minimal cleaning, no linkage, no quality concerns. A monthly activity extract, an existing dashboard source | More than one dataset, straightforward linkage on common identifiers, some quality issues, moderate transformation. Two to five related sources, linking with demographic data | Five or more sources, or complex linkage, competing definitions, extensive cleaning and validation. Patient-level linkage across datasets, probabilistic record linkage, patient journeys, resolving conflicting records or duplicates | Ten or more sources, or major uncertainty about completeness or quality, or novel integration of previously unconnected sources. Cross-sector linkage with no consistent identifiers, large-scale probabilistic matching, unstructured combined with structured data |
+| **Analytical complexity**<br><br>How complex are the calculations, methods, models, algorithms or AI techniques, and how hard is it to turn the business requirement into the right analytical logic? Score the method, not the tools. AI-assisted coding does not by itself raise this score | Descriptive and rule-based. Counts, sums, averages, percentages, rates, ratios, KPIs, cross-tabulations, sorting, filtering, pivot tables, rule-based calculations | Established statistical methods, widely understood and routinely applied. Hypothesis testing, correlation, linear and logistic regression, cohort analysis, key driver analysis, standard forecasting, benchmarking | Advanced methods needing substantial technical expertise to specify, validate and interpret. Predictive models, survival analysis, time series such as ARIMA, causal inference, cluster analysis, machine learning, simulation | Highly specialised methods needing deep methodological expertise. Complex Bayesian hierarchical models, deep learning architectures, advanced optimisation, sophisticated microsimulation, specialist econometric models |
+| **Assumptions and proxies**<br><br>How much relies on assumptions, proxies, expert judgement or counterfactuals? | Minimal. Results are largely direct observations, on explicit and widely accepted assumptions. Different reasonable assumptions would change little. Descriptive statistics, routine reporting, standard indicators on agreed definitions | Limited. Assumptions are required but well established and evidence-based, and unlikely to change the findings. Short-term forecasts from historic trends, standard regression, accepted handling of missing data, published unit costs | Material. Multiple assumptions, methodological choices or projections that need justification and testing, where alternative reasonable assumptions could give meaningfully different estimates or priorities. Sensitivity analysis matters. Long-term forecasts, scenario modelling, complex economic models | Critical. Conclusions highly sensitive to assumptions or expert judgement that cannot be directly observed or robustly validated. Very long-term forecasts, unprecedented situations, sparse evidence, speculative scenarios, novel modelling approaches |
+| **Novelty**<br><br>How familiar are the approach, the subject matter and the context to the analyst and to the organisation? | Established. Existing methods, code, processes, documentation or outputs need little or no adaptation. Routine monthly reporting, repeated analyses, standard dashboards, established contract monitoring, approved AI tools in an established workflow | Adapted. The method is well understood but a new dataset, policy or service area, business context or subject matter needs adaptation. A familiar approach in a new service area, AI-assisted coding introduced into an existing process | Substantially adapted. Substantial methodological development, complex business rules, or combining established approaches in a new way, with no single established approach that fully fits. Complex contractual or payment calculations, new outcome measures, AI as a substantive analytical component | Novel. Limited precedent and significant methodological uncertainty. New methods, frameworks or techniques have to be developed, tested and validated. Experimental techniques, novel AI methodologies, a new statistical framework, a methodology paper |
+| **Manual intervention**<br><br>How much manual work is needed, as against automated and repeatable processes? Score the process as it is now, not as it is planned to become | Highly automated, with little or no manual intervention. A dashboard refreshed from the data warehouse, automated report generation | Some manual steps, but controls and validation keep the effect of an error small. Updating a few assumptions by hand, refreshing spreadsheets through a defined process | A single manual error could materially affect the results. Manual data entry or copy and paste, limited automated validation. Typing figures in each month, manually matching records, copying between spreadsheets | Extensive manual processing, large-scale data entry, reliance on individual knowledge, limited automation. Constructing datasets by hand from multiple reports, a process maintained by one person |
+| **Documentation and reproducibility**<br><br>How easily could another competent analyst reproduce the work and get the same result from the documentation, code and files available? | Fully reproducible, without help from the original analyst. Version-controlled code, documented methodology, clear inputs and outputs, a maintained audit trail, a README or equivalent | Mostly reproducible, with limited clarification or familiarisation, and not dependent on the original analyst. Documented spreadsheets, code stored locally, methodology described in the report, some undocumented business context | Partially reproducible. Important assumptions, transformations, calculations or business rules are insufficiently documented, and reproducing the work would need significant input from the original analyst. Undocumented spreadsheet logic, multiple file versions, weak change control | Not reproducible if the original analyst were unavailable. Documentation, version history and process controls minimal or absent, with critical knowledge held by one person. A single-person workbook, undocumented calculations, no audit trail |
+
+The wording above is the decision sheet's own, shortened to the deciding
+phrases.[^src-decision-sheet]
+
+::: {.callout-note title="Why likelihood, and not a guess at how hard the work feels" appearance="minimal" icon=false}
+<br>
+This is the AQuA Book's reasoning. Business risk is the combination of the potential effect of
+analytical errors and the likelihood of errors occurring.[^src-aqua-book-section-3-2] Step 1 covers the
+effect. Step 2 covers the likelihood, because complex, novel, assumption-heavy, manual or poorly
+documented work is where errors come from.
+
+So when you answer these, the question is not "is this hard" but "how easily could this be wrong".
+
+It also follows that your mitigations act on this step, not on step 1. The effect the analysis will
+have is usually beyond the analyst's control to change, whereas better documentation, less manual
+handling or a tested pipeline can nearly always make an error less likely.[^src-aqua-book-section-3-2]
+You rarely get to change who reads the output or what it decides. You do get to change how likely it
+is to be wrong.
+:::
+
+## Step 3: read your level
+
+| Impact | Likelihood 1 low | 2 moderate | 3 high | 4 very high |
+|---|---|---|---|---|
+| **4 very high** | Level 4 BCA | Level 4 BCA | Level 4 BCA | Level 4 BCA |
+| **3 high** | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive | Level 3 Comprehensive |
+| **2 moderate** | Level 1 Standard | Level 2 Enhanced | Level 2 Enhanced | Level 3 Comprehensive |
+| **1 low** | Level 1 Standard | Level 1 Standard | Level 1 Standard | Level 2 Enhanced |
+
+Two things are worth reading off the top row. **Impact 4 resolves to Level 4 BCA at every
+likelihood**, which is what makes the Business Critical designation a consequence of the impact
+assessment rather than a separate judgement. And **nothing else reaches Level 4**, however likely an
+error is.
+
+::: {.callout-important title="The sheet has a column beside this grid. Use the grid" appearance="minimal" icon=false}
+<br>
+The Decision sheet carries a fifth column next to the matrix, headed *Level of assurance*, giving
+one level per impact row and taking no account of likelihood at all. It disagrees with the matrix in
+**five of the sixteen combinations**, and at impact 3 with likelihood 1 the gap is two whole levels.
+
+**The grid is what the sheet computes.** Its result box reads the four by four matrix and does not
+read that column, so the answer the sheet gives you is the one above.
+
+Whether the column is a label for the impact band or a second result is still being settled. Until
+it is, take your level from where impact and likelihood meet, and if somebody quotes you a different
+level off the same sheet, this is why.
+:::
+
+Assurance at each level builds on the one below rather than replacing it. Work that needs
+independent peer review should still be doing the sense checking and methodological checks that
+lighter work does.[^src-aqua-book-figure-3-1]
+
+## Step 4: what your level means
+
+| Level | What it is for | In one line |
+|---|---|---|
+| **Level 1 Standard** | Low risk analyses, and analyses where there is very limited time to assure | Do it well, write down enough to re-run it, have a colleague check the headline numbers |
+| **Level 2 Enhanced** | Moderate risk analyses, and analyses with very limited time if time permits | Someone who had no hand in the work reviews it, named before you start, with the checks logged |
+| **Level 3 Comprehensive** | High risk analyses | An assurer from outside your team, full verification and validation, and the statement published |
+| **Level 4 BCA** | Very high risk business critical analyses | Everything above, plus formal audit and external review, a register entry and an Analysis Senior Responsible Officer |
+
+::: {.callout-note title="If you have come from the risk framework" appearance="minimal" icon=false}
+<br>
+The Analytical Risk Assessment and Quality Assurance Framework groups quality assurance activity
+into **Tier 1 to Tier 4**, and names them Standard, Enhanced, Comprehensive and Business Critical
+Analysis. Those are the four names on this page, so **Tier 3 is the band of checks a Level 3
+Comprehensive piece of work adds**, and the framework asks for tiers 1 to 3 at that point rather
+than the third band alone.
+
+So the two line up, one for one. A **Level** is a level of assurance that includes every level
+below it. This playbook uses Level throughout, and
+[section 6](../06-doing-the-work/index.qmd) lists every check by the level at which it is first
+required, so what a level includes is on the page rather than something to work out.
+:::
+
+**[Section 6, doing the work](../06-doing-the-work/index.qmd) is the checklist.** It carries the
+sheet's own checks for each level, cumulative, with what each one means in practice.
+[Section 8](/guidance/08-business-critical/index.qmd) covers what Level 4 additionally requires.
+
+::: {.callout-important title="Independence applies at every level" appearance="minimal" icon=false}
+<br>
+There is no level at which nobody independent looks at your work. **The assurer and the analyst
+shall be independent.** What varies is the **degree of separation**, depending on the importance of
+the output and the size and complexity of the analysis.[^src-aqua-book-chapter-3] The two roles shall be
+separate from one another in all cases, whoever else doubles up.[^src-aqua-book-section-5-1]
+
+You still assure your own work at every level. The point is that there shall **also** be formal
+independent assurance.[^src-aqua-book-chapter-3]
+
+Level 1 is not "no assurance". It is separation within your team.
+:::
+
+### Where NHSBSA has already placed its own work
+
+The decision sheet carries an annex of worked examples. It is marked as still to be developed, so
+treat these as the direction of travel rather than as settled rulings, and score your own work
+rather than matching it to the nearest row.
+
+| Level | NHSBSA's examples |
+|---|---|
+| **Level 1 Standard** | Exploratory analysis, internal data investigation |
+| **Level 2 Enhanced** | Monthly operational dashboard, team workforce planning |
+| **Level 3 Comprehensive** | Prescription Cost Analysis, Dental Statistics, FOI response, Board report, ministerial briefing |
+| **Level 4 BCA** | Funding allocation formula, eligibility model, payment methodology, major policy appraisal |
+
+NHSBSA's own worked examples.[^src-decision-sheet-examples]
+
+The third row is the one to read twice. A Board report, an FOI response and a ministerial briefing
+are all at Level 3 Comprehensive rather than Level 4, which is the exclusion above applied:
+visibility raises how much assurance the work needs, and on its own it does not make the analysis
+Business Critical.
+
+Where your work is a model rather than a one-off analysis, it will be one of eight types. The list is on the next page, and placing your own work in it is a check on the six impact dimensions you have just scored.
+
+## Three rules
+
+**1. Your highest single answer wins. Do not average.**
+
+One high-risk answer is enough, because that risk is real however routine the rest of the work is.
+Averaging is how a patient-facing output produced by an experienced team from one clean data source
+comes out as Level 1 Standard.
+
+**2. If in doubt, go up.**
+
+Over-assuring one piece of analysis costs a few hours. Under-assuring a business-critical one does
+not. Where two answers both look defensible, take the higher.
+
+**3. Set the level at scoping and record it. Changing it later needs a note.**
+
+A level chosen before the work starts is a judgement about the work. One chosen afterwards is a
+description of what happened to be done. Only the first is assurance, and only the first can be
+explained to somebody six months later.
+
+It has to be early enough to shape the design, not just to describe it. A level agreed once the
+method is chosen cannot change the method.
+
+If circumstances genuinely change, change the level and record why. **Reuse is the commonest
+legitimate reason.** A one-off that becomes a monthly production run is a different piece of work,
+which is why step 2 asks about reuse.
+
+## Where to go next
+
+- **[After you have your level](after-you-have-your-level.qmd)**, which is the rest of this
+  section: what to do when somebody disagrees with the level, what to do when there is not enough
+  time to deliver it, what changes if the work is Business Critical, how to record the decision,
+  and why the sheet is built this way
+- [Section 6, doing the work](../06-doing-the-work/index.qmd), which is what your level asks of
+  you. This is the next step for almost everybody
+- [Section 8, Business Critical analysis](../08-business-critical/index.qmd), if you scored 4 on
+  any impact dimension
+
+[^src-aqua-book-chapter-3]: AQuA Book chapter 3
+[^src-aqua-book-section-6-1-2]: AQuA Book section 6.1.2
+[^src-govs-010-section-5-2]: GovS 010 section 5.2
+[^src-aqua-book-section-7-1-2]: AQuA Book section 7.1.2
+[^src-aqua-book-table-3-1]: AQuA Book table 3-1
+[^src-bca-assurance-journey-s5]: NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 5
+[^src-decision-sheet-impact-note]: Criteria for determining the level of analytical risk v3, 10 September 2026, Decision sheet, note to the impact scale
+[^src-aqua-book-section-3-2]: AQuA Book section 3.2
+[^src-aqua-book-figure-3-1]: AQuA Book figure 3-1
+[^src-aqua-book-section-5-1]: AQuA Book section 5.1
+[^src-decision-sheet]: Criteria for determining the level of analytical risk v3, 10 September 2026, Decision sheet
+[^src-decision-sheet-examples]: Criteria for determining the level of analytical risk v3, 10 September 2026, worked examples annex

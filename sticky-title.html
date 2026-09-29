@@ -1,0 +1,24 @@
+<script>
+  // How far down the fixed navigation bar reaches. Quarto measures the same thing in JavaScript
+  // to place the sticky sidebars, and writes it as an inline `top` rather than as anything CSS
+  // can read, so this measures it once more and publishes it as a custom property. Everything
+  // that has to sit below the bar then follows one number, and follows it through a resize and
+  // through the navbar wrapping onto a second line at narrower widths.
+  (function () {
+    var root = document.documentElement;
+    function measure() {
+      var header = document.querySelector('#quarto-header');
+      var title = document.querySelector('#title-block-header.quarto-title-block');
+      var h = header ? Math.round(header.getBoundingClientRect().height) : 0;
+      // The pinned title block's own height, taken while it is still in its resting place so
+      // the measurement cannot compound.
+      var t = title ? Math.round(title.getBoundingClientRect().height) : 0;
+      root.style.setProperty('--pb-header', h + 'px');
+      root.style.setProperty('--pb-pinned', (h + t) + 'px');
+    }
+    measure();
+    addEventListener('resize', measure);
+    // Fonts land after first paint and change the height of both bars.
+    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(measure); }
+  })();
+</script>

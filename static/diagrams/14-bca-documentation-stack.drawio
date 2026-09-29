@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="the-bca-documentation-stack" name="The BCA documentation stack">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1168" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n3" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n5" target="n8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8" target="n11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n11" target="n14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n14" target="n17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n17" target="n20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n20" target="n23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n23" target="n26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n26" target="n29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.08;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n29" target="n32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;What a Business Critical analysis has to carry, and who carries it&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;Eleven documents, in the order NHSBSA recommends completing them. From Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026. For an existing analysis, start by reviewing what exists, find the gaps, and fill them before going on.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b style=&quot;font-size:13px&quot;&gt;1&amp;nbsp;&amp;nbsp;Analytical plan&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The question, the purpose, why the decision matters, the commissioner, the dates&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:10px&quot;&gt;Team&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="174" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:13px&quot;&gt;2&amp;nbsp;&amp;nbsp;Scope&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The decisions it supports, inputs and outputs, boundaries and limitations, resources, principal risks&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="238" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="262" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;b style=&quot;font-size:13px&quot;&gt;3&amp;nbsp;&amp;nbsp;Assurance level decision sheet&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Whether it meets the requirements of business critical analysis. Saved and attached to the Specification&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="326" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:10px&quot;&gt;Commissioner + Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:13px&quot;&gt;4&amp;nbsp;&amp;nbsp;Specification&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Calculations, assumptions, expected accuracy, and the testing that shows it meets its purpose&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="414" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="438" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;b style=&quot;font-size:13px&quot;&gt;5&amp;nbsp;&amp;nbsp;Quality assurance plan&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The register of assurance actions: owner, priority, progress, target date, tied to appraisal reference codes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="502" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="526" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;b style=&quot;font-size:13px&quot;&gt;6&amp;nbsp;&amp;nbsp;QA appraisal, basic information&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Model name, ID and contact; and the four named owners every BCA has&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="614" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;b style=&quot;font-size:13px&quot;&gt;7&amp;nbsp;&amp;nbsp;The analysis or model itself&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;No template, because models differ. The Model Guidance Document instead. Fills the data, assumptions and risk registers&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="678" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="702" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="&lt;b style=&quot;font-size:13px&quot;&gt;8&amp;nbsp;&amp;nbsp;Technical guide&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Enough for someone with no prior knowledge to take over its operation and development&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="766" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="790" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="&lt;b style=&quot;font-size:13px&quot;&gt;9&amp;nbsp;&amp;nbsp;User guide&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Enough for a new team member to run it and produce the expected outputs&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="854" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Analyst&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="878" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;b style=&quot;font-size:13px&quot;&gt;10&amp;nbsp;&amp;nbsp;QA appraisal, assurance review&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Six worksheets scored, with a reason for each rating and the actions it raises&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="942" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Assurer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="966" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="&lt;b style=&quot;font-size:13px&quot;&gt;11&amp;nbsp;&amp;nbsp;Quality assurance sign-off&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The Assurance Report worksheet: what was reviewed, the statement, the risks, and the approval&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1030" width="700" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="&lt;b style=&quot;font-size:10px&quot;&gt;Lead Assurer, then MSRO&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1054" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;Owns it&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="126" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="&lt;b style=&quot;font-size:12px;color:#003087&quot;&gt;The stack, in the order the guidance recommends&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="126" width="700" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="150" width="760" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;The four owners every BCA names&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="162" width="716" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;Analysis Senior Responsible Officer.&lt;/b&gt; Signs the approval statement that the model is fit for purpose and approved for use.&lt;br&gt;&lt;b&gt;Lead Assurer.&lt;/b&gt; Owns the assurance review and the review statement.&lt;br&gt;&lt;b&gt;Lead Analyst.&lt;/b&gt; Owns the scope, the specification, the model and both guides.&lt;br&gt;&lt;b&gt;Commissioner.&lt;/b&gt; Knows what the analysis is for and what depends on it.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="186" width="716" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Recorded on the Named Owners worksheet at step 6, and explained in the guidance’s appendix A.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="270" width="716" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="324" width="760" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;One workbook, three stages&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="336" width="716" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="&lt;span style=&quot;font-size:12px&quot;&gt;The QA appraisal is twelve worksheets completed at three points in the life of the analysis, not in one sitting.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="358" width="716" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="&lt;b style=&quot;font-size:11px&quot;&gt;Basic information&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;At step 6, as soon as the model has a name&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="396" width="228" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="&lt;b style=&quot;font-size:11px&quot;&gt;Analysis or model review&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;While the model is built and tested&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="396" width="228" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="&lt;b style=&quot;font-size:11px&quot;&gt;Assurance review&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;At step 10, by the Lead Assurer with the analyst&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1502" y="396" width="228" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="&lt;b style=&quot;font-size:12px;color:#003087&quot;&gt;The assurance review scores six areas&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="460" width="716" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n48" value="&lt;span style=&quot;font-size:12px&quot;&gt;Documentation&amp;nbsp;·&amp;nbsp;Governance and oversight&amp;nbsp;·&amp;nbsp;Structure and clarity&amp;nbsp;·&amp;nbsp;Data and assumptions&amp;nbsp;·&amp;nbsp;Verification&amp;nbsp;·&amp;nbsp;Validation. Outputs is still to be defined.&lt;br&gt;Every requirement has a reference code, so a QA plan action can be traced back to the criterion that raised it. The Scope Document is D1.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="482" width="716" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" value="&lt;b style=&quot;font-size:11px&quot;&gt;Must&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size:11px&quot;&gt;essential, to address a significant risk, issue or control weakness&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="552" width="716" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n50" value="&lt;b style=&quot;font-size:11px&quot;&gt;Should&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size:11px&quot;&gt;recommended, to improve quality, robustness or assurance&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="569" width="716" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n51" value="&lt;b style=&quot;font-size:11px&quot;&gt;Could&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size:11px&quot;&gt;additional benefit, but not needed for an acceptable level&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="586" width="716" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="630" width="760" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n53" value="&lt;b style=&quot;font-size:13px;color:#007F3B&quot;&gt;Sign-off is not the end of it&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="642" width="716" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n54" value="&lt;span style=&quot;font-size:12px&quot;&gt;The quality assurance process continues after an analysis is judged fit for purpose: that it is used as intended with its caveats, that errors are logged, that improvements are recorded, and that data and assumptions are kept current through scheduled reviews.&lt;br&gt;&lt;br&gt;&lt;b&gt;Any material change triggers a review of the documentation and of the assurance requirements&lt;/b&gt;, proportionate to the change. Scope, specification, both guides, the appraisal and the QA plan are all in scope of that review.&lt;br&gt;&lt;br&gt;Reviews also capture lessons, user feedback and opportunities, which feed the next cycle.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="664" width="716" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="n55" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="864" width="760" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="n56" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Where the stack lives, and what it is called&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="876" width="716" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n57" value="&lt;span style=&quot;font-size:12px&quot;&gt;All analytical documentation is held centrally by the &lt;b&gt;Quality and Assurance Team&lt;/b&gt;, which is the authoritative source and maintains the NHSBSA register of analytical models. Analysts may keep working copies locally, but each new production version of the model goes to the team as it is released.&lt;br&gt;&lt;br&gt;&lt;b&gt;Name every file type first, analysis second&lt;/b&gt;, so the stack can be recognised at a glance: Scope_Specification_AnalysisName, User_Guide_AnalysisName.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="898" width="716" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="n58" value="&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Quality assurance is rarely linear. A review that raises a question about the method sends you back to the technical guide, the specification or the scope, and that is the process working rather than failing.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1062" width="760" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n59" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1124" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

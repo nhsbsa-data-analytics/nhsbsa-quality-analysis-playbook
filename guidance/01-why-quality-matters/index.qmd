@@ -1,0 +1,157 @@
+---
+title: "Why analytical quality matters at NHSBSA"
+description: "The principles this playbook rests on, and what goes wrong when quality is assumed rather than assured."
+---
+
+NHSBSA analysis informs how public money is spent, how services are run, and what the public is told.
+When it is right, nobody notices. When it is wrong, the cost lands somewhere else and usually later.
+
+## The principles
+
+Six of them. Five are GovS 010's own, which means following them is how NHSBSA meets the standard
+rather than something extra on top.[^src-govs-010-section-2] The clause each one answers to is named
+beneath it, so you can see which are the standard's and which are NHSBSA's.
+
+::: {.callout-note title="The principles are the mandatory part of GovS 010" appearance="minimal" icon=false}
+<br>
+GovS 010 distinguishes **shall**, a requirement, from **should**, a recommendation. The word *shall*
+appears eleven times in the whole document. One of the eleven is the conventions table defining it,
+and seven of the remaining ten say that a different functional standard is to be followed: GovS 005
+Digital, GovS 008 Commercial or GovS 011 Communication.
+
+**That leaves three substantive requirements.** The six principles below, which the standard puts as
+"those engaged in analysis shall ensure"[^src-govs-010-section-2]; NHSBSA having a senior officer
+accountable for its analysis activities[^src-govs-010-section-4-1-3]; and analytical roles and
+accountabilities being defined in the governance framework and assigned to people with appropriate
+seniority, skills and experience[^src-govs-010-section-4-4-1]. The first falls on you. The other two
+fall on the organisation, and [section 3](../03-roles-and-responsibilities/index.qmd) is where they
+are met.
+
+Everything else the standard asks for is a *should*. That is not permission to skip it. A *should*
+you depart from is a decision you have to be able to explain, which is why this playbook asks you
+to record the ones you depart from rather than to treat them as optional.
+:::
+
+{{< include /guidance/_partials/diagram-govs010.qmd >}}
+
+### 1. Analysis answers the right questions
+
+There should be a clear, shared understanding of the questions to be answered, how they meet user
+needs, and **how certain the answer needs to be**. Analysis should be for the public good and aligned
+to government policy and organisational objectives.
+
+*GovS 010 principle 1 and section 5.2. See [section 4](../04-analytical-lifecycle/index.qmd),
+phase 1.*
+
+### 2. Using the right methods
+
+Analysis uses appropriate inputs and methods to produce high quality results. It should be
+repeatable, independent, grounded in reality, objective, with
+[uncertainty](../07-uncertainty/index.qmd) understood and managed, and it should answer the original
+question robustly. That is **RIGOUR**, set out in full in
+[section 2](../02-standards-landscape/index.qmd).
+
+*GovS 010 principle 2, and the AQuA Book. See [section 6](../06-doing-the-work/index.qmd).*
+
+### 3. At the right time
+
+Analysis is provided in time to be useful. **That is never at the expense of quality assurance.**
+Where time is genuinely short, the proportionate answer is a narrower question answered properly.
+
+*GovS 010 section 5.5. See [section 5](../05-deciding-your-assurance-level/index.qmd).*
+
+### 4. With the right level of quality assurance
+
+Quality assurance **and continuous improvement** are built into the way analysis is carried out.
+Assurance is proportionate to the impact of the results on the decision and to the risks of how they
+will be used, and what a review finds goes into the next piece of work.
+
+*GovS 010 principle 4. See [section 5](../05-deciding-your-assurance-level/index.qmd) for the level
+and [section 11](../11-review-and-continuous-improvement/index.qmd) for the improvement.*
+
+### 5. Following the right standards
+
+Analysis is undertaken in line with legal and ethical obligations, with public service codes of
+conduct, and with those of your own profession.
+
+*GovS 010 principle 5. See [section 2](../02-standards-landscape/index.qmd) for the standards and
+[section 10](../10-ethics-and-transparency/index.qmd) for the ethics.*
+
+### 6. Presented in the right way
+
+Analysis supports effective decision-making and meets user needs through clearly presented,
+impartial, timely and accessible outputs. That includes being clear about context, strengths,
+limitations, and **what remains uncertain, stated plainly enough to act on**.
+
+*GovS 010 principle 3. See [section 9](../09-communicating-analysis/index.qmd) and
+[section 7](../07-uncertainty/index.qmd).*
+
+**So the right decisions are made.** Good quality analysis can be trusted to support effective
+decision-making and meet user needs. That is the whole of it, and everything else in this playbook
+is how.
+
+::: {.callout-important title="Uncertainty is agreed, not just reported" appearance="minimal" icon=false}
+<br>
+**An analysis with no agreed margin of error has no threshold to be tested against**, and a
+commissioner who has not been asked how certain the answer needs to be has no grounds for saying an
+answer is not good enough.
+
+Agree it at scoping, record it in the analytical plan, design against it, and say at the end what is
+still uncertain. [Section 7](../07-uncertainty/index.qmd) is how you measure it.
+[Section 4](../04-analytical-lifecycle/index.qmd) is where you agree it.
+
+Three sources ask for the agreement rather than the measurement. GovS 010 asks for the levels of
+quality and certainty required to be agreed and recorded at scoping.[^src-govs-010-section-5-2] The AQuA
+Book asks analysts at design stage to mine the planned analysis systematically for sources of
+uncertainty large enough to breach "the acceptable margin of error", which only means something if
+somebody has said what that margin is.[^src-aqua-book-section-7-4] And the
+[Uncertainty Toolkit for Analysts](https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/)
+gives its whole second chapter to jointly agreeing how uncertainty should be used, before the
+analysis is designed. **None of the three is about measuring uncertainty.** They are about agreeing
+how much of it the decision can carry, while there is still time to design for it.
+
+Techniques for quantifying uncertainty will keep changing. The agreement will not, which is why it
+sits in the principles rather than in a method.
+:::
+
+## What goes wrong when quality is assumed
+
+Poor analytical quality rarely announces itself. It shows up in recognisable ways:
+
+**The number outlives its caveat.** A figure is quoted in a paper. The caveat that qualified it sat
+in an annex and did not travel. A decision is taken on a number that meant something narrower than
+the reader thought.
+
+**The one-off becomes production.** Work built quickly for a single question turns out to be useful
+and is rerun for months. Nobody re-assesses anything, because no single moment felt like a decision.
+
+**Assurance is done but not recorded.** Somebody checked. Nobody can now say what they checked, when,
+or what they found. The work cannot be defended, and a practice area cannot be evidenced as
+compliant.
+
+**Effort goes to the wrong place.** Low-risk work is over-engineered because that is the only
+standard anyone has articulated, while high-risk work is thin because it arrived with a deadline.
+
+Each of these is a process failure rather than a competence failure, and each is what this playbook
+exists to prevent.
+
+## What NHSBSA has committed to
+
+NHSBSA has committed to being a data-driven organisation through its Strategy and Data Strategy, and
+to compliance with the government functional standards that apply to it, including GovS 010.
+
+That commitment is what this playbook implements. GovS 010 asks for the levels of quality and
+certainty required of analysis to be agreed and recorded, for the checks that deliver them to be
+proportionate to the risk, and for someone to be accountable for each piece of analysis. Sections 5,
+6 and 3 are those three things written down.
+
+## Where to go next
+
+- [Section 2, the standards landscape](../02-standards-landscape/index.qmd)
+- [Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd)
+
+[^src-govs-010-section-2]: GovS 010 section 2
+[^src-govs-010-section-4-1-3]: GovS 010 section 4.1.3
+[^src-govs-010-section-4-4-1]: GovS 010 section 4.4.1
+[^src-govs-010-section-5-2]: GovS 010 section 5.2
+[^src-aqua-book-section-7-4]: AQuA Book section 7.4

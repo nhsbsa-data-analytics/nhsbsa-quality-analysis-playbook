@@ -1,0 +1,34 @@
+![](/static/diagrams/20-journey-analyst.png){fig-alt="Nine stops down the page for an analyst, each with the question in your head, the section that answers it, what you do there, and what you leave behind. A yellow band marks the Business Critical branch, and a dashed line loops from the last stop back to the second. Every stop is set out in the table below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+| Where you are | Section | What you do there | What you leave behind |
+|---|---|---|---|
+| You have been asked to do a piece of analysis | **Section 0**, how to use this playbook | Take the short path: decide your assurance level, then find what it requires. Five minutes and one page. Everything else exists for when you need it | Nothing recorded yet. What you have is the two things you actually need, rather than fifteen sections to read first |
+| Is this the question they meant to ask? | **Section 4**, the analytical lifecycle, phase 1 | Agree the decision the analysis supports, the question, what is out of scope and the deadline. If the request arrives framed as an output, reframe it as a question. Providing that challenge is expected of you | The scope and specification, with the question in one sentence and the record of the conversation that got you there |
+| How much assurance does this need? | **Section 5**, deciding your assurance level | Score six impact dimensions and six likelihood dimensions with your commissioner, take the highest of each, and read the level off the matrix. About five minutes, at scoping and not later | The completed assurance level decision sheet, attached to the specification, with the Business Critical answer recorded either way |
+| What do I actually have to do? | **Section 6**, doing the work | Read the block for your level and the blocks inside it. The checks are cumulative: your level does everything the levels below it do and adds its own. Name your reviewer before you start | The quality assurance checklist for your level, and a named reviewer with time in the schedule rather than a promise of one |
+| What do I not know, and how much does it matter? | **Section 7**, uncertainty | Find the principal sources while there is still time to design for them, and agree with your commissioner how certain the answer needs to be. An analysis with no agreed margin of error has no threshold to be tested against | Assumptions listed with their rationale and the effect if wrong, and the uncertainty section of the project record |
+| Someone independent needs to check this | **Section 6**, doing the work, phase 3 | Do your own verification and validation first, then hand it to the critical friend named at design. Their findings are yours to act on. Your own checks are the first line, not the last one | The quality assurance log: what was checked, when, and what was found. A checklist shows somebody knew what to do; a log shows they did it |
+| How do I write this up without overclaiming? | **Section 9**, communicating analysis | State the caveats in the output itself, not only in an annex, and produce the quality assurance statement your level requires. Say what the results can and cannot be used for | The output and the quality assurance statement, published with it at Level 3 |
+| Is any of this ethically or legally loaded? | **Section 10**, ethics and transparency | Check the position on the Data and AI Ethics Framework, on personal data, and on whether an algorithmic tool informs a decision affecting the public. Ask information governance before the work starts, not at sign-off | The ethics position recorded, and an Algorithm Transparency Recording Standard entry drafted where one is needed |
+| It is out. Now what? | **Section 11**, review and continuous improvement | Review is a stage, not a tidy-up. Did the analysis inform the decision, is it still being used, is it still right, and should it be decommissioned? At Level 1 this one is yours to own | The review record and the lessons, recorded where the next analyst will look for them rather than in a document nobody opens |
+
+**A band across the journey**, after the assurance level stop: any one impact dimension scored 4
+makes the work Business Critical. That brings Level 4 BCA, a register entry and a named Analysis Senior Responsible Officer, all starting at scoping.
+[Section 8](/guidance/08-business-critical/index.qmd) is the route in nine steps, and everything else on the
+journey still applies.
+
+**Open alongside, at any stop.** [Section 2](/guidance/02-standards-landscape/index.qmd) for which standards
+bind this piece of work. [Section 3](/guidance/03-roles-and-responsibilities/index.qmd) for who owns a
+decision you are stuck on, and where it goes if you cannot agree.
+[Section 12](/guidance/12-tools-and-templates/index.qmd) for the template you need.
+[Section 13](/guidance/13-getting-help/index.qmd) for the person you need.
+
+**The dashed line is the loop**, running from the last stop back to the second. What you record at
+the last stop is what the next piece of work starts from, which is what GovS 010 section 6.10 asks
+for: lessons captured through the cycle, evaluated, and acted on at the start of the next piece of
+work.
+
+</details>

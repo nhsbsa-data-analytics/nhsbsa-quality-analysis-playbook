@@ -1,0 +1,76 @@
+---
+title: "Appendices"
+description: "Glossary, change log, accessibility, and how this playbook maps to the standards."
+---
+
+## A1. Glossary
+
+| Term | Meaning |
+|---|---|
+| **Analyst** | The person planning, undertaking and documenting the analysis |
+| **Assurance level** | The proportionate amount of quality assurance a piece of analysis needs. Level 1 Standard, Level 2 Enhanced, Level 3 Comprehensive or Level 4 BCA, read from the assurance level decision sheet |
+| **Business Critical** | Analysis or a model whose failure would have consequences at organisational scale. Registered, and assured at Level 4 BCA |
+| **Commissioner** | The person requesting the analysis, who owns the decision it supports |
+| **Critical friend, analytical assurer** | Two names for one role. The person providing independent advice who confirms the analysis is fit for purpose, and who is not delivering it. *Critical friend* is the name NHSBSA's playbooks use; *analytical assurer* is the standards' term, at GovS 010 4.4.6 and AQuA Book 5.1. See [section 3](../03-roles-and-responsibilities/index.qmd) |
+| **Assurance level decision sheet** | NHSBSA’s scoring tool: six impact dimensions against six likelihood dimensions, read on a four by four matrix. Taught in [section 5](../05-deciding-your-assurance-level/index.qmd), and the workbook is held on the NHSBSA SharePoint, which needs NHSBSA network access |
+| **Direct uncertainty** | Uncertainty about an estimate that can be measured or quantified |
+| **Indirect uncertainty** | Uncertainty about the underlying quality of knowledge surrounding an estimate |
+| **Official statistics** | Statistics produced under the Statistics and Registration Service Act, governed by the Code of Practice for Statistics |
+| **Quality assurance log** | The record of checks carried out, when, by whom, and what was found |
+| **Quality assurance statement** | The published or recorded account of what was done to make analysis trustworthy, and what its limits are |
+| **RIGOUR** | Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, Robust |
+| **Analysis Senior Responsible Officer** | The named person accountable for Business Critical analysis or a model across its lifecycle, who confirms it is suitable for its intended use before it is used. Other documents call the same role the Model Senior Responsible Officer, the Senior Responsible Owner or the approver. See [section 3](../03-roles-and-responsibilities/index.qmd) |
+| **Verification** | Confirming the analysis was conducted properly |
+| **Validation** | Confirming the right type of analysis was used |
+
+## A2. How this playbook maps to GovS 010
+
+| GovS 010 | Covered in |
+|---|---|
+| 2. Principles | [Section 1](../01-why-quality-matters/index.qmd) |
+| 4.1 Governance and management framework | [Section 3](../03-roles-and-responsibilities/index.qmd) |
+| 4.2 Assurance of analysis | [Section 5](../05-deciding-your-assurance-level/index.qmd) and [section 6](../06-doing-the-work/index.qmd) |
+| 4.3 Decision making | [Section 3](../03-roles-and-responsibilities/index.qmd) |
+| 4.4 Roles and accountabilities | [Section 3](../03-roles-and-responsibilities/index.qmd) |
+| 5. The analytical cycle | [Section 4](../04-analytical-lifecycle/index.qmd) |
+| 6.2 Public interest | [Section 1](../01-why-quality-matters/index.qmd) |
+| 6.3 Inputs and methods | [Section 6](../06-doing-the-work/index.qmd) |
+| 6.4 Supporting decision-making | [Section 9](../09-communicating-analysis/index.qmd) |
+| 6.5 Uncertainty | [Section 7](../07-uncertainty/index.qmd) |
+| 6.6 Verification and validation | [Section 6](../06-doing-the-work/index.qmd) |
+| 6.7 Documentation and record keeping | [Section 6](../06-doing-the-work/index.qmd) |
+| 6.8 Quality assurance | [Section 5](../05-deciding-your-assurance-level/index.qmd) and [section 6](../06-doing-the-work/index.qmd) |
+| 6.9 Collaborative working | [Section 13](../13-getting-help/index.qmd) |
+| 6.10 Learning from experience | [Section 11](../11-review-and-continuous-improvement/index.qmd) |
+| 6.11 Analytical models | [Section 5](../05-deciding-your-assurance-level/index.qmd) and [section 8](../08-business-critical/index.qmd) |
+| 6.12 Statistics | [Section 2](../02-standards-landscape/index.qmd) |
+| 6.13 Appraisal and evaluation | [Section 2](../02-standards-landscape/index.qmd) and [section 11](../11-review-and-continuous-improvement/index.qmd) |
+| 6.14 Personal data | [Section 10](../10-ethics-and-transparency/index.qmd) |
+
+## A3. How this playbook maps to Code of Practice 3.0
+
+Applies to official statistics. See [section 2](../02-standards-landscape/index.qmd).
+
+| Standard | Covered in |
+|---|---|
+| 1. Show integrity | [Section 1](../01-why-quality-matters/index.qmd) and [section 10](../10-ethics-and-transparency/index.qmd) |
+| 2. Lead responsibly | [Section 3](../03-roles-and-responsibilities/index.qmd) |
+| 3. Be transparent | [Section 9](../09-communicating-analysis/index.qmd) |
+| 4. Manage data responsibly | [Section 10](../10-ethics-and-transparency/index.qmd) |
+| 5. Prioritise quality | The playbook as a whole |
+| 6. Be rigorous | [Section 5](../05-deciding-your-assurance-level/index.qmd) and [section 6](../06-doing-the-work/index.qmd) |
+| 7. Be open about quality | [Section 7](../07-uncertainty/index.qmd) and [section 9](../09-communicating-analysis/index.qmd) |
+| 8. Be relevant | [Section 4](../04-analytical-lifecycle/index.qmd) and [section 11](../11-review-and-continuous-improvement/index.qmd) |
+| 9. Be clear | [Section 9](../09-communicating-analysis/index.qmd) and [section 11](../11-review-and-continuous-improvement/index.qmd) |
+| 10. Be accessible | [Section 9](../09-communicating-analysis/index.qmd) and [section 11](../11-review-and-continuous-improvement/index.qmd) |
+
+## A4. Change log
+
+| Version | Date | Change |
+|---|---|---|
+| 2.0 | 15 October 2026 | **The refreshed playbook, approved by NHSBSA.** Rebuilt around the AQuA Book's analytical lifecycle, with a scored assurance level, the checks each level requires, a route for Business Critical analysis, and sections on uncertainty, communicating analysis, ethics and transparency, and review. Aligned to GovS 010, the Code of Practice for Statistics 3.0 and the Data and AI Ethics Framework. |
+| 1.0 | 11 June 2026 | **The playbook as it stood before the refresh**, published on NHSBSA's GitHub. Seventeen pages covering principles, the analytical cycle and responsibilities. It carried no version number of its own, and 1.0 is the number this log gives it so that what came before has a name. |
+
+## A5. Accessibility
+
+See the [accessibility statement](../../accessibility.qmd).

@@ -1,0 +1,133 @@
+---
+title: "Uncertainty, assumptions and limitations"
+description: "Identifying what you do not know, recording it, and saying so honestly."
+---
+
+*Phases 2 and 3, design and analysis. [Where this sits in the
+lifecycle](../04-analytical-lifecycle/index.qmd).*
+
+All analysis is uncertain. The question is never whether uncertainty exists, but whether you have
+identified it, managed it, and told the reader about it in a way they can act on.
+
+## What uncertainty is
+
+Uncertainty describes the difference between an estimate and the true value. It arises from
+measurement and sampling error, how data was collected, missing data, under-reporting, the
+assumptions you had to make, and the limits of the method itself.
+
+**Direct uncertainty** is uncertainty about an estimate that can be measured or quantified, and
+communicated in absolute terms: a standard error, a confidence or credible interval, statistical
+significance.
+
+**Indirect uncertainty** is uncertainty about the underlying quality of knowledge surrounding an
+estimate. It is not directly measured but inferred from the analysis. It is usually communicated as
+caveats, or summarised on a qualitative or ordered scale such as
+[the GRADE scale](https://gdt.gradepro.org/app/handbook/handbook.html).
+
+Most analysis has both. Reporting only the first, because it is the one with a number attached, is a
+common and misleading omission.
+
+{{< include /guidance/_partials/diagram-uncertainty.qmd >}}
+
+## Manage it from the start, not at the end
+
+Uncertainty should be addressed during the analytical cycle so that the analysis can be
+proportionately designed and planned, and so that assumptions, options and scenarios can be
+appropriately chosen.[^src-govs-010-section-6-5]
+
+That is a design activity. By the time you are writing up, your options have narrowed to describing
+the uncertainty you have. Handled at design, you can choose a method that reduces it.
+
+The AQuA Book puts it more actively: at design you should **mine the planned analysis systematically
+for possible sources and types of uncertainty**, so as to catch any large enough to breach the
+acceptable margin of error.[^src-aqua-book-section-7-4] Mining is the right word. Uncertainty that is
+waited for rather than hunted tends to surface after the result has been used.
+
+You should:[^src-govs-010-section-6-5]
+
+- **identify the sources** of uncertainty and consider their impacts
+- **analyse it at the level the decision requires**, and no further
+- **develop options for managing it**, and take appropriate control and mitigation actions
+
+## Assumptions
+
+An assumption is something you have taken to be true without establishing it. Every analysis has
+them. The failure is not making assumptions, it is leaving them unrecorded.
+
+For each material assumption, record:
+
+| Field | Why |
+|---|---|
+| The assumption | Stated plainly, so someone else can judge it |
+| Rationale | Why it is reasonable |
+| Impact if wrong | Direction and rough scale. This is the field people skip and the one that matters |
+| Sensitivity tested | Yes or no. At Level 3, tested where material |
+| Agreed with | Who accepted it, and when |
+
+The "impact if wrong" field is what turns a list of assumptions into something a commissioner can
+use. An assumption whose failure would not change the conclusion is worth recording briefly. One
+whose failure would reverse the conclusion needs stating in the output itself.
+
+Where you can, **test the sensitivity of your key assumptions**, and plan that testing at design
+stage rather than retrofitting it. The acceptable margin of error is agreed at scoping, along with
+the levels of quality and certainty the analysis needs.[^src-govs-010-section-5-2] Sensitivity testing
+is how you find out whether an assumption could push you past it. At Level 3 Comprehensive this is
+required.
+See [section 6](../06-doing-the-work/index.qmd).
+
+## Limitations
+
+A limitation is something your analysis cannot do. State them in terms of use, not in terms of
+method, because use is what the reader is deciding about.
+
+Rather than "the data has incomplete coverage for two months", write "these figures understate
+activity in July and August, so they should not be used to compare quarters".
+
+The most useful sentence in any limitations section is usually: **"this analysis should not be used
+to..."**, followed by the specific misuse it cannot support.
+
+## Communicating it
+
+When disseminating results, expressions of uncertainty should:[^src-govs-010-section-6-5]
+
+- **be quantitative where possible**
+- be balanced, avoiding unwarranted confidence in a particular option
+
+In practice:
+
+- **Be transparent** about uncertainty, to avoid misinterpretation and misuse
+- **Be specific** about what exactly is uncertain and why, how it has been quantified, the
+  limitations of the data, and the assumptions made
+- **Use plain language**, so that what you write about uncertainty can be understood by everyone who
+  will read it
+- **Show it in your visualisations**, data tables and datasets, and explain what it represents. It is
+  not enough to confine it to a quality and methodology annex
+
+::: {.callout-important title="Uncertainty is not a hedge" appearance="minimal" icon=false}
+<br>
+Presented well, a range tells the commissioner whether the analysis is decisive. If the decision
+would be the same at both ends of the plausible range, say so, and they can proceed with confidence.
+If it would differ, that is often the most useful finding you have, and it may be worth reducing the
+uncertainty before deciding rather than proceeding on the central estimate.
+
+Quantified uncertainty makes analysis more useful, not less.
+:::
+
+For official statistics, Standard 7 of the Code of Practice requires producers to prominently
+explain quality, including strengths and limitations, and to communicate the uncertainty in
+estimates. See [section 2](../02-standards-landscape/index.qmd).
+
+## Detailed guidance
+
+- [Communicating quality, uncertainty and change, Government Analysis Function](https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/)
+- [Approaches to presenting uncertainty in the statistical system, Office for Statistics Regulation](https://osr.statisticsauthority.gov.uk/wp-content/uploads/sites/3/2022/09/Approaches_to_presenting_uncertainty_in_the_statistical_system.pdf)
+
+## Where to go next
+
+- [Section 9, communicating analysis](../09-communicating-analysis/index.qmd), for how this reaches
+  the reader
+- [Section 6, doing the work](../06-doing-the-work/index.qmd), for what to record at your level
+
+[^src-govs-010-section-6-5]: GovS 010 section 6.5
+[^src-aqua-book-section-7-4]: AQuA Book section 7.4
+[^src-govs-010-section-5-2]: GovS 010 section 5.2

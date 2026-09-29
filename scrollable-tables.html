@@ -1,0 +1,55 @@
+<script>
+  // WCAG 2.2 1.4.10 Reflow, at AA. A data table is one of the exceptions the criterion allows to
+  // need two dimensions, so a wide table may scroll sideways. What is not allowed is the whole
+  // page scrolling with it, which is what happens when a twelve column table sits directly in the
+  // prose on a phone.
+  //
+  // Each table that is wider than the space it has is put in its own scrolling region. The region
+  // is only made focusable when it actually scrolls, because a scrollable region that cannot be
+  // reached from the keyboard fails 2.1.1 Keyboard, and a tab stop on a table that fits is just
+  // noise for anyone tabbing through the page.
+  (function () {
+    function name(table, i) {
+      var caption = table.querySelector('caption');
+      if (caption && caption.textContent.trim()) return caption.textContent.trim();
+      var el = table;
+      while (el) {
+        var prev = el.previousElementSibling;
+        while (prev) {
+          if (/^H[1-6]$/.test(prev.tagName)) return prev.textContent.trim() + ', table';
+          prev = prev.previousElementSibling;
+        }
+        el = el.parentElement;
+        if (el && el.tagName === 'MAIN') break;
+      }
+      return 'Table ' + (i + 1);
+    }
+
+    function wrap() {
+      document.querySelectorAll('main table').forEach(function (table, i) {
+        var box = table.closest('.table-scroll');
+        if (!box) {
+          box = document.createElement('div');
+          box.className = 'table-scroll';
+          table.parentNode.insertBefore(box, table);
+          box.appendChild(table);
+        }
+        if (box.scrollWidth > box.clientWidth + 1) {
+          box.setAttribute('role', 'region');
+          box.setAttribute('tabindex', '0');
+          box.setAttribute('aria-label', name(table, i));
+        } else {
+          box.removeAttribute('role');
+          box.removeAttribute('tabindex');
+          box.removeAttribute('aria-label');
+        }
+      });
+    }
+
+    wrap();
+    // A table inside a closed description only gets its width when the description is opened,
+    // and the viewport can change under the reader at any time.
+    window.addEventListener('resize', wrap);
+    document.querySelectorAll('details').forEach(function (d) { d.addEventListener('toggle', wrap); });
+  })();
+</script>

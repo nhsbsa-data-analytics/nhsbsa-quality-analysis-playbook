@@ -1,0 +1,85 @@
+---
+title: "How to use this playbook"
+description: "Who it is for, how it is organised, and how to find things quickly."
+---
+
+This playbook sets out how analysis is planned, produced, assured and communicated at NHSBSA.
+
+## If you are in a hurry
+
+Most people arrive with one question: **how much assurance does this piece of work need, and what do
+I actually have to do?**
+
+1. [Decide your assurance level](../05-deciding-your-assurance-level/index.qmd). Five minutes.
+2. [Find what it requires](../06-doing-the-work/index.qmd). Read the column for your level.
+
+That is the whole path. Everything else here exists for when you need it.
+
+If you would rather see the whole route for your role before you start,
+[journeys through this playbook](journeys.qmd) has one diagram each for the analyst, the
+commissioner, the critical friend and the Analysis Senior Responsible Officer.
+
+## Who it is for
+
+- **Directors and Heads of Service**, to ensure appropriate governance of analysis in their areas
+- **Commissioners** requesting analysis, including non-analysts and third-party suppliers
+- **Analysts** producing it, and the **critical friends** assuring it
+
+## What it covers
+
+**All of it.** NHSBSA takes an analytical output in the broadest sense: an output that results from
+the collection, manipulation and interpretation of data to answer specific questions. That runs from
+a dataset created in answer to a Freedom of Information request or a Parliamentary Question, through
+a sponsor's request for data to inform a policy decision, an official statistics report and a
+dashboard for commissioners, to a complex forecasting model informing budgets. Used internally,
+supplied to sponsors, or published externally: all of it is in scope.[^src-operating-model-outputs]
+
+Those are examples rather than a checklist, and there is no central record of everything NHSBSA
+produces, so the test is the definition rather than the list. If you collected, manipulated or
+interpreted data to answer a question, and somebody is going to act on the answer, this playbook
+applies to it.
+
+What changes between them is how much assurance each one needs, and that is
+[section 5](../05-deciding-your-assurance-level/index.qmd). NHSBSA's own worked examples are there,
+from exploratory analysis at Level 1 to a funding allocation formula at Level 4, along with the
+eight types an analytical model can be.
+
+## How it is organised
+
+Fifteen sections. The sidebar carries every one of them in this order, on every page, so
+nothing here is reachable only from a link inside another page.
+
+{{< include /guidance/_partials/diagram-playbook-map.qmd >}}
+
+{{< include /guidance/_partials/section-contents.qmd >}}
+
+Section 8 is the one section that gathers rather than adds. Being Business Critical changes what
+happens at seven points in the lifecycle, and each of those points belongs to the section that
+owns it, so section 8 puts them in the order you meet them and includes each passage from its
+owner rather than copying it. The two cannot drift apart.
+
+## If you are looking for one particular thing
+
+Some subjects sit inside the section that uses them rather than having a section of their own,
+because that is where you need them.
+
+| Looking for | Where it is |
+|---|---|
+| **RIGOUR**, the six principles of quality analysis | [Section 2](../02-standards-landscape/index.qmd), beside the AQuA Book clause it comes from |
+| **What a 1, 2, 3 or 4 means** on each scoring dimension | [Section 5](../05-deciding-your-assurance-level/index.qmd), steps 1 and 2 |
+| **The eight types of analytical model** | [Section 5](../05-deciding-your-assurance-level/index.qmd), after the worked examples |
+| **Reproducible and automated**, and why they are not the same | [Section 6](../06-doing-the-work/index.qmd), phase 3 |
+| **Who signs off** at each assurance level | [Section 6](../06-doing-the-work/index.qmd), phase 4 |
+| **The quality assurance statement**, with a worked example | [Section 9](../09-communicating-analysis/index.qmd) |
+| **What to do when a published figure turns out to be wrong** | [Section 9](../09-communicating-analysis/index.qmd) |
+| **The Business Critical register** | [Section 8](../08-business-critical/index.qmd), step 4 |
+| **What a word means** | The glossary, [appendix A1](../A-appendices/index.qmd) |
+| **Which GovS 010 clause a section answers to** | The mapping, [appendix A2](../A-appendices/index.qmd) |
+
+## Giving feedback
+
+This playbook is maintained and it is meant to change. If something here is wrong, unclear, or does
+not match how work actually happens, say so. [Section 13](../13-getting-help/index.qmd) has the
+route.
+
+[^src-operating-model-outputs]: NHSBSA Analytical operating model and implementation plan, Summer 2026, "Quality of analytical outputs"

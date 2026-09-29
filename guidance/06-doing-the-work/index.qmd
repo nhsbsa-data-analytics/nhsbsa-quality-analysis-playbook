@@ -1,0 +1,259 @@
+---
+title: "Doing the work"
+description: "What each assurance level requires, phase by phase, and what to record as you go."
+---
+
+*Phases 1 to 4, the whole of producing the analysis. [Where this sits in the lifecycle](../04-analytical-lifecycle/index.qmd).*
+
+You have a level from [section 5](../05-deciding-your-assurance-level/index.qmd). This section says
+what to do about it.
+
+**Read the column for your level. You do not need the other two.**
+
+**Level 4 BCA is not a fourth column here.** Its checks are additional to Level 3's, and
+everything that is true only of Business Critical work is in
+[section 8](../08-business-critical/index.qmd). If you scored 4 on any impact dimension, read
+the Level 3 column here and then go there.
+
+## Your level in one line
+
+### Level 1 Standard
+
+Produce the analysis well and record enough that someone could re-run it. One colleague checks your
+headline numbers. No separate assurance plan. A quality assurance statement is optional.
+
+### Level 2 Enhanced
+
+Everything above, plus **someone who had no hand in the work reviews it**. You name that reviewer
+before you start, you log the checks as you do them, and you produce a quality assurance statement.
+Your team lead signs it off.
+
+### Level 3 Comprehensive
+
+Everything above, plus **an assurer from outside your team**, full verification and validation, code
+assured, uncertainty quantified where the method allows, and the statement published with the
+output. Signed off by Head of Profession or Analysis Senior Responsible Officer.
+
+Each step up buys one specific thing: Level 2 buys separation from the work, Level 3 buys separation
+from the team plus published transparency. They differ in kind, not just in volume.
+
+## The procedure, phase by phase
+
+Phases follow [section 4, the analytical lifecycle](../04-analytical-lifecycle/index.qmd).
+
+### Phase 1: engagement and scoping
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|---|---|---|---|
+| **Commission and frame** | Commissioner states the decision and the deadline. You confirm your understanding in writing, however briefly. An email is enough | The commissioning conversation is recorded: the decision, the question, what is out of scope, and the quality expected | Formal commissioning record. Analysis Senior Responsible Officer or Head of Service aware. Business Critical status considered explicitly and recorded either way |
+| **Set the level** | You score it and record it in your project record | You and the commissioner agree it together. Disagreement goes to the Analytical Quality and Assurance Lead | The Analytical Quality and Assurance Lead confirms it. Register entry where Business Critical |
+
+At every level you may reframe a request that arrives as an output rather than a question.
+Providing appropriate challenge is expected of you.[^src-govs-010-section-6-2]
+
+The level belongs here rather than at design because the specification agreed with your commissioner
+is where the required level of assurance is defined.[^src-aqua-book-section-6-1-2] Design is where you
+plan how to deliver it.
+
+### Phase 2: design
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|---|---|---|---|
+| **Plan the assurance** | Note your method and main assumptions. No separate assurance plan | An assurance plan: who reviews, what, and when. **The reviewer is named before work starts** | Assurance plan agreed with an assurer from outside your team. Verification and validation activities specified |
+| **Book the time** | Allow for the colleague check | Assurer's time in the schedule, agreed with them | Assurer's time agreed and protected. Re-review time allowed for[^src-aqua-book-section-7-1-3] |
+| **Design gate** | Not required | A critical friend confirms the approach answers the question and the assurance planned is right. Commissioner approves the design before work proceeds[^src-govs-010-section-5-3] | As Level 2, with the assurer from outside the team |
+
+Naming your reviewer before you start is what makes Level 2 different from Level 1. A reviewer found
+afterwards reviews what was produced. A reviewer named beforehand shapes what gets produced.
+
+::: {.callout-note title="Finding a critical friend" appearance="minimal" icon=false}
+<br>
+Assign one early, ideally while you are still defining the problem. Contact the Data Science team or
+the Data Science Lead if you need a recommendation. This is the role
+[section 3](../03-roles-and-responsibilities/index.qmd) calls the critical friend, or analytical
+assurer.
+
+Choose someone with experience of similar data or techniques. If you are the area expert, consider a
+newer colleague instead: they gain the experience, and you get genuinely fresh eyes.
+
+Involve them throughout rather than at the end. Meet regularly, review in small increments, plan
+their time into your schedule, and give notice when you need a review.
+:::
+
+### Phase 3: analysis
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|---|---|---|---|
+| **Produce** | Keep inputs and working reproducible enough that someone else could re-run it | Work under version control. Log decisions and assumption changes as they happen | Maintain an assumptions register. Plan sensitivity testing at design stage, not afterwards |
+| **Quality assure** | Self-check against the Level 1 checks. A colleague sanity-checks your headline numbers | **Independent peer review by someone outside the work.** Code review where scripted. Quality assurance log completed and retained | Full verification and validation. Code assured. Uncertainty documented and quantified where the method allows |
+
+Where your analysis involves code, follow the
+[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+for version control, testing, peer review and documentation.
+
+#### Reproducible and automated are not the same thing
+
+**Repeatable** is the first letter of RIGOUR, and it is the one most often taken to mean
+"automated". While both reproducible and automated analysis aim for efficiency and reliability,
+they focus on different aspects of the process. Automation *can* contribute to reproducibility, but
+automation alone is not enough.
+
+- **Reproducibility.** Can someone else, or even you later on, given the *same* inputs,
+  *understand* and *recreate* your work?
+- **Automation.** Can a computer *run* the analysis, with *any* valid inputs, with minimal or no
+  human intervention?
+
+Best practice is a fully reproducible analysis that includes a level of automation appropriate to
+the complexity and the effort of repeating it manually.
+
+| Consideration | Reproducible analysis | Automated analysis |
+|---|---|---|
+| **Primary goal** | Verifiability, transparency, reusability | Efficiency, scalability, speed |
+| **Main activities** | Documenting all steps and key decisions, managing versions | Scripting, scheduling, pipelines, monitoring |
+| **Does it require automation?** | No | Yes |
+| **Is it essential?** | Yes | No, but desirable, especially as an analysis grows in complexity |
+| **Testing the analysis** | Use static input data, for known results | Include tests that run automatically when the analysis changes |
+| **Consistency** | In results | In processes |
+
+Three places go further:
+[Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/principles.html#reproducible)
+for the principle itself,
+[What is RAP?](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/#automation)
+for the automation half, and the
+[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+for testing analytical pipelines, documentation and a modular approach.
+
+### Phase 4: delivery and sign-off
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|---|---|---|---|
+| **Communicate** | State your main limitation alongside the result. Quality assurance statement optional | Quality assurance statement required. Caveats, limitations and uncertainty stated **in the output itself, not only in an annex** | Statement published with the output. Uncertainty ranges communicated. Algorithm Transparency Recording Standard entry where an algorithmic tool is involved |
+| **Sign off and archive** | Store the project record with the output. No formal sign-off beyond you | **Signed off by your team lead.** Project record, quality assurance log and code archived together and linked from the output | Signed off by Head of Profession or Analysis Senior Responsible Officer. Register updated. Review date set |
+
+Delivered results include an assurance statement covering assumptions, uncertainty, limitations and
+what the results can and cannot be used for. GovS 010 section 5.5 puts this as a should; here it is
+a condition of sign-off at every level.
+[Section 9, communicating analysis](../09-communicating-analysis/index.qmd), shows what that looks
+like written out.
+
+## What to record
+
+Keep records proportionate.[^src-govs-010-section-6-7] The project record is one place for everything
+about a piece of analysis, and how much of it you complete depends on your level.
+
+| Section of the project record | Level 1 | Level 2 | Level 3 |
+|---|---|---|---|
+| 1. Header: title, reference, level, analyst, commissioner, dates, Business Critical yes or no | Yes | Yes | Yes |
+| 2. The question: the decision it supports, the question, what is out of scope, the deadline | Yes | Yes | Yes |
+| 3. Data: source, owner, extract date, known quality issues, effect on the analysis, access basis | Not required | Yes | Yes |
+| 4. Method: approach, why this and not the alternatives, tools and code repository | Yes | Yes | Yes |
+| 5. Assumptions: assumption, rationale, impact if wrong, sensitivity tested, agreed with | Yes | Yes | Yes |
+| 6. Uncertainty: principal sources, how quantified or why not, how communicated | Not required | Yes | Yes, quantified |
+| 7. Decision log, including **deviations from the plan** | Not required | Yes | Yes |
+| 8. Assurance and sign-off: role, name, date, what they confirmed | Not required | Yes | Yes, plus approver |
+| 9. **Lessons learned** | Not required | Yes | Yes |
+
+::: {.callout-important title="Level 1 is one side of A4" appearance="minimal" icon=false}
+<br>
+Level 1 completes sections 1, 2, 4 and 5 only. That is realistically one side of A4.
+
+A record that demands twelve pages for two hours of analysis will not get completed, and a record
+nobody completes is worse than none, because it looks like assurance from a distance.
+:::
+
+Identify relevant lessons from earlier work when you plan, and capture new ones as you go rather
+than reconstructing them at the end.[^src-govs-010-sections-6-7-and-6-10]
+
+Records should be version controlled, securely stored and retrievable.[^src-govs-010-section-6-7]
+
+## The checks, by level
+
+**These are NHSBSA's own checks, from the decision sheet.** They are cumulative: each level does
+everything the levels below it do, and adds what is in its own block. Your quality assurance log
+records which you did, when, and what you found.
+
+{{< include /guidance/_partials/diagram-levels.qmd >}}
+
+| First required at | Check | What that means here |
+|---|---|---|
+| **Level 1** | Validation of requirements | The question, the decision it informs and what is out of scope are confirmed in writing with the commissioner |
+| **Level 1** | Specification, user guide and notes | Enough written down that someone else could pick the work up. At this level it is short |
+| **Level 1** | Data sources and assumptions clear | Source, extract date and provenance recorded. Assumptions listed with the rationale and the effect if wrong. Known data quality issues named, with their effect stated |
+| **Level 1** | Accuracy of data transformations and calculations | You check your own transformations and totals. A colleague sanity-checks the headline numbers |
+| **Level 1** | Methodological correctness | The method is documented, with the alternatives you considered and why you did not use them |
+| **Level 1** | Sense checking results | Outputs compared against an independent reference: last period, a related series, or an order-of-magnitude expectation |
+| **Level 1** | Clarity, accessibility and security of outputs | Limitations stated in the output itself rather than only in an annex. Accessible format. Handled at the right classification |
+| **Level 2** | Responsibilities and accountabilities | The analyst, the reviewer and the approver are named before the work starts, not found afterwards |
+| **Level 2** | Appropriateness of methodology | Someone who had no hand in the work agrees the method answers the question |
+| **Level 2** | Documentation and audit trails | The quality assurance log is completed as you go and retained with the analysis |
+| **Level 2** | Understanding of the impacts of data quality | Input data profiled: ranges, nulls, duplicates, outliers, and what each means for the answer |
+| **Level 2** | Evidence based assumptions | Each assumption is traceable to a source, a precedent or a stated expert judgement |
+| **Level 2** | Code scrutiny | Code peer reviewed and version controlled |
+| **Level 2** | Validation with stakeholders and subject matter experts | The people who know the business area see the results before release and say whether they are plausible |
+| **Level 2** | Sensitivity testing | Key assumptions varied to see whether the conclusion moves. Where material at this level |
+| **Level 2** | Triangulation and independent validation of results | Calculations independently reproduced from source by the reviewer |
+| **Level 3** | Change control processes | Changes to data, method or code after sign-off are recorded and re-assured proportionately |
+| **Level 3** | Ethical risks | Assessed against the Data and AI Ethics Framework, per [section 10](../10-ethics-and-transparency/index.qmd) |
+| **Level 3** | Knowledge sharing | The method and the lessons are shared beyond the delivering team |
+| **Level 3** | Detailed documentation review | The assurer reads the documentation as a document, not only the numbers |
+| **Level 3** | Usability testing | The output is tested with someone who will use it, not only with someone who made it |
+| **Level 3** | Automated checks | Validation built into the pipeline so it runs every time rather than once |
+| **Level 3** | Additional scenario testing | Behaviour under plausible alternative inputs, not just the expected ones |
+| **Level 3** | Independent peer review | An assurer from outside the delivering team. Code assured against the [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook). Uncertainty quantified where the method allows. Quality assurance statement published with the output |
+| **Level 4 BCA** | Formal audits | See [section 8](../08-business-critical/index.qmd) |
+| **Level 4 BCA** | External review | As above |
+| **Level 4 BCA** | Additional scrutiny of documentation | As above |
+| **Level 4 BCA** | Scrutiny of structural and conceptual assumptions | As above |
+| **Level 4 BCA** | Additional scenario testing | As above |
+
+The Level 4 row is deliberately thin here. Everything that is true only of Business Critical work,
+including the register entry, the QA appraisal and the documentation stack, is in
+[section 8](../08-business-critical/index.qmd).
+
+An Algorithm Transparency Recording Standard entry is completed where an algorithmic tool informs a
+decision affecting the public, from Level 3 upwards. See
+[section 10](../10-ethics-and-transparency/index.qmd).
+
+::: {.callout-note title="Why the log matters more than the checklist" appearance="minimal" icon=false}
+<br>
+A checklist shows somebody knew what to do. A log shows they did it, when, and what they found.
+GovS 010 requires you to document verification and validation activities **and the conclusions you
+drew from them**, so that the reliability of the analysis can be assessed afterwards.[^src-govs-010-section-6-6]
+
+Keep the log with the analysis wherever you can. A log stored somewhere else is a log that does not
+get filled in.
+:::
+
+::: {.callout-note title="Peer review here, the Review stage in section 11" appearance="minimal" icon=false}
+<br>
+The peer review and independent challenge on this page happen **during** the work. They check that
+the question is answered, that the method was appropriate, that the checks were at the right level
+and that the audit trail holds, and they gate release. That is GovS 010 sections 6.6 and 6.8.
+
+**A different thing is also called review.** What happens to an output after it is released, whether
+it is still useful, and what the next piece of work should do differently, is
+[section 11](../11-review-and-continuous-improvement/index.qmd). That is GovS 010 sections 6.10 and
+6.13.
+
+If you are here looking for the monthly review of regular outputs, section 11 is the page you want.
+:::
+
+## Where to go next
+
+- [Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd), to
+  change or check your level
+- [Section 11, review and continuous improvement](../11-review-and-continuous-improvement/index.qmd),
+  for what happens to the output after release, which is the other thing called review
+- [Section 7, uncertainty, assumptions and limitations](../07-uncertainty/index.qmd)
+- [Section 9, communicating analysis](../09-communicating-analysis/index.qmd), for the assurance
+  statement
+- [Section 12, tools, templates and downloads](../12-tools-and-templates/index.qmd), for the project
+  record template, the checklist and the log
+
+[^src-govs-010-section-6-2]: GovS 010 section 6.2
+[^src-aqua-book-section-6-1-2]: AQuA Book section 6.1.2
+[^src-aqua-book-section-7-1-3]: AQuA Book section 7.1.3
+[^src-govs-010-section-5-3]: GovS 010 section 5.3
+[^src-govs-010-section-6-7]: GovS 010 section 6.7
+[^src-govs-010-sections-6-7-and-6-10]: GovS 010 sections 6.7 and 6.10
+[^src-govs-010-section-6-6]: GovS 010 section 6.6
