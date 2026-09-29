@@ -1,0 +1,28 @@
+name: Static Build
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - index.qmd
+      - .github/workflows/static_build.yml
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render website
+        run: quarto render index.qmd --to html
+
+      - name: Upload rendered html
+        uses: actions/upload-artifact@v4
+        with:
+          name: index-html
+          path: index.html
+          if-no-files-found: error
