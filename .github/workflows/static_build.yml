@@ -18,11 +18,11 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render website
-        run: quarto render index.qmd --to html
+        run: quarto render --to html
 
       - name: Upload rendered html
         uses: actions/upload-artifact@v4
         with:
-          name: index-html
-          path: docs/index.html
+          name: docs
+          path: docs
           if-no-files-found: error
