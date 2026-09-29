@@ -24,5 +24,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: index-html
-          path: index.html
+          path: docs/index.html
           if-no-files-found: error
