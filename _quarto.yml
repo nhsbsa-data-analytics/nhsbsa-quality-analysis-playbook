@@ -187,6 +187,7 @@ website:
 
 format:
   html:
+    embed-resources: true
     grid:
       sidebar-width: 25%
     # There is deliberately no project-level pagetitle. Setting one gives every
