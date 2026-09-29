@@ -1,0 +1,110 @@
+---
+title: "Accessibility"
+description: "How this playbook meets WCAG 2.2, what has been tested and what has not, and how to report a problem."
+title-block-banner: true
+---
+
+## Accessibility statement for the NHSBSA Producing Quality Analysis Playbook
+
+This statement applies to the Producing Quality Analysis Playbook. It does not cover the other
+NHSBSA sites and playbooks linked from it, which publish their own statements.
+
+We want as many people as possible to be able to use this playbook. It is built to meet the Web
+Content Accessibility Guidelines version 2.2 at level AA, and meets several level AAA criteria as
+well.
+
+## What we have done
+
+The site is built from plain text with Quarto, so its content is headings, paragraphs, lists,
+tables and links rather than images of any of those things.
+
+- Every section is in the sidebar, on every page, in the same order, and a skip link takes you past
+  it to the content
+- The page title, the heading and the navigation label all name the same thing, so the page you
+  arrive at is the page you expected
+- Help and the glossary sit in the same place in the footer of every page
+- Links say where they go rather than reading "click here" or "read more"
+- Text reflows to a single column at 320 pixels wide without horizontal scrolling
+- Keyboard focus is shown with a visible outline and is never hidden behind the header
+- Navigation targets are large enough to hit, and text and interface colours meet the required
+  contrast ratios
+
+## What we have checked, and how
+
+Some of the claims above are checked automatically against the built pages every time the site is
+rebuilt, rather than being asserted once: that no page scrolls sideways at any of six widths from
+320 pixels, that every diagram carries a text alternative and a full description, that every page
+has its own browser title, and that a table wide enough to scroll can be reached and scrolled from
+the keyboard.
+
+Two of the checks work from a photograph of the screen rather than from the page's code, because
+a style that changes on focus is not the same thing as a change a person can see. Every kind of
+control on the site is given the keyboard focus and the screen is photographed on either side of
+it, and every control that carries a spoken name is compared against the words printed on it.
+
+## Where we go beyond level AA
+
+Five level AAA criteria are met and checked the same way.
+
+| Criterion | What it asks | What the site does |
+|---|---|---|
+| 1.4.6 Contrast (Enhanced) | 7:1 for body text, 4.5:1 for large text, against the 4.5:1 that AA asks | Links are NHS Dark Blue at 10.93:1, quiet text is NHS Dark Grey at 7.75:1, and the title banner is dark enough that white text on it clears 7:1 at any size |
+| 1.4.8 Visual Presentation | No line of prose longer than 80 characters, no justified text, generous line and paragraph spacing | Prose is capped at 80 characters, set ragged right, at 1.6 line spacing |
+| 2.5.5 Target Size (Enhanced) | Anything you click or tap is at least 44 by 44 pixels | Navigation, footer and table links are 44 pixels tall. A link inside a sentence takes the criterion's own exception for inline targets, and is also in the sidebar at full size |
+| 2.4.9 Link Purpose (Link Only) | Every link makes sense read on its own, out of the sentence around it | No link on the site reads "click here", "read more" or similar, and none uses a bare web address as its text. Every link on the site is checked on every build |
+| 2.4.10 Section Headings | Content is organised under headings rather than running on | Every page of any length carries headings, so the on-this-page list is a usable route through it |
+
+## Where we do not meet level AAA
+
+We do not claim level AAA for the site. The W3C advises against requiring AAA as a general policy
+for a whole site, because some content cannot satisfy every AAA criterion. What is useful instead
+is to say which ones are met, and which are not.
+
+Two are out of reach for guidance of this kind, and saying so is more useful than claiming
+otherwise.
+
+**3.1.5 Reading Level** asks that text is understandable by someone with lower secondary school
+education, or that a simpler version is provided. This playbook cites clause numbers from GovS 010
+and the AQuA Book and uses the vocabulary of analytical assurance, because its readers need the
+exact terms to apply the standards. The glossary in the appendices is the partial answer, not a
+full one.
+
+**1.4.9 Images of Text** allows images of text only where the presentation is essential. The
+diagrams contain a good deal of text in boxes. The layout carries meaning that a list cannot, which
+is the argument for them, but it is an argument rather than a certainty. Each one is written out in
+full beneath it, so nothing in a diagram is available only as a picture.
+
+## What we have not tested
+
+No screen reader, magnifier or speech input testing has been carried out against the published
+site. Automated checks find only the faults they are written to look for, so parts of this site may
+still not be fully accessible, and this statement describes the work done rather than a tested
+result. If you find a problem, we want to hear about it.
+
+## Reporting a problem
+
+If you find a problem that is not listed here, or you need content in a different format, write to
+[analyticalassurance@nhsbsa.nhs.uk](mailto:analyticalassurance@nhsbsa.nhs.uk). Tell us the page,
+what you were trying to do, and what happened.
+
+## Enforcement procedure
+
+The Equality and Human Rights Commission is responsible for enforcing the Public Sector Bodies
+(Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. If you are not happy with
+how we respond to your complaint, contact the
+[Equality Advisory and Support Service](https://www.equalityadvisoryservice.com/).
+
+## Preparation of this statement
+
+::: {.callout-note title="To be completed before publication" appearance="minimal"}
+<br>
+Three things are NHSBSA's to set before this statement goes live, and are deliberately not filled
+in here:
+
+- the **compliance status**, in the Regulations' own terms: fully compliant, partially compliant, or
+  not compliant with WCAG 2.2 level AA
+- the date this statement was **prepared**, and the date the site was last **tested**
+- confirmation that
+  [analyticalassurance@nhsbsa.nhs.uk](mailto:analyticalassurance@nhsbsa.nhs.uk) is the right mailbox
+  for accessibility reports, rather than a central NHSBSA accessibility contact
+:::

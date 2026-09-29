@@ -1,0 +1,148 @@
+---
+title: "After you have your level"
+description: "The rules that keep a level honest: disagreement, time pressure, Business Critical work, and recording the decision."
+---
+
+*Phase 1, engagement and scoping. [Where this sits in the
+lifecycle](../04-analytical-lifecycle/index.qmd).*
+
+You have scored the six impact dimensions and the six likelihood dimensions and read your level
+off the grid. [Back to the decision](index.qmd) if you have not.
+
+This page is everything that keeps that level honest: what to do when somebody disagrees with it,
+what to do when there is not enough time to deliver it, what changes if the work is Business
+Critical, how to record it, and why the instrument is built the way it is.
+
+## Why the level is scored rather than judged
+
+Assurance is proportionate to the work, and what makes a piece of analysis need more of it is a
+known list: the risks of its intended use, its type and complexity, the novelty of the approach, the
+importance of the issue, how central it is to the decision, the precision required, and the resource
+available.[^src-aqua-book-table-3-1] Scoring that list is how two people reach the same answer
+independently, and how the answer can be looked up six months later.
+
+The scales are on the [previous page](index.qmd), shortened to the deciding phrases from the
+decision sheet's own wording. **Where the two ever differ, the sheet governs.**
+[Section 13](/guidance/13-getting-help/index.qmd) is how to report it so this page can be corrected.
+
+## The eight types of analytical model
+
+Where your work is a model rather than a one-off analysis, it will be one of eight types. The list
+is the one the government modelling guidance uses, and it is worth being able to place your own
+work in it.
+
+**Policy simulation**: to better understand the options that drive a decision, by estimating the
+likely cost and impact of each choice before it is made.
+
+**Forecasting**: to predict the future and inform today's choices. Projections of demand, volume or
+cost that let future pressures be understood while there is still time to act on them.
+
+**Financial evaluation**: to better understand future liabilities or costs, where a commitment made
+now is paid for over many years.
+
+**Procurement and commercial evaluation**: for the letting and management of large contracts, and
+to ensure value for money.
+
+**Planning**: to make workforce and capacity decisions which affect the delivery of future
+services.
+
+**Science based**: to better understand and simulate the physical environment, in order to evaluate
+possible solutions or to mitigate potentially damaging impacts.
+
+**Allocation of funds**: to determine how funds are distributed, so that they are allocated
+properly against need and underpin local service delivery.
+
+**Conceptual**: to help understand the key influences that are important to a system being
+modelled. A variety of problem-structuring techniques are used to develop conceptual models.
+
+**The type is not a seventh impact dimension.** You do not score it. What it gives you is a check
+on the six you have just scored: a model that allocates funds and a model that structures a concept
+carry very different consequences when they are wrong, so if your allocation model is not scoring
+highly on decision and finance, look again.
+
+A model can be Business Critical whatever its type. That is decided by the impact it carries rather
+than by where it sits in this list. See
+[section 8](../08-business-critical/index.qmd).[^src-govs-010-section-6-11]
+
+## When you disagree
+
+If the commissioner and the analyst do not agree on the level, the Analytical Quality and Assurance
+Lead decides.
+
+## When there is not enough time
+
+Sometimes there genuinely is not. Where time and resource constraints mean it is not possible to do
+as much assurance as would be desirable, addressing the areas of greatest risk should take priority,
+and you should inform the commissioner how you addressed the risks, what risks remain, and the
+caveats that go with them.[^src-aqua-book-section-3-2]
+
+**NHSBSA's own sheet answers this.** Level 1 checks are for low risk analyses "and when there is
+very limited time to carry out assurance", and Level 2 is for moderate risk analyses "and for
+analyses with very limited time, if time permits". So the sheet already tells you what to drop to
+and in what order, rather than leaving it to the moment.
+
+**The order of preference is: reduce the scope of the question, not the assurance applied to the
+answer.** A narrower question answered properly is more useful than a broad one answered
+unreliably, and it is usually possible.
+
+Where even that is not possible:
+
+- prioritise the highest-risk checks and complete those
+- state plainly in the output which assurance was not carried out
+- say what that means for how the analysis can and cannot be used
+
+Where time constraints mean insufficient assurance has taken place, that should be explicitly
+acknowledged and reported in the assurance statement, along with the known limitations and
+conditions that follow from it.[^src-aqua-book-chapter-4] The assurance statement is in
+[section 6](../06-doing-the-work/index.qmd).
+
+What is not acceptable is quietly recording a lower level, so that the assurance you skipped never
+appears to have been needed. That is the difference between a constraint and a cover-up.
+
+## Business Critical analysis
+
+{{< include /guidance/_partials/bca-assurance-level.qmd >}}
+
+[Section 8](/guidance/08-business-critical/index.qmd) gathers the whole of what being Business
+Critical requires, this step included, into one page.
+
+## Recording your decision
+
+Record the level, the date, and who agreed it, in the specification you agree with your
+commissioner. The analyst writes that specification and shares it with the commissioner for sign
+off.[^src-aqua-book-section-6-1-2] The guidance also asks for the completed sheet to be saved and
+attached to the Specification.[^src-bca-assurance-journey-s5] At Level 2 the
+analyst and commissioner agree the level together. At Level 3 and Level 4 the Analytical Quality and
+Assurance Lead confirms it.
+
+That record is what makes proportionate assurance auditable rather than something reconstructed
+afterwards. It is also, in practice, the thing that protects you: it shows the judgement was made
+deliberately, at the right time, on stated grounds.
+
+**Set the level at scoping, not at design.** The specification agreed with the commissioner defines
+the level of assurance required[^src-aqua-book-section-6-1-2], and GovS 010 asks for the levels of
+quality and certainty required to be agreed and recorded at the same point[^src-govs-010-section-5-2].
+Design is where the assurance activities that deliver the level are established and planned [AQuA
+Book section 7.1.2], which is a different question and a later one.
+
+The order matters more than it sounds. A level agreed after the method has been chosen cannot change
+the method, so it stops being a decision and becomes a label. The Business Critical determination
+sits at the same point, and for the same reason.
+
+
+## Where to go next
+
+- [Section 6, doing the work](../06-doing-the-work/index.qmd), which is what your level asks of
+  you. This is the next step for almost everybody
+- [Section 8, Business Critical analysis](../08-business-critical/index.qmd), if you scored 4 on
+  any impact dimension
+- [Section 3, roles and responsibilities](../03-roles-and-responsibilities/index.qmd), if you and
+  the commissioner do not agree on the level
+
+[^src-aqua-book-table-3-1]: AQuA Book table 3-1
+[^src-aqua-book-section-3-2]: AQuA Book section 3.2
+[^src-govs-010-section-6-11]: GovS 010 section 6.11
+[^src-aqua-book-chapter-4]: AQuA Book chapter 4
+[^src-aqua-book-section-6-1-2]: AQuA Book section 6.1.2
+[^src-bca-assurance-journey-s5]: NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 5
+[^src-govs-010-section-5-2]: GovS 010 section 5.2

@@ -3,3 +3,487 @@
 .navbar-brand {
   width: 100%;
 }
+
+/* Skip link. Visually hidden until focused, then clearly visible.
+   Supports WCAG 2.2 AA 2.4.1 Bypass Blocks and 2.4.7 Focus Visible.
+   Ported from the NHSBSA Analytical Code Assurance Playbook. */
+a.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  /* Above Quarto's pinned header, which Bootstrap gives z-index 1030. At 999 the link did
+     move itself on screen when focused and then painted underneath the header, so the first
+     thing Tab reaches on every page could not be seen at all. */
+  z-index: 1100;
+  padding: 1em;
+  background-color: #ffeb3b;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+a.skip:focus {
+  left: 0;
+}
+
+/* Focus is not left underneath the pinned navbar.
+   WCAG 2.2 AA 2.4.11 Focus Not Obscured (Minimum), new in 2.2. The navbar is
+   pinned, so an element reached by keyboard can come to rest behind it and the
+   focus indicator is hidden. A scroll margin the height of the navbar keeps the
+   whole focused element in view. :where() carries no specificity, so this sets a
+   floor without overriding anything Quarto or Bootstrap decides. */
+:where(a, button, input, select, textarea, summary, details, [tabindex],
+       h1, h2, h3, h4, h5, h6, :target) {
+  scroll-margin-top: 5rem;
+}
+
+/* A focus indicator that can be seen against the background behind it.
+   WCAG 2.2 AA 2.4.7 Focus Visible and 1.4.11 Non-text Contrast, which asks the
+   indicator for 3:1 against what it sits on. NHS Blue on the white page gives
+   6.38:1 and the offset keeps the ring clear of the text, so the indicator is the
+   ring rather than a colour change in the link. */
+a:focus-visible,
+button:focus-visible,
+.sidebar-navigation a:focus-visible {
+  outline: 3px solid #005EB8;
+  outline-offset: 2px;
+}
+
+/* The navbar is itself NHS Blue, so an NHS Blue ring there measures 1.00:1 and is
+   not a ring at all. The menu links happened to survive because Bootstrap gives
+   them a box-shadow as well, but the logo link, second in the tab order on every
+   page, took focus with nothing on the screen changing. NHS Warm Yellow is the NHS
+   focus colour and measures 3.68:1 on NHS Blue. */
+.navbar a:focus-visible,
+.navbar button:focus-visible {
+  outline: 3px solid #FFB81C;
+  outline-offset: 2px;
+}
+
+/* Navigation targets are large enough to hit.
+   WCAG 2.2 AA 2.5.8 Target Size (Minimum), new in 2.2, asks for 24 by 24 CSS
+   pixels. Sidebar, navbar menu and page footer links are lists of links rather
+   than links inside a sentence, so the inline exception does not apply to them.
+   Padding rather than a display change, so the existing layout is untouched. */
+.sidebar-navigation .sidebar-item-container,
+.navbar .dropdown-menu .dropdown-item,
+.nav-footer a {
+  min-height: 24px;
+}
+
+.sidebar-navigation .sidebar-item-container .sidebar-link,
+.navbar .dropdown-menu .dropdown-item {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+/* The text alternative for a diagram. `details` carries its own semantics, so it needs styling
+   and no ARIA. The grey is the NHS dark grey, 7.75:1 on white, rather than Bootstrap's 4.69:1. */
+details > summary {
+  cursor: pointer;
+  color: #425563;
+  font-weight: 600;
+  padding: 0.4rem 0;
+  margin-bottom: 0.5rem;
+}
+details[open] > summary { border-bottom: 1px solid #D8DDE0; }
+details > summary:hover { color: #005EB8; }
+
+/* A wide table scrolls inside its own region rather than pushing the page sideways.
+   See scrollable-tables.html, which names the region and makes it focusable when it scrolls. */
+.table-scroll { overflow-x: auto; }
+.table-scroll:focus-visible { outline: 3px solid #FFB81C; outline-offset: 2px; }
+
+/* A code block is the other thing 1.4.10 Reflow allows to need two dimensions. It scrolls inside
+   itself so the page does not scroll with it. */
+main pre { overflow-x: auto; max-width: 100%; }
+main pre > code { white-space: pre; }
+/* Inline code wraps. A long one, such as the page header quoted in the contributor guide,
+   is otherwise a single unbreakable line that takes the page sideways with it. */
+main :not(pre) > code { white-space: pre-wrap; overflow-wrap: break-word; }
+
+/* Quarto's heading anchor is a hover convenience for copying a link to a section. On a narrow
+   screen there is no hover, and where a heading fills the line the anchor is pushed past the
+   edge and takes the page with it. Hidden below the width where it could be used. */
+@media (max-width: 420px) { .anchorjs-link { display: none; } }
+
+/* ---------------------------------------------------------------- WCAG 2.2 AAA
+   The criteria below are reachable for a site like this one. Reading Level (3.1.5) is not,
+   and is answered in the accessibility statement rather than here.
+
+   1.4.6 Contrast (Enhanced): 7:1 for body text, 4.5:1 for large text.
+   Quarto's default link blue is #2761E3, 5.38:1 on white, which clears AA and not AAA. NHS Dark
+   Blue is an NHS brand colour and is 10.93:1. The muted greys Bootstrap uses, #757575 at 4.61:1
+   and #6D7A86 at 4.39:1, become NHS Dark Grey at 7.75:1. */
+:root {
+  --nhs-blue: #005EB8;
+  --nhs-dark-blue: #003087;
+  --nhs-dark-grey: #425563;
+  --nhs-pale-grey: #D8DDE0;
+}
+main a, main a:visited,
+.sidebar a, .sidebar a:visited,
+footer a, footer a:visited,
+#TOC a, #TOC a:visited { color: var(--nhs-dark-blue); }
+main a:hover, .sidebar a:hover, footer a:hover, #TOC a:hover { color: #000; }
+.text-muted, main .text-muted, figcaption, .figure-caption,
+main p > em:only-child { color: var(--nhs-dark-grey) !important; }
+/* Bootstrap colours the paragraph inside a footer link and the paragraph inside a blockquote
+   separately from their container, so setting the container alone leaves both below 7:1. */
+footer .nav-link p, footer .nav-link { color: var(--nhs-dark-blue) !important; }
+main blockquote p, main blockquote { color: var(--nhs-dark-grey); }
+/* The licence sentence in the footer is prose rather than a link, so Bootstrap leaves it at
+   Quarto's #757575, which is 4.61:1 on white and fails 1.4.6 Contrast (Enhanced) at AAA on every
+   page. NHS Dark Grey is 7.75:1. The link inside the sentence keeps NHS Dark Blue from the rule
+   above it. */
+/* The footer is a band, as it is on the sibling NHSBSA playbooks: NHS Pale Grey behind it and a
+   4px NHS Blue rule above it, so it reads as the foot of the page rather than as loose text that
+   happens to be last. Their div.nav-footer rules, with the list bullets and default padding
+   removed the same way.
+
+   The prose takes NHS Dark Blue rather than NHS Dark Grey. Dark grey is 7.75:1 on white but only
+   5.66:1 on the pale grey band, which passes AA and fails the 7:1 this site holds itself to.
+   Dark blue is 8.65:1 on the same ground, and it matches the links, so the whole band reads as
+   one thing. */
+/* div.nav-footer, not .nav-footer: Bootstrap sets a 1px grey border-top on the footer with a
+   selector this has to outrank, which is why the sibling writes it the same way. */
+div.nav-footer {
+  background-color: var(--nhs-pale-grey);
+  border-top: 4px solid var(--nhs-blue);
+  box-sizing: border-box;
+}
+.nav-footer, .nav-footer p, .nav-footer .toc-actions { color: var(--nhs-dark-blue); }
+.nav-footer .footer-items { list-style-type: none; padding: 0; gap: 20px; }
+/* Quarto's own .nav-footer a is a class-plus-element selector, so it outranks the
+   footer a rule above and leaves the licence link at #757575. Matched here so the
+   later rule wins on order rather than by reaching for !important. */
+.nav-footer a, .nav-footer a:visited { color: var(--nhs-dark-blue); }
+
+/* WCAG 2.2 AA 1.4.10 Reflow. Five links, a licence sentence and a copyright line do not fit
+   across a 320px screen, and Quarto lays the footer out as a flex row that does not wrap, so the
+   whole page gained a horizontal scrollbar the moment the footer grew. Wrapping the row and the
+   list inside it lets the footer become three stacked blocks on a phone and stay one line on a
+   desktop. */
+.nav-footer { flex-wrap: wrap; row-gap: 0.4rem; }
+.nav-footer .footer-items { flex-wrap: wrap; }
+.nav-footer-left, .nav-footer-center, .nav-footer-right { max-width: 100%; }
+@media (max-width: 767px) {
+  .nav-footer-left, .nav-footer-center, .nav-footer-right {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  .nav-footer .footer-items { justify-content: center; }
+}
+/* The current item in the on-this-page list is a .nav-link outside both #TOC and the sidebar. */
+.nav-link, .nav-link.active, .sidebar-navigation .nav-link { color: var(--nhs-dark-blue); }
+.navbar .nav-link, .navbar .nav-link.active { color: #FFF !important; }
+
+/* White on NHS Blue is 6.22:1, which is below the 7:1 AAA asks of body text and above the 4.5:1
+   it asks of large text. The navigation is already 20.8px, so making it bold puts it in the large
+   bracket and keeps the NHS Blue bar rather than darkening the brand colour to reach 7:1. */
+.navbar .menu-text, .navbar .nav-link, .navbar-brand { color: #FFF !important; font-weight: 700; }
+.navbar .dropdown-menu a { color: var(--nhs-dark-blue); font-weight: 400; }
+
+/* 2.5.5 Target Size (Enhanced): 44 by 44 CSS pixels, for anything not inline in a sentence. */
+.sidebar .sidebar-item-text,
+.sidebar .nav-link,
+footer .nav-link,
+.navbar .nav-link { display: inline-flex; align-items: center; min-height: 44px; }
+.sidebar .sidebar-item-container { min-height: 44px; }
+footer .nav-link { padding: 0 0.5rem; }
+.anchorjs-link { min-width: 44px; min-height: 44px; display: inline-flex;
+                 align-items: center; justify-content: center; }
+.navbar-brand, .navbar-brand-logo { min-width: 44px; min-height: 44px; display: inline-flex;
+                                    align-items: center; }
+
+/* 1.4.8 Visual Presentation: at most 80 characters a line, line spacing at least 1.5 within a
+   paragraph and paragraph spacing at least 1.5 times that again. Tables and diagrams are left to
+   use the full width, because narrowing them would cost more than it gains. */
+main p, main li, main blockquote { max-width: 80ch; line-height: 1.6; }
+main p { margin-bottom: 2.4em; }
+main li { margin-bottom: 0.6em; }
+main { text-align: left; }
+
+/* Three rules that need more specificity than the block above, because Bootstrap and Quarto set
+   the same properties on the same elements. */
+
+/* The current item in the on-this-page list carries .nav-link.active, which outranks `#TOC a`. */
+#TOC .nav-link, #TOC .nav-link.active, nav#TOC a { color: var(--nhs-dark-blue) !important; }
+
+/* The title banner. Its heading is large enough that white on NHS Blue clears the 4.5:1 AAA asks
+   of large text, but the description beneath it is body size and 6.26:1. NHS Dark Blue takes the
+   whole banner to 10.53:1, so both clear it whatever size the text is. */
+.quarto-title-banner { background-color: var(--nhs-dark-blue) !important; }
+.quarto-title-banner .title, .quarto-title-banner .description,
+.quarto-title-banner .quarto-title-meta { color: #FFF !important; }
+
+/* Quarto sets its own max-width on the content column, which outranks a plain `main p` rule. */
+main p, main li, main blockquote,
+.quarto-banner-title-block p, .quarto-banner-title-block li { max-width: 80ch !important; }
+
+/* A long address or URL used as link text is one unbreakable token, which takes the page
+   sideways on a narrow screen. WCAG 2.2 1.4.10 Reflow. */
+main a { overflow-wrap: break-word; }
+
+/* 2.5.5 Target Size (Enhanced), for the links that are not in a sentence: a link alone in a table
+   cell or alone on a bullet. The negative margin gives back the space the padding takes, so the
+   hit area grows to 44px without the tables and lists opening out. */
+main td a, main th a, main li > a:only-child {
+  display: inline-block;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  margin-top: -0.66rem;
+  margin-bottom: -0.66rem;
+}
+main td, main th { padding-top: 0.6rem; padding-bottom: 0.6rem; }
+
+/* The section title stays visible while you read.
+   Knowing which section you are in without scrolling back is the thing a long page takes away,
+   and section 5 is nineteen printed pages. Every guidance page sets title-block-banner, so the
+   title already sits in an NHS Blue band; that band becomes sticky rather than a new bar being
+   invented, which keeps the design and keeps white on NHS Blue at 6.22:1, inside the large-text
+   bracket the rest of the navigation already relies on.
+
+   Three things this must not break. It is capped so it can never eat a small screen, it is off
+   below 768px where the navbar is already fixed and two stacked bands would leave almost no
+   reading area, and scroll-margin keeps an in-page anchor from landing underneath it. */
+@media (min-width: 768px) {
+  /* Sticky on the banner does nothing: its parent is only as tall as the banner, so it sticks
+     inside 87px and leaves with it. The header is a direct child of body, which spans the whole
+     scroll, so that is what has to stick. */
+  header#title-block-header {
+    position: sticky;
+    top: 0;
+    z-index: 980;
+  }
+  .quarto-title-banner {
+    max-height: 4.2rem;
+    overflow: hidden;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .quarto-title-banner .quarto-title .title {
+    font-size: 1.5rem;
+    line-height: 1.35;
+    margin: 0;
+  }
+  main h2, main h3, main h4 { scroll-margin-top: 5.4rem; }
+}
+
+/* Previous and next carry Bootstrap's #6C757D, which is 4.69:1 on white and fails the 7:1 this
+   site holds itself to. */
+.nav-page a, .nav-page a:visited, .nav-page-text { color: var(--nhs-dark-blue); }
+
+/* WCAG 2.2 AA 1.4.10 Reflow. Quarto lays previous and next side by side, and two full section
+   titles do not fit across 320px, so the whole page gained a horizontal scrollbar. They stack on
+   a narrow screen and the long titles are allowed to wrap rather than forcing the row wider. */
+.page-navigation { flex-wrap: wrap; row-gap: 0.6rem; }
+.nav-page .nav-page-text { white-space: normal; overflow-wrap: anywhere; }
+@media (max-width: 575px) {
+  .page-navigation { flex-direction: column; align-items: flex-start; }
+  .nav-page, .nav-page-next { max-width: 100%; text-align: left !important; }
+}
+
+/* ---------------------------------------------------------------- numbered sources
+   Citations render as a superscript number in the sentence and a list at the foot of the
+   page. The number has to be findable without pulling the eye off the sentence, which is the
+   whole reason for moving the citation out of the prose in the first place.
+
+   The reference is a link inside a sentence, so it takes WCAG 2.5.5's own inline exception
+   on target size rather than needing to be 44px. Its accessible name is written into the
+   markup by _filters/dedupe-sources.lua, because "3" on its own does not say where the link
+   goes. */
+a.footnote-ref {
+  color: var(--nhs-dark-blue);
+  text-decoration: none;
+  padding: 0 0.1em;
+}
+a.footnote-ref:hover,
+a.footnote-ref:focus {
+  text-decoration: underline;
+}
+a.footnote-ref sup {
+  font-size: 0.72em;
+  font-weight: 600;
+  /* Keeps the line rhythm even: a raised number must not push its own line apart. */
+  line-height: 0;
+  vertical-align: super;
+}
+
+/* The list itself. Quiet, and clearly a reference list rather than more guidance. */
+#footnotes {
+  border-top: 1px solid var(--nhs-pale-grey);
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+}
+#footnotes > h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+#footnotes ol {
+  font-size: 0.92rem;
+  padding-left: 1.4rem;
+}
+#footnotes li {
+  margin-bottom: 0.15rem;
+}
+#footnotes li p {
+  margin-bottom: 0.15rem;
+}
+
+/* A long unbreakable string in a link, such as an email address, has no wrap point. In a
+   narrow container it pushes the page sideways, which is WCAG 1.4.10 Reflow. This showed up
+   when analyticalassurance@nhsbsa.nhs.uk moved into a callout list, where the padding and the
+   list indent leave it less room than body text. Breaking only happens when the word would
+   otherwise overflow, so ordinary link text is unaffected. */
+main a {
+  overflow-wrap: anywhere;
+}
+
+/* ---------------------------------------------------------------- the pinned title block
+   The banner carries the section name and the one line saying what the section is for, and both
+   stop being useful the moment they scroll away. Pinned, they answer "where am I" for as long as
+   the reader is on the page.
+
+   Quarto already pins it from 768px, at `top: 0`, which puts it underneath the fixed navigation
+   bar: between 768 and 991 the banner was pinned and invisible, behind 143px of navbar. So the
+   offset below starts where Quarto's own pinning starts, and the rest starts at 992px, where the
+   h1 becomes visible and the secondary navigation bar that carries the page name below that width
+   goes away. Under 768px nothing here applies: the block is in normal flow, `top` would shift it
+   down the page rather than pin it, and at 320px the banner alone is 166px of a phone screen.
+
+   `--pb-header` is the navigation bar's height and `--pb-pinned` is that plus this block, both
+   measured in sticky-title.html. Quarto writes the sidebars' `top` inline, so moving them clear
+   of the pinned block needs `!important` rather than a nicer rule. */
+@media (min-width: 768px) {
+  #title-block-header.quarto-title-block {
+    top: var(--pb-header, 0px);
+    z-index: 3;                      /* over the content and the sidebars, under the navbar */
+    background: #FFF;
+    border-bottom: 1px solid var(--nhs-pale-grey, #E8EDEE);
+  }
+  /* The sidebars scroll under the pinned block unless they start below it. */
+  #quarto-margin-sidebar, #quarto-sidebar { top: var(--pb-pinned, 0px) !important; }
+}
+
+/* The banner comes with `max-height: 87.36px` and `overflow: hidden`. The title is 42px and a
+   description that wraps to two lines is 62px, so on every page whose summary runs past one line
+   the second line was cut off and gone: not scrolled, not truncated with an ellipsis, simply
+   absent. That has been true since the banner was turned on, and pinning it is what made it
+   visible, because the clipped line then stays clipped for the whole page. The box grows to its
+   contents instead. */
+#title-block-header .quarto-title-banner {
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+@media (min-width: 992px) {
+  #title-block-header .quarto-title-banner {
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.7rem !important;
+  }
+  #title-block-header .description { margin-bottom: 0 !important; line-height: 1.35; }
+}
+
+/* A heading reached from "On this page", and anything that takes keyboard focus, has to come to
+   rest below the pinned block rather than behind it. WCAG 2.2 2.4.11 Focus Not Obscured.
+
+   scroll-padding-top is the one that does the work. It tells the browser the top of the scroll
+   port is spoken for, so an element that is technically on screen but sitting inside that band
+   still gets scrolled clear. Without it a keyboard user tabbing down the page reaches a link
+   the browser considers visible, does not scroll, and leaves it behind the bar. scroll-margin
+   on the elements covers the same ground for anchor links and is kept for that. */
+:root { scroll-padding-top: calc(var(--pb-pinned, 0px) + 0.5rem); }
+
+main h1, main h2, main h3, main h4, main section[id], main [id],
+main a, main button, main summary, main .table-scroll {
+  scroll-margin-top: calc(var(--pb-pinned, 0px) + 0.5rem);
+}
+
+/* On paper there is nothing to scroll, and a pinned bar would repeat on every sheet. */
+@media print {
+  #title-block-header.quarto-title-block { position: static !important; border-bottom: none; }
+}
+
+/* The chevron beside a sidebar band is the only thing on screen that says whether the band is
+   open. Quarto toggles a `collapsed` class on it and ships no rule that reads that class, so
+   until 25 September the same right-pointing chevron sat beside an open band and a closed one,
+   telling a sighted reader the opposite of what was true. Assistive technology was never
+   misled, because `aria-expanded` carried the state correctly; this is the visible half of the
+   same fact. */
+#quarto-sidebar .sidebar-item-toggle .bi-chevron-right,
+#quarto-margin-sidebar .sidebar-item-toggle .bi-chevron-right {
+  /* A transform does not apply to a non-replaced inline element, and Bootstrap Icons ships
+     these as inline. Without this line the rule below computes to rotate(90deg) and draws
+     nothing, which is what it did on the first attempt. */
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+#quarto-sidebar .sidebar-item-toggle:not(.collapsed) .bi-chevron-right,
+#quarto-margin-sidebar .sidebar-item-toggle:not(.collapsed) .bi-chevron-right {
+  transform: rotate(90deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  #quarto-sidebar .sidebar-item-toggle .bi-chevron-right,
+  #quarto-margin-sidebar .sidebar-item-toggle .bi-chevron-right { transition: none; }
+}
+
+/* The sidebar folds into a drawer below about 1000px, and Quarto gives that drawer no width, so
+   it sizes to its longest label. Measured on 27 September: 470px of drawer on a 390px phone, with
+   five of its twenty-two links running off the right edge of the screen and no way to scroll to
+   them. A fixed element does not lengthen the page, so the 1.4.10 Reflow pass, which looks for
+   horizontal page scroll, could not see it.
+   The drawer is now bounded by the screen, and a label too long for it wraps rather than leaving. */
+@media (max-width: 991.98px) {
+  #quarto-sidebar.sidebar-navigation {
+    width: min(20rem, 92vw) !important;
+    max-width: 100vw;
+  }
+  #quarto-sidebar.sidebar-navigation .sidebar-item-text,
+  #quarto-sidebar.sidebar-navigation .menu-text {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}
+
+/* The page title in the phone navigation drawer.
+   WCAG 2.2 AA 1.4.3 Contrast (Minimum), and 1.4.6 Contrast (Enhanced) at AAA, which this site
+   claims. Quarto colours this title with a default that assumes a light background. Below the
+   large breakpoint the header it sits in is NHS Blue, so it rendered at rgb(89, 89, 89) on
+   rgb(0, 94, 184): 1.10:1, measured on 28 September 2026. Large text needs 3:1 at AA and 4.5:1
+   at AAA, so the page title failed both on every page at phone width and was unreadable.
+
+   The media query is the point. The same element sits on white above the breakpoint, where the
+   grey is 4.60:1 and passes, so colouring it white everywhere trades one failure for a worse
+   one: white on white, 1.00:1. It is bounded to the width where the header is blue. */
+@media (max-width: 991.98px) {
+  .quarto-secondary-nav .quarto-secondary-nav-title,
+  .quarto-secondary-nav-title {
+    color: #FFFFFF;
+  }
+  .quarto-secondary-nav .quarto-btn-toggle,
+  .quarto-secondary-nav .quarto-secondary-nav-title .bi {
+    color: #FFFFFF;
+  }
+}
+
+/* The footer zones size to what is in them.
+   Quarto gives left, centre and right `flex: 1 1 0px` above 768px, which is an equal third each
+   whatever they hold. The left zone carries five links needing 729px and was given 413px at
+   1280, so it broke onto three ragged rows while the right zone took a full third to say
+   "Crown Copyright". Measured on 28 September 2026: the footer stood 197px tall at 1280 and
+   325px at 768, where the links fell one per line.
+
+   Letting the zones take their content and giving the centre the slack puts the links on one
+   row from 1024 up and two at 768, and takes the footer to 129px. The rule is bounded to the
+   same 768px Quarto scopes its own to, so the stacked layout below 576px is untouched, and it
+   wins on specificity rather than on !important. */
+@media (min-width: 768px) {
+  .nav-footer .nav-footer-left,
+  .nav-footer .nav-footer-right {
+    flex: 0 1 auto;
+  }
+  .nav-footer .nav-footer-center {
+    flex: 1 1 auto;
+  }
+}

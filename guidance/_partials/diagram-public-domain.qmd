@@ -1,0 +1,56 @@
+![](/static/diagrams/28-before-a-figure-goes-public.png){fig-alt="A dark blue band says the standards bind more than official statistics, with three examples in scope. Three cards give the three Standards for the Public Use of Statistics, Data and Wider Analysis with what each asks for. Three more cards give the sequence a figure follows, ending with a yellow card marking the step that starts a clock. Everything is set out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**It binds more than official statistics.** The Code's Standards for the Public Use of Statistics,
+Data and Wider Analysis apply to public bodies using statistics, data and wider analysis in the
+public domain, and to everyone involved in that use rather than to analysts alone. [Code of Practice
+for Statistics edition 3.0] **In scope:** a figure quoted in a press release, a board paper made
+public, a number given to a journalist.
+
+**Three standards. The first is the one with a clock attached.**
+
+**1. Equality of access.** Make what is used in the public domain available to everyone in a timely
+way, so the public can access, scrutinise and verify the claims made from it.
+
+- draw on the latest and most reliable published official statistics where possible
+- publish the figures **in advance of, or at the same time as**, their use in public communications
+- publish them **separately from** any related policy or ministerial statement
+- if unpublished figures are referred to publicly, publish them as soon as possible, ideally the
+  same day
+
+**2. Supporting understanding.** Use figures with integrity and communicate them with clarity and
+accuracy, so the public can understand the basis for the claims made.
+
+- do not cherry-pick figures, take them out of context, or place undue certainty on them
+- communicate the key context and limitations alongside them
+- be clear where the figures came from, citing sources in publications and on social media
+- take proactive steps to prevent or minimise misinterpretation and misuse
+
+**3. Decision making and leadership.** Seek and use impartial, expert advice when using figures in
+the public domain. [Section 13](/guidance/13-getting-help/index.qmd) is how to find the person whose advice
+you need. For official statistics, the Head of Profession for Statistics or an appointed deputy
+approves the output, and an Algorithm Transparency Recording Standard entry is owned by the Head of
+Profession because it is a public statement about a tool.
+
+**The sequence, for a figure that is going to be quoted**, shown as three cards with an arrow from
+each to the next. **Published first, or at the same time**: never after, because until it is
+published nobody can check the claim made from it. **Published separately from the policy**:
+separately from any related policy or ministerial statement, so the figure can be read on its own.
+**Quoted before it was published?** A clock starts: publish as soon as possible, ideally the same
+day.
+
+**The one that catches people out.** Quoting an unpublished number in public starts a clock. Under
+equality of access it should be published as soon as possible, ideally the same day. If an analysis
+is going to be quoted before it is published, that is a conversation to have while it is being
+scoped, not after the quotation appears.
+
+**Transparency of the analysis itself.** Beyond the figure: the assurance level applied and why
+([section 5](/guidance/05-deciding-your-assurance-level/index.qmd)), the quality assurance statement
+([section 9](/guidance/09-communicating-analysis/index.qmd)), the data sources, extract dates and known
+quality issues, and the code, published where it can be. For official statistics, Standard 4 requires
+producers to manage data safely and securely and be open about how it will be used and protected,
+and Standard 1 requires them to challenge misuse.
+
+</details>

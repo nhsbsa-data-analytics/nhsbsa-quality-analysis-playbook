@@ -1,0 +1,66 @@
+![](/static/diagrams/18-which-standard-applies.png){fig-alt="A band across the top holds the two standards that apply to all NHSBSA analysis, GovS 010 and the AQuA Book. Below it, twelve cards each name a condition, the standard it adds, and when that standard bites. A yellow card marks Business Critical, which applies on top of everything else. Every card is written out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**The band across the top: always, for all NHSBSA analysis.** Two standards, with no condition
+attached. **GovS 010: Analysis** sets the requirement: the government functional standard for
+analysis, five principles, three of which are substantive requirements, and
+[section 1](/guidance/01-why-quality-matters/index.qmd) says which. **The AQuA Book** explains how to meet
+it: good practice for analytical quality assurance, covering RIGOUR, the four roles, the four
+phases, and proportionate assurance. It applies always, as the practical companion to GovS 010.
+
+**Below it, twelve cards.** Add whichever describe your work. They are layers, not alternatives, and
+more than one can apply at once. Each card names the condition, then the standard, then when it
+bites.
+
+- **If it is official statistics:** the **Code of Practice for Statistics, edition 3.0**, in full
+  and as a regulatory requirement. Ten standards under Trustworthiness, Quality and Value. A
+  narrower set of outputs than everything NHSBSA publishes.
+- **If it involves code:** the **NHSBSA Analytical Code Assurance Playbook**. Version control,
+  testing, peer review, readable and modular code, documentation, open sourcing. Whenever your
+  analysis involves code.
+- **If it is a Data Science initiative:** the **NHSBSA Data Science Playbook**. The end-to-end
+  workflow: problem definition, assigning a critical friend, analysis, wrap up. It is the playbook
+  that sequences your work.
+- **If it produces a chart, table or dashboard:** the **NHSBSA Data Visualisation Standards**. How
+  to choose a chart, how to label it and how to make it readable. In the Digital, Data and
+  Technology Playbook.
+- **If it is an open data release:** the **NHSBSA Open Data Standards**. How NHSBSA publishes open
+  data.
+- **If it is appraisal, or evaluation:** the **Green Book** for appraisal, covering the costs,
+  benefits and risks of alternatives, and the **Magenta Book** for evaluation, covering an
+  intervention's design, implementation and outcomes.
+- **If you are assessing analytical risk:** the **Orange Book**. Risk management principles and
+  concepts. Referenced by GovS 010 section 4.2.
+- **If data quality is a material concern:** the **Government Data Quality Framework**. Managing and
+  describing data quality.
+- **If it uses data or AI:** the **Data and AI Ethics Framework**. Seven principles. Its scope was
+  extended to AI and algorithmic technologies in December 2025, so the principles cover both. See
+  [section 10](/guidance/10-ethics-and-transparency/index.qmd).
+- **If an algorithmic tool informs a decision affecting the public:** the **Algorithmic Transparency
+  Recording Standard**. A record is expected. The analyst drafts it as part of delivery; the Head of
+  Profession for Statistics owns submission. From Level 3 upwards.
+- **If it builds on or uses an AI system:** the **AI Playbook for the UK Government**, ten
+  principles for building, buying and using AI, and **DSIT's Introduction to AI assurance**, which
+  is how a system gets evaluated rather than just built. This playbook signposts them rather than
+  duplicating them.
+- **If any impact dimension scores 4:** **Business Critical**, which is
+  [section 8](/guidance/08-business-critical/index.qmd) and Level 4 BCA. This applies on top of everything
+  above, and an AI system can still be Business Critical. Section 8 has the route in nine steps.
+
+**They are layers, not alternatives.** GovS 010 sets the requirement. The AQuA Book explains how to
+meet it. The Code of Practice adds obligations for official statistics. The code assurance playbook
+adds obligations where there is code. The Green, Magenta and Orange Books add depth for particular
+kinds of work. The AI estate applies on top when a system rather than an analysis is what is being
+assured.
+
+**Where two appear to conflict**, the more specific and more recent governs, and you should raise
+it. If this playbook disagrees with a standard, the standard is right and this playbook needs
+fixing. [Section 13](/guidance/13-getting-help/index.qmd) has the route. You may also apply the Code of
+Practice voluntarily to work that is not official statistics, as a deliberate decision rather than
+an accident.
+
+Every standard named here is linked from [section 12](/guidance/12-tools-and-templates/index.qmd).
+
+</details>

@@ -1,0 +1,36 @@
+![](/static/diagrams/23-journey-sro.png){fig-alt="Seven stops down the page for an Analysis Senior Responsible Officer, each with the question in your head, the section that answers it, what you do there, and what you leave behind. A yellow band says Level 4 BCA adds to Level 3 rather than replacing it, and a dashed line loops from the last stop back to the second. Every stop is set out in the table below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+| Where you are | Section | What you do there | What you leave behind |
+|---|---|---|---|
+| You have been named for a piece of Business Critical analysis | **Section 8**, Business Critical analysis | Section 8 is the whole route in nine steps. Your appointment and the register entry start at scoping, not once the work is designed and someone notices a signature is needed | The register entry, with your name against it |
+| What am I taking responsibility for? | **Section 3**, roles and responsibilities | The risks across the lifecycle, and confirming the work is suitable for its intended use before it is used. You need to be senior enough to carry that | Nothing recorded yet. What you have is the scope of what you are accountable for, which is worth settling before the first thing arrives to sign |
+| Is the work set up to succeed? | **Section 4**, the analytical lifecycle, phase 1 | Note the work, and confirm resources and plans are in place for the assurance to happen. Confirm the Business Critical status and the register entry | Confirmed resources, and the register entry checked rather than assumed |
+| Has the design been governed? | **Section 4**, the analytical lifecycle, phase 2 | Where the work is Business Critical, confirm design governance has been followed before the analysis starts | Design governance confirmed, and recorded as confirmed |
+| The work is running | **Section 4**, the analytical lifecycle, phase 3 | Stay aware of progress, and make sure you are available to approve at delivery | Nothing recorded here. What you leave is your availability in the schedule |
+| Approving it | **Section 6**, doing the work, phase 4 | Review the assurance evidence. Confirm the work meets the design requirements, is of sufficient quality and is proportionately documented, then approve it as fit for its intended use. You **shall** review the evidence before signing off | Your approval, recorded with what you confirmed. At Level 4 BCA the Lead Assurer signs off first, then you |
+| Is the designation still right? | **Section 11**, review and continuous improvement | Revalidating the designation is yours. Level 3 and Level 4 work is reviewed annually and before any reuse for a new purpose, because a new purpose is the change most likely to invalidate the assumptions the original was built on | The revalidated designation, and the register updated |
+
+**A band across the journey**, after the scoping stop: Level 4 BCA adds to Level 3 rather than
+replacing it. Formal audits, external review, additional scrutiny of the documentation, scrutiny of
+the structural and conceptual assumptions, and additional scenario testing. Everything at Levels 1 to
+3 still applies underneath.
+
+**You will meet other titles for this role.** This playbook calls it the Analysis Senior
+Responsible Officer throughout. The Business Critical documentation calls it the Model Senior
+Responsible Officer, the draft Analytical Governance and Quality Assurance Policy calls it the
+Senior Responsible Owner, and the AQuA Book calls it the approver. They are the same role. If a
+document in front of you uses one of those titles, read it as this one.
+
+**Open alongside, at any stop.** [Section 5](/guidance/05-deciding-your-assurance-level/index.qmd) for how
+the designation was reached, which is the same scoring that set the level.
+[Section 8](/guidance/08-business-critical/index.qmd) for everything that is true only of Business Critical
+work. [Section 13](/guidance/13-getting-help/index.qmd) if you are not sure which of the senior titles
+you have been asked to hold.
+
+**The dashed line is the loop**, running from the last stop back to the second. What review finds is
+what the next revalidation starts from. [GovS 010 section 6.10]
+
+</details>

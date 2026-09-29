@@ -1,0 +1,54 @@
+![](/static/diagrams/17-levels-are-cumulative.png){fig-alt="Four nested boxes. Level 1 Standard is innermost, inside Level 2 Enhanced, inside Level 3 Comprehensive, inside Level 4 BCA. Each box names the checks first required at that level, who reviews the work and who signs it off. The nesting shows that each level requires everything in the boxes it contains. Every check is listed in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+Four boxes, each drawn inside the next. **Level 1 Standard** is the innermost. **Level 2 Enhanced**
+contains it. **Level 3 Comprehensive** contains both. **Level 4 BCA** contains all three. The
+nesting is the point: the checks in a box are *additional to* everything inside it, not instead of
+it. Twenty-nine checks in all.
+
+**Level 1 Standard**, the innermost box. Seven checks start here. Produce the analysis well and
+record enough that someone could re-run it. *Reviewed by* a colleague, within your team. *Sign-off:*
+no formal sign-off beyond you, and a quality assurance statement is optional. *The seven checks:*
+validation of requirements; specification, user guide and notes; data sources and assumptions clear;
+accuracy of data transformations and calculations; methodological correctness; sense checking
+results; clarity, accessibility and security of outputs.
+
+**Level 2 Enhanced** contains Level 1 and adds nine checks. What the step up buys is separation from
+the work. *Reviewed by* someone who had no hand in producing the work. *Sign-off:* your team lead,
+with the reviewer named before the work starts and a quality assurance statement required. *The nine
+checks:* responsibilities and accountabilities; appropriateness of methodology; documentation and
+audit trails; understanding of the impacts of data quality; evidence based assumptions; code
+scrutiny; validation with stakeholders and subject matter experts; sensitivity testing;
+triangulation and independent validation of results.
+
+**Level 3 Comprehensive** contains Levels 1 and 2 and adds eight checks. What the step up buys is
+separation from the team, and published transparency. *Reviewed by* an assurer from outside the
+delivering team. *Sign-off:* the Head of Profession or Analysis Senior Responsible Officer, with the statement
+published with the output and a review date set. *The eight checks:* change control processes;
+ethical risks; knowledge sharing; detailed documentation review; usability testing; automated
+checks; additional scenario testing; independent peer review.
+
+**Level 4 BCA**, the outermost box, contains all of the above and adds five checks. Business
+Critical work only. *Reviewed by* a Lead Assurer from outside the delivering team, with external
+review. *Sign-off:* the Lead Assurer, then the Analysis Senior Responsible Officer, with a register
+entry required. *The five checks:* formal audits; external review; additional scrutiny of
+documentation; scrutiny of structural and conceptual assumptions; additional scenario testing, which
+is listed at Level 3 and again here.
+
+**A Level is not a tier.** A tier is one band of activity. A Level includes every level below it as
+well as its own. Reading Tier 3 as Level 3 would mean doing the third band and none of the two
+beneath it, which is why this playbook uses *Level* throughout.
+[Section 5](/guidance/05-deciding-your-assurance-level/index.qmd) sets the level; this is what it buys you.
+
+**Why the Level 4 BCA block is short.** Everything that is true only of Business Critical work,
+including the register entry, the quality assurance appraisal and the documentation stack, is in
+[section 8](/guidance/08-business-critical/index.qmd) rather than repeated here. If you scored 4 on any
+impact dimension, do the Level 3 block and then go there.
+
+The checks are NHSBSA's own, from the assurance level decision sheet. What each one means in
+practice is in the table below. Your quality assurance log records which you did, when, and what you
+found.
+
+</details>

@@ -1,0 +1,40 @@
+---
+title: "Journeys through this playbook"
+description: "The same work seen from four seats: where each role goes, in what order, and what each stop leaves behind."
+---
+
+Nobody reads all fifteen sections. These four journeys are the order the sections come at you if you
+are the analyst, the commissioner, the critical friend or the Analysis Senior Responsible Officer.
+
+Each one has the same columns: where you are, the section that answers it, what you do there, and
+what you leave behind. **Read the last column on its own and it is the evidence trail for one piece
+of analysis.** A stop that leaves nothing behind is a stop nobody can evidence, which is the test a
+stop had to pass to be on these diagrams at all.
+
+[Section 3](../03-roles-and-responsibilities/index.qmd) defines the four roles and says what each is
+accountable for. This page is where they go.
+
+## An analyst's journey
+
+{{< include /guidance/_partials/diagram-journey-analyst.qmd >}}
+
+## A commissioner's journey
+
+{{< include /guidance/_partials/diagram-journey-commissioner.qmd >}}
+
+## A critical friend's journey
+
+{{< include /guidance/_partials/diagram-journey-critical-friend.qmd >}}
+
+## An Analysis Senior Responsible Officer's journey
+
+{{< include /guidance/_partials/diagram-journey-sro.qmd >}}
+
+## Where to go next
+
+- [Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd), which is
+  the first stop on three of the four journeys
+- [Section 3, roles and responsibilities](../03-roles-and-responsibilities/index.qmd), for what each
+  role is accountable for and where a disagreement goes
+- [Section 13, getting help](../13-getting-help/index.qmd), if you need one of these people and do
+  not know who they are

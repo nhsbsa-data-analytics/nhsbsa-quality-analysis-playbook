@@ -1,0 +1,102 @@
+---
+title: "Getting help"
+description: "Who to ask, and where the communities are."
+---
+
+## Who to ask
+
+| If you need | Ask |
+|---|---|
+| Advice on your assurance level, or a level dispute resolved | The Analytical Quality and Assurance Lead |
+| A critical friend for your analysis | Your team lead in the first instance |
+| Advice on official statistics | The Head of Profession for Statistics |
+| Business Critical registration | The Data Science, Advanced Analytics and Statistics team |
+| Information governance advice, or help with personal data | The information governance function. Ask before the work starts, not at sign-off |
+| Help with analytical code, testing or reproducibility | The owners of the [Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) |
+
+Each row names a role or a team rather than a person, so that a change of post holder is not a
+change to this playbook. Who currently holds each one is in the governance and management framework.
+If you cannot work out who to approach, start with your team lead. If that does not settle it,
+write to [analyticalassurance@nhsbsa.nhs.uk](mailto:analyticalassurance@nhsbsa.nhs.uk). That
+mailbox covers this playbook, the assurance level decision sheet and the Business Critical
+templates, and will point you at the right person for anything else.
+
+## Communities of practice
+
+### Coffee and Coding
+
+A monthly, hands-on session lasting 45 minutes to an hour, in which colleagues share a skill and
+everyone gets to run the code themselves. It has run since May 2021 and materials from every session
+are published at
+[github.com/nhsbsa-data-analytics/coffee-and-coding](https://github.com/nhsbsa-data-analytics/coffee-and-coding).
+
+Past sessions have covered R and Python from scratch, the Open Data Portal API, R Markdown and
+official statistics, accessible spreadsheets, and data visualisation. You do not need to be a
+confident coder to attend, and you do not need to present to benefit.
+
+For joining details, ask your team lead or the Data Science, Advanced Analytics and Statistics
+team.
+
+Collaboration is worth seeking at the start of analysis rather than when you are stuck. It gives
+access to skills and knowledge held outside your immediate team, avoids duplication and wasted
+effort, avoids conflicting results, and brings a wider range of professional perspectives.[^src-govs-010-section-6-9]
+
+## When the work needs a skill you do not have
+
+Analysis should be undertaken by people with the skills, information and tools the work requires.[^src-govs-010-section-6-8] That is a statement about the work, not a judgement about the analyst, and
+it puts an obligation on whoever assigns the work as much as on whoever does it.
+
+**Say so early.** A skills gap found at scoping is a conversation about who else is involved, what
+training is needed, or whether the deadline moves. The same gap found at assurance is a finding
+against the analysis. Raise it with your team lead, and if it is not resolved there, with the
+Analytical Quality and Assurance Lead using the routes above.
+
+**Record it if it is not closed.** Where the work goes ahead without the skill the assurance level
+assumes, that is a limitation of the analysis and belongs in the record and in the assurance
+statement, the same as any other limitation. See
+[section 6](../06-doing-the-work/index.qmd) and
+[section 9](../09-communicating-analysis/index.qmd).
+
+Two frameworks help with the wider question of whether NHSBSA has the capability it needs, rather
+than with a single piece of work:
+
+| Framework | What it assesses |
+|---|---|
+| [Statistical Practice Capability Framework](https://osr.statisticsauthority.gov.uk/), Office for Statistics Regulation | How an organisation is developing its statistical practice against Trustworthiness, Quality and Value. It is in development and being trialled with producer bodies, so it is a way of looking at NHSBSA rather than a standard NHSBSA is held to |
+| [Government Analytical Evaluation Capabilities Framework](https://www.gov.uk/government/publications/the-magenta-book), a Magenta Book supplementary guide | The competences an evaluation team needs, and how to judge whether it has them |
+
+## Improving this playbook
+
+This playbook is maintained and it is meant to change.
+
+If something here is wrong, unclear, or does not match how work actually happens, say so. That
+includes disagreeing with the levels the assurance level decision sheet produces. If it gives an
+answer that feels wrong for your work, that is worth reporting: the sheet is only useful if
+practitioners recognise its judgements.
+
+Raise it the way you would raise any other change to a repository.
+[CONTRIBUTE.md](https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook/blob/main/CONTRIBUTE.md)
+explains how, and the pull request template shapes what to include. That is the same route the
+Analytical Code Assurance Playbook uses, so the two behave the same way.
+
+## Learning from experience
+
+Identify relevant lessons from previous work when you plan, and capture new ones throughout rather
+than reconstructing them at the end.[^src-govs-010-sections-6-7-and-6-10]
+
+Lessons should be evaluated and acted on, not merely recorded, and shared so that others benefit.
+Where you have learned something that would help another team, the communities above are the route.
+
+
+## Where to go next
+
+- [Section 11, review and continuous improvement](../11-review-and-continuous-improvement/index.qmd),
+  where a lesson is recorded so that it reaches the next piece of work
+- [Section 12, tools, templates and downloads](../12-tools-and-templates/index.qmd), if you were
+  looking for a template rather than a person
+- [Section 0, how to use this playbook](../00-how-to-use/index.qmd), for the whole contents on one
+  page
+
+[^src-govs-010-section-6-9]: GovS 010 section 6.9
+[^src-govs-010-section-6-8]: GovS 010 section 6.8
+[^src-govs-010-sections-6-7-and-6-10]: GovS 010 sections 6.7 and 6.10

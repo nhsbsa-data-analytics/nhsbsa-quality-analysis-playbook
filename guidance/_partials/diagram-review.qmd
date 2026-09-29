@@ -1,0 +1,58 @@
+![](/static/diagrams/24-review-cycle.png){fig-alt="A red band separates this from peer review. Below it, three cards give the trigger, owner and cadence for review at each assurance level, then seven cards name what review covers, then three numbered steps show the lessons loop closing back into the next piece of work. All of it is set out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**The red band at the top.** This is not peer review. Peer review and independent challenge happen
+**during** the work and gate release; they are
+[section 6](/guidance/06-doing-the-work/index.qmd). The review stage happens **after** delivery and it
+repeats. It is evaluation rather than assurance, and what it produces feeds the next piece of work
+rather than this one.
+
+**Then the trigger, owner and cadence, by assurance level.**
+
+| Assurance level | Trigger | Owner | Cadence |
+|---|---|---|---|
+| Level 1 Standard | On request, or when the output changes | The analyst who produced it | At each reissue |
+| Level 2 Enhanced | Scheduled | The commissioner, with the analyst | Annually, or at each reissue if more frequent |
+| Level 3 Comprehensive, and Level 4 BCA | Scheduled, and on any material change | The commissioner, with the Analysis Senior Responsible Officer | Annually, and before any reuse for a new purpose |
+
+**Then the seven activities review covers.** *Decisions taken and policy changes informed*, which is
+what actually changed because of this analysis. *Usage*: downloads, page views, requests, onward
+citation, whatever the publication route records. *Ongoing usefulness*: user research with the
+people who use it, asking whether it still answers their question. *Case studies*: how the data has
+been used, written down while someone still remembers. *Trend changes the analysis may have
+influenced*: where it was meant to move something, did it move. *Improvements to regular analysis*:
+what the last cycle showed could be better. *Decommissioning*: analysis no longer useful should stop
+being produced, and that is a finding rather than a failure. The first four are Code of Practice
+Standards 8, 9 and 10 in practice; the last three are GovS 010 section 6.13.
+
+**Then the lessons loop, in three numbered steps with an arrow from each to the next.** **1. Record
+the lesson where the next analyst will look for it**, which is the analytical plan for the next cycle
+of a regular output, not a document nobody opens. **2. Raise anything that applies beyond one
+output**: a method that did not work, a data quality problem, an assurance step that was
+disproportionate in either direction, with the routes in
+[section 13](/guidance/13-getting-help/index.qmd). **3. Check the last cycle's lessons at scoping**, because
+phase 1 of the lifecycle asks what was learned last time and this is where the answer comes from.
+[GovS 010 section 6.10] A dashed arrow runs from step 3 back to step 1, labelled "and round again,
+at section 4 phase 1".
+
+**The monthly cycle is more than any standard asks for.** NHSBSA runs a review cycle monthly for
+regular and ongoing outputs, checking that what was produced was peer reviewed, completed correctly,
+and is still doing its job. No standard asks for that cadence. It is written down here so that it
+survives a change of staff and so that it can be evidenced. It is chaired by the Analytical Quality
+and Assurance Lead.
+
+**Recording a review.** Keep it proportionate. For most outputs it is a short entry against the
+output in the analytical plan: what was checked, what was found, what changed, and who was involved.
+For Business Critical analysis and official statistics it is recorded formally. Keep it **with the
+project record**: a review filed separately from the analysis it reviews is a record nobody finds
+when the analysis is next reused.
+
+**Why annual.** It is the longest interval at which an assumption can go stale without anyone
+noticing, and anything shorter will not survive contact with workload. Business Critical work
+reviews before reuse for a new purpose as well, because a new purpose is the change most likely to
+invalidate the assumptions the original was built on. Level 1 needs no cadence at all: it is
+reviewed when it is reissued.
+
+</details>

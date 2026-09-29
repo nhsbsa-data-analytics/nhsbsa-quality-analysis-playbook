@@ -1,0 +1,183 @@
+---
+title: "Ethics and transparency"
+description: "Using data responsibly, and being open about how analysis informs decisions."
+---
+
+Analysis at NHSBSA uses data about people, and informs decisions that affect them. Two obligations
+follow: use the data appropriately, and be open about how it was used.
+
+## Data ethics
+
+Analysis should be undertaken in line with legal and ethical obligations and any other relevant
+public service codes of conduct.[^src-govs-010-principle-5]
+
+The **Data and AI Ethics Framework** provides guidance on using data appropriately and responsibly
+when planning, implementing and evaluating a policy or service.[^src-govs-010-section-6-1]
+
+::: {.callout-note title="The framework was retitled and rescoped in December 2025" appearance="minimal" icon=false}
+<br>
+GovS 010 cites it as the **Data Ethics Framework**, which is the 2020 edition. On 18 December 2025 it
+was retitled the **Data and AI Ethics Framework**, its scope was extended to AI and algorithmic
+technologies, and four principles were added. Use the current framework, not the title GovS 010 names.
+
+It publishes a **self-assessment tool**. Use that rather than a second instrument.
+:::
+
+Ethics is a design activity, not a compliance check at the end. The framework has seven principles,
+and each one is a question worth asking before the work starts.
+
+- **Transparency.** Could you explain to the people in the data what you did and why?
+- **Accountability.** Who is answerable if this turns out to be wrong?
+- **Fairness.** Could the analysis, or the decision it informs, affect some groups differently? Have
+  you looked?
+- **Privacy.** Is the data being used no more than the question requires? NHSBSA's Statistical
+  Disclosure Control protocol and its Confidentiality and Access Statement are where this is already
+  answered, and both are linked from [section 12](../12-tools-and-templates/index.qmd). Follow them
+  rather than this page: a disclosure control protocol summarised in a playbook is a protocol with
+  two versions.
+- **Environmental sustainability.** What does producing and running this analysis cost, and is that
+  proportionate to what it is for? This matters most for repeated pipelines and for anything using
+  large models.
+- **Societal impact.** Who is affected by the decision this analysis informs, beyond the people in
+  the data? This is a scoping question, so it belongs in
+  [section 4, phase 1](../04-analytical-lifecycle/index.qmd#phase-1-engagement-and-scoping) as well
+  as here.
+- **Safety.** What harm could follow if this is wrong, misread, or used for something it was not
+  built for?
+
+The last two are the ones with no established NHSBSA route. Societal impact in particular is worth
+raising at scoping rather than discovering at publication.
+
+Accountability is often the most clarifying of the seven. If nobody can answer it, the governance is
+not yet in place. See [section 3](../03-roles-and-responsibilities/index.qmd).
+
+## Personal data
+
+Where personal data is used in analysis, this must be in accordance with NHSBSA policy and prevailing
+legislation. That obligation comes from the legislation itself, not from this playbook and not from
+GovS 010. The standard says the same in its own terms, that where personal data has been used this
+should be in accordance with the organisation's policies and prevailing legislation.[^src-govs-010-section-6-14]
+
+Where analysis using personal data is published, you may include in the publication:[^src-govs-010-section-6-14]
+
+- when personal data has been used, and the justification for its use
+- how guidance has been followed
+- the steps taken to protect the data
+
+Information and data should be classified and securely managed in line with GovS 007 Security, and
+retained to meet statutory and contractual requirements and the requirements of the Data Ethics
+Framework.[^src-govs-010-section-6-7]
+
+**Ask before the work starts, not at sign-off.** Information governance advice, and the corporate
+data protection impact assessment process, sit with the information governance function, and
+[section 13](../13-getting-help/index.qmd) is the route to them. Go there while the question is
+still what data to use, because a data protection impact assessment raised after the analysis is
+built is a review of a decision already taken.
+
+This playbook does not restate the DPIA process. It is a corporate process that applies to more than
+analysis, and a second version of it here would go stale the first time it changed.
+
+## Algorithmic transparency
+
+Where an algorithmic tool informs a decision affecting the public, an **Algorithm Transparency
+Recording Standard** entry is required.
+
+The standard exists because a decision a person cannot interrogate is a decision they cannot
+challenge. Publishing how a tool works, what data it uses and what it is for is what makes challenge
+possible.
+
+An entry typically covers what the tool does, why it is used, what data it was built on, how it
+affects decisions, who is accountable for it, and what oversight it has.
+
+::: {.callout-important title="If you cannot explain it, say so" appearance="minimal" icon=false}
+<br>
+Explainability is an assurance requirement, not a nice-to-have.
+
+Where a method cannot be explained, for example a vendor-supplied scoring tool whose weighting is not
+disclosed, **that limitation must be stated in the output** and an Algorithm Transparency Recording
+Standard entry published.
+
+"We can describe what goes in and what comes out but not how it works" is a finding about the
+analysis, and the reader needs it.
+:::
+
+The same structured approach to business risk applies to black-box models as to any other. The
+difficulty is in transparency, in having the right mix of experts available, and in understanding
+what mitigations are possible. It is not a reason to assure them less.
+
+**Who does what.** The analyst drafts the record as part of delivery, and the Head of Profession for
+Statistics owns submission. The trigger is the Level 3 and Level 4 row in
+[section 6](../06-doing-the-work/index.qmd) rather than a separate decision to be remembered, so an
+analyst who is following their level is already doing it.
+
+## Putting figures into the public domain
+
+The Code of Practice for Statistics sets out **intelligent transparency**: taking an open, clear
+and accessible approach to the use of data, statistics and wider analysis in the public domain, as
+the default rather than as a decision to be made each time.
+
+{{< include /guidance/_partials/diagram-public-domain.qmd >}}
+
+**It binds more than official statistics.** The Code's Standards for the Public Use of Statistics,
+Data and Wider Analysis apply to public bodies using statistics, data and wider analysis in the
+public domain, and to everyone involved in that use rather than to analysts alone. A figure quoted
+in a press release, a board paper made public, or a number given to a journalist is in scope. There
+are three standards.[^src-code-of-practice-for-statistics-edition-3-0-standards-for-the-public-use-of-statistics-data-and-wider-analysis]
+
+**1. Equality of access.** Make what is used in the public domain available to everyone in a timely
+way, so the public can access, scrutinise and verify the claims made from it.
+
+- draw on the latest and most reliable published official statistics where possible
+- publish the figures **in advance of, or at the same time as**, their use in public communications
+- publish them **separately from** any related policy or ministerial statement
+- if unpublished figures are referred to publicly, publish them as soon as possible, ideally the
+  same day
+
+**2. Supporting understanding.** Use figures with integrity and communicate them with clarity and
+accuracy, so the public can understand the basis for the claims made.
+
+- do not cherry-pick figures, take them out of context, or place undue certainty on them
+- communicate the key context and limitations alongside them
+- be clear where the figures came from, citing sources in publications and on social media
+- take proactive steps to prevent or minimise misinterpretation and misuse
+
+**3. Decision making and leadership.** Seek and use impartial, expert advice when using figures in
+the public domain.
+
+::: {.callout-important title="The one that catches people out" appearance="minimal" icon=false}
+<br>
+Quoting an unpublished number in public starts a clock. Under equality of access it should be
+published as soon as possible, ideally the same day, because until it is published nobody can check
+the claim made from it.
+
+If an analysis is going to be quoted before it is published, that is a conversation to have while
+the analysis is being scoped, not after the quotation appears.
+:::
+
+## Transparency of the analysis itself
+
+Beyond algorithmic tools, transparency means the ordinary discipline of being open about how a
+result was reached:
+
+- the assurance level applied, and why. See
+  [section 5](../05-deciding-your-assurance-level/index.qmd)
+- the quality assurance statement. See
+  [section 9](../09-communicating-analysis/index.qmd)
+- the data sources, extract dates and known quality issues
+- the code, published where it can be
+
+For official statistics, Standard 4 of the Code of Practice requires producers to manage data safely
+and securely and be open about how it will be used and protected. Standard 1 requires them to
+challenge misuse. See [section 2](../02-standards-landscape/index.qmd).
+
+## Where to go next
+
+- [Section 8, Business Critical analysis](../08-business-critical/index.qmd)
+- [Section 9, communicating analysis](../09-communicating-analysis/index.qmd)
+- [Section 13, getting help](../13-getting-help/index.qmd)
+
+[^src-govs-010-principle-5]: GovS 010 principle 5
+[^src-govs-010-section-6-1]: GovS 010 section 6.1
+[^src-govs-010-section-6-14]: GovS 010 section 6.14
+[^src-govs-010-section-6-7]: GovS 010 section 6.7
+[^src-code-of-practice-for-statistics-edition-3-0-standards-for-the-public-use-of-statistics-data-and-wider-analysis]: Code of Practice for Statistics edition 3.0, Standards for the Public Use of Statistics, Data and Wider Analysis

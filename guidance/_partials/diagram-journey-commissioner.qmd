@@ -1,0 +1,33 @@
+![](/static/diagrams/21-journey-commissioner.png){fig-alt="Seven stops down the page for a commissioner, each with the question in your head, the section that answers it, what you do there, and what you leave behind. A yellow band marks the Business Critical decision as the commissioner's own, and a dashed line loops from the last stop back to the second. Every stop is set out in the table below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+| Where you are | Section | What you do there | What you leave behind |
+|---|---|---|---|
+| You need analysis to make a decision | **Section 4**, the analytical lifecycle, phase 1 | State the decision, the deadline, and how certain the answer needs to be. Identify the key stakeholders. Expect the analyst to challenge a request that arrives already framed as an output | The decision, the question and the deadline, written down where the analyst can work from them |
+| How much assurance does this need? | **Section 5**, deciding your assurance level | Score it with the analyst. The score is about what an error would do, not about how hard the work is, and it is agreed at scoping rather than described afterwards | The completed assurance level decision sheet, and the Business Critical answer recorded either way |
+| Is there time for the assurance this needs? | **Section 3**, roles and responsibilities | Making sure there is enough time and resource for the assurance the level requires is your responsibility. Where time and resource constrain the approach, you need to understand the risks that follow | A schedule with the assurance in it, including the reviewer's own time, rather than an assurance plan with no time against it |
+| Is the design right before the work starts? | **Section 4**, the analytical lifecycle, phase 2 | Approve the design before work proceeds. The critical friend confirms the approach answers the question and that the assurance planned is at the right level; you confirm it meets your need | The approved design and plan, and your approval recorded against it |
+| The analysis is running | **Section 4**, the analytical lifecycle, phase 3 | Stay available for clarification and review any change of design or method the analyst raises. Resist changing the question late. Deadline pressure is resolved by narrowing the question, not by lowering the level | A decision log entry for anything you changed, and the reason for it |
+| Can I use this? | **Section 9**, communicating analysis | Confirm the analysis is likely to meet your need, understand and apply its limitations, and use it as specified. You approve the results for release and are accountable for their use and dissemination | Your approval, and the quality assurance statement attached to the output |
+| Did it do any good? | **Section 11**, review and continuous improvement | Above Level 1 the review is yours to own, with the analyst, and with the Analysis Senior Responsible Officer at Levels 3 and 4 BCA. Did it inform the decision, is it still used, and should it be decommissioned? | The review record, kept with the project record |
+
+**A band across the journey**, after the assurance level stop: deciding whether the analysis is
+Business Critical is yours. Any one impact dimension at 4 makes it so. If you and the analyst cannot
+agree, it goes to the Analytical Quality and Assurance Lead.
+
+**Two responsibilities that are easy to miss**, both yours rather than the analyst's. Enough time and
+resource for the assurance the work needs, because a level agreed without time behind it is a level
+in name only. And understanding the risks where time or resource constrain the approach, because the
+alternative is finding out about them from the result. [AQuA Book section 6.1.1]
+
+**Open alongside, at any stop.** [Section 1](/guidance/01-why-quality-matters/index.qmd) for what quality
+assurance is buying you. [Section 3](/guidance/03-roles-and-responsibilities/index.qmd) for what each of the
+four roles owns. [Section 8](/guidance/08-business-critical/index.qmd) if the answer to the Business
+Critical question was yes. [Section 13](/guidance/13-getting-help/index.qmd) for the person you need.
+
+**The dashed line is the loop**, running from the last stop back to the second. What review finds is
+what your next commission should start from. [GovS 010 section 6.10]
+
+</details>

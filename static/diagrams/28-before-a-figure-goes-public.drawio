@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="28-before-a-figure-goes-public" name="28 before a figure goes public">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1030" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007F3B;strokeWidth=2.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n13" target="n14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007F3B;strokeWidth=2.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n14" target="n16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;Before a figure goes public&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;Intelligent transparency is the default rather than a decision to be made each time. The Code calls it taking an open, clear and accessible approach.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b style=&quot;font-size:13px&quot;&gt;It binds more than official statistics.&lt;/b&gt;&lt;span style=&quot;font-size:12px&quot;&gt; The Code’s Standards for the Public Use of Statistics, Data and Wider Analysis apply to public bodies using statistics, data and wider analysis in the public domain, and to &lt;b&gt;everyone involved in that use&lt;/b&gt; rather than to analysts alone. Code of Practice for Statistics edition 3.0.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="132" width="1150" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;All of these are in scope&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="132" width="546" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;span style=&quot;font-size:11px&quot;&gt;A figure quoted in a press release&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="154" width="546" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;span style=&quot;font-size:11px&quot;&gt;A board paper made public&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="178" width="546" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;span style=&quot;font-size:11px&quot;&gt;A number given to a journalist&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="202" width="546" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;Three standards. The first is the one with a clock attached.&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="248" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:13px&quot;&gt;1. Equality of access&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Make what is used in the public domain available to everyone in a timely way, so the public can access, scrutinise and verify the claims made from it.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Draw on the latest and most reliable published official statistics where possible&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Publish the figures &lt;b&gt;in advance of, or at the same time as&lt;/b&gt;, their use in public communications&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Publish them &lt;b&gt;separately from&lt;/b&gt; any related policy or ministerial statement&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· If unpublished figures are referred to publicly, publish them as soon as possible, ideally the same day&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="274" width="562" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;b style=&quot;font-size:13px&quot;&gt;2. Supporting understanding&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Use figures with integrity and communicate them with clarity and accuracy, so the public can understand the basis for the claims made.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Do not cherry-pick figures, take them out of context, or place undue certainty on them&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Communicate the key context and limitations alongside them&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Be clear where the figures came from, citing sources in publications and on social media&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· Take proactive steps to prevent or minimise misinterpretation and misuse&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="618" y="274" width="562" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:13px&quot;&gt;3. Decision making and leadership&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Seek and use impartial, expert advice when using figures in the public domain.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· §13 is how to find the person whose advice you need&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· For official statistics, the Head of Profession for Statistics or an appointed deputy approves the output&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;· An Algorithm Transparency Recording Standard entry is owned by the Head of Profession, because it is a public statement about a tool&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="274" width="562" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;The sequence, for a figure that is going to be quoted&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;b style=&quot;font-size:12px&quot;&gt;Published first, or at the same time&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Never after. Until it is published nobody can check the claim made from it.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="546" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;b style=&quot;font-size:12px&quot;&gt;Published separately from the policy&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Separately from any related policy or ministerial statement, so the figure can be read on its own.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="618" y="546" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="&lt;b style=&quot;font-size:12px&quot;&gt;Quoted before it was published?&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;A clock starts. Publish as soon as possible, ideally the same day.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="546" width="562" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="848" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;The one that catches people out&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="702" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Quoting an unpublished number in public &lt;b&gt;starts a clock&lt;/b&gt;. Under equality of access it should be published as soon as possible, ideally the same day, because until it is published nobody can check the claim made from it. If an analysis is going to be quoted before it is published, that is a conversation to have while it is being scoped, not after the quotation appears.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="726" width="808" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="690" width="848" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Transparency of the analysis itself&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="702" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Beyond the figure: the assurance level applied and why (§5), the quality assurance statement (§9), the data sources, extract dates and known quality issues, and the code, published where it can be. For official statistics, Standard 4 requires producers to manage data safely and be open about how it will be used, and Standard 1 requires them to challenge misuse.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="726" width="808" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="832" width="860" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;b style=&quot;font-size:11px;color:#003087&quot;&gt;How to read this&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="840" width="836" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="862" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;span style=&quot;font-size:11px&quot;&gt;Dark blue: who and what the standards bind&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="861" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="888" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;span style=&quot;font-size:11px&quot;&gt;Blue card: one of the three standards, with what it asks for&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="887" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="914" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;span style=&quot;font-size:11px&quot;&gt;Green card and green arrow: the sequence, in order&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="913" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="940" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="&lt;span style=&quot;font-size:11px&quot;&gt;Yellow card: the step that starts a clock&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="939" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="&lt;span style=&quot;font-size:12px&quot;&gt;Intelligent transparency means taking an open, clear and accessible approach to the use of data, statistics and wider analysis in the public domain, &lt;b&gt;as the default rather than as a decision to be made each time&lt;/b&gt;. Every card here is written out in the text description below the picture, and §10 carries the three standards in full.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="912" y="840" width="848" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="986" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

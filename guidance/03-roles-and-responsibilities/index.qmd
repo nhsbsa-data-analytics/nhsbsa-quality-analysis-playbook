@@ -1,0 +1,213 @@
+---
+title: "Roles and responsibilities"
+description: "Who does what across the analytical lifecycle, and what to do when you disagree."
+---
+
+Four roles appear throughout this playbook. They are the AQuA Book's four, under the names NHSBSA
+uses, and everything in this opening comes from the same clause of it.[^src-aqua-book-section-5-1]
+
+The renaming is allowed, because organisations may have their own titles for these roles. One person
+may hold more than one of them, and on small pieces of work often will. A role may be held by a team
+or a committee rather than by one person, in which case one named individual carries the
+accountability for it.
+
+**The analyst and the assurer are the exception. Those two roles shall be separate from one another
+in all cases.** That holds at Level 1 as firmly as at Level 3. What changes with the level is how far
+apart the two people sit, not whether there are two of them.
+
+## The roles
+
+### Commissioner
+
+The person requesting the analysis. May be an internal team, an external partner, or a sponsor such
+as the Department of Health and Social Care or NHS England.
+
+Owns the decision the analysis supports, and is accountable to a named person for commissioning the
+work and for the use and dissemination of its results.[^src-govs-010-section-4-4-5]
+
+### Analyst
+
+The person planning, undertaking and documenting the analysis. Includes Data and Performance
+Analysts, Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.
+
+Accountable to the commissioner for designing, conducting and delivering the analysis.[^src-govs-010-section-4-4-7]
+
+### Critical friend, or analytical assurer
+
+The person who provides independent advice on a specific assignment, confirming that appropriate and
+sufficient quality assurance has taken place and that the use of the outputs is appropriate, with
+assumptions and risks understood.[^src-govs-010-section-4-4-6] **They are not delivering the analysis.**
+Usually a Senior Analyst, though not necessarily an analyst, and ideally with knowledge of the
+subject or the techniques. Must be independent from the analyst.[^src-aqua-book-section-5-1]
+
+**The two names are one role, not two.** *Critical friend* is the name NHSBSA's playbooks use.
+*Analytical assurer* is the term the standards use for the same person: GovS 010 defines it at
+4.4.6 and the AQuA Book at 5.1. If you have been asked to be a critical friend, or to find one,
+this is the role meant, and everything this playbook says about the analytical assurer applies to
+you.
+
+### Analysis Senior Responsible Officer
+
+Assigned for Business Critical analysis and models. A named person senior enough to take
+responsibility for the risks across the lifecycle, who confirms the work is suitable for its
+intended use before it is used.[^src-govs-010-section-6-11] May be the commissioner. The AQuA Book calls
+this role the approver.[^src-aqua-book-section-5-1]
+
+**This playbook uses one name for the role, and you will meet others elsewhere.** The Business
+Critical documentation calls it the Model Senior Responsible Officer, the draft Analytical
+Governance and Quality Assurance Policy calls it the Senior Responsible Owner, and the AQuA Book
+calls it the approver. They are the same role. If a document in front of you uses one of those
+titles, read it as this one.
+
+{{< include /guidance/_partials/diagram-roles.qmd >}}
+
+## Where to start, by role
+
+The four roles meet this playbook at different points, and none of them needs all of it. If you
+know which one you are, this is the shortest route to the parts that ask something of you.
+
+| You are the | Start with | Then | And when it applies |
+|---|---|---|---|
+| **Commissioner** | [Phase 1](../04-analytical-lifecycle/index.qmd), where you state the decision, the deadline and how certain the answer needs to be | [Section 5](../05-deciding-your-assurance-level/index.qmd), which you score together with the analyst | [Section 8](../08-business-critical/index.qmd), if any impact dimension scores 4 |
+| **Analyst** | [Section 5](../05-deciding-your-assurance-level/index.qmd), to reach your level | [Section 6](../06-doing-the-work/index.qmd), the column for that level, phase by phase | [Section 7](../07-uncertainty/index.qmd) for what you do not know, [section 9](../09-communicating-analysis/index.qmd) for writing it up |
+| **Critical friend** | The independence rule below, which sets how far from the work you have to sit | [Section 6](../06-doing-the-work/index.qmd), phase 3, for what to review at that level | [Section 6](../06-doing-the-work/index.qmd), phase 2, so that you are named before the work starts rather than found after it |
+| **Analysis Senior Responsible Officer** | [Section 8](../08-business-critical/index.qmd), which is the whole Business Critical route in nine steps | [Section 6](../06-doing-the-work/index.qmd), phase 4, for what you are approving | [Section 11](../11-review-and-continuous-improvement/index.qmd), for revalidating the designation |
+
+Nobody reads all fifteen sections. Each of those routes is drawn out stop by stop in
+[journeys through this playbook](../00-how-to-use/journeys.qmd), with what you do at each stop and
+what it leaves behind. The grid below is the same thing in more detail, by phase rather than by
+role, for when you need to see how the four fit together.
+
+## What each role does, by phase
+
+Phases follow [section 4](../04-analytical-lifecycle/index.qmd). The responsibilities in each cell
+follow the AQuA Book's chapters for that phase.[^src-aqua-book-sections-6-1-7-1-8-1-and-9-1]
+
+**The assurance level is agreed at scoping, not at design.** The specification agreed with the
+commissioner defines the level of assurance required[^src-aqua-book-section-6-1-2], and GovS 010 asks
+for the levels of quality and certainty required to be recorded at the same point.[^src-govs-010-section-5-2] Design is where the assurance activities that deliver the level are
+established and planned.[^src-aqua-book-section-7-1-2] See
+[section 5](../05-deciding-your-assurance-level/index.qmd).
+
+| | Commissioner | Analyst | Critical friend | Analysis Senior Responsible Officer |
+|---|---|---|---|---|
+| **1. Engagement and scoping** | States the decision, the deadline and the levels of quality and certainty required. Identifies key stakeholders. Decides whether the work is Business Critical. Agrees the assurance level | Clarifies the real question. Challenges the framing where a request arrives as an output. Agrees and documents scope, boundaries and assumptions. Scores and records the assurance level | Understands the brief, context and criticality | Notes the work and confirms resources and plans are in place for the assurance to happen. Confirms Business Critical status and register entry |
+| **2. Design** | Approves the design before work proceeds. Ensures enough time and resource for the assurance the level requires | Chooses the method. Establishes the assurance requirements the level calls for. Produces the plan and design documentation, including the planned verification and validation | Reviews the plan, confirms the approach answers the question and that the assurance planned is at the right level, and plans enough time for it | Where Business Critical, confirms design governance has been followed |
+| **3. Analysis** | Stays available for clarification. Reviews any change of design or method the analyst raises. Resists changing the question late | Carries out the analysis and the verification and validation the plan set. Documents the assurance done, the data and the methods. Logs decisions and assumption changes as they happen. Acts on the assurer's findings | Reviews the assurance the analyst has done, carries out any further verification and validation, and reports errors and improvements back | Stays aware of progress and makes sure they are available to approve at delivery |
+| **4. Delivery and sign-off** | Confirms the analysis is likely to meet their need. Uses it as specified. Understands and applies its limitations | Communicates results, uncertainty, caveats and limitations clearly, in a form that meets audience needs including accessibility. Produces the assurance statement. Follows the governance for delivery and sign-off, including the Business Critical register | Communicates the assurance state: that the work was appropriately scoped, executed, validated, verified and documented, and that uncertainty is handled adequately | Reviews the assurance evidence. Confirms the work meets the design requirements, is of sufficient quality and is proportionately documented. Approves it as fit for its intended use |
+
+Three rows of that grid are obligations rather than good practice. The assurer **shall** review the
+assurance the analyst has done and report errors back[^src-aqua-book-section-8-1-3]; the analyst
+**shall** describe any limitations on using the analysis and follow the governance for delivery and
+sign-off[^src-aqua-book-section-9-1-2]; and the approver **shall** review the assurance evidence before
+signing off[^src-aqua-book-section-9-1-4].
+
+Who signs off at each assurance level is in [section 6](../06-doing-the-work/index.qmd).
+
+## Two responsibilities that are easy to miss
+
+**The commissioner ensures there is enough time and resource for the assurance the work needs.**
+Where time and resource pressures constrain the approach, the commissioner needs to understand the
+risks that follow.[^src-aqua-book-section-6-1-1] This is a commissioner responsibility, not something
+the analyst absorbs quietly.
+See [section 5](../05-deciding-your-assurance-level/index.qmd).
+
+**The analyst provides appropriate challenge.** Where a request arrives already framed as an output,
+reframing it as a question is expected of you.[^src-govs-010-section-6-2] The record of that conversation
+is what makes the challenge defensible rather than obstructive.
+
+## Independence
+
+**The assurer and the analyst shall be independent.** What varies is the **degree of separation**,
+which depends on the importance of the output and the size and complexity of the analysis.[^src-aqua-book-chapter-3]
+
+That does not mean the analyst stops assuring their own work. It means there shall **also** be
+formal independent assurance.[^src-aqua-book-chapter-3] Your own checks are the first line, not the
+last one.
+
+The ladder below is GovS 010's own: assurance should be on at least three separate and defined
+levels, by operational management, by senior management independent of operational management, and
+by independent bodies.[^src-govs-010-section-4-2] Analysis should also be peer reviewed by independent
+individuals or groups.[^src-govs-010-section-6-8]
+
+| Level | The reviewer is |
+|---|---|
+| Level 1 Standard | A colleague, within your team |
+| Level 2 Enhanced | Someone who had no hand in producing the work |
+| Level 3 Comprehensive | An assurer from outside the delivering team |
+| Level 4 BCA | A Lead Assurer from outside the delivering team, with external review |
+
+There is no level at which nobody independent looks at the work.
+
+**The Analytical Risk Assessment and Quality Assurance Framework puts this more strongly.** Its
+requirement 3 says analysis must be independently reviewed by a suitably skilled individual, with no
+proportionality attached. Read alongside the decision sheet, where Level 1 Standard asks for sense
+checking and names no independent review, the two appear to disagree. They do not disagree about the
+floor: section 11 of that same framework allows the reviewer to be a line manager, which is what
+Level 1 is. What varies with the level is the depth of the review and how far the reviewer sits from
+the work, which is the AQuA Book's position and the one this playbook follows.
+
+## When you disagree
+
+Disagreement is a healthy sign, and the routes are short. A design and plan should cover escalation
+routes that let analysts and stakeholders raise concerns, so having them written down is the
+standard's expectation rather than this playbook's preference.[^src-govs-010-section-5-3] Which routes
+they are is NHSBSA's to settle, and the table below is proposed.
+
+| Disagreement | Goes to |
+|---|---|
+| The assurance level | The Analytical Quality and Assurance Lead |
+| Whether the analysis is Business Critical | The commissioner decides. Escalate to the Analytical Quality and Assurance Lead if unresolved |
+| Whether the analysis is fit for purpose | The critical friend advises. Unresolved, escalate to the Head of Profession |
+| Whether there is enough time for the assurance required | The commissioner, then the Analytical Quality and Assurance Lead |
+
+**Deadline pressure is not resolved by lowering the assurance level.** It is resolved by narrowing
+the question, or by stating plainly what assurance was not done.
+See [section 5](../05-deciding-your-assurance-level/index.qmd).
+
+## Governance
+
+**Roles and accountabilities shall be defined, in the relevant governance and management framework,
+and assigned to people with appropriate seniority, skills and experience.**[^src-govs-010-section-4-4-1]
+
+That is one of only three substantive requirements GovS 010 places on NHSBSA itself, so it is worth
+reading exactly.
+[Section 1](../01-why-quality-matters/index.qmd) names the other two. Defining and assigning the
+roles is required. What each is responsible for, and the person they are accountable to, the
+standard puts as a *should*. This section does both.
+
+**Defining a role is not the same as assigning it.** This section defines the Analytical Quality and
+Assurance Lead, the Head of Profession for Statistics and the senior officer accountable for
+analysis, and says what each is responsible for. Who holds each post is recorded in the governance
+and management framework rather than here, so that a change of post holder is not a change to this
+playbook. If you need one of them and do not know who they are, ask through
+[section 13](../13-getting-help/index.qmd).
+
+## Where to go next
+
+- [Section 4, the analytical lifecycle](../04-analytical-lifecycle/index.qmd), to see when each
+  role acts rather than only what it is responsible for
+- [Section 5, deciding your assurance level](../05-deciding-your-assurance-level/index.qmd), where
+  the commissioner and the analyst make the first decision together
+- [Section 13, getting help](../13-getting-help/index.qmd), if you need one of these people and do
+  not know who they are
+
+[^src-aqua-book-section-5-1]: AQuA Book section 5.1
+[^src-govs-010-section-4-4-5]: GovS 010 section 4.4.5
+[^src-govs-010-section-4-4-7]: GovS 010 section 4.4.7
+[^src-govs-010-section-4-4-6]: GovS 010 section 4.4.6
+[^src-govs-010-section-6-11]: GovS 010 section 6.11
+[^src-aqua-book-sections-6-1-7-1-8-1-and-9-1]: AQuA Book sections 6.1, 7.1, 8.1 and 9.1
+[^src-aqua-book-section-6-1-2]: AQuA Book section 6.1.2
+[^src-govs-010-section-5-2]: GovS 010 section 5.2
+[^src-aqua-book-section-7-1-2]: AQuA Book section 7.1.2
+[^src-aqua-book-section-8-1-3]: AQuA Book section 8.1.3
+[^src-aqua-book-section-9-1-2]: AQuA Book section 9.1.2
+[^src-aqua-book-section-9-1-4]: AQuA Book section 9.1.4
+[^src-aqua-book-section-6-1-1]: AQuA Book section 6.1.1
+[^src-govs-010-section-6-2]: GovS 010 section 6.2
+[^src-aqua-book-chapter-3]: AQuA Book chapter 3
+[^src-govs-010-section-4-2]: GovS 010 section 4.2
+[^src-govs-010-section-6-8]: GovS 010 section 6.8
+[^src-govs-010-section-5-3]: GovS 010 section 5.3
+[^src-govs-010-section-4-4-1]: GovS 010 section 4.4.1

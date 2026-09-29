@@ -1,0 +1,64 @@
+![](/static/diagrams/25-document-trail.png){fig-alt="Four phase headers across the top. A green band beneath them holds the analytical project record and its nine sections, running across all four phases. Below that, four templates sit under the phase each is created in, then three cards say where each artefact ends up, then four cards give the publication routes. Everything is set out in the text below the picture."}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**Four phase headers across the top**, matching [section 4](/guidance/04-analytical-lifecycle/index.qmd):
+engagement and scoping, design, analysis, delivery and sign-off.
+
+**A green band beneath them: the analytical project record**, which runs across all four phases. One
+place for everything about a piece of analysis, opened at scoping and added to as you go rather than
+written at the end. How much of it you complete depends on your level, and keeping it proportionate
+is the point. [GovS 010 section 6.7] Its nine sections are: 1. header, with title, reference, level,
+analyst, commissioner, dates and the Business Critical answer; 2. the question, with the decision it
+supports, the question, what is out of scope and the deadline; 3. data, with source, owner, extract
+date, known quality issues, effect and access basis; 4. method, with the approach, why this and not
+the alternatives, and tools and code repository; 5. assumptions, with the assumption, rationale,
+impact if wrong, whether sensitivity was tested and who agreed it; 6. uncertainty, with principal
+sources, how quantified or why not, and how communicated; 7. the decision log, including deviations
+from the plan; 8. assurance and sign-off, with role, name, date and what they confirmed; 9. lessons
+learned. **Level 1 completes sections 1, 2, 4 and 5 only**, which is realistically one side of A4.
+
+**Then four templates, each created in one phase.**
+
+- **Assurance level decision sheet**, phase 1, described in
+  [section 5](/guidance/05-deciding-your-assurance-level/index.qmd). Scoring impact and likelihood to reach
+  your level, and the Business Critical test. Completed with your commissioner and attached to the
+  specification. Rescored later only if the level changes, with the reason recorded.
+- **Quality assurance checklist**, phase 2, described in
+  [section 6](/guidance/06-doing-the-work/index.qmd). The checks required at your assurance level, planned
+  here so the assurer's time is in the schedule. At Level 2 and above the reviewer is named before
+  the work starts.
+- **Quality assurance log**, phase 3, described in
+  [section 6](/guidance/06-doing-the-work/index.qmd). The checks recorded as you do them, with what you
+  found rather than only that you looked. A checklist shows somebody knew what to do; a log shows
+  they did it.
+- **Quality assurance statement**, phase 4, described in
+  [section 9](/guidance/09-communicating-analysis/index.qmd). What was done and what the limits are:
+  assumptions, uncertainty, limitations, and what the results can and cannot be used for. Published
+  with the output at Level 3.
+
+**Then where it ends up.** *Archived together, and linked from the output*: from Level 2, the
+project record, the quality assurance log and the code are archived together and linked from the
+output, because an artefact nobody can find from the output is an artefact nobody will look at.
+*Register updated, review date set*: at Level 3 the register is updated and a review date is set, and
+at Level 4 BCA the Business Critical register entry was made back at scoping, with
+[section 8](/guidance/08-business-critical/index.qmd) carrying the rest. *The review record, kept with the
+project record*: after release, [section 11](/guidance/11-review-and-continuous-improvement/index.qmd),
+because a review filed separately from the analysis it reviews is a record nobody finds when the
+analysis is next reused.
+
+**And where NHSBSA analysis is published, once it is out.** Official statistics at the statistical
+collections. Research and insight at data science projects. Open datasets at the Open Data Portal.
+Analytical code at the code repositories.
+
+**Created in place, not downloaded.** A template created in place is versioned and can be linked
+from the output. One downloaded, filled in and saved somewhere is a template nobody can find
+afterwards. The field lists are the part this playbook owns, so take them wherever your team works.
+Records should be version controlled, securely stored and retrievable. [GovS 010 section 6.7]
+
+**Where the templates are.** They are held on the NHSBSA SharePoint, alongside the rest of the
+analytical documentation, and opening them needs NHSBSA network access. If you cannot reach them,
+ask the Data Science, Advanced Analytics and Statistics team.
+
+</details>

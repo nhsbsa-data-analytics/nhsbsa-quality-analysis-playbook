@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="the-business-critical-route" name="The business critical route">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1378" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#0072C6;strokeWidth=2;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4" target="n12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#768692;strokeWidth=2;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n12" target="n14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=2.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n12" target="n15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=2.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n15" target="n18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="496" />
+              <mxPoint x="350" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.128;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.28859999999999997;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.4492;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.6098;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.7704;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#005EB8;strokeWidth=1.5;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.9309999999999999;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;The business critical route, and where §8 stops&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;The determination is made once, at scoping. §8 holds what is true only of business critical work, and the obligations the designation triggers stay in the sections that already own them. Nothing here is a new rule: it is NHSBSA’s own material, placed.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="1720" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="1720" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;§4 Engagement and scoping&amp;nbsp;&amp;nbsp;·&amp;nbsp;&amp;nbsp;scored on the assurance level decision sheet when the Scope is complete, by the commissioner and the lead analyst together&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Six impact dimensions, 1 to 4, highest taken. &lt;b&gt;Any one at 4 is Business Critical.&lt;/b&gt; Decision sheet 10 Sept 2026; the same six are section 5 of the Assurance Journey, 17 Sept 2026&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="120" width="1676" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;b style=&quot;font-size:12px&quot;&gt;Decision&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;major policy, funding, statutory or regulatory decisions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="62" y="166" width="544" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;b style=&quot;font-size:12px&quot;&gt;Financial&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;over £35m at risk, or major funding decisions whose consequences are not yet known&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="628" y="166" width="544" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;b style=&quot;font-size:12px&quot;&gt;Customers&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;rights, entitlements, eligibility, access, treatment, benefits or statutory obligations&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1194" y="166" width="544" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:12px&quot;&gt;Legal or regulatory&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;challenge, judicial review, enforcement, penalties or serious personal data breaches&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="62" y="208" width="544" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;b style=&quot;font-size:12px&quot;&gt;Public visibility and reach&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;key evidence base for decisions facing intense public, ministerial or media scrutiny&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="628" y="208" width="544" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:12px&quot;&gt;Reputation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;substantial and lasting loss of public confidence&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072C6;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1194" y="208" width="544" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;b&gt;Is it business critical?&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=14;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="268" width="320" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;b&gt;No.&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;font-size:12px&quot;&gt;The ordinary route, and nothing on this page applies. §5 sets the level, §6 the checks, §9 the quality assurance statement.&lt;br&gt;&lt;b&gt;There is no second gate.&lt;/b&gt; The same six dimensions that answer this question are step 1 of the decision sheet, so the level and the designation come out of one scoring rather than two.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="368" width="700" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="&lt;b&gt;Yes.&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;font-size:12px&quot;&gt;Everything in the ordinary route still applies, and §8 applies as well. The register entry, the QA appraisal and the Analysis Senior Responsible Officer start &lt;b&gt;now&lt;/b&gt;, at scoping, rather than being discovered once the work is designed.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="368" width="700" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;b style=&quot;font-size:15px&quot;&gt;§8 Business Critical analysis&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;What it holds, and nothing further.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;1&amp;nbsp;&amp;nbsp;The definition&lt;/b&gt;, of business critical analysis and of a business critical model, stated once.&lt;br&gt;&lt;br&gt;&lt;b&gt;2&amp;nbsp;&amp;nbsp;GovS 010 6.11’s five requirements&lt;/b&gt;: a named officer accountable, a statement of intended use, up-to-date user documentation, guidance on quality assurance, and confirmation from the accountable officer. The playbook already carries these almost word for word, under a heading about distribution. They move here.&lt;br&gt;&lt;br&gt;&lt;b&gt;3&amp;nbsp;&amp;nbsp;The eight model types&lt;/b&gt;, kept, with the central-government illustrations replaced by NHSBSA analysis.&lt;br&gt;&lt;br&gt;&lt;b&gt;4&amp;nbsp;&amp;nbsp;The register&lt;/b&gt;: where it sits, and how a return is made.&lt;br&gt;&lt;br&gt;&lt;b&gt;5&amp;nbsp;&amp;nbsp;The boundary of the BCM assurance stack&lt;/b&gt;, which NHSBSA guidance says is part of this playbook while the playbook has never said it back.&lt;br&gt;&lt;br&gt;&lt;b&gt;What it does not hold.&lt;/b&gt; The determination, which is at §4. The rating, which is at §5. The checks, which are at §6. A reader who cannot find those three in §8 has not found a gap. They have found a pointer, and the pointer is one line long.&lt;br&gt;&lt;br&gt;The test of this structure is the one a reader applies without meaning to: can they answer &quot;what do I do differently because this is business critical&quot; without reading §8 twice.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="620" height="548" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;And the thread runs out to six sections that already own the ground. Each pointer is one line in §8, and the content stays where a reader expects to find it.&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="520" width="1060" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="&lt;b style=&quot;font-size:15px&quot;&gt;§3&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size:12px&quot;&gt;Roles and responsibilities&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Who the named accountable officer is. GovS 010 6.11’s first requirement is a person, and people are defined in the section that defines roles, not in seven separate places.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="552" width="1060" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="&lt;b style=&quot;font-size:15px&quot;&gt;§5&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size:12px&quot;&gt;Deciding your assurance level&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;What level and what checks follow. The designation is the top row of the same matrix rather than a separate input; splitting the inputs across two sections is how the site ended up making one decision twice.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="640" width="1060" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;b style=&quot;font-size:15px&quot;&gt;§6&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size:12px&quot;&gt;Doing the work&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;The checks themselves, and the &lt;b&gt;BCM QA appraisal&lt;/b&gt; as the instrument: twelve worksheets across three lifecycle stages, scoring six dimensions. §6 is where a reader goes to find out what to do.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="728" width="1060" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;b style=&quot;font-size:15px&quot;&gt;§7&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size:12px&quot;&gt;Uncertainty&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;What a business critical output must state about uncertainty. Uncertainty method is one subject, not two, so §7 carries it and §8 states only that it is not optional here.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="816" width="1060" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;b style=&quot;font-size:15px&quot;&gt;§11&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size:12px&quot;&gt;Review&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Revalidation and the model lifecycle, including when a designation is reconsidered. A designation is not permanent, and Review already carries the cadence.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="904" width="1060" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;b style=&quot;font-size:15px&quot;&gt;§12&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size:12px&quot;&gt;Tools and templates&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;The appraisal workbook and the register return. Downloads live together so a reader finds them in one place rather than by section.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=15;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="992" width="1060" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1108" width="1060" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Where this comes from, and the one line that reads the other way&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1122" width="1016" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;b&gt;1&amp;nbsp;&amp;nbsp;The six criteria are NHSBSA’s, word for word.&lt;/b&gt; Assurance Journey, 17 September 2026, section 5: business critical analysis &quot;must meet at least one of the following criteria, these are rated at the highest level for impact&quot;. The same six are the impact dimensions on the decision sheet of 10 September.&lt;br&gt;&lt;b&gt;2&amp;nbsp;&amp;nbsp;The sheet reaches it from one score.&lt;/b&gt; Any dimension at 4 carries the analysis to Level 4 BCA whatever the likelihood, so the designation is a consequence of the impact assessment rather than a separate judgement.&lt;br&gt;&lt;b&gt;3&amp;nbsp;&amp;nbsp;The risk framework reads the other way,&lt;/b&gt; and it is the only place that does: &quot;Designation as Business Critical Analysis is a governance decision and should be considered separately from the analytical risk rating.&quot; That is the open confirmation at §4.&lt;br&gt;&lt;b&gt;4&amp;nbsp;&amp;nbsp;GovS 010 6.11 leaves it to NHSBSA,&lt;/b&gt; because it says &quot;if a model is defined as business critical&quot; and never says where that definition is made.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1146" width="1016" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FAF7;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1108" width="620" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="&lt;b style=&quot;font-size:13px;color:#007F3B&quot;&gt;What does not, by itself, make it business critical&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1162" y="1122" width="576" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="&lt;span style=&quot;font-size:12px&quot;&gt;&quot;Publication status, Board consideration, Official Statistics designation, media interest, national visibility, FOI disclosure, ministerial interest or parliamentary scrutiny do not by themselves justify a Level 4 score.&quot; &lt;i&gt;Assurance Journey, 17 September 2026, section 5.&lt;/i&gt;&lt;br&gt;&lt;br&gt;Official statistics are assured under the Code of Practice whether or not they are business critical. Two questions, answered separately.&lt;br&gt;&lt;br&gt;The exclusion matters because it is the one NHSBSA has written down twice, and it is the mistake a reader is most likely to make.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1162" y="1146" width="576" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1334" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

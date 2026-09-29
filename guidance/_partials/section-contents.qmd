@@ -1,0 +1,17 @@
+| | Section | When you would open it |
+|---|---|---|
+| **0** | [How to use this playbook](/guidance/00-how-to-use/index.qmd) | You are new to it, or you want the quickest route to an answer |
+| **1** | [Why analytical quality matters](/guidance/01-why-quality-matters/index.qmd) | You need the reasoning, or you are explaining it to somebody else |
+| **2** | [The standards landscape](/guidance/02-standards-landscape/index.qmd) | You want to know which standards apply to your work, and what each one asks |
+| **3** | [Roles and responsibilities](/guidance/03-roles-and-responsibilities/index.qmd) | You need to know who does what, who signs, or how to escalate a disagreement |
+| **4** | [The analytical lifecycle](/guidance/04-analytical-lifecycle/index.qmd) | You are scoping a piece of work and want the shape of it end to end |
+| **5** | [Deciding your assurance level](/guidance/05-deciding-your-assurance-level/index.qmd) | **You need to know how much assurance this piece of work requires** |
+| **6** | [Doing the work](/guidance/06-doing-the-work/index.qmd) | **You have your level and need to know what it asks of you** |
+| **7** | [Uncertainty, assumptions and limitations](/guidance/07-uncertainty/index.qmd) | You are deciding what to say about what the analysis cannot tell you |
+| **8** | [Business Critical analysis](/guidance/08-business-critical/index.qmd) | You want the definition, the register, or what is true only of Business Critical work |
+| **9** | [Communicating analysis](/guidance/09-communicating-analysis/index.qmd) | You are writing up results, or a quality assurance statement |
+| **10** | [Ethics and transparency](/guidance/10-ethics-and-transparency/index.qmd) | You are checking ethics, algorithmic transparency or publication obligations |
+| **11** | [Review and continuous improvement](/guidance/11-review-and-continuous-improvement/index.qmd) | An output is in use, or you are running the monthly review |
+| **12** | [Tools, templates and downloads](/guidance/12-tools-and-templates/index.qmd) | You are looking for a template, a workbook or a form |
+| **13** | [Getting help](/guidance/13-getting-help/index.qmd) | You want to ask somebody, or find a community of practice |
+| **A** | [Appendices](/guidance/A-appendices/index.qmd) | Glossary, the standards mapping, the change log and the accessibility statement |

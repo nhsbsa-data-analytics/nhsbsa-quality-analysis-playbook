@@ -1,0 +1,67 @@
+Business Critical analysis is analysis whose consequences are large enough that it is named,
+registered and assured differently from everything else. NHSBSA holds the test for it, and this
+playbook carries that test rather than a second one.
+
+**The definition.** Business Critical Analyses are those "where a material error could directly
+influence major policy, funding, statutory, regulatory or customer-impacting decisions, or cause
+substantial financial, legal or service consequences."[^src-bca-assurance-journey-s1]
+
+## How the answer is reached
+
+You reach it on the **assurance level decision sheet**, which scores the analysis against six
+impact dimensions from 1 to 4 and takes the highest. Analysis is Business Critical where **any one
+dimension scores 4**. It does not need two, and a 4 anywhere carries the analysis to assurance
+Level 4 whatever the likelihood of an error.
+
+The six, in NHSBSA's own words:
+
+| | Scores 4 where |
+|---|---|
+| **Decision** | The decision it informs impacts on major policy, funding, statutory or regulatory decisions |
+| **Financial** | The amount of funding at risk exceeds £35 million, or the analysis directly informs major funding or investment decisions and the full financial consequences are not yet known |
+| **Customers** | The impact on customers could affect individuals' rights, entitlements, eligibility, access to services, treatment, benefits or statutory obligations |
+| **Legal or regulatory** | An error could create significant legal, regulatory or compliance exposure: legal challenge, judicial review, discrimination claim, statutory non-compliance, regulatory enforcement, significant financial penalties, reputational damage, or serious personal data breaches |
+| **Public visibility and reach** | The analysis is the key evidence base for major policy, funding, regulatory or statutory decisions likely to be subject to intense public, ministerial, parliamentary, regulatory or media scrutiny |
+| **Reputation** | Public trust would be at risk, because an error could cause a substantial and lasting loss of confidence arising from materially incorrect policy, funding, regulatory or statutory decisions |
+
+[NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 5.
+The same six are the impact dimensions on the decision sheet in Criteria for determining the level
+of analytical risk v3, 10 September 2026. The financial threshold is marked "tbc" pending alignment
+with the Standing Financial Instructions; the DHSC definition covers analysis where £40 million or
+more is at risk.]
+
+::: {.callout-important title="What does not, by itself, make analysis Business Critical" appearance="minimal"}
+<br>
+"Publication status, Board consideration, Official Statistics designation, media interest, national
+visibility, FOI disclosure, ministerial interest or parliamentary scrutiny do not by themselves
+justify a Level 4 score."[^src-bca-assurance-journey-s5]
+
+Official statistics are assured under the Code of Practice whether or not they are Business
+Critical. The two are different questions and a publication answers both separately.
+:::
+
+## When, and who
+
+**When the Scope is complete**, before the Specification is written. That is the point the guidance
+names, and the Scope is the first document that states what the analysis is for and what depends on
+it, which is what the six dimensions ask about. Everything that follows from a yes, the register
+entry, the Analysis Senior Responsible Officer and the enhanced assurance, takes time to arrange.
+
+The guidance says the sheet **"can be used when the scope is completed"**.[^src-bca-assurance-journey-s5] **This playbook requires it**, because a designation reached after the
+Specification is written cannot change the Specification, and because two analysts doing comparable
+work should not be able to reach different levels with nothing recording why.
+
+**Save the completed sheet and attach it to the Specification.** A recorded "no" is as useful as a
+yes. An unrecorded one cannot be told apart from never having asked.
+
+**The commissioner and the lead analyst score it together.** The commissioner knows what the
+analysis will be used for and what depends on it; the analyst knows what it can bear. Where the two
+disagree, escalate to the Analytical Quality and Assurance Lead.
+
+**The designation is a consequence of the impact assessment, not a separate judgement alongside it.**
+You reach it by scoring the six dimensions on the decision sheet, which is the instrument you open
+anyway to set your assurance level. It is a governance decision in the sense that it triggers
+governance, not in the sense that somebody decides it somewhere else.
+
+[^src-bca-assurance-journey-s1]: NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 1
+[^src-bca-assurance-journey-s5]: NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 5

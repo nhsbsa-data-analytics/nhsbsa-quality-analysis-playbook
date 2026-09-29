@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="18-which-standard-applies" name="18 which standard applies">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1026" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;Which standard applies to your work&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;Two apply to everything. The rest attach to particular kinds of work. Getting the boundary wrong is costly in both directions.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1720" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="128" width="1720" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;Always, for all NHSBSA analysis&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="142" width="1676" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:13px&quot;&gt;GovS 010: Analysis&lt;/b&gt; &lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;sets the requirement&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The government functional standard for analysis. Five principles, three of which are substantive requirements. Section 1 says which.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="62" y="168" width="828" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;b style=&quot;font-size:13px&quot;&gt;The AQuA Book&lt;/b&gt; &lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;explains how to meet it&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Good practice for analytical quality assurance: RIGOUR, the four roles, the four phases, and proportionate assurance. Always, as the practical companion.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=13;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="906" y="168" width="828" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;b style=&quot;font-size:12px;color:#425563&quot;&gt;Then add whichever of these describe your work. They are layers, not alternatives, and more than one can apply at once.&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="288" width="1720" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it is official statistics&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Code of Practice for Statistics, edition 3.0&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;In full, and as a regulatory requirement. Ten standards under Trustworthiness, Quality and Value. A narrower set of outputs than everything NHSBSA publishes.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="314" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it involves code&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;NHSBSA Analytical Code Assurance Playbook&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Version control, testing, peer review, readable and modular code, documentation, open sourcing. Whenever your analysis involves code.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="474" y="314" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it is a Data Science initiative&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;NHSBSA Data Science Playbook&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;The end-to-end workflow: problem definition, assigning a critical friend, analysis, wrap up. It is the playbook that sequences your work.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="908" y="314" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it produces a chart, table or dashboard&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;NHSBSA Data Visualisation Standards&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;How to choose a chart, how to label it and how to make it readable. In the Digital, Data and Technology Playbook.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="314" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it is an open data release&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;NHSBSA Open Data Standards&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;How NHSBSA publishes open data.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="434" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it is appraisal, or evaluation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Green Book, and Magenta Book&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Green Book for appraisal: costs, benefits and risks of alternatives. Magenta Book for evaluation: an intervention's design, implementation and outcomes.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="474" y="434" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;b style=&quot;font-size:12px&quot;&gt;If you are assessing analytical risk&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Orange Book&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Risk management principles and concepts. Referenced by GovS 010 section 4.2.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="908" y="434" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="&lt;b style=&quot;font-size:12px&quot;&gt;If data quality is a material concern&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Government Data Quality Framework&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Managing and describing data quality.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="434" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it uses data or AI&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Data and AI Ethics Framework&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Seven principles. Its scope was extended to AI and algorithmic technologies in December 2025, so the principles cover both. Section 10.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="554" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;b style=&quot;font-size:12px&quot;&gt;If an algorithmic tool informs a decision affecting the public&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Algorithmic Transparency Recording Standard&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;A record is expected. The analyst drafts it as part of delivery; the Head of Profession for Statistics owns submission. From Level 3 upwards.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="474" y="554" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;b style=&quot;font-size:12px&quot;&gt;If it builds on or uses an AI system&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;AI Playbook for the UK Government, and DSIT's Introduction to AI assurance&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Ten principles for building, buying and using AI. The DSIT guide is how a system gets evaluated rather than just built. This playbook signposts them rather than duplicating them.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="908" y="554" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="&lt;b style=&quot;font-size:12px&quot;&gt;If any impact dimension scores 4&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#003087&quot;&gt;&lt;b&gt;Business Critical: section 8, and Level 4 BCA&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;On top of everything above, and an AI system can still be Business Critical. Section 8 has the route in nine steps.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="554" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="688" width="848" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;They are layers, not alternatives&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;GovS 010 sets the requirement. The AQuA Book explains how to meet it. The Code of Practice adds obligations for official statistics. The code assurance playbook adds obligations where there is code. The Green, Magenta and Orange Books add depth for particular kinds of work. The AI estate applies on top when a system rather than an analysis is what is being assured.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="724" width="808" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="688" width="848" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="&lt;b style=&quot;font-size:13px;color:#003087&quot;&gt;Where two appear to conflict&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="700" width="808" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-size:12px&quot;&gt;The more specific and more recent governs, and you should raise it. If this playbook disagrees with a standard, the standard is right and this playbook needs fixing. Section 13 has the route. You may also apply the Code of Practice voluntarily to work that is not official statistics, as a deliberate decision rather than an accident.&lt;/span&gt;&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932" y="724" width="808" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="818" width="860" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;b style=&quot;font-size:11px;color:#003087&quot;&gt;How to read this&lt;/b&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="826" width="836" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F8;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="848" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;span style=&quot;font-size:11px&quot;&gt;Dark blue band at the top: applies to all NHSBSA analysis, with no condition&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="847" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="874" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;span style=&quot;font-size:11px&quot;&gt;Blue card: applies in addition, where the condition on the card is true&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="873" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="900" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="&lt;span style=&quot;font-size:11px&quot;&gt;Yellow card: Business Critical, which applies on top of everything else&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="899" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#768692;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="52" y="926" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="&lt;span style=&quot;font-size:11px&quot;&gt;Each card names the condition first, then what it adds, then when it bites&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78" y="925" width="810" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="&lt;span style=&quot;font-size:12px&quot;&gt;Getting the boundary wrong is costly in both directions. Applying the full Code of Practice to a routine internal data request wastes effort the organisation does not have. Failing to apply it to an official statistic is a regulatory matter. Every standard named here is linked from section 12, and every card is written out in the text description below the picture.&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="912" y="826" width="848" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="&lt;span style=&quot;font-size:10px;color:#768692&quot;&gt;Producing Quality Analysis  ·  NHS Business Services Authority&lt;/span&gt;" style="html=1;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="982" width="1720" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
