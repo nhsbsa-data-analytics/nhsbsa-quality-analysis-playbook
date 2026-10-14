@@ -1,0 +1,127 @@
+---
+title: "R11. Data ethics and personal data"
+description: "The NHSBSA data ethics position, what to do when a question raises something, and personal data."
+---
+
+Analysis at NHSBSA uses data about people, and informs decisions that affect them. This page
+carries the ethics position and the personal data obligations behind the questions Phase 1 asks.
+
+## Data ethics
+
+Analysis should be undertaken in line with legal and ethical obligations and any other relevant
+public service codes of conduct.[^src-govs-010-principle-5]
+
+The **Data and AI Ethics Framework** provides guidance on using data appropriately and responsibly
+when planning, implementing and evaluating a policy or service.[^src-govs-010-section-6-1]
+
+::: {.callout-note title="The framework was retitled and rescoped in December 2025" appearance="minimal" icon=false}
+<br>
+GovS 010 cites it as the **Data Ethics Framework**, which is the 2020 edition. On 18 December 2025 it
+was retitled the **Data and AI Ethics Framework**, its scope was extended to AI and algorithmic
+technologies, and four principles were added. Use the current framework, not the title GovS 010 names.
+
+It publishes a **self-assessment tool**. Use that rather than a second instrument.
+:::
+
+Ethics is a design activity, not a compliance check at the end. The framework has seven principles,
+and each one is a question worth asking before the work starts.
+
+- **Transparency.** Could you explain to the people in the data what you did and why?
+- **Accountability.** Who is answerable if this turns out to be wrong?
+- **Fairness.** Could the analysis, or the decision it informs, affect some groups differently? Five
+  questions turn that from open-ended into answerable. Who is **represented** in the data, and in
+  what proportion? Who is **missing** from it altogether? Is any variable acting as a **proxy** for
+  a protected or sensitive characteristic? Do **outcomes differ** across groups once you look? How
+  much fairness work is **proportionate** to what this analysis decides? An exploratory count at
+  Level 1 does not need a bias audit. A model that decides who is eligible for something does.
+- **Privacy.** Is the data being used no more than the question requires? NHSBSA's Statistical Disclosure Control protocol is where this is already answered. [NHSBSA templates and documents](r2-templates-and-documents.qmd) lists the protocol with the other
+  NHSBSA documents this playbook draws on. Follow them rather than this page: a disclosure control
+  protocol summarised in a playbook is a protocol with two versions.
+- **Environmental sustainability.** What does producing and running this analysis cost, and is that
+  proportionate to what it is for? This matters most for repeated pipelines and for anything using
+  large models.
+- **Societal impact.** Who is affected by the decision this analysis informs, beyond the people in
+  the data? This is a scoping question, so it belongs in
+  [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) as well
+  as here.
+- **Safety.** What harm could follow if this is wrong, misread, or used for something it was not
+  built for?
+
+The last two are the ones with no established NHSBSA route. Societal impact in particular is worth
+raising at scoping rather than discovering at publication.
+
+Accountability is often the most clarifying of the seven. If nobody can answer it, the governance is
+not yet in place. See [roles and responsibilities](../06-roles/index.qmd).
+
+## When a question raises something
+
+Asking the seven questions is the easy half. The half that gets skipped is what happens when one of
+them turns something up. An ethical concern with no record of what was decided about it is
+indistinguishable, a year later, from one nobody noticed.
+
+**Record six things.** They fit in a short block in the project record, and they are the same six
+whether the concern is fairness, privacy, safety or societal impact.
+
+| Field | What goes in it |
+|---|---|
+| **Affected groups** | Who is touched by this, in the data and beyond it |
+| **Harms and benefits** | What could go wrong, and what the analysis is for. Both, because a harm recorded without the benefit beside it reads as a reason to stop rather than a thing to manage |
+| **Mitigations** | What you actually changed: the method, the caveat, the scope, the publication decision |
+| **Residual risk** | What is still there after the mitigations, stated plainly rather than implied by silence |
+| **Accountable decision-maker** | The role that accepted that residual risk. Not the analyst, unless the analyst genuinely holds that authority |
+| **Escalation route** | Where it went, if the analyst and the commissioner could not settle it between them |
+
+**This is an audit trail, not an approval gate.** Most concerns are settled in the conversation that
+raises them, and six lines in the project record is the whole of it. The block earns its keep on the
+small number that are not settled, where the question a year later is not whether anybody worried but
+what they decided and who agreed to it.
+
+::: {.callout-note title="Where an ethical concern goes if it is not settled" appearance="minimal" icon=false}
+<br>
+A design and plan should cover escalation routes that let analysts and stakeholders raise
+concerns.[^src-govs-010-section-5-3] Having them written down is the standard's expectation rather
+than this playbook's preference, and which routes they are is NHSBSA's to settle.
+
+**Proposed**, and consistent with the routes in
+[roles and responsibilities](../06-roles/index.qmd): the commissioner decides first, because they
+own the decision the analysis informs. Unresolved, it goes to the **Analytical Quality and Assurance
+Lead**. Where the concern is about something that will be published as an official statistic, it goes
+to the **Head of Profession for Statistics**, because that is already the route for whether an output
+is fit to publish.
+
+**Refusing to do a piece of analysis is a legitimate outcome of this route**, and it is not the
+analyst's alone to take. That is what the accountable decision-maker field is for.
+:::
+
+## Personal data
+
+Where personal data is used in analysis, this must be in accordance with NHSBSA policy and prevailing
+legislation. That obligation comes from the legislation itself, not from this playbook and not from
+GovS 010. The standard says the same in its own terms, that where personal data has been used this
+should be in accordance with the organisation's policies and prevailing legislation.[^src-govs-010-section-6-14]
+
+Where analysis using personal data is published, you may include in the publication:[^src-govs-010-section-6-14]
+
+- when personal data has been used, and the justification for its use
+- how guidance has been followed
+- the steps taken to protect the data
+
+Information and data should be classified and securely managed in line with GovS 007 Security. They
+should also be retained to meet statutory and contractual requirements, and those of the Data and AI
+Ethics Framework.[^src-govs-010-section-6-7]
+
+**Ask before the work starts, not at sign-off.** Information governance advice, and the corporate
+data protection impact assessment process, sit with the information governance function, and
+[who to ask](r3-who-to-ask.qmd) is the route to them. Go there while the question is
+still what data to use, because a data protection impact assessment raised after the analysis is
+built is a review of a decision already taken.
+
+This playbook does not restate the DPIA process. It is a corporate process that applies to more than
+analysis, and a second version of it here would go stale the first time it changed.
+
+
+[^src-govs-010-principle-5]: GovS 010 principle 5
+[^src-govs-010-section-5-3]: GovS 010 section 5.3
+[^src-govs-010-section-6-14]: GovS 010 section 6.14
+[^src-govs-010-section-6-1]: GovS 010 section 6.1
+[^src-govs-010-section-6-7]: GovS 010 section 6.7

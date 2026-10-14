@@ -18,19 +18,64 @@ You can run the document by:
 
 ## Folder Structure
 
-The playbook is structured into a series of sections and sub-sections. The home page first greets the users with the tabs to navigate to the four main sections. Then, once the user has clicked on a section, they are then provided with additional tabs to navigate to a page about each sub-section. The following folder structure highlights how this is setup up from a coding perspective. Each section and sub-section is populated by a `.qmd` file and supporting `.jpeg` file to provide the image for each tab.
+The playbook is 30 pages across 11 sections, with a left sidebar that groups them into five bands
+by what a reader has come to do, and a Guidance menu that names the spine. Each section is one
+directory under `guidance`, numbered so the order is visible, and most hold a single `index.qmd`.
+Text
+that belongs on more than one page lives once in `guidance/_partials/` and is included where it is
+needed, so there is no second copy of any rule to fall out of step.
 
 ```
 NHSBSA Producing Quality Analysis Playbook
-├───guidance ............................# Folder containing all of the playbook content separated by pages
-|   ├───_metadata.yml ...................# Additional settings applied to the quarto document
-├───static ..............................# A folder containing the the BSA visual settings for the quarto document
-├───_quarto.yml .........................# A file that controls the page layout and settings for the quarto document
-├───about.qmd ...........................# An additional .qmd that populates the 'About' button within the document
-├───quality-analysis-playbook.Rproj .................# The R Project file
-├───index.qmd ...........................# The primary .qmd file, used to compile the entire document.
-├───README.md ...........................# The README file
-├───styles.css ..........................# A file containing some additional settings for the quarto document
+├───guidance ...........................# Every page of the playbook, one directory per section
+|   ├───_partials ......................# Text written once and included in more than one place
+|   ├───_metadata.yml ..................# Settings applied to every page under guidance
+├───static .............................# The logo, the favicon, the diagrams with their draw.io sources, and the phase photographs
+├───_extensions ........................# The iconify extension, used by the navigation bar
+├───_filters ...........................# The Lua filter that numbers and names the citations
+├───checks .............................# Scripts that assert what the site claims. See Accessibility below
+|   ├───service-design .................# The service design boards as draw.io sources, with the workbook that pastes them into Miro and the note that says how
+├───.github ............................# The Action that renders and publishes to gh-pages on a push to main
+├───_quarto.yml ........................# Page layout, the sidebar, the menu, and what gets rendered
+├───index.qmd ..........................# The landing page, and the root of the render
+├───about.qmd ..........................# The About page
+├───accessibility.qmd ..................# The accessibility statement
+├───search.qmd .........................# Search, as a page with a form rather than an overlay widget
+├───*.html .............................# Six small accessibility includes, each named for what it does
+├───styles.css .........................# Styling, including the accessibility engineering
+├───CONTRIBUTE.md ......................# How to contribute
+├───README.md ..........................# This file
+└───quality-analysis-playbook.Rproj ....# The R project file
+```
+
+## Accessibility
+
+The site meets WCAG 2.2 level AA, and five level AAA criteria besides. Much of what makes it
+conformant is configuration and a few lines of CSS, which is the sort of thing that gets tidied
+away by somebody who does not know what it is for. The damage is invisible: the site still
+renders, it is just no longer accessible. Each such setting is commented with the criterion it
+serves, so read the comment beside one before removing it.
+
+`accessibility.qmd` holds the published statement. It names three things to settle before the
+statement goes live: the compliance status in the Regulations' own terms, the preparation and
+testing dates, and the mailbox that accessibility reports should reach.
+
+Two scripts hold the claim up after an edit:
+
+```
+python3 checks/links.py
+quarto render && python3 checks/accessibility.py
+```
+
+`links.py` checks that every internal link resolves, that every cross-page anchor is made by a
+heading on the page it points at, and that nothing is linked over plain `http`. Pass `--online` to
+fetch the external citations as well. It needs nothing but Python.
+
+`accessibility.py` drives the rendered site and asserts it against the criteria one at a time,
+naming the criterion in each message. It needs Playwright and Chromium:
+
+```
+pip install playwright && playwright install chromium
 ```
 
 ## Contributing to The Playbook

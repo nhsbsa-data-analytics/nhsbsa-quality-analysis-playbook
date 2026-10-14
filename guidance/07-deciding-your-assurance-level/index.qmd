@@ -1,0 +1,465 @@
+---
+title: "Deciding your assurance level, and what it requires"
+description: "Score the impact, score the likelihood, read your assurance level off NHSBSA's decision sheet. Five minutes, at scoping."
+---
+
+*Phase 1, engagement and scoping. [Where this sits in the lifecycle](../01-engagement-and-scoping/index.qmd).*
+
+**All analysis shall be assured.** How much depends on the work.
+
+This section gives you a way to decide how much, record the decision, and explain it later. It takes
+about five minutes, and you do it **at scoping**, before the design is settled and long before the
+analysis starts.
+
+That timing is the standards' own. The specification you agree with your commissioner defines what
+level of assurance is required, and should state the acceptable level of risk alongside it. GovS 010 asks for the levels of quality and certainty required to be
+recorded at the same point. Design is then where you establish the assurance
+requirements that deliver the level, plan the verification and validation, and plan in enough time
+to carry them out.
+
+## How to use it
+
+1. Open the **Decision sheet**.
+2. Score the **six impact dimensions**, 1 to 4. **Take your highest single score.**
+3. Score the **six likelihood dimensions**, 1 to 4. **Take your highest single score.**
+4. Read your level where the two meet.
+5. Record it in the Scope and in the specification you agree with your commissioner, with the date.
+
+Then go to [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) for what your level requires.
+
+{{< include /guidance/_partials/diagram-assurance-level.qmd >}}
+
+## Step 1: score the impact
+
+This step is about **what happens if the analysis is wrong, and who is affected**. It is the AQuA
+Book's factors of business criticality, relevance to the decision and effects on the public, as NHSBSA has written them.
+
+Six dimensions. Score each from 1 to 4, and **take the highest single score, not an average**. Score
+against the descriptions below, not against the dimension name.
+
+| Dimension | 1 low, informational | 2 moderate, operational | 3 high, organisational | 4 very high, business critical |
+|-----------------|------------------|--------------------|----------------------|-----------------------|
+| **Decision**<br><br>What decision does the analysis inform? If it were wrong, what is the highest level of decision that could be adversely affected? | **No decision, action, resource allocation, policy, service or performance assessment would be materially affected**<br><br>Exploratory, informative, or for learning | **Day-to-day operational decisions**<br><br>service management, workforce deployment, scheduling, local resource allocation, performance monitoring, process improvement. Limited in scope and readily reversible | **Strategic or organisational decisions**<br><br>The analysis is a key input to, or critical evidence base for, a major policy, funding, statutory or regulatory decision, and a material error could affect the outcome reached | **Major policy, funding, statutory or regulatory decisions that decision makers would be expected to rely on it to determine**<br><br>Funding allocation methodologies, spending reviews, major business cases, eligibility and entitlement decisions, regulatory decisions, major service transformation |
+| **Finance**<br><br>The maximum credible financial consequence of an error: incorrect expenditure, misallocation, lost income, unrealised savings, remediation costs and associated liabilities | **No or negligible consequence**<br><br>Easily corrected and needing no management intervention. Typically below £25k, or affecting local operational activity only | **Local budgeting, workforce planning, operational resource allocation, local contract management, or one programme or service**<br><br>Manageable within normal management processes. Typically £25k to £500k | **Planning, budgeting, commissioning, investment, contracting, workforce or resource-allocation decisions with material financial implications**<br><br>Typically £500k to £35m, or where the consequences are uncertain but could materially affect service delivery | **The analysis determines, or is relied on for, major funding, investment, commissioning, resource-allocation or policy decisions**<br><br>Typically above £35m, or where it directly informs a major funding decision and the full consequences are not yet known. DHSC defines Business Critical analysis at £40m or more |
+| **Customers**<br><br>The most serious impact on patients', customers' or service users' rights, entitlements, access, experience or outcomes | No direct impact. Consequences limited to internal processes or reporting, including a statistics publication with no direct customer impact | **A small number of individuals inconvenienced, delayed, or affected by a communication issue or minor service disruption**<br><br>No impact on rights, entitlements or access | Larger groups affected, or a meaningful impact on service quality, prioritisation, access, experience or outcomes whatever the number of individuals. Remedial action required | **Rights, entitlements, eligibility, access to services, treatment, benefits or statutory obligations affected**<br><br>Potential for widespread harm, inequity, complaints, legal challenge or loss of public confidence. Benefit payment decisions, fraud and error targeting, funding entitlement calculations |
+| **Legal or compliance**<br><br>The most serious legal, regulatory, governance or compliance consequence that could result | None beyond internal governance. No personal data, confidential information, statutory reporting or legally protected groups involved | **A minor breach needing no or minor action to rectify**<br><br>Correction or clarification, but no mandatory external reporting, enforcement action or material harm | **A breach requiring corrective action, investigation or formal reporting**<br><br>Limited personal data breaches, reporting to governance bodies, regulator notification, the Office for Statistics Regulation, or a substantiated complaint | **A major or multiple breach requiring immediate action**<br><br>Legal challenge, judicial review, discrimination claim, statutory non-compliance, regulatory enforcement, significant financial penalties or serious personal data breaches. Senior management and legal involvement likely |
+| **Public visibility and reach**<br><br>How widely the consequences could be experienced, used, scrutinised or noticed | **A small number of individuals or a single team**<br><br>Errors unlikely to be noticed outside the immediate team. A single manager, a single dental contract or pharmacy | **A service, department or programme, or a limited group of external stakeholders**<br><br>Several departments, several contracts, an ICB or local team. Could attract local scrutiny | **Official Statistics, national publications, Board papers, FOI responses, parliamentary questions, ministerial briefings, or other outputs under substantial external scrutiny**<br><br>Regional or national analysis, or analysis used across organisations | The key evidence base for major policy, funding, regulatory or statutory decisions likely to attract intense public, ministerial, parliamentary, regulatory or media scrutiny, because an error could contribute directly to major public, legal, financial or customer consequences |
+| **Reputation**<br><br>How much damage could be done to confidence in the organisation, the service or the decision-making | Internal only. The project team or immediate stakeholders. Internal working analysis, ad hoc requests, exploratory analysis | **Local concern within a department, programme or local organisation**<br><br>Explanation, correction or reassurance needed, but confidence outside the immediate area is unlikely to be materially affected | **Significant national media attention, stakeholder criticism, correction of a published output, or material loss of confidence in NHSBSA's analytical capability**<br><br>Analysis relied on by multiple teams or organisations | **Public trust at risk**<br><br>A substantial and lasting loss of confidence arising from materially incorrect policy, funding, regulatory or statutory decisions caused by analytical error |
+
+The wording above is the decision sheet's own, shortened to the deciding
+phrases.
+
+**Check the sheet for the finance figure in force before you score that dimension.** The thresholds are marked "tbc" on the sheet, pending alignment with the Standing Financial
+Instructions. The sheet carries the Department of Health and Social Care's figure of £40 million
+alongside its own £35 million.
+
+::: {.callout-important title="A score of 4 on any one dimension is the Business Critical test" appearance="minimal" icon=false}
+<br>
+Business critical analysis "must meet at least one of the following criteria, these are rated at the
+highest level for impact", and the criteria are these six dimensions.
+
+So step 1 answers two questions at once. It is also why the sheet is completed when the Scope is
+finished: everything that follows from a Business Critical designation takes time to arrange.
+:::
+
+::: {.callout-important title="What does not, by itself, justify a score of 4" appearance="minimal" icon=false}
+<br>
+"Level 4 should be reserved for analysis where a material error could directly influence major
+policy, funding, statutory, regulatory or customer-impacting decisions, or cause substantial
+financial, legal or service consequences. Publication status, Board consideration, Official
+Statistics designation, media interest, national visibility, FOI disclosure, ministerial interest or
+parliamentary scrutiny do not by themselves justify a Level 4 score."
+
+Those things raise how much assurance the work needs. They do not, on their own, make it Business
+Critical, and they are scored under **public visibility and reach** rather than being added on top.
+:::
+
+## Step 2: score the likelihood
+
+This step is about **how easily the analysis could be wrong**. Six dimensions again, 1 to 4, highest
+single score, scored against the descriptions rather than the dimension name.
+
+| Dimension | 1 low | 2 moderate | 3 high | 4 very high |
+|------------------|------------------|--------------------|-----------------------|---------------------|
+| **Data complexity**<br><br>How difficult is it to obtain, clean, link, validate and prepare the data?<br><br>Score the most challenging aspect: a small number of datasets can still score higher where substantial cleaning, validation or interpretation is needed | **A single, well-understood, structured dataset**<br><br>Definitions established, minimal cleaning, no linkage, no quality concerns. A monthly activity extract, an existing dashboard source | **More than one dataset, straightforward linkage on common identifiers, some quality issues, moderate transformation**<br><br>Two to five related sources, linking with demographic data | **Five or more sources, or complex linkage, competing definitions, extensive cleaning and validation**<br><br>Patient-level linkage across datasets, probabilistic record linkage, patient journeys, resolving conflicting records or duplicates | **Ten or more sources, or major uncertainty about completeness or quality, or novel integration of previously unconnected sources**<br><br>Cross-sector linkage with no consistent identifiers, large-scale probabilistic matching, unstructured combined with structured data |
+| **Analytical complexity**<br><br>How complex are the calculations, methods, models, algorithms or AI techniques, and how hard is it to turn the business requirement into the right analytical logic?<br><br>Score the method, not the tools. AI-assisted coding does not by itself raise this score | Descriptive and rule-based. Counts, sums, averages, percentages, rates, ratios, KPIs, cross-tabulations, sorting, filtering, pivot tables, rule-based calculations | **Established statistical methods, widely understood and routinely applied**<br><br>Hypothesis testing, correlation, linear and logistic regression, cohort analysis, key driver analysis, standard forecasting, benchmarking | **Advanced methods needing substantial technical expertise to specify, validate and interpret**<br><br>Predictive models, survival analysis, time series such as ARIMA, causal inference, cluster analysis, machine learning, simulation | **Highly specialised methods needing deep methodological expertise**<br><br>Complex Bayesian hierarchical models, deep learning architectures, advanced optimisation, sophisticated microsimulation, specialist econometric models |
+| **Assumptions and proxies**<br><br>How much relies on assumptions, proxies, expert judgement or counterfactuals? | **Minimal. Results are largely direct observations, on explicit and widely accepted assumptions**<br><br>Different reasonable assumptions would change little. Descriptive statistics, routine reporting, standard indicators on agreed definitions | **Limited. Assumptions are required but well established and evidence-based, and unlikely to change the findings**<br><br>Short-term forecasts from historic trends, standard regression, accepted handling of missing data, published unit costs | **Material. Multiple assumptions, methodological choices or projections that need justification and testing, where alternative reasonable assumptions could give meaningfully different estimates or priorities**<br><br>Sensitivity analysis matters. Long-term forecasts, scenario modelling, complex economic models | **Critical. Conclusions highly sensitive to assumptions or expert judgement that cannot be directly observed or robustly validated**<br><br>Very long-term forecasts, unprecedented situations, sparse evidence, speculative scenarios, novel modelling approaches |
+| **Novelty**<br><br>How familiar are the approach, the subject matter and the context to the analyst and to the organisation? | **Established. Existing methods, code, processes, documentation or outputs need little or no adaptation**<br><br>Routine monthly reporting, repeated analyses, standard dashboards, established contract monitoring, approved AI tools in an established workflow | **Adapted. The method is well understood but a new dataset, policy or service area, business context or subject matter needs adaptation**<br><br>A familiar approach in a new service area, AI-assisted coding introduced into an existing process | **Substantially adapted. Substantial methodological development, complex business rules, or combining established approaches in a new way, with no single established approach that fully fits**<br><br>Complex contractual or payment calculations, new outcome measures, AI as a substantive analytical component | **Novel. Limited precedent and significant methodological uncertainty**<br><br>New methods, frameworks or techniques have to be developed, tested and validated. Experimental techniques, novel AI methodologies, a new statistical framework, a methodology paper |
+| **Manual intervention**<br><br>How much manual work is needed, as against automated and repeatable processes? Score the process as it is now, not as it is planned to become | **Highly automated, with little or no manual intervention**<br><br>A dashboard refreshed from the data warehouse, automated report generation | **Some manual steps, but controls and validation keep the effect of an error small**<br><br>Updating a few assumptions by hand, refreshing spreadsheets through a defined process | **A single manual error could materially affect the results**<br><br>Manual data entry or copy and paste, limited automated validation. Typing figures in each month, manually matching records, copying between spreadsheets | **Extensive manual processing, large-scale data entry, reliance on individual knowledge, limited automation**<br><br>Constructing datasets by hand from multiple reports, a process maintained by one person |
+| **Documentation and reproducibility**<br><br>How easily could another competent analyst reproduce the work and get the same result from the documentation, code and files available? | **Fully reproducible, without help from the original analyst**<br><br>Version-controlled code, documented methodology, clear inputs and outputs, a maintained audit trail, a README or equivalent | **Mostly reproducible, with limited clarification or familiarisation, and not dependent on the original analyst**<br><br>Documented spreadsheets, code stored locally, methodology described in the report, some undocumented business context | **Partially reproducible. Important assumptions, transformations, calculations or business rules are insufficiently documented, and reproducing the work would need significant input from the original analyst**<br><br>Undocumented spreadsheet logic, multiple file versions, weak change control | **Not reproducible if the original analyst were unavailable**<br><br>Documentation, version history and process controls minimal or absent, with critical knowledge held by one person. A single-person workbook, undocumented calculations, no audit trail |
+
+The wording above is the decision sheet's own, shortened to the deciding
+phrases.
+
+::: {.callout-note title="Why likelihood, and not a guess at how hard the work feels" appearance="minimal" icon=false}
+<br>
+This is the AQuA Book's reasoning. Business risk is the combination of the potential effect of
+analytical errors and the likelihood of errors occurring. Step 1 covers the
+effect. Step 2 covers the likelihood, because complex, novel, assumption-heavy, manual or poorly
+documented work is where errors come from.
+
+So when you answer these, the question is not "is this hard" but "how easily could this be wrong".
+
+It also follows that your mitigations act on this step, not on step 1. The effect the analysis will
+have is usually beyond the analyst's control to change, whereas better documentation, less manual
+handling or a tested pipeline can nearly always make an error less likely.
+You rarely get to change who reads the output or what it decides. You do get to change how likely it
+is to be wrong.
+:::
+
+## Step 3: read your level
+
+| Impact | Likelihood 1 low | 2 moderate | 3 high | 4 very high |
+|------------------|--------------------|--------------------|--------------------|----------------------|
+| **4 very high** | Level 4 BCA | Level 4 BCA | Level 4 BCA | Level 4 BCA |
+| **3 high** | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive | Level 3 Comprehensive |
+| **2 moderate** | Level 1 Standard | Level 2 Enhanced | Level 2 Enhanced | Level 3 Comprehensive |
+| **1 low** | Level 1 Standard | Level 1 Standard | Level 1 Standard | Level 2 Enhanced |
+
+Two things are worth reading off this grid. **Impact 4 resolves to Level 4 BCA at every
+likelihood**, which is what makes the Business Critical designation a consequence of the impact
+assessment rather than a separate judgement. And **nothing else reaches Level 4**, however likely an
+error is.
+
+Assurance at each level builds on the one below rather than replacing it. Work that needs
+independent peer review should still be doing the sense checking and methodological checks that
+lighter work does.
+
+## Step 4: what your level means
+
+| Level | What it is for | In one line |
+|---|---|---|
+| **Level 1 Standard** | Low risk analyses, and analyses where there is very limited time to assure | Do it well, write down enough to re-run it, have a colleague check the headline numbers |
+| **Level 2 Enhanced** | Moderate risk analyses, and analyses with very limited time if time permits | Someone who had no hand in the work reviews it, named before you start, with the checks logged and a quality assurance statement produced |
+| **Level 3 Comprehensive** | High risk analyses | An assurer from outside your team, full verification and validation, and the statement published |
+| **Level 4 BCA** | Very high risk business critical analyses | Everything above, plus formal audit and external review, a register entry and an Analysis Senior Responsible Officer |
+
+::: {.callout-note title="If you have come from the risk framework" appearance="minimal" icon=false}
+<br>
+The Analytical Risk Assessment and Quality Assurance Framework groups quality assurance activity
+into **Tier 1 to Tier 4**, and names them Standard, Enhanced, Comprehensive and Business Critical
+Analysis. Those are the four names on this page. Tier 3 is the band of checks a Level 3 Comprehensive piece of
+work adds, and the framework asks for tiers 1 to 3 at that point rather than the third band alone.
+
+So the two line up, one for one. A **Level** is a level of assurance that includes every level
+below it. This playbook uses Level throughout, and
+[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) lists every check by the level at which it is first
+required, so what a level includes is on the page rather than something to work out.
+:::
+
+**[Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) is the checklist.** It carries the
+sheet's own checks for each level, cumulative, with what each one means in practice.
+[Business Critical analysis](/guidance/08-business-critical/index.qmd) covers what Level 4 additionally requires.
+
+::: {.callout-important title="Independence applies at every level" appearance="minimal" icon=false}
+<br>
+At every level, someone independent looks at your work. **The assurer and the analyst
+shall be independent.** What varies is the **degree of separation**, depending on the importance of
+the output and the size and complexity of the analysis. The two roles shall be
+separate from one another in all cases, whoever else doubles up.
+
+You still assure your own work at every level. The point is that there shall **also** be formal
+independent assurance.
+
+Level 1 is not "no assurance". It is separation within your team.
+:::
+
+### Where NHSBSA has already placed its own work
+
+The decision sheet carries an annex of worked examples. It is marked as still to be developed, so
+treat these as the direction of travel rather than as settled rulings, and score your own work
+rather than matching it to the nearest row.
+
+| Level | NHSBSA's examples |
+|---|---|
+| **Level 1 Standard** | Exploratory analysis, internal data investigation |
+| **Level 2 Enhanced** | Monthly operational dashboard, team workforce planning |
+| **Level 3 Comprehensive** | Prescription Cost Analysis, Dental Statistics, FOI response, Board report, ministerial briefing |
+| **Level 4 BCA** | Funding allocation formula, eligibility model, payment methodology, major policy appraisal |
+
+NHSBSA's own worked examples.
+
+The third row is worth a second look. A Board report, an FOI response and a ministerial briefing all sit at Level 3 Comprehensive
+rather than Level 4. That is the exclusion above applied. Visibility raises how much assurance
+the work needs, and on its own it does not make the analysis Business Critical.
+
+Where your work is a model rather than a one-off analysis, it will be one of eight types. The list is on the next page, and placing your own work in it is a check on the six impact dimensions you have just scored.
+
+## Three rules
+
+**1. Your highest single answer wins. Do not average.**
+
+One high-risk answer is enough, because that risk is real however routine the rest of the work is.
+Averaging is how a patient-facing output produced by an experienced team from one clean data source
+comes out as Level 1 Standard.
+
+**2. If in doubt, go up.**
+
+Over-assuring one piece of analysis costs a few hours. Under-assuring a business-critical one does
+not. Where two answers both look defensible, take the higher.
+
+**3. Set the level at scoping and record it. Changing it later needs a note.**
+
+A level chosen before the work starts is a judgement about the work. One chosen afterwards is a
+description of what happened to be done. Only the first is assurance, and only the first can be
+explained to somebody six months later.
+
+It has to be early enough to shape the design, not just to describe it. A level agreed once the
+method is chosen cannot change the method.
+
+If circumstances genuinely change, change the level and record why. **Reuse is the commonest
+legitimate reason.** A one-off that becomes a monthly production run is a different piece of work,
+which is why step 2 asks about reuse.
+
+**Three prompts that do not change the level.** The score is the score and none of these moves it.
+What they do is catch work where the score alone is not the whole of the risk, and they cost nothing
+to ask while the sheet is still open.
+
+- **Is an algorithmic or machine learning tool doing part of the work?** If so,
+  [algorithmic transparency and AI](../09-resources/r12-algorithmic-transparency-and-ai.qmd) applies a separate scope test that this level
+  does not decide.
+- **Will this output influence the same kind of decision repeatedly?** A one-off carries its
+  assumptions once. A repeating output carries them until somebody checks.
+- **Could any group be affected differently by the decision this informs?** If yes, that belongs in
+  the six-field record in [ethics and transparency](../09-resources/r11-ethics-and-personal-data.qmd), whatever the sheet
+  returns.
+
+None of them raises the level by itself. Any of them might change what you design.
+
+# What your level requires
+
+*Phases 1 to 4, the whole of producing the analysis. [Where this sits in the lifecycle](../01-engagement-and-scoping/index.qmd).*
+
+You have a level from [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd). This section says
+what to do about it.
+
+**Read the column for your level. You do not need the other two.**
+
+**Level 4 BCA is not a fourth column here.** Its checks are additional to Level 3's, and
+everything that is true only of Business Critical work is in
+[Business Critical analysis](../08-business-critical/index.qmd). If you scored 4 on any impact dimension, read
+the Level 3 column here and then go there.
+
+## Your level in one line
+
+### Level 1 Standard
+
+Produce the analysis well and record enough that someone could re-run it. One colleague checks your
+headline numbers. No separate assurance plan. A short quality assurance statement is required, as
+it is at every level.
+
+### Level 2 Enhanced
+
+Everything above, plus **someone who had no hand in the work reviews it**. You name that reviewer
+before you start, you log the checks as you do them, and you produce a quality assurance statement.
+Your team lead signs it off.
+
+### Level 3 Comprehensive
+
+Everything above, plus **an assurer from outside your team reviews it**, and this level adds full verification and validation. You have the code assured, quantify uncertainty where the method allows, and publish the quality assurance statement with the output. The Head of Profession or Analysis Senior Responsible Officer signs it off.
+
+Each step up buys one specific thing: Level 2 buys separation from the work, Level 3 buys separation
+from the team plus published transparency. They differ in kind, not just in volume.
+
+## The procedure, phase by phase
+
+Phases follow [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+
+### Phase 1: engagement and scoping
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|-------------|--------------------------|------------------------------|-------------------------------|
+| **Commission and frame** | Commissioner states the decision and the deadline. You confirm your understanding in writing, however briefly. An email is enough | The commissioning conversation is recorded: the decision, the question, what is out of scope, and the quality expected | Formal commissioning record. Analysis Senior Responsible Officer aware. Business Critical status considered explicitly and recorded either way |
+| **Set the level** | You score it and record it in your project record | You and the commissioner agree it together. Disagreement goes to the Analytical Quality and Assurance Lead | The Analytical Quality and Assurance Lead confirms it. Register entry where Business Critical |
+
+At every level you may reframe a request that arrives as an output rather than a question.
+Providing appropriate challenge is expected of you.
+
+The level belongs here rather than at design because the specification agreed with your commissioner
+is where the required level of assurance is defined. Design is where you
+plan how to deliver it.
+
+### Phase 2: design
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|--------------|-------------------|---------------------------------|----------------------------------|
+| **Plan the assurance** | Note your method and main assumptions. No separate assurance plan | An assurance plan: who reviews, what, and when. **The reviewer is named before work starts** | Assurance plan agreed with an assurer from outside your team. Verification and validation activities specified |
+| **Book the time** | Allow for the colleague check | Assurer's time in the schedule, agreed with them | Assurer's time agreed and protected. Re-review time allowed for |
+| **Design gate** | Not required | A critical friend confirms the approach answers the question and the assurance planned is right. Commissioner approves the design before work proceeds | As Level 2, with the assurer from outside the team |
+
+Naming your reviewer before you start is what makes Level 2 different from Level 1. A reviewer found
+afterwards reviews what was produced. A reviewer named beforehand shapes what gets produced.
+
+::: {.callout-note title="Finding a critical friend" appearance="minimal" icon=false}
+<br>
+Assign one early, ideally while you are still defining the problem. Contact the Data Science team or
+the Data Science Lead if you need a recommendation. This is the role
+[roles and responsibilities](../06-roles/index.qmd) calls the critical friend, or analytical
+assurer.
+
+Choose someone with experience of similar data or techniques. If you are the area expert, consider a
+newer colleague instead: they gain the experience, and you get genuinely fresh eyes.
+
+Involve them throughout rather than at the end. That means you:
+
+- meet regularly
+- review in small increments
+- plan their time into your schedule
+- give notice when you need a review
+:::
+
+### Phase 3: analysis
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|------------|---------------------------|-------------------------------|------------------------------|
+| **Produce** | Keep inputs and working reproducible enough that someone else could re-run it | Work under version control. Log decisions and assumption changes as they happen | Maintain an assumptions register. Plan sensitivity testing at design stage, not afterwards |
+| **Quality assure** | Self-check against the Level 1 checks. A colleague sanity-checks your headline numbers | **Independent peer review by someone outside the work.** Code review where scripted. Quality assurance log completed and retained | Full verification and validation. Code assured. Uncertainty documented and quantified where the method allows |
+
+Where your analysis involves code, follow the
+[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+for version control, testing, peer review and documentation.
+
+#### Reproducible and automated are not the same thing
+
+**Repeatable** is the first letter of RIGOUR, and it is the one most often taken to mean
+"automated". While both reproducible and automated analysis aim for efficiency and reliability,
+they focus on different aspects of the process. Automation *can* contribute to reproducibility, but
+automation alone is not enough.
+
+- **Reproducibility.** Can someone else, or even you later on, given the *same* inputs,
+  *understand* and *recreate* your work?
+- **Automation.** Can a computer *run* the analysis, with *any* valid inputs, with minimal or no
+  human intervention?
+
+Best practice is a fully reproducible analysis that includes a level of automation appropriate to
+the complexity and the effort of repeating it manually.
+
+| Consideration | Reproducible analysis | Automated analysis |
+|---|---|---|
+| **Primary goal** | Verifiability, transparency, reusability | Efficiency, scalability, speed |
+| **Main activities** | Documenting all steps and key decisions, managing versions | Scripting, scheduling, pipelines, monitoring |
+| **Does it require automation?** | No | Yes |
+| **Is it essential?** | Yes | No, but desirable, especially as an analysis grows in complexity |
+| **Testing the analysis** | Use static input data, for known results | Include tests that run automatically when the analysis changes |
+| **Consistency** | In results | In processes |
+
+Three places go further:
+
+- [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/principles.html#reproducible), for the principle itself
+- [What is RAP?](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/#automation), for automation
+- the [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook), for testing analytical pipelines, documentation and a modular approach
+
+### Phase 4: delivery and sign-off
+
+| | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
+|-------------|--------------------------|---------------------------------|----------------------------|
+| **Communicate** | State your main limitation alongside the result. A short quality assurance statement required | Quality assurance statement required. Caveats, limitations and uncertainty stated **in the output itself, not only in an annex** | Statement published with the output. Uncertainty ranges communicated |
+| **Sign off and archive** | Store the project record with the output. No formal sign-off beyond you | **Signed off by your team lead.** Project record, quality assurance log and code archived together and linked from the output | Signed off by Head of Profession or Analysis Senior Responsible Officer. Register updated. Review date set |
+
+Delivered results include an assurance statement covering assumptions, uncertainty, limitations and
+what the results can and cannot be used for. GovS 010 section 5.5 puts this as a should; here it is
+a condition of sign-off at every level.
+[Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd), shows what that looks
+like written out.
+
+## What to record
+
+Keep records proportionate. The project record is one place for everything
+about a piece of analysis, and how much of it you complete depends on your level.
+
+| Section of the project record | Level 1 | Level 2 | Level 3 |
+|--------------------------------------------------|--------------------|---------------|---------------|
+| 1. Header: title, reference, level, analyst, commissioner, dates, Business Critical yes or no | Yes | Yes | Yes |
+| 2. The question: the decision it supports, the question, what is out of scope, the deadline | Yes | Yes | Yes |
+| 3. Data: source, owner, extract date, known quality issues, effect on the analysis, access basis | Not required | Yes | Yes |
+| 4. Method: approach, why this and not the alternatives, tools and code repository | Yes | Yes | Yes |
+| 5. Assumptions: assumption, rationale, impact if wrong, sensitivity tested, agreed with | Yes | Yes | Yes |
+| 6. Uncertainty: principal sources, how quantified or why not, how communicated | Not required | Yes | Yes, quantified |
+| 7. Decision log, including **deviations from the plan** | Not required | Yes | Yes |
+| 8. Assurance and sign-off: role, name, date, what they confirmed | Not required | Yes | Yes, plus approver |
+| 9. **Lessons learned** | Not required | Yes | Yes |
+
+::: {.callout-important title="Level 1 is one side of A4" appearance="minimal" icon=false}
+<br>
+Level 1 completes sections 1, 2, 4 and 5 only. That is realistically one side of A4.
+
+A record that demands twelve pages for two hours of analysis will not get completed, and a record
+nobody completes is worse than none, because it looks like assurance from a distance.
+:::
+
+Identify relevant lessons from earlier work when you plan, and capture new ones as you go rather
+than reconstructing them at the end.
+
+Records should be version controlled, securely stored and retrievable.
+
+## The checks, by level
+
+**These are NHSBSA's own checks, from the decision sheet.** They are cumulative: each level does
+everything the levels below it do, and adds what is in its own block. Your quality assurance log
+records which you did, when, and what you found.
+
+{{< include /guidance/_partials/diagram-levels.qmd >}}
+
+| First required at | Check | What that means here |
+|---|---|---|
+| **Level 1** | Validation of requirements | The question, the decision it informs and what is out of scope are confirmed in writing with the commissioner |
+| **Level 1** | Specification, user guide and notes | Enough written down that someone else could pick the work up. At this level it is short |
+| **Level 1** | Data sources and assumptions clear | Source, extract date and provenance recorded. Assumptions listed with the rationale and the effect if wrong. Known data quality issues named, with their effect stated |
+| **Level 1** | Accuracy of data transformations and calculations | You check your own transformations and totals. A colleague sanity-checks the headline numbers |
+| **Level 1** | Methodological correctness | The method is documented, with the alternatives you considered and why you did not use them |
+| **Level 1** | Sense checking results | Outputs compared against an independent reference: last period, a related series, or an order-of-magnitude expectation |
+| **Level 1** | Clarity, accessibility and security of outputs | Limitations stated in the output itself rather than only in an annex. Accessible format. Handled at the right classification |
+| **Level 2** | Responsibilities and accountabilities | The analyst, the reviewer and the approver are named before the work starts, not found afterwards |
+| **Level 2** | Appropriateness of methodology | Someone who had no hand in the work agrees the method answers the question |
+| **Level 2** | Documentation and audit trails | The quality assurance log is completed as you go and retained with the analysis |
+| **Level 2** | Understanding of the impacts of data quality | Input data profiled: ranges, nulls, duplicates, outliers, and what each means for the answer.<br><br>**Including who is missing from it**: a gap in coverage is a blind spot in the conclusion and a risk of affecting one group differently, not only a wider interval |
+| **Level 2** | Evidence based assumptions | Each assumption is traceable to a source, a precedent or a stated expert judgement |
+| **Level 2** | Code scrutiny | Code peer reviewed and version controlled |
+| **Level 2** | Validation with stakeholders and subject matter experts | The people who know the business area see the results before release and say whether they are plausible |
+| **Level 2** | Sensitivity testing | Key assumptions varied to see whether the conclusion moves. Where material at this level |
+| **Level 2** | Triangulation and independent validation of results | Calculations independently reproduced from source by the reviewer |
+| **Level 3** | Change control processes | Changes to data, method or code after sign-off are recorded and re-assured proportionately |
+| **Level 3** | Ethical risks | Assessed against the Data and AI Ethics Framework, per [ethics and transparency](../09-resources/r11-ethics-and-personal-data.qmd) |
+| **Level 3** | Knowledge sharing | The method and the lessons are shared beyond the delivering team |
+| **Level 3** | Detailed documentation review | The assurer reads the documentation as a document, not only the numbers |
+| **Level 3** | Usability testing | The output is tested with someone who will use it, not only with someone who made it |
+| **Level 3** | Automated checks | Validation built into the pipeline so it runs every time rather than once |
+| **Level 3** | Additional scenario testing | Behaviour under plausible alternative inputs, not just the expected ones |
+| **Level 3** | Independent peer review | An assurer from outside the delivering team. Code assured against the [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook). Uncertainty quantified where the method allows. Quality assurance statement published with the output |
+| **Level 4 BCA** | Formal audits | See [Business Critical analysis](../08-business-critical/index.qmd) |
+| **Level 4 BCA** | External review | As above |
+| **Level 4 BCA** | Additional scrutiny of documentation | As above |
+| **Level 4 BCA** | Scrutiny of structural and conceptual assumptions | As above |
+| **Level 4 BCA** | Additional scenario testing | As above |
+
+The Level 4 row is short here. Everything that is true only of Business Critical work, including
+the register entry, the QA appraisal and the documentation stack, is in
+[Business Critical analysis](../08-business-critical/index.qmd).
+
+**The Algorithmic Transparency Recording Standard is not on this table.** Whether a record is
+required turns on what the tool decides and about whom, not on the level the work scored, so it is
+a separate check made at scoping. [Algorithmic transparency and AI](/guidance/09-resources/r12-algorithmic-transparency-and-ai.qmd) carries the test.
+
+::: {.callout-note title="Why the log matters more than the checklist" appearance="minimal" icon=false}
+<br>
+A checklist shows somebody knew what to do. A log shows they did it, when, and what they found.
+GovS 010 requires you to document verification and validation activities **and the conclusions you
+drew from them**, so that the reliability of the analysis can be assessed afterwards.
+
+Keep the log with the analysis wherever you can. A log stored somewhere else is a log that does not
+get filled in.
+:::
+
+::: {.callout-note title="Peer review here, and the review phase in Phase 5" appearance="minimal" icon=false}
+<br>
+The peer review and independent challenge on this page happen **during** the work. They check that
+the question is answered, that the method was appropriate, that the checks were at the right level
+and that the audit trail holds, and they gate release. That is GovS 010 sections 6.6 and 6.8.
+
+**A different thing is also called review.** What happens to an output after it is released, whether
+it is still useful, and what the next piece of work should do differently, is
+[Phase 5, review](../05-review/index.qmd). That is GovS 010 sections 6.10 and
+6.13.
+
+If you are here looking for the monthly review of regular outputs, [Phase 5. Review](/guidance/05-review/index.qmd) is the page you want.
+:::

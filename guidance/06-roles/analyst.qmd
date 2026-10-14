@@ -1,0 +1,46 @@
+---
+title: "The analyst"
+description: "You plan the work, do it, check it and write it up. What that means in each phase, and what is yours alone."
+---
+
+{{< include /guidance/_partials/role-analyst.qmd >}}
+
+## Your part in each phase
+
+| Phase | What is yours |
+|---|---|
+| [Phase 1. Engagement and scoping](../01-engagement-and-scoping/index.qmd) | Clarify the question with your commissioner, and score the assurance level with them |
+| [Phase 2. Design](../02-design/index.qmd) | Choose the method, plan the assurance the level asks for, and name your critical friend |
+| [Phase 3. Analysis](../03-analysis/index.qmd) | Do the work and your own checks, and record assumptions as you meet them |
+| [Phase 4. Delivery and sign-off](../04-delivery-and-sign-off/index.qmd) | Write it up with the caveats attached, and get the approval the level requires |
+| [Phase 5. Review](../05-review/index.qmd) | Record the lessons where the next analyst will look for them |
+
+## Four things that are easy to miss
+
+- **Turn a request for an output back into a question.** Challenging a brief is part of the job
+  rather than a departure from it.
+- **Your own checks come first.** No level replaces them with somebody else's review, and no level
+  leaves the work unseen by anybody independent.
+- **Name your critical friend before you start**, so they can shape the plan and put their own
+  time in the schedule.
+- **Log decisions as you make them.** A log written from memory at the end is a much weaker
+  document.
+
+## What you record
+
+What the project record holds depends on the level.
+[What to record](../07-deciding-your-assurance-level/index.qmd#what-to-record) sets out the nine
+sections and which of them your level needs. At Level 1 that is realistically one side of A4. The
+templates are in [NHSBSA templates and documents](../09-resources/r2-templates-and-documents.qmd).
+
+## Your journey through the playbook
+
+{{< include /guidance/_partials/table-journey-analyst.qmd >}}
+
+## Where to go next
+
+- [Roles and responsibilities](index.qmd), for the other three roles and where a disagreement goes
+- [The critical friend](critical-friend.qmd), for what the person reviewing your work is asked to do
+- [Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd), for how to say
+  what you do not know
+- [Who to ask](../09-resources/r3-who-to-ask.qmd), if you need somebody and do not know who

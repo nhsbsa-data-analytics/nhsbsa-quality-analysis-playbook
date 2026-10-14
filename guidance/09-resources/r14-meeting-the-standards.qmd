@@ -1,0 +1,82 @@
+---
+title: "R14. Where this playbook meets each standard"
+description: "Clause by clause, where this playbook meets each standard it rests on."
+---
+
+
+Every clause of the standards this playbook is built on, and the page that meets it. The
+guidance pages carry no citation markers: a reader working through a phase should meet what
+to do, and the evidence that it follows the standards belongs here, in one place, where it
+can be read as a whole.
+
+## Government Functional Standard GovS 010: Analysis
+
+| Clause | Met in |
+|------------------------------------|---------------------------------------------|
+| Section 4.2 | [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 4.4.1 | [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 4.4.5 | [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 4.4.6 | [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 4.4.7 | [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 5.2 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) |
+| Section 5.3 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 2, design](../02-design/index.qmd) |
+| Section 5.4 | [Phase 3, analysis](../03-analysis/index.qmd) |
+| Section 5.5 | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| Section 5.6 | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| Section 6.2 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) |
+| Section 6.4 | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| Section 6.5 | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| Section 6.6 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 3, analysis](../03-analysis/index.qmd) |
+| Section 6.7 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 3, analysis](../03-analysis/index.qmd) |
+| Sections 6.7 and 6.10 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 3, analysis](../03-analysis/index.qmd), [Phase 5, review](../05-review/index.qmd) |
+| Section 6.8 | [Who to ask](r3-who-to-ask.qmd), [Roles and responsibilities](../06-roles/index.qmd) |
+| GovS 010 section 6.9 | [Who to ask](r3-who-to-ask.qmd) |
+| Section 6.11 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Business Critical analysis](../08-business-critical/index.qmd), [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 6.13 | [Phase 5, review](../05-review/index.qmd) |
+
+## The AQuA Book
+
+| Clause | Met in |
+|------------------------------------|---------------------------------------------|
+| Chapter 3 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Roles and responsibilities](../06-roles/index.qmd) |
+| Figure 3-1 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Table 3-1 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Section 3.2 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Chapter 4 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd) |
+| Section 5.1 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 6.1.1 | [Phase 2, design](../02-design/index.qmd) |
+| Section 6.1.2 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) |
+| Sections 6.1, 7.1, 8.1 and 9.1 | [Roles and responsibilities](../06-roles/index.qmd) |
+| Section 7.1.2 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 2, design](../02-design/index.qmd) |
+| Section 7.1.3 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 2, design](../02-design/index.qmd) |
+
+## The Code of Practice for Statistics 3.0
+
+Applies to official statistics. [The standards landscape](r8-the-standards-landscape.qmd)
+says when that is.
+
+| Standard | Covered in |
+|---|---|
+| 1. Show integrity | [The six principles](r7-the-six-principles.qmd) and [ethics and transparency](r11-ethics-and-personal-data.qmd) |
+| 2. Lead responsibly | [Roles and responsibilities](../06-roles/index.qmd) |
+| 3. Be transparent | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| 4. Manage data responsibly | [Ethics and transparency](r11-ethics-and-personal-data.qmd) |
+| 5. Prioritise quality | The playbook as a whole |
+| 6. Be rigorous | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| 7. Be open about quality | [Uncertainty, assumptions and limitations](r10-uncertainty.qmd) and [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| 8. Be relevant | [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) and [Phase 5, review](../05-review/index.qmd) |
+| 9. Be clear | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) and [Phase 5, review](../05-review/index.qmd) |
+| 10. Be accessible | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) and [Phase 5, review](../05-review/index.qmd) |
+
+## NHSBSA documents
+
+| Clause | Met in |
+|------------------------------------|---------------------------------------------|
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 1 | [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) |
+| NHSBSA Revisions and Corrections Policy v002, sections 2 and 3 | [When something turns out to be wrong](r6-when-something-is-wrong.qmd) |
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 5 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) |
+| NHSBSA Analytical operating model and implementation plan, Summer 2026, "Quality of analytical outputs" | [How to use this playbook](../00-how-to-use/index.qmd) |
+| Criteria for determining the level of analytical risk v3, 10 September 2026, worked examples annex | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [The four journeys](../00-how-to-use/journeys.qmd) |
+| Criteria for determining the level of analytical risk v3, 10 September 2026, Decision sheet | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Criteria for determining the level of analytical risk v3, 10 September 2026, Decision sheet, note to the impact scale | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026 | [Business Critical analysis](../08-business-critical/index.qmd) |

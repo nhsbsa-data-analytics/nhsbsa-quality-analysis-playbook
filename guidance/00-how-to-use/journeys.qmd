@@ -1,0 +1,97 @@
+---
+title: "Journeys through this playbook"
+description: "The same work seen from four roles: where each one goes, in what order, and what each stop leaves behind."
+---
+
+There is no need to read the playbook front to back. Each journey below sets out the order the
+pages come up for one role: the analyst, the commissioner, the critical friend or the Analysis
+Senior Responsible Officer.
+
+**Each journey follows one piece of work.** You come to the playbook through a single output, and
+leave it when that output is signed off.
+
+**Each journey is a table, to work down.** Alongside it, the role's own page sets out what that
+role is responsible for in each phase.
+
+Every journey table has the same four columns: where you are, where to read it, what you do there,
+and what you leave behind. The last column read on its own is the evidence trail for one piece of
+analysis. There is a **Done** box beside it, so in print or in the Word copy the table works as a
+checklist.
+
+## Where each journey is
+
+Each journey now sits on the page for the role it belongs to, with the rest of what that role is
+accountable for around it.
+
+| Your role on this piece of work | Your journey |
+|---|---|
+| You are doing the analysis | [The analyst](../06-roles/analyst.qmd) |
+| You are reviewing somebody else's analysis | [The critical friend](../06-roles/critical-friend.qmd) |
+| You asked for the analysis | [The commissioner](../06-roles/commissioner.qmd) |
+| You are accountable for a Business Critical output | [The Analysis Senior Responsible Officer](../06-roles/analysis-senior-responsible-officer.qmd) |
+
+## One piece of work, four roles
+
+NHSBSA's decision sheet gives **a funding allocation formula** as an example of Level 4 BCA work.
+Here is that example through all four roles, so the journeys above can be read against one piece of
+work.
+
+This is the route the playbook sets out for work of that kind. It is not a record of any particular
+piece of work.
+
+### Commissioner
+
+- State the decision the formula informs, the deadline, and how certain the answer has to be.
+  [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+- Score the six impact dimensions with the analyst.
+  [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).
+- The Finance row scores 4 for analysis that "determines, or is relied on for, major funding,
+  investment, commissioning, resource-allocation or policy decisions". A funding allocation formula
+  is that, so one dimension at 4 settles it: the work is Business Critical, at Level 4.
+- Say so at scoping, before the design.
+- Find the time and resource Level 4 assurance needs, or agree a narrower question.
+
+### Analyst
+
+- Agree the question, and record the scope, the boundaries and the assumptions.
+  [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+- Choose the method, and place it among the eight model types.
+  [Phase 2, design](../02-design/index.qmd).
+- Do your own verification and validation first.
+- Log decisions as you make them.
+- Quantify the uncertainty, and say what rests on which assumption.
+  [Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd).
+
+### Critical friend
+
+- At Level 4 you are a Lead Assurer from outside the delivering team, and external review applies
+  as well. [How independent you have to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be).
+- You are named at design.
+- Reproduce the calculations from source.
+- Read the documentation as a document, not only the numbers.
+- Examine the structural and conceptual assumptions, and report what you find back.
+
+### Analysis Senior Responsible Officer
+
+- You are named at scoping, and the register entry is made then.
+  [Business Critical analysis](../08-business-critical/index.qmd).
+- Confirm design governance has been followed before the analysis starts.
+- Review the assurance evidence, and approve the formula as fit for its intended use, after the
+  Lead Assurer has signed off.
+- Revalidate the designation annually, and before any reuse for a new purpose.
+  [Phase 5, review](../05-review/index.qmd).
+
+**Four jobs, and between them seven sections.** That is the whole of what a Level 4 piece of work
+asks of this playbook, and Level 1 work asks a great deal less: one analyst, a colleague within
+the team, and [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).
+
+## Where to go next
+
+- [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), where the
+  analyst and the commissioner settle the level together, and where the critical friend's own job
+  is set out: what you are reviewing, which checks the level asks of you, and what happens to what
+  you find
+- [Roles and responsibilities](../06-roles/index.qmd), for the page on each role and where a
+  disagreement goes
+- [Who to ask](../09-resources/r3-who-to-ask.qmd), if you need one of these people and do
+  not know who they are

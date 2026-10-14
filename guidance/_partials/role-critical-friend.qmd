@@ -1,0 +1,3 @@
+**Critical friend.** The person who gives independent advice on one assignment. Usually a Senior
+Analyst, not necessarily an analyst, and independent of the analyst. **You are not delivering the
+analysis.**

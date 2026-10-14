@@ -1,0 +1,309 @@
+---
+title: "Search the playbook"
+description: "Find a page, a section or a phrase anywhere in the playbook."
+title-block-banner: true
+toc: false
+---
+
+```{=html}
+<form role="search" method="get" action="search.html" class="pb-search">
+  <label for="pb-q"><strong>What are you looking for?</strong></label>
+  <p class="pb-search-hint">A word or a phrase. Searching looks at every section heading and
+  everything written under it.</p>
+  <div class="pb-search-row">
+    <input type="search" id="pb-q" name="q" autocomplete="off" spellcheck="false">
+    <button type="submit" class="pb-search-go">Search</button>
+  </div>
+</form>
+
+<div id="pb-count" role="status" aria-live="polite" class="pb-search-count"></div>
+<div id="pb-results"></div>
+
+<noscript>
+  <p><strong>Searching needs JavaScript, and it is turned off.</strong> Every page is in the
+  sidebar on the left and in the Guidance menu at the top, and
+  <a href="guidance/00-how-to-use/index.html">how to use this playbook</a> carries a contents
+  contents table, a table of what to read for a particular subject, and a table of
+  thirteen kinds of work and where each one starts.</p>
+</noscript>
+
+<script>
+(function () {
+  "use strict";
+  var MAX = 40, SNIP = 220;
+
+  function param() {
+    var m = /[?&]q=([^&]*)/.exec(window.location.search);
+    return m ? decodeURIComponent(m[1].replace(/\+/g, " ")) : "";
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c];
+    });
+  }
+  // What a reader types, and what this playbook calls it. Measured against the index on
+  // 5 October 2026: "SRO", "PQ", "HoP", "AQAL", "SDC", "V&V", "tiering" and "signoff" each
+  // returned nothing at all, because the playbook writes every one of them out in full. A search
+  // that returns nothing teaches a reader the playbook does not cover the thing, rather than that
+  // they used a different word for it. Written as strict JSON so that
+  // `checks/search.py` can read it and fail the build if a phrase on the right
+  // stops appearing in the playbook.
+  var ALSO = {
+    "sro": ["Analysis Senior Responsible Officer"],
+    "sros": ["Analysis Senior Responsible Officer"],
+    "msro": ["Model Senior Responsible Officer"],
+    "senior responsible owner": ["Analysis Senior Responsible Officer"],
+    "pq": ["Parliamentary Question"],
+    "pqs": ["Parliamentary Question"],
+    "foi": ["Freedom of Information"],
+    "hop": ["Head of Profession for Statistics"],
+    "aqal": ["Analytical Quality and Assurance Lead"],
+    "qa": ["quality assurance"],
+    "bca": ["Business Critical"],
+    "tier": ["assurance level"],
+    "tiers": ["assurance level"],
+    "tiered": ["assurance level"],
+    "tiering": ["assurance level"],
+    "v&v": ["verification and validation"],
+    "sdc": ["statistical disclosure control"],
+    "atrs": ["Algorithmic Transparency Recording Standard"],
+    "rap": ["Reproducible Analytical Pipelines"],
+    "signoff": ["sign-off"],
+    "cop": ["Code of Practice for Statistics"],
+    "ig": ["information governance"],
+    "peer reviewer": ["peer review"],
+    "sign off": ["sign-off"],
+    "osr": ["Office for Statistics Regulation"],
+    "uksa": ["UK Statistics Authority"],
+    "acronyms": ["Glossary"],
+    "jargon": ["Glossary"]
+  };
+
+  // The needle, as a regular expression that cannot be broken by what somebody types.
+  //
+  // Where it starts matters more than it looks. Matching anywhere inside a word made "IG" return
+  // 104 pages, every one of them from des-IG-n, d-IG-ram or s-IG-nificant, and made "RAP" rank the
+  // accessibility page first on the strength of pa-RAG-raphs. So a match has to begin at the start
+  // of a word, and a query of three characters or fewer has to be the whole word, because a query
+  // that short is nearly always an abbreviation and prefixing it matches half the dictionary.
+  // Anything longer still matches a prefix, so "uncertain" finds uncertainty.
+  function needle(q) {
+    var esc = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (!/^[a-z0-9]/i.test(q)) { return new RegExp(esc, "gi"); }
+    var end = q.length <= 3 && /^[a-z0-9]+$/i.test(q) ? "\\b" : "";
+    return new RegExp("\\b" + esc + end, "gi");
+  }
+
+  // Words too common to narrow anything. A query made only of these keeps them, because
+  // "who to ask" is a page here and dropping every word of it would search for nothing.
+  var STOP = {"a": 1, "an": 1, "and": 1, "are": 1, "as": 1, "at": 1, "be": 1, "by": 1,
+              "do": 1, "does": 1, "for": 1, "from": 1, "how": 1, "i": 1, "if": 1, "in": 1,
+              "is": 1, "it": 1, "me": 1, "my": 1, "of": 1, "on": 1, "or": 1, "that": 1,
+              "the": 1, "this": 1, "to": 1, "what": 1, "when": 1, "where": 1, "which": 1,
+              "who": 1, "with": 1, "you": 1, "your": 1};
+
+  // needle() matches forwards, so "uncertain" finds uncertainty. This is the other direction,
+  // which is the one a reader actually types: "critical friends", "assurance levels", "peer
+  // reviewing". Only where four characters survive, so "ties" does not become "t".
+  function stem(w) {
+    var m = w.match(/^(.*?)(ies|ing|ed|es|s)$/i);
+    return m && m[1].length >= 4 ? m[1] : w;
+  }
+
+  // The query as words rather than as one string. The search used to turn the whole query,
+  // spaces and all, into a single expression, so it only ever found an exact phrase: "who
+  // signs it off", "role of the analyst" and "commissioner responsibilities" each returned
+  // nothing at all, although every word of them is on the site.
+  function terms(q) {
+    var raw = String(q).toLowerCase().split(/[^a-z0-9&]+/i).filter(function (w) {
+      return w.length > 0;
+    });
+    var keep = raw.filter(function (w) { return !STOP[w]; });
+    return (keep.length ? keep : raw).map(stem);
+  }
+
+  // The phrases to search for as well as what was typed.
+  function expand(q) {
+    var key = q.toLowerCase().replace(/\s+/g, " ").trim();
+    return Object.prototype.hasOwnProperty.call(ALSO, key) ? ALSO[key] : [];
+  }
+
+  // Rank: the title first, then the heading, then the body. Somebody searching "uncertainty"
+  // wants the section called uncertainty above the nine pages that mention the word.
+  function score(entry, re) {
+    var n = 0;
+    re.lastIndex = 0; if (re.test(entry.title || "")) n += 100;
+    re.lastIndex = 0; if (re.test(entry.section || "")) n += 40;
+    re.lastIndex = 0;
+    var body = (entry.text || "").match(re);
+    return body ? n + Math.min(body.length, 10) : n;
+  }
+
+  // Every word of the query has to be somewhere in the entry, and the whole phrase sitting
+  // together is worth more than the words scattered. Then anything the playbook calls it by
+  // another name, at half weight, so a page carrying the reader's own word stays above one
+  // reached only through the phrase this playbook uses.
+  function total(entry, q) {
+    var ts = terms(q), n = 0, all = ts.length > 0;
+    for (var i = 0; i < ts.length; i++) {
+      var s = score(entry, needle(ts[i]));
+      if (s === 0) { all = false; }
+      n += s;
+    }
+    if (!all) { n = 0; }
+    if (ts.length > 1) {
+      var phrase = score(entry, needle(String(q).trim()));
+      if (phrase > 0) { n += phrase * 2; }
+    }
+    expand(q).forEach(function (alt) {
+      n += score(entry, needle(alt)) / 2;
+    });
+    return n;
+  }
+
+  // A line of the page with the match in it, so a reader can tell a real hit from a passing one.
+  // Tries what was typed first, then anything the search also looked for, so a result reached
+  // through a synonym still shows the words that were found rather than no line at all.
+  function snippetFor(entry, q) {
+    var tried = [String(q).trim()].concat(expand(q)).concat(terms(q));
+    for (var i = 0; i < tried.length; i++) {
+      var s = snippet(entry.text, needle(tried[i]));
+      if (s) { return s; }
+    }
+    return "";
+  }
+
+  function snippet(text, re) {
+    re.lastIndex = 0;
+    var m = re.exec(text || "");
+    if (!m) { return ""; }
+    var from = Math.max(0, m.index - SNIP / 3);
+    var cut = String(text).slice(from, from + SNIP).replace(/\s+/g, " ").trim();
+    re.lastIndex = 0;
+    return (from > 0 ? "…" : "") + esc(cut).replace(re, function (hit) {
+      return "<mark>" + hit + "</mark>";
+    }) + "…";
+  }
+
+  function render(q, index) {
+    var countEl = document.getElementById("pb-count");
+    var listEl = document.getElementById("pb-results");
+    if (!q) { countEl.textContent = ""; listEl.innerHTML = ""; return; }
+
+    // A page's title is worth the same to every section of that page, so a page with fifteen
+    // sections used to contribute fifteen results all scoring alike and push whole pages off
+    // the end of the list: searching the site's own central term returned eleven slices of one
+    // page and lost nine other pages entirely. The second and later sections of a page step
+    // down, so the first hit on a page keeps its place and breadth survives the cap.
+    var depth = {};
+    var hits = index.map(function (e) { return {e: e, s: total(e, q)}; })
+                    .filter(function (h) { return h.s > 0; })
+                    .sort(function (a, b) { return b.s - a.s; })
+                    .map(function (h) {
+                      var page = String(h.e.href).split("#")[0];
+                      depth[page] = (depth[page] || 0) + 1;
+                      h.r = h.s / depth[page];
+                      return h;
+                    })
+                    .sort(function (a, b) { return b.r - a.r; })
+                    .slice(0, MAX);
+
+    // Say when the list has been cut. A capped list that does not say so reads as the whole
+    // answer, and somebody concludes the playbook never mentions a thing it mentions sixty times.
+    var found = index.filter(function (e) { return total(e, q) > 0; }).length;
+    // And say when the results came from a word other than the one that was typed. Somebody
+    // who searched SRO and got sixty pages about the Analysis Senior Responsible Officer
+    // should be told which name this playbook uses, not left to infer it from the results.
+    var direct = index.filter(function (e) { return score(e, needle(q)) > 0; }).length;
+    var alt = expand(q);
+    var also = direct === 0 && alt.length
+      ? " This playbook calls it “" + alt.join("” and “") + "”."
+      : "";
+    countEl.textContent = (found === 0
+      ? "No results for “" + q + "”."
+      : found <= MAX
+        ? found + (found === 1 ? " result for “" : " results for “") + q + "”."
+        : "The " + MAX + " closest of " + found + " results for “" + q
+          + "”. Add a word to narrow it.") + also;
+
+    if (hits.length === 0) {
+      listEl.innerHTML = "<p>Try a shorter word, or open "
+        + "<a href=\"guidance/00-how-to-use/index.html\">how to use this playbook</a>, which lists "
+        + "every section and the subjects that sit inside one.</p>";
+      return;
+    }
+
+    var out = ["<ol class=\"pb-hits\">"];
+    hits.forEach(function (h) {
+      var e = h.e;
+      // The link text names the page and the heading, so it still says where it goes when it is
+      // read on its own, out of the sentence around it.
+      // Forty of the entries carry no section, and on four pages that gave two or more
+      // results the same link text going to different places, which is the 2.4.9 failure
+      // this page exists to avoid. Where there is no section but the link carries an anchor,
+      // the anchor names the place instead.
+      var label = e.section;
+      if (!label) {
+        var frag = String(e.href).split("#")[1] || "";
+        if (frag) {
+          label = frag.replace(/-/g, " ");
+          label = label.charAt(0).toUpperCase() + label.slice(1);
+        }
+      }
+      var where = label && label !== e.title
+        ? esc(e.title) + ": " + esc(label) : esc(e.title);
+      out.push("<li><a href=\"" + esc(e.href) + "\">" + where + "</a>");
+      var crumbs = e.crumbs && e.crumbs.length ? e.crumbs.join(" › ") : "";
+      if (crumbs) { out.push("<span class=\"pb-hit-crumbs\">" + esc(crumbs) + "</span>"); }
+      var s = snippetFor(e, q);
+      if (s) { out.push("<span class=\"pb-hit-text\">" + s + "</span>"); }
+      out.push("</li>");
+    });
+    out.push("</ol>");
+    listEl.innerHTML = out.join("");
+  }
+
+  var box = document.getElementById("pb-q");
+  var q0 = param();
+  if (box) { box.value = q0; }
+
+  // Quarto writes a table's cells, and the two halves of a line break, into the index with
+  // nothing between them: "a colleague within the teamLevel 2 someone with no hand in the
+  // work" is one string. A match has to start at a word, and there is no word boundary inside
+  // "teamLevel", so searching for that level could not find it, and any snippet landing on the
+  // join read as gibberish. The gap goes back in where a word plainly ran into the next. A
+  // capital that is not followed by a lower-case letter is left alone, so "GovS 010", "AQuA"
+  // and "NHSBSA" are untouched.
+  function unglue(s) {
+    return String(s || "").replace(/([a-z.,;:)])([A-Z][a-z])/g, "$1 $2");
+  }
+
+  fetch("search.json").then(function (r) { return r.json(); }).then(function (index) {
+    index.forEach(function (e) { e.text = unglue(e.text); });
+    render(q0, index);
+    var form = document.querySelector(".pb-search");
+    // Search as you type, so the page answers without a round trip. The form still submits
+    // without this, which is what keeps the result a real URL somebody can send to a colleague.
+    var timer = null;
+    box.addEventListener("input", function () {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(function () {
+        var q = box.value.trim();
+        render(q, index);
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, "",
+            q ? "search.html?q=" + encodeURIComponent(q) : "search.html");
+        }
+      }, 150);
+    });
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      render(box.value.trim(), index);
+    });
+  }).catch(function () {
+    document.getElementById("pb-count").textContent =
+      "The search index could not be loaded. Every page is in the sidebar on the left.";
+  });
+}());
+</script>
+```

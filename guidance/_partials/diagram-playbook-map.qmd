@@ -1,0 +1,22 @@
+[![](/static/diagrams/02-playbook-map.png){fig-alt="The short path. Three steps joined left to right: agree the question, decide your assurance level, and do what that level requires. The first two sit in Phase 1 and the third runs across Phases 2 to 4. A panel below says that is most work, and everything else here answers a question these three raise. Every step is written out below the picture."}](/static/diagrams/02-playbook-map.svg){.diagram-open}
+
+[Select the diagram to open it full size. The full-size copy scales to any zoom without blurring, and its labels can be searched and copied.]{.diagram-hint}
+<details>
+<summary>Text description of this diagram</summary>
+
+Three boxes joined left to right, and between them the whole of the short path.
+
+1. **Agree the question**, in [Phase 1](/guidance/01-engagement-and-scoping/index.qmd). With your
+   commissioner: the decision it informs, the question in one sentence, and the deadline.
+2. **Decide your assurance level**, also in Phase 1. Score six impact and six likelihood
+   dimensions, take the highest of each, and read the level off the matrix. About five minutes.
+   See [deciding your assurance level](/guidance/07-deciding-your-assurance-level/index.qmd).
+3. **Do what that level requires**, across [Phase 2](/guidance/02-design/index.qmd),
+   [Phase 3](/guidance/03-analysis/index.qmd) and
+   [Phase 4](/guidance/04-delivery-and-sign-off/index.qmd). Read the column for your level. The
+   levels are cumulative, so yours does everything the levels below it do and adds its own.
+
+A panel below reads: and that is most work. Everything else here answers a question these
+three raise.
+
+</details>

@@ -1,0 +1,55 @@
+---
+title: "Phase 2. Design"
+description: "Choose the method, and turn the assurance level into a plan with time in the schedule."
+---
+
+You choose how the question gets answered, and turn the level agreed in Phase 1 into a plan
+somebody will actually carry out.
+
+## What you do
+
+1. **Choose the method**, and place your work among the eight types of analytical model if it is
+   a model. [The list is in after you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model).
+2. **Write the design and plan**, and share it with everyone involved.
+   It covers the data, the method, how uncertainty will be identified and communicated, the
+   assumptions and known limitations, ethics and information governance, the outputs, the
+   timescales and resources, and the assurance activities.
+3. **Turn the level into an assurance plan.** Set out the verification and validation the level
+   asks for, and **put time for it in the schedule**. What each level
+   asks for is in [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).
+4. **Name your critical friend now**, before the work starts. They review the plan, confirm they
+   can do the assurance it asks for, and put their own time in the schedule.
+5. **Get the design approved** by your commissioner before work proceeds.
+   Where time or resource constrain the approach, your commissioner needs to understand the risks
+   that follow.
+
+## Your design should
+
+- **be repeatable**, producing the same results from the same inputs if somebody else runs it
+- consider uncertainty, and say how it will be communicated
+- consider whether the data sources are fit to answer the question
+- be documented
+
+## What you leave behind
+
+- The design and plan, shared with everyone involved.
+- The assurance plan, with time in the schedule for it and for your critical friend.
+- Your critical friend's name against the work.
+- Your commissioner's approval of the design.
+
+## Ready for Phase 3 when
+
+- The design is approved.
+- The assurance plan has time in the schedule, including your reviewer's own time.
+- Your critical friend has confirmed they can do the assurance the plan asks for.
+
+## Who does what in this phase
+
+| Role | In Phase 2 |
+|---|---|
+| **Analyst** | Choose the method. Plan the verification and validation the level asks for. Name your critical friend |
+| **Critical friend** | Review the plan. Confirm the assurance planned is at the right level. Put your own time in the schedule |
+| **Commissioner** | Approve the design. Make sure there is time and resource for the assurance the level requires |
+| **Analysis Senior Responsible Officer** | Business Critical work only. Confirm design governance has been followed before the analysis starts |
+
+[Next: Phase 3, analysis](../03-analysis/index.qmd)

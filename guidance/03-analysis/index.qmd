@@ -1,0 +1,53 @@
+---
+title: "Phase 3. Analysis"
+description: "Do the work to the approved design, check it as you go, and have it reviewed."
+---
+
+You carry out the analysis following the design and plan, and the checking happens throughout
+rather than at the end.
+
+## What you do
+
+1. **Do the analysis to the approved design and plan.** Record any
+   departure from the plan as you make it.
+2. **Do your own verification and validation first.** Verification asks whether the analysis was
+   carried out properly. Validation asks whether it was the right kind of analysis at all. Both
+   run throughout, proportionate to the work.
+3. **Keep a quality assurance log** of what you checked, when, and what you found.
+4. **Hand it to your critical friend**, who runs the checks the level asks for and reports back.
+   Their findings are yours to act on.
+5. **Log decisions and assumption changes as you make them**, not afterwards.
+
+## Records to keep
+
+Proportionate to the work, version controlled, securely stored and retrievable:
+the specification and design, notes of any deviation from the plan, a log of data and assumptions,
+an outline of the assurance activities, technical documentation, and lessons as they arise.
+
+Where your analysis involves code, the
+[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+covers version control, testing, peer review and documentation.
+
+## What you leave behind
+
+- The quality assurance log: what was checked, when, and what was found.
+- The decision log, including anything that changed and why.
+- Your critical friend's findings, and what you did about each one.
+- Technical documentation enough for somebody to re-run the work.
+
+## Ready for Phase 4 when
+
+- The checks the level asks for have been done, by you and by your critical friend.
+- Their findings have been acted on, or answered.
+- The log says what was checked rather than what was planned.
+
+## Who does what in this phase
+
+| Role | In Phase 3 |
+|---|---|
+| **Analyst** | Do the work and your own checks first. Log decisions and assumption changes as you make them |
+| **Critical friend** | Run the checks the level asks for. Report errors and improvements back |
+| **Commissioner** | Stay available. Review any change of design or method. Resist changing the question late |
+| **Analysis Senior Responsible Officer** | Business Critical work only. Stay aware of progress, and be available to approve at delivery |
+
+[Next: Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd)

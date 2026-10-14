@@ -1,0 +1,99 @@
+---
+title: "Roles and responsibilities"
+description: "Analyst, critical friend, commissioner and Analysis Senior Responsible Officer. A page each, and the parts that belong to all four."
+---
+
+Four roles run through the five phases. You hold one of them on one piece of work, and you might
+hold a different one on the next. Each has a page of its own: what it owns, what is yours in each
+phase, and where to go next.
+
+What is on this page is the part that belongs to no single role: the other names you will meet
+these roles under, where a disagreement goes, and who holds the organisational roles.
+
+## Go to your role
+
+```{=html}
+<ul class="pb-phase-cards pb-role-cards">
+  <li>
+    <a href="../../guidance/06-roles/analyst.html">
+      <img src="../../static/photos/role-analyst.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The analyst</span>
+        <p>Plans the work, does it, checks it and writes it up.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/06-roles/critical-friend.html">
+      <img src="../../static/photos/role-critical-friend.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The critical friend</span>
+        <p>Gives independent advice on one piece of work, and confirms what was assured.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/06-roles/commissioner.html">
+      <img src="../../static/photos/role-commissioner.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The commissioner</span>
+        <p>Asks for the analysis and owns the decision it informs.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/06-roles/analysis-senior-responsible-officer.html">
+      <img src="../../static/photos/role-analysis-sro.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The Analysis Senior Responsible Officer</span>
+        <p>Business Critical work only. Confirms it is fit for its intended use.</p>
+      </div>
+    </a>
+  </li>
+</ul>
+```
+
+## The same role under another name
+
+You will meet these roles under other titles. Where one of them is in front of you, read it as the
+role in this playbook.
+
+| In this playbook | Also called |
+|------------------------------|--------------------------------------------------------------|
+| **Critical friend** | *Analytical assurer*, which is the standards' term for the same person: GovS 010 defines it at 4.4.6 and the AQuA Book at 5.1 |
+| **Analysis Senior Responsible Officer** | *Model Senior Responsible Officer* in the Business Critical documentation, *Senior Responsible Owner* in the draft Analytical Governance and Quality Assurance Policy, and *approver* in the AQuA Book |
+
+## When you disagree
+
+Disagreement is a healthy sign, and the routes are short.
+
+| Disagreement | Goes to |
+|---|---|
+| The assurance level | The Analytical Quality and Assurance Lead |
+| Whether the analysis is Business Critical | The commissioner decides. Escalate to the Analytical Quality and Assurance Lead if unresolved |
+| Whether the analysis is fit for purpose | The critical friend advises. Unresolved, escalate to the Head of Profession |
+| Whether there is enough time for the assurance required | The commissioner, then the Analytical Quality and Assurance Lead |
+| An ethical concern | The commissioner decides, because they own the decision. Unresolved, the Analytical Quality and Assurance Lead, or the Head of Profession where the output is an official statistic |
+
+**Deadline pressure is not resolved by lowering the assurance level.** It is resolved by narrowing
+the question, or by saying plainly what assurance was not done.
+
+{{< include /guidance/_partials/diagram-disagreement-routes.qmd >}}
+
+## Who holds the organisational roles
+
+The four roles above are the ones you hold on a piece of work. Separately, GovS 010 asks NHSBSA to
+appoint a senior officer accountable for analysis as an activity, and to define analytical roles
+in its governance framework and assign them to people who can hold them. Those are organisational
+arrangements rather than a role on any one output.
+
+Who holds the Analytical Quality and Assurance Lead, the Head of Profession for Statistics and
+the senior officer accountable for analysis is recorded in NHSBSA's governance and management
+framework, not here. A change of post holder is then not a change to this playbook.
+If you need one of them and do not know who they are, see
+[who to ask](../09-resources/r3-who-to-ask.qmd).
+
+[**Photographs.** The analyst by Kampus Production, the critical friend by Vitaly Gariev, the
+commissioner by Tima Miroshnichenko, and the Analysis Senior Responsible Officer by Werner
+Pfennig. Used under the Unsplash and Pexels licences, neither of which requires attribution.
+Cropped, resized and retouched for this page.]{.pb-photo-credit}

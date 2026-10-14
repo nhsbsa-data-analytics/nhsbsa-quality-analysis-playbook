@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="Kainos Software Limited" modified="2026-09-11T15:45:00Z">
+  <diagram id="11-review-cycle" name="11-review-cycle">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="490" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#007F3B;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=10;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n5" target="n3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="288" />
+              <mxPoint x="280" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1" value="&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;How a lesson gets back to the start&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;Two steps in Phase 5, one in Phase 1, and round again&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1520" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:10px;color:#003087;letter-spacing:0.8px&quot;&gt;PHASE 5&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:15px;color:#003087&quot;&gt;Record the lesson&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#231F20&quot;&gt;Put it where the next analyst will look for it.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=14;spacingRight=14;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="480" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:10px;color:#003087;letter-spacing:0.8px&quot;&gt;PHASE 5&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:15px;color:#003087&quot;&gt;Raise it wider&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#231F20&quot;&gt;Anything that applies beyond this one output.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=14;spacingRight=14;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="480" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:10px;color:#003087;letter-spacing:0.8px&quot;&gt;PHASE 1&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:15px;color:#003087&quot;&gt;Use it at scoping&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#231F20&quot;&gt;The next piece of work starts from what this one learned.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=14;spacingRight=14;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="130" width="480" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;span style=&quot;font-size:11px;color:#425563&quot;&gt;Capture lessons as they happen, not by reconstructing them at the end.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="304" width="1520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1520" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;b style=&quot;font-size:11px;color:#003087;letter-spacing:0.4px&quot;&gt;WHERE IT IS WRITTEN DOWN&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="64" y="374" width="1472" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;span style=&quot;font-size:12px;color:#231F20&quot;&gt;The review record sits with the project record, which for most outputs is a short entry in the analytical plan.&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="64" y="400" width="1472" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

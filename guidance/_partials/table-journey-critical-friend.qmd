@@ -1,0 +1,16 @@
+**Seven stops, in the order you meet them.** The last column is there to be ticked: printed, or in
+the Word copy, this table is the checklist for one assignment.
+
+| Where you are | Where to read it | What you do there | What you leave behind | Done |
+|---------------|-----------------|----------------------------------------|----------------------|------|
+| You have been asked to be a critical friend | [What you are confirming](/guidance/06-roles/critical-friend.qmd#what-you-are-confirming) | You give independent advice on this one assignment. You are not delivering the analysis, and you and the analyst shall be separate from one another in all cases | Nothing recorded yet. What you have is a clear answer on whether you are independent enough to take this on | ☐ |
+| How far from the work do I have to sit? | [How independent the critical friend has to be](/guidance/06-roles/critical-friend.qmd#how-independent-you-have-to-be) | The separation follows the level.<br><br>**Level 1** a colleague within the team<br>**Level 2** someone with no hand in the work<br>**Level 3** an assurer from outside the delivering team<br>**Level 4 BCA** a Lead Assurer, with external review as well | Your name on the design and plan, recorded before the work starts | ☐ |
+| What am I actually reviewing? | [Phase 2. Design](/guidance/02-design/index.qmd) | Review the plan. Confirm the approach answers the question, and that the assurance planned is at the right level. Put your own time in the schedule | A reviewed assurance plan, and your time in the schedule | ☐ |
+| What checks am I doing? | [The checks, by level](/guidance/07-deciding-your-assurance-level/index.qmd#the-checks-by-level) | Read the block for the level and everything inside it.<br><br>**Level 2** adds reproducing the calculations from source<br>**Level 3** adds reading the documentation as a document, not only the numbers | Entries in the quality assurance log against your name, with what you found | ☐ |
+| I have found something | [Phase 3. Analysis](/guidance/03-analysis/index.qmd) | You **shall** review the assurance the analyst has done and report errors and improvements back. Reporting them is yours; acting on them is the analyst's | Findings recorded, and the analyst's response to each one | ☐ |
+| Has the uncertainty been handled honestly? | [Uncertainty, assumptions and limitations](/guidance/09-resources/r10-uncertainty.qmd) | Check that assumptions trace to a source, a precedent or a stated expert judgement, that limitations appear in the output itself, and that uncertainty is quantified where the method allows | A recorded view on whether the uncertainty is handled adequately | ☐ |
+| Saying what I assured | [Phase 4. Delivery and sign-off](/guidance/04-delivery-and-sign-off/index.qmd) | Communicate the assurance state: that the work was appropriately scoped, executed, validated, verified and documented, and that uncertainty is handled adequately. That is what the statement is for | The quality assurance statement, or your part of it | ☐ |
+
+**Why the second stop is second and not seventh.** A reviewer found afterwards reviews what was
+produced. A reviewer named beforehand shapes what gets produced, which is considerably more useful
+and usually cheaper.

@@ -1,0 +1,67 @@
+---
+title: "R3. Who to ask"
+description: "The person or team to go to, the communities of practice, and what to do about a skills gap."
+---
+
+
+| If you need | Ask |
+|---|---|
+| Advice on your assurance level, or a level dispute resolved | The Analytical Quality and Assurance Lead |
+| A critical friend for your analysis | Your team lead in the first instance |
+| Advice on official statistics | The Head of Profession for Statistics |
+| Business Critical registration | The Data Science, Advanced Analytics and Statistics team |
+| Information governance advice, or help with personal data | The information governance function. Ask before the work starts, not at sign-off |
+| Help with analytical code, testing or reproducibility | The owners of the [Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) |
+
+Each row names a role or a team rather than a person, so that a change of post holder is not a
+change to this playbook. Who currently holds each one is in the governance and management framework.
+If you cannot work out who to approach, start with your team lead. If that does not settle it,
+write to [analyticalassurance@nhsbsa.nhs.uk](mailto:analyticalassurance@nhsbsa.nhs.uk). That
+mailbox covers this playbook, the assurance level decision sheet and the Business Critical
+templates, and will point you at the right person for anything else.
+
+## Communities of practice
+
+
+## Coffee and Coding
+
+A monthly, hands-on session lasting 45 minutes to an hour, in which colleagues share a skill and
+everyone gets to run the code themselves. It has run since May 2021 and materials from every session
+are published at
+[github.com/nhsbsa-data-analytics/coffee-and-coding](https://github.com/nhsbsa-data-analytics/coffee-and-coding).
+
+Past sessions have covered R and Python from scratch, the Open Data Portal API, R Markdown and
+official statistics, accessible spreadsheets, and data visualisation. You do not need to be a
+confident coder to attend, and you do not need to present to benefit.
+
+For joining details, ask your team lead or the Data Science, Advanced Analytics and Statistics
+team.
+
+Collaboration is worth seeking at the start of analysis rather than when you are stuck. It gives
+access to skills and knowledge held outside your immediate team, avoids duplication and wasted
+effort, avoids conflicting results, and brings a wider range of professional perspectives.
+
+## When the work needs a skill you do not have
+
+
+Analysis should be undertaken by people with the skills, information and tools the work requires. That is a statement about the work, not a judgement about the analyst, and
+it puts an obligation on whoever assigns the work as much as on whoever does it.
+
+**Say so early.** A skills gap found at scoping is a conversation about who else is involved, what
+training is needed, or whether the deadline moves. The same gap found at assurance is a finding
+against the analysis. Raise it with your team lead, and if it is not resolved there, with the
+Analytical Quality and Assurance Lead using the routes above.
+
+**Record it if it is not closed.** Where the work goes ahead without the skill the assurance level
+assumes, that is a limitation of the analysis and belongs in the record and in the assurance
+statement, the same as any other limitation. See
+[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and
+[Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd).
+
+Two frameworks help with the wider question of whether NHSBSA has the capability it needs, rather
+than with a single piece of work:
+
+| Framework | What it assesses |
+|---|---|
+| [Statistical Practice Capability Framework](https://osr.statisticsauthority.gov.uk/), Office for Statistics Regulation | How an organisation is developing its statistical practice against Trustworthiness, Quality and Value.<br><br>It is in development and being trialled with producer bodies, so it is a way of looking at NHSBSA, not a standard NHSBSA is held to |
+| [Government Analytical Evaluation Capabilities Framework](https://www.gov.uk/government/publications/the-magenta-book), a Magenta Book supplementary guide | The competences an evaluation team needs, and how to judge whether it has them |

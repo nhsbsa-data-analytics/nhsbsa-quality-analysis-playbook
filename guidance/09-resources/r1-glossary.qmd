@@ -1,0 +1,63 @@
+---
+title: "R1. Glossary"
+description: "Every term and abbreviation this playbook uses, in alphabetical order."
+---
+
+
+In alphabetical order, and including the abbreviations this playbook uses without writing them out
+every time.
+
+## A to B
+
+| Term | Meaning |
+|---|---|
+| **Algorithmic Transparency Recording Standard, ATRS** | How a public body publishes what an algorithmic tool does, what it is for, what data it was built on, how it affects decisions, who is accountable for it and what oversight it has.<br><br>When it is mandatory, and what it asks for, is in [ethics and transparency](r11-ethics-and-personal-data.qmd) |
+| **Analysis Senior Responsible Officer** | The named person accountable for Business Critical analysis or a model across its lifecycle, who confirms it is suitable for its intended use before it is used.<br><br>The name NHSBSA has chosen for the role. Older titles for the same role are the Model Senior Responsible Officer, the Senior Responsible Owner and the approver. See [roles and responsibilities](../06-roles/index.qmd) |
+| **Analyst** | The person planning, undertaking and documenting the analysis |
+| **Analytical Quality and Assurance Lead** | The organisational role that confirms assurance levels and takes a level dispute, and the route when a Business Critical decision or an ethical concern cannot be resolved between the commissioner and the analyst.<br><br>Who holds it is recorded in the governance and management framework rather than here |
+| **Assurance level** | The proportionate amount of quality assurance a piece of analysis needs.<br><br>Level 1 Standard, Level 2 Enhanced, Level 3 Comprehensive or Level 4 BCA, read from the assurance level decision sheet |
+| **Assurance level decision sheet** | NHSBSA's scoring tool: six impact dimensions against six likelihood dimensions, read on a four by four matrix.<br><br>Taught in [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), and the workbook is held on the NHSBSA SharePoint, which needs NHSBSA network access |
+| **BCA** | Business Critical analysis. The abbreviation appears in the name of the fourth assurance level, Level 4 BCA |
+| **BCA** | Business Critical analysis. The abbreviation appears in the name of the fourth assurance level, Level 4 BCA |
+| **Business Critical** | Analysis or a model whose failure would have consequences at organisational scale. Registered, and assured at Level 4 BCA |
+| **Business Critical register** | Where Business Critical work is recorded.<br><br>The entry is made at scoping rather than at delivery, and each entry names an Analysis Senior Responsible Officer. [Business Critical analysis](../08-business-critical/index.qmd), step 4 |
+
+## C to F
+
+| Term | Meaning |
+|---|---|
+| **Commissioner** | The person requesting the analysis, who owns the decision it supports |
+| **Correction** | A change made to a published figure because something was wrong.<br><br>Graded by what the change does to the conclusions rather than by how big the number is. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| **Critical friend, analytical assurer** | Two names for one role. The person providing independent advice who confirms the analysis is fit for purpose, and who is not delivering it.<br><br>*Critical friend* is the name NHSBSA's playbooks use; *analytical assurer* is the standards' term, at GovS 010 4.4.6 and AQuA Book 5.1. See [roles and responsibilities](../06-roles/index.qmd) |
+| **DHSC** | The Department of Health and Social Care |
+| **Direct uncertainty** | Uncertainty about an estimate that can be measured or quantified |
+| **DSIT** | The Department for Science, Innovation and Technology |
+| **Freedom of Information, FOI** | A request made under the Freedom of Information Act.<br><br>NHSBSA places an FOI response at Level 3 Comprehensive, with its visibility scored under public visibility and reach rather than added on top |
+
+## G to L
+
+| Term | Meaning |
+|---|---|
+| **Head of Profession for Statistics** | The organisational role that is the route for whether an output is fit to publish, and for advice on official statistics.<br><br>Who holds it is recorded in the governance and management framework rather than here |
+| **Indirect uncertainty** | Uncertainty about the underlying quality of knowledge surrounding an estimate |
+| **Lead Assurer** | At Level 4 BCA, the assurer from outside the delivering team who signs the quality assurance sign-off before the Analysis Senior Responsible Officer approves the work |
+
+## M to R
+
+| Term | Meaning |
+|---|---|
+| **Official statistics** | Statistics produced under the Statistics and Registration Service Act, governed by the Code of Practice for Statistics |
+| **Quality assurance, QA** | Everything done to make analysis trustworthy and to show that it is.<br><br>Some Business Critical documents carry it in their own names, such as the QA appraisal in [Business Critical analysis](../08-business-critical/index.qmd) |
+| **Quality assurance log** | The record of checks carried out, when, by whom, and what was found |
+| **Quality assurance statement** | The published or recorded account of what was done to make analysis trustworthy, and what its limits are |
+| **Revalidation** | Confirming that a designation is still right.<br><br>Level 3 and Level 4 work is reviewed annually, and before any reuse for a new purpose, because a new purpose is the change most likely to invalidate the assumptions the original was built on |
+| **Revision** | An expected change to published statistics: provisional figures finalised, a change of methodology, or the arrival of further data.<br><br>A revision is not an error, and a correction is. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| **RIGOUR** | Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, Robust |
+
+## S to Z
+
+| Term | Meaning |
+|---|---|
+| **Senior officer accountable for analysis** | The organisational role GovS 010 requires NHSBSA to appoint, accountable for analysis as an activity rather than for approving any one output.<br><br>Who holds it is recorded in the governance and management framework rather than here |
+| **Validation** | Confirming the right type of analysis was used |
+| **Verification** | Confirming the analysis was conducted properly |

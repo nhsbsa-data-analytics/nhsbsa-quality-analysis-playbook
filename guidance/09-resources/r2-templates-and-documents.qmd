@@ -1,0 +1,64 @@
+---
+title: "R2. NHSBSA templates and documents"
+description: "The templates, the decision sheet, and the NHSBSA documents the playbook draws on."
+---
+## NHSBSA templates
+
+
+| Template | Use it for | Where it is described |
+|---|---|---|
+| Analytical project record | Recording scope, data, method, assumptions, uncertainty, decisions and sign-off | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Quality assurance checklist | The checks required at your assurance level | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Quality assurance log | Recording checks as you do them, with what you found | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Quality assurance statement | Telling readers what was done and what the limits are | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| Assurance level decision sheet | Scoring impact and likelihood to reach your assurance level, and the Business Critical test | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+
+The templates and the decision sheet are held on the NHSBSA SharePoint, alongside the rest of the
+analytical documentation. **Opening them needs NHSBSA network access.** If you cannot reach them,
+ask the Data Science, Advanced Analytics and Statistics team.
+
+What matters is that a template is created in place rather than downloaded. Created in place, it is
+versioned and can be linked from the output. Downloaded, filled in and saved somewhere, it is a
+template nobody can find afterwards. The field lists are the part this playbook owns, so take
+them wherever your team works.
+
+## NHSBSA internal documents
+
+
+Some of the sources named at the foot of these pages are NHSBSA's own documents rather than
+published standards. They are held on the NHSBSA SharePoint and **need NHSBSA network access**.
+
+| Document | What the playbook uses it for |
+|---|---|
+| Criteria for determining the level of analytical risk v3, 10 September 2026 | The assurance level decision sheet: the impact and likelihood scales, the matrix, and the worked examples. [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026 | The Business Critical definition, the six criteria, and the documentation stack. [Business Critical analysis](../08-business-critical/index.qmd) |
+| NHSBSA Analytical operating model and implementation plan, Summer 2026 | What NHSBSA counts as an analytical output, and the range it covers. [How to use this playbook](../00-how-to-use/index.qmd) |
+| NHSBSA Analytical Risk Assessment and Quality Assurance Framework | What each risk rating asks for. [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+
+If you cannot reach one of these, ask the Data Science, Advanced Analytics and Statistics team.
+
+All analytical documentation should be stored centrally.
+
+## NHSBSA guidance
+
+
+| Resource | For |
+|---|---|
+| [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) | Version control, testing, peer review, documentation and open sourcing of analytical code |
+| [NHSBSA Data Science Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook) | The workflow for a Data Science initiative, from problem definition to wrap up |
+| [NHSBSA Data Visualisation Standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/) | Charts, tables and dashboards, and how to label them so they can be read |
+| [NHSBSA Open Data Standards](https://github.com/nhsbsa-data-analytics/open-data-standards) | How NHSBSA publishes open data |
+| [Coffee and Coding](https://github.com/nhsbsa-data-analytics/coffee-and-coding) | Monthly hands-on sessions. Materials from every session since 2021 |
+
+## NHSBSA statistics policies
+
+
+These bind official and national statistics. The behaviour they describe is worth following for any
+published output. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) says where each one bites.
+
+Both of these are published, so you do not need network access to read them.
+
+| Policy | For |
+|---|---|
+| [NHSBSA Revisions and Corrections Policy](https://www.nhsbsa.nhs.uk/sites/default/files/2021-05/Revisions_and_Corrections_Policy_v002.pdf) | What counts as a revision and what counts as a correction, how errors are graded by consequence, and who decides |
+| [NHSBSA Statistical Disclosure Control protocol](https://www.nhsbsa.nhs.uk/sites/default/files/2020-10/nhsbsa-sdc-protocol.pdf) | Thresholds and methods for protecting small counts in a published output |

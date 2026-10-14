@@ -1,0 +1,54 @@
+---
+title: "The Analysis Senior Responsible Officer"
+description: "Business Critical work only. You take responsibility for the risks across the lifecycle and confirm the work is fit for its intended use."
+---
+
+{{< include /guidance/_partials/role-analysis-sro.qmd >}}
+
+## When you are appointed
+
+At scoping, as soon as the work is judged Business Critical, and before the analysis starts. The
+register entry is made at the same time. If the work in front of you is not Business Critical, no
+Analysis Senior Responsible Officer is appointed for it, and
+[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) is where that
+judgement is made.
+
+Being named afterwards does not work. What you are taking on is responsibility for risks across
+the lifecycle, and most of the lifecycle will already have happened.
+
+## Your part in each phase
+
+| Phase | What is yours |
+|---|---|
+| [Phase 1. Engagement and scoping](../01-engagement-and-scoping/index.qmd) | Be named, and confirm the register entry is made |
+| [Phase 2. Design](../02-design/index.qmd) | Confirm design governance has been followed |
+| [Phase 3. Analysis](../03-analysis/index.qmd) | Stay aware of progress |
+| [Phase 4. Delivery and sign-off](../04-delivery-and-sign-off/index.qmd) | Approve the work as fit for its intended use, after the Lead Assurer has signed off |
+| [Phase 5. Review](../05-review/index.qmd) | Revalidate the designation |
+
+## What you are confirming, and what you are not
+
+You confirm the work is **suitable for its intended use** before it is used. That is a judgement
+about fitness for a purpose, made on the assurance evidence in front of you. It is not a second
+technical review: the Lead Assurer has done that, and reports to you.
+
+The designation is revalidated annually, and before any reuse for a new purpose, because reuse is
+the change most likely to invalidate the assumptions the original was built on.
+
+## You may also be the commissioner
+
+The two roles can sit with the same person. Where they do, both sets of responsibilities apply,
+and the independence the assurance level requires is unaffected: it governs the distance between
+the assurer and the analyst, not between you and either of them.
+
+## Your journey through the playbook
+
+{{< include /guidance/_partials/table-journey-sro.qmd >}}
+
+## Where to go next
+
+- [Roles and responsibilities](index.qmd), for the other three roles, the older titles you will
+  meet this one under, and where a disagreement goes
+- [Business Critical analysis](../08-business-critical/index.qmd), for the route in one place
+- [The critical friend](critical-friend.qmd), for what the Lead Assurer reporting to you is doing
+- [Who to ask](../09-resources/r3-who-to-ask.qmd), if you need somebody and do not know who

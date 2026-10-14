@@ -1,0 +1,58 @@
+---
+title: "R5. The quality assurance statement"
+description: "What a quality assurance statement says, with a worked example."
+---
+
+
+A quality assurance statement tells a reader what was done to make the analysis trustworthy, and
+what its limits are. Whether you need one depends on your assurance level:
+
+| Level | Statement |
+|---|---|
+| Level 1 Standard | **Required**, and short. State your main limitation alongside the result |
+| Level 2 Enhanced | Required |
+| Level 3 Comprehensive | Required, and **published with the output** |
+| Level 4 BCA | Required, published with the output, and covered by the QA appraisal sign-off |
+
+## A worked example
+
+This is a Level 2 Enhanced statement. Bracketed prompts show what belongs in each place.
+
+> This analysis was produced by [analyst], [team], NHS Business Services Authority, in [month year]
+> to support [the decision it informs].
+>
+> It was assessed as Level 2 Enhanced on the NHSBSA assurance level decision sheet,
+> on the basis that it informs a directorate-level operational decision using linked internal data
+> and an established statistical method.
+>
+> Inputs were drawn from [source] as at [extract date]. [Named data quality issue] is present in the
+> source and affects [which part of the result] by [scale or direction]. The method was independently
+> reviewed by [reviewer] on [date], and the code is peer reviewed and version controlled at
+> [repository].
+>
+> Key assumptions and their sensitivity are recorded in the project record at [link]. The principal
+> limitation is [limitation], which means these results should not be used to [the specific misuse
+> this analysis cannot support].
+>
+> Residual uncertainty is [description]. Questions about interpretation should go to [contact].
+
+::: {.callout-note title="Why the brackets are left in" appearance="minimal" icon=false}
+<br>
+The failure mode of a worked example is that people copy it whole, including reasoning that does not
+apply to their work. A statement claiming independent review that did not happen is worse than no
+statement at all.
+
+Bracketed prompts force a decision at each point. Fill them in or delete the sentence.
+:::
+
+## What a Level 3 statement adds
+
+Everything above, plus:
+
+- the Business Critical register reference
+- the assurer, named, independent of the delivering team, with dates
+- confirmation that code was assured against the code assurance playbook
+- uncertainty quantified as a range, with its principal source
+- the sensitivity testing result for the key assumption
+- an Algorithmic Transparency Recording Standard record reference, where the tool is in scope
+- the approver, and the next review date

@@ -1,0 +1,16 @@
+**Seven stops, in the order you meet them.** The last column is there to be ticked: printed, or in
+the Word copy, this table is the checklist for one Business Critical output.
+
+| Where you are | Where to read it | What you do there | What you leave behind | Done |
+|----------------|--------------------|----------------------------------|------------------------|------|
+| You have been named for a piece of Business Critical analysis | [Business Critical analysis](/guidance/08-business-critical/index.qmd) | The whole route, in nine steps. Your appointment and the register entry start at scoping, not once the work is designed and someone notices a signature is needed | The register entry, with your name against it | ☐ |
+| What am I taking responsibility for? | [What you are confirming](/guidance/06-roles/analysis-senior-responsible-officer.qmd#what-you-are-confirming-and-what-you-are-not) | The risks across the lifecycle, and confirming the work is suitable for its intended use before it is used. You need to be senior enough to carry that | Nothing recorded yet. What you have is the scope of what you are accountable for | ☐ |
+| Is the work set up to succeed? | [Phase 1. Engagement and scoping](/guidance/01-engagement-and-scoping/index.qmd) | Note the work, and confirm resources and plans are in place for the assurance to happen. Confirm the Business Critical status and the register entry | Confirmed resources, and the register entry checked | ☐ |
+| Has the design been governed? | [Phase 2. Design](/guidance/02-design/index.qmd) | Where the work is Business Critical, confirm design governance has been followed before the analysis starts | Design governance confirmed, and recorded as confirmed | ☐ |
+| The work is running | [Phase 3. Analysis](/guidance/03-analysis/index.qmd) | Stay aware of progress, and make sure you are available to approve at delivery | Nothing recorded here. What you leave is your availability in the schedule | ☐ |
+| Approving it | [Phase 4. Delivery and sign-off](/guidance/04-delivery-and-sign-off/index.qmd) | Review the assurance evidence. Confirm the work meets the design requirements, is of sufficient quality, and is proportionately documented. Then approve it as fit for its intended use. You **shall** review the evidence before signing off | Your approval, recorded with what you confirmed. At Level 4 BCA the Lead Assurer signs off first, then you | ☐ |
+| Is the designation still right? | [Phase 5. Review](/guidance/05-review/index.qmd) | Revalidating the designation is yours. Level 3 and Level 4 work is reviewed annually, and before any reuse for a new purpose | The revalidated designation, and the register updated | ☐ |
+
+**Level 4 BCA adds to Level 3 rather than replacing it.** Formal audits, external review, additional
+scrutiny of the documentation, scrutiny of the structural and conceptual assumptions, and additional
+scenario testing. Everything at Levels 1 to 3 still applies underneath.

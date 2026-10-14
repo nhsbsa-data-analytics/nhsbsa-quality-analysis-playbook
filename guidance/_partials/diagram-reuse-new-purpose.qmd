@@ -1,0 +1,22 @@
+[![](/static/diagrams/12-reuse-new-purpose.png){fig-alt="Reusing analysis for a new purpose. Four boxes side by side, one for each check to make before the reuse: population, data, use case and decision context, each with the question to ask. A panel says that a yes to any of them means scoring the assurance level again. Everything is written out below the picture."}](/static/diagrams/12-reuse-new-purpose.svg){.diagram-open}
+
+[Select the diagram to open it full size. The full-size copy scales to any zoom without blurring, and its labels can be searched and copied.]{.diagram-hint}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**Reuse tests the assumptions the original was built on**, so four things are worth checking
+before it goes ahead. Each is drawn as its own box, and on each of them a yes is the answer that
+sends the work back.
+
+1. **Population.** Is the new use about different people?
+2. **Data.** Has it moved in coverage, definition or quality since?
+3. **Use case.** Is this outside what the method was built to answer?
+4. **Decision context.** Does the output now carry more weight, so that the same figure is relied
+   on for more than it was?
+
+Under the four it reads: reuse for a new purpose triggers a review at every level above the first.
+A panel below is headed "a yes to any of them", and reads: score the assurance level again before
+the reuse goes ahead.
+
+</details>

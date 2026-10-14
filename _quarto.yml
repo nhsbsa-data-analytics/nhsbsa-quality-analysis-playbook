@@ -1,69 +1,297 @@
+# Quarto project configuration for the NHSBSA Producing Quality Analysis Playbook.
+#
+# The comments below explain the settings that are not obvious, and in particular
+# the ones that carry an accessibility requirement. WCAG 2.2 AA applies to this
+# site, so a few of these look like styling and are not.
+
 project:
   type: website
   output-dir: docs
 
+  # What gets published. Without this list Quarto renders every .qmd and .md it finds, which
+  # puts the handover material in `review/` on the public site beside the guidance. The playbook
+  # pages are named here and everything else is left out of the render.
+  render:
+    - index.qmd
+    - about.qmd
+    - accessibility.qmd
+    - search.qmd
+    - CONTRIBUTE.md
+    - guidance/**/*.qmd
+
 website:
   bread-crumbs: false
+  # ADDED. Previous and next at the foot of every page, following the sidebar. Fifteen sections
+    # A page with no sense of sequence is a dead end: a reader finishes it and has to go back to
+  # the sidebar to work out what comes after. This is the cheapest thing on the site that makes
+  # reading feel like it is going somewhere.
+  page-navigation: true
   favicon: static/bsa-favicon.png
-  title: "Producing Quality Analysis" 
+  title: "Producing Quality Analysis"
+
+  # Search is good to have and works very well. But it introduces an
+  # accessibility issue no matter how it is configured. Overlay gives empty
+  # button, while textbox gives empty label. Disabled for now until a solution
+  # is found. Every page is in the sidebar, the Guidance menu names the spine, and
+  # how to use this playbook carries a table of every page, so there is more than
+  # one way to find a page without it. WCAG 2.4.5 Multiple Ways.
+  search: false
+
   navbar:
     title: false
     logo: "static/logo-nhs.svg"
-    logo-alt: "NHS logo"
+    # The alternative text names where the link goes, not what the image shows.
+    # WCAG 2.4.4 Link Purpose.
+    logo-alt: "NHS Business Services Authority"
+    logo-href: "https://www.nhsbsa.nhs.uk/"
     pinned: true
+    # The navbar collapses to a menu button on a narrow screen. Holding every item inline
+    # instead pushes the right-hand links past the edge below about 500px, which is a
+    # horizontal scroll at 320px and fails WCAG 2.2 1.4.10 Reflow at AA.
+    collapse: true
     background: "#005EB8"
     left:
       - href: index.qmd
         text: Home
+      # A plain search page rather than the overlay. Quarto's own search is built on a combobox
+      # that ships without an accessible name on its button, without a required ARIA attribute
+      # when it opens, and with aria-owns pointing at element ids that do not exist: five
+      # failures of WCAG 4.1.2 measured with axe, two of them critical. A page with a form, a
+      # label and a list of links has none of them, and it has a URL a reader can send to
+      # somebody else.
+      - href: search.qmd
+        text: Search
+      # The sidebar is the route through the playbook. This menu used to repeat every section
+      # in number order on every page, which gave a reader two different orderings of the same
+      # thing and was the duplication NHSBSA raised. It now names the five phases, the four roles
+      # and the toolkit, which is the spine and nothing more. WCAG 2.4.5 Multiple Ways is still
+      # met: the sidebar, the search page and this menu are three routes to every page.
       - text: "Guidance"
         menu:
-          - href: guidance/01-principles/index.qmd
-          - href: guidance/02-analytical-cycle/index.qmd
-          - href: guidance/03-responsibilities/index.qmd
-          
+          - href: guidance/00-how-to-use/index.qmd
+            text: "How to use this playbook"
+          - href: guidance/01-engagement-and-scoping/index.qmd
+            text: "Phase 1. Engagement and scoping"
+          - href: guidance/02-design/index.qmd
+            text: "Phase 2. Design"
+          - href: guidance/03-analysis/index.qmd
+            text: "Phase 3. Analysis"
+          - href: guidance/04-delivery-and-sign-off/index.qmd
+            text: "Phase 4. Delivery and sign-off"
+          - href: guidance/05-review/index.qmd
+            text: "Phase 5. Review"
+          - href: guidance/06-roles/index.qmd
+            text: "Roles and responsibilities"
+          - href: guidance/07-deciding-your-assurance-level/index.qmd
+            text: "Deciding your assurance level"
+          - href: guidance/08-business-critical/index.qmd
+            text: "Business Critical analysis"
+          - href: guidance/09-resources/r2-templates-and-documents.qmd
+            text: "NHSBSA templates and documents"
+          - href: guidance/09-resources/r3-who-to-ask.qmd
+            text: "Who to ask"
+          - href: guidance/09-resources/r1-glossary.qmd
+            text: "Glossary"
     right:
       - href: about.qmd
         text: "{{< iconify mdi:information-outline size=xl >}} About"
+      - href: accessibility.qmd
+        text: "{{< iconify mdi:eye-outline size=xl >}} Accessibility"
       - href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
         text: "{{< iconify mdi:house-outline size=xl >}} NHSBSA Data Science Home Page"
       - href: https://github.com/nhsbsa-data-analytics
-        text: "{{< iconify mdi:github size=xl >}} GitHub"
-      - href: https://twitter.com/nhsbsa
-        text: "{{< iconify mdi:twitter size=xl >}} X (formerly Twitter)"
+        text: "{{< iconify mdi:github size=xl >}} NHSBSA Data Analytics on GitHub"
+
+  # The help route sits in the same place on every page. WCAG 3.2.6 Consistent
+  # Help is Level A and new in 2.2: where a help mechanism is offered, it has to
+  # appear in the same position relative to the rest of the page wherever it
+  # appears. The Guidance menu also lists who to ask, but its position there
+  # moves whenever the menu changes, so the footer is what satisfies the
+  # criterion. The glossary is third because a reader who cannot find a word
+  # needs it from wherever they are.
+  # Matched to the sibling NHSBSA playbooks, which carry the same five elements. The Analytical
+  # Code Assurance Playbook is the closest: accessibility, contact, repository, the Open
+  # Government Licence with its crown logo, and Crown Copyright.
+  #
+  # CHANGED from theirs in one place. Their licence logo is an <img> with no alt attribute, so a
+  # screen reader announces the file name. That is WCAG 2.2 1.1.1 Non-text Content at Level A.
+  # Here the image is marked decorative with an empty alt, because the sentence beside it already
+  # names the licence, and announcing it twice is worse than not at all. Their focusable="false"
+  # is an SVG attribute that does nothing on an <img> and is not carried over.
+  page-footer:
+    left:
+      - text: "Getting help"
+        href: guidance/09-resources/r3-who-to-ask.qmd
+      - text: "Accessibility"
+        href: accessibility.qmd
+      - text: "Glossary"
+        href: guidance/09-resources/r1-glossary.qmd
+      - text: "Contact"
+        href: "mailto:analyticalassurance@nhsbsa.nhs.uk"
+      - text: "This playbook on GitHub"
+        href: "https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook"
+    center: |
+      <img src="/static/ogl3-logo.svg" alt="" height="17" width="41">&nbsp;
+      All content is available under the
+      <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>,
+      except where otherwise stated.
+    right:
+      - text: "&copy; Crown Copyright"
+    # CHANGED: the sidebar is banded rather than a flat list in number order.
+  #
+  # A flat list is good for finding a section whose name you already know and useless for the
+  # reader who arrives with a job rather than a topic. It also contradicts the landing page,
+  # which says the path is section 5 then section 6 and then gives those two no more prominence
+  # than section 10. The bands say what each group is for, so a reader can see at a glance which
+  # sections this piece of work needs and which it does not.
+  #
+    # Cross-references are links rather than section numbers, so the numbering here is for
+  # ordering and for the clause-by-clause mapping in appendix A6. Banding is a presentation
+  # change over a spine that stays put, and it leaves room for another section without
+  # renumbering anything.
+  #
+  # The appendices and the Resources pages are listed a page at a time rather than as two long
+  # pages. Each was one page of several thousand words, which a reader had to scroll to find
+  # anything in; the content is unchanged and each topic now has its own page and its own URL.
   sidebar:
     style: "docked"
+    search: false
+    # One, so the bands arrive closed and a reader meets a handful of labels rather than every
+    # link at once, opening the one they want. Quarto opens the band holding the current page
+    # on its own, so a reader always sees where they are.
+    #
+    # This depends on sidebar-collapse.html, in include-after-body. Quarto's own band toggle is
+    # an anchor with no href, which no keyboard can reach, so raising this number without that
+    # file takes every banded page out of reach and fails WCAG 2.1.1 at Level A.
     collapse-level: 1
     contents:
       - index.qmd
-      - guidance/01-principles/index.qmd
-      - section: "Analytical Cycle"
-        contents:        
-          - guidance/02-analytical-cycle/index.qmd
-          - guidance/02-analytical-cycle/pages/03-customer-engagement.qmd
-          - guidance/02-analytical-cycle/pages/04-analysis-design.qmd
-          - guidance/02-analytical-cycle/pages/05-conducting-the-analysis.qmd
-          - guidance/02-analytical-cycle/pages/06-delivery-and-approval.qmd
-          - guidance/02-analytical-cycle/pages/07-approval-and-distribution.qmd
-          - guidance/02-analytical-cycle/pages/08-review.qmd        
-      - section: "Responsibilities"
-        contents:            
-          - guidance/03-responsibilities/pages/09-commissioner-responsibilities.qmd
-          - guidance/03-responsibilities/pages/10-analyst-responsibilities.qmd
-          - guidance/03-responsibilities/pages/11-critical-friend.qmd
-      
+      # Quarto draws a band toggle as an <a> with no href, so a band named exactly as a page
+      # inside it gives a reader listing the links two controls with one name going to
+      # different places. That is 2.4.9 at AAA, and checks/accessibility.py catches it. No
+      # page is titled "The analytical lifecycle", "Finding your way around" or "Roles and
+      # responsibilities", so no band collides with the pages it holds.
+      #
+      # The lifecycle band opens on a picture of the whole cycle and then holds the five phases
+      # in lifecycle order, each labelled with the phase it belongs to, and nothing sits above it
+      # but the two pages that route a reader in. The diagram page is the band's front page, so
+      # its directory carries no number: it is not a sixth section, and numbering it would say it
+      # was.
+      # NHSBSA's usability review of 6 October asked for exactly this: the analytical lifecycle
+      # re-established as the primary navigation, with the supporting guidance behind it. It had
+      # been the seventh item in this list, below five pages that are themselves lifecycle
+      # activities. The spine sat under the things it was supposed to organise.
+      #
+      # Five phases and four roles, which is the shape NHSBSA asked for and the shape the
+      # playbook is now organised on. The bands are the route: how to find your way in, where you
+      # are in the work, who you are on this piece of work, the things you look up while doing
+      # it, and the resources behind all of it. Explanatory material lives in Resources rather
+      # than in the route, so a reader going through a phase meets what to do and not why it is
+      # done.
+      - section: "Finding your way around"
+        contents:
+          - guidance/00-how-to-use/index.qmd
+          - guidance/00-how-to-use/journeys.qmd
+      - section: "The analytical lifecycle"
+        contents:
+          - guidance/analytical-cycle/index.qmd
+          - guidance/01-engagement-and-scoping/index.qmd
+          - guidance/02-design/index.qmd
+          - guidance/03-analysis/index.qmd
+          - guidance/04-delivery-and-sign-off/index.qmd
+          - guidance/05-review/index.qmd
+      # The band says what a reader will find; the page inside it is named for what it is. They
+      # must not share a name: Quarto draws a band label as an anchor with no href, so the label
+      # counts as a link going nowhere, and a band and a link reading the same words but going to
+      # different places is 2.4.9 Link Purpose. "The four roles" is now the band and nothing else,
+      # so every cross-reference to the overview says "roles and responsibilities" instead, which
+      # is also what the page is called.
+      - section: "The four roles"
+        contents:
+          - guidance/06-roles/index.qmd
+          - guidance/06-roles/analyst.qmd
+          - guidance/06-roles/critical-friend.qmd
+          - guidance/06-roles/commissioner.qmd
+          - guidance/06-roles/analysis-senior-responsible-officer.qmd
+      - section: "The toolkit"
+        contents:
+          - guidance/07-deciding-your-assurance-level/index.qmd
+          - guidance/07-deciding-your-assurance-level/after-you-have-your-level.qmd
+          - guidance/08-business-critical/index.qmd
+      # Resources is a band, not a page. It was a page whose only content was links to the
+      # pages below it, so a reader clicked twice to reach anything and the sidebar carried
+      # the same word at two levels. Appendices held the other half of the same kind of
+      # material and is merged in here, numbered R1 to R14 in the order a reader wants them:
+      # definitions, then what you need while working, then the reference behind it, then the
+      # compliance mappings. No page is named "Resources", so the band does not collide with
+      # what it holds under WCAG 2.4.9.
+      - section: "Resources"
+        contents:
+          - guidance/09-resources/r1-glossary.qmd
+          - guidance/09-resources/r2-templates-and-documents.qmd
+          - guidance/09-resources/r3-who-to-ask.qmd
+          - guidance/09-resources/r4-standards-and-guidance.qmd
+          - guidance/09-resources/r5-quality-assurance-statement.qmd
+          - guidance/09-resources/r6-when-something-is-wrong.qmd
+          - guidance/09-resources/r7-the-six-principles.qmd
+          - guidance/09-resources/r8-the-standards-landscape.qmd
+          - guidance/09-resources/r9-what-each-standard-asks-for.qmd
+          - guidance/09-resources/r10-uncertainty.qmd
+          - guidance/09-resources/r11-ethics-and-personal-data.qmd
+          - guidance/09-resources/r12-algorithmic-transparency-and-ai.qmd
+          - guidance/09-resources/r13-putting-figures-in-the-public-domain.qmd
+          - guidance/09-resources/r14-meeting-the-standards.qmd
 
 format:
   html:
-   grid: 
-    sidebar-width: 25%
-   pagetitle: "Producing Quality Analysis"
-   lang: en-GB
-   theme: cosmo
-   css: styles.css
-   mainfont: "Arial"
-   fontsize: 130%
-   page-layout: full
-   toc: true
-    
+    grid:
+      sidebar-width: 25%
+      # The reading measure for prose is set in styles.css at 80 characters, for WCAG
+      # 1.4.8. This is the measure for everything that is not prose: tables, diagrams
+      # and code. Quarto's default capped the content column at 938px, so a five-column
+      # route table divided that between its columns and the one a reader reads wrapped
+      # at four words a line, while 274px sat unused to the right of the contents list
+      # on a 1920 screen. 1400px saturates 1920 and leaves an ultrawide screen a little
+      # more; below about 1700 the grid is already filling the space and this changes
+      # nothing. Paragraphs are unaffected at every width, because their own cap is
+      # narrower than any of these.
+      body-width: 1400px
+    # There is deliberately no project-level pagetitle. Setting one gives every
+    # page in the site the same browser title, which fails WCAG 2.4.2 Page
+    # Titled at Level A and makes a tab strip, a bookmark list and a browser
+    # history unusable. Without it, Quarto builds each title from the page's own
+    # front matter with the site title appended.
+    lang: en-GB
+    theme: cosmo
+    css: styles.css
+    mainfont: "Arial"
+    fontsize: 130%
+    page-layout: full
+    toc: true
+    # A skip link, so a keyboard user can get past the sidebar that repeats on
+    # every page. WCAG 2.4.1 Bypass Blocks.
+    include-before-body: skip-link.html
+    # post-load makes aria-hidden icon tags unfocusable, which Quarto does not
+    # do. callout-remove strips aria-expanded from callout headers that are not
+    # collapsible. WCAG 2.4.3 Focus Order and 4.1.2 Name, Role, Value.
+    include-after-body:
+      - post-load-accessibility-fixes.html
+      - callout-remove-aria-expanded.html
+      - scrollable-tables.html
+      - sticky-title.html
+      - sidebar-collapse.html
+
+# Citations render as numbered sources: a superscript in the sentence, and the list at the
+# foot of the page. "Sources" rather than Pandoc's own "Footnotes", because every one of them
+# is a reference to a standard rather than an aside.
+language:
+  section-title-footnotes: "Sources"
+
+# dedupe-sources merges sources with identical text, so a clause cited three times on a page
+# is one entry in that page's list and carries the same number each time. Pandoc would
+# otherwise list it three times.
+filters:
+  - _filters/dedupe-sources.lua
+
 execute:
   freeze: auto

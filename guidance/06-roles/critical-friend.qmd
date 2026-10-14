@@ -1,0 +1,66 @@
+---
+title: "The critical friend"
+description: "You give independent advice on one piece of work. What you are confirming, how far apart you have to be, and what happens to what you find."
+---
+
+{{< include /guidance/_partials/role-critical-friend.qmd >}}
+
+## What you are confirming
+
+Three things, and they are narrower than a general opinion of the work.
+
+- That **appropriate and sufficient quality assurance has taken place** for the level the work is at.
+- That the **use of the outputs is appropriate**, which means the results can carry the decision
+  they are about to be used for.
+- That the **assumptions and risks are understood**, by you and by the people relying on the work.
+
+You are giving advice. The commissioner owns the decision, and the analyst owns the analysis.
+
+## Your part in each phase
+
+| Phase | What is yours |
+|---|---|
+| [Phase 1. Engagement and scoping](../01-engagement-and-scoping/index.qmd) | Understand the brief |
+| [Phase 2. Design](../02-design/index.qmd) | Review the plan, confirm you can do the assurance the level asks for, and put your own time in the schedule |
+| [Phase 3. Analysis](../03-analysis/index.qmd) | Run the checks the level requires, and report back |
+| [Phase 4. Delivery and sign-off](../04-delivery-and-sign-off/index.qmd) | State what you assured |
+| [Phase 5. Review](../05-review/index.qmd) | What you found is what the next piece of work avoids |
+
+## How independent you have to be
+
+**The assurer and the analyst shall be independent.** What varies is how far apart.
+
+| Level | The reviewer is |
+|---|---|
+| Level 1 Standard | A colleague, within your team |
+| Level 2 Enhanced | Someone who had no hand in producing the work |
+| Level 3 Comprehensive | An assurer from outside the delivering team |
+| Level 4 BCA | A Lead Assurer from outside the delivering team, with external review |
+
+There is no level at which nobody independent looks at the work, and none at which the analyst is
+excused their own checks. Theirs are the first line, not the last one.
+
+Beyond any one assignment, assurance sits on three defined levels: operational management, senior
+management independent of it, and independent bodies. Analysis should be peer reviewed by
+independent individuals or groups.
+
+{{< include /guidance/_partials/diagram-independence-distance.qmd >}}
+
+## Which checks the level asks of you
+
+What you run is set by the assurance level, not by how much time you have.
+[The checks, by level](../07-deciding-your-assurance-level/index.qmd#the-checks-by-level) lists
+them. Where there is not enough time for the assurance the level requires, say so plainly rather
+than absorb it. [When you disagree](index.qmd#when-you-disagree) sets out where that goes.
+
+## Your journey through the playbook
+
+{{< include /guidance/_partials/table-journey-critical-friend.qmd >}}
+
+## Where to go next
+
+- [Roles and responsibilities](index.qmd), for the other three roles and where a disagreement goes
+- [The analyst](analyst.qmd), for what the person whose work you are reviewing was asked to do
+- [The quality assurance statement](../09-resources/r5-quality-assurance-statement.qmd), for what
+  your assurance has to end up saying
+- [Who to ask](../09-resources/r3-who-to-ask.qmd), if you need somebody and do not know who

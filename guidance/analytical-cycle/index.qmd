@@ -1,0 +1,88 @@
+---
+title: "Analytical Cycle Diagram"
+description: "The whole lifecycle in one picture, and a way into each of the five phases."
+toc: false
+---
+
+Analysis at NHSBSA runs through five phases, and then round again. The picture below is the whole
+of it on one page. Underneath it, each phase has a button that goes straight to what that phase
+asks of you.
+
+## The whole cycle in one picture
+
+{{< include /guidance/_partials/diagram-lifecycle.qmd >}}
+
+## Go to a phase
+
+```{=html}
+<ul class="pb-phase-cards">
+  <li>
+    <a href="../../guidance/01-engagement-and-scoping/index.html">
+      <img src="../../static/photos/phase-1-engagement-and-scoping.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 1</span>
+        <span class="pb-phase-name">Engagement and scoping</span>
+        <p>Agree the question, the decision it informs, and the assurance level.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/02-design/index.html">
+      <img src="../../static/photos/phase-2-design.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 2</span>
+        <span class="pb-phase-name">Design</span>
+        <p>Choose the method, and plan the assurance the level asks for.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/03-analysis/index.html">
+      <img src="../../static/photos/phase-3-analysis.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 3</span>
+        <span class="pb-phase-name">Analysis</span>
+        <p>Do the work, check it, and have it reviewed.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/04-delivery-and-sign-off/index.html">
+      <img src="../../static/photos/phase-4-delivery-and-sign-off.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 4</span>
+        <span class="pb-phase-name">Delivery and sign-off</span>
+        <p>Hand it over with its caveats, and get it approved.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/05-review/index.html">
+      <img src="../../static/photos/phase-5-review.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 5</span>
+        <span class="pb-phase-name">Review</span>
+        <p>Ask whether it worked, and whether it is still right.</p>
+      </div>
+    </a>
+  </li>
+</ul>
+```
+
+## What runs through all five
+
+Two things are not phases, and both of them run from the first to the last.
+
+**Quality assurance.** It is planned in Phase 1, designed in Phase 2, done in Phase 3, stated in
+Phase 4 and tested in Phase 5. [Deciding your assurance
+level](../07-deciding-your-assurance-level/index.qmd) sets out how much of it your work needs.
+
+**Customer and stakeholder engagement.** The commissioner states the decision in Phase 1, approves
+the design in Phase 2, stays available in Phase 3, confirms the work meets their need in Phase 4,
+and asks in Phase 5 whether it informed the decision. [Roles and
+responsibilities](../06-roles/index.qmd) sets out who else has a part, and leads to a page
+for each of them.
+
+[**Photographs.** Phases 1 and 4 by Vitaly Gariev, Phase 2 by ThisIsEngineering, Phases 3
+and 5 by RDNE Stock project. Used under the Unsplash and Pexels licences, neither of which
+requires attribution. Cropped, resized and in one case retouched for this page.]{.pb-photo-credit}

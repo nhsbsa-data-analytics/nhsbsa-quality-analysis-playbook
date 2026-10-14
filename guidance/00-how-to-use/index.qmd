@@ -1,0 +1,118 @@
+---
+title: "How to use this playbook"
+description: "Who it is for, how it is organised, and how to find things quickly."
+---
+
+This playbook sets out how analysis is planned, produced, assured and communicated at NHSBSA.
+
+## If you are in a hurry
+
+Most people arrive with one question: **how much assurance does this piece of work need, and what do
+I actually have to do?**
+
+1. [Agree the question](../01-engagement-and-scoping/index.qmd) with
+   your commissioner. The level is scored from it, so it comes first.
+2. [Decide your assurance level](../07-deciding-your-assurance-level/index.qmd). Five minutes.
+3. [Find what it requires](../07-deciding-your-assurance-level/index.qmd). Read the column for your level.
+
+That is the whole path. Everything else here exists for when you need it.
+
+If you would rather see the whole route for your role before you start,
+[journeys through this playbook](journeys.qmd) says where each one is, for the analyst, the commissioner, the
+critical friend and the Analysis Senior Responsible Officer. It also walks one Level 4 piece of
+work through all four roles, so the routes can be read against one thing rather than in the
+abstract.
+
+## Who it is for
+
+- **Commissioners** requesting analysis, including non-analysts and third-party suppliers
+- **Analysts** producing it, and the **critical friends** assuring it
+- **Analysis Senior Responsible Officers**, who approve one Business Critical output as fit for its
+  intended use
+
+## What it covers
+
+**All of it.** NHSBSA takes an analytical output in the broadest sense: an output that results from
+the collection, manipulation and interpretation of data to answer specific questions. That runs from a dataset created in answer to a Freedom of Information request or a Parliamentary
+Question, through a sponsor's request for data to inform a policy decision. It takes in an official
+statistics report and a dashboard for commissioners, up to a complex forecasting model informing
+budgets. Used internally,
+supplied to sponsors, or published externally: all of it is in scope.
+
+Those are examples rather than a checklist, and there is no central record of everything NHSBSA
+produces, so the test is the definition rather than the list. If you collected, manipulated or
+interpreted data to answer a question, and somebody is going to act on the answer, this playbook
+applies to it.
+
+{{< include /guidance/_partials/diagram-does-it-apply.qmd >}}
+
+What changes between them is how much assurance each one needs, and that is
+[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd). NHSBSA's own worked examples are there,
+from exploratory analysis at Level 1 to a funding allocation formula at Level 4, along with the
+eight types an analytical model can be.
+
+## Find your kind of work
+
+The playbook is organised by what you do, in the order you do it, and by who you are. Most people
+arrive knowing neither of those and holding a piece of work. This is that way in.
+
+**Where NHSBSA has placed each one is an example, not a ruling.** The placements come from the
+decision sheet's own annex of worked examples, which is marked as still to be developed. Score your
+own work in [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) rather than matching it to
+the nearest row here.
+
+| The work | Where NHSBSA has placed it | What else applies to it |
+|------------------------------|------------------|----------------------------------------------------|
+| Exploratory analysis, an internal data investigation | Level 1 Standard | Level 1 is not "no assurance". It is separation within your team, and [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) says what that means |
+| A monthly operational dashboard, team workforce planning | Level 2 Enhanced | It runs again, so [Phase 5, review](../05-review/index.qmd) is as relevant as [the checks, by level](/guidance/07-deciding-your-assurance-level/index.qmd#the-checks-by-level): what a recurring output is reviewed against, and when |
+| An official statistics publication, such as Prescription Cost Analysis or Dental Statistics | Level 3 Comprehensive | The Code of Practice, in [ethics and transparency](../09-resources/r11-ethics-and-personal-data.qmd). For advice on official statistics, the Head of Profession for Statistics, [who to ask](../09-resources/r3-who-to-ask.qmd) |
+| An FOI response or a Parliamentary Question | Level 3 Comprehensive | Visibility is scored under public visibility and reach rather than added on top. [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) draws the route, including what to do when there is not time |
+| A Board report or a ministerial briefing | Level 3 Comprehensive | High visibility raises how much assurance the work needs. On its own it does not make the analysis Business Critical |
+| A funding allocation formula, an eligibility model, a payment methodology, a major policy appraisal | Level 4 Business Critical | [Business Critical analysis](../08-business-critical/index.qmd) is the whole route in nine steps. The register entry and the named Analysis Senior Responsible Officer are settled at scoping, not at delivery |
+| A dataset supplied to a sponsor or a partner | Score it like any other analysis | Supplied externally rather than published is still in scope, as the paragraph above says |
+| A forecasting model informing budgets | Score it, then place it among the eight model types | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) for both, and [uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd), because what the model does not know is most of what the reader needs |
+| An algorithmic or machine learning tool that affects decisions about people | Score it, and separately check transparency scope | Two decisions, settled by different things, both at scoping. [Ethics and transparency](../09-resources/r11-ethics-and-personal-data.qmd) carries the test |
+| An AI assistant helping you write code, summarise or draft | Nothing changes about who is accountable | Different from the row above, which is analysis **of** an algorithmic tool. [Ethics and transparency](../09-resources/r11-ethics-and-personal-data.qmd) has the five rules, and they are short |
+| Analysis you are reusing for a new purpose, or a one-off that has become a monthly production run | The original's assurance may no longer hold | [Phase 5, review](../05-review/index.qmd): four things to check before the reuse.<br><br>A one-off that becomes a production run is a different piece of work, and reuse is the usual reason to change a level |
+| A published figure that has turned out to be wrong | Not a new piece of analysis | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd): first whether it is a revision or a correction, then the grade by consequence |
+| Work where there is not enough time for the assurance the level asks | The level does not change | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd): narrow the question, or state plainly what assurance was not done |
+
+## How it is organised
+
+**Five phases and four roles.** The five phases are the shape of the work, and the sidebar runs
+them in the order the work happens. The four roles run across all five phases, and each role has a
+page saying what is theirs in each. Everything you look up while working sits in the toolkit, and
+the principles, the standards and the definitions sit in Resources.
+
+{{< include /guidance/_partials/diagram-lifecycle.qmd >}}
+
+{{< include /guidance/_partials/diagram-playbook-map.qmd >}}
+
+{{< include /guidance/_partials/section-contents.qmd >}}
+
+Business Critical analysis gathers rather than adds. Being Business Critical changes what happens
+at seven points across the five phases, and that page puts them in the order you meet them.
+
+## If you are looking for one particular thing
+
+Some subjects sit inside the section that uses them rather than having a section of their own,
+because that is where you need them.
+
+| Looking for | Where it is |
+|---|---|
+| **RIGOUR**, the six principles of quality analysis | [The standards landscape](../09-resources/r8-the-standards-landscape.qmd), beside the AQuA Book clause it comes from |
+| **What a 1, 2, 3 or 4 means** on each scoring dimension | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), steps 1 and 2 |
+| **The eight types of analytical model** | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), after the worked examples |
+| **Reproducible and automated**, and why they are not the same | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), phase 3 |
+| **Who signs off** at each assurance level | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), phase 4 |
+| **The quality assurance statement**, with a worked example | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| **What to do when a published figure turns out to be wrong** | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| **The Business Critical register** | [Business Critical analysis](../08-business-critical/index.qmd), step 4 |
+| **What a word means** | [The glossary](../09-resources/r1-glossary.qmd) |
+| **Which GovS 010 clause a section answers to** | [The standards mapping](../09-resources/r14-meeting-the-standards.qmd) |
+
+## Giving feedback
+
+This playbook is maintained and it is meant to change. If something here is wrong, unclear, or does
+not match how work actually happens, say so. [Who to ask](../09-resources/r3-who-to-ask.qmd) has the
+route.

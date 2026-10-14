@@ -1,0 +1,4 @@
+**Commissioner.** The person requesting the analysis. May be an internal team, an external partner,
+or a sponsor such as the Department of Health and Social Care or NHS England. Owns the decision the
+analysis supports, and is accountable to a named person for commissioning the work and for the use
+and dissemination of its results.

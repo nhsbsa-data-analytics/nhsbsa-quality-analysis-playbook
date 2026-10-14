@@ -1,0 +1,38 @@
+[![](/static/diagrams/07-disagreement-routes.png){fig-alt="Where a disagreement goes. Five disagreements in filled boxes, each naming who it starts with and where it goes if it is not settled. The assurance level has no first step and goes to the Analytical Quality and Assurance Lead. Whether it is Business Critical, whether there is enough time for the assurance, and an ethical concern each start with the commissioner and then go to the Analytical Quality and Assurance Lead. Whether it is fit for purpose starts with the critical friend and then the Head of Profession. An ethical concern about an official statistic goes to the Head of Profession instead. A panel adds that deadline pressure is not resolved by lowering the assurance level. Every route is written out below the picture."}](/static/diagrams/07-disagreement-routes.svg){.diagram-open}
+
+[Select the diagram to open it full size. The full-size copy scales to any zoom without blurring, and its labels can be searched and copied.]{.diagram-hint}
+
+<details>
+<summary>Text description of this diagram</summary>
+
+**Disagreement is a healthy sign, and the routes are short.** A design and plan should cover
+escalation routes that let analysts and stakeholders raise concerns, so having them written down is
+the standard's expectation rather than this playbook's preference. Which routes they are is NHSBSA's
+to settle, and what follows is proposed.
+
+**Five things people disagree about, and where each one goes.**
+
+**The assurance level** has no first step. It goes straight to the **Analytical Quality and Assurance
+Lead**, because the level is the one decision that is neither the commissioner's nor the analyst's
+alone.
+
+**Whether the analysis is Business Critical** starts with the commissioner, who decides. Unresolved,
+it goes to the Analytical Quality and Assurance Lead.
+
+**Whether there is enough time for the assurance required** starts with the commissioner, because
+ensuring there is enough time and resource is a commissioner responsibility rather than something the
+analyst absorbs quietly. Unresolved, the Analytical Quality and Assurance Lead.
+
+**Whether the analysis is fit for purpose** starts with the critical friend, who advises. Unresolved,
+it goes to the **Head of Profession**.
+
+**An ethical concern** starts with the commissioner, because they own the
+decision the analysis informs. Unresolved, it goes to the Analytical Quality and Assurance Lead, or
+to the Head of Profession where the output is an official statistic.
+
+**Four of the five land on the same person**, the Analytical Quality and Assurance Lead.
+
+**Deadline pressure is not on this list**, because lowering the assurance level does not resolve it.
+The options are to narrow the question, or to state what assurance was not done.
+
+</details>

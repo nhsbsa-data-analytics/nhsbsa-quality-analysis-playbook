@@ -1,0 +1,78 @@
+<script>
+// The sidebar bands open and close, so a reader meets five labels rather than twenty-one links
+// and opens the one they want. Quarto builds the band toggle as an <a> with no href, no
+// tabindex, and role="navigation" on both the label and the chevron beside it. An anchor with
+// no href is not focusable, so as Quarto ships it a keyboard user cannot open a band at all:
+// measured on 25 September 2026, one hundred and twenty Tab presses reached none of the four.
+// With the bands open that is invisible, because every page link is already in the tab order.
+// Collapsing them turns it into a WCAG 2.1.1 Keyboard failure at Level A, and takes seventeen
+// of the twenty-one pages out of reach.
+//
+// So the toggles are rebuilt here as the ARIA disclosure pattern: a real button role, in the
+// tab order, operated by Enter and Space, saying which band it opens and whether it is open.
+//
+// The chevron is removed from the accessibility tree rather than named. It toggles the same
+// band as the label beside it, so leaving it in gives a screen reader user two links per band
+// where one will do, and Quarto labels all four of them "Toggle section", which is the thing
+// WCAG 2.4.9 asks a link not to do. It stays on screen, because it is the affordance that says
+// the band opens; it just stops being a second announced control.
+(function () {
+  function ready(fn) {
+    if (document.readyState !== 'loading') { fn(); } else {
+      document.addEventListener('DOMContentLoaded', fn);
+    }
+  }
+
+  ready(function () {
+    var sections = document.querySelectorAll(
+      '#quarto-sidebar .sidebar-item-section > .sidebar-item-container, ' +
+      '#quarto-margin-sidebar .sidebar-item-section > .sidebar-item-container');
+
+    Array.prototype.forEach.call(sections, function (container) {
+      var label = container.querySelector('a.sidebar-item-text');
+      var chevron = container.querySelector('a.sidebar-item-toggle');
+      if (!label) { return; }
+
+      var name = (label.textContent || '').trim();
+
+      // role="navigation" is a landmark. On a control that opens and closes something it tells
+      // a screen reader the wrong thing, and it is what Quarto puts here.
+      label.setAttribute('role', 'button');
+      label.setAttribute('tabindex', '0');
+      if (name) { label.setAttribute('aria-label', name + ', open or close this group of pages'); }
+
+      // Enter and Space, which is what a button answers to. Bootstrap is already listening for
+      // the click, so the handler raises one rather than reimplementing the collapse.
+      label.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ' || event.key === 'Spacebar') {
+          event.preventDefault();
+          label.click();
+        }
+      });
+
+      if (chevron) {
+        chevron.setAttribute('aria-hidden', 'true');
+        chevron.setAttribute('tabindex', '-1');
+        chevron.removeAttribute('role');
+        chevron.removeAttribute('aria-label');
+        chevron.removeAttribute('aria-expanded');
+      }
+    });
+
+    // Quarto puts the page title inside the control that opens the navigation on a phone, and
+    // names that control "Toggle sidebar navigation". So the control reads "About" on screen and
+    // is announced as something else entirely, which is what WCAG 2.5.3 Label in Name asks a
+    // control not to do: somebody driving the page by voice who says "click About" gets nothing,
+    // because no control answers to that name. The name is rebuilt to start with the words that
+    // are actually printed on it.
+    var heading = document.querySelector('.quarto-secondary-nav-title');
+    var opener = heading && heading.closest('a[aria-label]');
+    if (opener) {
+      var shown = (heading.textContent || '').trim();
+      if (shown) {
+        opener.setAttribute('aria-label', shown + ', open or close the navigation');
+      }
+    }
+  });
+})();
+</script>

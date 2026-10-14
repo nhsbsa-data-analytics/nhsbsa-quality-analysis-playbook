@@ -1,0 +1,4 @@
+**Analysis Senior Responsible Officer.** Business Critical analysis and models only. A named person
+senior enough to take responsibility for the risks across the lifecycle, who confirms the work is
+suitable for its intended use before it is used. May be the
+commissioner.

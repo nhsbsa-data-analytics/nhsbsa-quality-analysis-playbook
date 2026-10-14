@@ -1,0 +1,68 @@
+---
+title: "Phase 4. Delivery and sign-off"
+description: "Hand it over with its caveats attached, and get it approved by whoever the level says."
+---
+
+You hand the analysis over so it is properly understood before anything is approved, and the
+caveats travel with it.
+
+## What you do
+
+1. **Deliver draft results to your commissioner first**, so they are understood before sign-off.
+2. **Write the quality assurance statement.** It covers the assumptions, the uncertainty, the
+   limitations, and what the results can and cannot be used for, with links to references, code
+   and data. A short one is required at every level.
+3. **Put material caveats in the same place as the figure they qualify**, not in an annex.
+4. **Communicate findings, limitations and uncertainty clearly, objectively and
+   impartially.** Where you can express uncertainty quantitatively, do
+   so, and avoid unwarranted confidence in any one option.
+5. **Get it signed off.** Sign-off approves the analytical results, and
+   who signs depends on the level. See
+   [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).
+
+## Two things to say about who the numbers cover
+
+- **Who is not in the data.** If a group is under-represented or missing, say so beside the
+  result, not only in the method note. A reader who does not know cannot allow for it.
+- **How this could be misread.** Name the wrong conclusion somebody could reasonably draw, and
+  say plainly what the analysis does not support.
+
+## The quality assurance statement by level
+
+| Level | Statement |
+|---|---|
+| Level 1 Standard | **Required**, and short. State your main limitation alongside the result |
+| Level 2 Enhanced | Required |
+| Level 3 Comprehensive | Required, and **published with the output** |
+| Level 4 BCA | Required, published with the output, and covered by the QA appraisal sign-off |
+
+::: {.callout-important title="Caveats travel with the number, or they do not travel" appearance="minimal" icon=false}
+<br>
+Figures get copied into slides and papers. Annexes do not follow them.
+
+If a caveat is too long to sit alongside the number, the number is not ready to be quoted yet.
+:::
+
+## What you leave behind
+
+- The output, in a form that meets your audience's needs, including accessibility.
+- The quality assurance statement, attached to it and published with it from Level 3.
+- The sign-off, from whoever the level requires.
+- The project record, archived with the output and linked from it.
+
+## Ready for Phase 5 when
+
+- Your commissioner has confirmed it meets their need and understands its limitations.
+- The statement is attached to the output rather than filed separately.
+- The sign-off the level requires has happened.
+
+## Who does what in this phase
+
+| Role | In Phase 4 |
+|---|---|
+| **Analyst** | Write it up with the caveats in the output itself. Produce the quality assurance statement |
+| **Critical friend** | State the assurance: appropriately scoped, executed, validated, verified and documented |
+| **Commissioner** | Confirm it meets your need, apply its limitations, and approve it for release |
+| **Analysis Senior Responsible Officer** | Business Critical work only. Review the assurance evidence, then approve as fit for its intended use |
+
+[Next: Phase 5, review](../05-review/index.qmd)
