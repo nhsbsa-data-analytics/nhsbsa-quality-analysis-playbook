@@ -2,13 +2,15 @@
 
 | Always | What it is, and what it does for you |
 |---|---|
-| **GovS 010: Analysis** | The government functional standard for analysis. Five principles, three of which are substantive requirements, and [the six principles](/guidance/09-resources/r7-the-six-principles.qmd) says which. It sets the requirement |
-| **The AQuA Book** | Good practice for analytical quality assurance: RIGOUR, the four roles, the four phases and proportionate assurance. It explains how to meet GovS 010, and is the practical companion to it |
+| **GovS 010: Analysis** | The government functional standard for analysis. Five principles, and three substantive requirements that [the six quality principles](/guidance/09-resources/r7-the-six-principles.qmd) names. It sets the requirement |
+| **The AQuA Book** | Good practice for analytical quality assurance: RIGOUR, the four roles, the four stages and proportionate assurance. It explains how to meet GovS 010, and is the practical companion to it |
 
-**Then add whichever rows describe your work.** They are layers rather than alternatives, and more
+: Standards that always apply, and what each does for you
+
+**Then add whichever rows describe your work.** They are not alternatives, and more
 than one can apply at once.
 
-| Does this describe your work? | Then this applies as well | What it covers, and when it bites |
+| Does this describe your work? | Then this applies as well | What it covers, and when it applies |
 |---|---|---|
 | It is official statistics | **Code of Practice for Statistics, edition 3.0** | In full, and as a regulatory requirement. Ten standards under Trustworthiness, Quality and Value. A narrower set of outputs than everything NHSBSA publishes |
 | It involves code | **NHSBSA Analytical Code Assurance Playbook** | Version control, testing, peer review, readable and modular code, documentation, open sourcing. Whenever there is code |
@@ -18,12 +20,14 @@ than one can apply at once.
 | It is appraisal, or evaluation | **Green Book**, or **Magenta Book** | The Green Book for appraisal, covering the costs, benefits and risks of alternatives. The Magenta Book for evaluation, covering an intervention's design, implementation and outcomes |
 | You are assessing analytical risk | **Orange Book** | Risk management principles and concepts. Referenced by GovS 010 section 4.2 |
 | Data quality is a material concern | **Government Data Quality Framework** | Managing and describing data quality |
-| It uses data or AI | **Data and AI Ethics Framework** | Seven principles. Its scope was extended to AI and algorithmic technologies in December 2025, so the principles cover both. See [ethics and transparency](/guidance/09-resources/r11-ethics-and-personal-data.qmd) |
-| A tool significantly influences an operational decision with public effect, or interacts with the public directly | **Algorithmic Transparency Recording Standard** | A record is required. An analytical model supporting broad policy-making sits outside that scope, and the assurance level does not decide it. Check at scoping. See [ethics and transparency](/guidance/09-resources/r11-ethics-and-personal-data.qmd) |
-| It builds on or uses an AI system | **AI Playbook for the UK Government**, and **DSIT's Introduction to AI assurance** | Ten principles for building, buying and using AI, and how a system gets evaluated rather than just built. This playbook signposts them rather than duplicating them |
+| It uses data or AI | **Data and AI Ethics Framework** | Seven principles. Its scope was extended to AI and algorithmic technologies in December 2025, so the principles cover both. See [data ethics and personal data](/guidance/09-resources/r11-ethics-and-personal-data.qmd) |
+| A tool significantly influences an operational decision with public effect, or interacts with the public directly | **Algorithmic Transparency Recording Standard** | A record is required. An analytical model supporting broad policy-making sits outside that scope, and the assurance level does not decide it. Check at scoping. See [algorithmic transparency and AI](/guidance/09-resources/r12-algorithmic-transparency-and-ai.qmd) |
+| It builds on or uses an AI system | **AI Playbook for the UK Government**, and **Introduction to AI assurance** from the Department for Science, Innovation and Technology (DSIT) | Ten principles for building, buying and using AI, and how a system gets evaluated rather than just built. This playbook signposts them rather than duplicating them |
 | Any impact dimension scores 4 | **Business Critical**, and Level 4 BCA | [Business Critical analysis](/guidance/08-business-critical/index.qmd), in nine steps. This applies on top of everything above, and an AI system can still be Business Critical |
 
-**They are layers, not alternatives.** GovS 010 sets the requirement. The AQuA Book explains how to
+: Further standards by kind of work, and what each covers
+
+**Each one adds to the others.** GovS 010 sets the requirement. The AQuA Book explains how to
 meet it. The Code of Practice adds obligations for official statistics. The code assurance playbook
 adds obligations where there is code. The Green, Magenta and Orange Books add depth for particular
 kinds of work. The AI estate applies on top when a system rather than an analysis is what is being
@@ -35,4 +39,4 @@ fixing. [Who to ask](/guidance/09-resources/r3-who-to-ask.qmd) has the route. Yo
 Practice voluntarily to work that is not official statistics, as a deliberate decision rather than
 an accident.
 
-Every standard named here is linked from [standards and further guidance](/guidance/09-resources/r4-standards-and-guidance.qmd).
+Every standard named here is linked from [links to standards and guides](/guidance/09-resources/r4-standards-and-guidance.qmd).

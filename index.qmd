@@ -1,126 +1,78 @@
 ---
 title: "NHSBSA Producing Quality Analysis Playbook"
-description: "How analysis is planned, produced, assured and communicated at NHSBSA."
+description: "How NHSBSA plans, produces, assures and communicates analysis."
 title-block-banner: true
 toc: false
 ---
 
-How analysis is planned, produced, assured and communicated at NHSBSA. It covers every analytical
-output, whether it is published, used for an internal decision, or given to a sponsor.
+Use this playbook for every [analytical output](guidance/09-resources/r1-glossary.qmd): published, used for an internal decision or given to a sponsor. [Check that it applies](guidance/07-deciding-your-assurance-level/check-it-applies.qmd).
 
-## The short path
+## Quick start
 
-::: {.callout-important title="Most analysis needs nothing but this" appearance="minimal" icon=false}
-<br>
-**1. [Agree the question](guidance/01-engagement-and-scoping/index.qmd).**
-With your commissioner: the decision the analysis supports, the question in one sentence, what is
-out of scope, and the deadline. The level is scored from this, so it comes first.
-
-**2. [Decide your assurance level](guidance/07-deciding-your-assurance-level/index.qmd).** Score six
-impact dimensions and six likelihood dimensions with your commissioner, take the highest of each,
-and read your level off the matrix. About five minutes, still at scoping and before the design is
-settled.
-
-**3. [Do what that level requires](guidance/07-deciding-your-assurance-level/index.qmd).** Read the column for your
-level. The levels are cumulative, so yours does everything the levels below it do and adds its own.
-
-That is the whole path for most analysis. Everything below exists for when you need it.
-:::
-
-## Where you are in the work
-
-The analytical lifecycle is the shape of the work and the shape of this playbook. Five phases and a
-loop back. The analytical lifecycle band of the sidebar opens on a picture of the whole cycle and
-then runs the guidance in the order the work happens, naming the phase each page belongs to. The
-other bands hold the rest: the routes in, the four roles, the pages for a particular job, and the
-resources.
+Work through the five phases of the [analytical lifecycle](guidance/analytical-cycle/index.qmd) in order. They are written for the analyst. If you asked for the analysis, go to [the commissioner guidance](guidance/06-roles/commissioner.qmd).
 
 ```{=html}
 <ol class="pb-phases">
   <li>
     <h3><a href="guidance/01-engagement-and-scoping/index.html">Phase 1. Engagement and scoping</a></h3>
-    <p>Agree the question and the decision it supports, then score the assurance level from it.
-    Business Critical is settled here too. Most of what goes wrong later was decided here.</p>
+    <p>Agree the question with your commissioner, and <a href="guidance/07-deciding-your-assurance-level/score-the-impact.html">score the impact</a>.</p>
   </li>
   <li>
     <h3><a href="guidance/02-design/index.html">Phase 2. Design</a></h3>
-    <p>Choose the method, plan the assurance the level requires, and name your critical friend
-    before the work starts rather than after it.</p>
+    <p>Choose the method, <a href="guidance/07-deciding-your-assurance-level/score-the-likelihood.html">score the likelihood</a> to get your level, and plan the assurance it requires.</p>
   </li>
   <li>
     <h3><a href="guidance/03-analysis/index.html">Phase 3. Analysis</a></h3>
-    <p>Do the work and the checks together. Record assumptions and limitations as you meet them,
-    not from memory at the end.</p>
+    <p>Do the analysis, check it, and have your critical friend review it.</p>
   </li>
   <li>
     <h3><a href="guidance/04-delivery-and-sign-off/index.html">Phase 4. Delivery and sign-off</a></h3>
-    <p>Write the quality assurance statement, carry the caveats with the numbers, and get the
-    approval the level requires.</p>
+    <p>Deliver it with its caveats and quality assurance statement, and get it signed off.</p>
   </li>
   <li>
     <h3><a href="guidance/05-review/index.html">Phase 5. Review</a></h3>
-    <p>Ask whether the analysis worked and whether it is still right. What this phase finds is
-    what Phase 1 of the next piece of work starts from.</p>
+    <p>Ask whether it informed the decision, and whether it is still right.</p>
   </li>
 </ol>
 ```
 
-**Producing analysis and assuring it are different jobs.** The phases above are what the analyst
-does. The assurance that runs alongside them is
-[deciding your assurance level](guidance/07-deciding-your-assurance-level/index.qmd), and who may do it is
-[roles and responsibilities](guidance/06-roles/index.qmd): the assurer and the analyst shall be
-independent, and how far apart follows the level. You hold one of those roles on one piece of work.
+If an impact dimension scored 4, go to [Business Critical analysis](guidance/08-business-critical/index.qmd).
 
-## Find your role
+## Guidance by role
 
 ```{=html}
 <ul class="pb-cards">
   <li>
-    <h3><a href="guidance/06-roles/analyst.html">Analyst: plan it, do it, document it</a></h3>
-    <p>You own the method, your own checks and the write-up. Nine stops, from the question to the
-    lesson that reaches the next piece of work.</p>
+    <h3><a href="guidance/06-roles/analyst.html">Analyst</a></h3>
+    <p>Plan the work, do it, check it and write it up.</p>
   </li>
   <li>
-    <h3><a href="guidance/06-roles/commissioner.html">Commissioner: state the decision and the deadline</a></h3>
-    <p>You own the question the analysis answers, the assurance level agreed with the analyst, and
-    the time and resource to deliver it.</p>
+    <h3><a href="guidance/06-roles/commissioner.html">Commissioner</a></h3>
+    <p>State the decision and the deadline, and score the impact with the analyst.</p>
   </li>
   <li>
-    <h3><a href="guidance/06-roles/critical-friend.html">Critical friend: give independent advice</a></h3>
-    <p>You review one assignment. You and the analyst shall be separate in all cases, and how far
-    apart follows the level.</p>
+    <h3><a href="guidance/06-roles/critical-friend.html">Critical friend</a></h3>
+    <p>Review one assignment, independently of the analyst. How independent depends on the assurance level.</p>
   </li>
   <li>
-    <h3><a href="guidance/06-roles/analysis-senior-responsible-officer.html">Analysis Senior Responsible Officer: approve it as fit for use</a></h3>
-    <p>You are named at scoping for Business Critical work, and you approve the output after
-    reviewing the assurance evidence.</p>
+    <h3><a href="guidance/06-roles/analysis-senior-responsible-officer.html">Analysis Senior Responsible Officer</a></h3>
+    <p>For Business Critical work, get named at scoping, review the assurance evidence and approve the output.</p>
   </li>
   <li>
-    <h3><a href="guidance/09-resources/r3-who-to-ask.html">Somebody else, or not sure yet</a></h3>
-    <p>Who to ask for a level dispute, a critical friend, advice on official statistics,
-    information governance, or help with analytical code.</p>
+    <h3><a href="guidance/09-resources/r3-who-to-ask.html">Who to ask</a></h3>
+    <p>Level disputes, critical friends, official statistics, information governance and analytical code.</p>
   </li>
 </ul>
 ```
 
-## Find your kind of work
-
-Thirteen kinds of work, from an FOI response to a forecasting model, each with the level NHSBSA
-places it at and what else applies to it:
-[how to use this playbook, find your kind of work](guidance/00-how-to-use/index.qmd#find-your-kind-of-work).
-
 ## Look something up
 
-[Search the playbook](search.qmd) across every section heading and everything written under it.
-[How to use this playbook](guidance/00-how-to-use/index.qmd) lists every page with what it is
-for.
+- [Find your kind of work](guidance/07-deciding-your-assurance-level/check-it-applies.qmd#find-your-kind-of-work)
+- [Search the playbook](search.qmd)
+- [Where to find a topic](guidance/09-resources/r1-glossary.qmd#where-to-find-a-topic)
 
-## This playbook is based on
+## More detail in Resources
 
-- [Government Functional Standard GovS 010: Analysis](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis)
-- [The AQuA Book: guidance on producing quality analysis for government](https://www.gov.uk/guidance/the-aqua-book)
-- [The Code of Practice for Statistics](https://osr.statisticsauthority.gov.uk/the-code-of-practice-for-statistics/)
-
-The [Green Book](https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government)
-and [Magenta Book](https://www.gov.uk/government/publications/the-magenta-book) also cover analysis
-involving appraisal and evaluation.
+::: {.more-detail}
+- [The standards behind the playbook](guidance/09-resources/r4-standards-and-guidance.qmd#standards)
+:::

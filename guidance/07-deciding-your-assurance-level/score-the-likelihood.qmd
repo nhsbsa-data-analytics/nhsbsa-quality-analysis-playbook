@@ -1,0 +1,55 @@
+---
+title: "Step 2. Score the likelihood"
+description: "Score six likelihood dimensions at design."
+---
+
+Do this in [Phase 2, design](../02-design/index.qmd). If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
+
+Score how easily the analysis could be wrong. You need your impact score from
+[Step 1, score the impact](score-the-impact.qmd).
+
+## When to score the likelihood
+
+- **Any impact dimension at Level 4.** Score it now, at scoping, alongside the impact.
+  - Score against the data and the method you intend to use.
+  - If either changes materially at design, score again and record why.
+- **Everything else.** Score it once the data and the method are settled, in Phase 2.
+
+## The six likelihood dimensions
+
+- Score each dimension from Level 1 to Level 4.
+- Take the highest single level.
+- Score against the description at the start of each cell, not the dimension name.
+- Treat the method names in the cells as examples.
+
+| Dimension | Level 1 low | Level 2 moderate | Level 3 high | Level 4 very high |
+|------------------|------------------|--------------------|-----------------------|---------------------|
+| **Data complexity**<br><br>How difficult is it to obtain, clean, link, validate and prepare the data?<br><br>Score the most challenging aspect: a small number of datasets can still score higher where substantial cleaning, validation or interpretation is needed | **A single, well-understood, structured dataset**<br><br>Definitions established, minimal cleaning, no linkage, no quality concerns. A monthly activity extract, an existing dashboard source | **More than one dataset, straightforward linkage on common identifiers, some quality issues, moderate transformation**<br><br>Two to five related sources, linking with demographic data | **Five or more sources, or complex linkage, competing definitions, extensive cleaning and validation**<br><br>Patient-level linkage across datasets, probabilistic record linkage, patient journeys, resolving conflicting records or duplicates | **Ten or more sources, or major uncertainty about completeness or quality, or novel integration of previously unconnected sources**<br><br>Cross-sector linkage with no consistent identifiers, large-scale probabilistic matching, unstructured combined with structured data |
+| **Analytical complexity**<br><br>How complex are the calculations, methods, models, algorithms or AI techniques, and how hard is it to turn the business requirement into the right analytical logic?<br><br>Score the method, not the tools. AI-assisted coding does not by itself raise this score | Descriptive and rule-based. Counts, sums, averages, percentages, rates, ratios, KPIs, cross-tabulations, sorting, filtering, pivot tables, rule-based calculations | **Established statistical methods, widely understood and routinely applied**<br><br>Hypothesis testing, correlation, linear and logistic regression, cohort analysis, key driver analysis, standard forecasting, benchmarking | **Advanced methods needing substantial technical expertise to specify, validate and interpret**<br><br>Predictive models, survival analysis, time series such as ARIMA, causal inference, cluster analysis, machine learning, simulation | **Highly specialised methods needing deep methodological expertise**<br><br>Complex Bayesian hierarchical models, deep learning architectures, advanced optimisation, sophisticated microsimulation, specialist econometric models |
+| **Assumptions and proxies**<br><br>How much relies on assumptions, proxies, expert judgement or counterfactuals? | **Minimal. Results are largely direct observations, on explicit and widely accepted assumptions**<br><br>Different reasonable assumptions would change little. Descriptive statistics, routine reporting, standard indicators on agreed definitions | **Limited. Assumptions are required but well established and evidence-based, and unlikely to change the findings**<br><br>Short-term forecasts from historic trends, standard regression, accepted handling of missing data, published unit costs | **Material. Multiple assumptions, methodological choices or projections that need justification and testing, where alternative reasonable assumptions could give meaningfully different estimates or priorities**<br><br>Sensitivity analysis matters. Long-term forecasts, scenario modelling, complex economic models | **Critical. Conclusions highly sensitive to assumptions or expert judgement that cannot be directly observed or robustly validated**<br><br>Very long-term forecasts, unprecedented situations, sparse evidence, speculative scenarios, novel modelling approaches |
+| **Novelty**<br><br>How familiar are the approach, the subject matter and the context to the analyst and to the organisation? | **Established. Existing methods, code, processes, documentation or outputs need little or no adaptation**<br><br>Routine monthly reporting, repeated analyses, standard dashboards, established contract monitoring, approved AI tools in an established workflow | **Adapted. The method is well understood but a new dataset, policy or service area, business context or subject matter needs adaptation**<br><br>A familiar approach in a new service area, AI-assisted coding introduced into an existing process | **Substantially adapted. Substantial methodological development, complex business rules, or combining established approaches in a new way, with no single established approach that fully fits**<br><br>Complex contractual or payment calculations, new outcome measures, AI as a substantive analytical component | **Novel. Limited precedent and significant methodological uncertainty**<br><br>New methods, frameworks or techniques have to be developed, tested and validated. Experimental techniques, novel AI methodologies, a new statistical framework, a methodology paper |
+| **Manual intervention**<br><br>How much manual work is needed, as against automated and repeatable processes? Score the process as it is now, not as it is planned to become | **Highly automated, with little or no manual intervention**<br><br>A dashboard refreshed from the data warehouse, automated report generation | **Some manual steps, but controls and validation keep the effect of an error small**<br><br>Updating a few assumptions by hand, refreshing spreadsheets through a defined process | **A single manual error could materially affect the results**<br><br>Manual data entry or copy and paste, limited automated validation. Typing figures in each month, manually matching records, copying between spreadsheets | **Extensive manual processing, large-scale data entry, reliance on individual knowledge, limited automation**<br><br>Constructing datasets by hand from multiple reports, a process maintained by one person |
+| **Documentation and reproducibility**<br><br>How easily could another competent analyst reproduce the work and get the same result from the documentation, code and files available?<br><br>Where AI-assisted methods are used, this includes whether the prompts, model outputs and validation steps are documented well enough to reproduce or independently verify the outcome | **Fully reproducible, without help from the original analyst**<br><br>Version-controlled code, documented methodology, clear inputs and outputs, a maintained audit trail, a README or equivalent<br><br>Where AI tools were used, prompts, model and tool details, and the outputs relied upon, are documented | **Mostly reproducible, with limited clarification or familiarisation, and not dependent on the original analyst**<br><br>Documented spreadsheets, code stored locally, methodology described in the report, some undocumented business context<br><br>AI-assisted steps documented at a high level but not in enough detail to guarantee identical reproduction | **Partially reproducible. Important assumptions, transformations, calculations or business rules are insufficiently documented, and reproducing the work would need significant input from the original analyst**<br><br>Undocumented spreadsheet logic, multiple file versions, weak change control<br><br>AI-generated code, classifications or narrative used without enough documentation of how the outputs were produced or verified | **Not reproducible if the original analyst were unavailable**<br><br>Documentation, version history and process controls minimal or absent, with critical knowledge held by one person. A single-person workbook, undocumented calculations, no audit trail<br><br>Reliance on AI-generated outputs where prompts, model details, validation or decision rationale have not been retained |
+
+: What each likelihood dimension means at each score, Level 1 to Level 4
+
+## Outputs of this step
+
+Record these in the Specification:
+
+- The score for each dimension, and your highest single level.
+- For Business Critical work scored again at design, a note of why.
+
+## What you do next
+
+Read your level from your two scores in [Step 3. Read your level](read-your-level.qmd).
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where the impact and likelihood scales come from](../09-resources/r15-scoring-the-assurance-level.qmd#where-the-scales-come-from)
+- [Scoring the likelihood once the method is chosen](../09-resources/r15-scoring-the-assurance-level.qmd#the-likelihood-timing)
+- [The likelihood is still scored at scoping](../09-resources/r16-what-makes-work-business-critical.qmd#the-likelihood-is-still-scored-at-scoping)
+- [AI-assisted work across three rows](../09-resources/r15-scoring-the-assurance-level.qmd#ai-assisted-work)
+- [Material AI use and accountability for it](../09-resources/r12-algorithmic-transparency-and-ai.qmd#using-ai-tools-to-do-the-analysis)
+:::

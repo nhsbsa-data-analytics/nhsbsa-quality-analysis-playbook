@@ -1,6 +1,6 @@
 ---
 title: "R1. Glossary"
-description: "Every term and abbreviation this playbook uses, in alphabetical order."
+description: "Every term used here, A to Z, and where to find each topic."
 ---
 
 
@@ -11,53 +11,112 @@ every time.
 
 | Term | Meaning |
 |---|---|
-| **Algorithmic Transparency Recording Standard, ATRS** | How a public body publishes what an algorithmic tool does, what it is for, what data it was built on, how it affects decisions, who is accountable for it and what oversight it has.<br><br>When it is mandatory, and what it asks for, is in [ethics and transparency](r11-ethics-and-personal-data.qmd) |
-| **Analysis Senior Responsible Officer** | The named person accountable for Business Critical analysis or a model across its lifecycle, who confirms it is suitable for its intended use before it is used.<br><br>The name NHSBSA has chosen for the role. Older titles for the same role are the Model Senior Responsible Officer, the Senior Responsible Owner and the approver. See [roles and responsibilities](../06-roles/index.qmd) |
+| **Algorithmic Transparency Recording Standard, ATRS** | How a public body publishes what an algorithmic tool does, what it is for, what data it was built on, how it affects decisions, who is accountable for it and what oversight it has.<br><br>When it is mandatory, and what it asks for, is in [algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) |
+| **Analysis Senior Responsible Officer** | The named person accountable for Business Critical analysis or a model across its lifecycle, who confirms it is suitable for its intended use before it is used.<br><br>The name NHSBSA has chosen for the role. Other documents call the same role the Model Senior Responsible Officer, the Senior Responsible Owner or the approver. See [roles and responsibilities](../06-roles/index.qmd) |
 | **Analyst** | The person planning, undertaking and documenting the analysis |
+| **Analytical Assurance Decision Tool** | NHSBSA's scoring tool: six impact dimensions against six likelihood dimensions, read on a four by four matrix.<br><br>Taught in [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), and the workbook is held on the NHSBSA SharePoint, which needs NHSBSA network access |
+| **Analytical lifecycle** | The five phases a piece of analysis runs through: engagement and scoping, design, analysis, delivery and sign-off, and review.<br><br>[The five phases of the analytical lifecycle](../analytical-cycle/index.qmd) |
+| **Analytical model** | Analysis built to be run more than once, typically over time. One of eight types.<br><br>[The eight types of analytical model](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model) |
+| **Analytical output** | Anything that results from collecting, manipulating and interpreting data to answer a specific question. A dataset for a Freedom of Information request, an official statistics report, a dashboard and a forecasting model are all analytical outputs.<br><br>Everything in this playbook applies to all of them. [Check the playbook applies](../07-deciding-your-assurance-level/check-it-applies.qmd) |
+| **Analytical Quality and Assurance function** | The team that holds all analytical documentation centrally, holds the Business Critical register, and monitors Business Critical assurance activity.<br><br>[Business Critical analysis](../08-business-critical/index.qmd), step 4 |
 | **Analytical Quality and Assurance Lead** | The organisational role that confirms assurance levels and takes a level dispute, and the route when a Business Critical decision or an ethical concern cannot be resolved between the commissioner and the analyst.<br><br>Who holds it is recorded in the governance and management framework rather than here |
-| **Assurance level** | The proportionate amount of quality assurance a piece of analysis needs.<br><br>Level 1 Standard, Level 2 Enhanced, Level 3 Comprehensive or Level 4 BCA, read from the assurance level decision sheet |
-| **Assurance level decision sheet** | NHSBSA's scoring tool: six impact dimensions against six likelihood dimensions, read on a four by four matrix.<br><br>Taught in [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), and the workbook is held on the NHSBSA SharePoint, which needs NHSBSA network access |
+| **AQuA Book** | The government's guidance on analytical quality assurance, which applies to all NHSBSA analysis alongside GovS 010.<br><br>[Which standards apply to you](r8-the-standards-landscape.qmd) |
+| **Artificial intelligence, AI** | Software that performs tasks which would otherwise need human judgement, including machine learning models.<br><br>Analysis that builds, uses or evaluates an AI system has extra obligations. [Algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) |
+| **Assurance level** | The proportionate amount of quality assurance a piece of analysis needs.<br><br>Level 1 Standard, Level 2 Enhanced, Level 3 Comprehensive or Level 4 BCA, read from the Analytical Assurance Decision Tool. Complete at design, or at scoping where an impact dimension scored 4.<br><br>Older NHSBSA documents may say "Tier" where the playbook says "Level", and the two map one for one: "Tier 3" is Level 3 Comprehensive. [Each level includes the checks below it](r15-scoring-the-assurance-level.qmd#each-level-includes-the-checks-below-it) |
+| **Assurance plan** | What will be checked, by whom and when, written at design once the level is known. Required from Level 2.<br><br>[Step 4, what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd) |
 | **BCA** | Business Critical analysis. The abbreviation appears in the name of the fourth assurance level, Level 4 BCA |
-| **BCA** | Business Critical analysis. The abbreviation appears in the name of the fourth assurance level, Level 4 BCA |
-| **Business Critical** | Analysis or a model whose failure would have consequences at organisational scale. Registered, and assured at Level 4 BCA |
+| **Business Critical** | Analysis that scores 4, very high, on any one of the six impact dimensions of the Analytical Assurance Decision Tool.<br><br>The tool keeps that score for work where a material error could directly influence major policy, funding, statutory, regulatory or customer-impacting decisions, or cause substantial financial, legal or service consequences.<br><br>Registered, and assured at Level 4 BCA. Settled at scoping. [Business Critical analysis](../08-business-critical/index.qmd) |
 | **Business Critical register** | Where Business Critical work is recorded.<br><br>The entry is made at scoping rather than at delivery, and each entry names an Analysis Senior Responsible Officer. [Business Critical analysis](../08-business-critical/index.qmd), step 4 |
+
+: Glossary terms A to B and what they mean
 
 ## C to F
 
 | Term | Meaning |
 |---|---|
-| **Commissioner** | The person requesting the analysis, who owns the decision it supports |
-| **Correction** | A change made to a published figure because something was wrong.<br><br>Graded by what the change does to the conclusions rather than by how big the number is. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| **Code of Practice for Statistics** | The standard official statistics follow, in addition to GovS 010 and the AQuA Book. Its three pillars are trustworthiness, quality and value.<br><br>[What each standard asks for](r9-what-each-standard-asks-for.qmd) |
+| **Commissioner** | The person requesting the analysis, who owns the decision it supports.<br><br>A commissioner may be an internal team, an external partner, or a sponsor such as the Department of Health and Social Care or NHS England, including non-analysts and third-party suppliers. [Who counts as a commissioner](r17-roles-independence-and-escalation.qmd#who-counts-as-a-commissioner) |
+| **Correction** | A change made to a published figure because something was wrong.<br><br>Graded by what the change does to the conclusions rather than by how big the number is. [Correcting a published figure](r6-when-something-is-wrong.qmd) |
 | **Critical friend, analytical assurer** | Two names for one role. The person providing independent advice who confirms the analysis is fit for purpose, and who is not delivering it.<br><br>*Critical friend* is the name NHSBSA's playbooks use; *analytical assurer* is the standards' term, at GovS 010 4.4.6 and AQuA Book 5.1. See [roles and responsibilities](../06-roles/index.qmd) |
+| **Data and AI Ethics Framework** | The seven principles for using data and AI responsibly, with a self-assessment tool.<br><br>[Data ethics and personal data](r11-ethics-and-personal-data.qmd) |
+| **Data protection impact assessment, DPIA** | The corporate assessment of what using personal data risks, and how those risks are managed.<br><br>It is an information governance process rather than an analytical one. [Data ethics and personal data](r11-ethics-and-personal-data.qmd) says where to go for it |
+| **Decision log** | A record of the choices made during the analysis, and of anything that departed from the plan, written as they happen. Required from Level 2 |
+| **Decommissioning** | Stopping production of an output that is no longer useful. A finding of review rather than a failure.<br><br>[Phase 5, review](../05-review/index.qmd) |
 | **DHSC** | The Department of Health and Social Care |
 | **Direct uncertainty** | Uncertainty about an estimate that can be measured or quantified |
 | **DSIT** | The Department for Science, Innovation and Technology |
-| **Freedom of Information, FOI** | A request made under the Freedom of Information Act.<br><br>NHSBSA places an FOI response at Level 3 Comprehensive, with its visibility scored under public visibility and reach rather than added on top |
+| **Freedom of Information, FOI** | A request made under the Freedom of Information Act.<br><br>NHSBSA's worked examples put an FOI response at impact 3, with its visibility scored under public visibility and reach rather than added on top. The assurance level follows from that impact and your likelihood |
+
+: Glossary terms C to F and what they mean
 
 ## G to L
 
 | Term | Meaning |
 |---|---|
-| **Head of Profession for Statistics** | The organisational role that is the route for whether an output is fit to publish, and for advice on official statistics.<br><br>Who holds it is recorded in the governance and management framework rather than here |
+| **Government Data Quality Framework** | The government guidance on managing and describing data quality. It applies where data quality is a material concern for your work.<br><br>[Which standards apply to you](r8-the-standards-landscape.qmd) |
+| **Government Functional Standard, GovS** | The standards that set mandatory expectations across government functions. GovS 010 Analysis is the one this playbook rests on.<br><br>Others referred to here are GovS 005 Digital, GovS 008 Commercial and GovS 011 Communication |
+| **GRADE scale** | An ordered scale for grading how much confidence to place in a body of evidence. One way of summarising indirect uncertainty, which is inferred rather than measured directly |
+| **Green, Magenta and Orange Books** | Government guidance on appraisal, evaluation and risk management. Each applies where your work is that kind of work.<br><br>[Which standards apply to you](r8-the-standards-landscape.qmd) |
+| **Impact dimension** | One of the six measures of impact scored on the Analytical Assurance Decision Tool.<br><br>Each is scored Level 1 to Level 4 |
 | **Indirect uncertainty** | Uncertainty about the underlying quality of knowledge surrounding an estimate |
 | **Lead Assurer** | At Level 4 BCA, the assurer from outside the delivering team who signs the quality assurance sign-off before the Analysis Senior Responsible Officer approves the work |
+| **Lead Official for Statistics** | NHSBSA's title for the organisational role that is the route for whether an output is fit to publish, and for advice on official statistics.<br><br>The Code of Practice for Statistics calls the same role the **Head of Profession for Statistics**, and that is the term you will meet in the standard.<br><br>Who holds it is recorded in the governance and management framework rather than here |
+| **Likelihood dimension** | One of the six measures of likelihood scored on the Analytical Assurance Decision Tool.<br><br>Each is scored Level 1 to Level 4, at design, or at scoping where the work is Business Critical |
+
+: Glossary terms G to L and what they mean
 
 ## M to R
 
 | Term | Meaning |
 |---|---|
+| **NHSBSA** | The NHS Business Services Authority |
+| **Office for Statistics Regulation, OSR** | The regulator that monitors and reports on the UK statistical system, and assesses compliance with the Code of Practice for Statistics.<br><br>A regulatory concern about an NHSBSA output is scored under reputation in [score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd) |
 | **Official statistics** | Statistics produced under the Statistics and Registration Service Act, governed by the Code of Practice for Statistics |
+| **Peer review** | Review of the work by somebody who did not produce it. What counts as independent enough depends on the level.<br><br>[The critical friend](../06-roles/critical-friend.qmd) |
+| **Phase** | One of the five parts of the analytical lifecycle, Phase 1 to Phase 5.<br><br>[Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) is the first of them |
+| **Project record** | The one place everything about a piece of analysis is recorded. Nine sections, of which your level decides how many you complete.<br><br>[What to record](../07-deciding-your-assurance-level/what-your-level-requires.qmd#what-to-record) |
 | **Quality assurance, QA** | Everything done to make analysis trustworthy and to show that it is.<br><br>Some Business Critical documents carry it in their own names, such as the QA appraisal in [Business Critical analysis](../08-business-critical/index.qmd) |
+| **Quality assurance appraisal** | The Business Critical workbook. Twelve worksheets completed at three points: basic information, the model review, and the assurance review by the Lead Assurer.<br><br>Document 6 and document 10 of the stack in [Business Critical analysis](../08-business-critical/index.qmd) |
 | **Quality assurance log** | The record of checks carried out, when, by whom, and what was found |
 | **Quality assurance statement** | The published or recorded account of what was done to make analysis trustworthy, and what its limits are |
+| **Reproducible Analytical Pipeline, RAP** | An approach to building an analysis as code, so that it can be re-run and reproduced, with automation where that is proportionate.<br><br>[Links to standards and guides](r4-standards-and-guidance.qmd) links the NHS England guidance |
 | **Revalidation** | Confirming that a designation is still right.<br><br>Level 3 and Level 4 work is reviewed annually, and before any reuse for a new purpose, because a new purpose is the change most likely to invalidate the assumptions the original was built on |
-| **Revision** | An expected change to published statistics: provisional figures finalised, a change of methodology, or the arrival of further data.<br><br>A revision is not an error, and a correction is. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
+| **Revision** | An expected change to published statistics: provisional figures finalised, a change of methodology, or the arrival of further data.<br><br>A revision is not an error, and a correction is. [Correcting a published figure](r6-when-something-is-wrong.qmd) |
 | **RIGOUR** | Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, Robust |
+
+: Glossary terms M to R and what they mean
 
 ## S to Z
 
 | Term | Meaning |
 |---|---|
+| **Scope** | The document that sets out the decisions the analysis supports, its inputs and outputs, its boundaries and limitations, the resources it needs, and its principal risks. Written before the specification.<br><br>Document 2 of the stack in [Business Critical analysis](../08-business-critical/index.qmd) |
 | **Senior officer accountable for analysis** | The organisational role GovS 010 requires NHSBSA to appoint, accountable for analysis as an activity rather than for approving any one output.<br><br>Who holds it is recorded in the governance and management framework rather than here |
+| **Sensitivity testing** | Varying a key assumption to see whether the conclusion moves. Planned at design rather than added afterwards |
+| **Sign-off** | Approval of the analytical results before release.<br><br>Who signs depends on your level. [Who signs at each level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#in-phase-4-delivery-and-sign-off) |
+| **Single point of contact** | The role the Algorithmic Transparency Recording Standard asks of an organisation in its mandatory scope. It identifies the tools in scope, and drafts and publishes the records.<br><br>See [algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) |
+| **Specification** | The document agreed with your commissioner that sets out the question, the scope and the assurance required.<br><br>Written at scoping with the impact score, and returned to at design once the level is complete. Business Critical work carries the finished level from scoping |
+| **Statistical disclosure control, SDC** | Protecting individuals from being identified in published figures. NHSBSA has its own protocol.<br><br>[NHSBSA templates and documents](r2-templates-and-documents.qmd) |
+| **Step** | A numbered action within a single page, such as step 4 of [Business Critical analysis](../08-business-critical/index.qmd). Steps are numbered within their own page, except the four steps of the Analytical Assurance Decision Tool, which are four pages numbered 1 to 4 |
+| **Triangulation** | Reproducing a result independently from source, to check it. First required at Level 2 |
+| **UK General Data Protection Regulation, UK GDPR** | The data protection legislation that applies in the UK. Article 22 prohibits decisions based solely on automated processing where they have legal or similarly significant consequences for a person.<br><br>See [algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) |
 | **Validation** | Confirming the right type of analysis was used |
 | **Verification** | Confirming the analysis was conducted properly |
+
+: Glossary terms S to Z and what they mean
+
+## Where to find a topic
+
+| Looking for | Where it is |
+|---|---|
+| RIGOUR, and what each letter stands for | [RIGOUR in full](../09-resources/r9-what-each-standard-asks-for.qmd#rigour-in-full) |
+| What a 1, 2, 3 or 4 means on each scoring dimension | [Score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd) and [Score the likelihood](../07-deciding-your-assurance-level/score-the-likelihood.qmd) |
+| The eight types of analytical model | [The eight types of analytical model](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model) |
+| Reproducible and automated | [Reproducible and automated analysis compared](../09-resources/r9-what-each-standard-asks-for.qmd#reproducible-and-automated-analysis-compared) |
+| Who signs off at each assurance level | [What your level requires in Phase 4, delivery and sign-off](../07-deciding-your-assurance-level/what-your-level-requires.qmd#in-phase-4-delivery-and-sign-off) |
+| The quality assurance statement, with a worked example | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) and [writing a quality assurance statement](../09-resources/r5-quality-assurance-statement.qmd) |
+| What to do when a published figure turns out to be wrong | [Correcting a published figure](../09-resources/r6-when-something-is-wrong.qmd) |
+| The Business Critical register | [Business Critical analysis, step 4, get it on the register](../08-business-critical/index.qmd#step-4-get-it-on-the-register) |
+| Which GovS 010 clause a section answers to | [Where each standard is met](../09-resources/r14-meeting-the-standards.qmd) |
+
+: Topics to look up and the page that covers each

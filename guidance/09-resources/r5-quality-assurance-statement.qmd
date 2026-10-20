@@ -1,28 +1,34 @@
 ---
-title: "R5. The quality assurance statement"
+title: "R5. Writing a quality assurance statement"
 description: "What a quality assurance statement says, with a worked example."
 ---
 
-
 A quality assurance statement tells a reader what was done to make the analysis trustworthy, and
-what its limits are. Whether you need one depends on your assurance level:
+what its limits are. You need one at every level. Your level decides how much it carries and who
+sees it.
 
 | Level | Statement |
 |---|---|
 | Level 1 Standard | **Required**, and short. State your main limitation alongside the result |
 | Level 2 Enhanced | Required |
 | Level 3 Comprehensive | Required, and **published with the output** |
-| Level 4 BCA | Required, published with the output, and covered by the QA appraisal sign-off |
+| Level 4 BCA | Required, published with the output, and covered by the quality assurance appraisal sign-off |
+
+: What each assurance level requires of the quality assurance statement
 
 ## A worked example
 
 This is a Level 2 Enhanced statement. Bracketed prompts show what belongs in each place.
 
+**It is illustrative rather than approved wording.** It shows what a statement contains and what
+each part is for. It has not been cleared as a form of words, so write your own from it rather
+than lifting it whole.
+
 > This analysis was produced by [analyst], [team], NHS Business Services Authority, in [month year]
 > to support [the decision it informs].
 >
-> It was assessed as Level 2 Enhanced on the NHSBSA assurance level decision sheet,
-> on the basis that it informs a directorate-level operational decision using linked internal data
+> It was assessed as Level 2 Enhanced on the NHSBSA Analytical Assurance Decision Tool.
+> The basis was that it informs a directorate-level operational decision using linked internal data
 > and an established statistical method.
 >
 > Inputs were drawn from [source] as at [extract date]. [Named data quality issue] is present in the
@@ -36,23 +42,14 @@ This is a Level 2 Enhanced statement. Bracketed prompts show what belongs in eac
 >
 > Residual uncertainty is [description]. Questions about interpretation should go to [contact].
 
-::: {.callout-note title="Why the brackets are left in" appearance="minimal" icon=false}
-<br>
-The failure mode of a worked example is that people copy it whole, including reasoning that does not
-apply to their work. A statement claiming independent review that did not happen is worse than no
-statement at all.
+## What each level's statement carries
 
-Bracketed prompts force a decision at each point. Fill them in or delete the sentence.
-:::
+What a Level 3 statement carries is on [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd). What a Level 4 BCA statement adds is on [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked). Both are the playbook's own requirements, so they sit with the steps that act on them.
 
-## What a Level 3 statement adds
+## What GovS 010 says about the statement {#what-govs-010-says-about-the-statement}
 
-Everything above, plus:
+GovS 010 section 5.5 says the results should include an assurance statement. The statement covers assumptions, uncertainty, limitations, and comments on the applicability and use of the results.[^src-govs-010-section-5-5]
 
-- the Business Critical register reference
-- the assurer, named, independent of the delivering team, with dates
-- confirmation that code was assured against the code assurance playbook
-- uncertainty quantified as a range, with its principal source
-- the sensitivity testing result for the key assumption
-- an Algorithmic Transparency Recording Standard record reference, where the tool is in scope
-- the approver, and the next review date
+GovS 010 puts the statement as a should, not a shall. The playbook requires a statement at every level, and that requirement is the playbook's own.
+
+[^src-govs-010-section-5-5]: [GovS 010 section 5.5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#delivering-the-analysis)

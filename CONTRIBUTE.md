@@ -1,4 +1,8 @@
-# How to contribute
+---
+title: "How to contribute"
+description: "How to raise an issue or send a pull request, and how to add or change a page."
+title-block-banner: true
+---
 
 Hi there! 
 Thank you for considering contributing to the [published NHSBSA Producing Quality Analysis Playbook site](https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/). 
@@ -14,7 +18,7 @@ Please submit new contributions via a [pull request][pr]:
 
 1. [Fork][fork] or clone the repository
 1. If you want to run the page on your machine, configure and install the dependencies. 
-See the [README](./README.md) for details.
+See the [README](https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook#readme) for details.
 1. Create a new branch: (e.g. `git checkout -b my-branch-name`)
 1. [Make your change](#getting-started-with-development)
 1. Push to your fork and [submit a pull request][pr]
@@ -27,6 +31,7 @@ You may receive some feedback and suggested changes before it can be approved an
 - If you are making visual changes, include a screenshot of what the affected element looks like, both before and after.
 <!-- TODO: add a style guide -->
 <!-- - Follow the [style guide][style]. -->
+- Give every table a caption: a line that starts with `: ` directly under the table, after a blank line. A first column of bold labels becomes row headers on its own.
 - Keep your change as focussed as possible. 
 If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write [good commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
@@ -41,7 +46,7 @@ The **easiest way is just to open the repo in [Github Codespaces](https://github
 If you don't want to use Github codespaces (or can't because it's blocked, or you've run out of credits), then you can make changes to the repo locally on your machine.
 
 ### Installing dependencies
-See the [README](./README.md) for guidance on installing the dependencies and getting started with development.
+See the [README](https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook#readme) for guidance on installing the dependencies and getting started with development.
 
 ### Adding or editing content
 Each section is one directory under `guidance`, numbered so the order is visible, holding a single
@@ -49,19 +54,19 @@ Each section is one directory under `guidance`, numbered so the order is visible
 is section 7. A section with more than one page keeps them beside its `index.qmd`, which is what
 the roles directory and the assurance level directory both do.
 
-One directory is deliberately not numbered. `guidance/analytical-cycle/` is the front page of the
-lifecycle band rather than a section of its own, and a number on it would say it was a sixth
-phase.
+One directory is deliberately not numbered. `guidance/analytical-cycle/` is the front page for the
+five phases rather than a section of its own, and a number on it would say it was a sixth phase.
 
-Four things are named in one place each, and all four need updating together when a section is
+Three things are named in one place each, and all three need updating together when a section is
 added or renamed. Miss one and the page still builds, so nothing tells you:
 
-| | Where |
+| Item | Where |
 |---|---|
 | Whether the page is rendered at all | the `render:` list in `_quarto.yml` |
 | Where it appears in the left sidebar | the `sidebar:` section of `_quarto.yml` |
 | Where it appears in the Guidance menu | the `navbar:` section of `_quarto.yml`, which names the spine only, so a page can be correctly absent from it |
-| Where it appears in the contents table | `guidance/_partials/section-contents.qmd` |
+
+: The three places that name a page
 
 #### To edit an existing page
 1. Open the `index.qmd` in that section's directory and edit it as markdown.
@@ -92,9 +97,12 @@ added or renamed. Miss one and the page still builds, so nothing tells you:
 Run the checks. They are quick and they assert things that are easy to break without noticing:
 
 ```
-python3 checks/accessibility.py    # needs a `quarto render` first
-python3 checks/deliverables.py
+quarto render && bash checks/run-all.sh
 ```
+
+That runs all of them. Three read the built site, so render first. If you only want the two
+that most often catch a new page, they are `checks/accessibility.py` and
+`checks/deliverables.py`, and the first needs a render.
 
 ## Resources
 

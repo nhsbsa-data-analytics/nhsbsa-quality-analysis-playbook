@@ -1,0 +1,17 @@
+[![[**How impact and likelihood give your level.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/05-assurance-level-matrix.png){.nhsuk-image__img width=680 height=416 fig-alt="How impact and likelihood give your level: a grid with impact down the side and likelihood across the top, and the assurance level where the two meet."}](/static/diagrams/05-assurance-level-matrix.svg){.diagram-open aria-label="How impact and likelihood give your level: a grid with impact down the side and likelihood across the top, and the assurance level where the two meet. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+A grid with likelihood across the top, from 1 low to 4 very high, and impact down the side, from 4 very high at the top to 1 low at the bottom. Where cells side by side give the same level, they are drawn as one.
+
+- **Impact 4 very high.** Level 4 BCA at every likelihood.
+- **Impact 3 high.** Level 1 Standard at likelihood 1, Level 2 Enhanced at 2, and Level 3 Comprehensive at 3 and 4.
+- **Impact 2 moderate.** Level 1 Standard at likelihood 1, Level 2 Enhanced at 2 and 3, and Level 3 Comprehensive at 4.
+- **Impact 1 low.** Level 1 Standard at likelihood 1 to 3, and Level 2 Enhanced at 4.
+
+The table below gives the same matrix in words.
+
+</div>
+</details>

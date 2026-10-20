@@ -1,45 +1,50 @@
 ---
 title: "Phase 3. Analysis"
-description: "Do the work to the approved design, check it as you go, and have it reviewed."
+description: "Do the work to the design, check it as you go, get it reviewed."
 ---
 
-You carry out the analysis following the design and plan, and the checking happens throughout
-rather than at the end.
+You carry out the analysis and check it as you go.
 
 ## What you do
 
-1. **Do the analysis to the approved design and plan.** Record any
-   departure from the plan as you make it.
-2. **Do your own verification and validation first.** Verification asks whether the analysis was
-   carried out properly. Validation asks whether it was the right kind of analysis at all. Both
-   run throughout, proportionate to the work.
-3. **Keep a quality assurance log** of what you checked, when, and what you found.
-4. **Hand it to your critical friend**, who runs the checks the level asks for and reports back.
-   Their findings are yours to act on.
-5. **Log decisions and assumption changes as you make them**, not afterwards.
+{{< include /guidance/_partials/step-levels-key.qmd >}}
+
+1. [Every level[:]{.visually-hidden}]{.pb-level} **Do the analysis to the design and plan.**
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Do your own verification and validation first.** Keep doing both throughout, in proportion
+   to the work. See [what verification and validation mean](../09-resources/r1-glossary.qmd#s-to-z).
+3. [From Level 2[:]{.visually-hidden}]{.pb-level} **Keep a quality assurance log** of what you checked, when, and what you found.
+4. [Every level[:]{.visually-hidden}]{.pb-level} **Hand the analysis to your critical friend**, who runs
+   [the checks the level asks for](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level)
+   and reports back. Act on their findings.
+5. [From Level 2[:]{.visually-hidden}]{.pb-level} **Log decisions, assumption changes and any departure from the plan as you make them.**
 
 ## Records to keep
 
-Proportionate to the work, version controlled, securely stored and retrievable:
-the specification and design, notes of any deviation from the plan, a log of data and assumptions,
-an outline of the assurance activities, technical documentation, and lessons as they arise.
+- Complete as much of the project record as your level asks for. See
+  [what to record at each level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#what-to-record).
+- Where your analysis involves code, see the
+  [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+  for version control, testing, peer review and documentation.
 
-Where your analysis involves code, the
-[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
-covers version control, testing, peer review and documentation.
+## Outputs of this phase
 
-## What you leave behind
-
-- The quality assurance log: what was checked, when, and what was found.
-- The decision log, including anything that changed and why.
+- [From Level 2[:]{.visually-hidden}]{.pb-level} The quality assurance log: what was checked, when, and what was found.
+- [From Level 2[:]{.visually-hidden}]{.pb-level} The decision log, including anything that changed and why.
 - Your critical friend's findings, and what you did about each one.
-- Technical documentation enough for somebody to re-run the work.
+- Technical documentation that lets somebody else re-run the work.
 
 ## Ready for Phase 4 when
 
 - The checks the level asks for have been done, by you and by your critical friend.
 - Their findings have been acted on, or answered.
 - The log says what was checked rather than what was planned.
+
+## More detail in Resources
+
+::: {.more-detail}
+- [R10. Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd), for the
+  assumptions you log as you go
+:::
 
 ## Who does what in this phase
 
@@ -50,4 +55,4 @@ covers version control, testing, peer review and documentation.
 | **Commissioner** | Stay available. Review any change of design or method. Resist changing the question late |
 | **Analysis Senior Responsible Officer** | Business Critical work only. Stay aware of progress, and be available to approve at delivery |
 
-[Next: Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd)
+: What each role does in Phase 3, analysis

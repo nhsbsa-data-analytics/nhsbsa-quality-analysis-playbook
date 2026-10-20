@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="NHSBSA" modified="2026-10-19T09:00:00Z" author="Seamus Sands" organisation="NHSBSA" fit="window">
+  <diagram id="02-correcting-a-published-figure" name="02-correcting-a-published-figure" description="A decision tree. A yellow question at the top left asks: was the change expected. An arrow marked yes goes right to a green box: a revision, expected, not an error. An arrow marked no goes down to a wide blue box: a correction, an error, to be graded by what it does to the conclusions already drawn. Three arrows go down from it to three boxes. Significant, contradicts earlier conclusions: put a prominent alert on the website, correct it as soon as possible, and tell users and stakeholders. Minor but significant, insubstantial but needs correcting now in professional judgement: amend the release and show the revision clearly in it. Minor but insignificant, reasonably deemed inconsequential: correct it at the next scheduled release.">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="680" pageHeight="658" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.23734177215189872;entryY=0;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n2" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.15822784810126583;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n4" target="n7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n4" target="n9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;whiteSpace=wrap;strokeColor=#003087;strokeWidth=3;dashed=0;endArrow=classic;startArrow=none;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#425563;jumpStyle=arc;jumpSize=8;exitX=0.8417721518987342;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="n4" target="n11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;When a published figure has changed&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="24" y="22" width="632" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;Was the change expected?&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1D0;strokeColor=#B07C00;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=14;spacingRight=14;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="78" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;A revision&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#231F20&quot;&gt;Expected. It is not an error.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEFE4;strokeColor=#007F3B;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=14;spacingRight=14;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="424" y="78" width="232" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;A correction&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#231F20&quot;&gt;An error. Grade it by what it does to the conclusions already drawn.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=14;spacingRight=14;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="262" width="632" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087;letter-spacing:0.8px&quot;&gt;SIGNIFICANT&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:16px;color:#003087&quot;&gt;Contradicts earlier conclusions&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#231F20&quot;&gt;Put a prominent alert on the website. Correct it as soon as possible. Tell users and stakeholders.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;strokeWidth=2;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="24" y="430" width="200" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087;letter-spacing:0.8px&quot;&gt;MINOR BUT SIGNIFICANT&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:16px;color:#003087&quot;&gt;Insubstantial, but needs correcting now in professional judgement&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#231F20&quot;&gt;Amend the release. Show the revision clearly in it.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;strokeWidth=2;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="200" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087;letter-spacing:0.8px&quot;&gt;MINOR BUT INSIGNIFICANT&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:16px;color:#003087&quot;&gt;Reasonably deemed inconsequential&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#231F20&quot;&gt;Correct it at the next scheduled release.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=top;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;strokeWidth=2;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="456" y="430" width="200" height="204" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

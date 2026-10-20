@@ -58,21 +58,158 @@
         chevron.removeAttribute('aria-expanded');
       }
     });
+  });
+})();
+</script>
+<script>
+// The navigation on a narrow screen: the menu under the logo, and the drawer that holds the
+// sidebar. WCAG 2.2 2.4.11 Focus Not Obscured, 2.4.3 Focus Order, 2.1.2 No Keyboard Trap and
+// 4.1.2 Name, Role, Value.
+//
+// The menu under the logo is part of the page there. It pushes the page down when it opens, and
+// nothing is underneath it, so it needs only a way to be shut again from the keyboard.
+//
+// The drawer is different. It is a panel laid over the page, so while it is open the page
+// behind it must not be reachable, or Tab walks out of the drawer into content that is covered by
+// it, which measured 21 of 21 sample points under the drawer on the first four stops in the main
+// content. So, while it is open on a narrow screen:
+//   - focus moves into it, to the button that shuts it;
+//   - everything else is inert, which takes it out of the tab order and out of what a screen reader
+//     can reach, and Tab leaves the drawer at either end rather than going round inside it;
+//   - Escape, the button inside it, and a press on the dimmed page beside it all shut it;
+//   - shutting it puts focus back on the button that opened it, and the page is live again.
+// A drawer that is shut is display: none, so none of its links is in the tab order.
+(function () {
+  var drawer = document.getElementById('quarto-sidebar');
+  var menu = document.getElementById('navbarCollapse');
+  var narrow = window.matchMedia('(max-width: 991.98px)');
 
-    // Quarto puts the page title inside the control that opens the navigation on a phone, and
-    // names that control "Toggle sidebar navigation". So the control reads "About" on screen and
-    // is announced as something else entirely, which is what WCAG 2.5.3 Label in Name asks a
-    // control not to do: somebody driving the page by voice who says "click About" gets nothing,
-    // because no control answers to that name. The name is rebuilt to start with the words that
-    // are actually printed on it.
-    var heading = document.querySelector('.quarto-secondary-nav-title');
-    var opener = heading && heading.closest('a[aria-label]');
-    if (opener) {
-      var shown = (heading.textContent || '').trim();
-      if (shown) {
-        opener.setAttribute('aria-label', shown + ', open or close the navigation');
+  function collapse(el) {
+    return window.bootstrap && window.bootstrap.Collapse
+      ? window.bootstrap.Collapse.getOrCreateInstance(el, { toggle: false }) : null;
+  }
+
+  // Quarto's own toggles open the drawer and its dimmed backdrop together, because both carry
+  // the same class. Shutting only one of them leaves the other up.
+  function drawerParts() {
+    return Array.prototype.slice.call(document.querySelectorAll('.quarto-sidebar-collapse-item'));
+  }
+
+  function opener() {
+    var button = document.querySelector('button.quarto-btn-toggle');
+    return button && button.offsetParent !== null ? button : null;
+  }
+
+  // What lies behind the drawer: everything on the page except the sidebar and its backdrop.
+  // Found by what it is not, so that a part of the page that is added later is covered too: the
+  // children of the body, and the children of the page's content wrapper, which holds the drawer.
+  function behind() {
+    var keep = function (el) {
+      return el === drawer || el.id === 'quarto-sidebar-glass' || /^(SCRIPT|STYLE|LINK)$/.test(el.tagName);
+    };
+    var out = [];
+    Array.prototype.forEach.call(document.body.children, function (el) {
+      if (keep(el)) { return; }
+      if (el.id === 'quarto-content') {
+        Array.prototype.forEach.call(el.children, function (inner) {
+          if (!keep(inner)) { out.push(inner); }
+        });
+      } else {
+        out.push(el);
       }
+    });
+    return out;
+  }
+  function lock() { behind().forEach(function (el) { el.setAttribute('inert', ''); }); }
+  function unlock() { behind().forEach(function (el) { el.removeAttribute('inert'); }); }
+
+  function closeDrawer() {
+    drawerParts().forEach(function (el) {
+      var instance = collapse(el);
+      if (instance && el.classList.contains('show')) { instance.hide(); }
+    });
+  }
+
+  if (drawer) {
+    // The button that shuts the drawer. A keyboard has Escape and a pointer has the dimmed page,
+    // but a phone with a screen reader has neither, and the button that opened the drawer is
+    // behind it.
+    var container = drawer.querySelector('.sidebar-menu-container');
+    var close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'pb-drawer-close';
+    close.textContent = 'Close navigation';
+    close.addEventListener('click', closeDrawer);
+    if (container) { container.insertBefore(close, container.firstChild); }
+
+    // Bootstrap raises these on the element that opened or closed, and on the way up from the
+    // groups inside it, so the target is checked.
+    drawer.addEventListener('shown.bs.collapse', function (event) {
+      if (event.target !== drawer || !narrow.matches) { return; }
+      lock();
+      close.focus({ preventScroll: true });
+    });
+    drawer.addEventListener('hide.bs.collapse', function (event) {
+      if (event.target !== drawer) { return; }
+      var inside = drawer.contains(document.activeElement);
+      unlock();
+      var button = opener();
+      if (inside && button) { button.focus({ preventScroll: true }); }
+    });
+    // The drawer and its dimmed backdrop open together but not at the same moment: the drawer is
+    // shown within about 20ms and the backdrop about 160ms after. Closing in between shuts the
+    // drawer, finds the backdrop not yet shown and leaves it, so the backdrop then comes up over
+    // a page with no drawer, dimmed and taking every press. So once the drawer is shut, a backdrop
+    // that is up, or that comes up afterwards, is shut as well.
+    var glass = document.getElementById('quarto-sidebar-glass');
+    var settleGlass = function () {
+      if (!glass || drawer.classList.contains('show') || drawer.classList.contains('collapsing')) { return; }
+      if (glass.classList.contains('show') && !glass.classList.contains('collapsing')) {
+        var instance = collapse(glass);
+        if (instance) { instance.hide(); }
+      }
+    };
+    drawer.addEventListener('hidden.bs.collapse', function (event) {
+      if (event.target === drawer) { settleGlass(); }
+    });
+    if (glass) { glass.addEventListener('shown.bs.collapse', settleGlass); }
+
+    // A drawer left open while the window is made wide is no longer a drawer, and one that is
+    // still open when the window is made narrow again is one.
+    var sync = function () {
+      if (narrow.matches && drawer.classList.contains('show')) { lock(); } else { unlock(); }
+    };
+    if (narrow.addEventListener) { narrow.addEventListener('change', sync); }
+    else if (narrow.addListener) { narrow.addListener(sync); }
+  }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape' && event.key !== 'Esc') { return; }
+    // Bootstrap shuts an open Guidance menu on Escape and says so by cancelling the event.
+    if (event.defaultPrevented) { return; }
+    if (drawer && narrow.matches && drawer.classList.contains('show')) {
+      event.preventDefault();
+      closeDrawer();
+    } else if (menu && menu.classList.contains('show')) {
+      event.preventDefault();
+      var instance = collapse(menu);
+      if (instance) { instance.hide(); }
+      var toggler = document.querySelector('button.navbar-toggler');
+      if (toggler) { toggler.focus({ preventScroll: true }); }
     }
   });
+
+  // Bootstrap writes aria-expanded on everything that opens the sidebar, which includes the page
+  // title on a narrow screen and the backdrop. Neither is a control a screen reader should find,
+  // so the attribute is taken off again each time it is put back. The button beside the title is
+  // the control, and it keeps its state.
+  var strip = function (el) {
+    if (!el) { return; }
+    el.removeAttribute('aria-expanded');
+    new MutationObserver(function () { el.removeAttribute('aria-expanded'); })
+      .observe(el, { attributes: true, attributeFilter: ['aria-expanded'] });
+  };
+  strip(document.querySelector('a.flex-grow-1.no-decor'));
+  strip(document.getElementById('quarto-sidebar-glass'));
 })();
 </script>

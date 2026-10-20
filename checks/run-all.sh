@@ -13,18 +13,26 @@
 #   deliverables.py          a git checkout, which is how it asks what is tracked
 #   accessibility.py         the built site, playwright, and a Chromium
 #   axe.py                   the built site, playwright, and a Chromium
+#   wcag22.py                the built site, playwright, and a Chromium. It presses Tab several
+#                            thousand times, so it takes a few minutes
 #   search.py                the built site
 #   properties.py            pypdf, and the review copies in review/
 #   responsible-analysis.py  nothing
 #   table-widths.py          nothing
 #   house-voice.py           nothing
 #   standards.py             nothing
-#   diagrams.py              nothing. It also re-renders the .drawio sources when
-#                            build/ is present, and says so when it is not
+#   glossary.py              nothing
+#   diagrams.py              nothing. Reads the six diagrams in static/diagrams against the
+#                            partials that embed them (alt text, size, labels, word count), and
+#                            the phases-and-roles board against the phase pages when build/ is
+#                            present
+#   generated.py             nothing, when build/ is present. It runs each generator into a
+#                            temporary directory, so it needs playwright and a Chromium for
+#                            the one rendering step it owns. Skips without build/
 #   diagram-layout.py        nothing
 #   package.py               the archive in dist/, and both source clones beside this one
 #
-# Three of the thirteen are not in the release package that build/build-integrated-package.py writes.
+# Three of the sixteen are not in the release package that build/build-integrated-package.py writes.
 # deliverables.py asks git what is tracked, properties.py reads the review copies, and package.py
 # reads dist/ and the clones: the package is a folder of files, not a checkout, and carries none
 # of those. Dropping them was deliberate. Leaving this file invoking them was not, and run from
@@ -40,8 +48,9 @@ set -u
 cd "$(dirname "$0")/.."
 ABSENT=' deliverables properties package '
 status=0
-for check in links deliverables accessibility axe search properties \
-             responsible-analysis table-widths house-voice standards diagrams diagram-layout package; do
+for check in links deliverables accessibility axe wcag22 search properties \
+             responsible-analysis table-widths house-voice standards glossary \
+             generated diagrams diagram-layout package; do
     printf '\n==============================================================\n'
     printf '  checks/%s.py\n' "$check"
     printf '==============================================================\n'

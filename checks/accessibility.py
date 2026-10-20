@@ -35,8 +35,10 @@ so a "section 5" link in the middle of a sentence is covered by it. The check ap
 rather than ignoring the target, and reports a small target whose destination is nowhere else.
 
 AAA is not claimed for the site as a whole. 3.1.5 Reading Level asks for prose readable at lower
-secondary level, which assurance guidance citing GovS 010 clause numbers cannot be, and 1.4.9
-Images of Text is arguable for the diagrams. The accessibility statement says so.
+secondary level, which assurance guidance citing GovS 010 clause numbers cannot be. The
+accessibility statement says so. It also says why the diagrams are not images of text: the
+labels are part of a picture with significant other visual content, which WCAG's definition of the
+term excludes.
 
 It needs Chromium and Playwright, which is why it is separate from anything that has to run
 everywhere. `PLAYWRIGHT_CHROMIUM` names the browser if it is not on the default path.

@@ -13,24 +13,55 @@
   // the stylesheet, which makes it a scrollable region, and a scrollable region with no tab stop
   // is content somebody using a keyboard cannot read the end of.
   (function () {
-    function name(table, i) {
-      var caption = table.querySelector ? table.querySelector('caption') : null;
-      if (caption && caption.textContent.trim()) return caption.textContent.trim();
-      var el = table;
+    // The name of a scrolling region is what a screen reader announces on reaching it, and
+    // what they hear when they list the regions on the page, so it has to say which table it is
+    // and no two on a page may say the same. The table's own caption is the name. A table with no
+    // caption is named for the nearest heading above it, and for the page title where there is no
+    // heading above it. WCAG 2.2 4.1.2 Name, Role, Value and 1.3.1.
+    function headingFor(el) {
       while (el) {
         var prev = el.previousElementSibling;
         while (prev) {
-          if (/^H[1-6]$/.test(prev.tagName)) return prev.textContent.trim() + ', table';
+          if (/^H[1-6]$/.test(prev.tagName)) return prev.textContent.replace(/\s+/g, ' ').trim();
           prev = prev.previousElementSibling;
         }
         el = el.parentElement;
         if (el && el.tagName === 'MAIN') break;
       }
-      return 'Table ' + (i + 1);
+      var h1 = document.querySelector('h1.title') || document.querySelector('h1');
+      return h1 ? h1.textContent.replace(/\s+/g, ' ').trim() : document.title;
     }
 
-    function wrap() {
-      document.querySelectorAll('main table').forEach(function (table, i) {
+    function baseName(el) {
+      var caption = el.tagName === 'TABLE' ? el.querySelector(':scope > caption') : null;
+      var text = caption ? caption.textContent.replace(/\s+/g, ' ').trim() : '';
+      if (text) return text;
+      return headingFor(el) + (el.tagName === 'TABLE' ? ', table' : ', code');
+    }
+
+    // One name for each table and code block on the page, in page order, with a number added to
+    // any name that two of them share ("The documentation stack, table 1 of 2").
+    function namesFor(items) {
+      var base = items.map(baseName);
+      var total = {}, seen = {};
+      base.forEach(function (n) { total[n] = (total[n] || 0) + 1; });
+      return items.map(function (el, i) {
+        var n = base[i];
+        if (total[n] < 2) return n;
+        seen[n] = (seen[n] || 0) + 1;
+        return n + ' ' + seen[n] + ' of ' + total[n];
+      });
+    }
+
+    function names() {
+      var items = Array.prototype.slice.call(document.querySelectorAll('main table, main pre'));
+      var out = new Map();
+      namesFor(items).forEach(function (n, i) { out.set(items[i], n); });
+      return out;
+    }
+
+    function wrap(labels) {
+      document.querySelectorAll('main table').forEach(function (table) {
         var box = table.closest('.table-scroll');
         if (!box) {
           box = document.createElement('div');
@@ -38,25 +69,30 @@
           table.parentNode.insertBefore(box, table);
           box.appendChild(table);
         }
-        if (box.scrollWidth > box.clientWidth + 1) {
+        var over = box.scrollWidth - box.clientWidth;
+        if (over > 1) {
+          box.style.overflowX = '';
           box.setAttribute('role', 'region');
           box.setAttribute('tabindex', '0');
-          box.setAttribute('aria-label', name(table, i));
+          box.setAttribute('aria-label', labels.get(table));
         } else {
           box.removeAttribute('role');
           box.removeAttribute('tabindex');
           box.removeAttribute('aria-label');
+          // A pixel of overflow is rounding, and does not earn a tab stop. A box that still scrolls
+          // by it but cannot be reached from the keyboard fails 2.1.1, so it is not left able to.
+          box.style.overflowX = over > 0 ? 'hidden' : '';
         }
       });
     }
 
-    function wrapPre() {
-      document.querySelectorAll('main pre').forEach(function (pre, i) {
+    function wrapPre(labels) {
+      document.querySelectorAll('main pre').forEach(function (pre) {
         if (pre.scrollWidth > pre.clientWidth + 1) {
           pre.setAttribute('role', 'region');
           pre.setAttribute('tabindex', '0');
           if (!pre.getAttribute('aria-label')) {
-            pre.setAttribute('aria-label', name(pre, i).replace(/, table$/, '') + ', code');
+            pre.setAttribute('aria-label', labels.get(pre));
           }
         } else {
           pre.removeAttribute('role');
@@ -66,7 +102,7 @@
       });
     }
 
-    function all() { wrap(); wrapPre(); }
+    function all() { var labels = names(); wrap(labels); wrapPre(labels); }
 
     all();
     // A table inside a closed description only gets its width when the description is opened,

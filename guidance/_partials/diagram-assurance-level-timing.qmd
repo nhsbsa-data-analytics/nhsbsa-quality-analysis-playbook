@@ -1,0 +1,23 @@
+[![[**When each step happens.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/04-assurance-level-timing.png){.nhsuk-image__img width=680 height=600 fig-alt="When each step happens: a grid of two routes across four phases, one where no impact dimension scores Level 4 and one where an impact dimension does."}](/static/diagrams/04-assurance-level-timing.svg){.diagram-open aria-label="When each step happens: a grid of two routes across four phases, one where no impact dimension scores Level 4 and one where an impact dimension does. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+A grid of two lanes and four phases. The phases run across the top: engagement and scoping, design, analysis, and delivery and sign-off.
+
+The top lane is work where no impact dimension scores Level 4. Step 1, score the impact, is in engagement and scoping. Step 2, score the likelihood, and step 3, read your level, are in design. Step 4, do what your level requires, runs from design to the end of delivery and sign-off.
+
+The lower lane is work where an impact dimension scores Level 4, which makes it Business Critical. Steps 1, 2 and 3 are all in engagement and scoping, and step 4 runs from there to the end of delivery and sign-off.
+
+| Step | When |
+|---|---|
+| **1. Score the impact** | Phase 1, scoping |
+| **2. Score the likelihood** | Phase 2, design. **Phase 1 where an impact dimension scored 4** |
+| **3. Read your level** | Phase 2, design. **Phase 1 where an impact dimension scored 4** |
+| **4. Do what your level requires** | Phases 2 to 4. **Phase 1 onwards where an impact dimension scored 4** |
+
+: When each of the four steps happens, for both routes
+
+</div>
+</details>

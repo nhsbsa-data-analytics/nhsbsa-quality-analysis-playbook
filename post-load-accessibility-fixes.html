@@ -79,3 +79,196 @@
       calloutObserver.observe(node, calloutConfig);
     });
 </script>
+<script>
+  // 3. Names, roles and states that Quarto writes wrongly. Each is a WCAG 2.2 4.1.2 Name, Role,
+  //    Value failure or a neighbour of one, and each is mended here because it is generated, so
+  //    there is nothing in a page to edit. The work is done as soon as the page is parsed and once
+  //    more when it has loaded, because Quarto's own scripts run in between and write some of it.
+  (function () {
+    var each = function (selector, fn, root) {
+      Array.prototype.forEach.call((root || document).querySelectorAll(selector), fn);
+    };
+    // Where a link goes, as a path that does not depend on how it was written. Quarto rewrites
+    // every link's /index.html to / when the page loads.
+    var pathOf = function (a) {
+      return a.pathname.replace(/index\.html$/, '').replace(/\/+$/, '/');
+    };
+
+    function iconsAreDecorative() {
+      // The four right-hand links in the navbar draw a small picture beside words that already
+      // say what the link is. The picture is an <iconify-icon> that Quarto's shortcode gives
+      // role="img", a label naming the icon set and a title that shows as a tooltip, so the link
+      // was announced as "Icon information-outline from mdi Iconify.design set. About". The
+      // picture stays; it just stops being read out. WCAG 1.1.1 Non-text Content and 2.4.4.
+      each('iconify-icon', function (icon) {
+        icon.removeAttribute('role');
+        icon.removeAttribute('aria-label');
+        icon.removeAttribute('title');
+        icon.setAttribute('aria-hidden', 'true');
+      });
+    }
+
+    function currentPage() {
+      // Quarto marks the Home link in the navbar as the current page on every page, because it
+      // takes any page below the folder of the link to be inside it, and every page is. It marks
+      // the page you are actually on in the sidebar with a class and nothing else. So the
+      // navbar's mark is taken off every link that is not this page, and the page's own link is
+      // given aria-current. There is one such link: the one in the sidebar if the page has an
+      // entry there, otherwise the one in the navbar. WCAG 4.1.2 and 1.3.1.
+      var here = location.pathname.replace(/index\.html$/, '').replace(/\/+$/, '/');
+      each('[aria-current]', function (el) { el.removeAttribute('aria-current'); });
+      each('.navbar a.nav-link', function (a) {
+        // A link that opens a menu goes nowhere. Quarto's script makes its "#" into the address of
+        // the page it is on, so it has to be ruled out by what it is and not by how it is written.
+        var opensMenu = a.classList.contains('dropdown-toggle') || /#$/.test(a.href);
+        var match = !opensMenu && !!a.getAttribute('href') &&
+                    a.protocol === location.protocol && a.host === location.host &&
+                    pathOf(a) === here;
+        a.classList.toggle('active', match);
+      });
+      var own = null;
+      each('#quarto-sidebar a.sidebar-link[href]', function (a) {
+        if (!own && pathOf(a) === here) { own = a; }
+      });
+      if (!own) {
+        each('.navbar a.nav-link.active', function (a) { if (!own) { own = a; } });
+      }
+      if (own) { own.setAttribute('aria-current', 'page'); }
+    }
+
+    function roles() {
+      // A button may not take the role of a menu, and this one has no menu items in it. It opens
+      // the list of links below it, which is what a button with aria-expanded already says.
+      each('button.navbar-toggler[role]', function (b) { b.removeAttribute('role'); });
+      // The Guidance heading in the navbar opens a menu, so it is a button that does something
+      // and not a link to the page it is on, and a button answers to Space as well as Enter.
+      each('a.dropdown-toggle[role=link], a.dropdown-toggle[href="#"]', function (a) {
+        a.setAttribute('role', 'button');
+        if (!a._spaceBound) {
+          a._spaceBound = true;
+          a.addEventListener('keydown', function (event) {
+            if (event.key === ' ' || event.key === 'Spacebar') {
+              event.preventDefault();
+              a.click();
+            }
+          });
+        }
+      });
+    }
+
+    function landmarks() {
+      // Navigation landmarks, each named for what is in it, because a reader moving between
+      // landmarks hears "navigation" five times and cannot tell which is which. WCAG 1.3.1 and
+      // 2.4.1, and the ARIA rule that two landmarks of one kind carry different names.
+      var named = [
+        ['nav.navbar', 'Main menu'],
+        ['nav.quarto-secondary-nav', 'Page menu'],
+        ['nav#quarto-sidebar', 'Playbook sections'],
+        ['nav.page-navigation', 'Previous and next page']
+      ];
+      named.forEach(function (pair) {
+        each(pair[0], function (nav) {
+          if (!nav.hasAttribute('aria-label') && !nav.hasAttribute('aria-labelledby')) {
+            nav.setAttribute('aria-label', pair[1]);
+          }
+        });
+      });
+      each('nav#TOC', function (nav) {
+        if (!nav.hasAttribute('aria-label') && !nav.hasAttribute('aria-labelledby') &&
+            document.getElementById('toc-title')) {
+          nav.setAttribute('aria-labelledby', 'toc-title');
+        }
+      });
+      // The page title block is a <header> outside the main content, so a screen reader finds a
+      // second banner on the page after the one that holds the navigation bar. It stops being a
+      // banner, and becomes a region named by the page's own title, so that the title and the
+      // description under it are inside a landmark and not loose between two of them.
+      each('header#title-block-header', function (h) {
+        var title = h.querySelector('h1');
+        if (title && !title.id) { title.id = 'pb-page-title'; }
+        if (title) {
+          h.setAttribute('role', 'region');
+          h.setAttribute('aria-labelledby', title.id);
+        } else {
+          h.setAttribute('role', 'none');
+        }
+      });
+      // The page title on a narrow screen is a link that opens the sidebar, and Quarto gives it
+      // role="navigation", a label, and an expanded state that no link can have. The button
+      // beside it does the same job for a keyboard and for a screen reader, so this one is left as
+      // plain text that a pointer can also press.
+      each('a.flex-grow-1.no-decor', function (a) {
+        ['role', 'aria-label', 'aria-expanded', 'aria-controls'].forEach(function (name) {
+          a.removeAttribute(name);
+        });
+      });
+    }
+
+    function pagination() {
+      // Previous and Next are drawn by the stylesheet over the page's name, and the link's name
+      // was the page's name alone, so somebody who says "click Previous" to a voice control, or
+      // who listens for which way a link goes, was told nothing. The name now begins with the words
+      // that are on the screen. WCAG 2.5.3 Label in Name.
+      [['.nav-page-previous', 'Previous'], ['.nav-page-next', 'Next']].forEach(function (pair) {
+        each('nav.page-navigation ' + pair[0] + ' a.pagination-link', function (a) {
+          var text = a.querySelector('.nav-page-text');
+          var title = (text ? text.textContent : a.textContent).replace(/\s+/g, ' ').trim();
+          if (title) { a.setAttribute('aria-label', pair[1] + ' ' + title); }
+        });
+      });
+    }
+
+    function soleLinks() {
+      // A link that is the whole of its list item or table cell is a target on its own, and is
+      // given room to be hit (see the 2.5.5 rule in styles.css). A link in the middle of a
+      // sentence is not, and CSS cannot tell the two apart because it does not see text. A few
+      // words round the link, such as a full stop or "see", do not make it part of a sentence.
+      each('main li > a, main td > a, main th > a', function (a) {
+        var parent = a.parentElement;
+        var around = parent.textContent.replace(/\s+/g, ' ').trim().length -
+                     a.textContent.replace(/\s+/g, ' ').trim().length;
+        a.classList.toggle('pb-sole-link', around <= 8);
+      });
+    }
+
+    function menuButtonFirst() {
+      // On a narrow screen the menu button is drawn to the left of the logo, and Quarto writes it
+      // after the logo, so Tab went from the middle of the bar to its left end. The button is
+      // moved to where it is drawn. WCAG 2.4.3 Focus Order and 1.3.2 Meaningful Sequence.
+      each('.navbar-container', function (bar) {
+        var brand = bar.querySelector(':scope > .navbar-brand-container');
+        var button = bar.querySelector(':scope > button.navbar-toggler');
+        if (brand && button && (brand.compareDocumentPosition(button) & Node.DOCUMENT_POSITION_FOLLOWING)) {
+          bar.insertBefore(button, brand);
+        }
+      });
+    }
+
+    function hashLinks() {
+      // Quarto's navigation script makes every link's /index.html into /, which on the twelve pages
+      // that are an index.html turns a link to a place on this page into a link to the folder. A
+      // keyboard user who presses Enter on one then loads the page again instead of jumping, and
+      // the address changes under them. A link to a place on this page is put back to the place.
+      var here = pathOf(location);
+      each('a[href*="#"]', function (a) {
+        if (a.hash && a.origin === location.origin && pathOf(a) === here &&
+            a.getAttribute('href').charAt(0) !== '#') {
+          a.setAttribute('href', a.hash);
+        }
+      });
+    }
+
+    function all() {
+      iconsAreDecorative();
+      currentPage();
+      roles();
+      landmarks();
+      pagination();
+      soleLinks();
+      menuButtonFirst();
+      hashLinks();
+    }
+    all();
+    window.addEventListener('load', all);
+  })();
+</script>

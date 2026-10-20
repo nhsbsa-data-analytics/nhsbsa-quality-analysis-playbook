@@ -5,7 +5,8 @@
 
 Needs Playwright and a Chromium, the same pair `checks/accessibility.py` already needs.
 
-Six assertions, across every .drawio in `static/diagrams` and `artefacts/service-design`:
+Six assertions, across every .drawio in `artefacts/service-design`, and in `static/diagrams` if the playbook
+carries any:
 
   1. every cell that carries words carries `whiteSpace=wrap`
   2. no label's text is taller or wider than the box it is drawn in
@@ -198,7 +199,13 @@ def measure():
                     fail.append('%s has no rendered .svg beside it, so its layout cannot be '
                                 'measured' % f.name)
                     continue
-                page = browser.new_page(viewport={'width': 2400, 'height': 1800})
+                # The window is the size of the drawing. A drawing with no width and height of its
+                # own fills whatever window it is opened in, so a bigger window would scale it and
+                # every label would measure larger than the box it was drawn in.
+                vb = re.search(r'viewBox="0 0 (\d+) (\d+)"', svg.read_text(encoding='utf-8'))
+                size = {'width': int(vb.group(1)), 'height': int(vb.group(2))} if vb else {
+                    'width': 2400, 'height': 1800}
+                page = browser.new_page(viewport=size)
                 page.goto(svg.resolve().as_uri(), wait_until='load')
                 page.wait_for_timeout(70)
                 seen[svg.name] = page.evaluate(MEASURE)

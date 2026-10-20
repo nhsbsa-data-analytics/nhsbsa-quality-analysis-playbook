@@ -33,8 +33,8 @@ website:
   # accessibility issue no matter how it is configured. Overlay gives empty
   # button, while textbox gives empty label. Disabled for now until a solution
   # is found. Every page is in the sidebar, the Guidance menu names the spine, and
-  # how to use this playbook carries a table of every page, so there is more than
-  # one way to find a page without it. WCAG 2.4.5 Multiple Ways.
+  # the search page finds any word, so there is more than one way to find a page
+  # without it. WCAG 2.4.5 Multiple Ways.
   search: false
 
   navbar:
@@ -64,12 +64,12 @@ website:
       # The sidebar is the route through the playbook. This menu used to repeat every section
       # in number order on every page, which gave a reader two different orderings of the same
       # thing and was the duplication NHSBSA raised. It now names the five phases, the four roles
-      # and the toolkit, which is the spine and nothing more. WCAG 2.4.5 Multiple Ways is still
+      # and the assurance level pages, which is the spine and nothing more. WCAG 2.4.5 Multiple Ways is still
       # met: the sidebar, the search page and this menu are three routes to every page.
       - text: "Guidance"
         menu:
-          - href: guidance/00-how-to-use/index.qmd
-            text: "How to use this playbook"
+          - href: guidance/07-deciding-your-assurance-level/check-it-applies.qmd
+            text: "Check the playbook applies"
           - href: guidance/01-engagement-and-scoping/index.qmd
             text: "Phase 1. Engagement and scoping"
           - href: guidance/02-design/index.qmd
@@ -83,7 +83,7 @@ website:
           - href: guidance/06-roles/index.qmd
             text: "Roles and responsibilities"
           - href: guidance/07-deciding-your-assurance-level/index.qmd
-            text: "Deciding your assurance level"
+            text: "Analytical Assurance Decision Tool"
           - href: guidance/08-business-critical/index.qmd
             text: "Business Critical analysis"
           - href: guidance/09-resources/r2-templates-and-documents.qmd
@@ -126,7 +126,7 @@ website:
         href: accessibility.qmd
       - text: "Glossary"
         href: guidance/09-resources/r1-glossary.qmd
-      - text: "Contact"
+      - text: "Contact the analytical assurance team"
         href: "mailto:analyticalassurance@nhsbsa.nhs.uk"
       - text: "This playbook on GitHub"
         href: "https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook"
@@ -137,16 +137,16 @@ website:
       except where otherwise stated.
     right:
       - text: "&copy; Crown Copyright"
-    # CHANGED: the sidebar is banded rather than a flat list in number order.
+    # CHANGED: the sidebar is grouped rather than a flat list in number order.
   #
   # A flat list is good for finding a section whose name you already know and useless for the
   # reader who arrives with a job rather than a topic. It also contradicts the landing page,
   # which says the path is section 5 then section 6 and then gives those two no more prominence
-  # than section 10. The bands say what each group is for, so a reader can see at a glance which
+  # than section 10. The groups say what each one is for, so a reader can see at a glance which
   # sections this piece of work needs and which it does not.
   #
     # Cross-references are links rather than section numbers, so the numbering here is for
-  # ordering and for the clause-by-clause mapping in appendix A6. Banding is a presentation
+  # ordering and for the clause-by-clause mapping in appendix A6. Grouping is a presentation
   # change over a spine that stays put, and it leaves room for another section without
   # renumbering anything.
   #
@@ -156,42 +156,40 @@ website:
   sidebar:
     style: "docked"
     search: false
-    # One, so the bands arrive closed and a reader meets a handful of labels rather than every
-    # link at once, opening the one they want. Quarto opens the band holding the current page
+    # One, so the groups arrive closed and a reader meets a handful of labels rather than every
+    # link at once, opening the one they want. Quarto opens the group holding the current page
     # on its own, so a reader always sees where they are.
     #
-    # This depends on sidebar-collapse.html, in include-after-body. Quarto's own band toggle is
+    # This depends on sidebar-collapse.html, in include-after-body. Quarto's own group toggle is
     # an anchor with no href, which no keyboard can reach, so raising this number without that
-    # file takes every banded page out of reach and fails WCAG 2.1.1 at Level A.
+    # file takes every grouped page out of reach and fails WCAG 2.1.1 at Level A.
     collapse-level: 1
     contents:
       - index.qmd
-      # Quarto draws a band toggle as an <a> with no href, so a band named exactly as a page
+      # Quarto draws a group toggle as an <a> with no href, so a group named exactly as a page
       # inside it gives a reader listing the links two controls with one name going to
       # different places. That is 2.4.9 at AAA, and checks/accessibility.py catches it. No
-      # page is titled "The analytical lifecycle", "Finding your way around" or "Roles and
-      # responsibilities", so no band collides with the pages it holds.
+      # page is titled "The analytical lifecycle", "Your assurance level" or "Resources", so no group
+      # collides with the pages it holds.
       #
-      # The lifecycle band opens on a picture of the whole cycle and then holds the five phases
-      # in lifecycle order, each labelled with the phase it belongs to, and nothing sits above it
-      # but the two pages that route a reader in. The diagram page is the band's front page, so
-      # its directory carries no number: it is not a sixth section, and numbering it would say it
-      # was.
+      # The lifecycle group opens on the page that lists the five phases and then holds the five
+      # phases in lifecycle order, each labelled with the phase it belongs to. That page is the
+      # group's front page, so its directory carries no number: it is not a sixth section, and
+      # numbering it would say it was.
       # NHSBSA's usability review of 6 October asked for exactly this: the analytical lifecycle
       # re-established as the primary navigation, with the supporting guidance behind it. It had
       # been the seventh item in this list, below five pages that are themselves lifecycle
-      # activities. The spine sat under the things it was supposed to organise.
+      # activities.
       #
-      # Five phases and four roles, which is the shape NHSBSA asked for and the shape the
-      # playbook is now organised on. The bands are the route: how to find your way in, where you
-      # are in the work, who you are on this piece of work, the things you look up while doing
-      # it, and the resources behind all of it. Explanatory material lives in Resources rather
-      # than in the route, so a reader going through a phase meets what to do and not why it is
-      # done.
-      - section: "Finding your way around"
-        contents:
-          - guidance/00-how-to-use/index.qmd
-          - guidance/00-how-to-use/journeys.qmd
+      # Five phases and four roles. The groups are: the stages of the analysis, who you are on
+      # this piece of work, the things you use while doing it, and the resources behind all of it.
+      # There was a fifth group, "Finding your way around", in front of these. It held a list of
+      # every page, which the sidebar already is, a list of the four roles, which the roles page
+      # already is, and two things that belong with the work: the test of whether the playbook
+      # applies, now the first page of Your assurance level, and a table of topics, now in the glossary.
+      # The pages in the first three groups say what to do. The
+      # reasons, the method detail and the standards behind them are in Resources, where each
+      # task page links to the part it needs.
       - section: "The analytical lifecycle"
         contents:
           - guidance/analytical-cycle/index.qmd
@@ -200,10 +198,10 @@ website:
           - guidance/03-analysis/index.qmd
           - guidance/04-delivery-and-sign-off/index.qmd
           - guidance/05-review/index.qmd
-      # The band says what a reader will find; the page inside it is named for what it is. They
-      # must not share a name: Quarto draws a band label as an anchor with no href, so the label
-      # counts as a link going nowhere, and a band and a link reading the same words but going to
-      # different places is 2.4.9 Link Purpose. "The four roles" is now the band and nothing else,
+      # The group says what a reader will find; the page inside it is named for what it is. They
+      # must not share a name: Quarto draws a group label as an anchor with no href, so the label
+      # counts as a link going nowhere, and a group and a link reading the same words but going to
+      # different places is 2.4.9 Link Purpose. "The four roles" is now the group and nothing else,
       # so every cross-reference to the overview says "roles and responsibilities" instead, which
       # is also what the page is called.
       - section: "The four roles"
@@ -213,18 +211,29 @@ website:
           - guidance/06-roles/critical-friend.qmd
           - guidance/06-roles/commissioner.qmd
           - guidance/06-roles/analysis-senior-responsible-officer.qmd
-      - section: "The toolkit"
+      # The tool is NHSBSA's own, and the playbook now names it as they do. Its four steps are
+      # listed flat rather than nested, so a reader sees the whole of the scoring in the sidebar
+      # and can open the one step they want without a second click. The group keeps its own name:
+      # Quarto draws a group label as an anchor with no href, so a group and a link reading the
+      # same words but going to different places is 2.4.9 Link Purpose.
+      - section: "Your assurance level"
         contents:
+          - guidance/07-deciding-your-assurance-level/check-it-applies.qmd
           - guidance/07-deciding-your-assurance-level/index.qmd
+          - guidance/07-deciding-your-assurance-level/score-the-impact.qmd
+          - guidance/07-deciding-your-assurance-level/score-the-likelihood.qmd
+          - guidance/07-deciding-your-assurance-level/read-your-level.qmd
+          - guidance/07-deciding-your-assurance-level/what-your-level-requires.qmd
           - guidance/07-deciding-your-assurance-level/after-you-have-your-level.qmd
           - guidance/08-business-critical/index.qmd
-      # Resources is a band, not a page. It was a page whose only content was links to the
+      # Resources is a group, not a page. It was a page whose only content was links to the
       # pages below it, so a reader clicked twice to reach anything and the sidebar carried
-      # the same word at two levels. Appendices held the other half of the same kind of
-      # material and is merged in here, numbered R1 to R14 in the order a reader wants them:
-      # definitions, then what you need while working, then the reference behind it, then the
-      # compliance mappings. No page is named "Resources", so the band does not collide with
-      # what it holds under WCAG 2.4.9.
+      # the same word at two levels. The appendices held the other half of the same kind of
+      # material and are merged in here. The pages are numbered R1 to R19 in the order a reader
+      # wants them: definitions, then what you need while working, then the reference behind it,
+      # then the mapping to the standards at R14, and the explanation pages R15 to R19 after it.
+      # No page is named "Resources", so the group does not collide with what it holds under
+      # WCAG 2.4.9.
       - section: "Resources"
         contents:
           - guidance/09-resources/r1-glossary.qmd
@@ -241,6 +250,11 @@ website:
           - guidance/09-resources/r12-algorithmic-transparency-and-ai.qmd
           - guidance/09-resources/r13-putting-figures-in-the-public-domain.qmd
           - guidance/09-resources/r14-meeting-the-standards.qmd
+          - guidance/09-resources/r15-scoring-the-assurance-level.qmd
+          - guidance/09-resources/r16-what-makes-work-business-critical.qmd
+          - guidance/09-resources/r17-roles-independence-and-escalation.qmd
+          - guidance/09-resources/r18-review-reuse-and-records.qmd
+          - guidance/09-resources/r19-worked-examples.qmd
 
 format:
   html:
@@ -262,6 +276,19 @@ format:
     # history unusable. Without it, Quarto builds each title from the page's own
     # front matter with the site title appended.
     lang: en-GB
+    # Quarto adds a link to the end of every heading, named "Anchor", that only shows on hover.
+    # A person using a screen reader hears "Anchor" 310 times across the site and the heading
+    # names read "Phase 1. Engagement and scoping Anchor", and each link is one more stop for
+    # the keyboard. WCAG 2.4.4 and 2.4.9 Link Purpose, and 2.4.6 Headings and Labels. A heading
+    # keeps its id and its entry in "On this page", so every link to a section still works.
+    anchor-sections: false
+    # Quarto shows a footnote in a floating box when its number is hovered or focused. The box
+    # cannot be dismissed with Escape, stays open when focus moves on, and covers the text beside
+    # it. WCAG 1.4.13 Content on Hover or Focus. With the box off, a source number is a plain link
+    # to its entry in the Sources list at the foot of the page, which has a link back.
+    footnotes-hover: false
+    citations-hover: false
+    crossrefs-hover: false
     theme: cosmo
     css: styles.css
     mainfont: "Arial"
@@ -292,6 +319,7 @@ language:
 # otherwise list it three times.
 filters:
   - _filters/dedupe-sources.lua
+  - {path: _filters/table-headers.lua, at: post-render}
 
 execute:
   freeze: auto

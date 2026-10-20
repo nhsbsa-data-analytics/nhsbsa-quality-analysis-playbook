@@ -1,10 +1,13 @@
 {
- "01-journey-analyst.drawio": "3dc9789ce709e6647021ce9febffb150f63942590da4466fb31b00e36c2522e4",
- "02-journey-commissioner.drawio": "fedd9dea4bff61d97551ae73444a8ce94907d12d1f2904b78b2d3b1738bee03b",
- "03-journey-critical-friend.drawio": "53139e82c99152fcad06986a209b050f0914977b5447fd7ef66dd2942d8b9c84",
- "04-journey-sro.drawio": "7b66d6e30d5d7ec210e8914bc0eb012b4164ec1bcc4d95e15ad88130920a97fa",
- "06-blueprint-assurance-service.drawio": "9aabc04c337067252a83fa76797986ff85738d217ed0ee98ed1de9b83e97db9a",
- "07-blueprint-playbook-site.drawio": "74c92a4dbfa179d7d8aa49effe4d253877244be43fac311e182cc7eafd4aff2f",
- "08-handoffs-funding-formula.drawio": "8a8261d26437a431633d04692ded31b4fd84db746abed5a3762c6083d1fc8b26",
- "09-phases-and-roles.drawio": "163d91880ec8cb7b835109bb882457bcdc8c7be2bbb62ba5f75ad80049f92e01"
+ "01-journey-analyst.drawio": "9c0b30845b768384bffe4eb79ddda4d43d22ed3710bd1aeb29180c7c815e9412",
+ "02-journey-commissioner.drawio": "b5435f23f6526aa600a92b55f34ea869d333e0c095804a857b8820ab41b59b78",
+ "03-journey-critical-friend.drawio": "c86d165f6547cba81df57e386e4b98370a4f3a41c8287bb41440566f59b9b967",
+ "04-journey-sro.drawio": "41394586549ded8f09368e8ecba67a0ff5c8289da999ae9791b333c392552a91",
+ "05-handoffs-level-1-exploratory-analysis.drawio": "633544ccaa72644a6815b0dda81de03c40dd06a0807fac61386aed95aa9ed315",
+ "06-handoffs-level-2-operational-dashboard.drawio": "ed7ab99f5a47a38481050ba9e258dbedbc8c6d26631cec26e169a04e9ca1b833",
+ "07-handoffs-level-3-official-statistics.drawio": "98c754e9413e4490cfd40b15e0ec652763bfa1b97613e4394c363a701d24bac8",
+ "08-handoffs-level-4-funding-formula.drawio": "3daa94449663b7c2b381c1607c09431d75c4bc82784d1b61be220e2cd63753fe",
+ "09-phases-and-roles.drawio": "e9273e3a69a320d4390e50c6c493901a22ba23c8fcdfe9434d8a71980e469e44",
+ "10-blueprint-assurance-service.drawio": "0ee958bc95ab50876b007a03d0bc32a6d90baa1470e8aeb40f82f4908236f0b1",
+ "11-blueprint-playbook-site.drawio": "beefe1ed655bd3765bf1a12cbbccc7d17e6ace7ff3852ebe538b4200e88ea40d"
 }

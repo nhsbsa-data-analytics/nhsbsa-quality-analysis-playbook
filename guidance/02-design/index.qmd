@@ -1,47 +1,65 @@
 ---
 title: "Phase 2. Design"
-description: "Choose the method, and turn the assurance level into a plan with time in the schedule."
+description: "Choose the method and plan the assurance your level asks for."
 ---
 
-You choose how the question gets answered, and turn the level agreed in Phase 1 into a plan
-somebody will actually carry out.
+You choose the method, finish the assurance level and write the plan.
 
 ## What you do
 
-1. **Choose the method**, and place your work among the eight types of analytical model if it is
-   a model. [The list is in after you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model).
-2. **Write the design and plan**, and share it with everyone involved.
-   It covers the data, the method, how uncertainty will be identified and communicated, the
-   assumptions and known limitations, ethics and information governance, the outputs, the
-   timescales and resources, and the assurance activities.
-3. **Turn the level into an assurance plan.** Set out the verification and validation the level
-   asks for, and **put time for it in the schedule**. What each level
-   asks for is in [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).
-4. **Name your critical friend now**, before the work starts. They review the plan, confirm they
-   can do the assurance it asks for, and put their own time in the schedule.
-5. **Get the design approved** by your commissioner before work proceeds.
-   Where time or resource constrain the approach, your commissioner needs to understand the risks
-   that follow.
+{{< include /guidance/_partials/step-levels-key.qmd >}}
 
-## Your design should
+1. [Every level[:]{.visually-hidden}]{.pb-level} **Choose the method**, and where the work is a model, place it among
+   [the eight types of analytical model](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model).
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Score the likelihood, then read your level.** Follow
+   [Step 2, score the likelihood](../07-deciding-your-assurance-level/score-the-likelihood.qmd)
+   and [Step 3, read your level](../07-deciding-your-assurance-level/read-your-level.qmd) in the
+   Analytical Assurance Decision Tool. Write the finished level into the specification.
+   If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
+3. [Every level[:]{.visually-hidden}]{.pb-level} **Write the design and plan**, and share it with everyone involved. Cover:
+   - the data, and whether the sources are fit to answer the question
+   - the method, and how somebody else running it would get the same results
+   - how uncertainty will be identified and communicated
+   - the assumptions and known limitations
+   - any recommendation in a standard that you do not follow, and why
+   - ethics and information governance
+   - the outputs, the timescales and the resources
+   - the assurance activities
 
-- **be repeatable**, producing the same results from the same inputs if somebody else runs it
-- consider uncertainty, and say how it will be communicated
-- consider whether the data sources are fit to answer the question
-- be documented
+   Where time or resource constrain the approach, tell your commissioner what risks follow.
+4. [From Level 2[:]{.visually-hidden}]{.pb-level} **Turn the level into an assurance plan.** Set out the verification and validation the level
+   asks for, and **put time for it in the schedule**. Find what your level asks for in
+   [Step 4, what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd).
+5. [From Level 2[:]{.visually-hidden}]{.pb-level} **Name your critical friend before the work starts.** They review the plan and confirm they
+   can do the assurance it asks for. They put their own time in the schedule.
+   - See [find a critical friend](../07-deciding-your-assurance-level/what-your-level-requires.qmd#find-a-critical-friend) and
+     [how independent they must be at your level](../06-roles/critical-friend.qmd#how-independent-you-have-to-be).
+6. [From Level 2[:]{.visually-hidden}]{.pb-level} **Get the design approved** by your commissioner before work proceeds.
 
-## What you leave behind
+## Outputs of this phase
 
+- The finished assurance level, written into the specification.
 - The design and plan, shared with everyone involved.
-- The assurance plan, with time in the schedule for it and for your critical friend.
-- Your critical friend's name against the work.
-- Your commissioner's approval of the design.
+- [From Level 2[:]{.visually-hidden}]{.pb-level} The assurance plan, with time in the schedule for it and for your critical friend.
+- [From Level 2[:]{.visually-hidden}]{.pb-level} Your critical friend's name against the work.
+- [From Level 2[:]{.visually-hidden}]{.pb-level} Your commissioner's approval of the design.
 
 ## Ready for Phase 3 when
 
+- The assurance level is complete and recorded in the specification.
 - The design is approved.
-- The assurance plan has time in the schedule, including your reviewer's own time.
+- The assurance plan has time in the schedule, including your critical friend's own time.
 - Your critical friend has confirmed they can do the assurance the plan asks for.
+
+## More detail in Resources
+
+::: {.more-detail}
+- [R10. Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd), for how
+  uncertainty will be identified and communicated
+- [R11. Data ethics and personal data](../09-resources/r11-ethics-and-personal-data.qmd), for
+  the data ethics and personal data questions the design has to cover
+- [Scoring the likelihood once the method is chosen](../09-resources/r15-scoring-the-assurance-level.qmd#the-likelihood-timing)
+:::
 
 ## Who does what in this phase
 
@@ -50,6 +68,6 @@ somebody will actually carry out.
 | **Analyst** | Choose the method. Plan the verification and validation the level asks for. Name your critical friend |
 | **Critical friend** | Review the plan. Confirm the assurance planned is at the right level. Put your own time in the schedule |
 | **Commissioner** | Approve the design. Make sure there is time and resource for the assurance the level requires |
-| **Analysis Senior Responsible Officer** | Business Critical work only. Confirm design governance has been followed before the analysis starts |
+| **Analysis Senior Responsible Officer** | Business Critical work only. Confirm that organisational governance procedures for design have been followed, before the analysis starts |
 
-[Next: Phase 3, analysis](../03-analysis/index.qmd)
+: What each role does in Phase 2, design

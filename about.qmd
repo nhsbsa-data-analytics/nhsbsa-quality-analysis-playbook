@@ -1,31 +1,22 @@
 ---
 title: "About"
-description: "Who maintains this playbook, what it covers, and how to suggest a change."
+description: "Who maintains it, how to suggest a change, and what has changed."
 title-block-banner: true
 ---
 
-The NHSBSA Producing Quality Analysis Playbook is maintained by the Data Science, Advanced Analytics
-and Statistics team.
-
-It sets out how analysis is planned, produced, assured and communicated at NHSBSA, and it applies to
-all analysis and datasets: published externally, used for internal decisions, or supplied to
-sponsors and partners.
+The Analytical Quality and Assurance function owns and maintains this playbook. It decides what changes after publication.
 
 ## Suggesting a change
 
-This playbook is a repository, so a change to it is a pull request like any other.
-[CONTRIBUTE.md](https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook/blob/main/CONTRIBUTE.md)
-explains how to raise something and how to send it. That is the same route the
-[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
-uses, so the two behave the same way.
+Send a change as a pull request. [How to contribute](CONTRIBUTE.md) explains how to raise it and how to send it.
 
-If what you want to raise is not a change to the text, take it to the Data Science, Advanced
-Analytics and Statistics team. [Who to ask](guidance/09-resources/r3-who-to-ask.qmd) has the routes for
-everything else.
+To raise something that is not a change to the text, go to the Analytical Quality and Assurance function. [Who to ask](guidance/09-resources/r3-who-to-ask.qmd) lists who to contact for everything else.
 
 ## Change log
 
-| Version | Date | Change |
-|---|---|---|
-| 2.0 | Not yet published | **The refreshed playbook, in draft for NHSBSA review.**<br><br>Built on five phases and four roles, with a scored assurance level and the checks each level requires.<br><br>Adds a route for Business Critical analysis, and reference pages on uncertainty, ethics and transparency.<br><br>Aligned to GovS 010, the Code of Practice for Statistics 3.0 and the Data and AI Ethics Framework. |
-| 1.0 | 11 June 2026 | **The playbook as it stood before the refresh**, published on NHSBSA's GitHub.<br><br>Covered the principles, the analytical cycle and responsibilities.<br><br>It carried no version number of its own. 1.0 is the number this log gives it. |
+| Date | Change |
+|---|---|
+| In draft for review | **The refreshed playbook.**<br><br>Organised by five phases and four roles, with a scored assurance level and the checks each level requires.<br><br>Adds guidance for Business Critical analysis, and reference pages on uncertainty, ethics and transparency.<br><br>Aligned to GovS 010, the Code of Practice for Statistics 3.0 and the Data and AI Ethics Framework. |
+| 11 June 2026 | **The playbook as it stood before the refresh**, published on NHSBSA's GitHub.<br><br>Covered the principles, the analytical cycle and responsibilities. |
+
+: Changes to the playbook, with the date of each

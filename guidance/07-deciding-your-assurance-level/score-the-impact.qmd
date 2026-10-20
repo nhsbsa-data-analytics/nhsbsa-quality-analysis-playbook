@@ -1,0 +1,72 @@
+---
+title: "Step 1. Score the impact"
+description: "Score six impact dimensions. A Level 4 makes it Business Critical."
+---
+
+Do this in [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd), with your
+commissioner.
+
+Score what happens if the analysis is wrong, and who is affected.
+
+## The six impact dimensions
+
+- Score each dimension from Level 1 to Level 4.
+- Take the highest single level, not an average.
+- Score against the descriptions, not the dimension name.
+- Before you score Finance, check the figure in force in the Analytical Assurance Decision Tool file. See [where the tool is held](../09-resources/r2-templates-and-documents.qmd).
+
+| Dimension | Level 1 low, informational | Level 2 moderate, operational | Level 3 high, organisational | Level 4 very high, business critical |
+|-----------------|------------------|--------------------|----------------------|-----------------------|
+| **Decision**<br><br>What decision does the analysis inform? If it were wrong, what is the highest level of decision that could be adversely affected?<br><br>Consider the extent to which the decision relies on the analysis | **No decision, action, resource allocation, policy, service or performance assessment would be materially affected**<br><br>Exploratory, informative, or for learning | **Day-to-day operational decisions**<br><br>service management, workforce deployment, scheduling, local resource allocation, performance monitoring, process improvement. Limited in scope and readily reversible. Routine or operational analysis, service reports, performance analysis | **Strategic or organisational decisions**<br><br>The analysis is a key input to, or critical evidence base for, a major policy, funding, statutory or regulatory decision, and a material error could affect the outcome reached | **Major policy, funding, statutory or regulatory decisions that decision makers would be expected to rely on it to determine**<br><br>Funding allocation methodologies, spending reviews, major business cases, eligibility and entitlement decisions, regulatory decisions, major service transformation |
+| **Finance**<br><br>The maximum credible financial consequence of an error: incorrect expenditure, misallocation, lost income, unrealised savings, remediation costs and associated liabilities<br><br>Where the consequence is uncertain, score the value of expenditure, funding or savings the analysis could reasonably affect | **No or negligible consequence**<br><br>Easily corrected and needing no management intervention. Typically below £25k, or affecting local operational activity only | **Local budgeting, workforce planning, operational resource allocation, local contract management, or one programme or service**<br><br>Manageable within normal management processes. Typically £25k to £500k | **Planning, budgeting, commissioning, investment, contracting, workforce or resource-allocation decisions with material financial implications**<br><br>Typically £500k to £35m, or where the consequences are uncertain but could materially affect service delivery | **The analysis determines, or is relied on for, major funding, investment, commissioning, resource-allocation or policy decisions**<br><br>Typically above £35m, or where it directly informs a major funding decision and the full consequences are not yet known. The Department of Health and Social Care (DHSC) defines Business Critical analysis at £40m or more |
+| **Customers**<br><br>The most serious impact on patients', customers' or service users' rights, entitlements, access, experience or outcomes | No direct impact. Consequences limited to internal processes or reporting, including a statistics publication with no direct customer impact | **A small number of individuals inconvenienced, delayed, or affected by a communication issue or minor service disruption**<br><br>No impact on rights, entitlements or access | Larger groups affected, or a meaningful impact on service quality, prioritisation, access, experience or outcomes whatever the number of individuals. Remedial action required | **Rights, entitlements, eligibility, access to services, treatment, benefits or statutory obligations affected**<br><br>Potential for widespread harm, inequity, complaints, legal challenge or loss of public confidence. Benefit payment decisions, fraud and error targeting, funding entitlement calculations |
+| **Legal or compliance**<br><br>The most serious legal, regulatory, governance or compliance consequence that could result | None beyond internal governance. No personal data, confidential information, statutory reporting or legally protected groups involved | **A minor breach needing no or minor action to rectify**<br><br>Correction or clarification, but no mandatory external reporting, enforcement action or material harm. Minor inaccuracies in internal reporting, or inadvertent disclosure of non-sensitive information | **A breach requiring corrective action, investigation or formal reporting**<br><br>Limited personal data breaches, reporting to governance bodies, regulator notification, the Office for Statistics Regulation, or a substantiated complaint | **A major or multiple breach requiring immediate action**<br><br>Legal challenge, judicial review, discrimination claim, statutory non-compliance, regulatory enforcement, significant financial penalties or serious personal data breaches. Senior management and legal involvement likely |
+| **Public visibility and reach**<br><br>How widely the consequences could be experienced, used, scrutinised or noticed | **A small number of individuals or a single team**<br><br>Errors unlikely to be noticed outside the immediate team. A single manager, a single dental contract or pharmacy | **A service, department or programme, or a limited group of external stakeholders**<br><br>Several departments, several contracts, an integrated care board (ICB) or local team. Could attract local scrutiny | **Official Statistics, national publications, Board papers, Freedom of Information (FOI) responses, parliamentary questions, ministerial briefings, or other outputs under substantial external scrutiny**<br><br>Regional or national analysis, or analysis used across organisations | The key evidence base for major policy, funding, regulatory or statutory decisions likely to attract intense public, ministerial, parliamentary, regulatory or media scrutiny, because an error could contribute directly to major public, legal, financial or customer consequences |
+| **Reputation**<br><br>How much damage could be done to confidence in the organisation, the service or the decision-making | Internal only. The project team or immediate stakeholders. Internal working analysis, ad hoc requests, exploratory analysis | **Local concern within a department, programme or local organisation**<br><br>Explanation, correction or reassurance needed, but confidence outside the immediate area is unlikely to be materially affected. Analysis supporting local operational decisions or programme management | **Significant national media attention, stakeholder criticism, correction of a published output, or material loss of confidence in NHSBSA's analytical capability**<br><br>Analysis relied on by multiple teams or organisations | **Public trust at risk**<br><br>A substantial and lasting loss of confidence arising from materially incorrect policy, funding, regulatory or statutory decisions caused by analytical error |
+
+: What each impact dimension means at each score, Level 1 to Level 4
+
+The Level 4 description for Decision is the playbook's reading of the tool. See [The Decision dimension at Level 3 and Level 4](../09-resources/r15-scoring-the-assurance-level.qmd#the-decision-dimension).
+
+## Level 4 on any dimension makes the work Business Critical
+
+Reserve Level 4 for analysis where a material error could:
+
+- directly influence major policy, funding, statutory, regulatory or customer-impacting decisions
+- cause substantial financial, legal or service consequences
+
+### Do not score Level 4 on these alone {#what-does-not-by-itself-justify-level-4}
+
+- publication status
+- Board consideration
+- Official Statistics designation
+- media interest
+- national visibility
+- FOI disclosure
+- ministerial interest
+- parliamentary scrutiny
+
+Score them under public visibility and reach.
+
+## Outputs of this step
+
+Record these in the Specification:
+
+- The score for each dimension, and your highest single level.
+- The Business Critical answer, yes or no.
+
+## What you do next
+
+- [Score the likelihood](score-the-likelihood.qmd) at design, once the data and the method are
+  settled.
+- If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where the impact and likelihood scales come from](../09-resources/r15-scoring-the-assurance-level.qmd#where-the-scales-come-from)
+- [The Decision dimension at Level 3 and Level 4](../09-resources/r15-scoring-the-assurance-level.qmd#the-decision-dimension)
+- [The finance thresholds](../09-resources/r15-scoring-the-assurance-level.qmd#the-finance-thresholds)
+- [Why Business Critical works as it does](../09-resources/r16-what-makes-work-business-critical.qmd#what-makes-work-business-critical)
+- [Publication status and Business Critical status](../09-resources/r16-what-makes-work-business-critical.qmd#what-does-not-make-work-business-critical)
+:::

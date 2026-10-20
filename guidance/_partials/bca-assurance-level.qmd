@@ -1,18 +1,14 @@
-**It falls out of step 1, on the same sheet.** Any impact dimension scored 4 resolves to **Level 4
-BCA** at every likelihood, so the designation is a consequence of the impact assessment rather than
-a separate judgement made alongside it. You do not decide it here; you read it.
+Read your level in the Analytical Assurance Decision Tool you used in step 1. If any impact
+dimension scores Level 4, your level is Level 4 BCA at every likelihood. The Analytical Quality and
+Assurance Lead confirms a Level 4 BCA level.
 
-Level 4 BCA is the whole top row of the matrix, and nothing below impact 4 reaches it however likely
-an error is. That is the point: Business Critical is about what an error would do, not about how
-hard the work is.
+Score the likelihood now, at scoping, before you finish with the tool:
 
-Level 4 adds to Level 3 rather than replacing it: formal audits, external review, additional
-scrutiny of the documentation, scrutiny of the structural and conceptual assumptions, and additional
-scenario testing. It also brings a named Analysis Senior Responsible Officer and an entry on the
-register.
+- score the six likelihood dimensions against the data and the method you intend to use
+- score them again at design if either changes materially
 
-**A Very High rating in the risk framework is a backstop, not a second route in.** The Analytical Risk Assessment and Quality Assurance Framework lists escalation to Business
-Critical Analysis separately. It gives four triggers joined by "and/or", and a Very High rating
-is one of them. Treat it as a
-check on the scoring rather than as a designation in itself: a Very High rating on work not
-designated at scoping means the impact dimensions should be scored again with the commissioner.
+Use [score the likelihood](/guidance/07-deciding-your-assurance-level/score-the-likelihood.qmd) for the scales.
+
+The Analytical Risk Assessment and Quality Assurance Framework may escalate work to Business
+Critical Analysis. If it does and the work was not designated, score the six impact dimensions
+again with your commissioner. The work is Business Critical only if a dimension then scores Level 4.

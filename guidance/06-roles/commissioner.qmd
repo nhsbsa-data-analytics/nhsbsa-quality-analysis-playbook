@@ -1,45 +1,26 @@
 ---
 title: "The commissioner"
-description: "You asked for the analysis and you own the decision it informs. What you agree, what you approve, and what you are accountable for."
+description: "Your steps as the commissioner, from the decision to approval."
 ---
 
 {{< include /guidance/_partials/role-commissioner.qmd >}}
 
-## Your part in each phase
-
-| Phase | What is yours |
-|---|---|
-| [Phase 1. Engagement and scoping](../01-engagement-and-scoping/index.qmd) | State the decision the analysis supports and the deadline, and agree the assurance level with the analyst |
-| [Phase 2. Design](../02-design/index.qmd) | Approve the design before the work proceeds |
-| [Phase 3. Analysis](../03-analysis/index.qmd) | Stay available for the questions the work turns up |
-| [Phase 4. Delivery and sign-off](../04-delivery-and-sign-off/index.qmd) | Confirm the analysis meets the need you commissioned it for |
-| [Phase 5. Review](../05-review/index.qmd) | Ask whether it informed the decision, and whether it is still being used |
-
-## Three things only you can do
-
-- **State the decision, not the output.** What will be decided, by whom, and by when. That makes
-  the conversation about scope a short one.
-- **Agree the level, and find what it needs.** The level is scored with the analyst at scoping, in
-  about five minutes, and it then costs time and somebody's diary. Where that cost cannot be met,
-  the answer is a narrower question rather than a lower level.
-- **Own the use of the results.** Caveats travel with the number. A result passed on without them
-  has had its limits removed by the act of passing it on, and how the analysis is used and
-  disseminated is yours.
-
-## Where your approval is needed
-
-The design, before the work proceeds, and the results at sign-off where the level says the
-sign-off is yours. Who signs at each level is in
-[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).
-
-## Your journey through the playbook
+## Your checklist
 
 {{< include /guidance/_partials/table-journey-commissioner.qmd >}}
 
 ## Where to go next
 
-- [Roles and responsibilities](index.qmd), for the other three roles and where a disagreement goes
-- [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), which you score
-  with the analyst
-- [Business Critical analysis](../08-business-critical/index.qmd), if one impact dimension scores 4
-- [Who to ask](../09-resources/r3-who-to-ask.qmd), if you need somebody and do not know who
+- [Where a disagreement goes](index.qmd#when-you-disagree)
+- [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd)
+- If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd)
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Who to ask](../09-resources/r3-who-to-ask.qmd)
+- [Why you state the decision, not the output](../09-resources/r17-roles-independence-and-escalation.qmd#the-decision-not-the-output)
+- [What each score measures](../09-resources/r15-scoring-the-assurance-level.qmd#what-each-score-measures)
+- [Working to a deadline](../09-resources/r15-scoring-the-assurance-level.qmd#working-to-a-deadline)
+- [Passing results on with their caveats](../09-resources/r17-roles-independence-and-escalation.qmd#passing-results-on-with-their-caveats)
+:::

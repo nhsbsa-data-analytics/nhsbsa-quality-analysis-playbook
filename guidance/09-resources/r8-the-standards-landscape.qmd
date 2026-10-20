@@ -1,66 +1,25 @@
 ---
-title: "R8. The standards landscape"
-description: "Which standards apply to your analysis, and when each one bites."
+title: "R8. Which standards apply to you"
+description: "Which standards apply to your analysis, and from when."
 ---
 
+Several standards govern analysis in government. They overlap, and they are not all mandatory for
+all work.
 
-Which standards apply to NHSBSA analysis, and how they fit together.
-
-Several standards govern analysis in government. They overlap, they are not all mandatory for all
-work, and it is not obvious from their titles which apply to you.
-
-This section says what each is for and, more usefully, **when it bites**.
-
-## The short answer
-
-::: {.callout-note title="Which applies to your work" appearance="minimal" icon=false}
-<br>
-**All NHSBSA analysis** follows GovS 010 and the AQuA Book.
-
-**Official statistics** additionally follow the Code of Practice for Statistics. That is a narrower
-set of outputs than "everything we publish".
-
-**Analysis involving code** additionally follows the NHSBSA Analytical Code Assurance Playbook.
-
-**Appraisal and evaluation** additionally follow the Green and Magenta Books.
-:::
+## Which standards apply to your work
 
 {{< include /guidance/_partials/table-standards.qmd >}}
 
-Getting the boundary wrong is costly in both directions. Applying the full Code of Practice to a
-routine internal data request wastes effort the organisation does not have. Failing to apply it to
-an official statistic is a regulatory matter.
-
-## What each of them asks for
-
-The two that apply to everything are GovS 010 and the AQuA Book. The one that applies to
-official statistics as well is the Code of Practice for Statistics.
-[What each standard asks for](r9-what-each-standard-asks-for.qmd) sets out what is in each of
-them, and what RIGOUR means in full.
-
-## The ones that apply to particular work
-
-| Standard | What it covers | When it bites |
-|---|---|---|
-| **NHSBSA Analytical Code Assurance Playbook** | Version control, testing, peer review, readable and modular code, documentation, open sourcing | Whenever your analysis involves code |
-| **NHSBSA Data Science Playbook** | The workflow for Data Science initiatives: problem definition, assigning a critical friend, analysis, wrap up | Data Science initiatives |
-| **NHSBSA Open Data Standards** | How NHSBSA publishes open data | Open data releases |
-| **Green Book** | Appraisal of policies, programmes and projects: costs, benefits and risks of alternatives | Appraisal work |
-| **Magenta Book** | Evaluation: assessing an intervention's design, implementation and outcomes | Evaluation work |
-| **Orange Book** | Risk management principles and concepts | Assessing analytical risk. Referenced by GovS 010 section 4.2 |
-| **Government Data Quality Framework** | Managing and describing data quality | Where data quality is a material concern |
-| **Data and AI Ethics Framework** | Using data and AI appropriately and responsibly. Seven principles | See [ethics and transparency](r11-ethics-and-personal-data.qmd) |
-| **Algorithmic Transparency Recording Standard** | Publishing what an algorithmic tool does, what it rests on and who is accountable for it | Where a tool significantly influences an operational decision with public effect, or interacts with the public directly. Not for analytical models supporting broad policy-making |
-| **AI Playbook for the UK Government** | Ten principles for building, buying and using AI in government | Where your analysis builds on or uses an AI system |
-| **Introduction to AI assurance** (DSIT) | Assurance mechanisms for AI systems: risk assessment, algorithmic impact assessment, bias audit, compliance audit, conformity assessment, formal verification | Where an AI system has to be evaluated rather than just built |
+[What each standard asks for](r9-what-each-standard-asks-for.qmd) sets out what is in GovS 010,
+the AQuA Book and the Code of Practice for Statistics, and what RIGOUR means in full.
 
 ## If your analysis uses AI or an algorithmic tool
 
-This playbook covers analysis. It does not cover building or assuring AI systems, and you should not
-read it as though it does. What it can tell you is which obligations attach.
+This playbook does not cover building or assuring AI systems. These obligations attach where your
+analysis uses one.
 
 - **The Data and AI Ethics Framework applies, in full.** Its scope was extended to AI and algorithmic
-  technologies in December 2025 and its seven principles cover both. [Ethics and transparency](r11-ethics-and-personal-data.qmd)
+  technologies in December 2025 and its seven principles cover both. [Data ethics and personal data](r11-ethics-and-personal-data.qmd)
 - **The Algorithmic Transparency Recording Standard may apply, and the test is narrower than it
   sounds.** NHSBSA is in scope as an organisation, but within that the standard is mandatory only for
   tools with a significant influence on a decision-making process with public effect, or which
@@ -71,31 +30,15 @@ read it as though it does. What it can tell you is which obligations attach.
   [Algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) carries the test, the two roles the standard
   names, and what this playbook proposes for NHSBSA.
 - **The AI Playbook's ten principles apply to the system**, and DSIT's assurance mechanisms are how
-  it gets evaluated. Both are linked in [standards and further guidance](r4-standards-and-guidance.qmd).
+  it gets evaluated: risk assessment, algorithmic impact assessment, bias audit, compliance audit,
+  conformity assessment and formal verification. Both are linked in
+  [links to standards and guides](r4-standards-and-guidance.qmd).
 - **An AI system can still be Business Critical**, and if it is, [Business Critical analysis](../08-business-critical/index.qmd)
   applies on top of everything above.
 
-**The short version is that AI analysis is assured the same way as any other analysis**, plus the
-transparency duties named above. This playbook signposts the AI estate rather than duplicating it. Building and assuring an AI system is a different subject with its own
-guidance. A playbook that half-covers it would be worse than one that points at the guidance
-covering it properly.
-
-## How they fit together
-
-They are layers rather than alternatives, and they rarely conflict.
-
-GovS 010 sets the requirement. The AQuA Book explains how to meet it. The Code of Practice adds
-obligations for official statistics. The code assurance playbook adds obligations where there is
-code. The Green, Magenta and Orange Books add depth for particular kinds of work. The AI estate applies
-on top when a system rather than an analysis is what is being assured.
-
-**Where two sources appear to conflict, the more specific and more recent governs, and you should
-raise it.** If this playbook disagrees with a standard, the standard is right and this playbook needs
-fixing. Say so via the route in [who to ask](r3-who-to-ask.qmd).
+**Assure AI analysis the same way as any other analysis**, and add the transparency duties above.
 
 ## The five NHSBSA playbooks
-
-This is one of five, and they are designed to work together rather than overlap.
 
 | Playbook | Use it for |
 |---|---|
@@ -105,12 +48,9 @@ This is one of five, and they are designed to work together rather than overlap.
 | [Data Visualisation Standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/) | Charts, tables and dashboards, in the Digital, Data and Technology Playbook |
 | Official Statistics | Developing, maintaining and publishing official statistics. In development |
 
+: The five NHSBSA playbooks and what each is for
+
 If your work involves code, you need this playbook and the code assurance one. If it is a Data
 Science initiative, the Data Science Playbook is the one that sequences your work. If it produces a
 chart, a table or a dashboard, the Data Visualisation Standards say how it should look and how it
 should be labelled.
-
-## Where to find them
-
-Every standard named here is linked from
-[standards and further guidance](r4-standards-and-guidance.qmd).

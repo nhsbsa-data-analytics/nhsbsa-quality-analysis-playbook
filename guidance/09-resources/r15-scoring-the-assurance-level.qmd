@@ -1,0 +1,164 @@
+---
+title: "R15. Why the level is scored as it is"
+description: "Where the tool's scales come from, and what each level includes."
+---
+
+This explains where the scales of the [Analytical Assurance Decision Tool](../07-deciding-your-assurance-level/index.qmd) come from, why it scores as it does and what each level includes.
+
+## How the tool scores {#how-the-tool-scores}
+
+### Where the scales come from {#where-the-scales-come-from}
+
+The scales come from the NHSBSA Analytical Assurance Decision Tool, dated 13 October 2026. The impact scale covers the same ground as three of the AQuA Book factors: business criticality, relevance to the decision and effects on the public.[^src-aqua-book-section-3-1] NHSBSA has written its six impact dimensions in its own words.
+
+[Step 1, score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd) and [Step 2, score the likelihood](../07-deciding-your-assurance-level/score-the-likelihood.qmd) give the scales in the tool's own wording, shortened to the deciding phrases. Where the step pages and the tool differ, the tool governs.
+
+### What each score measures {#what-each-score-measures}
+
+The impact score is about what an error would do, not about how hard the work is. The likelihood score is about how easily the analysis could be wrong.
+
+### The Decision dimension at Level 3 and Level 4 {#the-decision-dimension}
+
+On the Decision dimension, the playbook has drawn one separation more sharply than the tool. The tool's own wording for Decision Levels 3 and 4 overlaps.
+
+The playbook puts the line at expected reliance. Level 4 is where decision makers would be expected to rely on the analysis to determine the decision.
+
+The tool points that way itself. It asks the person scoring to consider the extent to which the decision relies on the analysis. It reserves Level 4 for analysis relied on in determining the outcome, the resources allocated or the actions taken.
+
+Drawing that into a single deciding test is the playbook's own reading. It matters because a 4 on this dimension alone designates the work Business Critical.
+
+### The finance thresholds {#the-finance-thresholds}
+
+The tool marks its finance thresholds "tbc", pending alignment with the Standing Financial Instructions. It carries the Department of Health and Social Care's figure of £40 million alongside its own £35 million.
+
+The thresholds are the tool's, not a standard's. Because they are marked "tbc", the figure in force can change, and the tool is where the current figure is found.
+
+### AI-assisted work across three rows {#ai-assisted-work}
+
+Three rows of the likelihood scale deal with AI-assisted work.
+
+- **Analytical complexity.** AI-assisted coding does not by itself raise this score, because the row scores the method and not the tools.
+- **Novelty.** AI-assisted coding introduced into an existing process scores 2, moderate. AI as a substantive analytical component scores 3, high.
+- **Documentation and reproducibility.** The AI question in this row is the tool's own.
+
+Where AI-assisted methods are used, that row looks at the prompts, model outputs, validation steps and any resulting code, classifications or narrative. It asks whether they are documented "sufficiently for another competent analyst to reproduce or independently verify the outcome".
+
+The row does not score whether a tool was used. It scores whether somebody else could reach the same answer from what was kept.
+
+[Algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) sets out the rules for AI tools.
+
+### The highest score decides the level {#the-highest-score-wins}
+
+The highest single score decides the level, and scores are not averaged. This is the playbook's own rule, and no standard states it. Three reasons support it.
+
+- One high-risk answer is enough, because that risk is real however routine the rest of the work is.
+- Over-assuring one piece of analysis costs a few hours. Under-assuring a Business Critical one does not. The same reasoning supports taking the higher level where two answers both look defensible.
+- Averaging can leave a patient-facing output at Level 1 Standard. The illustration is an output produced by an experienced team from one clean data source. It is not an NHSBSA case.
+
+### Recording each score when you make it {#recording-each-score}
+
+Each score is recorded when it is made. The reasons are the playbook's own.
+
+- The level is finished while it can still shape the method.
+- A level recorded after the work is done only describes what was done. It cannot be explained to somebody six months later.
+- The level has to be settled before the assurance is planned, because a level agreed after the method is fixed cannot change the method.
+
+### Scoring the likelihood once the method is chosen {#the-likelihood-timing}
+
+The likelihood is scored at design, once the data and the method are settled. All six dimensions ask about the approach that has been chosen, so there is nothing firm to score until it is chosen.
+
+Likelihood turns on:
+
+- how complex the data and the analysis are
+- how much rests on assumptions
+- how novel the approach is
+- how much is done by hand
+- how well it is documented
+
+Business Critical work is the exception. [Settling the level at scoping](r16-what-makes-work-business-critical.qmd#settling-the-level-at-scoping) explains it.
+
+### The three prompts {#the-three-prompts}
+
+The three prompts catch work where the score alone is not the whole of the risk. They cost nothing to ask while the tool is open. None of them raises the level by itself.
+
+The ethics and transparency review asked for a trigger in the tool that prompts and does not escalate.
+
+The prompt on repeated decisions has its own reason. A one-off carries its assumptions once. A repeating output carries them until somebody checks.
+
+### Scoring the level instead of judging it {#scored-rather-than-judged}
+
+The level is scored rather than judged. Assurance is proportionate to the work.[^src-aqua-book-chapter-3] What makes a piece of analysis need more of it is a known list.[^src-aqua-book-section-3-1]
+
+The playbook uses a shorter list of seven factors:
+
+- the risks of its intended use
+- its type and complexity
+- the novelty of the approach
+- the importance of the issue
+- how central it is to the decision
+- the precision required
+- the resource available
+
+These seven are the playbook's own list. Table 3-1 in AQuA Book section 3.1 gives ten factors in different words, including the reuse of existing work, the longevity of the analysis, effects on the public and repeat runs of the same analysis.[^src-aqua-book-section-3-1]
+
+Scoring that list is how two people reach the same answer independently. It is also how the answer can be looked up six months later.
+
+### The eight model types {#the-eight-model-types}
+
+The list of eight types of analytical model is on [The eight types of analytical model](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model). For models used in decision making, GovS 010 section 6.11 says they should be robust and fit for purpose.[^src-govs-010-section-6-11]
+
+The type is not a seventh impact dimension, and it is not scored. It works as a check on the six impact scores. A model that allocates funds and a model that structures a concept carry very different consequences when they are wrong.
+
+A model can be Business Critical whatever its type. The impact it carries decides that, not where it sits in the list.
+
+Conceptual models, the last type in the list, are developed with a variety of problem-structuring techniques.
+
+## Reading and working to your level {#reading-and-working-to-your-level}
+
+### What Level 1 means {#what-level-1-means}
+
+Level 1 Standard is not "no assurance". Someone separate from the analyst, within the team, still checks the headline numbers. [Each level includes the checks of the levels below it](#each-level-includes-the-checks-below-it) lists how far apart the assurer and the analyst sit at each level.
+
+### Each level includes the checks of the levels below it {#each-level-includes-the-checks-below-it}
+
+Levels are cumulative. A Level includes everything the levels below it require. Level 3 includes the requirements of Levels 1 and 2, and Level 4 BCA includes all three.
+
+The independence of the assurer shows how each level adds to the one below.
+
+- Level 1 Standard: a colleague within the team checks the headline numbers.
+- Level 2 Enhanced: review by someone who was not involved in producing the work.
+- Level 3 Comprehensive: assurance from outside the team and publication of the quality assurance statement.
+- Level 4 BCA: a Lead Assurer from outside the delivering team, with external review.
+
+An older NHSBSA document may say Tier where the playbook says Level. They map one for one: Tier 3 is Level 3 Comprehensive. The word changed because the older word named one set of activities on its own, while a Level includes everything the levels below it require.
+
+### Where the checks by level come from {#where-the-checks-by-level-come-from}
+
+The names of the checks in the table on [Step 4, what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd) are NHSBSA's own. They come from the section "Required checks in each level" of the Analytical Assurance Decision Tool, which lists the names only. The "What that means here" column is this playbook's reading of each check.
+
+The tool lists 29 checks. Seven are first required at Level 1, nine at Level 2, eight at Level 3 and five at Level 4 BCA. Additional scenario testing appears at both Level 3 and Level 4.
+
+### Working to a deadline {#working-to-a-deadline}
+
+The assurance level is set by what the work needs, not by how much time there is. AQuA Book chapter 3 says assurance should be proportionate to the potential effect of the analysis and to its size and complexity.[^src-aqua-book-chapter-3]
+
+The tool expects assurance to be done under time pressure, not skipped. Level 1 checks are for low risk analyses "and when there is very limited time to carry out assurance". Both Level 2 and Level 3 carry "and for analyses with very limited time, if time permits".
+
+The same clause on two levels is not an order to drop to a lower level. Where there is little time for review or for putting issues right, the tool's working-at-pace row says to carry out the Level 1 activities and add further checks where time permits. It also says to document any omitted activities and to communicate the residual risks to decision makers. The level stands, and the assurance is fitted to the time available.
+
+Lowering the assurance level to meet a deadline does not resolve deadline pressure, but narrowing the question does. A narrower question answered properly is more useful than a broad one answered unreliably, and it is usually possible. Where it is not, the other option is to say plainly what assurance was not done.
+
+AQuA Book section 3.2 says that where time and resource constraints make full assurance impossible, addressing the areas of greatest risk should take priority. It says the analyst should tell the commissioner how the risks were addressed, what risks remain and the caveats.[^src-aqua-book-section-3-2] Section 4.2.1 says that where time constraints mean insufficient assurance has taken place, this should be explicitly acknowledged and reported in an assurance statement that sets out the known limitations and conditions.[^src-aqua-book-section-4-2-1]
+
+[^src-aqua-book-section-3-2]: [AQuA Book section 3.2](https://www.gov.uk/guidance/the-aqua-book#structured-assessment-of-business-risk-and-complexity)
+[^src-aqua-book-section-4-2-1]: [AQuA Book section 4.2.1](https://www.gov.uk/guidance/the-aqua-book#capacity)
+
+Quietly recording a lower level is not acceptable, because the assurance skipped would then never appear to have been needed.
+
+Assurance costs time and resource. Ensuring there is enough of both is a commissioner responsibility, not something the analyst absorbs quietly.
+
+A disagreement about the level goes to the Analytical Quality and Assurance Lead, as [where each disagreement goes](r17-roles-independence-and-escalation.qmd#where-each-disagreement-goes) sets out.
+
+[^src-aqua-book-chapter-3]: [AQuA Book chapter 3](https://www.gov.uk/guidance/the-aqua-book#proportionality)
+[^src-aqua-book-section-3-1]: [AQuA Book section 3.1](https://www.gov.uk/guidance/the-aqua-book#factors-for-determining-appropriate-assurance)
+[^src-govs-010-section-6-11]: [GovS 010 section 6.11](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#analytical-models)

@@ -1,10 +1,39 @@
 <script>
   // Skip link. Ported from the NHSBSA Analytical Code Assurance Playbook so the
   // two playbooks behave consistently. See artefacts/conflicts-register.md C6.
-  var a = document.createElement('a');
-  var linkText = document.createTextNode("Skip to main content");
-  a.appendChild(linkText);
-  a.classList.add("skip");
-  a.href = "#quarto-content";
-  document.body.insertBefore(a, document.body.firstChild);
+  //
+  // WCAG 2.2 2.4.1 Bypass Blocks. It goes to the main content, which is the element a reader
+  // wants, and not to the wrapper round the sidebar and the main content, which is where it went
+  // first and left the next Tab on the first link of the sidebar. The main content is not a
+  // control, so it cannot take focus unless it is told it may, and a link to a fragment only moves
+  // the place the next Tab starts from in some browsers. So the link moves focus itself.
+  (function () {
+    var TARGET = 'quarto-document-content';
+    var a = document.createElement('a');
+    var linkText = document.createTextNode("Skip to main content");
+    a.appendChild(linkText);
+    a.classList.add("skip");
+    a.setAttribute('href', '#' + TARGET);
+    document.body.insertBefore(a, document.body.firstChild);
+
+    a.addEventListener('click', function (event) {
+      var main = document.getElementById(TARGET);
+      if (!main) { return; }
+      event.preventDefault();
+      if (!main.hasAttribute('tabindex')) { main.setAttribute('tabindex', '-1'); }
+      // Focus without scrolling, then scroll to the top of the content. Left to itself, Chromium
+      // centres a focus target that is taller than the window when its top is below the fold,
+      // which at 400 percent zoom dropped the reader half-way down the page. scroll-padding-top
+      // in styles.css keeps the top clear of what is pinned.
+      main.focus({ preventScroll: true });
+      main.scrollIntoView({ block: 'start', inline: 'nearest', behavior: 'instant' });
+    });
+
+    // Quarto's navigation script, which runs when the page has loaded, rewrites every link on the
+    // page so that /index.html becomes /. On the twelve pages that are an index.html it turns this
+    // link's address into the folder's, which is not the address that is open, so a click that
+    // was not caught above would load the page again instead of jumping. The plain fragment is
+    // put back once that has run.
+    window.addEventListener('load', function () { a.setAttribute('href', '#' + TARGET); });
+  })();
 </script>

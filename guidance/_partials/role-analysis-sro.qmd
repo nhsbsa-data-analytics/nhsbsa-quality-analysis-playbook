@@ -1,4 +1,3 @@
-**Analysis Senior Responsible Officer.** Business Critical analysis and models only. A named person
-senior enough to take responsibility for the risks across the lifecycle, who confirms the work is
-suitable for its intended use before it is used. May be the
-commissioner.
+You are the Analysis Senior Responsible Officer if you are named for Business Critical analysis, including a Business Critical model. No one is appointed for work that is not Business Critical. You confirm the work is suitable for its intended use before it is used.
+
+You are a named person senior enough to take responsibility for the risks across the lifecycle. You may also be the commissioner. If you are, both sets of responsibilities apply.

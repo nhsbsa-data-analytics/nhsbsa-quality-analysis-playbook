@@ -1,24 +1,78 @@
 <script>
-  // How far down the fixed navigation bar reaches. Quarto measures the same thing in JavaScript
-  // to place the sticky sidebars, and writes it as an inline `top` rather than as anything CSS
-  // can read, so this measures it once more and publishes it as a custom property. Everything
-  // that has to sit below the bar then follows one number, and follows it through a resize and
-  // through the navbar wrapping onto a second line at narrower widths.
+  // How tall the fixed navigation bar and the title band are. Quarto measures the bar in
+  // JavaScript to place the sticky sidebars, and writes it as an inline `top` rather than as
+  // anything CSS can read, so this measures both again and publishes them as custom properties.
+  // styles.css decides whether either is pinned at the screen size in front of the reader, and
+  // turns these two heights into the offsets that everything else follows (--pb-header and
+  // --pb-pinned). They are measured again through a resize, through the bar wrapping onto a second
+  // line at narrower widths, and through the text size changing, because the heights change with
+  // all three.
   (function () {
     var root = document.documentElement;
+    var header = document.querySelector('#quarto-header');
+    var title = document.querySelector('#title-block-header.quarto-title-block');
+
     function measure() {
-      var header = document.querySelector('#quarto-header');
-      var title = document.querySelector('#title-block-header.quarto-title-block');
       var h = header ? Math.round(header.getBoundingClientRect().height) : 0;
-      // The pinned title block's own height, taken while it is still in its resting place so
-      // the measurement cannot compound.
       var t = title ? Math.round(title.getBoundingClientRect().height) : 0;
-      root.style.setProperty('--pb-header', h + 'px');
-      root.style.setProperty('--pb-pinned', (h + t) + 'px');
+      root.style.setProperty('--pb-header-h', h + 'px');
+      root.style.setProperty('--pb-title-h', t + 'px');
     }
     measure();
     addEventListener('resize', measure);
     // Fonts land after first paint and change the height of both bars.
     if (document.fonts && document.fonts.ready) { document.fonts.ready.then(measure); }
+    if (window.ResizeObserver) {
+      var observer = new ResizeObserver(measure);
+      if (header) { observer.observe(header); }
+      if (title) { observer.observe(title); }
+    }
+
+    // How much of the top of the screen is covered right now: the bar if it is fixed and the band
+    // if it is stuck. Below 992px wide, or on a short screen, neither is, and this is zero.
+    function pinned() {
+      var total = 0;
+      [header, title].forEach(function (el) {
+        if (!el) { return; }
+        var position = getComputedStyle(el).position;
+        if (position === 'fixed' || position === 'sticky') {
+          total += el.getBoundingClientRect().height;
+        }
+      });
+      return total;
+    }
+
+    // Bring a control reached by keyboard wholly into view. A browser counts a control as in view
+    // as soon as any part of it is, and does not move the page for one that is half below the
+    // bottom edge or half past the side of the table it sits in. That leaves its focus ring cut
+    // off, and the diagrams, the phase cards and the tables are far taller than any other control.
+    // WCAG 2.2 2.4.11 Focus Not Obscured at AA, and 2.4.12 at AAA, which asks that no part of it
+    // is hidden. A control that fits is moved the least distance that shows all of it, below
+    // whatever is pinned (the offset is scroll-padding-top in styles.css); one that is taller than
+    // the room there is has its top brought to the top of that room, so its first line and the
+    // start of its ring are what is seen. The move is instant, because the eye is already on the
+    // control. The navigation bar is fixed, so there is nothing to scroll to, and a pointer click
+    // is not keyboard focus, so neither is moved. A control in a sidebar scrolls the sidebar's own
+    // pane, which is what keeps the last link in it from sitting half under the pane's edge.
+    document.addEventListener('focusin', function (e) {
+      var el = e.target;
+      if (!el || !el.matches || el.matches('[tabindex="-1"]')) { return; }
+      if (!el.matches(':focus-visible')) { return; }
+      if (el.closest('#quarto-header, a.skip')) { return; }
+      var room = window.innerHeight - pinned() - 16;
+      var tall = el.getBoundingClientRect().height > room;
+      el.scrollIntoView({ block: tall ? 'start' : 'nearest', inline: 'nearest', behavior: 'instant' });
+    });
+
+    // When the address gains a fragment, Quarto moves the page up by the height of the navigation
+    // bar, on the assumption that the bar is fixed over the top of it. Where the bar is fixed
+    // that is still what happens. Where it is not, it is a block at the top of the page, and
+    // moving up by its height leaves the target that far down the screen, which on a 256px screen
+    // is most of the way to the bottom. This runs first and stops Quarto's own listener there.
+    window.addEventListener('hashchange', function (event) {
+      if (header && getComputedStyle(header).position !== 'fixed') {
+        event.stopImmediatePropagation();
+      }
+    });
   })();
 </script>

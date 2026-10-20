@@ -18,7 +18,7 @@ You can run the document by:
 
 ## Folder Structure
 
-The playbook is 30 pages across 11 sections, with a left sidebar that groups them into five bands
+The playbook is 38 pages across 10 sections, with a left sidebar that groups them into five bands
 by what a reader has come to do, and a Guidance menu that names the spine. Each section is one
 directory under `guidance`, numbered so the order is visible, and most hold a single `index.qmd`.
 Text
@@ -30,7 +30,7 @@ NHSBSA Producing Quality Analysis Playbook
 ├───guidance ...........................# Every page of the playbook, one directory per section
 |   ├───_partials ......................# Text written once and included in more than one place
 |   ├───_metadata.yml ..................# Settings applied to every page under guidance
-├───static .............................# The logo, the favicon, the diagrams with their draw.io sources, and the phase photographs
+├───static .............................# The logo, the favicon and the phase and role photographs
 ├───_extensions ........................# The iconify extension, used by the navigation bar
 ├───_filters ...........................# The Lua filter that numbers and names the citations
 ├───checks .............................# Scripts that assert what the site claims. See Accessibility below
@@ -43,6 +43,7 @@ NHSBSA Producing Quality Analysis Playbook
 ├───search.qmd .........................# Search, as a page with a form rather than an overlay widget
 ├───*.html .............................# Six small accessibility includes, each named for what it does
 ├───styles.css .........................# Styling, including the accessibility engineering
+├───run-locally.sh .....................# Renders the site and opens it, for running it on your own machine
 ├───CONTRIBUTE.md ......................# How to contribute
 ├───README.md ..........................# This file
 └───quality-analysis-playbook.Rproj ....# The R project file

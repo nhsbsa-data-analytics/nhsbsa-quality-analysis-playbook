@@ -1,74 +1,78 @@
 ---
 title: "Phase 1. Engagement and scoping"
-description: "Agree the question, the decision it informs, and the assurance level. About five minutes between you and your commissioner."
+description: "Agree the question and decision, then score the impact."
 ---
 
-You and your commissioner agree what is actually being asked, and how much assurance the answer
-needs. Everything later in the playbook follows from what you settle here.
+You and your commissioner agree the question and score the impact.
 
 ## What you do
 
-1. **Agree the decision this informs, and who makes it.** If nobody can name the decision, the
-   question is not scoped yet.
-2. **Write the question in one sentence.** If the request arrived as an output rather than a
-   question, say so and reframe it together. Challenging the framing is part of your job, not an
-   obstruction to it.
-3. **Agree the scope, the boundaries and the assumptions**, and talk to the people affected before
-   you settle the question.
-4. **Decide whether the work is Business Critical.** One impact dimension at 4 settles it. See
-   [Business Critical analysis](../08-business-critical/index.qmd).
-5. **Score the assurance level with your commissioner**, and write it down. See
-   [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd). About five
-   minutes.
+{{< include /guidance/_partials/step-levels-key.qmd >}}
 
-## Five questions worth asking before you start
+1. [Every level[:]{.visually-hidden}]{.pb-level} **Agree the decision this informs, and who makes it.**
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Write the question in one sentence.** If the request asks for an output, not a question, say
+   so and reframe it together.
+3. [Every level[:]{.visually-hidden}]{.pb-level} **Agree the scope, the boundaries and the assumptions**, and talk to the people affected before
+   you settle the question. Agree the deadline, the acceptable level of risk, and the levels of quality and certainty the answer needs.
+4. [Every level[:]{.visually-hidden}]{.pb-level} **Score the impact with your commissioner**, before the method is chosen, and write it down.
+   Score six dimensions, Level 1 to Level 4, and take the highest single level. Follow
+   [Step 1, score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd) in the
+   Analytical Assurance Decision Tool.
+5. [Every level[:]{.visually-hidden}]{.pb-level} **Check whether the work is Business Critical.** If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
 
-Each is cheaper to answer now than to find out later. The answers go in the same scoping record as
-everything else, not in a separate process.
+## Ask these five questions before you start
 
-- **What decision will this inform, and who makes it?** If nobody can name the decision, the
-  question is not scoped yet.
-- **Who could be affected by that decision**, in the data and beyond it?
+Record the answers in the specification.
+
+- **What decision will this inform, and who makes it?**
+- **Who could be affected by the decision the analysis informs**, in the data and beyond it?
 - **Are any groups under-represented in, or missing from, the data** you plan to use?
-- **What happens if the analysis is wrong?** The impact dimensions score this. Asking it in plain
-  words first usually gets a more honest answer than the grid does.
+- **What happens if the analysis is wrong?** Ask it in plain words before you score the impact.
 - **Is there an algorithmic tool in this?** If so, check now whether it needs a transparency
-  record, because one takes drafting and clearance. [The test is in algorithmic transparency and AI](../09-resources/r12-algorithmic-transparency-and-ai.qmd).
+  record, using [the transparency record test](../09-resources/r12-algorithmic-transparency-and-ai.qmd#check-whether-your-tool-needs-a-transparency-record). It does if the tool:
+  - has a significant influence on a decision-making process with public effect, or
+  - interacts directly with the general public.
 
-Where one of these raises a concern, record it rather than leaving it in an email.
+Where one of these raises a concern, record it.
 
-## What you leave behind
+## Outputs of this phase
 
 - The scope and specification, with the question in one sentence.
-- The completed assurance level decision sheet, attached to it.
+- The answers to the five questions.
+- The impact score, agreed with your commissioner and recorded in the specification.
 - The Business Critical answer, recorded either way.
+- The acceptable level of risk, and the levels of quality and certainty required.
 - Any ethics or data protection concern you raised, and what was decided.
+
+If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd). It lists the outputs Business Critical work adds.
 
 ## Ready for Phase 2 when
 
-- Your commissioner can state the decision the analysis supports.
+- Your commissioner can state the decision the analysis informs.
 - You can state the question in one sentence.
 - The Business Critical answer is written down.
-- The assurance level is agreed and written down.
+- The impact score is agreed and written down.
 
-If any of the four is missing, you are not ready to move on.
+For Business Critical work, also:
 
-::: {.callout-important title="Set the level early enough to change the method" appearance="minimal" icon=false}
-<br>
-The level has to be agreed before the method is chosen, so that it can shape the design rather
-than describe it.
+- The likelihood is scored and the Analytical Assurance Decision Tool is complete.
+- The Analysis Senior Responsible Officer is named and the register entry is made.
 
-If circumstances genuinely change, change the level and record why. Reuse is the most common
-reason: analysis built once and then run monthly is a different piece of work.
+## More detail in Resources
+
+::: {.more-detail}
+- [R11. Data ethics and personal data](../09-resources/r11-ethics-and-personal-data.qmd), for
+  an ethics or data protection concern raised at scoping
+- [Settling a Level 4 BCA level at scoping](../09-resources/r16-what-makes-work-business-critical.qmd#settling-the-level-at-scoping)
 :::
 
 ## Who does what in this phase
 
 | Role | In Phase 1 |
 |---|---|
-| **Analyst** | Clarify the real question. Document the scope, the boundaries and the assumptions. Score the assurance level |
+| **Analyst** | Clarify the real question. Document the scope, the boundaries and the assumptions. Score the impact |
 | **Critical friend** | Understand the brief, the context and how critical the work is |
-| **Commissioner** | State the decision, the deadline, and how certain the answer has to be. Agree the level |
+| **Commissioner** | State the decision the analysis informs, the deadline, and how certain the answer has to be. Score the impact with the analyst |
 | **Analysis Senior Responsible Officer** | Business Critical work only. Named here. Confirm the status and the register entry |
 
-[Next: Phase 2, design](../02-design/index.qmd)
+: What each role does in Phase 1, engagement and scoping

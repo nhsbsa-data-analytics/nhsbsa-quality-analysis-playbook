@@ -1,78 +1,153 @@
 ---
 title: "R9. What each standard asks for"
-description: "GovS 010, the AQuA Book, RIGOUR and the Code of Practice for Statistics, and what each one actually requires."
+description: "What each of the four standards actually asks for."
 ---
 
-Four documents sit behind this playbook. This page says what is in each of them.
-[The standards landscape](r8-the-standards-landscape.qmd) says which of them applies to your
+Three documents sit behind this playbook: GovS 010, the AQuA Book and the Code of Practice for
+Statistics. What each one requires is below, with the AQuA Book's RIGOUR principles in full.
+[Which standards apply to you](r8-the-standards-landscape.qmd) says which of them applies to your
 work, and when.
 
 ## GovS 010: Analysis
 
-The government functional standard for analysis. It sets out five principles, the governance and
-accountabilities that must exist, the analytical cycle in five stages, and **thirteen supporting
-practices**, which is where most of its detail sits.
+The government functional standard for analysis. It sets out five principles and the governance and
+accountabilities for analysis in an organisation. It also covers the analytical cycle, which it sets out in five
+stages, and **thirteen supporting practices**. This playbook sets
+the same cycle out as five phases. Delivery and sign-off are one phase, and review is added as the fifth.
 
 The thirteen are: public interest; inputs and methods; supporting decision-making; uncertainty;
 analytical verification and validation; documentation and record keeping; quality assurance;
 collaborative working; learning from experience; analytical models; statistics; appraisal and
 evaluation; and personal data.[^src-govs-010-sections-6-2-to-6-14] Every one of them has a section of
 this playbook that answers to it, and
-[where this playbook meets each standard](r14-meeting-the-standards.qmd) says which.
+[where each standard is met](r14-meeting-the-standards.qmd) says which.
 
-**What is binding.** The standard separates *shall*, a requirement, from *should*, a recommendation.
-*Shall* appears eleven times, once in the conventions table that defines it, and seven of the
-remaining ten require a different functional standard to be followed. Only three are substantive
-requirements, and they are set out in [the six principles](r7-the-six-principles.qmd). Everything else, the thirteen practices included,
-is a *should*: a departure you have to be able to explain rather than an option you may take or
-leave.
-
-**When it bites:** always. It applies to all analysis undertaken in government, whoever does it.
+**When it applies:** always. It applies to all analysis undertaken in government, whoever does it.
 
 NHSBSA is assessed against GovS 010, and this playbook is part of how NHSBSA meets it.
+
+### What is binding {#what-is-binding}
+
+GovS 010 separates *shall*, a requirement, from *should*, a recommendation. *Shall* appears eleven
+times in the whole document. One of the eleven is in the conventions table that defines the term.
+
+Seven of the remaining ten say that a different functional standard shall be followed: GovS 005
+Digital, GovS 008 Commercial or GovS 011 Communication. That leaves three substantive requirements:
+
+1. **The principles.** The standard puts them as "those engaged in analysis shall
+   ensure".[^src-govs-010-section-2] Five of the six principles in this playbook are the standard's own,
+   and [the six quality principles](r7-the-six-principles.qmd) names the clause each one answers to.
+2. **A senior officer accountable for analysis.** GovS 010 requires NHSBSA to have
+   a senior officer accountable for analysis as an activity.[^src-govs-010-section-4-1-3]
+3. **Analytical roles and accountabilities.** GovS 010 requires NHSBSA to define analytical roles in its governance
+   and management framework, and to assign them to people who can hold
+   them.[^src-govs-010-section-4-4-1] The standard describes those people as having appropriate
+   seniority, skills and experience.
+
+The first falls on the analyst. The other two fall on the organisation, separately from the four
+roles you hold on a piece of work.
+
+NHSBSA records who holds the other two in its governance and management framework, not in this
+playbook.
+
+Everything else in the standard is a *should*, the thirteen practices included. GovS 010 calls a *should* advisory. The AQuA Book adds that a *should* is met on a "comply or explain" basis,[^src-aqua-book-section-1-3] so a departure is a decision you can explain, not an option you may take or leave. That is why a departure and its reason are recorded.
+
+The sentence "All analysis shall be assured" is not from GovS 010. It comes from chapter 3 of
+[the AQuA Book](#the-aqua-book).[^src-aqua-book-chapter-3] The
+[Analytical Assurance Decision Tool](../07-deciding-your-assurance-level/index.qmd) states it as an
+instruction.
 
 ## The AQuA Book
 
 Guidance on producing quality analysis for government. Where GovS 010 sets the requirement, the
 AQuA Book says how to meet it.
 
-Four things in this playbook come from it. The analytical lifecycle, which is its four
-stages.[^src-aqua-book-section-5-2] The proportionality approach in [deciding your assurance
+Where the AQuA Book and GovS 010 overlap, the playbook follows the AQuA Book. That rule is the playbook's own.
+
+Four things in this playbook come from it. The analytical lifecycle, which the AQuA Book sets out in
+four stages.[^src-aqua-book-section-5-2] The proportionality approach in [deciding your assurance
 level](../07-deciding-your-assurance-level/index.qmd), which is its chapter
 3.[^src-aqua-book-chapter-3] Its four roles, which are the four in [roles and
 responsibilities](../06-roles/index.qmd).[^src-aqua-book-section-5-1] And the **RIGOUR**
 principles.[^src-aqua-book-section-1-3-5]
 
+Chapter 3 also states two requirements. All analysis shall be assured, and the assurer and the
+analyst shall be independent.[^src-aqua-book-chapter-3] The AQuA Book states further requirements with *shall* for the assurer, the approver and the analyst, in sections 5.1,[^src-aqua-book-section-5-1] 8.1.3,[^src-aqua-book-section-8-1-3] 9.1.2[^src-aqua-book-section-9-1-2] and 9.1.4.[^src-aqua-book-section-9-1-4]
+
+**When it applies:** always, as the practical companion to GovS 010.
+
+### Quality assurance and engagement in every phase {#quality-assurance-and-engagement-in-every-phase}
+
+The AQuA Book says that quality assurance activities should take place throughout an analytical
+project.[^src-aqua-book-section-5-2] It also says that an effective quality assurance process
+involves ongoing engagement between the commissioner and the analyst.
+
+The engagement is there to keep an appropriate balance between time, resource and quality. It is
+also there to build a shared understanding of the assurance activities required and the risks
+involved.
+
+In this playbook, quality assurance is:
+
+- planned in [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd)
+- designed in [Phase 2, design](../02-design/index.qmd)
+- done in [Phase 3, analysis](../03-analysis/index.qmd)
+- stated in [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd)
+- tested in [Phase 5, review](../05-review/index.qmd)
+
+Customer and stakeholder engagement runs through all five phases in the same way. The commissioner
+has a part in every phase.
+
 ## RIGOUR, in full
 
-**Repeatable.** For an analytical process to be considered "valid" it might reasonably be expected
-that for the "same" inputs and constraints the analysis produces the "same" outputs. Different
-analysts will consider the analytical problem differently, potentially resulting in differing
-results; but if any one approach is repeated the results should be as expected. Repeatable is not
-the same as automated, and
-[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) sets out the difference.
+**Repeatable.** For an analytical process to be considered valid we might reasonably expect that the analysis produces the same outputs for the same inputs and constraints. Different analysts might approach the analytical problem in different ways, while methods might include randomised processes. In such cases, exact matches are not guaranteed or expected. Taking this into account, repeatability means that if an approach is repeated the results should be as expected.
 
-**Independent.** To produce analysis that is free of prejudice or bias. In doing so, care should be
-taken to appropriately balance the views across all stakeholders and experts.
+**Independent.** Analysis should be (as far as possible) free of prejudice or bias. Care should be taken to balance views appropriately across all stakeholders and experts.
 
-**Grounded in reality.** Quality analysis takes the commissioner and analyst on a journey as views
-and perceptions are challenged and connections are made between the analysis and its real
-consequences. Connecting with reality in this way guards against failing to properly grasp the
-context of the problem being analysed.
+**Grounded in reality.** Quality analysis takes the Commissioner and Analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality like this guards against failing to properly grasp the context of the problem that is being analysed.
 
-**Objective.** Effective engagement and suitable challenge reduces potential bias and enables the
-commissioner and the analyst to be clear about the interpretation of the analytical results.
+**Objective.** Effective engagement and suitable challenge reduce the risk of bias and enables the Commissioner and the Analyst to be clear about the interpretation of results.
 
-**Uncertainty-managed.** [Uncertainties](r10-uncertainty.qmd) have been identified, managed
-and communicated throughout the analytical process.
+**Uncertainty-managed.** [Uncertainty](r10-uncertainty.qmd) is identified, managed and communicated throughout the analytical process.
 
-**Robust.** Provide the analytical result in the context of residual uncertainty and limitations in
-order to ensure it is used appropriately.
+**Robust.** Analytical results are error free in the context of residual uncertainty and accepted limitations that make sure the analysis is used appropriately.[^src-aqua-book-section-1-3-5]
 
-It is also the more prescriptive of the two documents, and by some margin. Read it as the stricter
-of the pair wherever they overlap.
+Repeatable is not the same as automated. [Reproducible and automated analysis compared](#reproducible-and-automated-analysis-compared) sets out the difference.
 
-**When it bites:** always, as the practical companion to GovS 010.
+### Reproducible and automated analysis compared {#reproducible-and-automated-analysis-compared}
+
+Repeatable is the first letter of RIGOUR.[^src-aqua-book-section-1-3-5] It does not mean automated:
+reproducible and automated analysis are not the same thing. Automation can contribute to
+reproducibility, and automation alone is not enough.
+
+Reproducible and automated analysis both aim at efficiency and reliability. They work on different
+parts of the process. Each has its own question:
+
+- **Reproducibility.** Can someone else, or even you later on, given the *same* inputs,
+  *understand* and *recreate* your work?
+- **Automation.** Can a computer *run* the analysis, with *any* valid inputs, with minimal or no
+  human intervention?
+
+Good practice is a fully reproducible analysis that includes a level of automation appropriate to
+the complexity and the effort of repeating it manually.
+
+The two differ on six considerations.
+
+| Consideration | Reproducible analysis | Automated analysis |
+|---|---|---|
+| **Primary goal** | Verifiability, transparency, reusability | Efficiency, scalability, speed |
+| **Main activities** | Documenting all steps and key decisions, managing versions | Scripting, scheduling, pipelines, monitoring |
+| **Does it require automation?** | No | Yes |
+| **Is it essential?** | Yes | No, but desirable, especially as an analysis grows in complexity |
+| **Testing the analysis** | Use static input data, for known results | Include tests that run automatically when the analysis changes |
+| **Consistency** | In results | In processes |
+
+: Reproducible and automated analysis side by side, one consideration to a row
+
+Three places go further:
+
+- [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/principles.html#reproducible), for the principle itself
+- [What is RAP?](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/#automation), for automation
+- the [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook), for testing analytical pipelines, documentation and a modular approach
 
 ## The Code of Practice for Statistics
 
@@ -95,26 +170,32 @@ Official Statistics beneath them.
 | 9. Be clear | Value | Present statistics to support appropriate interpretation |
 | 10. Be accessible | Value | Ensure statistics are accessible and freely available to all |
 
-**When it bites:** for official statistics, in full and as a regulatory requirement. NHSBSA official
+: Code of Practice for Statistics standards, their pillars and what producers must do
+
+**When it applies:** for official statistics, in full and as a regulatory requirement. NHSBSA official
 statistics are listed in the
 [statistical collections](https://www.nhsbsa.nhs.uk/statistical-collections).
 
-::: {.callout-note title="You may apply the Code voluntarily" appearance="minimal" icon=false}
-<br>
+### You may apply the Code voluntarily
+
 Those producing data, statistics or analysis that is **not** official statistics may still apply the
 Code to demonstrate a commitment to trustworthiness, quality and public value.[^src-govs-010-section-6-12]
 
 That is worth considering for anything published or quoted externally. It is a choice, not an
 obligation, and choosing it should be a deliberate decision rather than an accident.
-:::
 
-**Standards 5, 6 and 7 are what most of this playbook is about.** Following
-[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) is how NHSBSA
-meets them in practice.
+[Where each standard is met](r14-meeting-the-standards.qmd) says which part of the playbook covers each of the ten Standards.
 
-[^src-aqua-book-chapter-3]: AQuA Book chapter 3
-[^src-aqua-book-section-1-3-5]: AQuA Book section 1.3.5
-[^src-aqua-book-section-5-1]: AQuA Book section 5.1
-[^src-aqua-book-section-5-2]: AQuA Book section 5.2
-[^src-govs-010-section-6-12]: GovS 010 section 6.12
-[^src-govs-010-sections-6-2-to-6-14]: GovS 010 sections 6.2 to 6.14
+[^src-aqua-book-chapter-3]: [AQuA Book chapter 3](https://www.gov.uk/guidance/the-aqua-book#proportionality)
+[^src-aqua-book-section-1-3-5]: [AQuA Book section 1.3.5](https://www.gov.uk/guidance/the-aqua-book#rigour)
+[^src-aqua-book-section-5-1]: [AQuA Book section 5.1](https://www.gov.uk/guidance/the-aqua-book#roles-and-responsibilities-1)
+[^src-aqua-book-section-1-3]: [AQuA Book section 1.3](https://www.gov.uk/guidance/the-aqua-book#how-to-use-this-book)
+[^src-aqua-book-section-8-1-3]: [AQuA Book section 8.1.3](https://www.gov.uk/guidance/the-aqua-book#the-assurers-responsibilities-2)
+[^src-aqua-book-section-9-1-2]: [AQuA Book section 9.1.2](https://www.gov.uk/guidance/the-aqua-book#the-analysts-responsibilities-3)
+[^src-aqua-book-section-9-1-4]: [AQuA Book section 9.1.4](https://www.gov.uk/guidance/the-aqua-book#the-approvers-responsibilities-3)
+[^src-aqua-book-section-5-2]: [AQuA Book section 5.2](https://www.gov.uk/guidance/the-aqua-book#the-analytical-lifecycle)
+[^src-govs-010-section-2]: [GovS 010 section 2](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#principles)
+[^src-govs-010-section-4-1-3]: [GovS 010 section 4.1.3](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#governance-and-management-of-analysis-in-an-organisation)
+[^src-govs-010-section-4-4-1]: [GovS 010 section 4.4.1](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#overview-1)
+[^src-govs-010-section-6-12]: [GovS 010 section 6.12](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#stats)
+[^src-govs-010-sections-6-2-to-6-14]: [GovS 010 sections 6.2 to 6.14](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#Six)

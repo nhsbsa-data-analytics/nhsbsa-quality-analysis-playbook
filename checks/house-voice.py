@@ -5,7 +5,7 @@
 
 Standard library only.
 
-Seven assertions, over every page the playbook ships and every diagram drawn on it:
+Twelve assertions, over every page the playbook ships and every diagram drawn on it:
 
   1. no curly quotation marks or apostrophes in prose
   2. no em dashes in prose
@@ -14,6 +14,11 @@ Seven assertions, over every page the playbook ships and every diagram drawn on 
   5. the scan actually reached the pages and the diagrams, so a passing run means something
   6. no phrase that talks down to the reader, whatever their role
   7. no table cell with a run of words too long to read in a narrow column
+  8. every page's one-line description, which sits under its title, is short enough to stay one line
+  9. every step a phase page tells you to do says which levels must do it
+ 10. the Quick start on the home page is one line per phase, Phase 1 to Phase 5 in order
+ 11. the rule for work with an impact of 4 is stated on the Business Critical page, not restated
+ 12. the Phase 1 steps NHSBSA quoted as strong examples are still worded as they quoted them
 
 The first is here because the playbook had twelve curly characters in five files and nobody saw
 them. They arrive one paste at a time, from a Word document or a web page, and they are invisible
@@ -112,6 +117,43 @@ PATRONISING = [
 # runs, so a long cell that is laid out in short lines passes, which is the behaviour wanted.
 CELL_RUN = 40
 
+# The line under a page's title is its description, and it is the first prose on every page. NHSBSA
+# asked for the main parts not to be text heavy, and 29 of the 43 descriptions ran past 80
+# characters, up to 143, so that on a wide window the title band held a sentence of its own and on a
+# narrow one it held three lines. At the measure the site sets, 66 characters is one line.
+DESCRIPTION_MAX = 66
+
+# ------------------------------------------------------------------ assertions 9 to 11
+# NHSBSA's usability review (observation 5) found it hard "to distinguish what is mandatory, what
+# is recommended and what is simply explanatory". Each numbered step under What you do on a phase
+# page therefore opens with a mark naming the work that must do it, taken from Step 4 and the
+# Decision Tool's checks by level. A step added without one is a step whose status the reader has
+# to guess again.
+PHASE_PAGES = ['guidance/01-engagement-and-scoping/index.qmd', 'guidance/02-design/index.qmd',
+               'guidance/03-analysis/index.qmd', 'guidance/04-delivery-and-sign-off/index.qmd',
+               'guidance/05-review/index.qmd']
+LEVEL_MARK = re.compile(r'^\d+\. \[(?:Every level|From Level 2|From Level 3|Level 4 BCA)\[:\]\{\.visually-hidden\}\]\{\.pb-level\} ')
+# The same review asked for the opening to say where to start (observation 2). The Quick start is
+# the five phases in order, one line each, with scoring inside Phase 1 and Phase 2 rather than four
+# steps of its own.
+QUICK_START_PHASES = [p.replace('.qmd', '.html') for p in PHASE_PAGES]
+# The illustrative feedback (theme 7) named "repeated explanations of Level 4" and "of why levels
+# are decided at scoping". The rule lives on the Business Critical page; everywhere else says "If
+# an impact dimension scored 4, go to Business Critical analysis". These are the shapes it was
+# restated in, about twenty times. Resources explain the rule and the diagram descriptions describe
+# a picture that shows it, so both are left to say it.
+RESTATED_L4 = re.compile(r'likelihood (?:now, )?at scoping|likelihood too|at scoping (?:too|instead)'
+                         r'|at scoping for Business Critical|at scoping where an impact dimension'
+                         r'|unless scoping settled|read your level now', re.I)
+# NHSBSA's illustrative feedback quoted these Phase 1 steps as strong examples: they "begin with a
+# clear action, focus on what the user must do, avoid unnecessary explanation, support scanning".
+# The first was later reworded to "Agree the purpose of the analysis, and who will act on it" and
+# nothing noticed. Their third example, "Score the assurance level with your commissioner", is now
+# "Score the impact with your commissioner", because the level is finished at design.
+PRAISED = ('Agree the decision this informs, and who makes it.', 'Write the question in one sentence.')
+L4_HOME = ('guidance/08-business-critical/', 'guidance/09-resources/', 'guidance/_partials/bca-',
+           'guidance/_partials/diagram-')
+
 
 def table_runs(text):
     """Every stretch of words a reader meets without a line break, inside a table cell."""
@@ -141,7 +183,8 @@ def drawings():
     """The diagrams, which ship and whose labels a reader reads as prose.
 
     Two directories, named rather than walked: `artefacts` is in SKIP_DIRS because everything
-    else under it is a binary or a note, and `static/diagrams` holds the playbook's own. Both
+    else under it is a binary or a note, and `static/diagrams` would hold the playbook's own, if it
+    carried any. It carries none now, so the walk finds only the boards. Both
     the draw.io source and the SVG render are read. The two carry the same words, so a mark
     appears twice and is reported twice, which is right: both files go to NHSBSA."""
     for d in (ROOT / 'artefacts' / 'service-design', ROOT / 'static' / 'diagrams'):
@@ -179,7 +222,11 @@ def main():
     for f in pages():
         rel = str(f.relative_to(ROOT))
         text = f.read_text(encoding='utf-8')
-        low = text.lower()
+        # Flattened, because a phrase on this list can fall across a line break and the
+        # search would miss it. "not in a document nobody opens" sat in 05-review for
+        # weeks with "nobody" ending one line and "opens" starting the next, and this
+        # check passed on it every time.
+        low = ' '.join(text.split()).lower()
         for phrase in PATRONISING:
             i = low.find(phrase)
             if i >= 0:
@@ -192,12 +239,74 @@ def main():
                              'deciding phrase and put the detail after a <br>, or take it out of '
                              'the table: %r'
                              % (rel, len(run.split()), run[:72]))
+    wordy = []
+    for f in pages():
+        front = re.match(r'---\n(.*?)\n---', f.read_text(encoding='utf-8'), re.S)
+        d = re.search(r'^description:\s*"([^"\n]*)"\s*$', front.group(1), re.M) if front else None
+        if d and len(d.group(1)) > DESCRIPTION_MAX:
+            wordy.append('%s: %d characters, %r' % (f.relative_to(ROOT), len(d.group(1)), d.group(1)[:60]))
+    if wordy:
+        fail.append('%d page description(s) run past %d characters, so the line under the title is more '
+                    'than one line. Say what the page is for in fewer words:' % (len(wordy), DESCRIPTION_MAX))
+        fail.extend('    ' + x for x in sorted(wordy))
     if talking_down:
         fail.append('%d phrase(s) talk down to the reader:' % len(talking_down))
         fail.extend('    ' + x for x in sorted(set(talking_down)))
     if heavy:
         fail.append('%d table cell(s) are too long to read in a column:' % len(heavy))
         fail.extend('    ' + x for x in sorted(set(heavy)))
+
+    # Assertion 9. Every phase step carries its level mark.
+    unmarked = []
+    for rel in PHASE_PAGES:
+        text = (ROOT / rel).read_text(encoding='utf-8')
+        m = re.search(r'^## What you do\n(.*?)(?=^## )', text, re.S | re.M)
+        if not m:
+            unmarked.append('%s: no What you do section' % rel)
+            continue
+        steps = [l for l in m.group(1).splitlines() if re.match(r'^\d+\. ', l)]
+        if not steps:
+            unmarked.append('%s: no numbered steps under What you do' % rel)
+        unmarked.extend('%s: %r' % (rel, l[:60]) for l in steps if not LEVEL_MARK.match(l))
+    if unmarked:
+        fail.append('%d phase step(s) do not say which levels must do them. Open the step with '
+                    '[Every level[:]{.visually-hidden}]{.pb-level}, or From Level 2, from Step 4:'
+                    % len(unmarked))
+        fail.extend('    ' + x for x in unmarked)
+
+    # Assertion 10. The Quick start is the five phases, in order, one line each.
+    home = (ROOT / 'index.qmd').read_text(encoding='utf-8')
+    qs = re.search(r'^## Quick start\n(.*?)(?=^## )', home, re.S | re.M)
+    items = re.findall(r'<li>\s*<h3><a href="([^"]+)">.*?</h3>\s*<p>(.*?)</p>\s*</li>',
+                       qs.group(1), re.S) if qs else []
+    if [h for h, _ in items] != QUICK_START_PHASES:
+        fail.append('the Quick start is not the five phases in order, one item each. It lists %s'
+                    % ([h for h, _ in items] or 'nothing'))
+    for href, line in items:
+        if len(re.findall(r'[.!?](?:\s|$)', re.sub(r'<[^>]+>', '', line))) > 1:
+            fail.append('the Quick start line for %s runs past one sentence' % href)
+
+    # Assertion 12. NHSBSA's own examples keep their wording.
+    phase1 = ' '.join((ROOT / PHASE_PAGES[0]).read_text(encoding='utf-8').split())
+    for line in PRAISED:
+        if '**%s**' % line not in phase1:
+            fail.append('Phase 1 no longer has the step %r, which NHSBSA quoted as a strong example. '
+                        'Put their wording back' % line)
+
+    # Assertion 11. The Level 4 rule is stated once.
+    restated = []
+    for f in pages():
+        rel = str(f.relative_to(ROOT))
+        if not rel.startswith('guidance/') and rel != 'index.qmd' or rel.startswith(L4_HOME):
+            continue
+        low = ' '.join(f.read_text(encoding='utf-8').split())
+        for m in RESTATED_L4.finditer(low):
+            restated.append('%s: %r' % (rel, low[max(0, m.start() - 30):m.end() + 20]))
+    if restated:
+        fail.append('%d place(s) restate the rule for an impact of 4 instead of pointing at it. Say '
+                    '"If an impact dimension scored 4, go to Business Critical analysis":'
+                    % len(restated))
+        fail.extend('    ' + x for x in restated)
 
     broken = []
     for f in pages():
@@ -253,7 +362,9 @@ def main():
         fail.append('only %d page(s) were scanned, which is fewer than the playbook has. A pass '
                     'here would mean the scan missed the pages, not that the pages are clean'
                     % scanned)
-    if drawn < 36:
+    # Eleven boards, each a .drawio source and an .svg render: twenty-two files. The playbook's own
+    # twelve diagrams, which made the floor thirty-six, were removed.
+    if drawn < 22:
         fail.append('only %d drawing(s) were scanned, which is fewer than the delivery ships. A '
                     'pass here would mean the walk missed them, not that they are clean' % drawn)
     for name in EXCLUDED:
@@ -276,6 +387,11 @@ def main():
     print('  ok  no phrase that talks down to the reader, over %d listed shape(s)'
           % len(PATRONISING))
     print('  ok  no table cell runs more than %d words without a break' % CELL_RUN)
+    print('  ok  every page description is %d characters or fewer' % DESCRIPTION_MAX)
+    print('  ok  every step on the %d phase pages says which levels must do it' % len(PHASE_PAGES))
+    print('  ok  the Quick start is the five phases in order, one line each')
+    print('  ok  the rule for an impact of 4 is stated on the Business Critical page and pointed at elsewhere')
+    print('  ok  the %d Phase 1 steps NHSBSA quoted as strong examples keep their wording' % len(PRAISED))
     for name in skipped:
         print('  --  %s not scanned: %s' % (name, EXCLUDED[name]))
 

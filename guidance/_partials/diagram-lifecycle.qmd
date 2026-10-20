@@ -1,24 +1,18 @@
-[![](/static/diagrams/03-analytical-lifecycle.png){fig-alt="The analytical lifecycle: five phases. Five phases drawn as a circuit and read clockwise, each phase in a filled box. Phases 1, 2 and 3 run left to right across the top, an arrow comes down the right-hand side to Phase 4, an arrow runs back along the bottom to Phase 5, and a green arrow goes up the left-hand side from Phase 5 to Phase 1, closing the loop. Phase 5 is green and the other four are blue. Inside the circuit it says what Phase 5 finds is what the next piece of work starts from. A panel below names the two things that are not phases. Every phase is written out below the picture."}](/static/diagrams/03-analytical-lifecycle.svg){.diagram-open}
+[![[**The analytical lifecycle.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/01-analytical-lifecycle.png){.nhsuk-image__img width=680 height=516 fig-alt="The analytical lifecycle: five phases in a circuit, with the lessons from review going into the next scoping."}](/static/diagrams/01-analytical-lifecycle.svg){.diagram-open aria-label="The analytical lifecycle: five phases in a circuit, with the lessons from review going into the next scoping. Opens the diagram on its own page. Described in words below."}
 
-[Select the diagram to open it full size. The full-size copy scales to any zoom without blurring, and its labels can be searched and copied.]{.diagram-hint}
-<details>
-<summary>Text description of this diagram</summary>
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
 
-Five phases drawn as a circuit, read clockwise, each phase in a filled box. Phases 1, 2 and 3 run
-left to right across the top. An arrow comes down the right-hand side to Phase 4. An arrow runs
-back along the bottom to Phase 5. A green arrow goes up the left-hand side from Phase 5 to Phase 1,
-closing the loop. Phase 5 is green and the other four are blue, which marks the phase that closes
-the circuit and is also what the label and the green arrow say.
+Five phases drawn as a circuit, read clockwise, each in a filled box. Phases 1, 2 and 3 run left
+to right across the top. An arrow comes down the right-hand side to Phase 4. An arrow runs back
+along the bottom to Phase 5. A green arrow goes up the left-hand side from Phase 5 to Phase 1,
+closing the loop, and is marked: lessons go into the next scoping. Phase 1 is engagement and scoping,
+Phase 2 design, Phase 3 analysis, Phase 4 delivery and sign-off, and Phase 5 review. Phase 5 is green
+and the other four are blue.
 
-1. **Engagement and scoping.** Agree the question, the decision it informs, and the assurance level.
-2. **Design.** Choose the method, and plan the assurance the level asks for.
-3. **Analysis.** Do the work, check it, and have it reviewed.
-4. **Delivery and sign-off.** Hand it over with its caveats, and get it approved.
-5. **Review.** Ask whether it worked, and whether it is still right.
+A panel below, headed "running through all five phases", reads: quality assurance and customer and
+stakeholder engagement.
 
-Inside the circuit it reads: what Phase 5 finds is what the next piece of work starts from.
-
-A panel below, headed "running through all five", reads: quality assurance, and customer and
-stakeholder engagement. Neither is a phase. Both run from Phase 1 to Phase 5.
-
+</div>
 </details>

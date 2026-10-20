@@ -21,10 +21,10 @@ toc: false
 
 <noscript>
   <p><strong>Searching needs JavaScript, and it is turned off.</strong> Every page is in the
-  sidebar on the left and in the Guidance menu at the top, and
-  <a href="guidance/00-how-to-use/index.html">how to use this playbook</a> carries a contents
-  contents table, a table of what to read for a particular subject, and a table of
-  thirteen kinds of work and where each one starts.</p>
+  sidebar on the left, the glossary ends with
+  <a href="guidance/09-resources/r1-glossary.html#where-to-find-a-topic">a table of topics and
+  where each is covered</a>, and <a href="guidance/07-deciding-your-assurance-level/check-it-applies.html">check
+  the playbook applies</a> has a table of thirteen kinds of work and where each one starts.</p>
 </noscript>
 
 <script>
@@ -48,6 +48,15 @@ toc: false
   // they used a different word for it. Written as strict JSON so that
   // `checks/search.py` can read it and fail the build if a phrase on the right
   // stops appearing in the playbook.
+  //
+  // Widened on 16 October 2026 against 147 queries written as a reader would type them rather
+  // than as the playbook words them. Nineteen returned nothing: "artificial intelligence",
+  // "ChatGPT", "generative AI" and "LLM" for the section on using AI tools; "mistake" and
+  // "retraction" for a published figure that is wrong; "anonymisation" for statistical
+  // disclosure control; "retire" for decommissioning; "urgent" and "rush" for work with very
+  // limited time; "acronym", singular, where only the plural was here. Each entry below was
+  // measured: the phrase on the right is in the index, and the entry reaches pages the typed
+  // word does not.
   var ALSO = {
     "sro": ["Analysis Senior Responsible Officer"],
     "sros": ["Analysis Senior Responsible Officer"],
@@ -55,28 +64,85 @@ toc: false
     "senior responsible owner": ["Analysis Senior Responsible Officer"],
     "pq": ["Parliamentary Question"],
     "pqs": ["Parliamentary Question"],
-    "foi": ["Freedom of Information"],
-    "hop": ["Head of Profession for Statistics"],
+    "hop": ["Lead Official for Statistics", "Head of Profession for Statistics"],
     "aqal": ["Analytical Quality and Assurance Lead"],
     "qa": ["quality assurance"],
     "bca": ["Business Critical"],
+    "atrs": ["Algorithmic Transparency Recording Standard"],
+    "rap": ["Reproducible Analytical Pipelines"],
+    "sdc": ["statistical disclosure control"],
+    "v&v": ["verification and validation"],
+    "cop": ["Code of Practice for Statistics"],
+    "ig": ["information governance"],
+    "osr": ["Office for Statistics Regulation"],
+    "uksa": ["UK Statistics Authority"],
+    "wcag": ["accessibility"],
+    "gdpr": ["personal data"],
+    "cpd": ["training"],
+    "llm": ["Using AI tools to do the analysis"],
+    "llms": ["Using AI tools to do the analysis"],
+    "genai": ["Using AI tools to do the analysis"],
     "tier": ["assurance level"],
     "tiers": ["assurance level"],
     "tiered": ["assurance level"],
     "tiering": ["assurance level"],
-    "v&v": ["verification and validation"],
-    "sdc": ["statistical disclosure control"],
-    "atrs": ["Algorithmic Transparency Recording Standard"],
-    "rap": ["Reproducible Analytical Pipelines"],
+    "matrix": ["assurance level"],
+    "grade": ["assurance level"],
+    "grading": ["assurance level"],
+    "banding": ["assurance level"],
+    "dashboard": ["Score the impact"],
     "signoff": ["sign-off"],
-    "cop": ["Code of Practice for Statistics"],
-    "ig": ["information governance"],
-    "peer reviewer": ["peer review"],
     "sign off": ["sign-off"],
-    "osr": ["Office for Statistics Regulation"],
-    "uksa": ["UK Statistics Authority"],
+    "peer reviewer": ["peer review"],
+    "assurer": ["critical friend"],
+    "second opinion": ["critical friend"],
+    "qa statement": ["quality assurance statement"],
+    "acronym": ["Glossary"],
     "acronyms": ["Glossary"],
-    "jargon": ["Glossary"]
+    "abbreviation": ["Glossary"],
+    "abbreviations": ["Glossary"],
+    "jargon": ["Glossary"],
+    "terminology": ["Glossary"],
+    "artificial intelligence": ["AI"],
+    "generative ai": ["Using AI tools to do the analysis"],
+    "chatgpt": ["Using AI tools to do the analysis"],
+    "copilot": ["Using AI tools to do the analysis"],
+    "chatbot": ["Using AI tools to do the analysis"],
+    "mistake": ["turns out to be wrong"],
+    "mistakes": ["turns out to be wrong"],
+    "retraction": ["correction"],
+    "withdraw": ["correction"],
+    "anonymisation": ["statistical disclosure control"],
+    "anonymised": ["statistical disclosure control"],
+    "pseudonymisation": ["statistical disclosure control"],
+    "small numbers": ["statistical disclosure control"],
+    "retire": ["decommission"],
+    "retired": ["decommission"],
+    "switch off": ["decommission"],
+    "urgent": ["very limited time"],
+    "rush": ["very limited time"],
+    "rushed": ["very limited time"],
+    "representation": ["under-represented"],
+    "data protection act": ["personal data"],
+    "screen reader": ["accessibility"],
+    "confidence interval": ["uncertainty"],
+    "error bars": ["uncertainty"],
+    "margin of error": ["uncertainty"],
+    "customer": ["commissioner"],
+    "requester": ["commissioner"],
+    "stakeholder": ["commissioner"],
+    "proforma": ["project record"],
+    "paperwork": ["project record"],
+    "audit trail": ["project record"],
+    "scope creep": ["out of scope"],
+    "handover": ["delivery and sign-off"],
+    "publication": ["publish"],
+    "open data": ["publish"],
+    "model register": ["Business Critical"],
+    "lessons learnt": ["lessons learned"],
+    "post mortem": ["lessons learned"],
+    "retrospective": ["lessons learned"],
+    "upskilling": ["training"]
   };
 
   // The needle, as a regular expression that cannot be broken by what somebody types.
@@ -128,6 +194,34 @@ toc: false
     return Object.prototype.hasOwnProperty.call(ALSO, key) ? ALSO[key] : [];
   }
 
+  // The same map, keyed by the stem of each single word in it, built once.
+  //
+  // expand() keys on the whole query, which is right for a phrase like "senior responsible
+  // owner" and wrong for every query with an ordinary word beside the abbreviation. Measured on
+  // 16 October 2026: "sro" found 39 pages and "sro responsibilities" found none, because every
+  // word of a query has to be somewhere in the entry, and "SRO" is nowhere in this playbook. So
+  // adding a word made the search worse. The same went for "pq deadline", "ig advice", "hop sign
+  // off", "sdc protocol", "v&v activities", "tiering rules" and "signoff level 2", every one of
+  // which returned nothing while the abbreviation alone returned plenty.
+  //
+  // Keyed by the stem because terms() stems what was typed before it gets here, so "anonymised"
+  // arrives as "anonymis" and would otherwise miss an entry spelled out in full.
+  var ALSO_STEM = {};
+  Object.keys(ALSO).forEach(function (k) {
+    // Phrases are matched on the whole query instead. An ampersand is kept here, because
+    // terms() keeps it too, so "v&v activities" arrives as two words and the first is a key.
+    if (k.indexOf(" ") >= 0) { return; }
+    var s = stem(k);
+    if (!Object.prototype.hasOwnProperty.call(ALSO_STEM, s)) { ALSO_STEM[s] = []; }
+    ALSO[k].forEach(function (alt) {
+      if (ALSO_STEM[s].indexOf(alt) < 0) { ALSO_STEM[s].push(alt); }
+    });
+  });
+
+  function expandTerm(w) {
+    return Object.prototype.hasOwnProperty.call(ALSO_STEM, w) ? ALSO_STEM[w] : [];
+  }
+
   // Rank: the title first, then the heading, then the body. Somebody searching "uncertainty"
   // wants the section called uncertainty above the nine pages that mention the word.
   function score(entry, re) {
@@ -147,6 +241,13 @@ toc: false
     var ts = terms(q), n = 0, all = ts.length > 0;
     for (var i = 0; i < ts.length; i++) {
       var s = score(entry, needle(ts[i]));
+      if (s === 0) {
+        // The playbook does not use this word anywhere. Try what it calls the thing instead,
+        // at half weight, so the word counts as found and the rest of the query still applies.
+        expandTerm(ts[i]).forEach(function (alt) {
+          s += score(entry, needle(alt)) / 2;
+        });
+      }
       if (s === 0) { all = false; }
       n += s;
     }
@@ -228,8 +329,8 @@ toc: false
 
     if (hits.length === 0) {
       listEl.innerHTML = "<p>Try a shorter word, or open "
-        + "<a href=\"guidance/00-how-to-use/index.html\">how to use this playbook</a>, which lists "
-        + "every section and the subjects that sit inside one.</p>";
+        + "<a href=\"guidance/09-resources/r1-glossary.html#where-to-find-a-topic\">the table of topics</a> "
+        + "at the end of the glossary, or use the sidebar, which lists every page.</p>";
       return;
     }
 

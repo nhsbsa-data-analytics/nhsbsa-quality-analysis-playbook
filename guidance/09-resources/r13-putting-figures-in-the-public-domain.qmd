@@ -1,6 +1,6 @@
 ---
-title: "R13. Putting figures into the public domain"
-description: "Intelligent transparency, being open about how a result was reached, and where NHSBSA publishes analysis."
+title: "R13. Publishing analysis"
+description: "Intelligent transparency, and where NHSBSA publishes analysis."
 ---
 
 Publishing a figure puts it beyond your control. This page carries what that asks of you, and
@@ -10,7 +10,6 @@ where NHSBSA analysis is published.
 
 The Code of Practice for Statistics sets out **intelligent transparency**: taking an open, clear and accessible approach to the use of data, statistics and wider analysis in
 the public domain. It is the default, not a decision to be made each time.
-
 
 **It binds more than official statistics.** The Code's Standards for the Public Use of Statistics, Data and Wider Analysis apply to public
 bodies using statistics, data and wider analysis in the public domain. They apply to everyone
@@ -38,15 +37,13 @@ accuracy, so the public can understand the basis for the claims made.
 **3. Decision making and leadership.** Seek and use impartial, expert advice when using figures in
 the public domain.
 
-::: {.callout-important title="The one that catches people out" appearance="minimal" icon=false}
-<br>
-Quoting an unpublished number in public starts a clock. Under equality of access it should be
-published as soon as possible, ideally the same day, because until it is published nobody can check
-the claim made from it.
+### Quoting an unpublished figure in public commits you to publishing it
+
+Under equality of access, a number quoted in public before it is published should be published as soon
+as possible, ideally the same day, because until it is published nobody can check the claim made from it.
 
 If an analysis is going to be quoted before it is published, that is a conversation to have while
 the analysis is being scoped, not after the quotation appears.
-:::
 
 ## Transparency of the analysis itself
 
@@ -63,7 +60,7 @@ result was reached:
 For official statistics, the Code's ten standards apply as well as the three standards above.
 Standard 4 requires producers to manage data safely and securely, and to be open about how it will
 be used and protected. Standard 1 requires them to challenge misuse. See
-[the standards landscape](r8-the-standards-landscape.qmd).
+[which standards apply to you](r8-the-standards-landscape.qmd).
 
 ## Where NHSBSA analysis is published
 
@@ -74,4 +71,6 @@ be used and protected. Standard 1 requires them to challenge misuse. See
 | Open datasets | [NHSBSA Open Data Portal](https://opendata.nhsbsa.net/) |
 | Analytical code | [NHSBSA data and analytics code repositories](https://www.nhsbsa.nhs.uk/data-and-analytics-code-repositories) |
 
-[^src-code-of-practice-for-statistics-edition-3-0-standards-for-the-public-use-of-statistics-data-and-wider-analysis]: Code of Practice for Statistics edition 3.0, Standards for the Public Use of Statistics, Data and Wider Analysis
+: Where each kind of NHSBSA output is published
+
+[^src-code-of-practice-for-statistics-edition-3-0-standards-for-the-public-use-of-statistics-data-and-wider-analysis]: [Code of Practice for Statistics edition 3.0, Standards for the Public Use of Statistics, Data and Wider Analysis](https://osr.statisticsauthority.gov.uk/publications/the-code-of-practice-for-statistics/pages/6/)

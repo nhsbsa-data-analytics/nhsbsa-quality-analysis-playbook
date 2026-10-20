@@ -1,6 +1,6 @@
 ---
 title: "Accessibility"
-description: "How this playbook meets WCAG 2.2, what has been tested and what has not, and how to report a problem."
+description: "How it meets WCAG 2.2, what is untested, and reporting a problem."
 title-block-banner: true
 ---
 
@@ -10,37 +10,50 @@ This statement applies to the Producing Quality Analysis Playbook. It does not c
 NHSBSA sites and playbooks linked from it, which publish their own statements.
 
 We want as many people as possible to be able to use this playbook. It is built to meet the Web
-Content Accessibility Guidelines version 2.2 at level AA, and meets several level AAA criteria as
+Content Accessibility Guidelines (WCAG) 2.2 at level AA, and meets several level AAA criteria as
 well.
 
 ## What we have done
 
-The site is built from plain text with Quarto, so its content is headings, paragraphs, lists,
-tables and links rather than images of any of those things.
+The site is built from text, so its content is headings, paragraphs, lists, tables and links, not
+pictures of them. Each diagram is described in words.
 
-- Every section is in the sidebar, on every page, in the same order, and a skip link takes you past
-  it to the content
-- The page title, the heading and the navigation label all name the same thing, so the page you
-  arrive at is the page you expected
-- Help and the glossary sit in the same place in the footer of every page
-- Links say where they go rather than reading "click here" or "read more"
-- Text reflows to a single column at 320 pixels wide without horizontal scrolling
-- Keyboard focus is shown with a visible outline and is never hidden behind the header
-- Navigation targets are large enough to hit, and text and interface colours meet the required
-  contrast ratios
+- Every page has a title, one main heading, and headings that never skip a level
+- A skip link is the first thing a keyboard reaches, and takes you to the page itself. The sidebar
+  and the navigation bar show which page you are on in words and in shape, not in colour alone
+- Links say where they go. Source numbers link to a Sources list at the foot of the page, and
+  nothing pops up over the text
+- Every table has a caption and a header row. Where a first column names each row, it is marked as
+  row headers, so a screen reader can say which row a cell is in
+- Text reflows to one column at 320 pixels wide, and at 400 percent zoom, without sideways
+  scrolling. On a phone or a short window the bars stay in the page and are not pinned over it
+- On a phone the sidebar takes focus when it opens, gives it back when it closes, and puts the page
+  behind it out of reach
+- Every control that takes keyboard focus shows a ring of two colours, so that it can be seen on a
+  light or a dark ground
+- Each diagram has a text description under it, and opens on its own page as an SVG that scales to
+  any zoom. On a narrow screen it scrolls sideways inside its own box, which WCAG 1.4.10 allows for
+  content that needs two dimensions to mean anything. Its labels sit beside the shapes they name, so
+  they are part of a picture and not an image of text
+- Animation is switched off for anyone who has asked their device for less motion
+- Text and interface colours meet the required contrast, and nothing relies on colour alone
+
+The playbook can also be built as a tagged PDF, an editable Word file and a tour of the site in
+photographs. These are alternative views of the web version, made on request, and they are not the
+published playbook. Each has a language, a title, an outline or heading styles, alternative text for
+every picture, and captions and header rows on every table.
 
 ## What we have checked, and how
 
-Some of the claims above are checked automatically against the built pages every time the site
-is rebuilt, rather than being asserted once. The automated checks cover four things: that no
-page scrolls sideways at any of six widths from 320 pixels, that every diagram carries a text
-alternative and a full description, that every page has its own browser title, and that a table
-wide enough to scroll can be reached and scrolled from the keyboard.
-
-Two of the checks work from a photograph of the screen rather than from the page's code, because
-a style that changes on focus is not the same thing as a change a person can see. Every kind of
-control on the site is given the keyboard focus and the screen is photographed on either side of
-it, and every control that carries a spoken name is compared against the words printed on it.
+These claims are checked against the built pages every time the site is rebuilt, rather than being
+asserted once. An accessibility engine tests every page against WCAG 2.0, 2.1 and 2.2 at levels A
+and AA, on a laptop window, a phone window and a phone window at 400 percent zoom. Our own checks
+then test what an engine cannot see: that every table has a caption and row headers, that the skip
+link lands at the top of the page, that the current page is the one marked as current, that Tab
+never leaves a control off screen or under a fixed bar, and that no line of text runs past 80
+characters, counted rather than estimated. Two checks work from a photograph of the screen: every
+kind of control is given keyboard focus and photographed either side, and the words printed on a
+control are compared with the name it speaks.
 
 ## Where we go beyond level AA
 
@@ -48,38 +61,41 @@ Five level AAA criteria are met and checked the same way.
 
 | Criterion | What it asks | What the site does |
 |---|---|---|
-| 1.4.6 Contrast (Enhanced) | 7:1 for body text, 4.5:1 for large text, against the 4.5:1 that AA asks | Links are NHS Dark Blue at 10.93:1, quiet text is NHS Dark Grey at 7.75:1, and the title banner is dark enough that white text on it clears 7:1 at any size |
-| 1.4.8 Visual Presentation | No line of prose longer than 80 characters, no justified text, generous line and paragraph spacing | Prose is capped at 80 characters, set ragged right, at 1.6 line spacing |
-| 2.5.5 Target Size (Enhanced) | Anything you click or tap is at least 44 by 44 pixels | Navigation, footer and table links are 44 pixels tall. A link inside a sentence takes the criterion's own exception for inline targets, and is also in the sidebar at full size |
-| 2.4.9 Link Purpose (Link Only) | Every link makes sense read on its own, out of the sentence around it | No link on the site reads "click here", "read more" or similar, and none uses a bare web address as its text. Every link on the site is checked on every build |
-| 2.4.10 Section Headings | Content is organised under headings rather than running on | Every page of any length carries headings, so the on-this-page list is a usable route through it |
+| 1.4.6 Contrast (Enhanced) | 7:1 for body text, 4.5:1 for large text | Links are NHS Dark Blue at 11.85:1, quiet text is NHS Dark Grey at 7.75:1, and white on the title banner clears 7:1 |
+| 1.4.8 Visual Presentation | No line longer than 80 characters, no justified text, generous spacing | No line of text is longer than 80 characters on any page at two window widths, set ragged right, with line spacing of 1.5 or more |
+| 2.5.5 Target Size (Enhanced) | Anything you click or tap is at least 44 by 44 pixels | Navigation, footer, contents and card links, and the menu and sidebar buttons, are 44 pixels each way. A link in a sentence takes the exception for inline targets |
+| 2.4.9 Link Purpose (Link Only) | Every link makes sense on its own | No link reads "click here" or "read more", or uses a web address as its text. Every link is checked on every build |
+| 2.4.10 Section Headings | Content is organised under headings | Every page of any length carries headings, so the on-this-page list is a usable route |
+
+: The level AAA criteria the site meets, what each asks and what the site does
 
 ## Where we do not meet level AAA
 
-We do not claim level AAA for the site. The W3C advises against requiring AAA as a general policy
-for a whole site, because some content cannot satisfy every AAA criterion. What is useful instead
-is to say which ones are met, and which are not.
+We do not claim level AAA for the whole site. The W3C advises against requiring it as a general
+policy, because some content cannot meet every AAA criterion. Two are out of reach for guidance of
+this kind.
 
-Two are out of reach for guidance of this kind, and saying so is more useful than claiming
-otherwise.
+**3.1.4 Expansion of short forms** asks that the meaning of every short form is available. Most are
+spelled out where they first appear, and a few, such as ARIMA, are not.
 
-**3.1.5 Reading Level** asks that text is understandable by someone with lower secondary school
-education, or that a simpler version is provided. This playbook cites clause numbers from GovS 010
-and the AQuA Book and uses the vocabulary of analytical assurance, because its readers need the
-exact terms to apply the standards. The glossary in Resources is the partial answer, not a
-full one.
-
-**1.4.9 Images of Text** allows images of text only where the presentation is essential. The
-diagrams contain a good deal of text in boxes. The layout carries meaning that a list cannot, which
-is the argument for them, but it is an argument rather than a certainty. Each one is written out in
-full beneath it, so nothing in a diagram is available only as a picture.
+**3.1.5 Reading Level** asks for text a person with lower secondary education can understand, or a
+simpler version. The Resource pages cite clause numbers from GovS 010 and the AQuA Book and use the
+vocabulary of analytical assurance, because their readers need the exact terms. The glossary in
+Resources is a partial answer.
 
 ## What we have not tested
 
 No screen reader, magnifier or speech input testing has been carried out against the published
-site. Automated checks find only the faults they are written to look for, so parts of this site may
-still not be fully accessible, and this statement describes the work done rather than a tested
-result. If you find a problem, we want to hear about it.
+site, and none on a real phone or tablet. What has been tested is the markup and what a browser
+shows, by an accessibility engine, by our own measurements and by walking the keyboard through the
+site at several screen sizes. Automated checks find only the faults they are written to look for.
+
+Some corrections, including the skip link and the names of the navigation landmarks, are made by a
+script when the page loads. With scripts switched off the pages still read in order, but those
+corrections are missing.
+
+Parts of this site may still not be fully accessible, and this statement describes the work done
+rather than a tested result. If you find a problem, we want to hear about it.
 
 ## Reporting a problem
 

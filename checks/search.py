@@ -68,10 +68,17 @@ def needle(q):
 
 
 def pages(q):
+    """The pages a query reaches, as a set. Counting instead of comparing sets is what let the
+    dead weight assertion below pass on an entry that was dead: it added the two numbers, so any
+    synonym with pages of its own made the total bigger whether or not those pages were already
+    found by typing the key. Measured on 16 October 2026, "foi" was in that state. It was added
+    when the playbook wrote Freedom of Information out in full everywhere; the playbook has since
+    started using the abbreviation, so typing it already finds every page the synonym reaches, and
+    the entry had become the dead weight this check exists to catch."""
     r = needle(q)
-    return sum(1 for e in index
-               if r.search(e.get('title') or '') or r.search(e.get('section') or '')
-               or r.search(e.get('text') or ''))
+    return {e['href'].split('#')[0] for e in index
+            if r.search(e.get('title') or '') or r.search(e.get('section') or '')
+            or r.search(e.get('text') or '')}
 
 
 for key, alts in sorted(ALSO.items()):
@@ -79,13 +86,16 @@ for key, alts in sorted(ALSO.items()):
         fail.append('"%s" is not lower case and single spaced, so a reader typing it never '
                     'matches the key' % key)
     direct = pages(key)
-    reached = direct + sum(pages(a) for a in alts)
+    via = set()
     for a in alts:
-        if pages(a) == 0:
+        reach = pages(a)
+        if not reach:
             fail.append('"%s" points at "%s", which no page carries any more' % (key, a))
-    if reached <= direct:
-        fail.append('"%s" finds nothing the bare word does not, so the entry is dead weight' % key)
-    print('  %-26s %3d page(s) typed, %3d reached' % (key, direct, reached))
+        via |= reach
+    if via <= direct:
+        fail.append('"%s" reaches no page the bare word does not, so the entry is dead weight'
+                    % key)
+    print('  %-26s %3d page(s) typed, %3d reached' % (key, len(direct), len(direct | via)))
 
 print()
 print('  %d synonym(s) across %d page(s) of index' % (len(ALSO), len(index)))

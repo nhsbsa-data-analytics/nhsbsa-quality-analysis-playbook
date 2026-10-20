@@ -31,10 +31,14 @@ PB = ROOT / 'guidance'
 POINTS = [
     # The standard's own scope test, in its own words. A summary of it reads broader than it
     # is, and a playbook that overstates the scope commits NHSBSA to records nobody asked for.
+    # The exclusion is now quoted as a clause of its own rather than inside the longer
+    # sentence, so the phrase is the quotation without the standard's leading "not where".
+    # What matters is that it stays a quotation and stays an exclusion, which the sentence
+    # "It does not apply to" in front of it carries.
     ('ATRS scope is the standard\'s, not a broader reading', '09-resources', [
         'significant influence on a decision-making process with public effect',
         'directly interact with the general public',
-        'not where a tool is an analytical model supporting broad government policymaking']),
+        'It does not apply to "an analytical model supporting broad government policymaking"']),
 
     # The transparency question and the assurance level are settled by different things.
     # Collapsing them turns a Level 4 score into a record, and lets a Level 2 tool escape one.
@@ -49,14 +53,14 @@ POINTS = [
         'single point of contact',
         'senior responsible owner',
         'governance decision rather than something the standard settles',
-        'That is a proposal, not']),
+        'this playbook filling a gap rather than the standard requiring it']),
 
     # An ethical concern with no record of what was decided is indistinguishable, a year
     # later, from one nobody noticed. Six fields are what make it an audit trail.
     ('An ethical concern has six fields to record', '09-resources', [
         'Record six things',
-        'Who is touched by this, in the data and beyond it',
-        'a harm recorded without the benefit beside it',
+        'Who is affected by this, in the data and beyond it',
+        'What could go wrong, and what the analysis is for',
         'What you actually changed',
         'What is still there after the mitigations',
         'The role that accepted that residual risk',
@@ -84,7 +88,7 @@ POINTS = [
     # What changes about an analyst's accountability when a tool helps them work: nothing.
     # Saying so plainly beats leaving it to be worked out one analyst at a time.
     ('Using AI tools to do the analysis', '09-resources', [
-        'Use the tools your organisation has approved',
+        'Ask before you use a tool that is not already in use in your team',
         'Do not put data into a tool that is not cleared to hold it',
         'Verify what comes back',
         'Accountability does not transfer',
@@ -99,8 +103,8 @@ POINTS = [
 
     # The questions that are cheap to ask at scoping and expensive to discover at publication.
     ('Responsible analysis questions at scoping', '01-engagement-and-scoping', [
-        'Five questions worth asking before you start',
-        'Who could be affected by that decision',
+        'Ask these five questions before you start',
+        'Who could be affected by the decision the analysis informs',
         'under-represented in, or missing from, the data',
         'What happens if the analysis is wrong',
         'Is there an algorithmic tool in this']),
@@ -130,7 +134,7 @@ POINTS = [
     # question. Four things to check, and all four have to be named.
     ('Reuse asks what has changed since the original was assured',
      '05-review', [
-        'Before any reuse, four things are worth checking',
+        'Check four things before any reuse',
         'the analysis covers changed, or is the new use about a different one',
         'moved in coverage, definition or quality since',
         'one the method was built to answer',

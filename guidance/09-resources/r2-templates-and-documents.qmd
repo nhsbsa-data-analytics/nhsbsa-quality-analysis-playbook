@@ -1,26 +1,74 @@
 ---
 title: "R2. NHSBSA templates and documents"
-description: "The templates, the decision sheet, and the NHSBSA documents the playbook draws on."
+description: "The templates, the decision tool and the NHSBSA documents used."
 ---
 ## NHSBSA templates
 
 
 | Template | Use it for | Where it is described |
 |---|---|---|
-| Analytical project record | Recording scope, data, method, assumptions, uncertainty, decisions and sign-off | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
-| Quality assurance checklist | The checks required at your assurance level | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
-| Quality assurance log | Recording checks as you do them, with what you found | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Analytical project record | Recording scope, data, method, assumptions, uncertainty, decisions and sign-off | [What to record](../07-deciding-your-assurance-level/what-your-level-requires.qmd#what-to-record) |
+| Quality assurance checklist | The checks required at your assurance level | [The checks, by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level) |
+| Quality assurance log | Recording checks as you do them, with what you found | [The checks, by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level) |
 | Quality assurance statement | Telling readers what was done and what the limits are | [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) |
-| Assurance level decision sheet | Scoring impact and likelihood to reach your assurance level, and the Business Critical test | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Analytical Assurance Decision Tool | Scoring impact and likelihood to reach your assurance level, and the Business Critical test | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Quality assurance appraisal | Business Critical work only. Twelve worksheets, completed at three points in the life of the analysis | [Business Critical analysis](../08-business-critical/index.qmd), step 5 |
 
-The templates and the decision sheet are held on the NHSBSA SharePoint, alongside the rest of the
-analytical documentation. **Opening them needs NHSBSA network access.** If you cannot reach them,
-ask the Data Science, Advanced Analytics and Statistics team.
+: NHSBSA templates, what each is for and where it is described
 
-What matters is that a template is created in place rather than downloaded. Created in place, it is
-versioned and can be linked from the output. Downloaded, filled in and saved somewhere, it is a
-template nobody can find afterwards. The field lists are the part this playbook owns, so take
-them wherever your team works.
+The templates and the Analytical Assurance Decision Tool are held on the NHSBSA SharePoint, alongside the rest of the
+analytical documentation. **Opening them needs NHSBSA network access**, which is why this page names them and gives no
+addresses. If you cannot reach them, write to the analytical assurance mailbox in
+[who to ask](r3-who-to-ask.qmd).
+
+Create a template in place rather than downloading it. A template created in place is versioned and
+can be linked from the output. One downloaded, filled in and saved elsewhere is neither. The field
+lists are the part this playbook owns, so use them wherever your team works.
+
+## The Business Critical documentation stack {#the-business-critical-documentation-stack}
+
+This section supports [Business Critical analysis](../08-business-critical/index.qmd) by explaining how its documents are completed, scored and held.
+
+The quality assurance appraisal is one workbook of twelve worksheets. The worksheets are completed at three points in the life of the analysis, rather than in one sitting.
+
+- Basic information is completed as document 6, as soon as the model has a name.
+- The analysis or model review is completed while the model is built and tested.
+- The assurance review is completed as document 10, by the critical friend as Lead Assurer, with the analyst.
+
+The assurance review scores six areas: documentation, governance and oversight, structure and clarity, data and assumptions, verification, and validation. Outputs is a seventh area that NHSBSA has still to define.
+
+Every requirement carries a reference code. The code lets an action in the quality assurance plan be traced back to the criterion that raised it. The Scope document is D1, for example.
+
+Actions are prioritised as Must, Should or Could.
+
+- Must is essential to address a significant risk, issue or control weakness.
+- Should is recommended to improve quality, robustness or assurance.
+- Could gives additional benefit, but is not needed for the analysis to be acceptable.
+
+The Analytical Quality and Assurance function holds all analytical documentation centrally. It is the authoritative source and holds the register. NHSBSA's guidance says the function maintains the register of analytical models and monitors Business Critical analysis assurance activities. This playbook also asks for a register entry for Business Critical analysis that is not a model.
+
+Analysts may keep working copies locally. Each new production version of a model goes to the team that holds the documentation as it is released.
+
+Files are named with the document type first and the analysis name second, so the stack can be recognised at a glance. Two examples are `Scope_Specification_AnalysisName` and `User_Guide_AnalysisName`.
+
+Analytical quality assurance is rarely a linear process. When a review raises a question about the method, the team goes back to the technical guide, the specification or the scope. NHSBSA treats that as a normal part of maintaining a well-governed analysis, not a sign that something has gone wrong.
+
+Quality assurance continues after the analysis is judged fit for purpose, because data, methods, assumptions and requirements change. The actions are in [Business Critical analysis, step 8](../08-business-critical/index.qmd#step-8-keep-it-true-after-first-use).
+
+## Service design boards
+
+Eleven boards ship with the playbook package as draw.io sources you can open, edit and paste into
+Miro:
+
+- four role maps
+- four handoff maps, one for each assurance level
+- a grid of the four roles against the five phases
+- two service blueprints
+
+They are workshop material rather than pages of this site.
+
+[A funding allocation formula through the four roles](r19-worked-examples.qmd#a-funding-allocation-formula-through-four-roles)
+sets out the Level 4 handoffs of one worked example.
 
 ## NHSBSA internal documents
 
@@ -30,12 +78,15 @@ published standards. They are held on the NHSBSA SharePoint and **need NHSBSA ne
 
 | Document | What the playbook uses it for |
 |---|---|
-| Criteria for determining the level of analytical risk v3, 10 September 2026 | The assurance level decision sheet: the impact and likelihood scales, the matrix, and the worked examples. [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| Analytical Assurance Decision Tool, 13 October 2026 | The Analytical Assurance Decision Tool: the impact and likelihood scales, the matrix, and the worked examples. [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
 | NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026 | The Business Critical definition, the six criteria, and the documentation stack. [Business Critical analysis](../08-business-critical/index.qmd) |
-| NHSBSA Analytical operating model and implementation plan, Summer 2026 | What NHSBSA counts as an analytical output, and the range it covers. [How to use this playbook](../00-how-to-use/index.qmd) |
+| NHSBSA Analytical operating model and implementation plan, Summer 2026 | What NHSBSA counts as an analytical output, and the range it covers. [Check the playbook applies](../07-deciding-your-assurance-level/check-it-applies.qmd) |
 | NHSBSA Analytical Risk Assessment and Quality Assurance Framework | What each risk rating asks for. [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
 
-If you cannot reach one of these, ask the Data Science, Advanced Analytics and Statistics team.
+: NHSBSA internal documents and what the playbook uses each for
+
+If you cannot reach one of these, write to the analytical assurance mailbox in
+[who to ask](r3-who-to-ask.qmd).
 
 All analytical documentation should be stored centrally.
 
@@ -50,15 +101,19 @@ All analytical documentation should be stored centrally.
 | [NHSBSA Open Data Standards](https://github.com/nhsbsa-data-analytics/open-data-standards) | How NHSBSA publishes open data |
 | [Coffee and Coding](https://github.com/nhsbsa-data-analytics/coffee-and-coding) | Monthly hands-on sessions. Materials from every session since 2021 |
 
+: NHSBSA guidance and what each is for
+
 ## NHSBSA statistics policies
 
 
 These bind official and national statistics. The behaviour they describe is worth following for any
-published output. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) says where each one bites.
+published output. [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) says where each one applies.
 
 Both of these are published, so you do not need network access to read them.
 
 | Policy | For |
 |---|---|
-| [NHSBSA Revisions and Corrections Policy](https://www.nhsbsa.nhs.uk/sites/default/files/2021-05/Revisions_and_Corrections_Policy_v002.pdf) | What counts as a revision and what counts as a correction, how errors are graded by consequence, and who decides |
-| [NHSBSA Statistical Disclosure Control protocol](https://www.nhsbsa.nhs.uk/sites/default/files/2020-10/nhsbsa-sdc-protocol.pdf) | Thresholds and methods for protecting small counts in a published output |
+| [NHSBSA Revisions and Corrections Policy (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2021-05/Revisions_and_Corrections_Policy_v002.pdf) | What counts as a revision and what counts as a correction, how errors are graded by consequence, and who decides |
+| [NHSBSA Statistical Disclosure Control protocol (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2020-10/nhsbsa-sdc-protocol.pdf) | Thresholds and methods for protecting small counts in a published output |
+
+: NHSBSA statistics policies and what each is for

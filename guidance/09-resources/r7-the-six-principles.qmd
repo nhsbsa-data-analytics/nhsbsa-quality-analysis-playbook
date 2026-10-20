@@ -1,38 +1,34 @@
 ---
-title: "R7. The six principles"
-description: "The six principles the playbook is built on, and what NHSBSA has committed to."
+title: "R7. The six quality principles"
+description: "The six principles the playbook is built on, and why they matter."
 ---
 
 
-The principles this playbook rests on. Five are GovS 010's own, so following them is how NHSBSA meets the standard rather than something extra on top.
-
-NHSBSA analysis informs how public money is spent, how services are run, and what the public is told.
-When it is right, nobody notices. When it is wrong, the cost lands somewhere else and usually later.
+NHSBSA analysis informs how public money is spent, how services are run, and what the public is
+told.
 
 ## The principles
 
-Six of them. Five are GovS 010's own, which means following them is how NHSBSA meets the standard
-rather than something extra on top.[^src-govs-010-section-2] The clause each one answers to is named
+Six of them. Five are GovS 010's own, so following them is how NHSBSA meets the standard rather
+than something extra on top.[^src-govs-010-section-2] The clause each one answers to is named
 beneath it, so you can see which are the standard's and which are NHSBSA's.
 
-::: {.callout-note title="The principles are the mandatory part of GovS 010" appearance="minimal" icon=false}
-<br>
-GovS 010 distinguishes **shall**, a requirement, from **should**, a recommendation. The word *shall*
-appears eleven times in the whole document. One of the eleven is the conventions table defining it,
-and seven of the remaining ten say that a different functional standard is to be followed: GovS 005
-Digital, GovS 008 Commercial or GovS 011 Communication.
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Which parts of GovS 010 are a requirement, and which are a recommendation</span></summary>
+<div class="nhsuk-details__text">
 
-**That leaves three substantive requirements.** The six principles below, which the standard puts as "those engaged in analysis shall
-ensure".[^src-govs-010-section-2] A senior officer accountable for NHSBSA's analysis
-activities.[^src-govs-010-section-4-1-3] And analytical roles and accountabilities defined in
-the governance framework, and assigned to people with appropriate seniority, skills and
-experience.[^src-govs-010-section-4-4-1] The first falls on you. The other two
-fall on the organisation, and NHSBSA records who holds them in its governance and management
-framework.
+GovS 010 separates *shall*, a requirement, from *should*, a recommendation. Only three of its
+requirements are substantive:
 
-Everything else the standard asks for is a *should*. A *should* you depart from is a decision you
-need to be able to explain, so record the ones you depart from and the reason.
-:::
+- the principles below, which the standard puts as "those engaged in analysis shall ensure"[^src-govs-010-section-2]
+- a senior officer accountable for NHSBSA's analysis activities
+- analytical roles and accountabilities defined in the governance and management framework, and assigned to people with appropriate seniority, skills and experience
+
+The count of *shall*, the clauses and the meaning of *should* are in
+[what is binding](r9-what-each-standard-asks-for.qmd#what-is-binding).
+
+</div>
+</details>
 
 
 ## 1. Analysis answers the right questions
@@ -50,7 +46,7 @@ Analysis uses appropriate inputs and methods to produce high quality results. It
 repeatable, independent, grounded in reality, objective, with
 [uncertainty](r10-uncertainty.qmd) understood and managed, and it should answer the original
 question robustly. That is **RIGOUR**, set out in full in
-[the standards landscape](r8-the-standards-landscape.qmd).
+[what each standard asks for](r9-what-each-standard-asks-for.qmd#rigour-in-full).
 
 *GovS 010 principle 2, and the AQuA Book. See [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).*
 
@@ -59,13 +55,14 @@ question robustly. That is **RIGOUR**, set out in full in
 Analysis is provided in time to be useful. **That is never at the expense of quality assurance.**
 Where time is genuinely short, the proportionate answer is a narrower question answered properly.
 
-*GovS 010 section 5.5. See [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd).*
+*GovS 010 section 5.5. See [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd)
+and [working to a deadline](r15-scoring-the-assurance-level.qmd#working-to-a-deadline).*
 
 ## 4. With the right level of quality assurance
 
 Quality assurance **and continuous improvement** are built into the way analysis is carried out.
-Assurance is proportionate to the impact of the results on the decision and to the risks of how they
-will be used, and what a review finds goes into the next piece of work.
+Assurance is proportionate to the impact of the results on the decision, and to the risks of how
+they will be used. What a review finds goes into the next piece of work.
 
 *GovS 010 principle 4. See [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) for the level
 and [Phase 5, review](../05-review/index.qmd) for the improvement.*
@@ -75,8 +72,8 @@ and [Phase 5, review](../05-review/index.qmd) for the improvement.*
 Analysis is undertaken in line with legal and ethical obligations, with public service codes of
 conduct, and with those of your own profession.
 
-*GovS 010 principle 5. See [the standards landscape](r8-the-standards-landscape.qmd) for the standards and
-[ethics and transparency](r11-ethics-and-personal-data.qmd) for the ethics.*
+*GovS 010 principle 5. See [which standards apply to you](r8-the-standards-landscape.qmd) for the standards and
+[data ethics and personal data](r11-ethics-and-personal-data.qmd) for the ethics.*
 
 ## 6. Presented in the right way
 
@@ -88,41 +85,45 @@ limitations, and **what remains uncertain, stated plainly enough to act on**.
 [uncertainty, assumptions and limitations](r10-uncertainty.qmd).*
 
 **So the right decisions are made.** Good quality analysis can be trusted to support effective
-decision-making and meet user needs. That is the whole of it, and everything else in this playbook
-is how.
+decision-making and meet user needs.
 
-::: {.callout-important title="Uncertainty is agreed, not just reported" appearance="minimal" icon=false}
-<br>
-**An analysis with no agreed margin of error has no threshold to be tested against. A commissioner who
-has not been asked how certain the answer needs to be has no grounds for saying an answer is not
-good enough.
+**An analysis with no agreed margin of error has no threshold to be tested against.** Agree it at
+scoping, record it in the analytical plan, design against it, and say at the end what is still
+uncertain. [Uncertainty, assumptions and limitations](r10-uncertainty.qmd) is how you measure it,
+and [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) is where you agree it.
 
-Agree it at scoping, record it in the analytical plan, design against it, and say at the end what is
-still uncertain. [Uncertainty, assumptions and limitations](r10-uncertainty.qmd) is how you measure it.
-[Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) is where you agree it.
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Why this sits in the principles rather than in a method</span></summary>
+<div class="nhsuk-details__text">
 
 Three sources ask for the agreement rather than the measurement. GovS 010 asks for the levels of
-quality and certainty required to be agreed and recorded at scoping.[^src-govs-010-section-5-2] The AQuA Book asks analysts at design stage to mine the planned analysis for sources of
-uncertainty large enough to breach "the acceptable margin of error", which needs somebody to
-have said what that margin is.[^src-aqua-book-section-7-4] And the
+quality and certainty required to be agreed and recorded at scoping.[^src-govs-010-section-5-2] At design, the AQuA Book asks analysts to search the planned analysis for sources of
+uncertainty large enough to breach "the acceptable margin of error". Somebody has to have said
+what that margin is.[^src-aqua-book-section-7-4] And the
 [Uncertainty Toolkit for Analysts](https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/)
 gives its whole second chapter to jointly agreeing how uncertainty should be used, before the
 analysis is designed. **None of the three is about measuring uncertainty.** They are about agreeing
 how much of it the decision can carry, while there is still time to design for it.
 
-Techniques for quantifying uncertainty will keep changing. The agreement will not, which is why it
-sits in the principles rather than in a method.
-:::
+Techniques for quantifying uncertainty will keep changing. The agreement will not.
+
+</div>
+</details>
 
 ## What goes wrong when quality is assumed
 
-Poor analytical quality rarely announces itself. It shows up in recognisable ways:
+Poor analytical quality is rarely obvious at the time. Four patterns are common, and each is a
+process failure rather than a competence failure.
 
-**The number outlives its caveat.** A figure is quoted in a paper. The caveat that qualified it sat
-in an annex and did not travel. A decision is taken on a number that meant something narrower than
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">The four patterns</span></summary>
+<div class="nhsuk-details__text">
+
+**A figure is quoted without its caveat.** The figure appears in a paper. The caveat that qualified
+it sat in an annex and did not travel. A decision is taken on a number that meant something narrower than
 the reader thought.
 
-**The one-off becomes production.** Work built quickly for a single question turns out to be useful
+**A one-off becomes a production run.** Work built quickly for a single question turns out to be useful
 and is rerun for months. Nobody re-assesses anything, because no single moment felt like a decision.
 
 **Assurance is done but not recorded.** Somebody checked. Nobody can now say what they checked, when,
@@ -130,25 +131,23 @@ or what they found. The work cannot be defended, and a practice area cannot be e
 compliant.
 
 **Effort goes to the wrong place.** Low-risk work is over-engineered because that is the only
-standard anyone has articulated, while high-risk work is thin because it arrived with a deadline.
+standard anyone has articulated, while high-risk work is assured thinly because the deadline was short.
 
-Each of these is a process failure rather than a competence failure, and each is what the practices
-in this playbook are there to catch.
+Each is what the practices in this playbook are there to catch.
 
-## What NHSBSA has committed to
+</div>
+</details>
 
-NHSBSA has committed to being a data-driven organisation through its Strategy and Data Strategy, and
-to compliance with the government functional standards that apply to it, including GovS 010.
+## Where this playbook answers GovS 010
 
-That commitment is what this playbook implements. GovS 010 asks three things. The levels of quality and certainty required of analysis are agreed and
-recorded. The checks that deliver them are proportionate to the risk. And someone is accountable for
-each piece of analysis.
+Three things have to be true of every piece of analysis. The quality and certainty required is
+agreed and recorded. The checks that deliver it are proportionate to the risk. And somebody is
+accountable for the analysis.
+
 [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd),
-[the checks, by level](../07-deciding-your-assurance-level/index.qmd#the-checks-by-level) and
-[roles and responsibilities](../06-roles/index.qmd) are those three things written down.
+[the checks, by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level) and
+[roles and responsibilities](../06-roles/index.qmd) are where the playbook does each of them.
 
-[^src-aqua-book-section-7-4]: AQuA Book section 7.4
-[^src-govs-010-section-2]: GovS 010 section 2
-[^src-govs-010-section-4-1-3]: GovS 010 section 4.1.3
-[^src-govs-010-section-4-4-1]: GovS 010 section 4.4.1
-[^src-govs-010-section-5-2]: GovS 010 section 5.2
+[^src-aqua-book-section-7-4]: [AQuA Book section 7.4](https://www.gov.uk/guidance/the-aqua-book#treatment-of-uncertainty-in-the-design-stage)
+[^src-govs-010-section-2]: [GovS 010 section 2](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#principles)
+[^src-govs-010-section-5-2]: [GovS 010 section 5.2](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#ICES)

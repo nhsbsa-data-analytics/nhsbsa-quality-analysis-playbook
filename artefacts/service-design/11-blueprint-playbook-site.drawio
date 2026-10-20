@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="NHSBSA" modified="2026-09-11T15:45:00Z" author="Seamus Sands" organisation="NHSBSA">
+  <diagram id="11-blueprint-playbook-site" name="11-blueprint-playbook-site" description="The playbook site, from arriving to acting. Stages run across and lanes run down. What a reader meets, what the site does behind it, and what keeps it true after handover. This one describes the delivered site rather than NHSBSA. Stages, left to right: Arrive, Find the way in, Decide the level, Do what it requires and Look something up. What the reader sees. The page in front of them. Arrive: The front page, opening with the four steps most work needs and nothing else. Find the way in: Five cards: one for each of the four roles, and one for anybody not sure yet. Under them, one line to the thirteen kinds of work. Decide the level: Deciding your assurance level: six impact dimensions, six likelihood dimensions, and the matrix. Do what it requires: The checks, by level: the block for their level, with the levels below it inside it. Look something up: The search page, the sidebar, and the table of topics at the end of the glossary. What the reader does. In about five minutes. Arrive: Reads one callout and decides whether the short path is enough. Find the way in: Picks the card for the role they hold, or follows the line to the kind of work in front of them. Decide the level: Scores it with the commissioner and reads the level off the matrix. Do what it requires: Reads one column and starts work. Look something up: Types a word, or opens the section they half remember. Line of visibility: Below it, what the site does that nobody is shown. What the site does behind it. Decisions made so the reader does not have to. Arrive: Puts the four steps above everything else, so the first screen is a route rather than a contents list. Find the way in: Each role card links to the role's own page, which carries that role's journey. One route in per role, and no second copy of it to fall out of step. Decide the level: The diagram and the table carry the same content, so neither has to be seen to get the answer. Do what it requires: The levels are cumulative and say so, so a reader at Level 3 does not have to read Levels 1 and 2 to know they apply. Look something up: The index covers every heading and the text under it, and says so when a list of results has been cut. Line of internal interaction: Below it, what runs on every change rather than on every visit. What keeps it true. The build, and what it refuses to ship. Arrive: One set of .qmd files renders the site, the Word copy and the PDF, so the three cannot disagree. Find the way in: A check fails the build if an internal link or a cross-page anchor does not resolve. Decide the level: A check fails the build if a diagram ships without a text description carrying what the picture carries. Do what it requires: A check fails the build if a wide table leaves its column widths to pandoc. Look something up: axe-core runs over every built page. Any WCAG A or AA violation fails the build. How to read this: Machine checks find roughly a third to a half of accessibility issues. They cannot judge whether alternative text is right, whether a heading describes what is under it, or whether a route makes sense to somebody using a screen reader. Passing them is necessary and is not sufficient, and the accessibility statement says so. NHSBSA Producing Quality Analysis Playbook. Service design artefacts for workshop use. Seamus Sands for NHSBSA, SOW-DOC053.">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1346" pageHeight="791" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;The playbook site, from arriving to acting&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="28" width="1266" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;span style=&quot;font-size:12px;color:#425563&quot;&gt;What a reader meets, what the site does behind it, and what keeps it true after handover. This one describes the delivered site rather than NHSBSA.&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="54" width="1266" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b style=&quot;font-size:12px;color:#FFFFFF&quot;&gt;1. Arrive&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="206" y="118" width="212" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b style=&quot;font-size:12px;color:#FFFFFF&quot;&gt;2. Find the way in&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="428" y="118" width="212" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b style=&quot;font-size:12px;color:#FFFFFF&quot;&gt;3. Decide the level&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="118" width="212" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;b style=&quot;font-size:12px;color:#FFFFFF&quot;&gt;4. Do what it requires&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="118" width="212" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;b style=&quot;font-size:12px;color:#FFFFFF&quot;&gt;5. Look something up&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=12;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="118" width="212" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="150" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;b style=&quot;font-size:12px;color:#003087&quot;&gt;What the reader sees&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="162" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;The page in front of them&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="196" width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="The front page, opening with the four steps most work needs and nothing else." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="206" y="160" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Five cards: one for each of the four roles, and one for anybody not sure yet. Under them, one line to the thirteen kinds of work." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="428" y="160" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Deciding your assurance level: six impact dimensions, six likelihood dimensions, and the matrix." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="The checks, by level: the block for their level, with the levels below it inside it." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="160" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="The search page, the sidebar, and the table of topics at the end of the glossary." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="160" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="245" width="150" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;b style=&quot;font-size:12px;color:#003087&quot;&gt;What the reader does&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="247" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;In about five minutes&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="281" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Reads one callout and decides whether the short path is enough." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="206" y="245" width="212" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="Picks the card for the role they hold, or follows the line to the kind of work in front of them." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="428" y="245" width="212" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="Scores it with the commissioner and reads the level off the matrix." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="245" width="212" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="Reads one column and starts work." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="245" width="212" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Types a word, or opens the section they half remember." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="245" width="212" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="" style="shape=line;direction=east;strokeColor=#231F20;strokeWidth=1.6;dashed=1;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="206" y="327.0" width="1100" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;b style=&quot;font-size:11px;color:#231F20&quot;&gt;Line of visibility&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="317" width="150" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;Below it, what the site does that nobody is shown&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212" y="335.0" width="1088" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="357" width="150" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="&lt;b style=&quot;font-size:12px;color:#003087&quot;&gt;What the site does behind it&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="359" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;Decisions made so the reader does not have to&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="393" width="150" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="Puts the four steps above everything else, so the first screen is a route rather than a contents list." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="206" y="357" width="212" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="Each role card links to the role's own page, which carries that role's journey. One route in per role, and no second copy of it to fall out of step." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="428" y="357" width="212" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="The diagram and the table carry the same content, so neither has to be seen to get the answer." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="357" width="212" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="The levels are cumulative and say so, so a reader at Level 3 does not have to read Levels 1 and 2 to know they apply." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="357" width="212" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="The index covers every heading and the text under it, and says so when a list of results has been cut." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFCFC;strokeColor=#C9D1D3;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="357" width="212" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="" style="shape=line;direction=east;strokeColor=#231F20;strokeWidth=1.6;dashed=1;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="206" y="468.0" width="1100" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="&lt;b style=&quot;font-size:11px;color:#231F20&quot;&gt;Line of internal interaction&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="458" width="150" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;Below it, what runs on every change rather than on every visit&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212" y="476.0" width="1088" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="498" width="150" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="&lt;b style=&quot;font-size:12px;color:#003087&quot;&gt;What keeps it true&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;The build, and what it refuses to ship&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="534" width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="One set of .qmd files renders the site, the Word copy and the PDF, so the three cannot disagree." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="206" y="498" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="A check fails the build if an internal link or a cross-page anchor does not resolve." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="428" y="498" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="A check fails the build if a diagram ships without a text description carrying what the picture carries." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="498" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="A check fails the build if a wide table leaves its column widths to pandoc." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="498" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="axe-core runs over every built page. Any WCAG A or AA violation fails the build." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#FFB81C;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=9;spacingRight=9;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="498" width="212" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="589" width="1266" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="&lt;b style=&quot;font-size:11px;color:#003087;letter-spacing:0.4px&quot;&gt;HOW TO READ THIS&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="603" width="1226" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n48" value="&lt;span style=&quot;font-size:11px;color:#231F20&quot;&gt;Machine checks find roughly a third to a half of accessibility issues. They cannot judge whether alternative text is right, whether a heading describes what is under it, or whether a route makes sense to somebody using a screen reader. Passing them is necessary and is not sufficient, and the accessibility statement says so.&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="627" width="1226" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" value="&lt;span style=&quot;font-size:10px;color:#425563&quot;&gt;NHSBSA Producing Quality Analysis Playbook. Service design artefacts for workshop use. Seamus Sands for NHSBSA, SOW-DOC053.&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="747" width="1266" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
