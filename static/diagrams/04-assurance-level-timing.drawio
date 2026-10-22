@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="Electron" type="device" version="24.7.17" agent="NHSBSA" modified="2026-10-19T09:00:00Z" author="Seamus Sands" organisation="NHSBSA" fit="window">
-  <diagram id="04-assurance-level-timing" name="04-assurance-level-timing" description="A grid of two lanes and four phases. The phases run across the top: engagement and scoping, design, analysis, and delivery and sign-off. The top lane is work where no impact dimension scores Level 4. Step 1, score the impact, is in engagement and scoping. Step 2, score the likelihood, and step 3, read your level, are in design. Step 4, do what your level requires, runs from design to the end of delivery and sign-off. The lower lane is work where an impact dimension scores Level 4, which is Business Critical. Steps 1, 2 and 3 are all in engagement and scoping, and step 4 runs from there to the end of delivery and sign-off.">
-    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="680" pageHeight="600" math="0" shadow="0" background="#FFFFFF">
+  <diagram id="04-assurance-level-timing" name="04-assurance-level-timing" description="A grid of two lanes and four phases. The phases run across the top: engagement and scoping, design, analysis, and delivery, communication and sign-off. The top lane is work where no impact dimension scores Level 4. Step 1, score the impact, is in engagement and scoping. Step 2, score the likelihood, and step 3, read your level, are in design. Step 4, do what your level requires, runs from design to the end of delivery and sign-off. The lower lane is work where an impact dimension scores Level 4, which is Business Critical. Steps 1, 2 and 3 are all in engagement and scoping, and step 4 runs from there to the end of delivery, communication and sign-off.">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="680" pageHeight="614" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,49 +9,49 @@
           <mxGeometry x="24" y="22" width="632" height="32" as="geometry" />
         </mxCell>
         <mxCell id="n2" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF;letter-spacing:0.8px&quot;&gt;PHASE 1&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Engagement and scoping&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="78" width="123" height="60" as="geometry" />
+          <mxGeometry x="140" y="78" width="123" height="74" as="geometry" />
         </mxCell>
         <mxCell id="n3" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF;letter-spacing:0.8px&quot;&gt;PHASE 2&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Design&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="271" y="78" width="123" height="60" as="geometry" />
+          <mxGeometry x="271" y="78" width="123" height="74" as="geometry" />
         </mxCell>
         <mxCell id="n4" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF;letter-spacing:0.8px&quot;&gt;PHASE 3&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Analysis&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="402" y="78" width="123" height="60" as="geometry" />
+          <mxGeometry x="402" y="78" width="123" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="n5" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF;letter-spacing:0.8px&quot;&gt;PHASE 4&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Delivery and sign-off&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="533" y="78" width="123" height="60" as="geometry" />
+        <mxCell id="n5" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF;letter-spacing:0.8px&quot;&gt;PHASE 4&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Delivery, communication and sign-off&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="533" y="78" width="123" height="74" as="geometry" />
         </mxCell>
         <mxCell id="n6" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;No impact dimension scores Level 4&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="24" y="150" width="108" height="172" as="geometry" />
+          <mxGeometry x="24" y="164" width="108" height="172" as="geometry" />
         </mxCell>
         <mxCell id="n7" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;1  Score the impact&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="123" height="52" as="geometry" />
+          <mxGeometry x="140" y="164" width="123" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n8" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;2  Score the likelihood&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="271" y="150" width="123" height="52" as="geometry" />
+          <mxGeometry x="271" y="164" width="123" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n9" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;3  Read your level&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="271" y="210" width="123" height="52" as="geometry" />
+          <mxGeometry x="271" y="224" width="123" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n10" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;4  Do what your level requires&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="271" y="270" width="385" height="52" as="geometry" />
+          <mxGeometry x="271" y="284" width="385" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#768692;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
-          <mxGeometry x="24" y="335" width="632" height="2" as="geometry" />
+          <mxGeometry x="24" y="349" width="632" height="2" as="geometry" />
         </mxCell>
         <mxCell id="n12" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;An impact dimension scores Level 4: Business Critical&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="24" y="350" width="108" height="232" as="geometry" />
+          <mxGeometry x="24" y="364" width="108" height="232" as="geometry" />
         </mxCell>
         <mxCell id="n13" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;1  Score the impact&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="350" width="123" height="52" as="geometry" />
+          <mxGeometry x="140" y="364" width="123" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n14" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;2  Score the likelihood&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="410" width="123" height="52" as="geometry" />
+          <mxGeometry x="140" y="424" width="123" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n15" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;3  Read your level&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="470" width="123" height="52" as="geometry" />
+          <mxGeometry x="140" y="484" width="123" height="52" as="geometry" />
         </mxCell>
         <mxCell id="n16" value="&lt;div style=&quot;text-align:center;text-wrap:balance&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;4  Do what your level requires&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE7F5;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;arcSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="530" width="516" height="52" as="geometry" />
+          <mxGeometry x="140" y="544" width="516" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

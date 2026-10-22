@@ -49,7 +49,7 @@ Work through the five phases in order. When you scope the next piece of work, us
       <img src="../../static/photos/phase-4-delivery-and-sign-off.jpg" alt="">
       <div class="pb-phase-body">
         <span class="pb-phase-n">Phase 4</span>
-        <span class="pb-phase-name">Delivery and sign-off</span>
+        <span class="pb-phase-name">Delivery, communication and sign-off</span>
         <p>Hand it over with its caveats, and get it approved.</p>
       </div>
     </a>

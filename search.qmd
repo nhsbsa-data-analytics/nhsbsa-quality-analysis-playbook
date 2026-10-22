@@ -135,7 +135,7 @@ toc: false
     "paperwork": ["project record"],
     "audit trail": ["project record"],
     "scope creep": ["out of scope"],
-    "handover": ["delivery and sign-off"],
+    "handover": ["delivery, communication and sign-off"],
     "publication": ["publish"],
     "open data": ["publish"],
     "model register": ["Business Critical"],

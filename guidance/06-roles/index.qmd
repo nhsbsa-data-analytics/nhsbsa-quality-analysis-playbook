@@ -55,7 +55,7 @@ If a document uses another name, read it as the role in this playbook.
 | In this playbook | Also called |
 |------------------------------|--------------------------------------------------------------|
 | **Critical friend** | Analytical assurer, the term used in the standards |
-| **Analysis Senior Responsible Officer** | Model Senior Responsible Officer (Business Critical documentation), Senior Responsible Owner (draft Analytical Governance and Quality Assurance Policy), approver (AQuA Book) |
+| **Analysis Senior Responsible Officer** | Model Senior Responsible Officer (Business Critical documentation), Senior Responsible Owner, or SRO (draft Analytical Governance and Quality Assurance Policy, and NHSBSA's overview of the Business Critical process), approver (AQuA Book) |
 
 : Role names used in this playbook and the other names for them
 

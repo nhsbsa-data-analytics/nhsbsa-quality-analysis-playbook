@@ -161,7 +161,7 @@ PAGE_PROBE = r"""() => {
     return marker;
   });
 
-  // the six diagrams: the link says where it goes and what it shows, the picture only what it shows
+  // the seven diagrams: the link says where it goes and what it shows, the picture only what it shows
   out.diagrams = q('a.diagram-open').map(a => {
     const img = a.querySelector('img'), fig = a.closest('figure');
     const cap = fig && fig.querySelector('figcaption strong');

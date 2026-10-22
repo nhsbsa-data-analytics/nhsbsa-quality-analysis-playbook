@@ -105,7 +105,7 @@ Scoring that list is how two people reach the same answer independently. It is a
 
 ### The eight model types {#the-eight-model-types}
 
-The list of eight types of analytical model is on [The eight types of analytical model](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model). For models used in decision making, GovS 010 section 6.11 says they should be robust and fit for purpose.[^src-govs-010-section-6-11]
+The list of eight types of analytical model is NHSBSA's own. It is on [The eight types of analytical model](../07-deciding-your-assurance-level/after-you-have-your-level.qmd#the-eight-types-of-analytical-model). For models used in decision making, GovS 010 section 6.11 says they should be robust and fit for purpose.[^src-govs-010-section-6-11]
 
 The type is not a seventh impact dimension, and it is not scored. It works as a check on the six impact scores. A model that allocates funds and a model that structures a concept carry very different consequences when they are wrong.
 

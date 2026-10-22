@@ -91,13 +91,17 @@ The playbook asks for a no to be recorded as well as a yes. That way the answer 
 
 ### The register entry, for models and other analysis {#the-register-entry}
 
-NHSBSA's guidance says the Quality and Assurance team maintains the NHSBSA register of analytical models and monitors Business Critical analysis assurance activity (NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026). The playbook puts any Business Critical work on the register, whether or not it is a model. Analysis that is not a model can still be Business Critical, so the register entry applies to it too.
+Business Critical work is logged with the Data Science, Statistics and AI team on the Business Critical register (NHSBSA's *Business Critical Analyses: overview of the process*, October 2026). NHSBSA's earlier guidance gave the register of analytical models to the Quality and Assurance team (NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026). The playbook follows the later source. The playbook puts any Business Critical work on the register, whether or not it is a model. Analysis that is not a model can still be Business Critical, so the register entry applies to it too.
 
 In this playbook, a model is analysis built to be run more than once, usually over time. GovS 010 section 6.11 says what models used in decision making should be, and what recommended practice models should have.[^src-govs-010-section-6-11] For a model, the requirements of the Business Critical steps apply across its whole life, not just to the run that produced today's number.
 
 GovS 010 section 6.11 does not mention a register. It says each recommended practice model should have five things, and they are the five items that the register entry holds.[^src-govs-010-section-6-11] That is a *should*, which is a recommendation. The AQuA Book goes further at sign-off. It says the analyst and the approver shall follow organisational governance procedures, including updating the business-critical analysis register where appropriate.[^src-aqua-book-section-9-1-2][^src-aqua-book-section-9-1-4] For Business Critical work, the playbook requires the entry.
 
 In this playbook, Business Critical work is on the register and every entry on it has a review date. No standard states the review-date rule.
+
+### The public register and annual reporting {#the-public-register-and-annual-reporting}
+
+Each entry is added to NHSBSA's public register of Business Critical analyses. NHSBSA reports on its Business Critical analysis every year to the Data, Analytics and AI Governance Council and to the Department of Health and Social Care, and includes a statement in its annual report (NHSBSA's *Business Critical Analyses: overview of the process*, October 2026).
 
 ### Approving a new use {#approving-a-new-use}
 
@@ -109,7 +113,7 @@ Reuse is also the usual reason an assurance level changes. [Reuse and the assura
 
 ### Quantifying uncertainty at Level 4 BCA {#quantifying-uncertainty-at-level-4-bca}
 
-At Level 4 BCA, the playbook requires uncertainty to be quantified wherever the method allows.
+At Level 4 BCA, uncertainty is quantified wherever the method allows. That is the same as Level 3.
 
 GovS 010 section 6.5 asks for expressions of uncertainty to be quantitative where possible when results are disseminated.[^src-govs-010-section-6-5] [Uncertainty, assumptions and limitations](r10-uncertainty.qmd) covers the method.
 

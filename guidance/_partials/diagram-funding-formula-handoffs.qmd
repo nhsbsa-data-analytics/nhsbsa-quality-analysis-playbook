@@ -9,10 +9,10 @@
 | 1 | Commissioner | Analyst | Engagement and scoping | The decision, the deadline, and how certain the answer has to be |
 | 2 | Analyst | Critical friend | Design | The design and plan, with the critical friend named on it |
 | 3 | Critical friend | Analyst | Analysis | Findings, which are the analyst's to act on |
-| 4 | Analyst | Commissioner | Delivery and sign-off | Draft results, so they are understood before sign-off |
-| 5 | Analyst | Analysis Senior Responsible Officer | Delivery and sign-off | The assurance evidence |
-| 6 | Critical friend | Analysis Senior Responsible Officer | Delivery and sign-off | Lead Assurer sign-off, which comes before the approval |
-| 7 | Analysis Senior Responsible Officer | Commissioner | Delivery and sign-off | Approved as fit for its intended use |
+| 4 | Analyst | Commissioner | Delivery, communication and sign-off | Draft results, so they are understood before sign-off |
+| 5 | Analyst | Analysis Senior Responsible Officer | Delivery, communication and sign-off | The assurance evidence |
+| 6 | Critical friend | Analysis Senior Responsible Officer | Delivery, communication and sign-off | Lead Assurer sign-off, which comes before the approval |
+| 7 | Analysis Senior Responsible Officer | Commissioner | Delivery, communication and sign-off | Approved as fit for its intended use |
 
 : The seven handoffs: who passes what to whom, and in which phase
 

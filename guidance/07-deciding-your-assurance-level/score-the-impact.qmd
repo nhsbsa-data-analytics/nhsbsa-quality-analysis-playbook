@@ -13,7 +13,7 @@ Score what happens if the analysis is wrong, and who is affected.
 - Score each dimension from Level 1 to Level 4.
 - Take the highest single level, not an average.
 - Score against the descriptions, not the dimension name.
-- Before you score Finance, check the figure in force in the Analytical Assurance Decision Tool file. See [where the tool is held](../09-resources/r2-templates-and-documents.qmd).
+- Score Finance on the tool's figures: above £35m scores 4, even below the DHSC figure of £40m. The tool marks its thresholds as still to be confirmed, so check the figure in force in the Analytical Assurance Decision Tool file. See [where the tool is held](../09-resources/r2-templates-and-documents.qmd).
 
 | Dimension | Level 1 low, informational | Level 2 moderate, operational | Level 3 high, organisational | Level 4 very high, business critical |
 |-----------------|------------------|--------------------|----------------------|-----------------------|

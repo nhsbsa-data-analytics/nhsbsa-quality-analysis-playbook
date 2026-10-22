@@ -13,7 +13,7 @@ work, and when.
 The government functional standard for analysis. It sets out five principles and the governance and
 accountabilities for analysis in an organisation. It also covers the analytical cycle, which it sets out in five
 stages, and **thirteen supporting practices**. This playbook sets
-the same cycle out as five phases. Delivery and sign-off are one phase, and review is added as the fifth.
+the same cycle out as five phases. Delivery, communication and sign-off are one phase, and review is added as the fifth.
 
 The thirteen are: public interest; inputs and methods; supporting decision-making; uncertainty;
 analytical verification and validation; documentation and record keeping; quality assurance;
@@ -91,7 +91,7 @@ In this playbook, quality assurance is:
 - planned in [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd)
 - designed in [Phase 2, design](../02-design/index.qmd)
 - done in [Phase 3, analysis](../03-analysis/index.qmd)
-- stated in [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd)
+- stated in [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd)
 - tested in [Phase 5, review](../05-review/index.qmd)
 
 Customer and stakeholder engagement runs through all five phases in the same way. The commissioner

@@ -13,10 +13,10 @@ at Level 4 BCA. Start at step 1 to find out whether yours is.
 | [1. Decide whether it is Business Critical](#step-1-decide-at-scoping-whether-it-is-business-critical) | Phase 1 | The Business Critical answer, recorded yes or no |
 | [2. Name who is accountable](#step-2-name-who-is-accountable) | Phase 1 | A named Analysis Senior Responsible Officer |
 | [3. Read the assurance level](#step-3-read-the-assurance-level) | Phase 1 | The likelihood scored, and the tool complete |
-| [4. Get it on the register](#step-4-get-it-on-the-register) | Phase 1 | The register entry |
+| [4. Get it on the register and arrange external assurance](#step-4-get-it-on-the-register) | Phase 1 | The register entry, and the external assurer arranged |
 | [5. Do the work to Level 4 BCA](#step-5-do-the-work-to-the-enhanced-standard) | Phases 1 to 4 | The eleven documents of the stack, each in the phase the picture gives |
 | [6. Say what is uncertain](#step-6-say-what-is-uncertain) | Phase 3 | The uncertainty documented and quantified |
-| [7. Publish what was checked and get sign-off](#step-7-publish-what-was-checked) | Phase 4 | The quality assurance statement, published with the output, and the sign-off |
+| [7. Get sign-off, then publish what was checked](#step-7-publish-what-was-checked) | Phase 4 | The sign-off, and the quality assurance statement published with the output |
 | [8. Set a review date and approve any new use](#step-8-keep-it-true-after-first-use) | Phase 5 | A review date, and approval of any new use |
 | [9. Review the work and revalidate the designation](#step-9-review-and-revalidate-the-designation) | Phase 5 | The designation revalidated |
 
@@ -43,11 +43,14 @@ More detail: [the Analysis Senior Responsible Officer role](/guidance/06-roles/a
 
 {{< include /guidance/_partials/bca-assurance-level.qmd >}}
 
-## Step 4. Get it on the register {#step-4-get-it-on-the-register}
+## Step 4. Get it on the register and arrange external assurance {#step-4-get-it-on-the-register}
 
-Log the work with the Analytical Quality and Assurance function, which holds the Business Critical
+Log the work with the Data Science, Statistics and AI team, which holds the Business Critical
 register. Do this whether or not the work is a model. See
-[who to ask](/guidance/09-resources/r3-who-to-ask.qmd) for how to reach the function.
+[who to ask](/guidance/09-resources/r3-who-to-ask.qmd) for how to reach the team.
+
+At the same time, arrange an independent external assurer for the additional scrutiny and testing
+that Level 4 BCA asks for.
 
 The entry must hold:
 
@@ -86,9 +89,7 @@ review shows it needs changing. For an analysis that already exists, review what
 gaps and fill them first.
 
 [NHSBSA templates and documents](/guidance/09-resources/r2-templates-and-documents.qmd) says where the
-Analytical Assurance Decision Tool and the quality assurance appraisal workbook are held. For the
-other templates, write to the analytical assurance mailbox in
-[who to ask](/guidance/09-resources/r3-who-to-ask.qmd).
+templates are held.
 
 The picture shows who owns each document and the phase it belongs to. The table says what each one holds.
 
@@ -120,8 +121,7 @@ The picture shows who owns each document and the phase it belongs to. The table 
 
 ## Step 6. Say what is uncertain {#step-6-say-what-is-uncertain}
 
-Document the uncertainty. Quantify it wherever the method allows. Quantifying is required at
-Level 4 BCA.
+Document the uncertainty. Quantify it wherever the method allows, as at Level 3.
 
 Write down any assumption that would change the answer if it were wrong.
 
@@ -129,18 +129,18 @@ Write down any assumption that would change the answer if it were wrong.
 More detail: [what uncertainty is, how to manage it and how to write it up](/guidance/09-resources/r10-uncertainty.qmd).
 :::
 
-## Step 7. Publish what was checked and get sign-off {#step-7-publish-what-was-checked}
+## Step 7. Get sign-off, then publish what was checked {#step-7-publish-what-was-checked}
 
-Publish the quality assurance statement with the output. From Level 3, it carries what
+Get sign-off from the Lead Assurer, then from the Analysis Senior Responsible Officer. Update the
+Business Critical register entry when the work is signed off.
+
+Then publish the quality assurance statement with the output. From Level 3, it carries what
 [Phase 4](/guidance/04-delivery-and-sign-off/index.qmd) lists. At Level 4 BCA it also carries:
 
 - the Business Critical register reference
 - the Lead Assurer, named, from outside the delivering team
 - the Analysis Senior Responsible Officer who approved the work as fit for its intended use
 - the quality assurance sign-off reference from the quality assurance appraisal
-
-Get sign-off from the Lead Assurer, then from the Analysis Senior Responsible Officer. Update the
-Business Critical register entry when the work is signed off.
 
 ## Step 8. Set a review date and approve any new use {#step-8-keep-it-true-after-first-use}
 

@@ -26,7 +26,7 @@ Work through the five phases of the [analytical lifecycle](guidance/analytical-c
     <p>Do the analysis, check it, and have your critical friend review it.</p>
   </li>
   <li>
-    <h3><a href="guidance/04-delivery-and-sign-off/index.html">Phase 4. Delivery and sign-off</a></h3>
+    <h3><a href="guidance/04-delivery-and-sign-off/index.html">Phase 4. Delivery, communication and sign-off</a></h3>
     <p>Deliver it with its caveats and quality assurance statement, and get it signed off.</p>
   </li>
   <li>

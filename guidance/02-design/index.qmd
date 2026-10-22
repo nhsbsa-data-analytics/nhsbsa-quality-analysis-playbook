@@ -25,6 +25,7 @@ You choose the method, finish the assurance level and write the plan.
    - ethics and information governance
    - the outputs, the timescales and the resources
    - the assurance activities
+   - when the output will be reviewed
 
    Where time or resource constrain the approach, tell your commissioner what risks follow.
 4. [From Level 2[:]{.visually-hidden}]{.pb-level} **Turn the level into an assurance plan.** Set out the verification and validation the level

@@ -8,7 +8,7 @@ Five phases drawn as a circuit, read clockwise, each in a filled box. Phases 1, 
 to right across the top. An arrow comes down the right-hand side to Phase 4. An arrow runs back
 along the bottom to Phase 5. A green arrow goes up the left-hand side from Phase 5 to Phase 1,
 closing the loop, and is marked: lessons go into the next scoping. Phase 1 is engagement and scoping,
-Phase 2 design, Phase 3 analysis, Phase 4 delivery and sign-off, and Phase 5 review. Phase 5 is green
+Phase 2 design, Phase 3 analysis, Phase 4 delivery, communication and sign-off, and Phase 5 review. Phase 5 is green
 and the other four are blue.
 
 A panel below, headed "running through all five phases", reads: quality assurance and customer and

@@ -16,7 +16,7 @@ After delivery, review the analysis. Repeat the review on the cadence your level
 4. [From Level 3[:]{.visually-hidden}]{.pb-level} **Check the assurance level still holds.** Score it again if it does not, and record the result.
 5. [Every level[:]{.visually-hidden}]{.pb-level} **Decide whether to decommission it**, reissue it, or leave it as it is.
 6. [From Level 2[:]{.visually-hidden}]{.pb-level} **Record the lessons** where the next analyst will look for them. For a regular output, that is
-   the analytical plan for the next cycle. Raise any that apply beyond this output with the people in
+   the project record. Raise any that apply beyond this output with the people in
    [who to ask](../09-resources/r3-who-to-ask.qmd).
 7. [Every level[:]{.visually-hidden}]{.pb-level} **If the output is regular or ongoing, bring it to the monthly review meeting.** The Analytical Quality and Assurance Lead chairs it. See
    [the monthly review meeting](../09-resources/r18-review-reuse-and-records.qmd#the-monthly-review-meeting).
@@ -61,7 +61,7 @@ If any answer is yes, [score the assurance level again](../07-deciding-your-assu
 ## Outputs of this phase
 
 - The review record, kept with the project record:
-  - For most outputs, a short entry against the output in the analytical plan.
+  - For most outputs, a short entry in the project record.
   - The entry says what was checked, what was found, what changed, and who was involved.
   - For Business Critical analysis, any agreed improvements go into the quality assurance plan, with their priorities and target dates.
 - [From Level 2[:]{.visually-hidden}]{.pb-level} The lessons, where the next piece of work will find them.

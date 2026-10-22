@@ -7,7 +7,7 @@ Use this page in [Phase 1, engagement and scoping](../01-engagement-and-scoping/
 
 ## The eight types of analytical model
 
-If your work is a model rather than a one-off analysis, place it in one of these eight types.
+If your work is a model rather than a one-off analysis, place it in one of these eight types. The list is NHSBSA's own.
 
 | Type | What it is for |
 |---|---|

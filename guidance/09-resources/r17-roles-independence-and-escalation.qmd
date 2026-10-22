@@ -82,7 +82,7 @@ Challenging a brief is therefore part of the analyst's job and not a departure f
 
 ### Draft results go to the commissioner first {#the-commissioner-sees-draft-results-first}
 
-In [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd), the analyst hands the draft results to the commissioner first. The commissioner then understands the analysis before approving it and before sign-off.
+In [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd), the analyst hands the draft results to the commissioner first. The commissioner then understands the analysis before approving it and before sign-off.
 
 GovS 010 gives the same reason: draft results should be delivered to the commissioner to ensure they are sufficiently understood prior to approval.[^src-govs-010-section-5-5] The AQuA Book has insights and assurances communicated to the approver and the commissioner, and says they should understand them well enough to decide whether the work has been appropriately assured and meets their requirements.[^src-aqua-book-section-5-2-4]
 

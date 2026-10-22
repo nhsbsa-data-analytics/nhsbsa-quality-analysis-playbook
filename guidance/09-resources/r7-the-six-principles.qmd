@@ -81,7 +81,7 @@ Analysis supports effective decision-making and meets user needs through clearly
 impartial, timely and accessible outputs. That includes being clear about context, strengths,
 limitations, and **what remains uncertain, stated plainly enough to act on**.
 
-*GovS 010 principle 3. See [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd) and
+*GovS 010 principle 3. See [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) and
 [uncertainty, assumptions and limitations](r10-uncertainty.qmd).*
 
 **So the right decisions are made.** Good quality analysis can be trusted to support effective

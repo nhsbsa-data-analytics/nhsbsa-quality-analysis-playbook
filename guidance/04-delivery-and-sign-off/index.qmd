@@ -1,5 +1,5 @@
 ---
-title: "Phase 4. Delivery and sign-off"
+title: "Phase 4. Delivery, communication and sign-off"
 description: "Deliver it with its caveats and get the approval it needs."
 ---
 
@@ -30,7 +30,7 @@ You deliver the analysis to your commissioner with its caveats attached, then ge
 4. [Every level[:]{.visually-hidden}]{.pb-level} **Communicate findings, limitations and uncertainty clearly, objectively and impartially.**
    Quantify uncertainty where you can, and avoid unwarranted confidence in any one option.
 5. [Every level[:]{.visually-hidden}]{.pb-level} **Get it signed off** by the person your level requires. See
-   [who signs at each level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#in-phase-4-delivery-and-sign-off).
+   [who signs at each level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#in-phase-4-delivery-communication-and-sign-off).
    - If an impact dimension scored 4, go to
      [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked).
 
@@ -77,4 +77,4 @@ You deliver the analysis to your commissioner with its caveats attached, then ge
 | **Commissioner** | Confirm it meets your need, apply its limitations, and approve it for release |
 | **Analysis Senior Responsible Officer** | Business Critical work only. Review the assurance evidence, then approve as fit for its intended use |
 
-: What each role does in Phase 4, delivery and sign-off
+: What each role does in Phase 4, delivery, communication and sign-off

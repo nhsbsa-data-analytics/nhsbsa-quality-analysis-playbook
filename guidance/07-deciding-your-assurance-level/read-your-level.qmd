@@ -26,14 +26,16 @@ An older NHSBSA document may say Tier where this says Level. They map one for on
 
 ## What your level means
 
-| Level | What it is for | What you do |
-|---|---|---|
-| **Level 1 Standard** | Low risk analyses, and analyses where there is very limited time to assure | Do it well. Write down enough to re-run it. Have a colleague check the headline numbers |
-| **Level 2 Enhanced** | Moderate risk analyses, and analyses with very limited time if time permits | Name a reviewer who had no hand in the work before you start. Log the checks. Produce a quality assurance statement |
-| **Level 3 Comprehensive** | High risk analyses, and analyses with very limited time if time permits | Use an assurer from outside your team. Carry out full verification and validation. Publish the statement |
-| **Level 4 BCA** | Very high risk Business Critical analyses | Do everything above. Add formal audit and external review, a register entry and an Analysis Senior Responsible Officer |
+{{< include /guidance/_partials/diagram-what-changes-as-the-level-rises.qmd >}}
 
-: What each assurance level is for and what you do at it
+| Level | What it is for | What else you do |
+|---|---|---|
+| **Level 1 Standard** | Low risk analyses, and analyses where there is very limited time to assure | Write down enough to re-run it |
+| **Level 2 Enhanced** | Moderate risk analyses, and analyses with very limited time if time permits | Name your reviewer before you start. Log the checks. Write a quality assurance statement |
+| **Level 3 Comprehensive** | High risk analyses, and analyses with very limited time if time permits | Carry out full verification and validation |
+| **Level 4 BCA** | Very high risk Business Critical analyses | Add formal audit, and follow [Business Critical analysis](../08-business-critical/index.qmd) |
+
+: What each assurance level is for, and what you do beyond what the picture shows
 
 Very limited time does not lower your level. The tool says to carry out the Level 1 checks, add the others where time permits, and record what was left out. See [when there is not enough time](after-you-have-your-level.qmd#when-there-is-not-enough-time).
 

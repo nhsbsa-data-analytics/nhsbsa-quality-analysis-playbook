@@ -1,8 +1,9 @@
 {
- "01-analytical-lifecycle.drawio": "4a35c9dd65b0c9fba2179923d1a6bc5fa9e82c5e7d5079ebc3c60037e3a9c046",
+ "01-analytical-lifecycle.drawio": "4439aab997541ea63275a40954d17c7cd46802001a0969cd8d5adeabd624a777",
  "02-correcting-a-published-figure.drawio": "41e8873552484464bb36a856b707be5432188a4b3dfc05a9cd30104efe5a4525",
- "03-funding-formula-handoffs.drawio": "e5ad57bfca433d82ae13475ea453f953dc9ea4a717aebd670c7acb66b79b1d54",
- "04-assurance-level-timing.drawio": "03a13811b14e347c508d90eef6a1e6fb1e332fb253ab50f33ec87234a8ba2056",
+ "03-funding-formula-handoffs.drawio": "9ec258063d5cf8994a2a97936e05650e8bbc88d7463bb03b584f3f81d9eb189e",
+ "04-assurance-level-timing.drawio": "226b5c2d0ae1f93662a473ab51ee3f2ffed230afb7b5af936bcafad19a68c24b",
  "05-assurance-level-matrix.drawio": "5ecb45e361f115b7a99f572ea7f2f59ded31832828f605d8d8e15eb29aebc8ad",
- "06-documents-by-role-and-phase.drawio": "3b02ae4ee84ad18182864095acc3e9e1e9b5277703ed9ba921b6a188d0fd569e"
+ "06-what-changes-as-the-level-rises.drawio": "519fb9ebe81b054bb1d349ca38f81b93026435df71af0989378e1748e27ab825",
+ "07-documents-by-role-and-phase.drawio": "ba2f9e4458ded2366b70dbb3e596f88419c6d03b9957fad522ad95bf2620ce10"
 }

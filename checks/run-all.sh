@@ -22,7 +22,7 @@
 #   house-voice.py           nothing
 #   standards.py             nothing
 #   glossary.py              nothing
-#   diagrams.py              nothing. Reads the six diagrams in static/diagrams against the
+#   diagrams.py              nothing. Reads the seven diagrams in static/diagrams against the
 #                            partials that embed them (alt text, size, labels, word count), and
 #                            the phases-and-roles board against the phase pages when build/ is
 #                            present

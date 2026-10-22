@@ -53,7 +53,7 @@ result was reached:
 - the assurance level applied, and why. See
   [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd)
 - the quality assurance statement. See
-  [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd)
+  [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd)
 - the data sources, extract dates and known quality issues
 - the code, published where it can be
 

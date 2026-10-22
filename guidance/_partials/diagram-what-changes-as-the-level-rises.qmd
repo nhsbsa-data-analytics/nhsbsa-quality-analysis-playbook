@@ -1,0 +1,14 @@
+[![[**What changes as the level rises.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/06-what-changes-as-the-level-rises.png){.nhsuk-image__img width=680 height=530 fig-alt="What changes as the level rises: a grid with the four assurance levels across the top, and who signs the work off, who reviews it and what it ends with at each."}](/static/diagrams/06-what-changes-as-the-level-rises.svg){.diagram-open aria-label="What changes as the level rises: a grid with the four assurance levels across the top, and who signs the work off, who reviews it and what it ends with at each. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+A grid with the four assurance levels across the top and three rows down the side.
+
+- **Who signs it off.** At Level 1, you. At Level 2, your team lead. At Level 3, the Lead Official for Statistics. At Level 4 BCA, the Lead Assurer, then the Analysis Senior Responsible Officer.
+- **Who reviews it.** At Level 1, a colleague in your team. At Level 2, someone with no hand in the work. At Level 3, an assurer from outside the team. At Level 4 BCA, a Lead Assurer, and external review as well.
+- **What it ends with.** At Level 1, the record stored with the output. At Level 2, the record archived and linked from the output. At Level 3, the output published with its quality assurance statement. At Level 4 BCA, the output published, on the Business Critical register and revalidated annually.
+
+</div>
+</details>

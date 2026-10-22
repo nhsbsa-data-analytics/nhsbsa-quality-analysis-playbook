@@ -44,7 +44,7 @@ than lifting it whole.
 
 ## What each level's statement carries
 
-What a Level 3 statement carries is on [Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd). What a Level 4 BCA statement adds is on [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked). Both are the playbook's own requirements, so they sit with the steps that act on them.
+What a Level 3 statement carries is on [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd). What a Level 4 BCA statement adds is on [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked). Both are the playbook's own requirements, so they sit with the steps that act on them.
 
 ## What GovS 010 says about the statement {#what-govs-010-says-about-the-statement}
 

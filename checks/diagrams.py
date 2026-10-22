@@ -4,13 +4,13 @@ design board which quotes the role pages still does.
 
     python3 checks/diagrams.py
 
-The playbook carries six diagrams, each written by `build/diagrams.py` as a draw.io source and
+The playbook carries seven diagrams, each written by `build/diagrams.py` as a draw.io source and
 rendered by `build/render-diagrams.py`. NHSBSA asked for visuals that support understanding of
 processes, decisions and actions, and for those that only describe the structure of the content to
 go. An earlier set of twelve was removed because each one repeated a table or list beside it, at a
-size nobody could read. These six are where a picture is quicker than the words: a circuit, a
+size nobody could read. These seven are where a picture is quicker than the words: a circuit, a
 decision with three outcomes, a sequence of handoffs, a grid of when each step happens, the matrix
-that gives a level, and a grid of who owns which document. Each carries the steps, so the page says
+that gives a level, what changes as the level rises, and a grid of who owns which document. Each carries the steps, so the page says
 less, and the full wording sits in an expander under it. A list of steps or documents stays a list.
 
 With no diagram on disk:
@@ -31,11 +31,13 @@ With one or more:
   9. every diagram is simple enough to read at a glance and large enough to read: drawn on a 680px
      canvas, which the page shows at its own size, with no label under 14px, and within a budget
      of 90 words and 20 boxes
-  10. the text in every drawing, the playbook's six and the eleven service design boards, reaches
+  10. the text in every drawing, the playbook's seven and the eleven service design boards, reaches
      7:1 on the fill it sits on, as the site's text does. The boards were drawn with a grey that
      read 3.8:1 on white at 10px, in 5 to 11 places on each of them
   11. the assurance level matrix drawing gives each of the sixteen impact and likelihood pairs the
      level the matrix table on the Read your level page gives it
+  12. each of the twelve cells of the what-changes-as-the-level-rises drawing still says what the
+     page it summarises says, at the same level
 
 Always, where `build/` is present:
 
@@ -499,6 +501,70 @@ def check_board():
         print('  ok  all %d phases-and-roles cell(s) still quote their role page' % checked)
 
 
+# Assertion 12. Each cell of the level comparison, at (row, level), the words it must carry, and
+# where the page it summarises says the same: (file, phrase that must be on that page).
+STEP4 = 'guidance/07-deciding-your-assurance-level/what-your-level-requires.qmd'
+FRIEND = 'guidance/06-roles/critical-friend.qmd'
+BCA = 'guidance/08-business-critical/index.qmd'
+LEVEL_CELLS = {
+    (0, 1): ('You', STEP4, 'No formal sign-off beyond you'),
+    (0, 2): ('team lead', STEP4, '**Signed off by your team lead.**'),
+    (0, 3): ('Lead Official for Statistics', STEP4, 'Signed off by the Lead Official for Statistics'),
+    (0, 4): ('Lead Assurer, then the Analysis Senior Responsible Officer', BCA,
+             'Get sign-off from the Lead Assurer, then from the Analysis Senior Responsible Officer'),
+    (1, 1): ('colleague in your team', FRIEND, '| Level 1 Standard | A colleague, within the delivering team |'),
+    (1, 2): ('no hand in the work', FRIEND, '| Level 2 Enhanced | Someone who had no hand in producing the work'),
+    (1, 3): ('outside the team', FRIEND, '| Level 3 Comprehensive | An assurer from outside the delivering team |'),
+    (1, 4): ('external review', FRIEND, 'A Lead Assurer from outside the delivering team, with external review'),
+    (2, 1): ('stored with the output', STEP4, 'Store the project record with the output'),
+    (2, 2): ('linked from the output', STEP4, 'archived together and linked from the output'),
+    (2, 3): ('Published with its statement', STEP4, 'Statement published with the output'),
+    (2, 4): ('revalidated annually', BCA, 'Analysis Senior Responsible Officer does this annually'),
+}
+
+
+def check_level_rows():
+    """Assertion 12. The level comparison still says what the pages say.
+
+    The drawing is a summary of three pages, cut to a few words a cell, so it can go stale without
+    any word in it being wrong on its own: a page moves Level 2 sign-off to somebody else and the
+    picture goes on saying team lead. Its cells are read back by where they sit, a row for each
+    thing and a column for each level, and each is held against the line on the page it comes from."""
+    import html
+    import xml.etree.ElementTree as ET
+    src = DIAG / '06-what-changes-as-the-level-rises.drawio'
+    if not src.is_file():
+        fail.append('%s is missing, so the level comparison on Read your level has no picture'
+                    % src.relative_to(ROOT))
+        return
+    cells = []
+    for c in ET.parse(src).getroot().iter('mxCell'):
+        g = c.find('mxGeometry')
+        text = re.sub(r'<[^>]+>', ' ', html.unescape(c.get('value') or ''))
+        text = ' '.join(text.split())
+        if c.get('vertex') == '1' and g is not None and text:
+            cells.append((float(g.get('y', 0)), float(g.get('x', 0)), text))
+    heads = sorted((x, t) for y, x, t in cells if t.startswith('LEVEL ') or t.startswith('Level '))
+    cols = [x for x, _ in heads]
+    body = [(y, x, t) for y, x, t in cells if x in cols and not t.lower().startswith('level ')]
+    rows = sorted({y for y, _, _ in body})
+    if len(cols) != 4 or len(rows) != 3 or len(body) != 12:
+        fail.append('the level comparison should read as four levels by three rows, twelve cells; '
+                    'it reads as %d columns, %d rows, %d cells' % (len(cols), len(rows), len(body)))
+        return
+    grid = {(rows.index(y), cols.index(x) + 1): t for y, x, t in body}
+    pages = {}
+    for (r, lv), (words, page, phrase) in LEVEL_CELLS.items():
+        if words not in grid[(r, lv)]:
+            fail.append('the level comparison, row %d at Level %d, reads %r and should carry %r'
+                        % (r + 1, lv, grid[(r, lv)], words))
+        text = pages.setdefault(page, ' '.join((ROOT / page).read_text(encoding='utf-8').split()))
+        if phrase not in text:
+            fail.append('%s no longer says %r, which the level comparison at row %d, Level %d '
+                        'summarises. Redraw the cell in build/diagrams.py to match the page'
+                        % (page, phrase, r + 1, lv))
+
+
 def check_matrix():
     """Assertion 11. The matrix picture gives every combination the level the matrix table gives it.
 
@@ -600,6 +666,13 @@ def main():
     if stems:
         check_set(stems)
         check_matrix()
+        check_level_rows()
+        if fail:
+            print('diagrams FAILED')
+            for f in fail:
+                print('  X   %s' % f)
+            sys.exit(1)
+        print('  ok  the level comparison\'s twelve cells still say what their three pages say')
     else:
         check_none()
     check_board()

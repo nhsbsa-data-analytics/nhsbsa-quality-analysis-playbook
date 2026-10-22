@@ -22,7 +22,7 @@ The assurer and the analyst shall be independent. How far apart depends on the l
 | Level | The critical friend is |
 |---|---|
 | Level 1 Standard | A colleague, within the delivering team |
-| Level 2 Enhanced | Someone who had no hand in producing the work |
+| Level 2 Enhanced | Someone who had no hand in producing the work. They may be in the delivering team |
 | Level 3 Comprehensive | An assurer from outside the delivering team |
 | Level 4 BCA | A Lead Assurer from outside the delivering team, with external review |
 

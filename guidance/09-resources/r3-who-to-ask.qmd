@@ -9,7 +9,7 @@ description: "Who to ask, communities of practice, and closing a skills gap."
 | Advice on your assurance level, or a level dispute resolved | The Analytical Quality and Assurance Lead |
 | A critical friend for your analysis | Your team lead in the first instance |
 | Advice on official statistics | The Lead Official for Statistics |
-| Business Critical registration | The Analytical Quality and Assurance function, which holds the register |
+| Business Critical registration | The Data Science, Statistics and AI team, which holds the register |
 | Information governance advice, or help with personal data | The central information governance mailbox, which takes the request and starts a data protection impact assessment. Ask before the work starts, not at sign-off |
 | Help with analytical code, testing or reproducibility | The owners of the [Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) |
 
@@ -20,8 +20,8 @@ change to this playbook. Who currently holds each one is in the governance and m
 
 **Two of the rows rest on something outside this playbook.** The Lead Official for Statistics is
 NHSBSA's title for the role the Code of Practice for Statistics requires of any producer of
-official statistics, and calls the Head of Profession for Statistics. The Analytical Quality
-and Assurance function holds the register, which is why Business Critical registration goes
+official statistics, and calls the Head of Profession for Statistics. The Data Science,
+Statistics and AI team holds the register, which is why Business Critical registration goes
 there. Who holds each post is in the governance and management framework.
 
 **The information governance mailbox is the route, and this page does not carry its address.**
@@ -70,7 +70,7 @@ Analytical Quality and Assurance Lead using the routes above.
 assumes, that is a limitation of the analysis. Record it, and put it in the quality assurance
 statement, the same as any other limitation. See
 [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and
-[Phase 4, delivery and sign-off](../04-delivery-and-sign-off/index.qmd).
+[Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd).
 
 Two frameworks help with the wider question of whether NHSBSA has the capability it needs, rather
 than with a single piece of work:
