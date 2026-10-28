@@ -1,0 +1,30 @@
+---
+title: "The commissioner"
+description: "Your steps as the commissioner, from the decision to approval."
+---
+
+{{< include /guidance/_partials/role-commissioner.qmd >}}
+
+## Your journey
+
+{{< include /guidance/_partials/diagram-journey-commissioner.qmd >}}
+
+## Your checklist
+
+{{< include /guidance/_partials/table-journey-commissioner.qmd >}}
+
+## Where to go next
+
+- [Where a disagreement goes](index.qmd#when-you-disagree)
+- [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd)
+- [Business Critical analysis](../08-business-critical/index.qmd)
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Who to ask](../09-resources/r3-who-to-ask.qmd)
+- [Why you start from the decision](../09-resources/r17-roles-independence-and-escalation.qmd#the-decision-not-the-output)
+- [What each score measures](../09-resources/r15-scoring-the-assurance-level.qmd#what-each-score-measures)
+- [Working to a deadline](../09-resources/r15-scoring-the-assurance-level.qmd#working-to-a-deadline)
+- [Passing results on with their caveats](../09-resources/r17-roles-independence-and-escalation.qmd#passing-results-on-with-their-caveats)
+:::

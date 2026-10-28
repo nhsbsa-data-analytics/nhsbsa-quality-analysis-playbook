@@ -1,0 +1,42 @@
+---
+title: "R6. Correcting a published figure"
+description: "Revisions and corrections, and what the policy asks of you."
+---
+
+Nothing in this playbook prevents an error reaching publication. What decides whether that error
+damages trust is what happens next, and for official statistics NHSBSA has already written down
+what happens next.
+
+## What to do when a published figure has changed {#what-to-do-when-a-published-figure-has-changed}
+
+The [NHSBSA Revisions and Corrections Policy (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2021-05/Revisions_and_Corrections_Policy_v002.pdf) treats a revision and a correction as two different things. A revision is expected: statistics published as provisional and later finalised, a change of methodology, or the arrival of further data. A correction is an error.
+
+{{< include /guidance/_partials/diagram-correcting-a-published-figure.qmd >}}
+
+The policy grades errors by what they do to the conclusions, not by how big the number is. As an illustration, a small arithmetic slip that reverses a conclusion is significant. A large number restated without changing anything anyone decided is not significant.
+
+The amendment is published alongside the link to the document. Where an error is known but corrected figures are not yet available, a note goes on the statistics. The note says so and makes clear the figures are subject to change.
+
+### Who decides
+
+The policy names two deciders, in two of its parts.
+
+- **An error in published statistics.** The **Lead Official for Statistics** decides how to address it, consulting the National Statistician where appropriate. This is in the policy's part on corrections.
+- **Any change to published statistics.** The **statistician responsible for the publication** decides, consulting the Lead Official for Statistics as appropriate. This is in its part on handling revisions and corrections.
+
+The policy does not say which part governs when a correction is also a change, so involve both: the statistician responsible for the publication, and the Lead Official for Statistics. The part on handling revisions and corrections commits to telling the Lead Official of any significant revision or correction in any case. Who holds that post is recorded in the governance and management framework, and [who to ask](r3-who-to-ask.qmd) has the route to them.
+
+### For any other output {#if-your-output-is-not-official-statistics}
+
+The policy does not bind it, and its behaviour is worth following anywhere. Say what was wrong, say what it changed, and say where the corrected version is. Leave the original visible rather than replacing it silently. An analysis that quietly acquires new numbers is indistinguishable from an analysis nobody checked.
+
+## Where a correction connects to the rest of the playbook {#where-a-correction-connects}
+
+A correction is a change to data, method or output after sign-off. From Level 3, the
+[change control check](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level)
+applies, and the change is re-assured proportionately.
+
+What the correction shows about how the error got through is a lesson. That lesson belongs in
+[Phase 5, review](../05-review/index.qmd).
+
+[NHSBSA templates and documents](r2-templates-and-documents.qmd) lists the policy itself.

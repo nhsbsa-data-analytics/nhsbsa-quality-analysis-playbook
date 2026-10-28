@@ -1,0 +1,124 @@
+---
+title: "R15. Why Business Critical works as it does"
+description: "Why Level 4 is Business Critical, and how the designation works."
+---
+
+This explains the reasons behind the Business Critical steps in [Business Critical analysis](../08-business-critical/index.qmd), [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+
+## Reaching the designation
+
+### What makes work Business Critical {#what-makes-work-business-critical}
+
+NHSBSA's definition of Business Critical analysis is on [Business Critical analysis](../08-business-critical/index.qmd). Work is identified as Business Critical by a Level 4 score on any of the six impact dimensions of the Analytical Assurance Decision Tool.
+
+One dimension at Level 4 is enough. The work does not need two. A Level 4 on any dimension makes the level Level 4 BCA, whatever the likelihood of an error.
+
+In this playbook, the designation is a consequence of the impact assessment, not a separate judgement alongside it. It comes from scoring the six impact dimensions on the Analytical Assurance Decision Tool, which sets the assurance level in any case.
+
+In this playbook, nobody settles it separately or anywhere else. The Business Critical steps follow from the designation.
+
+The Analytical Risk Assessment and Quality Assurance Framework lists escalation to Business Critical Analysis separately. It gives four triggers, joined by "and/or":
+
+- a Very High risk rating
+- errors that could result in significant financial, legal, operational or reputational consequences
+- support for nationally significant or high-profile decisions
+- being part of a recognised Business Critical Model
+
+None of the four designates work as Business Critical on its own. The framework says designation is a governance decision, to be considered separately from the analytical risk rating.
+
+So the playbook treats a trigger as a reason to score the six impact dimensions again with the commissioner. This applies where the work was not designated at scoping.
+
+#### Publication status and other signs of visibility {#what-does-not-make-work-business-critical}
+
+NHSBSA's guidance says that none of these justifies a Level 4 score by itself:
+
+- publication status
+- Board consideration
+- Official Statistics designation
+- media interest
+- national visibility
+- Freedom of Information (FOI) disclosure
+- ministerial interest
+- parliamentary scrutiny
+
+These things raise how much assurance the work needs. They do not, on their own, make the analysis Business Critical. The playbook scores them under public visibility and reach, and does not add them on top of that score.
+
+NHSBSA's worked examples for impact are marked as still to be developed. They place a Board report, an FOI response and a ministerial briefing at impact 3, not impact 4.
+
+Official statistics are assured under the Code of Practice for Statistics, which GovS 010 says producers of official statistics should apply,[^src-govs-010-section-6-12] whether or not they are Business Critical. The two are different questions, and a publication answers both separately.
+
+### Settling the level at scoping {#settling-the-level-at-scoping}
+
+#### The impact is scored first {#the-impact-is-scored-first}
+
+You decide whether work is Business Critical at scoping. The impact score alone settles it, which is why the impact comes first.
+
+Everything that follows from a designation takes time to arrange: the register entry, the Analysis Senior Responsible Officer and the enhanced assurance. [Revalidation](#revalidating-the-designation) later confirms that the designation still holds.
+
+#### The tool is used when the Scope is complete {#the-tool-is-used-when-the-scope-is-complete}
+
+NHSBSA's guidance names the time. It calls the tool the assurance decision sheet and says it "can be used when the scope is completed" (section 5.1).
+
+The guidance allows the tool to be used then. The playbook requires it.
+
+The Scope defines the key decisions the analysis supports and its principal risks. The six impact dimensions ask about the same things.
+
+A designation reached after the Specification is written cannot change the Specification. Two analysts doing comparable work should not be able to reach different levels with nothing recording why.
+
+The commissioner knows what the analysis will be used for and what depends on it. The analyst knows what it can bear. That is why the two score together.
+
+#### A Level 4 BCA level holds at every likelihood {#the-likelihood-cannot-move-a-level-4-bca-level}
+
+Every cell in the impact 4 row of [the matrix](../07-deciding-your-assurance-level/read-your-level.qmd) is Level 4 BCA. The row does not vary, so no likelihood score can move the level.
+
+Where an impact dimension scores 4, your level is already Level 4 BCA at scoping. That is why the top row of the matrix can be read without a likelihood score, and why nothing at design can change it. Nothing below impact Level 4 reaches Level 4 BCA, however likely an error is.
+
+#### The likelihood is still scored at scoping {#the-likelihood-is-still-scored-at-scoping}
+
+Business Critical work still scores the likelihood at scoping. The score completes the Analytical Assurance Decision Tool, which goes into the Specification. The tool is not complete without it, and the score completes the tool rather than the level.
+
+#### The answer is recorded either way {#the-answer-is-recorded-either-way}
+
+The playbook asks for a no to be recorded as well as a yes. That way the answer is on the record either way.
+
+## After the designation
+
+### The register entry, for models and other analysis {#the-register-entry}
+
+Business Critical work is logged with the Data Science, Statistics and AI team on the Business Critical register. NHSBSA's earlier guidance gave the register of analytical models to the Quality and Assurance team (NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026). The playbook follows NHSBSA's current arrangement. The playbook puts any Business Critical work on the register, whether or not it is a model. Analysis that is not a model can still be Business Critical, so the register entry applies to it too.
+
+In this playbook, a model is analysis built to be run more than once, usually over time. GovS 010 section 6.11 says what models used in decision making should be, and what recommended practice models should have.[^src-govs-010-section-6-11] For a model, the requirements of the Business Critical steps apply across its whole life, not just to the run that produced today's number.
+
+GovS 010 section 6.11 does not mention a register. It says each recommended practice model should have five things, and they are the five items that the register entry holds.[^src-govs-010-section-6-11] That is a *should*, which is a recommendation. The AQuA Book goes further at sign-off. It says the analyst and the approver shall follow organisational governance procedures, including updating the business-critical analysis register where appropriate.[^src-aqua-book-section-9-1-2][^src-aqua-book-section-9-1-4] For Business Critical work, the playbook requires the entry.
+
+In this playbook, Business Critical work is on the register and every entry on it has a review date. No standard states the review-date rule.
+
+### The public register and annual reporting {#the-public-register-and-annual-reporting}
+
+Each entry is added to NHSBSA's public register of Business Critical analyses. NHSBSA reports on its Business Critical analysis every year to the Data, Analytics and AI Governance Council and to the Department of Health and Social Care, and includes a statement in its annual report.
+
+### Approving a new use {#approving-a-new-use}
+
+GovS 010 section 6.11 puts approval of a new use as a *should*, which is a recommendation. The senior accountable officer should approve a recommended practice model that is used for another purpose, or whose context of use has changed.[^src-govs-010-section-6-11] In this playbook, that officer is the Analysis Senior Responsible Officer.
+
+For Business Critical work, the playbook treats approval as a condition of staying on the register. Without that approval, the work does not stay on the register.
+
+Reuse is also the usual reason an assurance level changes. [Reuse and the assurance level](r18-review-reuse-and-records.qmd#reuse-and-the-assurance-level) explains why.
+
+### Quantifying uncertainty at Level 4 BCA {#quantifying-uncertainty-at-level-4-bca}
+
+At Level 4 BCA, uncertainty is quantified wherever the method allows. That is the same as Level 3.
+
+GovS 010 section 6.5 asks for expressions of uncertainty to be quantitative where possible when results are disseminated.[^src-govs-010-section-6-5] [Uncertainty, assumptions and limitations](r10-uncertainty.qmd) covers the method.
+
+### Revalidation of the designation, in both directions {#revalidating-the-designation}
+
+A designation is not permanent, in either direction. Work that was Business Critical can stop being so, and work that was not can become so as its use widens.
+
+Revalidation therefore checks the designation in both directions. It is part of the [Phase 5 review](../05-review/index.qmd), not a separate exercise.
+
+[^src-govs-010-section-6-11]: [GovS 010 section 6.11](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#analytical-models)
+[^src-govs-010-section-6-5]: [GovS 010 section 6.5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#Uncertainty)
+[^src-govs-010-section-6-12]: [GovS 010 section 6.12](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#stats)
+[^src-aqua-book-section-9-1-2]: [AQuA Book section 9.1.2](https://www.gov.uk/guidance/the-aqua-book#the-analysts-responsibilities-3)
+[^src-aqua-book-section-9-1-4]: [AQuA Book section 9.1.4](https://www.gov.uk/guidance/the-aqua-book#the-approvers-responsibilities-3)

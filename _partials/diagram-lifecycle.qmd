@@ -1,0 +1,18 @@
+[![[**The analytical lifecycle.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/01-analytical-lifecycle.png){.nhsuk-image__img width=680 height=516 fig-alt="The analytical lifecycle: five phases in a circuit, with the lessons from review going into the next scoping."}](/static/diagrams/01-analytical-lifecycle.svg){.diagram-open aria-label="The analytical lifecycle: five phases in a circuit, with the lessons from review going into the next scoping. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+Five phases drawn as a circuit, read clockwise, each in a filled box. Phases 1, 2 and 3 run left
+to right across the top. An arrow comes down the right-hand side to Phase 4. An arrow runs back
+along the bottom to Phase 5. A green arrow goes up the left-hand side from Phase 5 to Phase 1,
+closing the loop, and is marked: lessons go into the next scoping. Phase 1 is engagement and scoping,
+Phase 2 design, Phase 3 analysis, Phase 4 delivery, communication and sign-off, and Phase 5 review. Phase 5 is green
+and the other four are blue.
+
+A panel below, headed "running through all five phases", reads: quality assurance and customer and
+stakeholder engagement.
+
+</div>
+</details>

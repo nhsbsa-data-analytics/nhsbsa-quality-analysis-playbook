@@ -1,0 +1,63 @@
+---
+title: "Step 3. Read your level"
+description: "Read your level where your impact and likelihood scores meet."
+---
+
+Do this in [Phase 2, design](../02-design/index.qmd). If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
+
+Take your highest impact score from [Step 1, score the impact](score-the-impact.qmd). Take your highest likelihood score from [Step 2, score the likelihood](score-the-likelihood.qmd). Read your level where the two meet.
+
+{{< include /guidance/_partials/diagram-assurance-level-matrix.qmd >}}
+
+| Impact | Likelihood 1 low | 2 moderate | 3 high | 4 very high |
+|------------------|--------------------|--------------------|--------------------|----------------------|
+| **4 very high** | Level 4 BCA | Level 4 BCA | Level 4 BCA | Level 4 BCA |
+| **3 high** | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive | Level 3 Comprehensive |
+| **2 moderate** | Level 1 Standard | Level 2 Enhanced | Level 2 Enhanced | Level 3 Comprehensive |
+| **1 low** | Level 1 Standard | Level 1 Standard | Level 1 Standard | Level 2 Enhanced |
+
+: The assurance level for each combination of impact and likelihood score
+
+Each level includes the checks of every lower level.
+
+Read your level from the matrix. Do not choose a level because time is short.
+
+An older NHSBSA document may say Tier where this says Level. They map one for one: Tier 3 is Level 3 Comprehensive.
+
+## What your level means
+
+{{< include /guidance/_partials/diagram-what-changes-as-the-level-rises.qmd >}}
+
+| Level | What it is for | What else you do |
+|---|---|---|
+| **Level 1 Standard** | Low risk analyses, and analyses where there is very limited time to assure | Write down enough to re-run it |
+| **Level 2 Enhanced** | Moderate risk analyses, and analyses with very limited time if time permits | Name your reviewer before you start. Log the checks. Write a quality assurance statement |
+| **Level 3 Comprehensive** | High risk analyses, and analyses with very limited time if time permits | Carry out full verification and validation |
+| **Level 4 BCA** | Very high risk Business Critical analyses | Add formal audit, and follow [Business Critical analysis](../08-business-critical/index.qmd) |
+
+: What each assurance level is for, and what you do beyond what the picture shows
+
+Your level stands when time is very limited. The tool says to carry out the Level 1 checks, add the others where time permits, and record what was left out. See [when time is short](after-you-have-your-level.qmd#when-there-is-not-enough-time).
+
+### Independence applies at every level
+
+The assurer and the analyst shall be independent. See [how independent you have to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be) for how far apart they must be at your level.
+
+You still assure your own work at every level. There shall also be formal independent assurance.
+
+## What you do next
+
+- [Step 4. What your level requires](what-your-level-requires.qmd)
+- [Record your level in the Specification](after-you-have-your-level.qmd#record-your-level-in-the-specification)
+- [Business Critical analysis](../08-business-critical/index.qmd), if your level is Level 4 BCA
+- [The eight types of analytical model](after-you-have-your-level.qmd#the-eight-types-of-analytical-model), if your work is a model
+- [After you have your level](after-you-have-your-level.qmd), if you disagree on the level or have too little time to assure
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Each level includes the checks of the levels below it](../09-resources/r15-scoring-the-assurance-level.qmd#each-level-includes-the-checks-below-it)
+- [The likelihood and a Level 4 BCA level](../09-resources/r16-what-makes-work-business-critical.qmd#the-likelihood-cannot-move-a-level-4-bca-level)
+- [One impact score, two levels](../09-resources/r19-worked-examples.qmd#one-impact-score-two-levels)
+- [Publication status and Business Critical status](../09-resources/r16-what-makes-work-business-critical.qmd#what-does-not-make-work-business-critical)
+:::

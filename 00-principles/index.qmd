@@ -1,0 +1,89 @@
+---
+title: "The seven quality principles"
+description: "The seven principles the playbook is built on."
+---
+
+NHSBSA analysis informs how public money is spent, how services are run, and what the public is
+told. Seven principles apply to all of it.
+
+## The principles
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">1. Analysis answers the right questions</span></summary>
+<div class="nhsuk-details__text">
+
+There should be a clear, shared understanding of the questions to be answered, how they meet user
+needs, and **how certain the answer needs to be**. Analysis should be for the public good and aligned
+to government policy and organisational objectives.
+
+</div>
+</details>
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">2. Using the right methods</span></summary>
+<div class="nhsuk-details__text">
+
+Analysis uses appropriate inputs and methods to produce high quality results. It should be
+repeatable, independent, grounded in reality, objective, with
+[uncertainty](../09-resources/r10-uncertainty.qmd) understood and managed, and it should answer the original
+question robustly.
+
+</div>
+</details>
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">3. At the right time</span></summary>
+<div class="nhsuk-details__text">
+
+Analysis is provided in time to be useful. **That is never at the expense of quality assurance.**
+
+</div>
+</details>
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">4. With the right level of quality assurance</span></summary>
+<div class="nhsuk-details__text">
+
+Quality assurance **and continuous improvement** are built into the way analysis is carried out.
+Assurance is proportionate to the impact of the results on the decision, and to the risks of how
+they will be used.
+
+</div>
+</details>
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">5. Following the right standards</span></summary>
+<div class="nhsuk-details__text">
+
+Analysis is undertaken in line with legal and ethical obligations, with public service codes of
+conduct, and with those of your own profession.
+
+</div>
+</details>
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">6. Presented in the right way</span></summary>
+<div class="nhsuk-details__text">
+
+Analysis supports effective decision-making and meets user needs through clearly presented,
+impartial, timely and accessible outputs. That includes being clear about context, strengths,
+limitations, and **what remains uncertain, stated plainly enough to act on**.
+
+</div>
+</details>
+
+<details class="nhsuk-details nhsuk-expander">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">7. So the right decisions are made</span></summary>
+<div class="nhsuk-details__text">
+
+Good quality analysis can be trusted to support effective decision-making and meet user needs.
+
+</div>
+</details>
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where each principle comes from, and where the playbook applies it](../09-resources/r20-standards-to-principles-mapping.qmd)
+- [Which parts of GovS 010 are a requirement, and which are a recommendation](../09-resources/r20-standards-to-principles-mapping.qmd#which-parts-of-govs-010-are-a-requirement)
+:::

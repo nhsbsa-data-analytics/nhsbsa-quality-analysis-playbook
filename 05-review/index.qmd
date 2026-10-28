@@ -1,0 +1,81 @@
+---
+title: "Phase 5. Review"
+description: "Ask whether it worked, is still right, and what comes next."
+---
+
+## What you do
+
+{{< include /guidance/_partials/step-levels-key.qmd >}}
+
+1. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether the analysis informed the decision** it was commissioned for.
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether it is still being used**, and still being used as specified.
+3. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether it is still right.**
+4. [From Level 3[:]{.visually-hidden}]{.pb-level} **Check the assurance level still holds.** Score it again if it does not, and record the result.
+5. [Every level[:]{.visually-hidden}]{.pb-level} **Decide whether to decommission it**, reissue it, or leave it as it is.
+6. [From Level 2[:]{.visually-hidden}]{.pb-level} **Record the lessons** where the next analyst will look for them. For a regular output, that is
+   the project record. Raise any that apply beyond this output with the people in
+   [who to ask](../09-resources/r3-who-to-ask.qmd).
+7. [Every level[:]{.visually-hidden}]{.pb-level} **If the output is regular or ongoing, bring it to the monthly review meeting.** The Analytical Quality and Assurance Lead chairs it. See
+   [the monthly review meeting](../09-resources/r18-review-reuse-and-records.qmd#the-monthly-review-meeting).
+
+## When review happens, and who owns it
+
+| Level | Trigger | Owner | Cadence |
+|------------------|---------------------|---------------------------|---------------------------|
+| Level 1 Standard | On request, or when the output changes | The analyst who produced it | At each reissue |
+| Level 2 Enhanced | Scheduled | The commissioner, with the analyst | Annually, or at each reissue if more frequent, and before any reuse for a new purpose |
+| Level 3 Comprehensive | Scheduled, and on any material change | The commissioner, with the analyst | Annually, and before any reuse for a new purpose |
+| Level 4 BCA | Scheduled, and on any material change | The commissioner, with the Analysis Senior Responsible Officer | Annually, and before any reuse for a new purpose |
+
+: When review is triggered, who owns it and how often, by assurance level
+
+## What to check in a review
+
+Look at the decisions taken, usage, ongoing usefulness, case studies, trend changes, improvements to
+regular analysis, and whether to decommission it. Resources says
+[what each review activity means](../09-resources/r18-review-reuse-and-records.qmd#what-a-review-looks-at).
+
+## Check four things before any reuse {#check-four-things-before-any-reuse}
+
+- Has the **population** the analysis covers changed, or is the new use about a different one?
+- Has the **data** moved in coverage, definition or quality since?
+- Is the **use case** different from the one the method was built to answer? A new audience is a
+  different use case.
+- Has the **decision context** shifted, so that the same output now carries more weight?
+
+If any answer is yes, [score the assurance level again](../07-deciding-your-assurance-level/index.qmd). If every answer is no, the reuse goes ahead at the level the work already has. If an impact dimension scored 4, go to
+[Business Critical analysis, step 8](../08-business-critical/index.qmd#step-8-keep-it-true-after-first-use).
+
+## Outputs of this phase
+
+- The review record, kept with the project record:
+  - For most outputs, a short entry in the project record.
+  - The entry says what was checked, what was found, what changed, and who was involved.
+  - For Business Critical analysis, any agreed improvements go into the quality assurance plan, with their priorities and target dates.
+- [From Level 2[:]{.visually-hidden}]{.pb-level} The lessons, where the next piece of work will find them.
+- [From Level 3[:]{.visually-hidden}]{.pb-level} The assurance level, revalidated. For Business Critical work, the designation as well.
+- A decommissioning decision, where one was taken.
+
+## More detail in Resources
+
+::: {.more-detail}
+- [R6. Correcting a published figure](../09-resources/r6-when-something-is-wrong.qmd), for
+  a revision, a correction or a reissue
+- [R12. Publishing analysis](../09-resources/r13-putting-figures-in-the-public-domain.qmd),
+  for where NHSBSA publishes analysis, to find usage figures
+- [Review activities and the standards behind them](../09-resources/r18-review-reuse-and-records.qmd#review-activities-and-the-standards)
+- [Checking again after release](../09-resources/r18-review-reuse-and-records.qmd#checking-again-after-release)
+- [Capturing lessons, and what to raise wider](../09-resources/r18-review-reuse-and-records.qmd#capturing-lessons)
+- [NHSBSA's monthly review of regular outputs](../09-resources/r18-review-reuse-and-records.qmd#the-monthly-review-meeting)
+:::
+
+## Who does what in this phase
+
+| Role | In Phase 5 |
+|---|---|
+| **Analyst** | Record the lessons where the next analyst will look for them |
+| **Critical friend** | No action in this phase. The lessons recorded here include your Phase 3 findings |
+| **Commissioner** | Confirm whether it informed the decision, whether it is still used, and whether to decommission it |
+| **Analysis Senior Responsible Officer** | Business Critical work only. Revalidate the designation annually, and before any reuse for a new purpose. Approve any new use before it goes ahead |
+
+: What each role does in Phase 5, review

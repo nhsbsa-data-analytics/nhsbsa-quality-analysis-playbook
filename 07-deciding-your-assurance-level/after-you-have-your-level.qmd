@@ -1,0 +1,66 @@
+---
+title: "After you have your level"
+description: "Model types, limited time, disagreements and recording your level."
+---
+
+Use this page in [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) and [Phase 2, design](../02-design/index.qmd). Get your level from the [Analytical Assurance Decision Tool](index.qmd) first.
+
+## The eight types of analytical model
+
+If your work is a model rather than a one-off analysis, place it in one of NHSBSA's eight types.
+
+The eight are policy simulation, forecasting, financial evaluation, procurement and commercial evaluation, planning, science based, allocation of funds and conceptual. [What each type is for](../09-resources/r15-scoring-the-assurance-level.qmd#the-eight-model-types) is in Resources.
+
+Do not score the type. If your model allocates funds and does not score highly on Decision and Finance, look again at those scores.
+
+## When you disagree
+
+If the commissioner and the analyst do not agree on the level, the Analytical Quality and Assurance Lead decides. See [where each disagreement goes](../06-roles/index.qmd#when-you-disagree).
+
+## When time is short {#when-there-is-not-enough-time}
+
+If time and resource constraints mean you cannot do as much assurance as is desirable:
+
+1. Keep the level you scored. Do not record a lower level.
+2. Carry out the Level 1 checks. Add the other checks of your level where time permits. This is the Analytical Assurance Decision Tool's rule for working at pace.
+3. Reduce the scope of the question, not the assurance applied to the answer.
+4. Address the areas of greatest risk first. Complete the highest-risk checks.
+5. State plainly in the output which assurance was not carried out. Say what that means for how the analysis can and cannot be used.
+6. Report the missing assurance in the [quality assurance statement](/guidance/09-resources/r5-quality-assurance-statement.qmd), with the known limitations and the conditions that follow from it.
+7. Tell the commissioner how you addressed the risks, what risks remain and the caveats that go with them.
+
+## If the playbook and the Analytical Assurance Decision Tool differ
+
+If a scale or the matrix in this playbook differs from the Analytical Assurance Decision Tool, follow the tool. Report the difference through [Who to ask](/guidance/09-resources/r3-who-to-ask.qmd).
+
+## Record your level in the Specification
+
+Record the level, the date and who agreed it in the Specification. Save the completed tool and attach it to the Specification.
+
+The analyst writes the Specification and shares it with the commissioner for sign off.
+
+| Level | Who agrees the level |
+|---|---|
+| **Level 1 Standard** | You score the level and record it yourself |
+| **Level 2 Enhanced** | You and the commissioner agree it together |
+| **Level 3 Comprehensive** | The Analytical Quality and Assurance Lead confirms it |
+| **Level 4 BCA** | The Analytical Quality and Assurance Lead confirms it |
+
+: Who agrees the assurance level, by level
+
+Score the impact at scoping. Finish the level at design. If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd). See [what to record at scoping and at design](index.qmd#outputs-of-setting-your-level).
+
+## What you do next
+
+- [Step 4. What your level requires](what-your-level-requires.qmd)
+- [Business Critical analysis](../08-business-critical/index.qmd), if you scored 4 on any impact dimension
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Scoring the level instead of judging it](../09-resources/r15-scoring-the-assurance-level.qmd#scored-rather-than-judged)
+- [Where the impact and likelihood scales come from](../09-resources/r15-scoring-the-assurance-level.qmd#where-the-scales-come-from)
+- [The eight model types, and how they check your impact scores](../09-resources/r15-scoring-the-assurance-level.qmd#the-eight-model-types)
+- [Working to a deadline](../09-resources/r15-scoring-the-assurance-level.qmd#working-to-a-deadline)
+- [Recording each score when you make it](../09-resources/r15-scoring-the-assurance-level.qmd#recording-each-score)
+:::

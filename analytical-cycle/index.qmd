@@ -1,0 +1,80 @@
+---
+title: "The five phases of the analytical lifecycle"
+description: "Go to the phase you are in, from scoping to review."
+toc: false
+---
+
+Work through the five phases in order. When you scope the next piece of work, use the lessons recorded in Phase 5.
+
+## The lifecycle
+
+{{< include /guidance/_partials/diagram-lifecycle.qmd >}}
+
+## Go to a phase
+
+```{=html}
+<ul class="pb-phase-cards">
+  <li>
+    <a href="../../guidance/01-engagement-and-scoping/index.html">
+      <img src="../../static/photos/phase-1-engagement-and-scoping.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 1</span>
+        <span class="pb-phase-name">Engagement and scoping</span>
+        <p>Agree the question with your commissioner, and score the impact.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/02-design/index.html">
+      <img src="../../static/photos/phase-2-design.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 2</span>
+        <span class="pb-phase-name">Design</span>
+        <p>Choose the method, score the likelihood to get your level, and plan the assurance it requires.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/03-analysis/index.html">
+      <img src="../../static/photos/phase-3-analysis.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 3</span>
+        <span class="pb-phase-name">Analysis</span>
+        <p>Collect the data, do the analysis, record your assumptions, and have your critical friend review it.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/04-delivery-and-sign-off/index.html">
+      <img src="../../static/photos/phase-4-delivery-and-sign-off.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 4</span>
+        <span class="pb-phase-name">Delivery, communication and sign-off</span>
+        <p>Deliver it with its caveats and quality assurance statement, and get it signed off.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/05-review/index.html">
+      <img src="../../static/photos/phase-5-review.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-n">Phase 5</span>
+        <span class="pb-phase-name">Review</span>
+        <p>Ask whether it informed the decision, and whether it is still right.</p>
+      </div>
+    </a>
+  </li>
+</ul>
+```
+
+[**Photographs.** Phases 1 and 4 by Vitaly Gariev, Phase 2 by ThisIsEngineering, Phases 3
+and 5 by RDNE Stock project. Used under the Unsplash and Pexels licences, neither of which
+requires attribution. Cropped, resized and in one case retouched for this page.]{.pb-photo-credit}
+
+Find your role in [roles and responsibilities](../06-roles/index.qmd) to see your steps in each phase.
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Quality assurance in every phase](../09-resources/r9-what-each-standard-asks-for.qmd#quality-assurance-and-engagement-in-every-phase)
+:::

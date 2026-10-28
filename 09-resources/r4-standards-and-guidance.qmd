@@ -1,0 +1,58 @@
+---
+title: "R4. Links to standards and guides"
+description: "The standards the playbook rests on, and guides that go deeper."
+---
+## Standards
+
+
+| Standard | Applies to |
+|---|---|
+| [Government Functional Standard GovS 010: Analysis](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis) | All government analysis |
+| [The AQuA Book](https://www.gov.uk/guidance/the-aqua-book) | All government analysis, as practical guidance |
+| [Code of Practice for Statistics](https://osr.statisticsauthority.gov.uk/the-code-of-practice-for-statistics/) | Official statistics |
+| [The Green Book](https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government) | Appraisal |
+| [The Magenta Book](https://www.gov.uk/government/publications/the-magenta-book) | Evaluation |
+| [The Orange Book](https://www.gov.uk/government/publications/orange-book) | Risk management |
+| [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html) | Analytical code |
+| [Reproducible Analytical Pipelines, NHS England](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/) | Automating an analysis that is already reproducible |
+
+: Standards and what each applies to
+
+## The Magenta Book supplementary guides
+
+Where your work is an evaluation rather than an analysis, the Magenta Book has a set of
+supplementary guides. Three are worth naming because they are about quality and competence rather
+than about method:
+
+| Guide | For |
+|---|---|
+| [Quality in qualitative evaluation](https://www.gov.uk/government/publications/the-magenta-book) | A framework for appraising the quality of qualitative evaluation evidence |
+| [Quality in policy impact evaluation](https://www.gov.uk/government/publications/the-magenta-book) | Choosing between impact evaluation designs, and what each one can and cannot attribute |
+| [Government Analytical Evaluation Capabilities Framework](https://www.gov.uk/government/publications/the-magenta-book) | The competences an evaluation team needs, and how to judge whether it has them |
+
+: Magenta Book supplementary guides and what each is for
+
+The rest cover realist evaluation, handling complexity, regulatory post-implementation reviews,
+transparency and test and learn.
+
+## AI and algorithmic tools
+
+
+Applies where your analysis builds on, uses or evaluates an AI system. See the boundary in
+[which standards apply to you](r8-the-standards-landscape.qmd).
+
+| Resource | What it is for |
+|---|---|
+| [The Data and AI Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework) | Seven principles, with recommended actions and a self-assessment tool |
+| [AI Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) | Ten principles for building, buying and using AI |
+| [Introduction to AI assurance](https://www.gov.uk/government/publications/introduction-to-ai-assurance) | Assurance mechanisms, and how to measure, evaluate and communicate |
+| [AI Standards Hub](https://aistandardshub.org/) | A searchable catalogue of AI standards, and training on AI assurance. The catalogue was being moved when this page was written, so start at the front page |
+| [Algorithmic Transparency Recording Standard](https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub) | The record required where a tool has a significant influence on a decision-making process with public effect, or directly interacts with the general public |
+
+: AI and algorithmic tool resources and what each is for
+
+## Communicating uncertainty
+
+
+- [Communicating quality, uncertainty and change, Government Analysis Function](https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/)
+- [Approaches to presenting uncertainty in the statistical system, Office for Statistics Regulation (PDF)](https://osr.statisticsauthority.gov.uk/wp-content/uploads/sites/3/2022/09/Approaches_to_presenting_uncertainty_in_the_statistical_system.pdf)

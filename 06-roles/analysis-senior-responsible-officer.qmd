@@ -1,0 +1,32 @@
+---
+title: "The Analysis Senior Responsible Officer"
+description: "Business Critical only: your steps from naming to revalidation."
+---
+
+{{< include /guidance/_partials/role-analysis-sro.qmd >}}
+
+## Your journey
+
+{{< include /guidance/_partials/diagram-journey-sro.qmd >}}
+
+## Your checklist
+
+{{< include /guidance/_partials/table-journey-sro.qmd >}}
+
+## Where to go next
+
+- [Where a disagreement goes](index.qmd#when-you-disagree)
+- [Other names for this role](index.qmd#the-same-role-under-another-name)
+- [Business Critical analysis](../08-business-critical/index.qmd)
+- [The critical friend, also called the analytical assurer](critical-friend.qmd)
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Who to ask](../09-resources/r3-who-to-ask.qmd)
+- [Naming the Analysis Senior Responsible Officer at scoping](../09-resources/r17-roles-independence-and-escalation.qmd#naming-the-analysis-senior-responsible-officer-at-scoping)
+- [What the Analysis Senior Responsible Officer confirms](../09-resources/r17-roles-independence-and-escalation.qmd#what-the-analysis-senior-responsible-officer-confirms)
+- [When the officer is also the commissioner](../09-resources/r17-roles-independence-and-escalation.qmd#when-the-officer-is-also-the-commissioner)
+- [Reuse and the assurance level](../09-resources/r18-review-reuse-and-records.qmd#reuse-and-the-assurance-level)
+- [Revalidation of the designation, in both directions](../09-resources/r16-what-makes-work-business-critical.qmd#revalidating-the-designation)
+:::

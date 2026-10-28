@@ -1,0 +1,122 @@
+---
+title: "R17. Why review, reuse and records matter"
+description: "Why we review after release, recheck on reuse, and keep records."
+---
+
+This explains the reasons behind the steps in [Phase 5, review](../05-review/index.qmd), [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and [what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd).
+
+## Review and reuse
+
+### What a review looks at {#what-a-review-looks-at}
+
+These are the activities behind the questions in [Phase 5, review](../05-review/index.qmd).
+
+- **Decisions taken and policy changes informed.** Find what actually changed as a result of this
+  analysis.
+- **Usage.** Check downloads, page views, requests, onward citation, or whatever else the
+  publication route records.
+- **Ongoing usefulness.** Run user research with the people who use it, asking whether it still
+  answers their question.
+- **Case studies.** Write down how the data has been used, as it happens.
+- **Trend changes.** Where the analysis was meant to change a trend, check whether the trend
+  changed.
+- **Improvements to regular analysis.** Note what the last run of this analysis showed could be
+  better.
+- **Decommissioning.** Stop producing analysis that is no longer useful.
+
+### Review activities and the standards behind them {#review-activities-and-the-standards}
+
+The first four review activities above are the playbook's way of acting on Code of Practice Standards 8 and 9. They are decisions taken and policy changes informed, usage, ongoing usefulness and case studies. The Code does not list them.
+
+Standard 8 asks producers to review user satisfaction routinely.[^src-code-of-practice-for-statistics-edition-3-0-standard-8] It also asks them to take views from a range of users on when statistics are started, stopped or changed.[^src-code-of-practice-for-statistics-edition-3-0-standard-8] That is where decommissioning sits.
+
+Standard 9 asks producers to explain how the statistics add value and how they could inform decision making.[^src-code-of-practice-for-statistics-edition-3-0-standard-9]
+
+The Code applies in full to official statistics and is voluntary for other analysis. See [applying the Code voluntarily](r9-what-each-standard-asks-for.qmd#you-may-apply-the-code-voluntarily) and [which standards apply to you](r8-the-standards-landscape.qmd).
+
+GovS 010 section 6.10 covers improvements to regular analysis. It asks for lessons to be captured through the analytical cycle, evaluated and acted on.[^src-govs-010-section-6-10]
+
+Checking whether a trend the analysis was meant to change actually changed is the playbook's own. No standard asks for it.
+
+### The monthly review meeting {#the-monthly-review-meeting}
+
+NHSBSA holds a review meeting every month for regular and ongoing outputs. The Analytical Quality and Assurance Lead chairs it. It checks that the output was peer reviewed, was completed correctly, and still answers the question it was built for. The owner of each regular or ongoing output brings it to the meeting.
+
+### Checking again after release {#checking-again-after-release}
+
+Data, methods and the question all change over time. AQuA Book section 5.3 says that where analysis is used on an ongoing basis, all aspects of the lifecycle should be regularly updated.[^src-aqua-book-section-5-3]
+
+Reuse tests the assumptions the original was built on. That is why reuse for a new purpose triggers a review at every level above the first.
+
+Each of the four checks before reuse asks whether one of those assumptions still holds.
+
+- **Population.** The new use may be about a different population from the one the analysis covers.
+- **Data.** The data may have moved in coverage, definition or quality since.
+- **Use case.** The new use may be outside what the method was built to answer.
+- **Decision context.** The output may now carry more weight, so the same figure is relied on for more than it was.
+
+A yes to any of the four means the work goes back to [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), where the level is scored again. If all four answers are no, the reuse goes ahead on the level the work already carries.
+
+### Reuse and the assurance level {#reuse-and-the-assurance-level}
+
+Reuse is the change most likely to invalidate the assumptions the original was built on. That is why a Business Critical designation is revalidated before any reuse for a new purpose.
+
+Reuse is one legitimate reason to change a level or a score. That is the playbook's own view, and no standard states it.
+
+A one-off that becomes a monthly production run is a different piece of work. It is scored again rather than inheriting the level the one-off was given.
+
+AQuA Book Table 3-1 lists reusing or repurposing existing work among the factors for determining appropriate assurance. It says reusing work may require validation and verification to confirm the original approach.[^src-aqua-book-section-3-1]
+
+GovS 010 section 6.11 says the senior accountable officer should approve the use of a recommended practice model for a purpose other than the one it was designed for, or where the context of its use has changed.[^src-govs-010-section-6-11]
+
+An output that already runs to a schedule is scored once, when it is designed. It is not rescored on every run. That is also the playbook's own.
+
+### Capturing lessons, and what to raise wider {#capturing-lessons}
+
+Lessons are captured as they happen, rather than reconstructed at the end. GovS 010 section 6.10 asks for them to be captured throughout the analytical cycle.[^src-govs-010-section-6-10]
+
+Case studies work the same way. They are written down as the data is used, rather than reconstructed later.
+
+Lessons are recorded where the next analyst will look for them. For a regular output, that is the analytical plan for the next cycle.
+
+Anything that applies beyond one output is raised wider. Examples are a method that did not work, a data quality problem, and an assurance step that was disproportionate in either direction. See [who to ask](r3-who-to-ask.qmd) for who to go to.
+
+### Peer review during the work, and review in Phase 5 {#peer-review-and-the-review-phase}
+
+Peer review and independent challenge happen during the work. They decide whether the output can be released. [What the critical friend confirms](r17-roles-independence-and-escalation.qmd#what-the-critical-friend-confirms) is the one list of what that review confirms. The checks themselves are in [the checks, by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level).
+
+Two GovS 010 clauses bear on this. Section 6.6 covers verification and validation, which are conducted throughout the analytical cycle.[^src-govs-010-section-6-6] Section 6.8 covers quality assurance, which includes peer review by independent individuals or groups.[^src-govs-010-section-6-8]
+
+[Phase 5 review](../05-review/index.qmd) is a different activity. It covers what happens to an output after release. It asks whether the output is still useful, and what the next piece of work should do differently.
+
+What the next piece of work should do differently is GovS 010 section 6.10, on learning from experience.[^src-govs-010-section-6-10]
+
+## Records and logs
+
+### The quality assurance log and the checklist {#the-log-and-the-checklist}
+
+A checklist shows somebody knew what to do. A log shows they did it, when, and what they found.
+
+[What your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd) asks for the log to record each check done, when it was done, what was found and the conclusion drawn. GovS 010 section 6.6 asks analysts to document verification and validation activities and the associated conclusion.[^src-govs-010-section-6-6] The aim is that the utility and reliability of the analysis can be assessed afterwards.
+
+### Keeping the project record beside the output {#the-project-record-beside-the-output}
+
+The project record is kept beside the output. Somebody who finds the output can then find how it was made. GovS 010 section 6.7 says documentation, data and other records should be version controlled, securely stored as needed and retrievable if needed, to support and evidence analyses.[^src-govs-010-section-6-7]
+
+At Level 1 the record is about one side of A4. Only the parts of the project record marked Yes for Level 1 are completed.
+
+### Logging decisions as they are made {#logging-decisions-as-they-are-made}
+
+A log written from memory at the end is a much weaker document. That judgement is the playbook's own.
+
+GovS 010 section 6.7 says record keeping and documentation can include notes of any deviations from the plan and a log of data and assumptions.[^src-govs-010-section-6-7]
+
+[^src-code-of-practice-for-statistics-edition-3-0-standard-8]: [Code of Practice for Statistics edition 3.0, Standard 8, Be relevant](https://osr.statisticsauthority.gov.uk/publications/the-code-of-practice-for-statistics/pages/5/#lg_8-be-relevant)
+[^src-code-of-practice-for-statistics-edition-3-0-standard-9]: [Code of Practice for Statistics edition 3.0, Standard 9, Be clear](https://osr.statisticsauthority.gov.uk/publications/the-code-of-practice-for-statistics/pages/5/#lg_9-be-clear)
+[^src-govs-010-section-6-6]: [GovS 010 section 6.6](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#AVV)
+[^src-govs-010-section-6-8]: [GovS 010 section 6.8](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#quality-assurance)
+[^src-govs-010-section-6-10]: [GovS 010 section 6.10](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#learning-from-experience)
+[^src-govs-010-section-6-11]: [GovS 010 section 6.11](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#analytical-models)
+[^src-aqua-book-section-3-1]: [AQuA Book section 3.1](https://www.gov.uk/guidance/the-aqua-book#factors-for-determining-appropriate-assurance)
+[^src-aqua-book-section-5-3]: [AQuA Book section 5.3](https://www.gov.uk/guidance/the-aqua-book#maincontrev)
+[^src-govs-010-section-6-7]: [GovS 010 section 6.7](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#DRK)

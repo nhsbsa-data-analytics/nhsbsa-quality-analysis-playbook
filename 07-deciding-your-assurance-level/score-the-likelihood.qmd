@@ -1,0 +1,42 @@
+---
+title: "Step 2. Score the likelihood"
+description: "Score six likelihood dimensions at design."
+---
+
+Do this in [Phase 2, design](../02-design/index.qmd), once the data and the method are settled. If
+an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
+
+Score how easily the analysis could be wrong. Score it in the [Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}), which describes each
+dimension at each level. Opening it needs an NHSBSA account with access to the Analytical Quality and Assurance site.
+
+## What you do
+
+- Score each of the six likelihood dimensions in the tool, from Level 1 to Level 4: data
+  complexity, analytical complexity, assumptions and proxies, novelty, manual intervention, and
+  documentation and reproducibility.
+- Score against the tool's description for each level, not the dimension's name. Treat the methods
+  it names as examples.
+- Score the process as it is now, not as it will be after any planned automation.
+- Take the highest single score as your likelihood score.
+
+Your likelihood score is the other side of the matrix. Read your level where the two meet.
+
+{{< include /guidance/_partials/diagram-assurance-level-matrix.qmd >}}
+
+## Outputs of this step
+
+Record these in the Specification:
+
+- The score for each dimension, and your highest single score.
+
+## What you do next
+
+Read your level from your two scores in [Step 3. Read your level](read-your-level.qmd).
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where the impact and likelihood scales come from](../09-resources/r15-scoring-the-assurance-level.qmd#where-the-scales-come-from)
+- [Scoring the likelihood once the method is chosen](../09-resources/r15-scoring-the-assurance-level.qmd#the-likelihood-timing)
+- [Material AI use and accountability for it](../09-resources/r12-algorithmic-transparency-and-ai.qmd#using-ai-tools-to-do-the-analysis)
+:::

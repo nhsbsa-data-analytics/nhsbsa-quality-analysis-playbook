@@ -1,0 +1,56 @@
+---
+title: "R7. Which standards apply to you"
+description: "Which standards apply to your analysis, and from when."
+---
+
+Several standards govern analysis in government. They overlap, and they are not all mandatory for
+all work.
+
+## Which standards apply to your work
+
+{{< include /guidance/_partials/table-standards.qmd >}}
+
+[What each standard asks for](r9-what-each-standard-asks-for.qmd) sets out what is in GovS 010,
+the AQuA Book and the Code of Practice for Statistics, and what RIGOUR means in full.
+
+## If your analysis uses AI or an algorithmic tool
+
+This playbook does not cover building or assuring AI systems. These obligations attach where your
+analysis uses one.
+
+- **The Data and AI Ethics Framework applies, in full.** Its scope was extended to AI and algorithmic
+  technologies in December 2025 and its seven principles cover both. [Data ethics and personal data](r11-ethics-and-personal-data.qmd)
+- **The Algorithmic Transparency Recording Standard may apply, and the test is narrower than it
+  sounds.** NHSBSA is in scope as an organisation, but within that the standard is mandatory only for
+  tools with a significant influence on a decision-making process with public effect, or which
+  directly interact with the public. An analytical model supporting broad policy-making is
+  deliberately outside it. NHSBSA has two records on the public register, for the Prescriptions and
+  Dental Exemption check and for the Residency Checker, and those are the nearest worked examples
+  there are.
+  [Algorithmic transparency and AI](r12-algorithmic-transparency-and-ai.qmd) carries the test, the two roles the standard
+  names, and what this playbook proposes for NHSBSA.
+- **The AI Playbook's ten principles apply to the system**, and DSIT's assurance mechanisms are how
+  it gets evaluated: risk assessment, algorithmic impact assessment, bias audit, compliance audit,
+  conformity assessment and formal verification. Both are linked in
+  [links to standards and guides](r4-standards-and-guidance.qmd).
+- **An AI system can still be Business Critical**, and if it is, [Business Critical analysis](../08-business-critical/index.qmd)
+  applies on top of everything above.
+
+**Assure AI analysis the same way as any other analysis**, and add the transparency duties above.
+
+## The five NHSBSA playbooks
+
+| Playbook | Use it for |
+|---|---|
+| **Producing Quality Analysis**, this one | Planning, assuring and communicating any piece of analysis |
+| [Analytical Code Assurance](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) | Version control, testing, peer review and documentation of analytical code |
+| [Data Science](https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook) | The end-to-end workflow for a Data Science initiative |
+| [Data Visualisation Standards](https://nhsbsa.github.io/nhsbsa-digital-playbook/data/data-visualisation/) | Charts, tables and dashboards, in the Digital, Data and Technology Playbook |
+| Official Statistics | Developing, maintaining and publishing official statistics. In development |
+
+: The five NHSBSA playbooks and what each is for
+
+If your work involves code, you need this playbook and the code assurance one. If it is a Data
+Science initiative, the Data Science Playbook is the one that sequences your work. If it produces a
+chart, a table or a dashboard, the Data Visualisation Standards say how it should look and how it
+should be labelled.

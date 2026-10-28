@@ -1,0 +1,55 @@
+---
+title: "R5. Writing a quality assurance statement"
+description: "What a quality assurance statement says, with a worked example."
+---
+
+A quality assurance statement tells a reader what was done to make the analysis trustworthy, and
+what its limits are. You need one at every level. Your level decides how much it carries and who
+sees it.
+
+| Level | Statement |
+|---|---|
+| Level 1 Standard | **Required**, and short. State your main limitation alongside the result |
+| Level 2 Enhanced | Required |
+| Level 3 Comprehensive | Required, and **published with the output** |
+| Level 4 BCA | Required, published with the output, and covered by the quality assurance appraisal sign-off |
+
+: What each assurance level requires of the quality assurance statement
+
+## A worked example
+
+This is a Level 2 Enhanced statement. Bracketed prompts show what belongs in each place.
+
+**It is illustrative rather than approved wording.** It shows what a statement contains and what
+each part is for. It has not been cleared as a form of words, so write your own from it rather
+than lifting it whole.
+
+> This analysis was produced by [analyst], [team], NHS Business Services Authority, in [month year]
+> to support [the decision it informs].
+>
+> It was assessed as Level 2 Enhanced on the NHSBSA Analytical Assurance Decision Tool.
+> The basis was that it informs a directorate-level operational decision using linked internal data
+> and an established statistical method.
+>
+> Inputs were drawn from [source] as at [extract date]. [Named data quality issue] is present in the
+> source and affects [which part of the result] by [scale or direction]. The method was independently
+> reviewed by [reviewer] on [date], and the code is peer reviewed and version controlled at
+> [repository].
+>
+> Key assumptions and their sensitivity are recorded in the project record at [link]. The principal
+> limitation is [limitation], which means these results should not be used to [the specific misuse
+> this analysis cannot support].
+>
+> Residual uncertainty is [description]. Questions about interpretation should go to [contact].
+
+## What each level's statement carries
+
+What a Level 3 statement carries is on [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd). What a Level 4 BCA statement adds is on [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked). Both are the playbook's own requirements, so they sit with the steps that act on them.
+
+## What GovS 010 says about the statement {#what-govs-010-says-about-the-statement}
+
+GovS 010 section 5.5 says the results should include an assurance statement. The statement covers assumptions, uncertainty, limitations, and comments on the applicability and use of the results.[^src-govs-010-section-5-5]
+
+GovS 010 puts the statement as a should, not a shall. The playbook requires a statement at every level, and that requirement is the playbook's own.
+
+[^src-govs-010-section-5-5]: [GovS 010 section 5.5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#delivering-the-analysis)

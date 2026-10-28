@@ -1,0 +1,196 @@
+---
+title: "Business Critical analysis"
+description: "The steps to follow when an impact dimension scores Level 4."
+---
+
+NHSBSA defines Business Critical analysis as follows:
+
+> "Business Critical Analysis informs major policy, funding, statutory, regulatory or
+> customer-impacting decisions. The analysis is essential to the achievement of business plan
+> actions and priorities. Errors could lead to significant patient or user impacts or serious
+> financial, legal, reputational damages or penalties"
+
+The [Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}) decides whether
+work is Business Critical: a Level 4 score on any one of its six impact dimensions. Opening it needs an NHSBSA account with access to the Analytical Quality
+and Assurance site. Business Critical work is assured at Level 4 BCA and goes on the Business
+Critical register. Start at step 1.
+
+## Steps by phase
+
+| Step | Phase | Outputs |
+|---|---|---|
+| [1. Decide whether it is Business Critical](#step-1-decide-at-scoping-whether-it-is-business-critical) | Phase 1 | The Business Critical answer, recorded yes or no |
+| [2. Name who is accountable](#step-2-name-who-is-accountable) | Phase 1 | A named Analysis Senior Responsible Officer |
+| [3. Read the assurance level](#step-3-read-the-assurance-level) | Phase 1 | The likelihood scored, and the tool complete |
+| [4. Get it on the register and arrange external assurance](#step-4-get-it-on-the-register) | Phase 1 | The register entry, and the external assurer arranged |
+| [5. Do the work to Level 4 BCA](#step-5-do-the-work-to-the-enhanced-standard) | Phases 1 to 4 | The eleven documents of the stack, each in the phase the picture gives |
+| [6. Say what is uncertain](#step-6-say-what-is-uncertain) | Phase 3 | The uncertainty documented and quantified |
+| [7. Get sign-off, then publish what was checked](#step-7-publish-what-was-checked) | Phase 4 | The sign-off, and the quality assurance statement published with the output |
+| [8. Set a review date and approve any new use](#step-8-keep-it-true-after-first-use) | Phase 5 | A review date, and approval of any new use |
+| [9. Review the work and revalidate the designation](#step-9-review-and-revalidate-the-designation) | Phase 5 | The designation revalidated |
+
+: The nine Business Critical steps, their phases and their outputs
+
+## Step 1. Decide at scoping whether it is Business Critical {#step-1-decide-at-scoping-whether-it-is-business-critical}
+
+{{< include /guidance/_partials/bca-determination.qmd >}}
+
+## Step 2. Name who is accountable {#step-2-name-who-is-accountable}
+
+The commissioner names an Analysis Senior Responsible Officer at scoping, with the Analytical
+Quality and Assurance Lead.
+
+- They must be senior enough to carry the risks across the lifecycle.
+- They approve the work as fit for purpose before it is used.
+- The commissioner may take the role.
+
+::: {.nhsuk-inset-text}
+More detail: [the Analysis Senior Responsible Officer role](/guidance/06-roles/analysis-senior-responsible-officer.qmd).
+:::
+
+## Step 3. Read the assurance level {#step-3-read-the-assurance-level}
+
+{{< include /guidance/_partials/bca-assurance-level.qmd >}}
+
+## Step 4. Get it on the register and arrange external assurance {#step-4-get-it-on-the-register}
+
+Log the work with the Data Science, Statistics and AI team, which holds the Business Critical
+register. Do this whether or not the work is a model. The entry is added to NHSBSA's public
+register of Business Critical analyses, and NHSBSA reports on that work each year to the Data,
+Analytics and AI Governance Council, to the Department of Health and Social Care and in its annual
+report. See [who to ask](/guidance/09-resources/r3-who-to-ask.qmd)
+for how to reach the team.
+
+At the same time, arrange an independent external assurer for the additional scrutiny and testing
+that Level 4 BCA asks for.
+
+Add each part of the entry when it exists:
+
+- at scoping, the accountable officer, who is the Analysis Senior Responsible Officer, and the intended use
+- as they are produced, the user documentation and the guidance on quality assurance
+- at sign-off, the officer's confirmation that the work is suitable for its intended use
+
+## Step 5. Do the work to Level 4 BCA {#step-5-do-the-work-to-the-enhanced-standard}
+
+Do everything Level 3 Comprehensive requires. Follow the Level 3 checks in
+[what your level requires](/guidance/07-deciding-your-assurance-level/what-your-level-requires.qmd#what-each-phase-requires).
+
+Level 4 BCA adds these checks:
+
+- formal audits
+- external review
+- additional scrutiny of the documentation
+- scrutiny of the structural and conceptual assumptions
+- additional scenario testing
+
+Check that everyone using and assuring the work has the skills and knowledge for it. Where they do
+not, arrange specialist induction or training.
+
+### The documentation stack
+
+Complete the eleven documents below, generally in the order shown. Update an earlier document when a
+review shows it needs changing. For an analysis that already exists, review what is there, find the
+gaps and fill them first.
+
+The picture shows who owns each document and the phase it belongs to. The table links each template.
+Opening them needs an NHSBSA account with access to the Analytical Quality and Assurance site.
+
+{{< include /guidance/_partials/diagram-documents-by-role-and-phase.qmd >}}
+
+| No. | Document |
+|-----|------------------------------------------|
+| 1 | Analytical plan. [Analysis plan template]({{< var template-analysis-plan >}}) |
+| 2 | Scope. [Scope template]({{< var template-scope >}}) |
+| 3 | [Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}) |
+| 4 | Specification. [Specification template]({{< var template-specification >}}) |
+| 5 | Quality assurance plan. [Quality assurance plan template]({{< var template-qa-plan >}}) |
+| 6 | Quality assurance appraisal, basic information |
+| 7 | The analysis or model itself, which has no template |
+| 8 | Technical guide. [Technical guide template]({{< var template-technical-guide >}}) |
+| 9 | User guide. [User guide template]({{< var template-user-guide >}}) |
+| 10 | Quality assurance appraisal, assurance review |
+| 11 | Quality assurance sign-off |
+
+: The eleven Business Critical documents, in order, with their templates
+
+For document 7, use the Model Guidance Document and the
+[checklist for building an analytical solution]({{< var template-building-checklist >}}).
+
+Three more templates support the stack: [document control and information governance]({{< var template-document-control >}}),
+[knowledge management]({{< var template-knowledge-management >}}) and
+[version control]({{< var template-version-control >}}). All three are in the
+[Analytical Quality Assurance Templates folder]({{< var templates-folder >}}). NHSBSA also lists a
+risk log and an assumptions log among its templates.
+
+- Give each action in the quality assurance plan and the assurance review a priority of Must, Should or Could.
+- Hold the documentation centrally with the Analytical Quality and Assurance function, and send it each new production version of a model.
+- Name each file with the document type first, for example `User_Guide_AnalysisName`.
+
+[What each document holds, and how the stack is scored and held](../09-resources/r2-templates-and-documents.qmd#the-business-critical-documentation-stack) is in Resources.
+
+## Step 6. Say what is uncertain {#step-6-say-what-is-uncertain}
+
+Document the uncertainty. Quantify it wherever the method allows, as at Level 3.
+
+Write down any assumption that would change the answer if it were wrong.
+
+::: {.nhsuk-inset-text}
+More detail: [what uncertainty is, how to manage it and how to write it up](/guidance/09-resources/r10-uncertainty.qmd).
+:::
+
+## Step 7. Get sign-off, then publish what was checked {#step-7-publish-what-was-checked}
+
+Get sign-off from the Lead Assurer, then from the Analysis Senior Responsible Officer. Your
+commissioner then signs it off for release. Update the Business Critical register entry when the
+work is signed off.
+
+Then publish the quality assurance statement with the output. From Level 3, it carries what
+[Phase 4](/guidance/04-delivery-and-sign-off/index.qmd) lists. At Level 4 BCA it also carries:
+
+- the Business Critical register reference
+- the Lead Assurer, named, from outside the delivering team
+- the Analysis Senior Responsible Officer who approved the work as fit for its intended use
+- the quality assurance sign-off reference from the quality assurance appraisal
+
+## Step 8. Set a review date and approve any new use {#step-8-keep-it-true-after-first-use}
+
+The Analysis Senior Responsible Officer sets a review date with the commissioner, using the cadence
+for your level in
+[Phase 5, review](/guidance/05-review/index.qmd).
+
+Get the Analysis Senior Responsible Officer to approve any new use before it goes ahead. A new use is
+a different purpose, or a change in the context of its use.
+
+Before any reuse, run [the four checks before reuse](/guidance/05-review/index.qmd#check-four-things-before-any-reuse).
+If any answer is yes, [score the assurance level again](/guidance/07-deciding-your-assurance-level/index.qmd).
+
+## Step 9. Review the work and revalidate the designation {#step-9-review-and-revalidate-the-designation}
+
+Revalidate the designation as part of the [Phase 5 review](/guidance/05-review/index.qmd). The
+Analysis Senior Responsible Officer does this annually, and before any reuse for a new purpose.
+
+Check it in both directions. Work that was Business Critical may no longer be. Work that was not may
+have become so as its use widened.
+
+After sign-off, keep assuring the work:
+
+- Check that it is used as intended, with its caveats.
+- Log any errors and record any improvements.
+- Keep data and assumptions up to date through scheduled reviews.
+- After any material change, review the scope, the specification, the user and technical guides,
+  and the quality assurance appraisal and plan, in proportion to the change.
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Why Business Critical works as it does](../09-resources/r16-what-makes-work-business-critical.qmd#what-makes-work-business-critical)
+- [Settling a Level 4 BCA level at scoping](../09-resources/r16-what-makes-work-business-critical.qmd#settling-the-level-at-scoping)
+- [Naming the Analysis Senior Responsible Officer at scoping](../09-resources/r17-roles-independence-and-escalation.qmd#naming-the-analysis-senior-responsible-officer-at-scoping)
+- [The register entry, for models and other analysis](../09-resources/r16-what-makes-work-business-critical.qmd#the-register-entry)
+- [The public register and annual reporting](../09-resources/r16-what-makes-work-business-critical.qmd#the-public-register-and-annual-reporting)
+- [The transparency record and Business Critical status](../09-resources/r12-algorithmic-transparency-and-ai.qmd#transparency-and-business-critical-status)
+- [Quantifying uncertainty at Level 4 BCA](../09-resources/r16-what-makes-work-business-critical.qmd#quantifying-uncertainty-at-level-4-bca)
+- [Approving a new use](../09-resources/r16-what-makes-work-business-critical.qmd#approving-a-new-use)
+- [Reuse and the assurance level](../09-resources/r18-review-reuse-and-records.qmd#reuse-and-the-assurance-level)
+- [Revalidation of the designation, in both directions](../09-resources/r16-what-makes-work-business-critical.qmd#revalidating-the-designation)
+:::

@@ -1,0 +1,34 @@
+---
+title: "The analyst"
+description: "Your steps as the analyst, phase by phase, and their outputs."
+---
+
+{{< include /guidance/_partials/role-analyst.qmd >}}
+
+## Your journey
+
+{{< include /guidance/_partials/diagram-journey-analyst.qmd >}}
+
+## Your checklist
+
+{{< include /guidance/_partials/table-journey-analyst.qmd >}}
+
+## What you record
+
+Complete the sections of the project record that your level needs. See [what to record](../07-deciding-your-assurance-level/what-your-level-requires.qmd#what-to-record). Use the templates in [NHSBSA templates and documents](../09-resources/r2-templates-and-documents.qmd).
+
+## Where to go next
+
+- [Where a disagreement goes](index.qmd#when-you-disagree)
+- [The critical friend](critical-friend.qmd)
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd)
+- [Who to ask](../09-resources/r3-who-to-ask.qmd)
+- [Why a request for an output is turned back into a question](../09-resources/r17-roles-independence-and-escalation.qmd#the-decision-not-the-output)
+- [Independence at every level](../09-resources/r17-roles-independence-and-escalation.qmd#independence-at-every-level)
+- [Naming and working with the critical friend](../09-resources/r17-roles-independence-and-escalation.qmd#naming-and-working-with-the-critical-friend)
+- [Logging decisions as you make them](../09-resources/r18-review-reuse-and-records.qmd#logging-decisions-as-they-are-made)
+:::

@@ -1,0 +1,24 @@
+[![[**The commissioner's journey.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/09-journey-commissioner.png){.nhsuk-image__img width=680 height=790 fig-alt="The commissioner's journey: seven steps in rows, from Phase 1 Engagement and scoping to Phase 5 Review, giving where you are in the playbook, what you do and what you produce at each. The text description under the picture gives every step."}](/static/diagrams/09-journey-commissioner.svg){.diagram-open aria-label="The commissioner's journey: seven steps in rows, from Phase 1 Engagement and scoping to Phase 5 Review, giving where you are in the playbook, what you do and what you produce at each. The text description under the picture gives every step. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+| Step | Where you are | What you do | What you produce |
+|---|--------------|--------------------|--------------------|
+| 1 | Phase 1 Engagement and scoping | State the decision, the deadline, and the certainty you need. Identify stakeholders. | The decision, the question and the deadline, written for the analyst. |
+| 2 | Deciding your assurance level | Score it with the analyst: impact of an error, not difficulty. | The completed Analytical Assurance Decision Tool, and the Business Critical answer recorded either way. |
+| 3 | The commissioner Three things only you can do | Securing the time and resource the level requires is yours. | The schedule, with the assurance and the reviewer's time in it. |
+| 4 | Phase 2 Design | Confirm it meets your need, and approve the design before work proceeds. | The design and plan, with your approval recorded against it. |
+| 5 | Phase 3 Analysis | Stay available, and review any change of design or method. | A decision log entry for anything you changed, and why. |
+| 6 | Phase 4 Delivery, communication and sign-off | Confirm it meets your need, apply its limitations, and sign it off for release. | Your sign-off, and the quality assurance statement attached to the output. |
+| 7 | Phase 5 Review | Did it inform the decision, is it used, should it be decommissioned? | The review record, kept with the project record. |
+
+: The commissioner's journey, step by step
+
+Step 2 is outlined, with a note: **Business Critical.** Any one impact dimension at 4? If so, go to Business Critical analysis.
+
+A second note, **after the last step:** What review finds is what your next commission should start from.
+
+</div>
+</details>

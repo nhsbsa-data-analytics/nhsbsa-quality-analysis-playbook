@@ -1,0 +1,82 @@
+---
+title: "R18. Worked examples"
+description: "A Level 4 example across four roles, and how the level is set."
+---
+
+This gives the worked examples behind [roles and responsibilities](../06-roles/index.qmd), [check the playbook applies](../07-deciding-your-assurance-level/check-it-applies.qmd) and [Step 3, read your level](../07-deciding-your-assurance-level/read-your-level.qmd).
+
+## An illustration at Level 4
+
+### A funding allocation formula through the four roles {#a-funding-allocation-formula-through-four-roles}
+
+Illustrative example, not a real NHSBSA case. This is what the playbook asks of work of that kind. It is not a record of any particular piece of work.
+
+NHSBSA's Analytical Assurance Decision Tool gives a funding allocation formula as a worked example of impact 4. Impact 4 is Level 4 BCA at every likelihood. This example takes the formula through all four roles, so the guidance for each role can be read against one piece of work.
+
+#### Commissioner
+
+The playbook asks the commissioner to:
+
+- state the decision the formula informs, the deadline, and how certain the answer has to be. See [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+- score the six impact dimensions with the analyst, and agree the likelihood with them too, because Business Critical work completes the sheet at scoping. See [Deciding your assurance level (the Analytical Assurance Decision Tool)](../07-deciding-your-assurance-level/index.qmd).
+
+The [Finance row](../07-deciding-your-assurance-level/score-the-impact.qmd) scores 4 for analysis that "determines, or is relied on for, major funding, investment, commissioning, resource-allocation or policy decisions". A funding allocation formula is that, so one dimension at 4 settles it: the work is Business Critical, at Level 4.
+
+The playbook then asks the commissioner to say so at scoping, before the design. It also asks the commissioner to find the time and resource Level 4 assurance needs, or agree a narrower question.
+
+#### Analyst
+
+The playbook asks the analyst to:
+
+- agree the question, and record the scope, the boundaries and the assumptions. See [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+- score the impact and the likelihood with the commissioner, and read Level 4 BCA off the sheet. Both halves are scored here, at scoping.
+- choose the method, and place it among the eight model types. See [Phase 2, design](../02-design/index.qmd).
+- do their own verification and validation first.
+- log decisions as they make them.
+- quantify the uncertainty, and say what rests on which assumption. See [Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd).
+
+#### Critical friend
+
+At Level 4 the critical friend is a Lead Assurer from outside the delivering team. External review applies as well. [How independent you have to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be) covers this.
+
+The playbook asks the critical friend to:
+
+- be named at design.
+- reproduce the calculations from source.
+- read the documentation as a document, not only the numbers.
+- examine the structural and conceptual assumptions, and report what they find back.
+
+#### Analysis Senior Responsible Officer
+
+The Analysis Senior Responsible Officer is named at scoping, and the register entry is made then. See [Business Critical analysis](../08-business-critical/index.qmd).
+
+The playbook asks the Analysis Senior Responsible Officer to:
+
+- confirm design governance has been followed before the analysis starts.
+- review the assurance evidence, and approve the formula as fit for its intended use, after the Lead Assurer has signed off.
+- revalidate the designation annually, and before any reuse for a new purpose. See [Phase 5, review](../05-review/index.qmd).
+
+#### Handoffs between the roles
+
+Seven handoffs pass between the roles. Read the picture from the top down: each arrow is one thing passed from one role to another, and the numbers give the order.
+
+{{< include /guidance/_partials/diagram-funding-formula-handoffs.qmd >}}
+
+## Example impacts and assurance levels
+
+### Where the example impacts come from {#where-the-example-impacts-come-from}
+
+The impact examples in the second column of [Find your kind of work](../07-deciding-your-assurance-level/check-it-applies.qmd#find-your-kind-of-work) are NHSBSA's. They come from the annex of worked examples to the Analytical Assurance Decision Tool. NHSBSA marks the tool's annex as still to be developed, and the annex is undated.
+
+A Parliamentary Question is the playbook's addition, not one of NHSBSA's worked examples.
+
+Your assurance level is where that impact meets your likelihood, so at impact 1 to 3 it can be lower than the highest level for that impact. At impact 4 it is Level 4 BCA at every likelihood.
+
+### One impact score, two levels {#one-impact-score-two-levels}
+
+Two pieces of work on the same impact row can reach different levels if their likelihood differs. On the impact 3 row of the matrix, likelihood 1 gives Level 1 Standard and likelihood 3 gives Level 3 Comprehensive.
+
+These two illustrations are not NHSBSA cases.
+
+- A Freedom of Information (FOI) response built from one clean dataset by an established method scores Level 1 on likelihood. At impact 3 that is Level 1 Standard on the matrix. The same response would be Level 3 Comprehensive if its likelihood scored 3.
+- Exploratory analysis built by hand on a novel method scores Level 4 on likelihood. At impact 1 that is only Level 2 Enhanced on the matrix, because the impact score sets the row.

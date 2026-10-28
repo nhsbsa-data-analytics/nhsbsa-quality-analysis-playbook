@@ -1,0 +1,19 @@
+Do this when the Scope is complete, before the Specification is written.
+
+1. Score the six impact dimensions with your commissioner in the
+   [Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}), which describes each
+   dimension at each level. Score each from Level 1 to Level 4 and take the highest. Opening it needs
+   an NHSBSA account with access to the Analytical Quality and Assurance site.
+2. **The work is Business Critical if any one dimension scores Level 4.**
+3. Keep Level 4 for a material consequence. The tool says: "Publication status, Board
+   consideration, Official Statistics designation, media interest, national visibility, FOI
+   disclosure, ministerial interest or parliamentary scrutiny do not by themselves justify a Level 4
+   score." Score those under public visibility and reach.
+4. If you and your commissioner disagree, escalate to the Analytical Quality and Assurance Lead.
+5. Save the completed Analytical Assurance Decision Tool and attach it to the Specification. Record
+   a no as well as a yes.
+6. Check whether the Algorithmic Transparency Recording Standard applies to any algorithmic tool in the work. It does if the tool:
+   - has a significant influence on a decision-making process with public effect, or
+   - interacts directly with the general public.
+
+   Record the answer either way. [Algorithmic transparency and AI](/guidance/09-resources/r12-algorithmic-transparency-and-ai.qmd#check-whether-your-tool-needs-a-transparency-record) has the test.

@@ -1,0 +1,79 @@
+---
+title: "Phase 4. Delivery, communication and sign-off"
+description: "Deliver it with its caveats and get the approval it needs."
+---
+
+## What you do
+
+{{< include /guidance/_partials/step-levels-key.qmd >}}
+
+1. [Every level[:]{.visually-hidden}]{.pb-level} **Deliver draft results to your commissioner first.**
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Write the [quality assurance statement](../09-resources/r5-quality-assurance-statement.qmd)
+   at every level.** It is short at Level 1, and from Level 3 you publish it with the output.
+   It covers:
+     - the assumptions, the uncertainty and the limitations
+     - what the results can and cannot be used for
+     - links to references, code and data
+     - the transparency record reference, where the tool is in scope
+
+   From Level 3, it also carries:
+
+     - the assurer, named, independent of the delivering team, with dates
+     - confirmation that the code was assured against the
+       [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook)
+     - the uncertainty as a range, with its main source
+     - the sensitivity testing result for the key assumption
+     - the approver and the next review date
+3. [Every level[:]{.visually-hidden}]{.pb-level} **Put material caveats beside the figure they qualify**, not in an annex.
+4. [Every level[:]{.visually-hidden}]{.pb-level} **Communicate findings, limitations and uncertainty clearly, objectively and impartially.**
+   Quantify uncertainty where you can, and avoid unwarranted confidence in any one option.
+5. [Every level[:]{.visually-hidden}]{.pb-level} **Get it signed off** by the person your level requires, then by your
+   commissioner for release. See
+   [who signs at each level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#in-phase-4-delivery-communication-and-sign-off).
+   - If an impact dimension scored 4, go to
+     [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked).
+
+## Say who the numbers cover, and how they could be misread
+
+- **Who is not in the data.** If a group is under-represented or missing, say so beside the
+  result, not only in the method note.
+- **How this could be misread.** Name the wrong conclusion somebody could reasonably draw, and
+  say plainly what the analysis does not support.
+
+## Outputs of this phase
+
+- The output, in a form that meets your audience's needs, including accessibility.
+- The quality assurance statement, attached to it and published with it from Level 3.
+- The sign-off, from the person your level requires and then from your commissioner.
+- The project record, archived with the output and linked from it.
+
+## Ready for Phase 5 when
+
+- Your commissioner has confirmed it meets their need and understands its limitations.
+- The statement is attached to the output rather than filed separately.
+- The sign-off the level requires has happened.
+
+## More detail in Resources
+
+::: {.more-detail}
+- [R5. Writing a quality assurance statement](../09-resources/r5-quality-assurance-statement.qmd), for
+  a worked example
+- [R9. Uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd), for
+  expressing uncertainty quantitatively
+- [R12. Publishing analysis](../09-resources/r13-putting-figures-in-the-public-domain.qmd),
+  for publishing a figure and being open about how it was reached
+- [R6. Correcting a published figure](../09-resources/r6-when-something-is-wrong.qmd), for
+  a revision or a correction after release
+- [Draft results go to the commissioner first](../09-resources/r17-roles-independence-and-escalation.qmd#the-commissioner-sees-draft-results-first)
+:::
+
+## Who does what in this phase
+
+| Role | In Phase 4 |
+|---|---|
+| **Analyst** | Write it up with the caveats in the output itself. Produce the quality assurance statement |
+| **Critical friend** | State the assurance: appropriately scoped, executed, validated, verified and documented |
+| **Commissioner** | Confirm it meets your need, apply its limitations, and sign it off for release |
+| **Analysis Senior Responsible Officer** | Business Critical work only. Review the assurance evidence, then approve as fit for its intended use |
+
+: What each role does in Phase 4, delivery, communication and sign-off

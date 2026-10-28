@@ -1,0 +1,59 @@
+---
+title: "The critical friend"
+description: "Your steps, how independent you must be, and the checks you run."
+---
+
+{{< include /guidance/_partials/role-critical-friend.qmd >}}
+
+## Your journey
+
+{{< include /guidance/_partials/diagram-journey-critical-friend.qmd >}}
+
+## What you are confirming
+
+Confirm that:
+
+- appropriate and sufficient quality assurance has taken place for the level the work is at
+- the use of the outputs is appropriate: the results can carry the decision they will be used for
+- the assumptions and risks are understood
+
+You give advice. The commissioner owns the decision and the analyst owns the analysis.
+
+## How independent you have to be
+
+The assurer and the analyst shall be independent. How far apart depends on the level.
+
+| Level | The critical friend is |
+|---|---|
+| Level 1 Standard | A colleague, within the delivering team |
+| Level 2 Enhanced | Someone who was not involved in producing the work. They may be in the delivering team |
+| Level 3 Comprehensive | An assurer from outside the delivering team |
+| Level 4 BCA | A Lead Assurer from outside the delivering team, with external review |
+
+: How independent the critical friend must be, by assurance level
+
+Level 4 BCA is the Business Critical level. See [Business Critical analysis](../08-business-critical/index.qmd).
+
+## If time is short {#if-there-is-not-enough-time}
+
+If there is not enough time for the checks your level requires, say so plainly. See [where a disagreement goes](index.qmd#when-you-disagree).
+
+## Your checklist
+
+{{< include /guidance/_partials/table-journey-critical-friend.qmd >}}
+
+## Where to go next
+
+- [The analyst](analyst.qmd), for the outputs of each phase
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Writing a quality assurance statement](../09-resources/r5-quality-assurance-statement.qmd)
+- [Who to ask](../09-resources/r3-who-to-ask.qmd)
+- [What the critical friend confirms](../09-resources/r17-roles-independence-and-escalation.qmd#what-the-critical-friend-confirms)
+- [Where assurance comes from](../09-resources/r17-roles-independence-and-escalation.qmd#where-assurance-comes-from)
+- [Independence at every level](../09-resources/r17-roles-independence-and-escalation.qmd#independence-at-every-level)
+- [Naming and working with the critical friend](../09-resources/r17-roles-independence-and-escalation.qmd#naming-and-working-with-the-critical-friend)
+- [Working to a deadline](../09-resources/r15-scoring-the-assurance-level.qmd#working-to-a-deadline)
+:::

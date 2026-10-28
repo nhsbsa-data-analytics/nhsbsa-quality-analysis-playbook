@@ -1,0 +1,20 @@
+[![[**Seven handoffs between four roles.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/03-funding-formula-handoffs.png){.nhsuk-image__img width=680 height=768 fig-alt="Seven handoffs between four roles: an illustration, not a real NHSBSA case. The commissioner, analyst, critical friend and Analysis Senior Responsible Officer pass work between them in order, from scoping to approval."}](/static/diagrams/03-funding-formula-handoffs.svg){.diagram-open aria-label="Seven handoffs between four roles: an illustration, not a real NHSBSA case. The commissioner, analyst, critical friend and Analysis Senior Responsible Officer pass work between them in order, from scoping to approval. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+| Order | From | To | Phase | What is handed over |
+|---|--------------|--------------|-------------|--------------------------|
+| 1 | Commissioner | Analyst | Engagement and scoping | The decision, the deadline, and how certain the answer has to be |
+| 2 | Analyst | Critical friend | Design | The design and plan, with the critical friend named on it |
+| 3 | Critical friend | Analyst | Analysis | Findings, which are the analyst's to act on |
+| 4 | Analyst | Commissioner | Delivery, communication and sign-off | Draft results, so they are understood before sign-off |
+| 5 | Analyst | Analysis Senior Responsible Officer | Delivery, communication and sign-off | The assurance evidence |
+| 6 | Critical friend | Analysis Senior Responsible Officer | Delivery, communication and sign-off | Lead Assurer sign-off, which comes before the approval |
+| 7 | Analysis Senior Responsible Officer | Commissioner | Delivery, communication and sign-off | Approved, for the commissioner's sign-off for release |
+
+: The seven handoffs: who passes what to whom, and in which phase
+
+</div>
+</details>

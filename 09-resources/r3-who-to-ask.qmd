@@ -1,0 +1,82 @@
+---
+title: "R3. Who to ask"
+description: "Who to ask, communities of practice, and closing a skills gap."
+---
+
+
+| If you need | Ask |
+|---|---|
+| Advice on your assurance level, or a level dispute resolved | The Analytical Quality and Assurance Lead |
+| A critical friend for your analysis | Your team lead in the first instance |
+| Advice on official statistics | The Lead Official for Statistics |
+| Business Critical registration | The Data Science, Statistics and AI team, which holds the register |
+| Information governance advice, or help with personal data | The central information governance mailbox, which takes the request and starts a data protection impact assessment. Ask before the work starts, not at sign-off |
+| Help with analytical code, testing or reproducibility | The owners of the [Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) |
+
+: Kinds of help you may need and who to ask for each
+
+Each row names a role or a team rather than a person, so that a change of post holder is not a
+change to this playbook. Who currently holds each one is in the governance and management framework.
+
+**Two of the rows rest on something outside this playbook.** The Lead Official for Statistics is
+NHSBSA's title for the role the Code of Practice for Statistics requires of any producer of
+official statistics, and calls the Head of Profession for Statistics. The Data Science,
+Statistics and AI team holds the register, which is why Business Critical registration goes
+there. Who holds each post is in the governance and management framework.
+
+**The information governance mailbox is the route, and this page does not carry its address.**
+Ask your team lead, or write to the analytical assurance mailbox below and ask to be routed.
+
+If you cannot work out who to approach, start with your team lead. If that does not settle it,
+write to [analyticalassurance@nhsbsa.nhs.uk](mailto:analyticalassurance@nhsbsa.nhs.uk). That
+mailbox covers this playbook, the Analytical Assurance Decision Tool and the Business Critical
+templates, and will point you at the right person for anything else.
+
+## Communities of practice
+
+Collaboration is worth seeking at the start of analysis rather than when you are stuck. It gives
+access to skills and knowledge held outside your immediate team, avoids duplication and wasted
+effort, avoids conflicting results, and brings a wider range of professional perspectives.
+
+### Coffee and Coding
+
+A monthly, hands-on session lasting 45 minutes to an hour, in which colleagues share a skill and
+everyone gets to run the code themselves. It has run since May 2021 and materials from every session
+are published at
+[the Coffee and Coding page on GitHub](https://github.com/nhsbsa-data-analytics/coffee-and-coding).
+
+Past sessions have covered R and Python from scratch, the Open Data Portal API, R Markdown and
+official statistics, accessible spreadsheets, and data visualisation. You do not need to be a
+confident coder to attend, and you do not need to present to benefit.
+
+For joining details, ask your team lead or the Data Science, Statistics and AI team.
+
+## When the work needs a new skill {#when-the-work-needs-a-skill-you-do-not-have}
+
+
+Whoever assigns a piece of work has to give it to people with the skills, information and tools it
+requires. The obligation sits as much on whoever does the work as on whoever assigns it. That is a
+statement about the work, not a judgement about the analyst.
+
+There is no single analytical training catalogue to point you at. Follow these two steps.
+
+**Say so early.** A skills gap found at scoping is a conversation about who else is involved, what
+training is needed, or whether the deadline moves. The same gap found at assurance is a finding
+against the analysis. Raise it with your team lead, and if it is not resolved there, with the
+Analytical Quality and Assurance Lead using the routes above.
+
+**Record it if it is not closed.** Where the work goes ahead without the skill the assurance level
+assumes, that is a limitation of the analysis. Record it, and put it in the quality assurance
+statement, the same as any other limitation. See
+[deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and
+[Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd).
+
+Two frameworks help with the wider question of whether NHSBSA has the capability it needs, rather
+than with a single piece of work:
+
+| Framework | What it assesses |
+|---|---|
+| [Statistical Practice Capability Framework](https://osr.statisticsauthority.gov.uk/), Office for Statistics Regulation | How an organisation is developing its statistical practice against Trustworthiness, Quality and Value.<br><br>It is in development and being trialled with producer bodies, so it is a way of looking at NHSBSA, not a standard NHSBSA is held to |
+| [Government Analytical Evaluation Capabilities Framework](https://www.gov.uk/government/publications/the-magenta-book), a Magenta Book supplementary guide | The competences an evaluation team needs, and how to judge whether it has them |
+
+: Capability frameworks and what each assesses

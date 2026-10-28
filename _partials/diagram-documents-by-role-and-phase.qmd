@@ -1,0 +1,28 @@
+[![[**Who owns each document, and when.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/07-documents-by-role-and-phase.png){.nhsuk-image__img width=680 height=898 fig-alt="Who owns each document, and when: the eleven documents of a Business Critical analysis, in a lane for each role and a column for each phase. The analyst owns eight."}](/static/diagrams/07-documents-by-role-and-phase.svg){.diagram-open aria-label="Who owns each document, and when: the eleven documents of a Business Critical analysis, in a lane for each role and a column for each phase. The analyst owns eight. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+A grid with a lane for each role and a column for each of four phases: engagement and scoping, design, analysis, and delivery, communication and sign-off. Each lane is a pale block with the role's name, and a rule separates one lane from the next.
+
+The commissioner lane holds one document, in engagement and scoping: 3, the Analytical Assurance Decision Tool, which the commissioner completes with the analyst. The analyst lane holds eight. In engagement and scoping: 1, the analytical plan, or the team's own version, and 2, the scope. In design: 4, the specification, 5, the quality assurance plan, and 6, the quality assurance appraisal, basic information. In analysis: 7, the analysis or model itself, 8, the technical guide, and 9, the user guide. In delivery, communication and sign-off the lane for the critical friend, as Lead Assurer, holds 10, the quality assurance appraisal, assurance review. An arrow goes down from it to 11, the quality assurance sign-off, which is drawn across the lane of the critical friend and the lane of the Analysis Senior Responsible Officer below it, because the critical friend signs off first and then the officer.
+
+| No. | Document | Phase | Owner |
+|-----|----------------------|----|------------------|
+| 1 | Analytical plan | 1 | Analyst, or the team's own version |
+| 2 | Scope | 1 | Analyst |
+| 3 | Analytical Assurance Decision Tool | 1 | Commissioner and analyst |
+| 4 | Specification | 2 | Analyst |
+| 5 | Quality assurance plan | 2 | Analyst |
+| 6 | Quality assurance appraisal, basic information | 2 | Analyst |
+| 7 | The analysis or model itself | 3 | Analyst |
+| 8 | Technical guide | 3 | Analyst |
+| 9 | User guide | 3 | Analyst |
+| 10 | Quality assurance appraisal, assurance review | 4 | Critical friend, as Lead Assurer |
+| 11 | Quality assurance sign-off | 4 | Critical friend, then the Analysis Senior Responsible Officer |
+
+: The eleven documents, with the phase and owner of each
+
+</div>
+</details>

@@ -1,0 +1,45 @@
+---
+title: "Check the playbook applies"
+description: "Check the playbook applies, and how to treat your kind of work."
+---
+
+The playbook applies if both of these are true:
+
+1. You collected, manipulated or interpreted data to answer a question.
+2. Somebody is going to act on the answer.
+
+This includes any [analytical output](../09-resources/r1-glossary.qmd) used internally, supplied to a sponsor or published externally.
+
+If it applies, start at [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
+
+## Find your kind of work
+
+[Decide your assurance level](../07-deciding-your-assurance-level/index.qmd) for your own work. Do not match it to the nearest row. The second column is an example, not your score.
+
+| The work | Example impact, or how to treat it | What else applies |
+|------------------------------|------------------|----------------------------------------------------|
+| Exploratory analysis, an internal data investigation | Impact 1 | Level 1 requires separation within your team. See [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) |
+| A monthly operational dashboard, team workforce planning | Impact 2 | Do the [checks for your level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level). Read [Phase 5, review](../05-review/index.qmd) for what a recurring output is reviewed against, and when |
+| An official statistics publication, such as Dental Statistics | Impact 3 | Ask the Lead Official for Statistics for advice ([who to ask](../09-resources/r3-who-to-ask.qmd)). Read [what the Code of Practice for Statistics asks for](../09-resources/r9-what-each-standard-asks-for.qmd#the-code-of-practice-for-statistics) |
+| A Freedom of Information (FOI) response, or a Parliamentary Question | Impact 3 | Score visibility under public visibility and reach. Do not add it on top. See [score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd) |
+| A Board report or a ministerial briefing | Impact 3 | Do not score Level 4 on visibility alone. See [what does not justify Level 4](../07-deciding-your-assurance-level/score-the-impact.qmd#what-does-not-by-itself-justify-level-4) |
+| A funding allocation formula, an eligibility model, a payment methodology, a major policy appraisal | Impact 4, so Level 4 BCA | Follow [Business Critical analysis](../08-business-critical/index.qmd). Make the register entry and name the Analysis Senior Responsible Officer at scoping |
+| A dataset supplied to a sponsor or a partner | Score it like any other analysis | The playbook applies when you supply it, not only when you publish it |
+| A forecasting model informing budgets | Score it, then place it among the eight model types | See [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) for both. Read [uncertainty, assumptions and limitations](../09-resources/r10-uncertainty.qmd) |
+| An algorithmic or machine learning tool that affects decisions about people | Score it, and separately check transparency scope | Check transparency scope at scoping, with the impact score. [Algorithmic transparency and AI](../09-resources/r12-algorithmic-transparency-and-ai.qmd) has the test |
+| An AI assistant helping you write code, summarise or draft | Nothing changes about who is accountable | Ask before you use a tool that is not already in use in your team.<br><br>Do not put data into a tool that is not cleared to hold it.<br><br>Verify what comes back.<br><br>Record material use where it affects reproducibility.<br><br>See [using AI tools to do the analysis](../09-resources/r12-algorithmic-transparency-and-ai.qmd#using-ai-tools-to-do-the-analysis) for all five rules |
+| Analysis you are reusing for a new purpose, or a one-off that has become a monthly production run | Check whether the original level still holds | Check four things before reuse and score the level again if any answer is yes. See [Phase 5, review](../05-review/index.qmd).<br><br>Treat a one-off that becomes a production run as a different piece of work and score it again |
+| A published figure that has turned out to be wrong | Not a new piece of analysis | Decide whether it is a revision or a correction.<br><br>Grade a correction by what it does to the conclusions already drawn: significant, minor but significant, or minor but insignificant.<br><br>See [correcting a published figure](../09-resources/r6-when-something-is-wrong.qmd) for what happens at each grade |
+| Work where there is not enough time for the assurance the level asks | The level does not change | Narrow the question, or state plainly what assurance was not done. See [after you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd) |
+
+: Kinds of work, how each is treated, and what else applies to it
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where the example impacts come from](../09-resources/r19-worked-examples.qmd#where-the-example-impacts-come-from)
+- [What Level 1 means](../09-resources/r15-scoring-the-assurance-level.qmd#what-level-1-means)
+- [Uncertainty in a forecasting model](../09-resources/r10-uncertainty.qmd#uncertainty-in-a-forecasting-model)
+- [Reuse and the assurance level](../09-resources/r18-review-reuse-and-records.qmd#reuse-and-the-assurance-level)
+- [Who counts as a commissioner](../09-resources/r17-roles-independence-and-escalation.qmd#who-counts-as-a-commissioner)
+:::

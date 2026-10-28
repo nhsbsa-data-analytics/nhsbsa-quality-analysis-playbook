@@ -1,0 +1,18 @@
+[![[**When a published figure has changed.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/02-correcting-a-published-figure.png){.nhsuk-image__img width=680 height=658 fig-alt="When a published figure has changed: a decision tree from a revision or a correction to the grade of the error."}](/static/diagrams/02-correcting-a-published-figure.svg){.diagram-open aria-label="When a published figure has changed: a decision tree from a revision or a correction to the grade of the error. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+A yellow question at the top left asks: was the change expected? An arrow marked yes goes right to a green box: a revision, which is expected and is not an error. An arrow marked no goes down to a wide blue box: a correction, which is an error, graded by what it does to the conclusions already drawn. Three arrows go down from it, one to each grade.
+
+| The error | What happens |
+|---|---|
+| **Significant**, where the change would contradict the conclusions previously drawn from the data | A prominent alert on the website, corrected as soon as possible, and communicated to users and stakeholders |
+| **Minor but significant**, insubstantial but warranting immediate correction in professional judgement | The published release is amended and the revision is clearly identified in it |
+| **Minor but insignificant**, where a correction would reasonably be deemed inconsequential | Corrected at the next scheduled release rather than immediately |
+
+: The three grades of error, and what happens for each
+
+</div>
+</details>

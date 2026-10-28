@@ -1,0 +1,134 @@
+---
+title: "R10. Data ethics and personal data"
+description: "The data ethics position, raising a concern, and personal data."
+---
+
+Analysis at NHSBSA uses data about people, and informs decisions that affect them. This page
+covers data ethics, personal data, and what to record when one of the ethics questions raises a
+concern.
+
+## Data ethics
+
+Analysis should be undertaken in line with legal and ethical obligations and any other relevant
+public service codes of conduct.[^src-govs-010-principle-5]
+
+The **Data and AI Ethics Framework** provides guidance on using data appropriately and responsibly
+when planning, implementing and evaluating a policy or service.[^src-govs-010-section-6-1]
+
+### Use the Data and AI Ethics Framework, the current title {#use-the-data-and-ai-ethics-framework-not-the-title-govs-010-names}
+
+Government Functional Standard GovS 010: Analysis cites it as the **Data Ethics Framework**, which
+is the 2020 edition. On 18 December 2025 it was retitled the **Data and AI Ethics Framework**. Its
+scope was extended to AI and algorithmic technologies, and four principles were added. Use the
+current framework.
+
+It publishes a **self-assessment tool**. Use that rather than writing your own checklist.
+
+Ethics is a design activity, not a compliance check at the end. The framework has seven principles,
+and each one is a question worth asking before the work starts.
+
+- **Transparency.** Could you explain to the people in the data what you did and why?
+- **Accountability.** Who is answerable if this turns out to be wrong?
+- **Fairness.** Could the analysis, or the decision it informs, affect some groups differently? Five
+  questions turn that from open-ended into answerable. Who is **represented** in the data, and in
+  what proportion? Who is **missing** from it altogether? Is any variable acting as a **proxy** for
+  a protected or sensitive characteristic? Do **outcomes differ** across groups once you look? How
+  much fairness work is **proportionate** to what this analysis decides? An exploratory count at
+  Level 1 does not need a bias audit. A model that decides who is eligible for something does.
+- **Privacy.** Is the data being used no more than the question requires? NHSBSA's Statistical Disclosure Control protocol is where this is already answered. [NHSBSA templates and documents](r2-templates-and-documents.qmd) lists the protocol with the other
+  NHSBSA documents this playbook draws on. Follow them rather than this page: a disclosure control
+  protocol summarised in a playbook is a protocol with two versions.
+- **Environmental sustainability.** What does producing and running this analysis cost, and is that
+  proportionate to what it is for? This matters most for repeated pipelines and for anything using
+  large models.
+- **Societal impact.** Who is affected by the decision this analysis informs, beyond the people in
+  the data? This is a scoping question, so it belongs in
+  [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) as well
+  as here.
+- **Safety.** What harm could follow if this is wrong, misread, or used for something it was not
+  built for?
+
+Raise societal impact and safety at scoping, while there is still time to act on the answer.
+
+Answer the accountability question first. If nobody can answer it, the governance is not yet in
+place. See [roles and responsibilities](../06-roles/index.qmd).
+
+### A gap in coverage is a fairness question {#a-gap-in-coverage-is-a-fairness-question}
+
+At Level 2, [the checks by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level)
+include an understanding of the impacts of data quality. The input data is profiled for ranges,
+nulls, duplicates and outliers, and for what each means for the answer. That includes who is missing
+from it.
+
+A gap in coverage is not only a wider interval. It is a blind spot in the conclusion, because the
+analysis cannot see the group that is missing. It is also a risk of affecting one group differently.
+
+Fairness asks who is missing from the data altogether, as one of its five questions.
+[Uncertainty, assumptions and limitations](r10-uncertainty.qmd#limitations) covers the uncertainty
+side, where a gap in coverage limits what the figures can be used for.
+
+## When a question raises something {#when-a-question-raises-something}
+
+Where one of the seven questions raises a concern, record the concern and what you decided about it,
+rather than leaving it in an email.
+
+**Record six things.** They fit in a short block in the project record. They are the same six
+whether the concern is fairness, privacy, safety or societal impact.
+
+| Field | What goes in it |
+|---|---|
+| **Affected groups** | Who is affected by this, in the data and beyond it |
+| **Harms and benefits** | What could go wrong, and what the analysis is for. Record both |
+| **Mitigations** | What you actually changed: the method, the caveat, the scope, the publication decision |
+| **Residual risk** | What is still there after the mitigations, stated plainly rather than implied by silence |
+| **Accountable decision-maker** | The role that accepted that residual risk. Not the analyst, unless the analyst genuinely holds that authority |
+| **Escalation route** | Where it went, if the analyst and the commissioner could not settle it between them |
+
+: The six fields to record for a concern, and what goes in each
+
+Record the six fields whether or not the concern was settled. Six lines in the project record is
+enough.
+
+### Escalating an ethical concern {#where-an-ethical-concern-goes-if-it-is-not-settled}
+
+A design and plan should cover escalation routes that let analysts and stakeholders raise
+concerns.[^src-govs-010-section-5-3]
+
+Take it to the commissioner first, because they own the decision the analysis informs. This is the
+same route as in [roles and responsibilities](../06-roles/index.qmd). Unresolved, it goes to the
+**Analytical Quality and Assurance Lead**.
+
+Where the concern is about something that will be published as an official statistic, it goes
+to the **Lead Official for Statistics**. That is already the route for whether an output is fit
+to publish.
+
+**Refusing to do a piece of analysis is a legitimate outcome of this route**, and it is not the
+analyst's alone to take. That is what the accountable decision-maker field is for.
+
+## Personal data
+
+Where personal data is used in analysis, this must be in accordance with NHSBSA policy and
+prevailing legislation. GovS 010 says the same, as a recommendation: the use should be in accordance with the organisation's policies and prevailing legislation.[^src-govs-010-section-6-14]
+
+Where analysis using personal data is published, you may include in the publication:[^src-govs-010-section-6-14]
+
+- when personal data has been used, and the justification for its use
+- how guidance has been followed
+- the steps taken to protect the data
+
+Information and data should be classified and securely managed in line with GovS 007 Security. They
+should also be retained to meet statutory and contractual requirements, and those of the Data and AI
+Ethics Framework.[^src-govs-010-section-6-7]
+
+**Ask before the work starts, not at sign-off.** Information governance advice, and the corporate
+data protection impact assessment (DPIA) process, sit with the information governance function.
+Ask your team lead, or use the routes in [who to ask](r3-who-to-ask.qmd), to start a DPIA.
+
+Go there while the question is still what data to use. A data protection impact assessment raised
+after the analysis is built is a review of a decision already taken.
+
+[^src-govs-010-principle-5]: [GovS 010 principle 5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#principles)
+[^src-govs-010-section-5-3]: [GovS 010 section 5.3](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#DtA)
+[^src-govs-010-section-6-14]: [GovS 010 section 6.14](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#personal-data)
+[^src-govs-010-section-6-1]: [GovS 010 section 6.1](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#overview-3)
+[^src-govs-010-section-6-7]: [GovS 010 section 6.7](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#DRK)

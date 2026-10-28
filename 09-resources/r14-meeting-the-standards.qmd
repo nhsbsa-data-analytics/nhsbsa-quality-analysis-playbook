@@ -1,0 +1,95 @@
+---
+title: "R13. Where each standard is met"
+description: "Clause by clause, where this playbook meets each standard."
+---
+
+
+The clauses of the standards that this playbook meets, the page that meets each one, and the Resource that explains it.
+
+## Government Functional Standard GovS 010: Analysis
+
+| Clause | Met in | Explained in |
+|------------------------------------|---------------------------------------------|---------------------------------------------|
+| The principles, and Section 4.1.3 | [The seven quality principles](/guidance/00-principles/index.qmd) | [R8. What is binding](r9-what-each-standard-asks-for.qmd#what-is-binding), [R19. Standards to principles mapping](r20-standards-to-principles-mapping.qmd) |
+| Section 4.2 | [R16. Where assurance comes from](r17-roles-independence-and-escalation.qmd#where-assurance-comes-from) | None listed |
+| Section 4.4.1 | [Roles and responsibilities](../06-roles/index.qmd), [R8. What each standard asks for, what is binding](r9-what-each-standard-asks-for.qmd#what-is-binding) | [R16. The roles in the standards](r17-roles-independence-and-escalation.qmd#the-roles-in-the-standards) |
+| Section 4.4.5 | [Roles and responsibilities](../06-roles/index.qmd) | [R16. Start from the decision](r17-roles-independence-and-escalation.qmd#the-decision-not-the-output), [R16. Who counts as a commissioner](r17-roles-independence-and-escalation.qmd#who-counts-as-a-commissioner) |
+| Section 4.4.6 | [Roles and responsibilities](../06-roles/index.qmd) | [R16. What the critical friend confirms](r17-roles-independence-and-escalation.qmd#what-the-critical-friend-confirms), [R16. The roles in the standards](r17-roles-independence-and-escalation.qmd#the-roles-in-the-standards) |
+| Section 4.4.7 | [Roles and responsibilities](../06-roles/index.qmd) | [R16. Start from the decision](r17-roles-independence-and-escalation.qmd#the-decision-not-the-output) |
+| Section 5.2 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) | [The seven quality principles](/guidance/00-principles/index.qmd), [R9. Assumptions](r10-uncertainty.qmd#assumptions) |
+| Section 5.3 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 2, design](../02-design/index.qmd) | [R16. Naming and working with the critical friend](r17-roles-independence-and-escalation.qmd#naming-and-working-with-the-critical-friend), [R10. Escalating an ethical concern](r11-ethics-and-personal-data.qmd#where-an-ethical-concern-goes-if-it-is-not-settled) |
+| Section 5.4 | [Phase 3, analysis](../03-analysis/index.qmd) | [R17. The quality assurance log and the checklist](r18-review-reuse-and-records.qmd#the-log-and-the-checklist) |
+| Section 5.5 | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) | [R5. What GovS 010 says about the statement](r5-quality-assurance-statement.qmd#what-govs-010-says-about-the-statement), [R16. Draft results go to the commissioner first](r17-roles-independence-and-escalation.qmd#the-commissioner-sees-draft-results-first) |
+| Section 5.6 | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) | [R16. Passing results on with their caveats](r17-roles-independence-and-escalation.qmd#passing-results-on-with-their-caveats) |
+| Section 6.2 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) | None listed |
+| Section 6.3 | [Phase 2, design](../02-design/index.qmd), [Step 4, the checks by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level) | None listed |
+| Section 6.4 | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) | None listed |
+| Section 6.5 | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) | [R9. Uncertainty, assumptions and limitations](r10-uncertainty.qmd) |
+| Section 6.6 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 3, analysis](../03-analysis/index.qmd), [Step 4, the checks by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level) | [R17. Peer review, and review in Phase 5](r18-review-reuse-and-records.qmd#peer-review-and-the-review-phase), [R17. The quality assurance log and the checklist](r18-review-reuse-and-records.qmd#the-log-and-the-checklist) |
+| Section 6.7 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 3, analysis](../03-analysis/index.qmd), [Step 4, what to record](../07-deciding-your-assurance-level/what-your-level-requires.qmd#what-to-record) | [R17. Keeping the project record beside the output](r18-review-reuse-and-records.qmd#the-project-record-beside-the-output), [R17. Logging decisions as you make them](r18-review-reuse-and-records.qmd#logging-decisions-as-they-are-made) |
+| Sections 6.7 and 6.10 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 3, analysis](../03-analysis/index.qmd), [Phase 5, review](../05-review/index.qmd), [Step 4, what to record](../07-deciding-your-assurance-level/what-your-level-requires.qmd#what-to-record) | [R17. Capturing lessons](r18-review-reuse-and-records.qmd#capturing-lessons) |
+| Section 6.8 | [Who to ask](r3-who-to-ask.qmd), [The critical friend, how independent you have to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be), [Step 4, the checks by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level) | [R16. Where assurance comes from](r17-roles-independence-and-escalation.qmd#where-assurance-comes-from), [R17. Peer review, and review in Phase 5](r18-review-reuse-and-records.qmd#peer-review-and-the-review-phase) |
+| Section 6.9 | [Who to ask](r3-who-to-ask.qmd) | None listed |
+| Section 6.11 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Business Critical analysis](../08-business-critical/index.qmd), [Roles and responsibilities](../06-roles/index.qmd) | [R15. The register entry](r16-what-makes-work-business-critical.qmd#the-register-entry), [R15. Approving a new use](r16-what-makes-work-business-critical.qmd#approving-a-new-use), [R14. The eight model types](r15-scoring-the-assurance-level.qmd#the-eight-model-types), [R16. What the Analysis Senior Responsible Officer confirms](r17-roles-independence-and-escalation.qmd#what-the-analysis-senior-responsible-officer-confirms) |
+| Sections 6.1 and 6.14 | [Phase 2, design](../02-design/index.qmd), [The analyst](../06-roles/analyst.qmd) | [R10. Data ethics](r11-ethics-and-personal-data.qmd#data-ethics), [R10. Personal data](r11-ethics-and-personal-data.qmd#personal-data) |
+| Section 6.12 | [Check the playbook applies, find your kind of work](../07-deciding-your-assurance-level/check-it-applies.qmd#find-your-kind-of-work) | [R8. You may apply the Code voluntarily](r9-what-each-standard-asks-for.qmd#you-may-apply-the-code-voluntarily) |
+| Section 6.13 | [Which standards apply to you](r8-the-standards-landscape.qmd), [Standards and guidance](r4-standards-and-guidance.qmd). The clause puts appraisal with the Green Book and evaluation with the Magenta Book, and the playbook routes you to both rather than restating them | None listed |
+
+: GovS 010 clauses, where the playbook meets each and where it is explained
+
+## The AQuA Book
+
+| Clause | Met in | Explained in |
+|------------------------------------|---------------------------------------------|---------------------------------------------|
+| Chapter 3 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [The critical friend, how independent you have to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be) | [R14. Scoring the level instead of judging it](r15-scoring-the-assurance-level.qmd#scored-rather-than-judged), [R16. Independence at every level](r17-roles-independence-and-escalation.qmd#independence-at-every-level), [R14. Working to a deadline](r15-scoring-the-assurance-level.qmd#working-to-a-deadline) |
+| Section 3.1 | [Step 1, score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd), [Step 2, score the likelihood](../07-deciding-your-assurance-level/score-the-likelihood.qmd) | [R14. Scoring the level instead of judging it](r15-scoring-the-assurance-level.qmd#scored-rather-than-judged) |
+| Figure 3-1 | [Step 3, read your level](../07-deciding-your-assurance-level/read-your-level.qmd) | None listed |
+| Table 3-1 | [Step 1, score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd), [Step 2, score the likelihood](../07-deciding-your-assurance-level/score-the-likelihood.qmd) | [R14. Where the scales come from](r15-scoring-the-assurance-level.qmd#where-the-scales-come-from), [R14. Scoring the level instead of judging it](r15-scoring-the-assurance-level.qmd#scored-rather-than-judged), [R17. Reuse and the assurance level](r18-review-reuse-and-records.qmd#reuse-and-the-assurance-level) |
+| Section 3.2 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) | None listed |
+| Chapter 4 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd) | [R14. Working to a deadline](r15-scoring-the-assurance-level.qmd#working-to-a-deadline) |
+| Section 5.1 | [Roles and responsibilities](../06-roles/index.qmd), [Step 3, independence at every level](../07-deciding-your-assurance-level/read-your-level.qmd#independence-applies-at-every-level) | [R16. The roles in the standards](r17-roles-independence-and-escalation.qmd#the-roles-in-the-standards) |
+| Section 5.2 | [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) and the four phases after it | [R8. Quality assurance and engagement in every phase](r9-what-each-standard-asks-for.qmd#quality-assurance-and-engagement-in-every-phase) |
+| Section 6.1.1 | [Phase 2, design](../02-design/index.qmd) | None listed |
+| Section 6.1.2 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) | None listed |
+| Sections 6.1, 7.1, 8.1 and 9.1 | [Roles and responsibilities](../06-roles/index.qmd) | None listed |
+| Section 8.1.3 | [The critical friend](../06-roles/critical-friend.qmd) | [R16. What the Analysis Senior Responsible Officer confirms](r17-roles-independence-and-escalation.qmd#what-the-analysis-senior-responsible-officer-confirms) |
+| Section 7.1.2 | [After you have your level](../07-deciding-your-assurance-level/after-you-have-your-level.qmd), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 2, design](../02-design/index.qmd) | None listed |
+| Section 7.1.3 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 2, design](../02-design/index.qmd) | None listed |
+| Section 7.4 | [Phase 2, design](../02-design/index.qmd) | [R9. Plan for uncertainty at design](r10-uncertainty.qmd#manage-uncertainty-at-design-not-at-write-up), [The seven quality principles](/guidance/00-principles/index.qmd) |
+
+: AQuA Book clauses, where the playbook meets each and where it is explained
+
+## The Code of Practice for Statistics 3.0
+
+Applies to official statistics. [Which standards apply to you](r8-the-standards-landscape.qmd)
+says when that is.
+
+| Standard | Covered in | Explained in |
+|---|---|---|
+| 1. Show integrity | [The seven quality principles](/guidance/00-principles/index.qmd), [Data ethics and personal data](r11-ethics-and-personal-data.qmd) | None listed |
+| 2. Lead responsibly | [Roles and responsibilities](../06-roles/index.qmd) | None listed |
+| 3. Be transparent | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) | None listed |
+| 4. Manage data responsibly | [Data ethics and personal data](r11-ethics-and-personal-data.qmd) | None listed |
+| 5. Prioritise quality | The playbook as a whole | None listed |
+| 6. Be rigorous | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) | None listed |
+| 7. Be open about quality | [Uncertainty, assumptions and limitations](r10-uncertainty.qmd) and [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) | None listed |
+| 8. Be relevant | [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) and [Phase 5, review](../05-review/index.qmd) | [R17. Review activities and the standards behind them](r18-review-reuse-and-records.qmd#review-activities-and-the-standards) |
+| 9. Be clear | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) and [Phase 5, review](../05-review/index.qmd) | [R17. Review activities and the standards behind them](r18-review-reuse-and-records.qmd#review-activities-and-the-standards) |
+| 10. Be accessible | [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd) and [Phase 5, review](../05-review/index.qmd) | None listed |
+
+: Code of Practice for Statistics standards, where covered and where explained
+
+## NHSBSA documents
+
+| Clause | Met in | Explained in |
+|------------------------------------|---------------------------------------------|---------------------------------------------|
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 1 | [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd), [Business Critical analysis, step 1](../08-business-critical/index.qmd#step-1-decide-at-scoping-whether-it-is-business-critical) | [R15. Why Business Critical works as it does](r16-what-makes-work-business-critical.qmd) |
+| NHSBSA Revisions and Corrections Policy v002, sections 2 and 3 | [Correcting a published figure](r6-when-something-is-wrong.qmd) | None listed |
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026, section 5 | [Business Critical analysis, step 1](../08-business-critical/index.qmd#step-1-decide-at-scoping-whether-it-is-business-critical), [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd), [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) | [R15. Settling a Level 4 BCA level at scoping](r16-what-makes-work-business-critical.qmd#settling-the-level-at-scoping) |
+| NHSBSA Analytical operating model and implementation plan, Summer 2026, "Quality of analytical outputs" | [Check the playbook applies](../07-deciding-your-assurance-level/check-it-applies.qmd) | None listed |
+| Analytical Assurance Decision Tool, worked examples annex, undated | [Check the playbook applies, find your kind of work](../07-deciding-your-assurance-level/check-it-applies.qmd#find-your-kind-of-work) | [R18. Where the example impacts come from](r19-worked-examples.qmd#where-the-example-impacts-come-from), [R18. A funding allocation formula through the four roles](r19-worked-examples.qmd#a-funding-allocation-formula-through-four-roles) |
+| Analytical Assurance Decision Tool, 13 October 2026 | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) | [R14. Where the scales come from](r15-scoring-the-assurance-level.qmd#where-the-scales-come-from), [R14. Where the checks by level come from](r15-scoring-the-assurance-level.qmd#where-the-checks-by-level-come-from) |
+| Analytical Assurance Decision Tool, 13 October 2026, note to the impact scale | [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) | None listed |
+| NHSBSA Business Critical Analysis: Navigating the Assurance Journey, 17 September 2026 | [Business Critical analysis](../08-business-critical/index.qmd) | [R15. Why Business Critical works as it does](r16-what-makes-work-business-critical.qmd) |
+
+: NHSBSA documents, where the playbook meets each and where it is explained

@@ -1,0 +1,56 @@
+---
+title: "Step 1. Score the impact"
+description: "Score six impact dimensions. A Level 4 makes it Business Critical."
+---
+
+Do this in [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd), with your
+commissioner.
+
+Score what happens if the analysis is wrong, and who is affected. Score it in the
+[Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}), which describes each dimension at each level. Opening it needs an NHSBSA account with access to the Analytical Quality and Assurance site.
+
+## What you do
+
+- Score each of the six impact dimensions in the tool, from Level 1 to Level 4: decision, finance,
+  customers, legal or compliance, public visibility and reach, and reputation.
+- Score against the tool's description for each level, not the dimension's name.
+- For finance, use the thresholds in the tool. It marks them as still to be confirmed, so check the
+  figures in the version you open.
+- Take the highest single score as your impact score.
+
+Your impact score is one side of the matrix that gives your level.
+
+{{< include /guidance/_partials/diagram-assurance-level-matrix.qmd >}}
+
+## Keep Level 4 for a material consequence {#what-does-not-by-itself-justify-level-4}
+
+Keep Level 4 for analysis that is Business Critical, as
+[NHSBSA defines it](../08-business-critical/index.qmd). The tool says:
+
+> "Publication status, Board consideration, Official Statistics designation, media interest,
+> national visibility, FOI disclosure, ministerial interest or parliamentary scrutiny do not by
+> themselves justify a Level 4 score."
+
+Score those under public visibility and reach. A Level 4 on any dimension makes the work Business
+Critical.
+
+## Outputs of this step
+
+Record these in the Specification:
+
+- The score for each dimension, and your highest single score.
+- The Business Critical answer, yes or no.
+
+## What you do next
+
+- [Score the likelihood](score-the-likelihood.qmd) at design, once the data and the method are
+  settled.
+- If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where the impact and likelihood scales come from](../09-resources/r15-scoring-the-assurance-level.qmd#where-the-scales-come-from)
+- [Why Business Critical works as it does](../09-resources/r16-what-makes-work-business-critical.qmd#what-makes-work-business-critical)
+- [Publication status and Business Critical status](../09-resources/r16-what-makes-work-business-critical.qmd#what-does-not-make-work-business-critical)
+:::

@@ -1,0 +1,156 @@
+---
+title: "R11. Algorithmic transparency and AI"
+description: "Algorithmic transparency, human oversight and using AI tools."
+---
+
+Where an algorithmic or AI tool is part of the analysis, three things follow. Publish what the tool
+does. Keep a person genuinely in a position to change the outcome. Be clear about any AI used to
+produce the work.
+
+## Check whether your tool needs a transparency record
+
+Two tests, and both have to be met. **Make the check at scoping** and record the answer either
+way, because a record takes drafting and clearance.
+
+| The test | Where NHSBSA analysis lands |
+|---|---|
+| **Is the organisation in scope?** | **Yes.** The standard is mandatory for arm's length bodies which deliver public or frontline services, or directly interact with the general public. NHSBSA does both |
+| **Is the tool in scope?** | **Usually not.** Mandatory only where the tool has a significant influence on a decision-making process with public effect, or directly interacts with the general public. An analytical model supporting broad policy-making is deliberately outside it |
+
+: Algorithmic transparency scope tests and where NHSBSA analysis lands
+
+## Algorithmic transparency
+
+The **Algorithmic Transparency Recording Standard (ATRS)** is how a public body publishes what an
+algorithmic tool does. The record says what the tool is for and what data it was built on. It also says how
+the tool affects decisions, who is accountable for it, and what oversight it has.
+
+**First test, the organisation.** The standard is mandatory for all government departments. It is also
+mandatory for arm's length bodies which deliver public or frontline services, or directly interact
+with the general public.[^src-atrs-section-2]
+
+NHSBSA does both, so the organisation is in scope. It is recommended
+across the rest of the public sector, which is not in mandatory scope.[^src-atrs-section-2]
+
+**Second test, the tool.** Within an organisation in scope, the standard is mandatory for algorithmic
+tools which have **a significant influence on a decision-making process with public effect**. It is
+also mandatory for tools which **directly interact with the general public**.[^src-atrs-section-2]
+
+### Most of the analysis this playbook covers is outside the mandatory scope
+
+The standard applies to tools "influencing specific operational decisions about individuals,
+organisations or groups". It does not apply to "an analytical model supporting broad government
+policymaking".[^src-atrs-section-2]
+
+An eligibility rule, a risk score or a triage tool applied to individual cases is an operational
+decision about individuals, so it is in scope. An analytical model that supports broad policymaking is not. **The test is what the tool decides, and about whom.** It is not
+how visible the analysis is, and it is not the assurance level it scored.
+
+Being outside the mandatory scope is not a reason to publish nothing. The Data and AI Ethics
+Framework recommends publishing a record "even where a tool does not strictly fall within scope of
+the ATRS".[^src-data-and-ai-ethics-framework-atrs]
+
+Ask whether the tool is in scope in the same conversation that scores the impact. A record takes
+drafting and internal clearance before it can be published, so allow time for that.
+
+### The transparency record and Business Critical status {#transparency-and-business-critical-status}
+
+The two decisions are separate. An analysis can be Level 4 BCA and still be out of ATRS scope. It
+can be Level 2 Enhanced and in it.
+
+Being Business Critical does not by itself put a tool in the scope of the Algorithmic Transparency
+Recording Standard. Being outside that scope does not make the tool less critical. Each has its own
+test, and both tests are applied at scoping.
+
+### State in the output what the method does not show {#if-you-cannot-explain-it-say-so}
+
+Where a method cannot be explained, **you must state that limitation in the output**. A
+vendor-supplied scoring tool whose weighting is not disclosed is one example. Where the tool is in
+ATRS scope, it belongs in the record as well.
+
+Assure a model whose internal workings cannot be inspected in the same way as any other model. The
+difficulty is in transparency, in having the right mix of experts available, and in understanding
+what mitigations are possible. It is not a reason to assure the model less.
+
+### Who drafts and publishes the record
+
+The standard names two roles. An organisation in mandatory scope should have a named
+**single point of contact** for the standard, whose job is to coordinate with the standard's own
+team on identifying the tools in scope, drafting the records and publishing them.
+
+If you do not know who yours is, the guidance gives
+[algorithmic-transparency@dsit.gov.uk](mailto:algorithmic-transparency@dsit.gov.uk) as the
+address to ask.[^src-atrs-section-2] Each record names a **senior responsible
+owner**, given as a role title rather than a person. That role is ultimately accountable for the
+tool in an operational context.[^src-atrs-section-6]
+
+Who holds each of those at NHSBSA is a governance decision rather than something the standard
+settles, and neither is settled yet. Until they are, the analyst drafts the record as part of
+delivery. The Lead Official for Statistics clears it before publication, as for a published
+statistic.
+
+That route is this playbook filling a gap rather than the standard requiring it. Check it with the
+analytical assurance mailbox in [who to ask](r3-who-to-ask.qmd).
+
+## Meaningful human oversight
+
+"A human is involved" is not oversight on its own. It can be true when nobody is able to change the
+outcome.
+
+**Start with the law.** UK General Data Protection Regulation (UK GDPR) article 22 prohibits decisions based **solely** on automated
+processing that have legal or similarly significant consequences for an individual. A service using
+an algorithmic tool that affects a person's legal status or rights may use it only to **support** a
+human decision-maker's decision.[^src-ai-playbook-human-oversight]
+
+Where article 22 does not apply, how much human involvement is enough depends on three things. They
+are the complexity of the output, its potential impact, and how much specialist knowledge reading it
+requires.[^src-ai-playbook-human-oversight] Design, document and assess the points where human
+review happens, and what further information the reviewer takes into
+account.[^src-ai-playbook-human-oversight]
+
+**Five questions make oversight real rather than nominal.**
+
+| Question | What a usable answer looks like |
+|---|---|
+| **Who reviews the output?** | A named role, not "the team". Oversight with no named owner does not happen |
+| **What authority do they have?** | Can they change the answer, or only note a concern about it |
+| **When can they challenge or override?** | Before the decision is acted on, or only after somebody complains |
+| **What gets recorded?** | That a review happened, what it considered, and what it changed |
+| **Can the decision be reviewed or appealed?** | By the person it was about, and through what route |
+
+: Questions on human oversight and what a usable answer looks like
+
+If the reviewer has no authority to change the answer, name a reviewer who has.
+
+## Using AI tools to do the analysis
+
+This is different from analysis **of** an algorithmic tool. It is the everyday case: an analyst using
+an AI assistant to write code, summarise a document, draft a passage or explain an error.
+
+Using an AI tool **changes nothing about who is accountable** for the output.
+
+- **Ask before you use a tool that is not already in use in your team.** NHSBSA has no published
+  list of approved analytical AI tools, so the default is to ask rather than to assume.
+- **Do not put data into a tool that is not cleared to hold it.** Patient data, personal data and
+  anything under a data sharing agreement are the obvious cases. The default answer is no unless
+  someone with the authority has said yes in writing.
+- **Verify what comes back.** An AI output is a statistically informed guess rather than a
+  fact.[^src-ai-playbook-accuracy] Code gets tested, a summary gets checked against the source, a
+  figure gets recalculated.
+- **Accountability does not transfer.** The analyst who signs the output owns everything in it. "The
+  tool produced it" is not a finding, a caveat or a defence.
+- **Record material use where it affects reproducibility.** If someone repeating your work needs to
+  know a tool was used to derive something, say so in the project record, and say what was
+  checked.[^src-ai-playbook-accuracy] Spell-checking a paragraph is not material. Generating the
+  transformation logic behind a published figure is.
+
+### Detailed guidance
+
+- [Which standards apply to you](r8-the-standards-landscape.qmd), for the AI standards and guidance on
+  building and assuring AI systems
+
+[^src-ai-playbook-accuracy]: [AI Playbook for the UK Government, Ethics, Accuracy](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html#accuracy)
+[^src-ai-playbook-human-oversight]: [AI Playbook for the UK Government, Ethics, Human oversight](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html#human-oversight)
+[^src-atrs-section-2]: [Algorithmic Transparency Recording Standard, guidance for public sector bodies, section 2](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies#atrs-purpose-and-scope)
+[^src-atrs-section-6]: [Algorithmic Transparency Recording Standard, guidance for public sector bodies, section 6](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies#owner-and-responsibility-tier-2)
+[^src-data-and-ai-ethics-framework-atrs]: [Data and AI Ethics Framework, Using the Algorithmic Transparency Recording Standard](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework#using-the-algorithmic-transparency-recording-standard)

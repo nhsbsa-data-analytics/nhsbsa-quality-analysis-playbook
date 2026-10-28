@@ -1,0 +1,19 @@
+[![[**How impact and likelihood give your level.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/05-assurance-level-matrix.png){.nhsuk-image__img width=680 height=500 fig-alt="How impact and likelihood give your level: a grid of sixteen cells with impact of error up the side and likelihood of error along the bottom. Impact 4 is Level 4 BCA at every likelihood, and that row is outlined. The level rises from Level 1 Standard at the bottom left to Level 3 Comprehensive at the top right of the lower three rows. The text description under the picture gives every cell."}](/static/diagrams/05-assurance-level-matrix.svg){.diagram-open aria-label="How impact and likelihood give your level: a grid of sixteen cells with impact of error up the side and likelihood of error along the bottom. Impact 4 is Level 4 BCA at every likelihood, and that row is outlined. The level rises from Level 1 Standard at the bottom left to Level 3 Comprehensive at the top right of the lower three rows. The text description under the picture gives every cell. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+A grid of sixteen cells. Impact of error, the highest single score, runs up the side from 1 at the bottom to 4 at the top. Likelihood of error, the highest single score, runs along the bottom from 1 low to 4 very high.
+
+- **Impact 4.** Level 4 BCA at every likelihood. The row is outlined.
+- **Impact 3.** Level 1 Standard at likelihood 1, Level 2 Enhanced at 2, and Level 3 Comprehensive at 3 and 4.
+- **Impact 2.** Level 1 Standard at likelihood 1, Level 2 Enhanced at 2 and 3, and Level 3 Comprehensive at 4.
+- **Impact 1.** Level 1 Standard at likelihood 1 to 3, and Level 2 Enhanced at 4.
+
+Two notes sit beside the grid. **Business Critical:** any impact dimension scored 4 gives Level 4 BCA, whatever the likelihood. **Read your level where impact meets likelihood:** complexity is one likelihood dimension, and it does not set the level on its own.
+
+The table below gives the same matrix in words.
+
+</div>
+</details>

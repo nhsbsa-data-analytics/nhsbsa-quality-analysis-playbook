@@ -1,0 +1,103 @@
+---
+title: "Roles and responsibilities"
+description: "Find your role, its other names, and where a disagreement goes."
+---
+
+Find your role on this piece of work. You can hold a different role on the next.
+
+## Go to your role
+
+```{=html}
+<ul class="pb-phase-cards pb-role-cards">
+  <li>
+    <a href="../../guidance/06-roles/analyst.html">
+      <img src="../../static/photos/role-analyst.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The analyst</span>
+        <p>Plan the work, do it, check it and write it up.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/06-roles/critical-friend.html">
+      <img src="../../static/photos/role-critical-friend.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The critical friend</span>
+        <p>Give independent advice on one piece of work, and confirm what was assured.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/06-roles/commissioner.html">
+      <img src="../../static/photos/role-commissioner.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The commissioner</span>
+        <p>Ask for the analysis and own the decision it informs.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="../../guidance/06-roles/analysis-senior-responsible-officer.html">
+      <img src="../../static/photos/role-analysis-sro.jpg" alt="">
+      <div class="pb-phase-body">
+        <span class="pb-phase-name">The Analysis Senior Responsible Officer</span>
+        <p>Business Critical work only. Confirm it is fit for its intended use.</p>
+      </div>
+    </a>
+  </li>
+</ul>
+```
+
+## The same role under another name
+
+If a document uses another name, read it as the role in this playbook.
+
+| In this playbook | Also called |
+|------------------------------|--------------------------------------------------------------|
+| **Critical friend** | Analytical assurer, the term used in the standards |
+| **Analysis Senior Responsible Officer** | Model Senior Responsible Officer (Business Critical documentation), Senior Responsible Owner, or SRO (draft Analytical Governance and Quality Assurance Policy, and other NHSBSA documents), approver (AQuA Book) |
+
+: Role names used in this playbook and the other names for them
+
+## When you disagree
+
+If you disagree, use the escalation route in the table.
+
+| Disagreement | Goes to |
+|---|---|
+| The assurance level | The Analytical Quality and Assurance Lead |
+| Whether an impact dimension scores 4, which makes the analysis Business Critical | The commissioner decides. Escalate to the Analytical Quality and Assurance Lead if unresolved |
+| Whether the analysis is fit for purpose | The critical friend advises. Unresolved, escalate to the Lead Official for Statistics |
+| Whether there is enough time for the assurance required | The commissioner, then the Analytical Quality and Assurance Lead |
+| An ethical concern | The commissioner decides. Unresolved, the Analytical Quality and Assurance Lead, or the Lead Official for Statistics where the output is an official statistic |
+
+: Kinds of disagreement and where each one goes
+
+If the Analytical Quality and Assurance Lead is unavailable, raise the disagreement through your own line while you wait.
+
+**Keep the assurance level when a deadline is tight.** Narrow the question instead, or say plainly what assurance you did not do.
+
+## Who holds the organisational roles
+
+Three roles are held for NHSBSA as a whole:
+
+- the Analytical Quality and Assurance Lead
+- the Lead Official for Statistics
+- the senior officer accountable for analysis as an activity, not for approving any one output
+
+NHSBSA's governance and management framework records who holds them. If you do not know who holds one, see [who to ask](../09-resources/r3-who-to-ask.qmd).
+
+## More detail in Resources
+
+::: {.more-detail}
+- [Where the standards define the critical friend](../09-resources/r17-roles-independence-and-escalation.qmd#the-roles-in-the-standards)
+- [Why three disagreements go where they do](../09-resources/r17-roles-independence-and-escalation.qmd#where-each-disagreement-goes)
+- [Working to a deadline](../09-resources/r15-scoring-the-assurance-level.qmd#working-to-a-deadline)
+- [Cover for the Analytical Quality and Assurance Lead](../09-resources/r17-roles-independence-and-escalation.qmd#cover-for-the-analytical-quality-and-assurance-lead)
+- [What GovS 010 asks of NHSBSA for analytical roles](../09-resources/r9-what-each-standard-asks-for.qmd#what-is-binding)
+:::
+
+[**Photographs.** The analyst by Kampus Production, the critical friend by Vitaly Gariev, the
+commissioner by Tima Miroshnichenko, and the Analysis Senior Responsible Officer by Werner
+Pfennig. Used under the Unsplash and Pexels licences, neither of which requires attribution.
+Cropped, resized and retouched for this page.]{.pb-photo-credit}

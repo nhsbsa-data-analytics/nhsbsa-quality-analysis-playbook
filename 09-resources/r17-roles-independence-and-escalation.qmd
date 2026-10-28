@@ -1,0 +1,138 @@
+---
+title: "R16. Why the roles work as they do"
+description: "The reasons for each role's steps, independence and escalation."
+---
+
+This explains the reasons behind the steps for the [analyst](../06-roles/analyst.qmd), [critical friend](../06-roles/critical-friend.qmd), [commissioner](../06-roles/commissioner.qmd) and [Analysis Senior Responsible Officer](../06-roles/analysis-senior-responsible-officer.qmd), and behind [where a disagreement goes](../06-roles/index.qmd#when-you-disagree).
+
+## The critical friend and independence {#the-critical-friend-and-independence}
+
+### Independence at every level {#independence-at-every-level}
+
+There is no level at which nobody independent looks at the work, and none at which the analyst is excused their own checks. The analyst's own checks come first, and nobody else's review replaces them.
+
+The AQuA Book says the assurer and the analyst shall be independent. That does not mean the analyst should not undertake assurance, but that there shall also be some formal independent assurance.[^src-aqua-book-chapter-3] Responsibility for formal assurance to the approver and the commissioner lies with the assurer. The analyst should carry out their own assurance.[^src-aqua-book-section-5-1]
+
+[Each level includes the checks of the levels below it](r15-scoring-the-assurance-level.qmd#each-level-includes-the-checks-below-it) shows how the levels build on one another.
+
+### Where assurance comes from {#where-assurance-comes-from}
+
+Beyond one assignment, GovS 010 says assurance should typically come from at least three separate and defined places.[^src-govs-010-section-4-2] These are operational management, senior management independent of it, and independent bodies.
+
+GovS 010 also says analysis should be peer reviewed by independent individuals or groups.[^src-govs-010-section-6-8] It says "should", so this is a recommendation.
+
+### What the critical friend confirms {#what-the-critical-friend-confirms}
+
+GovS 010 has the analytical assurer give independent advice on the assignment and, in particular, confirm that quality assurance has taken place and that the use of the outputs, the assumptions and the risks are understood.[^src-govs-010-section-4-4-6] The playbook asks the critical friend to confirm these three things, and reads them as narrower than a general opinion of the work.
+
+- That appropriate and sufficient analytical quality assurance has taken place. The playbook measures this against the assurance level.
+- That the use of the outputs is appropriate. In the playbook's words, the results can carry the decision they are about to be used for.
+- That assumptions and risks are understood.
+
+The critical friend gives advice.[^src-govs-010-section-4-4-6] The commissioner owns the decision, and the analyst owns the analysis.
+
+### Naming and working with the critical friend {#naming-and-working-with-the-critical-friend}
+
+A critical friend named before the work starts can shape the plan and put their own time in the schedule. One found afterwards can only check the result. This fits GovS 010, which says the analytical assurer should check that the proposed design meets the commissioner's requirements.[^src-govs-010-section-5-3]
+
+Someone with experience of similar data or techniques is the person to look for. If the analyst is the area expert, they can consider a newer colleague instead. The newer colleague gains the experience, and the analyst's work is read by somebody who does not share the analyst's assumptions.
+
+Ask the team lead first, as [who to ask](r3-who-to-ask.qmd) says. The Data Science team or the Data Science Lead can recommend someone.
+
+Four ways to involve the critical friend throughout the work, rather than only at the end, are to:
+
+- meet regularly
+- review in small increments
+- plan their time into the schedule
+- give notice when a review is needed
+
+## The Analysis Senior Responsible Officer's accountability {#the-analysis-senior-responsible-officer}
+
+### Naming the Analysis Senior Responsible Officer at scoping {#naming-the-analysis-senior-responsible-officer-at-scoping}
+
+The Analysis Senior Responsible Officer is named at scoping, not at sign-off. The commissioner names them, with the Analytical Quality and Assurance Lead. Naming the officer only when the work is designed, and someone notices a signature is needed, is too late. Being named afterwards does not work, because most of the lifecycle will already have happened.
+
+The [register entry](../08-business-critical/index.qmd#step-4-get-it-on-the-register) is made at the same time. Naming the officer at scoping is the playbook's own judgement.
+
+### What the Analysis Senior Responsible Officer confirms {#what-the-analysis-senior-responsible-officer-confirms}
+
+The officer confirms that the work is suitable for its intended use. That is a judgement about fitness for a purpose, made on the assurance evidence in front of the officer.
+
+The AQuA Book calls this role the approver, who shall review the assurance evidence provided to them.[^src-aqua-book-section-9-1-4] GovS 010 asks for confirmation from the accountable officer that a recommended practice model is suitable for its intended use.[^src-govs-010-section-6-11]
+
+It is not a second technical review. That is the playbook's reading of the role. The Lead Assurer has done the technical review and reports to the officer, and the AQuA Book has the assurer review the assurance completed by the analyst.[^src-aqua-book-section-8-1-3] The AQuA Book also has the approver scrutinise the work of the analyst and the assurer.[^src-aqua-book-section-5-1]
+
+At Level 4 BCA the Lead Assurer signs off first, then the officer.
+
+### When the officer is also the commissioner {#when-the-officer-is-also-the-commissioner}
+
+The officer and the commissioner can be the same person, in which case both sets of responsibilities apply. The independence the assurance level requires is unaffected. It governs the distance between the assurer and the analyst, not between the officer and either of them.
+
+The AQuA Book says the assurer and the analyst shall be independent[^src-aqua-book-chapter-3] and that their roles shall be separate from one another in all cases.[^src-aqua-book-section-5-1]
+
+## The commissioner and the analyst {#the-commissioner-and-the-analyst}
+
+### Start from the decision {#the-decision-not-the-output}
+
+The commissioner states the decision the analysis informs, not the output they want. That makes the conversation about scope a short one. Scoping defines the problem and aligns expectations with what can be delivered.[^src-govs-010-section-5-2]
+
+GovS 010 lists ensuring that the brief is defined and clearly communicated among the commissioner's activities.[^src-govs-010-section-4-4-5] It has the analyst assist the commissioner in structuring the question, to ensure the right analysis is performed.[^src-govs-010-section-4-4-7]
+
+Challenging a brief is therefore part of the analyst's job and not a departure from it. The analyst can be expected to challenge a request that arrives already framed as an output.
+
+### Draft results go to the commissioner first {#the-commissioner-sees-draft-results-first}
+
+In [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd), the analyst hands the draft results to the commissioner first. The commissioner then understands the analysis before approving it and before sign-off.
+
+GovS 010 gives the same reason: draft results should be delivered to the commissioner to ensure they are sufficiently understood prior to approval.[^src-govs-010-section-5-5] The AQuA Book has insights and assurances communicated to the approver and the commissioner, and says they should understand them well enough to decide whether the work has been appropriately assured and meets their requirements.[^src-aqua-book-section-5-2-4]
+
+### Passing results on with their caveats {#passing-results-on-with-their-caveats}
+
+If a result is passed on without its caveats, the person receiving it cannot see its limits. GovS 010 asks for caveats so that results are used appropriately.[^src-govs-010-section-5-6] The AQuA Book asks the commissioner to understand and apply any limitations.[^src-aqua-book-section-9-1-1]
+
+### Who counts as a commissioner {#who-counts-as-a-commissioner}
+
+Commissioners are the people who request analysis, including non-analysts and third-party suppliers. A commissioner may be an internal team, an external partner, or a sponsor such as the Department of Health and Social Care or NHS England.
+
+## Disagreements and the organisation {#disagreements-and-the-organisation}
+
+### Where each disagreement goes {#where-each-disagreement-goes}
+
+The reasons for three of the routes in [where a disagreement goes](../06-roles/index.qmd#when-you-disagree) are these.
+
+- The assurance level goes to the Analytical Quality and Assurance Lead. The level is the one decision that is neither the commissioner's nor the analyst's alone.
+- An ethical concern goes to the commissioner first, because they own the decision the analysis informs.
+- Whether there is enough time for the assurance goes to the commissioner first, because ensuring there is enough time and resource is a commissioner responsibility.
+
+Four of the five routes end at the same person, the Analytical Quality and Assurance Lead.
+
+See [working to a deadline](r15-scoring-the-assurance-level.qmd#working-to-a-deadline) for the reasoning on time and resource. See [escalating an ethical concern](r11-ethics-and-personal-data.qmd#where-an-ethical-concern-goes-if-it-is-not-settled) for the rest of that route.
+
+### Cover for the Analytical Quality and Assurance Lead {#cover-for-the-analytical-quality-and-assurance-lead}
+
+There is no appointed deputy for the Analytical Quality and Assurance Lead, and no agreed time by which a level dispute is answered.
+
+If the post holder is unavailable, the person raising the dispute takes it through their own line while they wait, rather than letting the work stall. [Where a disagreement goes](../06-roles/index.qmd#when-you-disagree) gives that step.
+
+### The roles in the standards {#the-roles-in-the-standards}
+
+The standards call the critical friend the analytical assurer. GovS 010 defines the role at section 4.4.6,[^src-govs-010-section-4-4-6] and the AQuA Book defines it, as the assurer, at section 5.1.[^src-aqua-book-section-5-1]
+
+[The same role under another name](../06-roles/index.qmd#the-same-role-under-another-name) lists the other names the roles go under. [What is binding](r9-what-each-standard-asks-for.qmd#what-is-binding) covers what GovS 010 asks of NHSBSA for the senior officer accountable for analysis and the defined roles.
+
+[^src-aqua-book-chapter-3]: [AQuA Book chapter 3](https://www.gov.uk/guidance/the-aqua-book#proportionality)
+[^src-aqua-book-section-5-1]: [AQuA Book section 5.1](https://www.gov.uk/guidance/the-aqua-book#roles-and-responsibilities-1)
+[^src-govs-010-section-4-2]: [GovS 010 section 4.2](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#assureAnalysis)
+[^src-govs-010-section-6-8]: [GovS 010 section 6.8](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#quality-assurance)
+[^src-govs-010-section-4-4-6]: [GovS 010 section 4.4.6](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#Aassurer)
+[^src-govs-010-section-5-3]: [GovS 010 section 5.3](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#DtA)
+[^src-aqua-book-section-8-1-3]: [AQuA Book section 8.1.3](https://www.gov.uk/guidance/the-aqua-book#the-assurers-responsibilities-2)
+[^src-aqua-book-section-9-1-4]: [AQuA Book section 9.1.4](https://www.gov.uk/guidance/the-aqua-book#the-approvers-responsibilities-3)
+[^src-govs-010-section-6-11]: [GovS 010 section 6.11](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#analytical-models)
+[^src-govs-010-section-5-2]: [GovS 010 section 5.2](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#ICES)
+[^src-govs-010-section-4-4-7]: [GovS 010 section 4.4.7](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#Analyst)
+[^src-govs-010-section-4-4-5]: [GovS 010 section 4.4.5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#analysis-commissioner)
+[^src-govs-010-section-5-5]: [GovS 010 section 5.5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#delivering-the-analysis)
+[^src-aqua-book-section-5-2-4]: [AQuA Book section 5.2.4](https://www.gov.uk/guidance/the-aqua-book#delivery-communication-and-sign-off)
+[^src-govs-010-section-5-6]: [GovS 010 section 5.6](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#signoff)
+[^src-aqua-book-section-9-1-1]: [AQuA Book section 9.1.1](https://www.gov.uk/guidance/the-aqua-book#the-commissioners-responsibilities-3)

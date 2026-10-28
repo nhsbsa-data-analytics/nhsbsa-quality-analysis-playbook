@@ -1,0 +1,26 @@
+[![[**The analyst's journey.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/08-journey-analyst.png){.nhsuk-image__img width=680 height=986 fig-alt="The analyst's journey: nine steps in rows, from Check the playbook applies to Phase 5 Review, giving where you are in the playbook, what you do and what you produce at each. The text description under the picture gives every step."}](/static/diagrams/08-journey-analyst.svg){.diagram-open aria-label="The analyst's journey: nine steps in rows, from Check the playbook applies to Phase 5 Review, giving where you are in the playbook, what you do and what you produce at each. The text description under the picture gives every step. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+| Step | Where you are | What you do | What you produce |
+|---|--------------|--------------------|--------------------|
+| 1 | Check the playbook applies | Check it applies, then start at Phase 1. | Nothing recorded yet. |
+| 2 | Phase 1 Engagement and scoping | Agree the decision, the question, what is out of scope, the deadline. | The scope and specification, with the question in one sentence. |
+| 3 | Deciding your assurance level | Score the impact with your commissioner at scoping. Score the likelihood at design, or at scoping if the work is Business Critical. | The Analytical Assurance Decision Tool, with the Business Critical answer either way. |
+| 4 | The checks, by level | Read the block for your level and the blocks inside it. | The quality assurance checklist, and your reviewer's time in the schedule. |
+| 5 | R9 Uncertainty | Find the principal sources of uncertainty while design can still change. | Assumptions listed with their rationale and the impact if wrong. |
+| 6 | Phase 3 Analysis | Your own verification and validation first, then the critical friend. | The quality assurance log, and what you did about each finding. |
+| 7 | Phase 4 Delivery, communication and sign-off | State the caveats in the output itself, not only in an annex. | The output and the quality assurance statement, published from Level 3. |
+| 8 | R10 Data ethics and personal data | Check the Data and AI Ethics Framework, personal data and transparency scope. | The ethics position recorded, and a transparency record drafted where in scope. |
+| 9 | Phase 5 Review | Ask whether it worked, and whether it is still right. | The review record, the lessons, and any decommissioning decision. |
+
+: The analyst's journey, step by step
+
+Step 3 is outlined, with a note: **Business Critical.** Any one impact dimension at 4? If so, go to Business Critical analysis.
+
+A second note, **after the last step:** What you record at the end is what the next piece of work starts from.
+
+</div>
+</details>
