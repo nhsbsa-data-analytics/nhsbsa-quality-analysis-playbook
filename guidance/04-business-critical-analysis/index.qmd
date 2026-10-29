@@ -1,0 +1,49 @@
+---
+title: "Business-Critical Analysis"
+description: "Guidance on identifying and managing business-critical analysis within NHSBSA."
+---
+
+## Introduction
+
+Business-critical analysis represents analytical activity where a material error could directly influence major policy, funding, statutory, regulatory or customer-impacting decisions, or result in significant consequences for NHSBSA, customers, partners or the public. It requires enhanced governance, documentation and independent assurance arrangements. 
+
+Assurance helps establish whether the analysis is fit for purpose and whether sufficient confidence can be placed in the evidence, methods, assumptions and conclusions. 
+
+Use this Section to determine whether the analysis is business-critical, and if so, what steps to take to ensure it complies with the BCA assurance level 
+
+## Concepts and definitions
+
+::: {.callout title="Concepts and Definitions for Business-Critical Analysis"}
+
+|   |   |
+|---|---|
+| Business Critical Analysis | Informs major policy, funding, statutory, regulatory or customer-impacting decisions. The analysis is essential to the achievement of business plan actions and priorities. Errors could lead to significant patient or user impacts or serious financial, legal, reputational damages or penalties. 
+| Assurance   | Activities that provide confidence that analysis is fit for purpose and can be relied upon for its intended use. |
+| Analytical Senior Responsible Owner (SRO) | The person who takes responsibility of business-critical analysis throughout its lifecycle. The SRO signs-off that a model is fit-for-purpose prior to its use. This may be the Commissioner. |
+
+:::
+
+Our current Business Critical analyses are published [here](https://www.gov.uk/government/publications/business-critical-models-for-department-of-health-and-social-care/e388ec88-b910-4df4-ad63-7ea492df81de#nhs-business-services-authority-nhsbsa). 
+
+## Deciding whether the analysis is business-critical  
+
+It is the responsibility of the commissioner to determine whether the analysis is business critical. 
+
+When the scope has been completed, use the impact assessment in the [Analytical Assurance Decision Tool](https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/_layouts/15/Doc.aspx?sourcedoc=%7BA52A508E-8669-496A-8840-B161DD6B85C9%7D&file=Analytical%20Assurance%20Decision%20Tool.xlsx&action=default&mobileredirect=true) to determine whether it meets the criteria for business-critical. The impact is assessed on a scale of 1 (low) to 4 (very high). Business Critical is defined by a level 4 score in any of these dimensions: 
+
+The extent to which the analysis influences decisions, actions, services or outcomes. 
+
+The potential effect on expenditure, funding, resource allocation or financial performance. 
+
+The potential effect on customer rights, entitlements, access, experience or outcomes. 
+
+The potential effect on confidence in NHSBSA, its services or its analytical capability. 
+
+The potential for regulatory breaches, legal challenge or non-compliance with statutory requirements. 
+
+The extent to which the analysis is subject to external use, publication or public scrutiny 
+
+If the risk is scored as a four for at least one of the impact dimensions in the analytical risk assessment, then the analysis is designated as business-critical and the highest level of assurance is required. Publication status, Board consideration, Official Statistics designation, media interest, national visibility, FOI disclosure, ministerial interest or parliamentary scrutiny do not by themselves justify a Level 4 score. 
+
+The likelihood of an error does not change the business-critical classification. 
+
