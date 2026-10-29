@@ -29,14 +29,3 @@ Research/Insight articles are typically published [here](https://www.nhsbsa.nhs.
 Open data sets are typically published [here](https://opendata.nhsbsa.net/).
 
 NHSBSA analytical code is published [here](https://opendata.nhsbsa.net/).
-
-## Business critical analysis and models
-
-Business Critical analysis or models will need to be logged with the Data Science, Advanced Analytics and Statistics team. They will add it to the public register.  This should include:
-
--	a named officer accountable for it  
--	a statement of its intended use  
--	up to date user documentation 
--	guidance on quality assurance 
--	confirmation from the accountable officer that it is suitable for its intended use
-
