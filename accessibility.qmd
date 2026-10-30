@@ -3,9 +3,9 @@ title: "Accessibility"
 title-block-banner: true
 ---
 
-## Accessibility statement for NHSBSA Analytical Code Assurance Playbook
+## Accessibility statement for NHSBSA Producing Quality Analysis Playbook
 
-This accessibility statement applies to the NHSBSA Analytical Code Assurance Playbook website. 
+This accessibility statement applies to the NHSBSA Producing Quality Analysis Playbook website. 
 
 This website is run by the NHS Business Services Authority (NHSBSA). We want as many people as possible to be able to use this website. For example, that means you should be able to:  
   
@@ -24,7 +24,7 @@ We know some parts of this website are not fully accessible, as:
   
 - navigation by tabbing does not always follow a left-to-right, top-to-bottom visual order
 - zooming can only be done to a limited extent due to content becoming unviewable 
-- the report has links to external PDF or Excel documents and websites which may have accessibility issues
+- the playbook has links to external PDF or Excel documents and websites which may have accessibility issues
 
 ### How to request content in an accessible format
 
@@ -48,7 +48,7 @@ This email address is only for accessibility queries. It is not for technical qu
 
 For all queries not accessibility related, you can contact us by:
   
-Email: [dall@nhsbsa.nhs.uk](mailto:dall@nhsbsa.nhs.uk)
+Email: [analyticalassurance@nhsbsa.nhs.uk](mailto:analyticalassurance@nhsbsa.nhs.uk)
 
 ### Enforcement procedure
 
@@ -86,15 +86,4 @@ Our accessibility compliance statement will be reviewed regularly. Every newly r
 
 ### Preparation of this accessibility statement
 
-This statement was originally prepared on 16 April 2025. It was last reviewed on 16 April 2025.
-
-This website was last tested on 16 April 2025 against the WCAG 2.2 AA standard. 
-
-The test was carried out by the NHSBSA test and development teams. The most viewed pages were tested using automated testing tools by our website team. A further audit of the website was carried out to the WCAG 2.2 AA standard.
-
-We tested all the website screens to meet ‘AA’ WCAG 2.2 standards, using manual and automated tests.
-
-We run each webpage through automated Wave, Lighthouse and Axe accessibility tools then manually test with screen readers (NVDA) and standards checklists.
-We run representative user journey tests through speech recognition software (Dragon).
-
-These checklists contain standards that have been compiled using WCAG, the NHS service manual and the Government Digital Service (GDS) guidance.
+This statement was originally prepared on 30 October 2026. It was last reviewed on 30 October 2026.

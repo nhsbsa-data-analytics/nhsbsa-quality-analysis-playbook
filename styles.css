@@ -4,6 +4,27 @@
   width: 100%;
 }
 
+.navbar-brand img {
+  max-height: 2rem;
+  max-width: 100%;
+}
+
+/* Unpin the header on narrow or short viewports (e.g. 400% zoom) so it doesn't fill the screen */
+@media (max-width: 991.98px), (max-height: 600px) {
+  #quarto-header.fixed-top {
+    position: static;
+  }
+
+  body.nav-fixed {
+    padding-top: 0;
+  }
+
+  .navbar-collapse {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+
 li.sidebar-item {
   margin-top: 1rem;
 }
