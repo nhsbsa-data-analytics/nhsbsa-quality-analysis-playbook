@@ -20,6 +20,10 @@ website:
           - href: guidance/01-principles/index.qmd
           - href: guidance/02-analytical-cycle/index.qmd
           - href: guidance/03-responsibilities/index.qmd
+          - href: guidance/04-business-critical-analysis/index.qmd
+          - href: guidance/12-RIGOUR.qmd
+          - href: guidance/13-types-of-analytical-model.qmd
+          - href: guidance/14-uncertainty.qmd
           
     right:
       - href: about.qmd
@@ -50,6 +54,12 @@ website:
           - guidance/03-responsibilities/pages/09-commissioner-responsibilities.qmd
           - guidance/03-responsibilities/pages/10-analyst-responsibilities.qmd
           - guidance/03-responsibilities/pages/11-critical-friend.qmd
+      - guidance/04-business-critical-analysis/index.qmd
+      - section: "Additional Guidance"
+        contents: 
+        - guidance/12-RIGOUR.qmd
+        - guidance/13-types-of-analytical-model.qmd
+        - guidance/14-uncertainty.qmd
       
 
 format:
