@@ -1,75 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/CONTRIBUTE.html</loc>
-    <lastmod>2026-06-11T14:33:18.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/index.html</loc>
-    <lastmod>2026-06-11T14:33:18.084Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/04-analysis-design.html</loc>
-    <lastmod>2026-06-11T14:33:18.086Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/03-customer-engagement.html</loc>
-    <lastmod>2026-06-11T14:33:18.086Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/06-delivery-and-approval.html</loc>
-    <lastmod>2026-06-11T14:33:18.086Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/14-uncertainty.html</loc>
-    <lastmod>2026-06-11T14:33:18.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/10-analyst-responsibilities.html</loc>
-    <lastmod>2026-06-11T14:33:18.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/09-commissioner-responsibilities.html</loc>
-    <lastmod>2026-06-11T14:33:18.183Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/index.html</loc>
+    <lastmod>2026-10-30T13:56:19.006Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/12-RIGOUR.html</loc>
-    <lastmod>2026-06-11T14:33:18.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/about.html</loc>
-    <lastmod>2026-06-11T14:33:18.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/01-principles/index.html</loc>
-    <lastmod>2026-06-11T14:33:18.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/11-critical-friend.html</loc>
-    <lastmod>2026-06-11T14:33:18.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/index.html</loc>
-    <lastmod>2026-06-11T14:33:18.182Z</lastmod>
+    <lastmod>2026-10-30T13:56:19.006Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/13-types-of-analytical-model.html</loc>
-    <lastmod>2026-06-11T14:33:18.233Z</lastmod>
+    <lastmod>2026-10-30T13:56:19.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/09-commissioner-responsibilities.html</loc>
+    <lastmod>2026-10-30T13:56:18.972Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/11-critical-friend.html</loc>
+    <lastmod>2026-10-30T13:56:18.973Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/03-customer-engagement.html</loc>
+    <lastmod>2026-10-30T13:56:18.901Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/07-approval-and-distribution.html</loc>
-    <lastmod>2026-06-11T14:33:18.086Z</lastmod>
+    <lastmod>2026-10-30T13:56:18.901Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/08-review.html</loc>
-    <lastmod>2026-06-11T14:33:18.086Z</lastmod>
+    <lastmod>2026-10-30T13:56:18.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/14-uncertainty.html</loc>
+    <lastmod>2026-10-30T13:56:19.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/CONTRIBUTE.html</loc>
+    <lastmod>2026-10-30T13:56:18.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/04-business-critical-analysis/index.html</loc>
+    <lastmod>2026-10-30T13:56:19.006Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/05-conducting-the-analysis.html</loc>
-    <lastmod>2026-06-11T14:33:18.086Z</lastmod>
+    <lastmod>2026-10-30T13:56:18.901Z</lastmod>
   </url>
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/index.html</loc>
-    <lastmod>2026-06-11T14:33:18.233Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/04-analysis-design.html</loc>
+    <lastmod>2026-10-30T13:56:18.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/pages/06-delivery-and-approval.html</loc>
+    <lastmod>2026-10-30T13:56:18.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/02-analytical-cycle/index.html</loc>
+    <lastmod>2026-10-30T13:56:18.900Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/10-analyst-responsibilities.html</loc>
+    <lastmod>2026-10-30T13:56:18.973Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/index.html</loc>
+    <lastmod>2026-10-30T13:56:18.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/01-principles/index.html</loc>
+    <lastmod>2026-10-30T13:56:18.896Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/about.html</loc>
+    <lastmod>2026-10-30T13:56:18.895Z</lastmod>
   </url>
 </urlset>
