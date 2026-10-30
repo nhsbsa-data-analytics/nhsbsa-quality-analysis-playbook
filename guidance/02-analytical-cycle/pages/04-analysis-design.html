@@ -30,12 +30,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
 <link href="../../../static/bsa-favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -45,21 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-0595d7b71df84ad9c5db391ded3df697.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-6fde259c7320b32ead27d90eba233794.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -91,7 +75,6 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../static/logo-nhs.svg" alt="NHS logo" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -332,6 +315,15 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-right" id="quarto-document-content">
+<script>
+  // Create skiplink
+  var a = document.createElement('a');
+  var linkText = document.createTextNode("Skip to main content");
+  a.appendChild(linkText);
+  a.classList.add("skip");
+  a.href = "#quarto-content";
+  document.body.insertBefore(a, document.body.firstChild);
+</script>
 
 
 
@@ -381,6 +373,87 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+  // 1. Handle 'i' tags - these are added dynamically by quarto. They can have 
+  //    the 'aria-hidden' attribute set to 'true', but quarto does not make them
+  //    unfocusable. This script handles this by setting the 'tabindex' to '-1'.
+  
+  // We observe the entire body for changes to the DOM, since the tags of
+  // interest will be added dynamically and hence we cannot identify them before
+  // they appear.
+  const iTagTargetNode = document.body;
+
+  // We want our observer to be informed when any tag is added within the body. 
+  // For direct children it is 'childList', while for nested children it is
+  // 'subtree'.
+  const iTagConfig = { childList: true, subtree: true };
+
+  // The observer callback receives an array of mutation records, over which we
+  // want to iterate.
+  const forEachMutationRecord = func => 
+    records => 
+      records.forEach(func);
+
+  // Each mutation record holds a node list of added nodes, over which we also
+  // want to iterate.
+  const forEachAddedNode = func => 
+    ({ addedNodes }) => 
+      Array.from(addedNodes).forEach(func);
+  
+  // We want to mutate 'i' nodes that have 'aria-hidden' set to 'true'.
+  const iTagMutate = node => {
+    if (node.tagName === 'I' && node.getAttribute('aria-hidden')) {
+      node.setAttribute('tabindex', '-1');
+    }
+  };
+
+  // The mutation observer gets instantiated with a callback...
+  const iTagObserver = new MutationObserver(
+    forEachMutationRecord(
+      forEachAddedNode(
+      	 iTagMutate)
+      )
+    );
+
+  // ... and registered with the body element to observe.
+  iTagObserver.observe(iTagTargetNode, iTagConfig);
+  
+  
+  // 2. Handle callouts having the 'aria-expanded' attribute - this is not a 
+  //    valid attribute for callouts. Quarto will automatically add this 
+  //    attribute whenever a callout eloement is created and will also add it if
+  //    not already present whenever a callout is expanded or collapsed. This
+  //    script handles this by:
+  //      a. removing the attribute initially
+  //      b. observing all callout elements and again removing it whenever it is
+  //         added back by quarto
+  
+  // The callout elements already exist, so we can observe just relevant nodes.
+  const calloutTargetNodes = document.querySelectorAll('.callout-header');
+  
+  // We only need to observe attribute mutations, since the callouts will be
+  // permanently in the DOM.
+  var calloutConfig = { attributes: true };
+  
+  // We want to remove 'aria-expanded'. Every mutation observed will be relevant,
+  // so no checks are needed.
+  const calloutMutate = mutation => mutation.target.removeAttribute("aria-expanded");
+  
+  // The mutation observer gets instantiated with a callback.
+  const calloutObserver = new MutationObserver(
+    forEachMutationRecord(
+      calloutMutate
+    )
+  );
+    
+  // Initially remove attribute but also add observers to catch the attribute
+  // being added back.
+  calloutTargetNodes.
+    forEach(function(node){
+      node.removeAttribute("aria-expanded");
+      calloutObserver.observe(node, calloutConfig);
+    });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -782,6 +855,28 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<ul>
+<li><a href="../../../accessibility.html">Accessibility</a></li>
+<li><a href="mailto:analyticalassurance@nhsbsa.nhs.uk">Contact</a></li>
+<li><a href="https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook">GitHub</a></li>
+</ul>
+<p><img src="../../../static/ogl3-logo.svg" height="17" width="41" focusable="false">&nbsp; All content is available under the <a class="nhsuk-footer__list-item-link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © Crown Copyright
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
