@@ -1,0 +1,9 @@
+<script>
+  // Create skiplink
+  var a = document.createElement('a');
+  var linkText = document.createTextNode("Skip to main content");
+  a.appendChild(linkText);
+  a.classList.add("skip");
+  a.href = "#quarto-content";
+  document.body.insertBefore(a, document.body.firstChild);
+</script>

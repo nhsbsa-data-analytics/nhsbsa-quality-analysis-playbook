@@ -6,6 +6,9 @@ website:
   bread-crumbs: false
   favicon: static/bsa-favicon.png
   title: "Producing Quality Analysis" 
+  # Search introduces an accessibility issue no matter how it is configured.
+  # Disabled for now until a solution is found
+  search: false
   navbar:
     title: false
     logo: "static/logo-nhs.svg"
@@ -61,7 +64,18 @@ website:
         - guidance/13-types-of-analytical-model.qmd
         - guidance/14-uncertainty.qmd
       
-
+  page-footer:
+    left: |
+      * [Accessibility](/accessibility.qmd)
+      * [Contact](mailto:analyticalassurance@nhsbsa.nhs.uk)
+      * [GitHub](https://github.com/nhsbsa-data-analytics/nhsbsa-quality-analysis-playbook)
+    
+      <img src="/static/ogl3-logo.svg" height="17" width="41" focusable="false">&nbsp;
+      All content is available under the <a class="nhsuk-footer__list-item-link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated.        
+              
+    right:
+      - text: "&copy; Crown Copyright"
+    
 format:
   html:
    grid: 
