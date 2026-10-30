@@ -1,6 +1,6 @@
 ---
 title: "Business-Critical Analysis"
-description: "Guidance on identifying and managing business-critical analysis within NHSBSA."
+description: "Identifying and managing business-critical analysis within the NHSBSA"
 image: /guidance/04-business-critical-analysis/bca_flowchart.png
 ---
 
@@ -24,13 +24,13 @@ Use this Section to determine whether the analysis is business-critical, and if 
 
 :::
 
-Our current Business Critical analyses are published [here](https://www.gov.uk/government/publications/business-critical-models-for-department-of-health-and-social-care/e388ec88-b910-4df4-ad63-7ea492df81de#nhs-business-services-authority-nhsbsa). 
+Our current Business Critical analyses are published [here][bca-published]. 
 
 ## Deciding whether the analysis is business-critical  
 
 It is the responsibility of the commissioner to determine whether the analysis is business critical. 
 
-When the scope has been completed, use the impact assessment in the [Analytical Assurance Decision Tool](https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/_layouts/15/Doc.aspx?sourcedoc=%7BA52A508E-8669-496A-8840-B161DD6B85C9%7D&file=Analytical%20Assurance%20Decision%20Tool.xlsx&action=default&mobileredirect=true) to determine whether it meets the criteria for business-critical. The impact is assessed on a scale of 1 (low) to 4 (very high). Business Critical is defined by a level 4 score in any of these dimensions: 
+When the scope has been completed, use the impact assessment in the [Analytical Assurance Decision Tool][decision-tool] to determine whether it meets the criteria for business-critical. The impact is assessed on a scale of 1 (low) to 4 (very high). Business Critical is defined by a level 4 score in any of these dimensions: 
 
 - The extent to which the analysis influences decisions, actions, services or outcomes. 
 
@@ -59,9 +59,9 @@ If the analysis meets the criteria for business critical, the following actions 
 
 ### At the start of the analysis 
 
-- Complete the impact assessment in the Analytical Assurance Decision Tool. [Analytical Assurance Decision Tool](https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/_layouts/15/Doc.aspx?sourcedoc=%7BA52A508E-8669-496A-8840-B161DD6B85C9%7D&file=Analytical%20Assurance%20Decision%20Tool.xlsx&action=default&mobileredirect=true)
+- Complete the impact assessment in the [Analytical Assurance Decision Tool][decision-tool].
 
-- The commissioner should log the analysis on the NHSBSA Business Critical Analysis Register. [NHSBSA Business Critical Analysis Register](https://nhsbsauk.sharepoint.com/:f:/t/InsightTeam-AnalyticalQualityandAssurance/IgAKp0kKv-usQICUHIQRHsidAXpfZx6YZjYks3pXi9GqumQ?e=sdcVGe&xsdata=MDV8MDJ8fDg5ZjNhNGRlNWY1NTRiNTNjNzIwMDhkZjM1YjFhZDdjfGNmNmQwNDgyODZiMTRmODg4YzBjM2I0ZGU0Y2I0MDJjfDB8MHw2MzkyODg3MDkzNDYwMTkxMDR8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDNSbFlXMXpMekU1T2paak9ETmtNRFk1TlRGa1lqUmpaamhpWVdZMU5UWXpZak15WmpJek5tVmtRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UbzRiVjluTW1aRWRVdFNjMTlDTTFZMlZEZERjV3BRVG1wQ2JIZ3RiMjFGV1c1bVUyNTVTRmRsTFZsVk1VQjBhSEpsWVdRdWRHRmpkakl2YldWemMyRm5aWE12TVRjNU16STNOREV6TVRZM013PT18NmY0NzBhNGNhMjU5NDFmMDY1M2MwOGRmMzViMWFkN2N8OWU1OGY2ZTllYTY2NGFjZWJjOTZlMzIwYjY4MzA5MTI%3D&sdata=RExpeWp1QVF3YWFSZW9vNkFFQzYrNGpWTVNLQjNjTlNlR3FnV0p3MjdYST0%3D&ovuser=cf6d0482-86b1-4f88-8c0c-3b4de4cb402c%2Carmst-a%40NHSBSA.NHS.UK)
+- The commissioner should log the analysis on the [NHSBSA Business Critical Analysis Register][bca-register].
 
 - Name the Analysis Senior Responsible Officer. This person may also be the commissioner.
 
@@ -71,28 +71,40 @@ If the analysis meets the criteria for business critical, the following actions 
 
 ### During analysis 
 
-- Log all data, analytical risks and assumptions in the [BCA appraisal document](https://nhsbsauk.sharepoint.com/:x:/t/InsightTeam-AnalyticalQualityandAssurance/IQAFtTfrRrcWR50DbLGIOC56AY39yO8qAFl7gABUAJyjW78?e=5XDk9i)
+- Log all data, analytical risks and assumptions in the [BCA appraisal document][bca-appraisal]
 
-- Use the [Analytical Quality and Assurance Checklist for Building Analytical Solution template](https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQAgiVlvGZJpTICtbzYQb9dlAQL-sIjbjJm-BnDRZtjgMxY?e=ODfNOe) to ensure that your analysis meets the requirements for business-critical assurance
+- Use the [Analytical Quality and Assurance Checklist for Building Analytical Solution template][bca-checklist] to ensure that your analysis meets the requirements for business-critical assurance
 
 - Business critical analysis must be supported by sufficient documentation to demonstrate governance, methods, assumptions, quality assurance activities and decision-making.
 
-- Complete all the BCA documentation: scope, specification, user guide, technical guide [Data & AI-Analytical Quality and Assurance - Analytical Quality Assurance Templates - All Documents](https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FInsightTeam%2DAnalyticalQualityandAssurance%2FShared%20Documents%2FAnalytical%20Quality%20Assurance%20Templates&viewid=677ad95f%2D1ae2%2D456e%2D9a6a%2De55d4eabc3a0)
+- Complete all the BCA documentation: scope, specification, user guide, technical guide [Data & AI-Analytical Quality and Assurance - Analytical Quality Assurance Templates - All Documents][qa-templates]
 
-- Complete and deliver the [Analysis Plan](https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQDpKivt51jiQ41s9-4w6zIaAdicNDyIk3QS3I3tCWm0v2Y?e=oZ7TH9), and the [Quality Assurance Plan](https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQDOf5XfNhWzSIfBc1bPA2wiAbhDZ9koQEH0ZXIgdeYk-ws?e=i55Gly) plan
+- Complete and deliver the [Analysis Plan][analysis-plan], and the [Quality Assurance Plan][qa-plan] plan
 
-- Refer to the Section about [uncertainty](https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/14-uncertainty.html) to ensure you have considered and communicated uncertainty.
+- Refer to the Section about [uncertainty][uncertainty] to ensure you have considered and communicated uncertainty.
 
 ### Delivery, approval and sign-off 
 
-- The Lead Assurer must review all documentation and score the analysis using the [BCA appraisal document](https://nhsbsauk.sharepoint.com/:x:/t/InsightTeam-AnalyticalQualityandAssurance/IQAFtTfrRrcWR50DbLGIOC56AY39yO8qAFl7gABUAJyjW78?e=5XDk9i), and complete the assurance report in the same document.
+- The Lead Assurer must review all documentation and score the analysis using the [BCA appraisal document][bca-appraisal], and complete the assurance report in the same document.
 
-- The Analysis Senior Responsible Officer must complete the Approval Statement in the [BCA appraisal document](https://nhsbsauk.sharepoint.com/:x:/t/InsightTeam-AnalyticalQualityandAssurance/IQAFtTfrRrcWR50DbLGIOC56AY39yO8qAFl7gABUAJyjW78?e=5XDk9i) and sign-off the analysis when it is fit for purpose.
+- The Analysis Senior Responsible Officer must complete the Approval Statement in the [BCA appraisal document][bca-appraisal] and sign-off the analysis when it is fit for purpose.
 
 - Any assumptions, limitations, uncertainties and residual risks must be documented and communicated to those commissioning, approving, interpreting or using the analysis.
 
-- The commissioner must update the [NHSBSA Business Critical Analysis Register](https://nhsbsauk.sharepoint.com/:f:/t/InsightTeam-AnalyticalQualityandAssurance/IgAKp0kKv-usQICUHIQRHsidAXpfZx6YZjYks3pXi9GqumQ?e=sdcVGe&xsdata=MDV8MDJ8fDg5ZjNhNGRlNWY1NTRiNTNjNzIwMDhkZjM1YjFhZDdjfGNmNmQwNDgyODZiMTRmODg4YzBjM2I0ZGU0Y2I0MDJjfDB8MHw2MzkyODg3MDkzNDYwMTkxMDR8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDNSbFlXMXpMekU1T2paak9ETmtNRFk1TlRGa1lqUmpaamhpWVdZMU5UWXpZak15WmpJek5tVmtRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UbzRiVjluTW1aRWRVdFNjMTlDTTFZMlZEZERjV3BRVG1wQ2JIZ3RiMjFGV1c1bVUyNTVTRmRsTFZsVk1VQjBhSEpsWVdRdWRHRmpkakl2YldWemMyRm5aWE12TVRjNU16STNOREV6TVRZM013PT18NmY0NzBhNGNhMjU5NDFmMDY1M2MwOGRmMzViMWFkN2N8OWU1OGY2ZTllYTY2NGFjZWJjOTZlMzIwYjY4MzA5MTI%3D&sdata=RExpeWp1QVF3YWFSZW9vNkFFQzYrNGpWTVNLQjNjTlNlR3FnV0p3MjdYST0%3D&ovuser=cf6d0482-86b1-4f88-8c0c-3b4de4cb402c%2Carmst-a%40NHSBSA.NHS.UK) when the work is signed-off.
+- The commissioner must update the [NHSBSA Business Critical Analysis Register][bca-register] when the work is signed-off.
 
 - The Analysis Senior Responsible Officer must set a review date with the commissioner. This should be at least annually.
 
-- A copy of the completed BCA appraisal document must be saved in Analytical Quality and Assurance SharePoint directory [Completed BCA appraisal documents](https://nhsbsauk.sharepoint.com/:f:/t/InsightTeam-AnalyticalQualityandAssurance/IgDd3DypTKPATLzYaA2fYvK6AXifPPuXW-l4C253BQ81bn0?e=nQDdO8)
+- A copy of the completed BCA appraisal document must be saved in Analytical Quality and Assurance SharePoint directory [Completed BCA appraisal documents][bca-completed]
+
+
+[bca-published]: https://www.gov.uk/government/publications/business-critical-models-for-department-of-health-and-social-care/e388ec88-b910-4df4-ad63-7ea492df81de#nhs-business-services-authority-nhsbsa
+[decision-tool]: https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/_layouts/15/Doc.aspx?sourcedoc=%7BA52A508E-8669-496A-8840-B161DD6B85C9%7D&file=Analytical%20Assurance%20Decision%20Tool.xlsx&action=default&mobileredirect=true
+[bca-register]: https://nhsbsauk.sharepoint.com/:f:/t/InsightTeam-AnalyticalQualityandAssurance/IgAKp0kKv-usQICUHIQRHsidAXpfZx6YZjYks3pXi9GqumQ?e=sdcVGe&xsdata=MDV8MDJ8fDg5ZjNhNGRlNWY1NTRiNTNjNzIwMDhkZjM1YjFhZDdjfGNmNmQwNDgyODZiMTRmODg4YzBjM2I0ZGU0Y2I0MDJjfDB8MHw2MzkyODg3MDkzNDYwMTkxMDR8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDNSbFlXMXpMekU1T2paak9ETmtNRFk1TlRGa1lqUmpaamhpWVdZMU5UWXpZak15WmpJek5tVmtRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UbzRiVjluTW1aRWRVdFNjMTlDTTFZMlZEZERjV3BRVG1wQ2JIZ3RiMjFGV1c1bVUyNTVTRmRsTFZsVk1VQjBhSEpsWVdRdWRHRmpkakl2YldWemMyRm5aWE12TVRjNU16STNOREV6TVRZM013PT18NmY0NzBhNGNhMjU5NDFmMDY1M2MwOGRmMzViMWFkN2N8OWU1OGY2ZTllYTY2NGFjZWJjOTZlMzIwYjY4MzA5MTI%3D&sdata=RExpeWp1QVF3YWFSZW9vNkFFQzYrNGpWTVNLQjNjTlNlR3FnV0p3MjdYST0%3D&ovuser=cf6d0482-86b1-4f88-8c0c-3b4de4cb402c%2Carmst-a%40NHSBSA.NHS.UK
+[bca-appraisal]: https://nhsbsauk.sharepoint.com/:x:/t/InsightTeam-AnalyticalQualityandAssurance/IQAFtTfrRrcWR50DbLGIOC56AY39yO8qAFl7gABUAJyjW78?e=5XDk9i
+[bca-checklist]: https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQAgiVlvGZJpTICtbzYQb9dlAQL-sIjbjJm-BnDRZtjgMxY?e=ODfNOe
+[qa-templates]: https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FInsightTeam%2DAnalyticalQualityandAssurance%2FShared%20Documents%2FAnalytical%20Quality%20Assurance%20Templates&viewid=677ad95f%2D1ae2%2D456e%2D9a6a%2De55d4eabc3a0
+[analysis-plan]: https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQDpKivt51jiQ41s9-4w6zIaAdicNDyIk3QS3I3tCWm0v2Y?e=oZ7TH9
+[qa-plan]: https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQDOf5XfNhWzSIfBc1bPA2wiAbhDZ9koQEH0ZXIgdeYk-ws?e=i55Gly
+[uncertainty]: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/14-uncertainty.html
+[bca-completed]: https://nhsbsauk.sharepoint.com/:f:/t/InsightTeam-AnalyticalQualityandAssurance/IgDd3DypTKPATLzYaA2fYvK6AXifPPuXW-l4C253BQ81bn0?e=nQDdO8
