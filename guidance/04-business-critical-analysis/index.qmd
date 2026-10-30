@@ -32,15 +32,15 @@ It is the responsibility of the commissioner to determine whether the analysis i
 
 When the scope has been completed, use the impact assessment in the [Analytical Assurance Decision Tool][decision-tool] to determine whether it meets the criteria for business-critical. The impact is assessed on a scale of 1 (low) to 4 (very high). Business Critical is defined by a level 4 score in any of these dimensions: 
 
-- The extent to which the analysis influences decisions, actions, services or outcomes. 
+- The extent to which the analysis influences decisions, actions, services or outcomes
 
-- The potential effect on expenditure, funding, resource allocation or financial performance. 
+- The potential effect on expenditure, funding, resource allocation or financial performance
 
-- The potential effect on customer rights, entitlements, access, experience or outcomes. 
+- The potential effect on customer rights, entitlements, access, experience or outcomes
 
-- The potential effect on confidence in NHSBSA, its services or its analytical capability. 
+- The potential effect on confidence in NHSBSA, its services or its analytical capability
 
-- The potential for regulatory breaches, legal challenge or non-compliance with statutory requirements. 
+- The potential for regulatory breaches, legal challenge or non-compliance with statutory requirements
 
 - The extent to which the analysis is subject to external use, publication or public scrutiny 
 
@@ -59,11 +59,11 @@ If the analysis meets the criteria for business critical, the following actions 
 
 ### At the start of the analysis 
 
-- Complete the impact assessment in the [Analytical Assurance Decision Tool][decision-tool].
+- Complete the impact assessment in the [Analytical Assurance Decision Tool][decision-tool]
 
-- The commissioner should log the analysis on the [NHSBSA Business Critical Analysis Register][bca-register].
+- The commissioner should log the analysis on the [NHSBSA Business Critical Analysis Register][bca-register]
 
-- Name the Analysis Senior Responsible Officer. This person may also be the commissioner.
+- Name the Analysis Senior Responsible Officer. This person may also be the commissioner
 
 - Arrange a suitable independent assurer to provide additional scrutiny, challenge and testing
 
@@ -75,25 +75,25 @@ If the analysis meets the criteria for business critical, the following actions 
 
 - Use the [Analytical Quality and Assurance Checklist for Building Analytical Solution template][bca-checklist] to ensure that your analysis meets the requirements for business-critical assurance
 
-- Business critical analysis must be supported by sufficient documentation to demonstrate governance, methods, assumptions, quality assurance activities and decision-making.
+- Business critical analysis must be supported by sufficient documentation to demonstrate governance, methods, assumptions, quality assurance activities and decision-making
 
 - Complete all the BCA documentation: scope, specification, user guide, technical guide [Data & AI-Analytical Quality and Assurance - Analytical Quality Assurance Templates - All Documents][qa-templates]
 
 - Complete and deliver the [Analysis Plan][analysis-plan], and the [Quality Assurance Plan][qa-plan] plan
 
-- Refer to the Section about [uncertainty][uncertainty] to ensure you have considered and communicated uncertainty.
+- Refer to the Section about [uncertainty][uncertainty] to ensure you have considered and communicated uncertainty
 
 ### Delivery, approval and sign-off 
 
-- The Lead Assurer must review all documentation and score the analysis using the [BCA appraisal document][bca-appraisal], and complete the assurance report in the same document.
+- The Lead Assurer must review all documentation and score the analysis using the [BCA appraisal document][bca-appraisal], and complete the assurance report in the same document
 
-- The Analysis Senior Responsible Officer must complete the Approval Statement in the [BCA appraisal document][bca-appraisal] and sign-off the analysis when it is fit for purpose.
+- The Analysis Senior Responsible Officer must complete the Approval Statement in the [BCA appraisal document][bca-appraisal] and sign-off the analysis when it is fit for purpose
 
-- Any assumptions, limitations, uncertainties and residual risks must be documented and communicated to those commissioning, approving, interpreting or using the analysis.
+- Any assumptions, limitations, uncertainties and residual risks must be documented and communicated to those commissioning, approving, interpreting or using the analysis
 
-- The commissioner must update the [NHSBSA Business Critical Analysis Register][bca-register] when the work is signed-off.
+- The commissioner must update the [NHSBSA Business Critical Analysis Register][bca-register] when the work is signed-off
 
-- The Analysis Senior Responsible Officer must set a review date with the commissioner. This should be at least annually.
+- The Analysis Senior Responsible Officer must set a review date with the commissioner. This should be at least annually
 
 - A copy of the completed BCA appraisal document must be saved in Analytical Quality and Assurance SharePoint directory [Completed BCA appraisal documents][bca-completed]
 
