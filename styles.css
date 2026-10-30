@@ -3,3 +3,49 @@
 .navbar-brand {
   width: 100%;
 }
+
+li.sidebar-item {
+  margin-top: 1rem;
+}
+
+a.nav-link > span.menu-text {
+  font-size: 0.8rem;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+h1.quarto-secondary-nav-title {
+  color: white;
+}
+
+div.nav-footer {
+  background-color: #d8dde0;
+  border-top: 4px solid #005eb8;
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+div.nav-footer ul {
+  list-style-type: none;
+  margin-bottom: 25px;
+  display: flex; /* Use flexbox to align items horizontally */
+  gap: 20px; /* Add spacing between list items */
+  padding: 0;
+}
+
+div.nav-footer-left {
+  min-width: fit-content;
+}
