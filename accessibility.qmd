@@ -5,7 +5,7 @@ title-block-banner: true
 
 ## Accessibility statement for NHSBSA Analytical Code Assurance Playbook
 
-This accessibility statement applies to the NHSBSA Analytical Code Assurance Playbook website. 
+This accessibility statement applies to the NHSBSA Producing Quality Analysis Playbook website. 
 
 This website is run by the NHS Business Services Authority (NHSBSA). We want as many people as possible to be able to use this website. For example, that means you should be able to:  
   
