@@ -106,5 +106,5 @@ If the analysis meets the criteria for business critical, the following actions 
 [qa-templates]: https://nhsbsauk.sharepoint.com/teams/InsightTeam-AnalyticalQualityandAssurance/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FInsightTeam%2DAnalyticalQualityandAssurance%2FShared%20Documents%2FAnalytical%20Quality%20Assurance%20Templates&viewid=677ad95f%2D1ae2%2D456e%2D9a6a%2De55d4eabc3a0
 [analysis-plan]: https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQDpKivt51jiQ41s9-4w6zIaAdicNDyIk3QS3I3tCWm0v2Y?e=oZ7TH9
 [qa-plan]: https://nhsbsauk.sharepoint.com/:w:/t/InsightTeam-AnalyticalQualityandAssurance/IQDOf5XfNhWzSIfBc1bPA2wiAbhDZ9koQEH0ZXIgdeYk-ws?e=i55Gly
-[uncertainty]: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/14-uncertainty.html
+[uncertainty]: /guidance/14-uncertainty.html
 [bca-completed]: https://nhsbsauk.sharepoint.com/:f:/t/InsightTeam-AnalyticalQualityandAssurance/IgDd3DypTKPATLzYaA2fYvK6AXifPPuXW-l4C253BQ81bn0?e=nQDdO8
