@@ -30,12 +30,10 @@ NHSBSA Producing Quality Analysis Playbook
 ├───guidance ...........................# Every page of the playbook, one directory per section
 |   ├───_partials ......................# Text written once and included in more than one place
 |   ├───_metadata.yml ..................# Settings applied to every page under guidance
-├───static .............................# The logo, the favicon and the phase and role photographs
+├───static .............................# The logo, the favicon, the phase photographs, and each diagram as a PNG for the page and an SVG to open full size
 ├───_extensions ........................# The iconify extension, used by the navigation bar
-├───_filters ...........................# The Lua filter that numbers and names the citations
+├───_filters ...........................# Two Lua filters: one numbers the citations, one names table headers for screen readers
 ├───checks .............................# Scripts that assert what the site claims. See Accessibility below
-|   ├───service-design .................# The service design boards as draw.io sources, with the workbook that pastes them into Miro and the note that says how
-|   ├───elearning-diagrams .............# Every diagram in the e-learning as a draw.io source in the playbook's style, rendered as PNG and SVG. Four are the playbook's own diagrams, shared
 ├───.github ............................# The Action that renders and publishes to gh-pages on a push to main
 ├───_quarto.yml ........................# Page layout, the sidebar, the menu, and what gets rendered
 ├───_variables.yml .....................# The links to the templates and the Decision Tool on SharePoint, kept in one place

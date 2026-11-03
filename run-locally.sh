@@ -43,7 +43,7 @@ case "${1:-preview}" in
   checks)
     quarto render
     echo
-    # Sixteen checks hold up what the site claims. Three of them need Python packages the site
+    # The checks hold up what the site claims. Three of them need Python packages the site
     # itself does not: see the Accessibility section of README.md for the one pip command.
     bash checks/run-all.sh
     ;;

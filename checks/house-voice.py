@@ -188,8 +188,8 @@ def drawings():
     """The diagrams, which ship and whose labels a reader reads as prose.
 
     Two directories, named rather than walked: `artefacts` is in SKIP_DIRS because everything
-    else under it is a binary or a note, and `static/diagrams` would hold the playbook's own, if it
-    carried any. It carries none now, so the walk finds only the boards. Both
+    else under it is a binary or a note, and `static/diagrams` holds the playbook's own. The
+    release package carries only the second, and there only the SVGs. Both
     the draw.io source and the SVG render are read. The two carry the same words, so a mark
     appears twice and is reported twice, which is right: both files go to NHSBSA."""
     for d in (ROOT / 'artefacts' / 'service-design', ROOT / 'static' / 'diagrams'):
@@ -367,9 +367,11 @@ def main():
         fail.append('only %d page(s) were scanned, which is fewer than the playbook has. A pass '
                     'here would mean the scan missed the pages, not that the pages are clean'
                     % scanned)
-    # Eleven boards, each a .drawio source and an .svg render: twenty-two files. The playbook's own
-    # twelve diagrams, which made the floor thirty-six, were removed.
-    if drawn < 22:
+    # Eleven diagrams, each an .svg render, and in the working repository a .drawio source beside
+    # each, plus eleven boards in artefacts/ with the same two files. The release package carries
+    # the SVGs alone, so its floor is eleven.
+    floor = 11 if not (ROOT / 'artefacts').is_dir() else 22
+    if drawn < floor:
         fail.append('only %d drawing(s) were scanned, which is fewer than the delivery ships. A '
                     'pass here would mean the walk missed them, not that they are clean' % drawn)
     for name in EXCLUDED:

@@ -100,9 +100,9 @@ Run the checks. They are quick and they assert things that are easy to break wit
 quarto render && bash checks/run-all.sh
 ```
 
-That runs all of them. Three read the built site, so render first. If you only want the two
-that most often catch a new page, they are `checks/accessibility.py` and
-`checks/deliverables.py`, and the first needs a render.
+That runs all of them. Several read the built site, so render first. If you only want the two
+that most often catch a new page, they are `checks/accessibility.py` and `checks/links.py`, and
+the first needs a render.
 
 ## Resources
 

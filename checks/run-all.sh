@@ -46,7 +46,7 @@
 # checks/package.py asserts that this list and the builder's own name the same three files.
 set -u
 cd "$(dirname "$0")/.."
-ABSENT=' deliverables properties package '
+ABSENT=' deliverables properties package generated diagrams diagram-layout '
 status=0
 for check in links deliverables accessibility axe wcag22 search properties \
              responsible-analysis table-widths house-voice standards glossary \
@@ -59,8 +59,8 @@ for check in links deliverables accessibility axe wcag22 search properties \
             status=1
             printf '\n  checks/%s.py IS MISSING, and this is not a release package\n' "$check"
         else
-            printf '\n  --  not part of the release package: it reads the git history, the review\n'
-            printf '      copies or dist/, and the package carries none of them\n'
+            printf '\n  --  not part of the release package: it checks the git history, the review\n'
+            printf '      copies, dist/ or the diagram sources, and the package carries none of them\n'
         fi
         continue
     fi
