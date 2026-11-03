@@ -18,7 +18,7 @@ You can run the document by:
 
 ## Folder Structure
 
-The playbook is 38 pages across 10 sections, with a left sidebar that groups them into five bands
+The playbook is 39 pages across 11 sections, with a left sidebar that groups them into five bands
 by what a reader has come to do, and a Guidance menu that names the spine. Each section is one
 directory under `guidance`, numbered so the order is visible, and most hold a single `index.qmd`.
 Text
@@ -35,13 +35,15 @@ NHSBSA Producing Quality Analysis Playbook
 ├───_filters ...........................# The Lua filter that numbers and names the citations
 ├───checks .............................# Scripts that assert what the site claims. See Accessibility below
 |   ├───service-design .................# The service design boards as draw.io sources, with the workbook that pastes them into Miro and the note that says how
+|   ├───elearning-diagrams .............# Every diagram in the e-learning as a draw.io source in the playbook's style, rendered as PNG and SVG. Four are the playbook's own diagrams, shared
 ├───.github ............................# The Action that renders and publishes to gh-pages on a push to main
 ├───_quarto.yml ........................# Page layout, the sidebar, the menu, and what gets rendered
+├───_variables.yml .....................# The links to the templates and the Decision Tool on SharePoint, kept in one place
 ├───index.qmd ..........................# The landing page, and the root of the render
 ├───about.qmd ..........................# The About page
 ├───accessibility.qmd ..................# The accessibility statement
 ├───search.qmd .........................# Search, as a page with a form rather than an overlay widget
-├───*.html .............................# Six small accessibility includes, each named for what it does
+├───*.html .............................# Eight small accessibility includes, each named for what it does
 ├───styles.css .........................# Styling, including the accessibility engineering
 ├───run-locally.sh .....................# Renders the site and opens it, for running it on your own machine
 ├───CONTRIBUTE.md ......................# How to contribute

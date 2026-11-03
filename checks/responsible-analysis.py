@@ -97,7 +97,7 @@ POINTS = [
     # Identifying an ethical concern without naming where it goes leaves it with the person
     # least able to settle it.
     ('The ethical escalation route is named', '09-resources', [
-        'Where an ethical concern goes if it is not settled',
+        'Escalating an ethical concern',
         'Analytical Quality and Assurance Lead',
         'Refusing to do a piece of analysis is a legitimate outcome']),
 
@@ -119,7 +119,7 @@ POINTS = [
     # last phrase carries as much as the others: none of them raises the level by itself.
     ('Three prompts beside the decision sheet that do not move the level',
      '07-deciding-your-assurance-level', [
-        'Three prompts that do not change the level',
+        'Three prompts to answer while the tool is open',
         'algorithmic or machine learning tool doing part of the work',
         'influence the same kind of decision repeatedly',
         'Could any group be affected differently',
@@ -127,8 +127,8 @@ POINTS = [
 
     # The two limitations easiest to leave out of a write-up, and the two most likely to
     # mislead the person who acts on it.
-    ('Communicating findings names who is not in the data', '04-delivery-and-sign-off', [
-        'Who is not in the data', 'How this could be misread']),
+    ('Communicating findings names what is not in the data', '04-delivery-and-sign-off', [
+        'Say what the numbers cover', 'What is not in the data', 'How this could be misread']),
 
     # Reuse is the change most likely to invalidate assurance that was sound for the original
     # question. Four things to check, and all four have to be named.

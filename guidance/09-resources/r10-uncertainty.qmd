@@ -1,5 +1,5 @@
 ---
-title: "R10. Uncertainty, assumptions and limitations"
+title: "R9. Uncertainty, assumptions and limitations"
 description: "What uncertainty is, how to manage it, and how to write it up."
 ---
 
@@ -32,20 +32,19 @@ Most analysis has both. Report both, not only the one with a number attached.
 
 ### Uncertainty in a forecasting model {#uncertainty-in-a-forecasting-model}
 
-Uncertainty is stated beside a forecast, because what the model does not know is most of what the
+State the uncertainty beside a forecast, because what the model does not know is most of what the
 reader needs. [Communicating it](#communicating-it) sets out how to state it.
 
-## Manage uncertainty at design, not at write-up {#manage-uncertainty-at-design-not-at-write-up}
+## Plan for uncertainty at design {#manage-uncertainty-at-design-not-at-write-up}
 
 Address uncertainty during the analytical cycle. That lets you design and plan the analysis
 proportionately, and choose your assumptions, options and scenarios.[^src-govs-010-section-6-5]
 
-By the time you are writing up, your options have narrowed to describing the uncertainty you have.
-Handled at design, you can choose a method that reduces it.
+At design, you can choose a method that reduces uncertainty. By the time you write up, you can only
+describe it.
 
 At design, **search the planned analysis systematically for sources and types of uncertainty**.[^src-aqua-book-section-7-4]
-Look for any large enough to breach the acceptable margin of error. Do this while there is still time
-to design for them. GovS 010 section 5.3 says the designed approach should consider uncertainty.[^src-govs-010-section-5-3]
+Look for any large enough to exceed the acceptable margin of error, so you can design for them. GovS 010 section 5.3 says the designed approach should consider uncertainty.[^src-govs-010-section-5-3]
 
 You should:[^src-govs-010-section-6-5]
 
@@ -56,7 +55,7 @@ You should:[^src-govs-010-section-6-5]
 ## Assumptions
 
 An assumption is something you have taken to be true without establishing it. Every analysis has
-them. The failure is not making assumptions, it is leaving them unrecorded.
+them. What matters is recording them.
 
 For each material assumption, record:
 
@@ -70,14 +69,14 @@ For each material assumption, record:
 
 : The fields of an assumptions entry and what goes in each
 
-An assumption whose failure would not change the conclusion is worth recording briefly. One whose
-failure would reverse the conclusion needs stating in the output itself.
+If an assumption failing would not change the conclusion, record it briefly. If it would reverse the
+conclusion, state it in the output itself.
 
 Where you can, **test the sensitivity of your key assumptions**, and plan that testing in Phase 2,
-design, rather than retrofitting it. You and the commissioner agree the acceptable margin of error
+design, not after the analysis is done. You and the commissioner agree the acceptable margin of error
 at scoping, along with the levels of quality and certainty the analysis
-needs.[^src-govs-010-section-5-2] Sensitivity testing is how you find out whether an assumption
-could push you past it.
+needs.[^src-govs-010-section-5-2] Sensitivity testing shows whether an assumption
+could take the analysis past that margin.
 
 [Deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) first requires
 sensitivity testing at Level 2 Enhanced, where it is material. Levels 3 and 4 inherit that
@@ -85,18 +84,18 @@ requirement.
 
 ## Limitations
 
-A limitation is something your analysis cannot do. State them in terms of use, not in terms of
-method, because use is what the reader is deciding about.
+A limitation is something your analysis cannot do. State them in terms of use, not
+method, because the reader is deciding how to use the analysis.
 
-Take "the data has incomplete coverage for two months". Write "these figures understate activity in
-July and August, so they should not be used to compare quarters" instead.
+Instead of "the data has incomplete coverage for two months", write "these figures understate activity in
+July and August, so they should not be used to compare quarters".
 
 Write a sentence that begins **"this analysis should not be used to..."**, and name the specific
 misuse it cannot support.
 
 ## Communicating it
 
-When disseminating results, expressions of uncertainty should:[^src-govs-010-section-6-5]
+When you share results, expressions of uncertainty should:[^src-govs-010-section-6-5]
 
 - **be quantitative where possible**
 - be balanced, avoiding unwarranted confidence in a particular option
@@ -106,10 +105,9 @@ In practice:
 - **Be transparent** about uncertainty, to avoid misinterpretation and misuse
 - **Be specific** about what exactly is uncertain and why, how it has been quantified, the
   limitations of the data, and the assumptions made
-- **Use plain language**, so that what you write about uncertainty can be understood by everyone who
-  will read it
-- **Show it in your visualisations**, data tables and datasets, and explain what it represents. It is
-  not enough to confine it to a quality and methodology annex
+- **Use plain language**, so everyone who reads what you write about uncertainty can understand it
+- **Show it in your visualisations**, data tables and datasets, and explain what it represents. Put it
+  in the main output, not only in a quality and methodology annex
 
 For official statistics, Standard 7 of the Code of Practice requires producers to prominently
 explain quality, including strengths and limitations. It also requires them to communicate the

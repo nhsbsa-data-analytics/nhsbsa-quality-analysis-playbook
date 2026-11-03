@@ -49,7 +49,7 @@ the "In the playbook" row is a link label, and the boards break it over two line
 box (`Deciding your<br>assurance level`). The workbook turned every break into a colon, so a screen
 reader said "Deciding your colon assurance level" in six cells, and "The Analysis Senior colon
 Responsible Officer" in a seventh that the lowercase test below cannot see. A colon belongs only
-where the break separates two things, which in these labels means after a head: "Phase 3", "R10",
+where the break separates two things, which in these labels means after a head: "Phase 3", "R9",
 "The commissioner", "The critical friend". So a cell fails if it has a colon and a lowercase word
 after it that the board's own text does not have, or a colon that follows anything but a head.
 

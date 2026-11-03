@@ -6,11 +6,23 @@ title-block-banner: true
 
 The Analytical Quality and Assurance function owns and maintains this playbook. It decides what changes after publication.
 
+## Who this playbook is for
+
+This playbook is for NHSBSA staff who commission, produce or assure analysis. It is published
+openly, so anyone can read how NHSBSA expects its analysis to be planned, checked and signed off.
+
+Anyone can open links to the published standards and to NHSBSA's published policies. You need an
+NHSBSA account to open links to NHSBSA's SharePoint site, such as the templates and the Analytical
+Assurance Decision Tool.
+
+NHSBSA keeps a public register of its Business Critical analyses and reports on them each year.
+See [the public register and annual reporting](guidance/09-resources/r16-what-makes-work-business-critical.qmd#the-public-register-and-annual-reporting).
+
 ## Suggesting a change
 
-Send a change as a pull request. [How to contribute](CONTRIBUTE.md) explains how to raise it and how to send it.
+Send a change as a pull request. Follow [How to contribute](CONTRIBUTE.md).
 
-To raise something that is not a change to the text, go to the Analytical Quality and Assurance function. [Who to ask](guidance/09-resources/r3-who-to-ask.qmd) lists who to contact for everything else.
+To raise anything other than a change to the text, contact the Analytical Quality and Assurance function. [Who to ask](guidance/09-resources/r3-who-to-ask.qmd) lists who to contact for everything else.
 
 ## Change log
 

@@ -3,15 +3,12 @@ title: "Phase 5. Review"
 description: "Ask whether it worked, is still right, and what comes next."
 ---
 
-After delivery, review the analysis. Repeat the review on the cadence your level sets.
-
 ## What you do
 
 {{< include /guidance/_partials/step-levels-key.qmd >}}
-[From Level 3]{.pb-level} means Level 3 and above.
 
 1. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether the analysis informed the decision** it was commissioned for.
-2. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether it is still being used**, and still being used as specified.
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether it is still being used**, and whether it is used as specified.
 3. [Every level[:]{.visually-hidden}]{.pb-level} **Ask whether it is still right.**
 4. [From Level 3[:]{.visually-hidden}]{.pb-level} **Check the assurance level still holds.** Score it again if it does not, and record the result.
 5. [Every level[:]{.visually-hidden}]{.pb-level} **Decide whether to decommission it**, reissue it, or leave it as it is.
@@ -34,18 +31,9 @@ After delivery, review the analysis. Repeat the review on the cadence your level
 
 ## What to check in a review
 
-- **Decisions taken and policy changes informed.** Find what actually changed as a result of this
-  analysis.
-- **Usage.** Check downloads, page views, requests, onward citation, or whatever else the
-  publication route records.
-- **Ongoing usefulness.** Run user research with the people who use it, asking whether it still
-  answers their question.
-- **Case studies.** Write down how the data has been used, as it happens.
-- **Trend changes.** Where the analysis was meant to change a trend, check whether the trend
-  changed.
-- **Improvements to regular analysis.** Note what the last run of this analysis showed could be
-  better.
-- **Decommissioning.** Stop producing analysis that is no longer useful.
+Check the decisions taken, usage, ongoing usefulness, case studies, trend changes, improvements to
+regular analysis, and whether to decommission it. See
+[what each review activity means](../09-resources/r18-review-reuse-and-records.qmd#what-a-review-looks-at).
 
 ## Check four things before any reuse {#check-four-things-before-any-reuse}
 
@@ -55,7 +43,7 @@ After delivery, review the analysis. Repeat the review on the cadence your level
   different use case.
 - Has the **decision context** shifted, so that the same output now carries more weight?
 
-If any answer is yes, [score the assurance level again](../07-deciding-your-assurance-level/index.qmd). If every answer is no, the reuse goes ahead at the level the work already has. If an impact dimension scored 4, go to
+If any answer is yes, [score the assurance level again](../07-deciding-your-assurance-level/index.qmd). If every answer is no, reuse it at the level it already has. If an impact dimension scored 4, go to
 [Business Critical analysis, step 8](../08-business-critical/index.qmd#step-8-keep-it-true-after-first-use).
 
 ## Outputs of this phase
@@ -68,17 +56,12 @@ If any answer is yes, [score the assurance level again](../07-deciding-your-assu
 - [From Level 3[:]{.visually-hidden}]{.pb-level} The assurance level, revalidated. For Business Critical work, the designation as well.
 - A decommissioning decision, where one was taken.
 
-## Lessons for the next piece of work
-
-When you [scope the next piece of work](../01-engagement-and-scoping/index.qmd), look for relevant
-lessons from earlier work. Capture new lessons as they happen.
-
 ## More detail in Resources
 
 ::: {.more-detail}
 - [R6. Correcting a published figure](../09-resources/r6-when-something-is-wrong.qmd), for
   a revision, a correction or a reissue
-- [R13. Publishing analysis](../09-resources/r13-putting-figures-in-the-public-domain.qmd),
+- [R12. Publishing analysis](../09-resources/r13-putting-figures-in-the-public-domain.qmd),
   for where NHSBSA publishes analysis, to find usage figures
 - [Review activities and the standards behind them](../09-resources/r18-review-reuse-and-records.qmd#review-activities-and-the-standards)
 - [Checking again after release](../09-resources/r18-review-reuse-and-records.qmd#checking-again-after-release)

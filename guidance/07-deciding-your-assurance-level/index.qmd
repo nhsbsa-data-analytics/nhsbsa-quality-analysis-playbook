@@ -5,9 +5,8 @@ description: "Score impact and likelihood to find the level of assurance needed.
 
 **All analysis shall be assured.** How much assurance depends on the work.
 
-Use the Analytical Assurance Decision Tool to set your assurance level. NHSBSA holds the tool on its
-SharePoint: [NHSBSA templates and documents](../09-resources/r2-templates-and-documents.qmd) says where.
-These pages give its scales and matrix.
+The [Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}) sets your assurance level. It holds the scales for each dimension. To open it, you need an NHSBSA account with access
+to the Analytical Quality and Assurance site.
 
 Score the impact, score the likelihood, and read your level where the two scores meet.
 
@@ -30,14 +29,10 @@ If an impact dimension scored 4, go to [Business Critical analysis](../08-busine
 
 ## Rules for scoring
 
-- Take the highest single score. Do not average.
-- If two answers both look defensible, take the higher.
-- Record each score when you make it. If circumstances change, change the score and record why.
-- Score again if you reuse the work for a new purpose.
-- Score an output that runs to a schedule once, when you design it. Do not rescore it on every
-  run.
-- Check the level at [Phase 5, review](../05-review/index.qmd). Score again sooner if the data,
-  the method, the audience or the decision it informs changes.
+- Take the highest single score, not the average. If two answers both look defensible, take the higher.
+- Record each score when you make it. If circumstances change, score again and record why.
+- Score again before reuse if any of [the four checks before reuse](../05-review/index.qmd#check-four-things-before-any-reuse) is yes, and check the level at [Phase 5, review](../05-review/index.qmd).
+- Score a scheduled output once, when you design it.
 
 ## Outputs of setting your level
 
@@ -46,20 +41,16 @@ Record these in the Specification:
 - At scoping: the impact score and the Business Critical answer, yes or no.
 - At scoping: the acceptable level of risk, and the levels of quality and certainty required.
 - At design: the finished level of assurance, added before the assurance plan.
-- For Level 4 BCA, at scoping: the finished level and the completed tool.
+- For Level 4 BCA, at scoping: the level, Level 4 BCA, read from the impact score.
 
-## Three prompts that do not change the level
+## Three prompts to answer while the tool is open {#three-prompts-that-do-not-change-the-level}
 
-Ask these three questions while the tool is open.
+None of them raises the level by itself.
 
 - **Is an algorithmic or machine learning tool doing part of the work?** If so, [check whether your tool needs a transparency record](../09-resources/r12-algorithmic-transparency-and-ai.qmd#check-whether-your-tool-needs-a-transparency-record).
 - **Will this output influence the same kind of decision repeatedly?**
 - **Could any group be affected differently by the decision this informs?** If yes, record it in
   the six-field record in [data ethics and personal data](../09-resources/r11-ethics-and-personal-data.qmd).
-
-None of them raises the level by itself. A yes to any of them might change what you design.
-
-## Models, limited time and disagreements
 
 For a model, limited time or a disagreement about the level, see
 [After you have your level](after-you-have-your-level.qmd).
@@ -71,6 +62,7 @@ For a model, limited time or a disagreement about the level, see
 - [Recording each score when you make it](../09-resources/r15-scoring-the-assurance-level.qmd#recording-each-score)
 - [Reuse and the assurance level](../09-resources/r18-review-reuse-and-records.qmd#reuse-and-the-assurance-level)
 - [Scoring the likelihood once the method is chosen](../09-resources/r15-scoring-the-assurance-level.qmd#the-likelihood-timing)
-- [Settling a Level 4 BCA level at scoping](../09-resources/r16-what-makes-work-business-critical.qmd#settling-the-level-at-scoping)
+- [Why Business Critical work needs no full likelihood check](../09-resources/r16-what-makes-work-business-critical.qmd#the-likelihood-is-still-scored-at-scoping)
+- [Scoring again before reuse, and for a scheduled output](../09-resources/r15-scoring-the-assurance-level.qmd#scoring-again)
 - [The three prompts](../09-resources/r15-scoring-the-assurance-level.qmd#the-three-prompts)
 :::

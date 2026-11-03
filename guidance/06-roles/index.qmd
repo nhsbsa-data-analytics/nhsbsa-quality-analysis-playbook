@@ -55,7 +55,7 @@ If a document uses another name, read it as the role in this playbook.
 | In this playbook | Also called |
 |------------------------------|--------------------------------------------------------------|
 | **Critical friend** | Analytical assurer, the term used in the standards |
-| **Analysis Senior Responsible Officer** | Model Senior Responsible Officer (Business Critical documentation), Senior Responsible Owner, or SRO (draft Analytical Governance and Quality Assurance Policy, and NHSBSA's overview of the Business Critical process), approver (AQuA Book) |
+| **Analysis Senior Responsible Officer** | Model Senior Responsible Officer (Business Critical documentation), Senior Responsible Owner, or SRO (draft Analytical Governance and Quality Assurance Policy, and other NHSBSA documents), approver (AQuA Book) |
 
 : Role names used in this playbook and the other names for them
 
@@ -66,16 +66,16 @@ If you disagree, use the escalation route in the table.
 | Disagreement | Goes to |
 |---|---|
 | The assurance level | The Analytical Quality and Assurance Lead |
-| Whether an impact dimension scores 4, which makes the analysis Business Critical | The commissioner decides. Escalate to the Analytical Quality and Assurance Lead if unresolved |
-| Whether the analysis is fit for purpose | The critical friend advises. Unresolved, escalate to the Lead Official for Statistics |
+| Whether an impact dimension scores 4, which makes the analysis Business Critical | The commissioner decides. If unresolved, escalate to the Analytical Quality and Assurance Lead |
+| Whether the analysis is fit for purpose | The critical friend advises. If unresolved, escalate to the Lead Official for Statistics |
 | Whether there is enough time for the assurance required | The commissioner, then the Analytical Quality and Assurance Lead |
-| An ethical concern | The commissioner decides. Unresolved, the Analytical Quality and Assurance Lead, or the Lead Official for Statistics where the output is an official statistic |
+| An ethical concern | The commissioner decides. If unresolved, escalate to the Analytical Quality and Assurance Lead, or to the Lead Official for Statistics where the output is an official statistic |
 
 : Kinds of disagreement and where each one goes
 
-If the Analytical Quality and Assurance Lead is unavailable, raise the disagreement through your own line while you wait.
+If the Analytical Quality and Assurance Lead is unavailable, raise the disagreement through your line management while you wait.
 
-**Do not lower the assurance level to meet a deadline.** Narrow the question instead, or say plainly what assurance you did not do.
+**Keep the assurance level when a deadline is tight.** Narrow the question instead, or say plainly what assurance you did not do.
 
 ## Who holds the organisational roles
 

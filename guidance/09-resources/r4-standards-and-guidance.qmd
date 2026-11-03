@@ -20,9 +20,8 @@ description: "The standards the playbook rests on, and guides that go deeper."
 
 ## The Magenta Book supplementary guides
 
-Where your work is an evaluation rather than an analysis, the Magenta Book has a set of
-supplementary guides. Three are worth naming because they are about quality and competence rather
-than about method:
+If your work is an evaluation rather than an analysis, use the Magenta Book supplementary guides.
+These three cover quality and competence rather than method:
 
 | Guide | For |
 |---|---|
@@ -38,7 +37,7 @@ transparency and test and learn.
 ## AI and algorithmic tools
 
 
-Applies where your analysis builds on, uses or evaluates an AI system. See the boundary in
+Use these if your analysis builds on, uses or evaluates an AI system. See the boundary in
 [which standards apply to you](r8-the-standards-landscape.qmd).
 
 | Resource | What it is for |
@@ -47,7 +46,7 @@ Applies where your analysis builds on, uses or evaluates an AI system. See the b
 | [AI Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) | Ten principles for building, buying and using AI |
 | [Introduction to AI assurance](https://www.gov.uk/government/publications/introduction-to-ai-assurance) | Assurance mechanisms, and how to measure, evaluate and communicate |
 | [AI Standards Hub](https://aistandardshub.org/) | A searchable catalogue of AI standards, and training on AI assurance. The catalogue was being moved when this page was written, so start at the front page |
-| [Algorithmic Transparency Recording Standard](https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub) | The record required where a tool significantly influences an operational decision with public effect, or interacts with the public directly |
+| [Algorithmic Transparency Recording Standard](https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub) | The record required where a tool has a significant influence on a decision-making process with public effect, or directly interacts with the general public |
 
 : AI and algorithmic tool resources and what each is for
 

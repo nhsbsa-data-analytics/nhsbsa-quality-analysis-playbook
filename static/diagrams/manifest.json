@@ -1,9 +1,13 @@
 {
- "01-analytical-lifecycle.drawio": "4439aab997541ea63275a40954d17c7cd46802001a0969cd8d5adeabd624a777",
- "02-correcting-a-published-figure.drawio": "41e8873552484464bb36a856b707be5432188a4b3dfc05a9cd30104efe5a4525",
- "03-funding-formula-handoffs.drawio": "9ec258063d5cf8994a2a97936e05650e8bbc88d7463bb03b584f3f81d9eb189e",
- "04-assurance-level-timing.drawio": "226b5c2d0ae1f93662a473ab51ee3f2ffed230afb7b5af936bcafad19a68c24b",
- "05-assurance-level-matrix.drawio": "5ecb45e361f115b7a99f572ea7f2f59ded31832828f605d8d8e15eb29aebc8ad",
- "06-what-changes-as-the-level-rises.drawio": "519fb9ebe81b054bb1d349ca38f81b93026435df71af0989378e1748e27ab825",
- "07-documents-by-role-and-phase.drawio": "ba2f9e4458ded2366b70dbb3e596f88419c6d03b9957fad522ad95bf2620ce10"
+ "01-analytical-lifecycle.drawio": "192fa909e0f5bb156d00fe91bb17f04c6685c4bd0c10d3aae18b528e278c5e1c",
+ "02-correcting-a-published-figure.drawio": "251c7c06831a6682c9c4f4325d3a5634f0abbc613fee1caa150704cd161ddd40",
+ "03-funding-formula-handoffs.drawio": "0a9768fb61b27f7d8d1321ff16644e869f5e5c8d2cd955453fb60eb74d85cb2b",
+ "04-assurance-level-timing.drawio": "73a880e5db1f8ed18f925a08c9b0d4894d9279ba57a7259592d8ffef4eee06bd",
+ "05-assurance-level-matrix.drawio": "8b26a3f8d62fe7503ba6c2cd7e4cd71e1b7ff73fe71c6328535bd97a18d3859c",
+ "06-what-changes-as-the-level-rises.drawio": "3fbb004c9aa2d02614715bb443117f7cda9de37fa0c45cc34f7f829a014b5cbc",
+ "07-documents-by-role-and-phase.drawio": "b4780e7eb29fc478ba9438ff4d99c781b149bc04b2e503c243844e16efda0996",
+ "08-journey-analyst.drawio": "8c36e4ec7b6eeb0c20ccb23a23740a13ab520cc501fd049fa475869134449ade",
+ "09-journey-commissioner.drawio": "9417f930a6bbf1726084e0a45a6444870615d865ed77b3b289c0a0c09a9f695c",
+ "10-journey-critical-friend.drawio": "e23bce979d8404ef93b82f1efa8e32af8ecdbc8fb8e8975c1f8fda540e607507",
+ "11-journey-sro.drawio": "ac3442fe138e1d989379462cbeae5d942ccb612aa4dcb64a07b4a510ad79d575"
 }

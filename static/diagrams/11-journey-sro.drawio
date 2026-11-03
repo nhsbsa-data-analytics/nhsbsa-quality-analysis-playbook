@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device" version="24.7.17" agent="NHSBSA" modified="2026-10-19T09:00:00Z" author="Seamus Sands" organisation="NHSBSA" fit="window">
+  <diagram id="11-journey-sro" name="11-journey-sro" description="7 steps in rows, each giving where you are in the playbook, what you do and what you produce. 1. Business Critical analysis: Be named at scoping, before the analysis starts. Produces: The register entry, with your name against it. 2. The Analysis Senior Responsible Officer: Risks across the lifecycle, and suitability for the intended use. Produces: Nothing recorded yet. 3. Phase 1 Engagement and scoping: Confirm the Business Critical status, and the resources and plans for assurance. Produces: Confirmed resources, and the register entry checked. 4. Phase 2 Design: Confirm design governance has been followed before the analysis starts. Produces: Design governance confirmed, and recorded. 5. Phase 3 Analysis: Stay aware of progress, and be available to approve at delivery. Produces: Nothing recorded. Your availability in the schedule. 6. Phase 4 Delivery, communication and sign-off: Approve it as fit for its intended use, before it is used. Produces: Your approval, recorded with what you confirmed. 7. Phase 5 Review: Revalidate the designation annually, and before any reuse for a new purpose. Produces: The revalidated designation, and the register updated. After the last step: What review finds is what the next revalidation starts from.">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="680" pageHeight="790" math="0" shadow="0" background="#F0F4F5">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:20px;color:#003087&quot;&gt;The Analysis Senior Responsible Officer's journey&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Arial;fontSize=11;fontColor=#231F20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="24" y="22" width="632" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;Where you are&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="62" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;What you do&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="62" width="235" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;What you produce&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="429" y="62" width="235" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;1&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="92" width="26" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Business Critical&lt;br&gt;analysis&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2556A5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="92" width="150" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Be named at scoping, before the analysis starts.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="92" width="235" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;The register entry, with your name against it.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="92" width="235" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;2&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="154" width="26" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;The Analysis Senior&lt;br&gt;Responsible Officer&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2556A5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="154" width="150" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Risks across the lifecycle, and suitability for the intended use.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="154" width="235" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;Nothing recorded yet.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="154" width="235" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;3&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="252" width="26" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Phase 1&lt;br&gt;Engagement and scoping&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="252" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Confirm the Business Critical status, and the resources and plans for assurance.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="252" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;Confirmed resources, and the register entry checked.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="252" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;4&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="332" width="26" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Phase 2&lt;br&gt;Design&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="332" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Confirm design governance has been followed before the analysis starts.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="332" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;Design governance confirmed, and recorded.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="332" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;5&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="412" width="26" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Phase 3&lt;br&gt;Analysis&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="412" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Stay aware of progress, and be available to approve at delivery.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="412" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;Nothing recorded. Your availability in the schedule.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="412" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;6&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="492" width="26" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Phase 4&lt;br&gt;Delivery, communication and sign-off&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="492" width="150" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Approve it as fit for its intended use, before it is used.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="492" width="235" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;Your approval, recorded with what you confirmed.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="492" width="235" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:18px;color:#003087&quot;&gt;7&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="590" width="26" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b style=&quot;font-size:14px;color:#FFFFFF&quot;&gt;Phase 5&lt;br&gt;Review&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;dashed=0;spacingLeft=6;spacingRight=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="590" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#003087&quot;&gt;Revalidate the designation annually, and before any reuse for a new purpose.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E2F5;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="590" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;span style=&quot;font-size:14px;color:#333F48&quot;&gt;The revalidated designation, and the register updated.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EDEE;strokeColor=#FFFFFF;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=middle;dashed=0;spacingLeft=8;spacingRight=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="590" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="&lt;div&gt;&lt;b style=&quot;font-size:14px;color:#003087&quot;&gt;After the last step&lt;/b&gt;&lt;div style=&quot;margin-top:6px;font-size:14px;color:#333F48&quot;&gt;What review finds is what the next revalidation starts from.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#005EB8;fontColor=#231F20;fontFamily=Arial;fontSize=11;fontStyle=0;align=left;verticalAlign=top;dashed=0;spacingLeft=10;spacingRight=10;arcSize=12;strokeWidth=2;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="694" width="304" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

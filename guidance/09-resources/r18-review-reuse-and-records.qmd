@@ -1,15 +1,32 @@
 ---
-title: "R18. Why review, reuse and records matter"
+title: "R17. Why review, reuse and records matter"
 description: "Why we review after release, recheck on reuse, and keep records."
 ---
 
-This explains the reasons behind the steps in [Phase 5, review](../05-review/index.qmd), [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and [what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd).
+Related pages: [Phase 5, review](../05-review/index.qmd), [deciding your assurance level](../07-deciding-your-assurance-level/index.qmd) and [what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd).
 
 ## Review and reuse
 
+### What a review looks at {#what-a-review-looks-at}
+
+These are the activities behind the questions in [Phase 5, review](../05-review/index.qmd).
+
+- **Decisions taken and policy changes informed.** Find what actually changed as a result of this
+  analysis.
+- **Usage.** Check downloads, page views, requests, onward citation, or whatever else the
+  publication route records.
+- **Ongoing usefulness.** Run user research with the people who use it, asking whether it still
+  answers their question.
+- **Case studies.** Write down how the data has been used, as it happens.
+- **Trend changes.** Where the analysis was meant to change a trend, check whether the trend
+  changed.
+- **Improvements to regular analysis.** Note what the last run of this analysis showed could be
+  better.
+- **Decommissioning.** Stop producing analysis that is no longer useful.
+
 ### Review activities and the standards behind them {#review-activities-and-the-standards}
 
-The first four review activities in Phase 5 are the playbook's way of acting on Code of Practice Standards 8 and 9. They are decisions taken and policy changes informed, usage, ongoing usefulness and case studies. The Code does not list them.
+The first four review activities above are how the playbook acts on Code of Practice Standards 8 and 9. The Code does not list them.
 
 Standard 8 asks producers to review user satisfaction routinely.[^src-code-of-practice-for-statistics-edition-3-0-standard-8] It also asks them to take views from a range of users on when statistics are started, stopped or changed.[^src-code-of-practice-for-statistics-edition-3-0-standard-8] That is where decommissioning sits.
 
@@ -42,37 +59,35 @@ A yes to any of the four means the work goes back to [deciding your assurance le
 
 ### Reuse and the assurance level {#reuse-and-the-assurance-level}
 
-Reuse is the change most likely to invalidate the assumptions the original was built on. That is why a Business Critical designation is revalidated before any reuse for a new purpose.
+Because reuse tests the assumptions the original was built on, a Business Critical designation is revalidated before any reuse for a new purpose.
 
 Reuse is one legitimate reason to change a level or a score. That is the playbook's own view, and no standard states it.
-
-A one-off that becomes a monthly production run is a different piece of work. It is scored again rather than inheriting the level the one-off was given.
 
 AQuA Book Table 3-1 lists reusing or repurposing existing work among the factors for determining appropriate assurance. It says reusing work may require validation and verification to confirm the original approach.[^src-aqua-book-section-3-1]
 
 GovS 010 section 6.11 says the senior accountable officer should approve the use of a recommended practice model for a purpose other than the one it was designed for, or where the context of its use has changed.[^src-govs-010-section-6-11]
 
-An output that already runs to a schedule is scored once, when it is designed. It is not rescored on every run. That is also the playbook's own.
+[Scoring again](r15-scoring-the-assurance-level.qmd#scoring-again) says when a scheduled output, or a one-off that becomes a production run, is scored again.
 
 ### Capturing lessons, and what to raise wider {#capturing-lessons}
 
 Lessons are captured as they happen, rather than reconstructed at the end. GovS 010 section 6.10 asks for them to be captured throughout the analytical cycle.[^src-govs-010-section-6-10]
 
-Case studies work the same way. They are written down as the data is used, rather than reconstructed later.
+Case studies are also written down as the data is used.
 
 Lessons are recorded where the next analyst will look for them. For a regular output, that is the analytical plan for the next cycle.
 
-Anything that applies beyond one output is raised wider. Examples are a method that did not work, a data quality problem, and an assurance step that was disproportionate in either direction. See [who to ask](r3-who-to-ask.qmd) for who to go to.
+Raise anything that applies beyond one output more widely. Examples are a method that did not work, a data quality problem, and an assurance step that was disproportionate in either direction. See [who to ask](r3-who-to-ask.qmd) for who to go to.
 
 ### Peer review during the work, and review in Phase 5 {#peer-review-and-the-review-phase}
 
-Peer review and independent challenge happen during the work. They decide whether the output can be released. [What the critical friend confirms](r17-roles-independence-and-escalation.qmd#what-the-critical-friend-confirms) is the one list of what that review confirms. The checks themselves are in [the checks, by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level).
+Peer review and independent challenge happen during the work. They decide whether the output can be released. [What the critical friend confirms](r17-roles-independence-and-escalation.qmd#what-the-critical-friend-confirms) lists what that review confirms. The checks themselves are in [the checks, by level](../07-deciding-your-assurance-level/what-your-level-requires.qmd#the-checks-by-level).
 
-Two GovS 010 clauses bear on this. Section 6.6 covers verification and validation, which are conducted throughout the analytical cycle.[^src-govs-010-section-6-6] Section 6.8 covers quality assurance, which includes peer review by independent individuals or groups.[^src-govs-010-section-6-8]
+Two GovS 010 clauses apply. Section 6.6 covers verification and validation, which are conducted throughout the analytical cycle.[^src-govs-010-section-6-6] Section 6.8 covers quality assurance, which includes peer review by independent individuals or groups.[^src-govs-010-section-6-8]
 
 [Phase 5 review](../05-review/index.qmd) is a different activity. It covers what happens to an output after release. It asks whether the output is still useful, and what the next piece of work should do differently.
 
-What the next piece of work should do differently is GovS 010 section 6.10, on learning from experience.[^src-govs-010-section-6-10]
+GovS 010 section 6.10, on learning from experience, covers what the next piece of work should do differently.[^src-govs-010-section-6-10]
 
 ## Records and logs
 
@@ -84,7 +99,7 @@ A checklist shows somebody knew what to do. A log shows they did it, when, and w
 
 ### Keeping the project record beside the output {#the-project-record-beside-the-output}
 
-The project record is kept beside the output. Somebody who finds the output can then find how it was made. GovS 010 section 6.7 says documentation, data and other records should be version controlled, securely stored as needed and retrievable if needed, to support and evidence analyses.[^src-govs-010-section-6-7]
+Keep the project record beside the output, so anyone who finds the output can also find how it was made. GovS 010 section 6.7 says documentation, data and other records should be version controlled, securely stored as needed and retrievable if needed, to support and evidence analyses.[^src-govs-010-section-6-7]
 
 At Level 1 the record is about one side of A4. Only the parts of the project record marked Yes for Level 1 are completed.
 

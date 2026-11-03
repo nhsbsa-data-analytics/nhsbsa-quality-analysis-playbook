@@ -3,18 +3,16 @@ title: "Phase 1. Engagement and scoping"
 description: "Agree the question and decision, then score the impact."
 ---
 
-You and your commissioner agree the question and score the impact.
-
 ## What you do
 
 {{< include /guidance/_partials/step-levels-key.qmd >}}
 
 1. [Every level[:]{.visually-hidden}]{.pb-level} **Agree the decision this informs, and who makes it.**
-2. [Every level[:]{.visually-hidden}]{.pb-level} **Write the question in one sentence.** If the request asks for an output, not a question, say
-   so and reframe it together.
+2. [Every level[:]{.visually-hidden}]{.pb-level} **Write the question in one sentence.** If the request asks for an output rather than a question, say
+   so and turn it into a question together.
 3. [Every level[:]{.visually-hidden}]{.pb-level} **Agree the scope, the boundaries and the assumptions**, and talk to the people affected before
    you settle the question. Agree the deadline, the acceptable level of risk, and the levels of quality and certainty the answer needs.
-4. [Every level[:]{.visually-hidden}]{.pb-level} **Score the impact with your commissioner**, before the method is chosen, and write it down.
+4. [Every level[:]{.visually-hidden}]{.pb-level} **Score the impact with your commissioner**, before you choose the method, and write it down.
    Score six dimensions, Level 1 to Level 4, and take the highest single level. Follow
    [Step 1, score the impact](../07-deciding-your-assurance-level/score-the-impact.qmd) in the
    Analytical Assurance Decision Tool.
@@ -22,7 +20,7 @@ You and your commissioner agree the question and score the impact.
 
 ## Ask these five questions before you start
 
-Record the answers in the specification.
+Record the answers in the Specification.
 
 - **What decision will this inform, and who makes it?**
 - **Who could be affected by the decision the analysis informs**, in the data and beyond it?
@@ -33,18 +31,17 @@ Record the answers in the specification.
   - has a significant influence on a decision-making process with public effect, or
   - interacts directly with the general public.
 
-Where one of these raises a concern, record it.
+If an answer raises a concern, record it in
+[the six-part record](../09-resources/r11-ethics-and-personal-data.qmd#when-a-question-raises-something).
 
 ## Outputs of this phase
 
-- The scope and specification, with the question in one sentence.
+- The scope and specification, with the question in one sentence, in the [scope]({{< var template-scope >}}) and [specification]({{< var template-specification >}}) templates.
 - The answers to the five questions.
-- The impact score, agreed with your commissioner and recorded in the specification.
+- The impact score, agreed with your commissioner and recorded in the Specification.
 - The Business Critical answer, recorded either way.
 - The acceptable level of risk, and the levels of quality and certainty required.
 - Any ethics or data protection concern you raised, and what was decided.
-
-If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd). It lists the outputs Business Critical work adds.
 
 ## Ready for Phase 2 when
 
@@ -55,13 +52,13 @@ If an impact dimension scored 4, go to [Business Critical analysis](../08-busine
 
 For Business Critical work, also:
 
-- The likelihood is scored and the Analytical Assurance Decision Tool is complete.
+- Level 4 BCA is written into the Specification.
 - The Analysis Senior Responsible Officer is named and the register entry is made.
 
 ## More detail in Resources
 
 ::: {.more-detail}
-- [R11. Data ethics and personal data](../09-resources/r11-ethics-and-personal-data.qmd), for
+- [R10. Data ethics and personal data](../09-resources/r11-ethics-and-personal-data.qmd), for
   an ethics or data protection concern raised at scoping
 - [Settling a Level 4 BCA level at scoping](../09-resources/r16-what-makes-work-business-critical.qmd#settling-the-level-at-scoping)
 :::

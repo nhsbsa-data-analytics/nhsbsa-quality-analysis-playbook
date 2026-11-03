@@ -5,6 +5,10 @@ description: "Business Critical only: your steps from naming to revalidation."
 
 {{< include /guidance/_partials/role-analysis-sro.qmd >}}
 
+## Your journey
+
+{{< include /guidance/_partials/diagram-journey-sro.qmd >}}
+
 ## Your checklist
 
 {{< include /guidance/_partials/table-journey-sro.qmd >}}

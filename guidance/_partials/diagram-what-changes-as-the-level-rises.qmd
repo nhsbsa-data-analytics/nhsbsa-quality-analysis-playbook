@@ -6,8 +6,8 @@
 
 A grid with the four assurance levels across the top and three rows down the side.
 
-- **Who signs it off.** At Level 1, you. At Level 2, your team lead. At Level 3, the Lead Official for Statistics. At Level 4 BCA, the Lead Assurer, then the Analysis Senior Responsible Officer.
-- **Who reviews it.** At Level 1, a colleague in your team. At Level 2, someone with no hand in the work. At Level 3, an assurer from outside the team. At Level 4 BCA, a Lead Assurer, and external review as well.
+- **Who signs it off.** At Level 1, you. At Level 2, your team lead. At Level 3, the Lead Official for Statistics. At Level 4 BCA, the Lead Assurer, then the Analysis Senior Responsible Officer. At every level, your commissioner then signs it off for release.
+- **Who reviews it.** At Level 1, a colleague in your team. At Level 2, someone not involved in producing the work. At Level 3, an assurer from outside the team. At Level 4 BCA, a Lead Assurer, and external review as well.
 - **What it ends with.** At Level 1, the record stored with the output. At Level 2, the record archived and linked from the output. At Level 3, the output published with its quality assurance statement. At Level 4 BCA, the output published, on the Business Critical register and revalidated annually.
 
 </div>

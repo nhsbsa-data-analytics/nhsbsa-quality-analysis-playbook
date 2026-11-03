@@ -3,9 +3,7 @@ title: "Step 4. What your level requires"
 description: "The checks your level asks for, phase by phase."
 ---
 
-Do what your level requires, from the phase you are in to Phase 4. Get your level from [Step 3, read your level](read-your-level.qmd). You get it at design, so start with the Phase 2 table.
-
-**Do everything in the column for your level and in the columns for the levels below it.**
+Get your level from [Step 3, read your level](read-your-level.qmd), at design. **Do everything in the column for your level and in the columns for the levels below it.**
 
 If an impact dimension scored 4, go to [Business Critical analysis](../08-business-critical/index.qmd).
 
@@ -17,65 +15,47 @@ Use the table for the phase you are in. In these tables the assurer and the revi
 
 | Task | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
 |-------------|--------------------------|------------------------------|-------------------------------|
-| **Commission and frame** | Commissioner states the decision and the deadline. You confirm your understanding in writing, however briefly. An email is enough | The commissioning conversation is recorded: the decision, the question, what is out of scope, and the quality expected | Formal commissioning record. Business Critical status considered explicitly and recorded either way. Where it is Business Critical, the Analysis Senior Responsible Officer is named and aware |
-| **Score the impact** | You and the commissioner score it together, and you record it in the specification | You and the commissioner agree it together. Disagreement goes to the Analytical Quality and Assurance Lead | The Analytical Quality and Assurance Lead confirms it. Register entry where Business Critical |
+| **Commission and frame** | Commissioner states the decision and the deadline. You confirm your understanding in writing. A short email is enough | The commissioning conversation is recorded: the decision, the question, what is out of scope, and the quality expected | Formal commissioning record. Business Critical status considered explicitly and recorded either way. Where it is Business Critical, the Analysis Senior Responsible Officer is named and aware |
+| **Score the impact** | You and the commissioner score it together, and you record it in the Specification | You and the commissioner agree it together. Disagreement goes to the Analytical Quality and Assurance Lead | The Analytical Quality and Assurance Lead confirms it. Register entry where Business Critical |
 
 : Phase 1 tasks and what each assurance level requires for them
 
-At every level you may reframe a request that arrives as an output rather than a question.
-Challenge any request that needs it.
+At every level, challenge or reframe a request that arrives as an output rather than a question.
 
 ### In Phase 2, design
 
 | Task | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
 |--------------|-------------------|---------------------------------|----------------------------------|
-| **Score the likelihood and finish the level** | You score it once the data and the method are settled, and write the level into the specification | As Level 1, and you and the commissioner agree the finished level | As Level 1, and the Analytical Quality and Assurance Lead confirms the finished level |
+| **Score the likelihood and finish the level** | You score it once the data and the method are settled, and write the level into the Specification | As Level 1, and you and the commissioner agree the finished level | As Level 1, and the Analytical Quality and Assurance Lead confirms the finished level |
 | **Plan the assurance** | Note your method and main assumptions. No separate assurance plan | An assurance plan: who reviews, what, and when. **The reviewer is named before work starts** | Assurance plan agreed with an assurer from outside your team. Verification and validation activities specified |
 | **Book the time** | Allow for the colleague check | Assurer's time in the schedule, agreed with them | Assurer's time agreed and protected. Re-review time allowed for |
 | **Check the design before work starts** | Not required | A critical friend confirms the approach answers the question and the assurance planned is right. Commissioner approves the design before work proceeds | As Level 2, with the assurer from outside the team |
 
 : Phase 2 tasks and what each assurance level requires for them
 
-#### Find a critical friend
-
-These are recommended, not required.
-
-- Assign a critical friend early, ideally while you are still defining the problem.
-- Choose someone with experience of similar data or techniques. If you are the area expert, consider a newer colleague.
-- Ask your team lead first. Contact the Data Science team or the Data Science Lead if you need a recommendation.
-- Involve them throughout the work, not only at the end.
-
-::: {.nhsuk-inset-text}
-More detail: [how to find and work with a critical friend](/guidance/09-resources/r17-roles-independence-and-escalation.qmd#naming-and-working-with-the-critical-friend).
-:::
+Name your critical friend early, with your team lead. See [how to find and work with a critical friend](/guidance/09-resources/r17-roles-independence-and-escalation.qmd#naming-and-working-with-the-critical-friend).
 
 ### In Phase 3, analysis
 
 | Task | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
 |------------|---------------------------|-------------------------------|------------------------------|
 | **Produce** | Keep inputs and working reproducible enough that someone else could re-run it | Work under version control. Log decisions and assumption changes as they happen | Maintain an assumptions register. Plan sensitivity testing at design stage, not afterwards |
-| **Quality assure** | Self-check against the Level 1 checks. A colleague sense checks your headline numbers | **Independent validation of the results by someone who had no hand in the work.** Code review where scripted. Quality assurance log completed and retained | Full verification and validation. Code assured. Uncertainty documented and quantified where the method allows |
+| **Quality assure** | Self-check against the Level 1 checks. A colleague sense checks your headline numbers | **Independent validation of the results by someone who was not involved in producing the work.** Code review where scripted. Quality assurance log completed and retained | Full verification and validation. Code assured. Uncertainty documented and quantified where the method allows |
 
 : Phase 3 tasks and what each assurance level requires for them
 
-Where your analysis involves code, follow the
-[NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook).
-
-Make the analysis reproducible, with automation that suits its complexity. See
-[reproducible and automated analysis compared](/guidance/09-resources/r9-what-each-standard-asks-for.qmd#reproducible-and-automated-analysis-compared).
+Follow the [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook) for any code. Make the analysis reproducible, with [automation that suits its complexity](/guidance/09-resources/r9-what-each-standard-asks-for.qmd#reproducible-and-automated-analysis-compared).
 
 ### In Phase 4, delivery, communication and sign-off
 
 | Task | Level 1 Standard | Level 2 Enhanced | Level 3 Comprehensive |
 |-------------|--------------------------|---------------------------------|----------------------------|
-| **Communicate** | State your main limitation alongside the result. A short quality assurance statement required | Quality assurance statement required. Caveats, limitations and uncertainty stated **in the output itself, not only in an annex** | Statement published with the output. Uncertainty ranges communicated |
-| **Sign off and archive** | Store the project record with the output. No formal sign-off beyond you | **Signed off by your team lead.** Project record, quality assurance log and code archived together and linked from the output | Signed off by the Lead Official for Statistics. Register updated. Review date set |
+| **Communicate** | State your main limitation alongside the result. A short quality assurance statement is required | Quality assurance statement required. Caveats, limitations and uncertainty stated **in the output itself, not only in an annex** | Statement published with the output. Uncertainty ranges communicated |
+| **Sign off and archive** | Store the project record with the output. Signed off by you, then by your commissioner for release | **Signed off by your team lead, then by your commissioner for release.** Project record, quality assurance log and code archived together and linked from the output | Signed off by the Lead Official for Statistics, then by your commissioner for release. Register updated. Review date set |
 
 : Phase 4 tasks and what each assurance level requires for them
 
-Every level needs a quality assurance statement before sign-off. It covers assumptions,
-uncertainty, limitations, and what the results can and cannot be used for. See
-[the quality assurance statement, with a worked example](../09-resources/r5-quality-assurance-statement.qmd).
+Every level needs a [quality assurance statement](../09-resources/r5-quality-assurance-statement.qmd) before sign-off.
 
 ## What to record
 
@@ -95,16 +75,11 @@ Complete the sections of the project record that your level requires.
 
 : Sections of the project record, and whether each level needs them
 
-At Level 1, complete the rows marked Yes in the Level 1 column only. That is about one side of A4.
-
-- Identify relevant lessons from earlier work when you plan, and capture new lessons as you go.
-- Keep records version controlled, securely stored and retrievable.
-- Hold the project record on the NHSBSA SharePoint, in the same place as the output it documents.
+Keep the project record version controlled on the NHSBSA SharePoint, in the same place as the output it documents. Record lessons as you go. NHSBSA's templates hold these sections. See [which template holds each](../09-resources/r2-templates-and-documents.qmd#the-project-record-and-the-templates).
 
 ## The checks, by level
 
-Do every check first required at your level or at a lower level. The Done by column says who does each. Your
-critical friend also confirms you have done the rest. From Level 2, record in your quality assurance log each check you did, when, what you found and the conclusion you drew.
+Do every check first required at your level or at a lower level. Your critical friend confirms you have done the rest. From Level 2, record each check in your quality assurance log: when, what you found and what you concluded.
 
 | First required at | Check | Done by | What that means here |
 |------------|--------------------|--------------|--------------------------------------|
@@ -116,7 +91,7 @@ critical friend also confirms you have done the rest. From Level 2, record in yo
 | **Level 1** | Sense checking results | You | Outputs compared against an independent reference: last period, a related series, or an order-of-magnitude expectation |
 | **Level 1** | Clarity, accessibility and security of outputs | You | Limitations stated in the output itself rather than only in an annex. Accessible format. Handled at the right classification |
 | **Level 2** | Responsibilities and accountabilities | You | The analyst, the reviewer and the approver are named before the work starts |
-| **Level 2** | Appropriateness of methodology | Critical friend | Someone who had no hand in the work agrees the method answers the question |
+| **Level 2** | Appropriateness of methodology | Critical friend | Someone who was not involved in producing the work agrees the method answers the question |
 | **Level 2** | Documentation and audit trails | You | You complete the quality assurance log as you go, and keep it with the analysis |
 | **Level 2** | Understanding of the impacts of data quality | You | Input data profiled: ranges, nulls, duplicates, outliers, and what each means for the answer.<br><br>**Including who is missing from it**: treat a gap in coverage as a blind spot in the conclusion. It is a risk of affecting one group differently |
 | **Level 2** | Evidence based assumptions | You | Each assumption is traceable to a source, a precedent or a stated expert judgement |
@@ -132,23 +107,11 @@ critical friend also confirms you have done the rest. From Level 2, record in yo
 | **Level 3** | Automated checks | You | Validation built into the pipeline so it runs every time rather than once |
 | **Level 3** | Additional scenario testing | You | Behaviour under plausible alternative inputs, not just the expected ones |
 | **Level 3** | Independent peer review | Critical friend | An assurer from outside the delivering team. Code assured against the [NHSBSA Analytical Code Assurance Playbook](https://nhsbsa-data-analytics.github.io/nhsbsa-analytical-code-assurance-playbook). Uncertainty quantified where the method allows. Quality assurance statement published with the output |
-| **Level 4 BCA** | Formal audits | Not yet defined | See [Business Critical analysis](../08-business-critical/index.qmd) |
-| **Level 4 BCA** | External review | Not yet defined | As above |
-| **Level 4 BCA** | Additional scrutiny of documentation | Not yet defined | As above |
-| **Level 4 BCA** | Scrutiny of structural and conceptual assumptions | Not yet defined | As above |
-| **Level 4 BCA** | Additional scenario testing | Not yet defined | As above |
 
 : Each check, the level that first requires it, who does it, and what it means here
 
-Check at scoping whether the Algorithmic Transparency Recording Standard applies, whatever your
-level. It does if a tool:
-
-- has a significant influence on a decision-making process with public effect, or
-- interacts directly with the general public.
-
-::: {.nhsuk-inset-text}
-More detail: [the transparency record test](/guidance/09-resources/r12-algorithmic-transparency-and-ai.qmd#check-whether-your-tool-needs-a-transparency-record).
-:::
+Level 4 BCA adds five checks, listed in
+[Business Critical analysis, step 5](../08-business-critical/index.qmd#step-5-do-the-work-to-the-enhanced-standard). Who does each is not yet defined.
 
 ## More detail in Resources
 

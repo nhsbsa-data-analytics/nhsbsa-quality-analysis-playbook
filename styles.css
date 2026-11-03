@@ -215,21 +215,26 @@ footer .nav-link { padding: 0 0.5rem; }
   .navbar-expand-lg .navbar-nav { flex-wrap: wrap; }
 }
 
-/* 1.4.8 Visual Presentation: at most 80 characters a line, line spacing at least 1.5 within a
-   paragraph and paragraph spacing at least 1.5 times that again. Tables are left to
-   use the full width, because narrowing them would cost more than it gains.
-
-   The measure is in em and not in ch. A ch is the width of the digit zero, about 0.56em in Arial,
-   but a line of ordinary prose averages about 0.4em a character, so 80ch holds 93 to 116
-   characters and was measured doing so on ten pages. A line of web addresses and hyphenated names
-   averages 0.31em, so 28em let one paragraph on the who-to-ask page reach 86. 25em holds at most
-   67 characters on any of the 44 pages at 1280 and at 1920 wide, which is the width the criterion
-   is about, and it follows the reader's text size where a fixed width would not. */
-:root { --pb-measure: 25em; }
+/* The reading measure. WCAG 2.2 at AA sets no limit on the length of a line, and this site claims
+   AA for it rather than the 80 characters of 1.4.8, which is AAA. The measure is a choice for
+   reading: 34em puts about 67 characters on an ordinary line of prose, inside the range most
+   typographic guidance gives, and it is close to the 680px the diagrams are drawn at, so text and
+   pictures share one column. Line spacing within a paragraph is 1.6, and the gap between
+   paragraphs is larger again. It is in em so that it follows the reader's text size. */
+:root { --pb-measure: 34em; }
 main p, main li, main blockquote { max-width: var(--pb-measure); line-height: 1.6; }
 main p { margin-bottom: 2.4em; }
 main li { margin-bottom: 0.6em; }
 main { text-align: left; }
+
+/* One column. The headings, their rules, the diagram frames, the cards and the callouts took the
+   whole of a content column 1442px wide on a 1920 screen, while the text beside them was held to
+   its measure, so a wide window showed a narrow strip of text, a caption a third the width of its
+   picture and an empty right half. The column is now as wide as the NHS design system's page
+   container, 960px at the default text size, in rem so that it grows with the text. Text keeps its
+   measure inside it, and a table or a diagram can use the rest. A wider window gives the space to
+   the margins rather than to a gap inside the page. */
+main.content, #title-block-header .quarto-title { max-width: 46rem; }
 
 /* Three rules that need more specificity than the block above, because Bootstrap and Quarto set
    the same properties on the same elements. */
@@ -928,9 +933,9 @@ main figure.figure:has(.nhsuk-image__img) {
 }
 /* Quarto wraps the picture in a paragraph inside the figure. Without this the paragraph's own
    bottom margin opens a gap between the picture and its caption. The measure is lifted too, and
-   with !important, because the 1.4.8 rule near the top sets it with !important on every paragraph
+   with !important, because the measure near the top sets it with !important on every paragraph
    in the page. This paragraph holds a picture and no prose, so the measure has nothing to limit,
-   and left at 25em it made every diagram's box 520px round a 680px drawing at any window width. */
+   and left in place it made every diagram's box narrower than its 680px drawing. */
 main figure.figure:has(.nhsuk-image__img) > p { margin: 0; max-width: none !important; }
 .nhsuk-image__img { display: block; }
 /* NHS pads the caption 16px and sets it a step down from body text. The figcaption rule further
@@ -1226,14 +1231,11 @@ main tbody th[scope="row"] {
   transform: none !important;
 }
 
-/* ---------------------------------------------------------------- 1.4.8 beyond the paragraphs
-   The measure above reaches paragraphs, list items and quotations. The same rule counts every line
-   of text a reader reads, and these were left out: the line under the page title ran to 143
-   characters on a wide window, the licence sentence in the footer to 96, a figure's caption to 106,
-   and a cell in a table with two columns to 109. Each takes the measure, the table as a whole takes
-   a width at which its cells cannot pass 80, and the line counted by checks/wcag22.py covers all of
-   them. A table that needs more room than that to be read, because it has many columns, is not
-   narrowed: a table is never made narrower than its content. */
+/* ---------------------------------------------------------------- the measure beyond the paragraphs
+   The measure above reaches paragraphs, list items and quotations. These take it too, so that no
+   line of text runs the width of a wide window: the line under the page title, the licence sentence
+   in the footer and a figure's caption. A table takes a width of its own, and a table that needs
+   more room than that, because it has many columns, is never made narrower than its content. */
 #title-block-header .description { max-width: var(--pb-measure); }
 .nav-footer-center { max-width: var(--pb-measure); margin-left: auto; margin-right: auto; }
 figcaption { max-width: var(--pb-measure); }
@@ -1307,3 +1309,42 @@ a.footnote-ref sup { vertical-align: baseline; position: relative; top: -0.45em;
     border: 0;
   }
 }
+
+/* ---------------------------------------------------------------- the NHS responsive table
+   On a phone a table of three or more columns is drawn one row to a block, each cell under the
+   name of its column, as the NHS design system's responsive table is. Below 641 pixels, its
+   breakpoint. responsive-tables.html marks the tables, writes the column name into each cell
+   hidden from a screen reader, and writes the roles out, so the table is still announced as a
+   table once it is not drawn as one. On a wider screen the names are not shown and the table is
+   the grid it was. On paper too: the stacking is for a screen only, because an A4 page is about
+   as wide as the breakpoint and the PDF is a reading copy of the grid. The column names are bold
+   and on a line of their own, rather than beside the value as NHS sets them, because a cell here
+   is often a sentence and a sentence set flush right is hard to read. WCAG 1.4.10 and 1.3.1. */
+.pb-stack__heading { display: none; }
+@media screen and (max-width: 40.0525em) {
+  main table.pb-stack,
+  main table.pb-stack > tbody,
+  main table.pb-stack > tbody > tr,
+  main table.pb-stack > tbody > tr > td,
+  main table.pb-stack > tbody > tr > th { display: block; width: auto; }
+  main table.pb-stack { max-width: 100%; }
+  main table.pb-stack > caption { display: block; max-width: 100%; position: static; }
+  main table.pb-stack > colgroup { display: none; }
+  main table.pb-stack > thead {
+    position: absolute; width: 1px; height: 1px; margin: 0; padding: 0; border: 0;
+    overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+  }
+  main table.pb-stack > tbody > tr {
+    margin: 0 0 1.5rem; border-top: 4px solid #005EB8; border-bottom: 0;
+  }
+  main table.pb-stack > tbody > tr > td,
+  main table.pb-stack > tbody > tr > th {
+    padding: 0.5rem 0; border-bottom: 1px solid #D8DDE0; text-align: left;
+  }
+  main table.pb-stack .pb-stack__heading {
+    display: block; font-weight: 700; color: #231F20; margin: 0 0 0.15rem;
+  }
+}
+/* The glossary filter takes the search page's look; it only needs its own gap below. */
+.pb-filter { margin-bottom: 2rem; }
+@media print { .pb-filter { display: none; } }

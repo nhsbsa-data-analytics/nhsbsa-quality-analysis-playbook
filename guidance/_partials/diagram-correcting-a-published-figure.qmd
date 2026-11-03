@@ -4,7 +4,7 @@
 <summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
 <div class="nhsuk-details__text">
 
-A yellow question at the top left asks: was the change expected? An arrow marked yes goes right to a green box: a revision, which is expected and is not an error. An arrow marked no goes down to a wide blue box: a correction, which is an error, graded by what it does to the conclusions already drawn. Three arrows go down from it, one to each grade.
+A gold question at the top left asks: was the change expected? An arrow marked yes goes right to a green box: a revision, which is expected and is not an error. An arrow marked no goes down to a wide blue box: a correction, which is an error, graded by what it does to the conclusions already drawn. Three arrows go down from it, one to each grade.
 
 | The error | What happens |
 |---|---|

@@ -1,15 +1,15 @@
 ---
-title: "R12. Algorithmic transparency and AI"
+title: "R11. Algorithmic transparency and AI"
 description: "Algorithmic transparency, human oversight and using AI tools."
 ---
 
 Where an algorithmic or AI tool is part of the analysis, three things follow. Publish what the tool
-does. Keep a person genuinely in a position to change the outcome. Be clear about any AI used to
+does. Make sure a person can change the outcome. Be clear about any AI used to
 produce the work.
 
 ## Check whether your tool needs a transparency record
 
-Two tests, and both have to be met. **Make the check at scoping** and record the answer either
+There are two tests. Both must be met. **Make the check at scoping** and record the answer either
 way, because a record takes drafting and clearance.
 
 | The test | Where NHSBSA analysis lands |
@@ -29,7 +29,7 @@ the tool affects decisions, who is accountable for it, and what oversight it has
 mandatory for arm's length bodies which deliver public or frontline services, or directly interact
 with the general public.[^src-atrs-section-2]
 
-NHSBSA does both, so the organisation is in scope. It is recommended
+NHSBSA does both, so the organisation is in scope. The standard is recommended
 across the rest of the public sector, which is not in mandatory scope.[^src-atrs-section-2]
 
 **Second test, the tool.** Within an organisation in scope, the standard is mandatory for algorithmic
@@ -43,11 +43,10 @@ organisations or groups". It does not apply to "an analytical model supporting b
 policymaking".[^src-atrs-section-2]
 
 An eligibility rule, a risk score or a triage tool applied to individual cases is an operational
-decision about individuals, so it is in scope. A model that informs a policy, a funding settlement
-or a published statistic is not. **The test is what the tool decides, and about whom.** It is not
+decision about individuals, so it is in scope. An analytical model that supports broad policymaking is not. **The test is what the tool decides, and about whom.** It is not
 how visible the analysis is, and it is not the assurance level it scored.
 
-Being outside the mandatory scope is not a reason to publish nothing. The Data and AI Ethics
+You can still publish a record for a tool outside the mandatory scope. The Data and AI Ethics
 Framework recommends publishing a record "even where a tool does not strictly fall within scope of
 the ATRS".[^src-data-and-ai-ethics-framework-atrs]
 
@@ -63,13 +62,13 @@ Being Business Critical does not by itself put a tool in the scope of the Algori
 Recording Standard. Being outside that scope does not make the tool less critical. Each has its own
 test, and both tests are applied at scoping.
 
-### If you cannot explain it, say so
+### State in the output what the method does not show {#if-you-cannot-explain-it-say-so}
 
 Where a method cannot be explained, **you must state that limitation in the output**. A
-vendor-supplied scoring tool whose weighting is not disclosed is one example. Where the tool is in
-ATRS scope, it belongs in the record as well.
+vendor-supplied scoring tool whose weighting is not disclosed is one example. If the tool is in
+ATRS scope, put the limitation in the record as well.
 
-Assure a model whose internal workings cannot be inspected in the same way as any other model. The
+If a model's internal workings cannot be inspected, assure it in the same way as any other model. The
 difficulty is in transparency, in having the right mix of experts available, and in understanding
 what mitigations are possible. It is not a reason to assure the model less.
 
@@ -77,12 +76,10 @@ what mitigations are possible. It is not a reason to assure the model less.
 
 The standard names two roles. An organisation in mandatory scope should have a named
 **single point of contact** for the standard, whose job is to coordinate with the standard's own
-team. They identify the tools in scope, and they
-draft and publish the records.
+team on identifying the tools in scope, drafting the records and publishing them.
 
-If you do not know who yours is, the guidance gives
-[algorithmic-transparency@dsit.gov.uk](mailto:algorithmic-transparency@dsit.gov.uk) as the
-address to ask.[^src-atrs-section-2] Each record names a **senior responsible
+If you do not know who yours is, the guidance says to ask
+[algorithmic-transparency@dsit.gov.uk](mailto:algorithmic-transparency@dsit.gov.uk).[^src-atrs-section-2] Each record names a **senior responsible
 owner**, given as a role title rather than a person. That role is ultimately accountable for the
 tool in an operational context.[^src-atrs-section-6]
 
@@ -134,11 +131,11 @@ Using an AI tool **changes nothing about who is accountable** for the output.
 - **Ask before you use a tool that is not already in use in your team.** NHSBSA has no published
   list of approved analytical AI tools, so the default is to ask rather than to assume.
 - **Do not put data into a tool that is not cleared to hold it.** Patient data, personal data and
-  anything under a data sharing agreement are the obvious cases. The default answer is no unless
+  anything under a data sharing agreement are the obvious cases. Use a tool for such data only if
   someone with the authority has said yes in writing.
 - **Verify what comes back.** An AI output is a statistically informed guess rather than a
-  fact.[^src-ai-playbook-accuracy] Code gets tested, a summary gets checked against the source, a
-  figure gets recalculated.
+  fact.[^src-ai-playbook-accuracy] Test code, check a summary against its source, and
+  recalculate a figure.
 - **Accountability does not transfer.** The analyst who signs the output owns everything in it. "The
   tool produced it" is not a finding, a caveat or a defence.
 - **Record material use where it affects reproducibility.** If someone repeating your work needs to

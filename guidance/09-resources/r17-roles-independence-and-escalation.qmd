@@ -1,17 +1,17 @@
 ---
-title: "R17. Why the roles work as they do"
+title: "R16. Why the roles work as they do"
 description: "The reasons for each role's steps, independence and escalation."
 ---
 
-This explains the reasons behind the steps for the [analyst](../06-roles/analyst.qmd), [critical friend](../06-roles/critical-friend.qmd), [commissioner](../06-roles/commissioner.qmd) and [Analysis Senior Responsible Officer](../06-roles/analysis-senior-responsible-officer.qmd), and behind [where a disagreement goes](../06-roles/index.qmd#when-you-disagree).
+Related pages: the [analyst](../06-roles/analyst.qmd), [critical friend](../06-roles/critical-friend.qmd), [commissioner](../06-roles/commissioner.qmd) and [Analysis Senior Responsible Officer](../06-roles/analysis-senior-responsible-officer.qmd), and [where a disagreement goes](../06-roles/index.qmd#when-you-disagree).
 
 ## The critical friend and independence {#the-critical-friend-and-independence}
 
 ### Independence at every level {#independence-at-every-level}
 
-There is no level at which nobody independent looks at the work, and none at which the analyst is excused their own checks. The analyst's own checks come first, and nobody else's review replaces them.
+At every level, someone independent looks at the work, and the analyst does their own checks. The analyst's own checks come first, and nobody else's review replaces them.
 
-The AQuA Book says the assurer and the analyst shall be independent. That does not mean the analyst should not undertake assurance, but that there shall also be some formal independent assurance.[^src-aqua-book-chapter-3] Responsibility for formal assurance to the approver and the commissioner lies with the assurer. The analyst should carry out their own assurance.[^src-aqua-book-section-5-1]
+The AQuA Book says the assurer and the analyst shall be independent. This does not stop the analyst undertaking assurance, but there shall also be some formal independent assurance.[^src-aqua-book-chapter-3] Responsibility for formal assurance to the approver and the commissioner lies with the assurer. The analyst should carry out their own assurance.[^src-aqua-book-section-5-1]
 
 [Each level includes the checks of the levels below it](r15-scoring-the-assurance-level.qmd#each-level-includes-the-checks-below-it) shows how the levels build on one another.
 
@@ -23,10 +23,10 @@ GovS 010 also says analysis should be peer reviewed by independent individuals o
 
 ### What the critical friend confirms {#what-the-critical-friend-confirms}
 
-GovS 010 has the analytical assurer give independent advice on the assignment and, in particular, confirm that quality assurance has taken place and that the use of the outputs, the assumptions and the risks are understood.[^src-govs-010-section-4-4-6] The playbook asks the critical friend to confirm these three things, and reads them as narrower than a general opinion of the work.
+GovS 010 has the analytical assurer give independent advice on the assignment and, in particular, confirm that quality assurance has taken place and that the use of the outputs, the assumptions and the risks are understood.[^src-govs-010-section-4-4-6] The playbook asks the critical friend to confirm these three things. This is narrower than a general opinion of the work.
 
 - That appropriate and sufficient analytical quality assurance has taken place. The playbook measures this against the assurance level.
-- That the use of the outputs is appropriate. In the playbook's words, the results can carry the decision they are about to be used for.
+- That the use of the outputs is appropriate. In the playbook, this means the results can support the decision they will be used for.
 - That assumptions and risks are understood.
 
 The critical friend gives advice.[^src-govs-010-section-4-4-6] The commissioner owns the decision, and the analyst owns the analysis.
@@ -35,11 +35,11 @@ The critical friend gives advice.[^src-govs-010-section-4-4-6] The commissioner 
 
 A critical friend named before the work starts can shape the plan and put their own time in the schedule. One found afterwards can only check the result. This fits GovS 010, which says the analytical assurer should check that the proposed design meets the commissioner's requirements.[^src-govs-010-section-5-3]
 
-Someone with experience of similar data or techniques is the person to look for. If the analyst is the area expert, they can consider a newer colleague instead. The newer colleague gains the experience, and the analyst's work is read by somebody who does not share the analyst's assumptions.
+Look for someone with experience of similar data or techniques. If the analyst is the area expert, they can consider a newer colleague instead. The newer colleague gains the experience, and the analyst's work is read by somebody who does not share the analyst's assumptions.
 
-The Data Science team or the Data Science Lead can recommend someone, as [what your level requires](../07-deciding-your-assurance-level/what-your-level-requires.qmd#in-phase-2-design) says. [Who to ask](r3-who-to-ask.qmd) names the team lead as the first contact.
+Ask the team lead first, as [who to ask](r3-who-to-ask.qmd) says. The Data Science team or the Data Science Lead can recommend someone.
 
-Four ways to involve the critical friend throughout the work, rather than only at the end, are to:
+To involve the critical friend throughout the work, not only at the end:
 
 - meet regularly
 - review in small increments
@@ -50,7 +50,7 @@ Four ways to involve the critical friend throughout the work, rather than only a
 
 ### Naming the Analysis Senior Responsible Officer at scoping {#naming-the-analysis-senior-responsible-officer-at-scoping}
 
-The Analysis Senior Responsible Officer is named at scoping, not at sign-off. The commissioner names them, with the Analytical Quality and Assurance Lead. Naming the officer only when the work is designed, and someone notices a signature is needed, is too late. Being named afterwards does not work, because most of the lifecycle will already have happened.
+The Analysis Senior Responsible Officer is named at scoping, not at sign-off. The commissioner names them, with the Analytical Quality and Assurance Lead. Naming the officer only when the work is designed, and someone notices a signature is needed, is too late, because most of the lifecycle will already have happened.
 
 The [register entry](../08-business-critical/index.qmd#step-4-get-it-on-the-register) is made at the same time. Naming the officer at scoping is the playbook's own judgement.
 
@@ -66,19 +66,19 @@ At Level 4 BCA the Lead Assurer signs off first, then the officer.
 
 ### When the officer is also the commissioner {#when-the-officer-is-also-the-commissioner}
 
-The officer and the commissioner can be the same person, in which case both sets of responsibilities apply. The independence the assurance level requires is unaffected. It governs the distance between the assurer and the analyst, not between the officer and either of them.
+The officer and the commissioner can be the same person, in which case both sets of responsibilities apply. The independence the assurance level requires is unaffected. It applies between the assurer and the analyst, not between the officer and either of them.
 
 The AQuA Book says the assurer and the analyst shall be independent[^src-aqua-book-chapter-3] and that their roles shall be separate from one another in all cases.[^src-aqua-book-section-5-1]
 
 ## The commissioner and the analyst {#the-commissioner-and-the-analyst}
 
-### The decision, not the output {#the-decision-not-the-output}
+### Start from the decision {#the-decision-not-the-output}
 
 The commissioner states the decision the analysis informs, not the output they want. That makes the conversation about scope a short one. Scoping defines the problem and aligns expectations with what can be delivered.[^src-govs-010-section-5-2]
 
 GovS 010 lists ensuring that the brief is defined and clearly communicated among the commissioner's activities.[^src-govs-010-section-4-4-5] It has the analyst assist the commissioner in structuring the question, to ensure the right analysis is performed.[^src-govs-010-section-4-4-7]
 
-Challenging a brief is therefore part of the analyst's job and not a departure from it. The analyst can be expected to challenge a request that arrives already framed as an output.
+Challenging a brief is therefore part of the analyst's job. The analyst can be expected to challenge a request that arrives already framed as an output.
 
 ### Draft results go to the commissioner first {#the-commissioner-sees-draft-results-first}
 
@@ -106,7 +106,7 @@ The reasons for three of the routes in [where a disagreement goes](../06-roles/i
 
 Four of the five routes end at the same person, the Analytical Quality and Assurance Lead.
 
-See [working to a deadline](r15-scoring-the-assurance-level.qmd#working-to-a-deadline) for the reasoning on time and resource. See [where an ethical concern goes if it is not settled](r11-ethics-and-personal-data.qmd#where-an-ethical-concern-goes-if-it-is-not-settled) for the rest of that route.
+See [working to a deadline](r15-scoring-the-assurance-level.qmd#working-to-a-deadline) for the reasoning on time and resource. See [escalating an ethical concern](r11-ethics-and-personal-data.qmd#where-an-ethical-concern-goes-if-it-is-not-settled) for the rest of that route.
 
 ### Cover for the Analytical Quality and Assurance Lead {#cover-for-the-analytical-quality-and-assurance-lead}
 

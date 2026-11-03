@@ -1,9 +1,9 @@
 ---
-title: "R9. What each standard asks for"
-description: "What each of the four standards actually asks for."
+title: "R8. What each standard asks for"
+description: "What each of the three standards asks for."
 ---
 
-Three documents sit behind this playbook: GovS 010, the AQuA Book and the Code of Practice for
+This playbook is based on three documents: GovS 010, the AQuA Book and the Code of Practice for
 Statistics. What each one requires is below, with the AQuA Book's RIGOUR principles in full.
 [Which standards apply to you](r8-the-standards-landscape.qmd) says which of them applies to your
 work, and when.
@@ -18,8 +18,8 @@ the same cycle out as five phases. Delivery, communication and sign-off are one 
 The thirteen are: public interest; inputs and methods; supporting decision-making; uncertainty;
 analytical verification and validation; documentation and record keeping; quality assurance;
 collaborative working; learning from experience; analytical models; statistics; appraisal and
-evaluation; and personal data.[^src-govs-010-sections-6-2-to-6-14] Every one of them has a section of
-this playbook that answers to it, and
+evaluation; and personal data.[^src-govs-010-sections-6-2-to-6-14] Each has a section of
+this playbook that meets it, and
 [where each standard is met](r14-meeting-the-standards.qmd) says which.
 
 **When it applies:** always. It applies to all analysis undertaken in government, whoever does it.
@@ -35,8 +35,8 @@ Seven of the remaining ten say that a different functional standard shall be fol
 Digital, GovS 008 Commercial or GovS 011 Communication. That leaves three substantive requirements:
 
 1. **The principles.** The standard puts them as "those engaged in analysis shall
-   ensure".[^src-govs-010-section-2] Five of the six principles in this playbook are the standard's own,
-   and [the six quality principles](r7-the-six-principles.qmd) names the clause each one answers to.
+   ensure".[^src-govs-010-section-2] Five of the seven principles in this playbook are the standard's own,
+   and [R19. Standards to principles mapping](r20-standards-to-principles-mapping.qmd) names the clause each one answers to.
 2. **A senior officer accountable for analysis.** GovS 010 requires NHSBSA to have
    a senior officer accountable for analysis as an activity.[^src-govs-010-section-4-1-3]
 3. **Analytical roles and accountabilities.** GovS 010 requires NHSBSA to define analytical roles in its governance
@@ -44,13 +44,13 @@ Digital, GovS 008 Commercial or GovS 011 Communication. That leaves three substa
    them.[^src-govs-010-section-4-4-1] The standard describes those people as having appropriate
    seniority, skills and experience.
 
-The first falls on the analyst. The other two fall on the organisation, separately from the four
+The first applies to the analyst. The other two apply to the organisation, separately from the four
 roles you hold on a piece of work.
 
 NHSBSA records who holds the other two in its governance and management framework, not in this
 playbook.
 
-Everything else in the standard is a *should*, the thirteen practices included. GovS 010 calls a *should* advisory. The AQuA Book adds that a *should* is met on a "comply or explain" basis,[^src-aqua-book-section-1-3] so a departure is a decision you can explain, not an option you may take or leave. That is why a departure and its reason are recorded.
+Everything else in the standard is a *should*, the thirteen practices included. GovS 010 calls a *should* advisory. The AQuA Book adds that a *should* is met on a "comply or explain" basis,[^src-aqua-book-section-1-3] so you can depart from a *should* only with a reason you can explain. Record any departure and its reason.
 
 The sentence "All analysis shall be assured" is not from GovS 010. It comes from chapter 3 of
 [the AQuA Book](#the-aqua-book).[^src-aqua-book-chapter-3] The
@@ -115,9 +115,8 @@ Repeatable is not the same as automated. [Reproducible and automated analysis co
 
 ### Reproducible and automated analysis compared {#reproducible-and-automated-analysis-compared}
 
-Repeatable is the first letter of RIGOUR.[^src-aqua-book-section-1-3-5] It does not mean automated:
-reproducible and automated analysis are not the same thing. Automation can contribute to
-reproducibility, and automation alone is not enough.
+Repeatable is the first letter of RIGOUR.[^src-aqua-book-section-1-3-5] It does not mean automated.
+Automation can help make analysis reproducible, but it is not enough on its own.
 
 Reproducible and automated analysis both aim at efficiency and reliability. They work on different
 parts of the process. Each has its own question:
@@ -143,7 +142,7 @@ The two differ on six considerations.
 
 : Reproducible and automated analysis side by side, one consideration to a row
 
-Three places go further:
+For more detail, see:
 
 - [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/principles.html#reproducible), for the principle itself
 - [What is RAP?](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/#automation), for automation
@@ -178,11 +177,11 @@ statistics are listed in the
 
 ### You may apply the Code voluntarily
 
-Those producing data, statistics or analysis that is **not** official statistics may still apply the
-Code to demonstrate a commitment to trustworthiness, quality and public value.[^src-govs-010-section-6-12]
+If you produce data, statistics or analysis that is **not** official statistics, you may still apply the
+Code to show a commitment to trustworthiness, quality and public value.[^src-govs-010-section-6-12]
 
-That is worth considering for anything published or quoted externally. It is a choice, not an
-obligation, and choosing it should be a deliberate decision rather than an accident.
+Consider it for anything published or quoted externally. It is a choice, not an
+obligation, so make that choice deliberately.
 
 [Where each standard is met](r14-meeting-the-standards.qmd) says which part of the playbook covers each of the ten Standards.
 

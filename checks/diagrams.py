@@ -4,13 +4,14 @@ design board which quotes the role pages still does.
 
     python3 checks/diagrams.py
 
-The playbook carries seven diagrams, each written by `build/diagrams.py` as a draw.io source and
+The playbook carries eleven diagrams, each written by `build/diagrams.py` as a draw.io source and
 rendered by `build/render-diagrams.py`. NHSBSA asked for visuals that support understanding of
 processes, decisions and actions, and for those that only describe the structure of the content to
 go. An earlier set of twelve was removed because each one repeated a table or list beside it, at a
-size nobody could read. These seven are where a picture is quicker than the words: a circuit, a
+size nobody could read. The first seven are where a picture is quicker than the words: a circuit, a
 decision with three outcomes, a sequence of handoffs, a grid of when each step happens, the matrix
-that gives a level, what changes as the level rises, and a grid of who owns which document. Each carries the steps, so the page says
+that gives a level, what changes as the level rises, and a grid of who owns which document. The
+last four are each role's journey, drawn from the role's board in the service design set. Each carries the steps, so the page says
 less, and the full wording sits in an expander under it. A list of steps or documents stays a list.
 
 With no diagram on disk:
@@ -114,6 +115,18 @@ CANVAS_W = 680      # the width the page shows a diagram at, so a label is shown
 MIN_LABEL_PX = 14   # the smallest label, where the page text is 20.8px
 MAX_WORDS = 90      # visible words in one drawing, the title included
 MAX_BOXES = 20      # labelled boxes in one drawing
+# The one drawing allowed more. The assurance level matrix is drawn as NHSBSA draws it, at their
+# request on 28 October: sixteen cells, eight axis numbers, two axis titles and two notes. A grid
+# of one-level cells reads at a glance whatever the count, so it is held to these instead.
+LIMITS = {'05-assurance-level-matrix.drawio': (120, 30),
+          # The lifecycle carries each phase's line from the home page, as the e-learning's does, so
+          # a reader meets one wording for each phase wherever the phases are listed.
+          '01-analytical-lifecycle.drawio': (130, 30)}
+# The four role journeys carry each role's board from the service design set, on 28 October: a row
+# for every stop, saying where it happens, what the role does and what it produces. They read as a
+# table does, row by row, and each has the same words in a table in its text description.
+LIMITS.update({'%02d-journey-%s.drawio' % (8 + i, k): (300, 45)
+               for i, k in enumerate(['analyst', 'commissioner', 'critical-friend', 'sro'])})
 
 
 def label_sizes(value, style_px):
@@ -180,13 +193,14 @@ def check_simple(sources):
         if smallest < MIN_LABEL_PX:
             fail.append('%s has a label drawn at %dpx. Nothing in a diagram is under %dpx, because '
                         'the page shows it at the size it was drawn' % (s.name, smallest, MIN_LABEL_PX))
-        if words > MAX_WORDS:
+        max_words, max_boxes = LIMITS.get(s.name, (MAX_WORDS, MAX_BOXES))
+        if words > max_words:
             fail.append('%s carries %d words, over the %d a diagram is allowed. Move the wording '
                         'to the text description under it, or put it on the page as a table'
-                        % (s.name, words, MAX_WORDS))
-        if boxes > MAX_BOXES:
+                        % (s.name, words, max_words))
+        if boxes > max_boxes:
             fail.append('%s has %d boxes, over the %d a diagram is allowed. A drawing with that many '
-                        'is not simple to read at a glance' % (s.name, boxes, MAX_BOXES))
+                        'is not simple to read at a glance' % (s.name, boxes, max_boxes))
     return stats
 
 
@@ -237,8 +251,23 @@ def check_text_contrast(sources, floor):
     checked = 0
     for src in sources:
         root = ET.parse(src).getroot()
+        # Text that sits on nothing sits on the page, and the page is the diagram's own background,
+        # which is no longer always white: the playbook's diagrams sit on the e-learning's pale panel.
+        model = root.find('.//mxGraphModel')
+        page = (model.get('background') if model is not None else None) or '#FFFFFF'
+        if not page.startswith('#'):
+            page = '#FFFFFF'
         cells = []
         for c in root.iter('mxCell'):
+            if c.get('edge') == '1' and re.sub(r'<[^>]+>', '', c.get('value') or '').strip():
+                # A label on an arrow is drawn on a chip filled with the page background.
+                est = dict(kv.split('=', 1) for kv in (c.get('style') or '').split(';') if '=' in kv)
+                for col in _run_colours(c.get('value'), est.get('fontColor', '#231F20')):
+                    checked += 1
+                    r = _ratio(col, page)
+                    if r < floor:
+                        low.append((src.name, col, page, round(r, 2), re.sub(r'<[^>]+>', '', c.get('value'))[:24]))
+                continue
             if c.get('vertex') != '1':
                 continue
             g = c.find('mxGeometry')
@@ -258,7 +287,7 @@ def check_text_contrast(sources, floor):
                 cx, cy = x + w / 2, y + h / 2
                 inside = [(fw * fh, col) for fx, fy, fw, fh, col in fills
                           if fx <= cx <= fx + fw and fy <= cy <= fy + fh]
-                fill = min(inside)[1] if inside else '#FFFFFF'
+                fill = min(inside)[1] if inside else page
             for col in _run_colours(value, st.get('fontColor', '#231F20')):
                 checked += 1
                 r = _ratio(col, fill)
@@ -507,13 +536,14 @@ STEP4 = 'guidance/07-deciding-your-assurance-level/what-your-level-requires.qmd'
 FRIEND = 'guidance/06-roles/critical-friend.qmd'
 BCA = 'guidance/08-business-critical/index.qmd'
 LEVEL_CELLS = {
-    (0, 1): ('You', STEP4, 'No formal sign-off beyond you'),
-    (0, 2): ('team lead', STEP4, '**Signed off by your team lead.**'),
-    (0, 3): ('Lead Official for Statistics', STEP4, 'Signed off by the Lead Official for Statistics'),
+    (0, 1): ('You', STEP4, 'Signed off by you, then by your commissioner for release'),
+    (0, 2): ('team lead', STEP4, '**Signed off by your team lead, then by your commissioner for release.**'),
+    (0, 3): ('Lead Official for Statistics', STEP4,
+             'Signed off by the Lead Official for Statistics, then by your commissioner for release'),
     (0, 4): ('Lead Assurer, then the Analysis Senior Responsible Officer', BCA,
-             'Get sign-off from the Lead Assurer, then from the Analysis Senior Responsible Officer'),
+             'commissioner then signs it off for release'),
     (1, 1): ('colleague in your team', FRIEND, '| Level 1 Standard | A colleague, within the delivering team |'),
-    (1, 2): ('no hand in the work', FRIEND, '| Level 2 Enhanced | Someone who had no hand in producing the work'),
+    (1, 2): ('not involved in the work', FRIEND, '| Level 2 Enhanced | Someone who was not involved in producing the work'),
     (1, 3): ('outside the team', FRIEND, '| Level 3 Comprehensive | An assurer from outside the delivering team |'),
     (1, 4): ('external review', FRIEND, 'A Lead Assurer from outside the delivering team, with external review'),
     (2, 1): ('stored with the output', STEP4, 'Store the project record with the output'),
@@ -598,7 +628,7 @@ def check_matrix():
         fail.append('read-your-level.qmd tables %d of the 16 impact and likelihood pairs' % len(tabled))
 
     heads = {'likelihood': {}, 'impact': {}}
-    levels = []
+    levels, digits = [], []
     for cell in ET.parse(src).getroot().iter('mxCell'):
         geo = cell.find('mxGeometry')
         if cell.get('vertex') != '1' or geo is None:
@@ -614,6 +644,19 @@ def check_matrix():
         m = re.match(r'level (\d)\b', words, re.I)
         if m:
             levels.append((int(m.group(1)), x, y, w, h))
+            continue
+        if re.fullmatch(r'[1-4]', words):
+            digits.append((int(words), x + w / 2, y + h / 2))
+
+    # NHSBSA's drawing numbers its axes: impact up the left of the grid, likelihood along the bottom.
+    if levels and digits:
+        left = min(l[1] for l in levels)
+        bottom = max(l[2] + l[4] for l in levels)
+        for n, cx, cy in digits:
+            if cx < left:
+                heads['impact'][n] = (cx, cy)
+            elif cy > bottom:
+                heads['likelihood'][n] = (cx, cy)
 
     drawn = {}
     for level, x, y, w, h in levels:
@@ -676,8 +719,23 @@ def main():
     else:
         check_none()
     check_board()
-    boards = sorted((ROOT / 'artefacts' / 'service-design').glob('*.drawio'))
+    # The service design boards, and the e-learning's diagrams, which share the playbook's style.
+    boards = (sorted((ROOT / 'artefacts' / 'service-design').glob('*.drawio'))
+              + sorted((ROOT / 'artefacts' / 'elearning-diagrams').glob('*.drawio')))
     own = sorted(DIAG.glob('*.drawio')) if DIAG.is_dir() else []
+    # 1.4.11: NHS Warm Yellow, #FFB81C, is 1.6:1 on the panel these drawings sit on, so as an outline
+    # it is under the 3:1 a line that carries meaning needs, and as text on blue it is under 4.5:1.
+    # The playbook's diagrams and the e-learning's use gold instead, and none of them may carry it.
+    shared = own + sorted((ROOT / 'artefacts' / 'elearning-diagrams').glob('*.drawio'))
+    warm = [f.name for f in shared if '#FFB81C' in f.read_text(encoding='utf-8').upper()]
+    if warm:
+        print('diagrams FAILED')
+        print('  X   %d diagram(s) still use NHS Warm Yellow #FFB81C, which is under 3:1 on the panel '
+              'as a line and under 4.5:1 as text on blue. Use the golds in build/diagrams.py: %s'
+              % (len(warm), ', '.join(warm[:6])))
+        sys.exit(1)
+    else:
+        print('  ok  none of the %d playbook and e-learning diagrams uses NHS Warm Yellow; they use gold' % len(shared))
     low, n = check_text_contrast(own, 7.0)
     low_b, n_b = check_text_contrast(boards, 7.0)
     if low or low_b:
@@ -687,8 +745,8 @@ def main():
                               (low + low_b)[:3]))
         sys.exit(1)
     elif n or n_b:
-        print('  ok  text in %d playbook diagram(s) and %d board(s) reaches 7:1, over %d colours'
-              % (len(own), len(boards), n + n_b))
+        print('  ok  text in %d playbook diagram(s) and %d board(s) and e-learning diagram(s) reaches '
+              '7:1, over %d colours' % (len(own), len(boards), n + n_b))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,22 @@
+[![[**The critical friend's journey.** Select the diagram to open it on its own page, where you can zoom in. [Scroll sideways to see all of it.]{.diagram-hint}]{.nhsuk-image__caption}](/static/diagrams/10-journey-critical-friend.png){.nhsuk-image__img width=680 height=790 fig-alt="The critical friend's journey: seven steps in rows, from The critical friend What you are confirming to Phase 4 Delivery, communication and sign-off, giving where you are in the playbook, what you do and what you produce at each. The text description under the picture gives every step."}](/static/diagrams/10-journey-critical-friend.svg){.diagram-open aria-label="The critical friend's journey: seven steps in rows, from The critical friend What you are confirming to Phase 4 Delivery, communication and sign-off, giving where you are in the playbook, what you do and what you produce at each. The text description under the picture gives every step. Opens the diagram on its own page. Described in words below."}
+
+<details class="nhsuk-details">
+<summary class="nhsuk-details__summary"><span class="nhsuk-details__summary-text">Text description of this diagram</span></summary>
+<div class="nhsuk-details__text">
+
+| Step | Where you are | What you do | What you produce |
+|---|--------------|--------------------|--------------------|
+| 1 | The critical friend What you are confirming | You give independent advice. You are not delivering the analysis. | Nothing recorded yet. |
+| 2 | The critical friend Independence | The separation follows the level, from a colleague to external review. | Your name on the design and plan, before work starts. |
+| 3 | Phase 2 Design | Review the plan. Confirm the approach and assurance level are right. | A reviewed assurance plan, and your time in the schedule. |
+| 4 | The checks, by level | Run the checks the level asks for, and the levels inside it. | Your entries in the quality assurance log. |
+| 5 | Phase 3 Analysis | You shall review the analyst's assurance and report errors and improvements back. | Your findings, and the analyst's response to each one. |
+| 6 | R9 Uncertainty | Check assumptions are traceable, and uncertainty quantified where the method allows. | A recorded view on whether uncertainty is handled adequately. |
+| 7 | Phase 4 Delivery, communication and sign-off | State the assurance: appropriately scoped, executed, validated, verified and documented. | The quality assurance statement, or your part of it. |
+
+: The critical friend's journey, step by step
+
+A second note, **after the last step:** What you report back is what the next piece of work avoids.
+
+</div>
+</details>

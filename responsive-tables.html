@@ -1,0 +1,59 @@
+<script>
+  // The NHS responsive table. On a phone a table of three or more columns does not fit, and
+  // scrolling it sideways means reading a row a few words at a time with the start of it out of
+  // sight. Below 641 pixels, the NHS design system's breakpoint for it, each row is drawn as a
+  // block instead, one cell under another, with the name of the cell's column above it. On a wider
+  // screen, and on paper, it is the grid it always was. The stylesheet does the drawing; this adds
+  // what the drawing needs.
+  //
+  // Two things are added. The column's name, in each body cell, in a span hidden from a screen
+  // reader: a screen reader already announces the column header, and would otherwise read the name
+  // twice. And the table's roles, written out. A table drawn as blocks loses its table semantics
+  // in some browsers, so a screen reader would stop announcing rows and columns at exactly the
+  // width where the reader most needs them. WCAG 2.2 1.3.1 and 1.4.10.
+  //
+  // It is added here rather than written into the pages so that the PDF and Word copies, which are
+  // built from the pages, and the search index do not carry every column name again in every cell.
+  // Without JavaScript a wide table scrolls in its own region as before.
+  //
+  // A table is left as it is where it has fewer than three columns, which fit on a phone, or where a
+  // cell spans rows or columns, which a stack of blocks cannot show.
+  (function () {
+    function stack(table) {
+      var heads = table.querySelectorAll(':scope > thead > tr > th');
+      if (heads.length < 3) return;
+      if (table.querySelector('[rowspan]:not([rowspan="1"]), [colspan]:not([colspan="1"])')) return;
+      var names = Array.prototype.map.call(heads, function (th) {
+        return th.textContent.replace(/\s+/g, ' ').trim();
+      });
+      table.classList.add('pb-stack');
+      table.setAttribute('role', 'table');
+      table.querySelectorAll(':scope > thead, :scope > tbody').forEach(function (g) {
+        g.setAttribute('role', 'rowgroup');
+      });
+      table.querySelectorAll(':scope > thead > tr, :scope > tbody > tr').forEach(function (tr) {
+        tr.setAttribute('role', 'row');
+      });
+      heads.forEach(function (th) { th.setAttribute('role', 'columnheader'); });
+      table.querySelectorAll(':scope > tbody > tr').forEach(function (tr) {
+        Array.prototype.forEach.call(tr.children, function (cell, i) {
+          cell.setAttribute('role', cell.tagName === 'TH' ? 'rowheader' : 'cell');
+          if (!names[i] || cell.querySelector(':scope > .pb-stack__heading')) return;
+          var label = document.createElement('span');
+          label.className = 'pb-stack__heading';
+          label.setAttribute('aria-hidden', 'true');
+          label.textContent = names[i];
+          cell.insertBefore(label, cell.firstChild);
+        });
+      });
+    }
+
+    function run() { document.querySelectorAll('main table').forEach(stack); }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', run);
+    } else {
+      run();
+    }
+  })();
+</script>

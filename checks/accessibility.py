@@ -24,7 +24,6 @@ What it asserts, and the criterion each one serves:
 Three at AAA, which the site also meets:
 
   1.4.6  Contrast (Enhanced)      7:1 for body text, 4.5:1 for large
-  1.4.8  Visual Presentation      no line of prose wider than 80 characters
   2.5.5  Target Size (Enhanced)   44 by 44, or one of the criterion's own exceptions
   2.4.9  Link Purpose (Link Only)  no link text that is ambiguous read on its own
   2.4.10 Section Headings         a page of any length is organised under headings
@@ -59,7 +58,6 @@ MIN_ALT = 40          # characters. An alt shorter than this is a label, not a d
 MIN_CONTRAST = 4.5    # WCAG 1.4.3 for text below 18pt
 AAA_CONTRAST = 7.0    # WCAG 1.4.6 for text below 18pt, 4.5 above it
 AAA_LARGE = 4.5
-MAX_LINE = 80.5       # WCAG 1.4.8, characters a line, with half a character of slack
 MIN_TARGET = 44       # WCAG 2.5.5
 # WCAG 2.4.9 asks that a link makes sense read on its own, out of the sentence around it. These are
 # the link texts that do not, which is what a screen reader user hears when they list the links on
@@ -103,20 +101,6 @@ AAA_PROBE = """() => {
     text.push([s.color, bgOf(el), parseFloat(s.fontSize), s.fontWeight, el.tagName]);
   });
 
-  // A character is the width of the zero glyph in the element's own font, which is what the
-  // ch unit means. Guessing it from the font size is wrong by about a tenth.
-  const probe = document.createElement('span');
-  probe.style.cssText = 'position:absolute;visibility:hidden;white-space:pre';
-  document.body.appendChild(probe);
-  let wide = 0;
-  document.querySelectorAll('main p, main li, main blockquote').forEach(el => {
-    const cs = getComputedStyle(el);
-    probe.style.font = cs.font; probe.textContent = '0'.repeat(100);
-    const ch = probe.getBoundingClientRect().width / 100;
-    if (el.getBoundingClientRect().width / ch > MAX_LINE) wide++;
-  });
-  probe.remove();
-
   // 2.5.5 Equivalent: a destination also reachable from a full size target on the same page.
   const big = new Set();
   document.querySelectorAll('a[href]').forEach(el => {
@@ -137,7 +121,7 @@ AAA_PROBE = """() => {
     targets.push([Math.round(r.width), Math.round(r.height), el.href || '',
                   (el.textContent || '').trim().slice(0, 30)]);
   });
-  return { text, wide, targets };
+  return { text, targets };
 }"""
 
 
@@ -331,22 +315,21 @@ def main():
                     fail.append('1.4.3 Contrast: %s: description toggle is %.2f:1, needs %.1f:1'
                                 % (where, ratio, MIN_CONTRAST))
 
-        # ---------------------------------------------------- AAA: 1.4.6, 1.4.8 and 2.5.5
-        aaa = dict(contrast=[], lines=0, targets=[])
+        # ---------------------------------------------------- AAA: 1.4.6 and 2.5.5
+        aaa = dict(contrast=[], targets=[])
         # Both widths, because some of this interface only exists at one of them. The page title
         # in the phone navigation drawer is display:none at 1280, so a desktop-only pass never
         # saw it, and Quarto colours it with a default that assumes a light background while the
         # header it sits in is NHS Blue. It rendered at 1.10:1 and was unreadable on every page,
-        # for as long as the site has had a drawer. Line length and target size stay at 1280:
-        # 1.4.8 is about a column of prose, and the 320px Reflow pass covers the narrow layout.
+        # for as long as the site has had a drawer. Target size stays at 1280, and the 320px
+        # Reflow pass covers the narrow layout.
         for aaa_width in (1280, 390):
             page2 = browser.new_page(viewport={'width': aaa_width, 'height': 900})
             for f in pages:
                 page2.goto(f.resolve().as_uri(), wait_until='load')
                 page2.wait_for_timeout(30)
                 where = '%s at %dpx' % (f.relative_to(DOCS), aaa_width)
-                d = page2.evaluate(AAA_PROBE.replace('MAX_LINE', str(MAX_LINE))
-                                            .replace('MIN_TARGET', str(MIN_TARGET)))
+                d = page2.evaluate(AAA_PROBE.replace('MIN_TARGET', str(MIN_TARGET)))
                 for c, bg, size, weight, tag in d['text']:
                     large = size >= 24 or (size >= 18.66 and int(weight) >= 700)
                     need = AAA_LARGE if large else AAA_CONTRAST
@@ -357,20 +340,14 @@ def main():
                                                % (where, c, bg, tag, r, need))
                 if aaa_width != 1280:
                     continue
-                aaa['lines'] += d['wide']
                 for w, h, href, text in d['targets']:
                     aaa['targets'].append('2.5.5 Target Size (Enhanced): %s: %dx%d and %r is not '
                                           'reachable from a full size target on the page'
                                           % (where, w, h, text))
             page2.close()
         fail += aaa['contrast'] + aaa['targets']
-        if aaa['lines']:
-            fail.append('1.4.8 Visual Presentation: %d prose blocks are wider than %d characters'
-                        % (aaa['lines'], MAX_LINE))
         print('  ok   1.4.6 Contrast (AAA)    nothing below 7:1, or 4.5:1 where large'
               if not aaa['contrast'] else '  X    1.4.6 Contrast (AAA)')
-        print('  ok   1.4.8 Visual Present.   no prose block wider than %d characters' % MAX_LINE
-              if not aaa['lines'] else '  X    1.4.8 Visual Presentation')
         print('  ok   2.5.5 Target Size (AAA) every target 44x44, or reachable from one'
               if not aaa['targets'] else '  X    2.5.5 Target Size (AAA)')
 

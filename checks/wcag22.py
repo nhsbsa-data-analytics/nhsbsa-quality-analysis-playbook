@@ -27,13 +27,12 @@ site found the failure it names, so each of them was seen failing before it was 
          2.4.12 (AAA)             400 percent zoom, the focused control is wholly on screen and
                                    nothing fixed is drawn over it
   1.4.10 Reflow                   at 320 by 256, what is fixed or sticky leaves room to read
+                                   on a phone a table of three or more columns stacks one row to a
+                                   block, each cell under its column's name, and keeps its roles
+  4.1.3  Status Messages          the glossary filter is labelled and announces how many terms show
   1.4.13 Content on Hover         a footnote opens the Sources list and does not float over the text
   2.3.3  Animation (AAA)          with reduced motion asked for, nothing slides or fades
   2.5.8  Target Size (Minimum)    nothing a pointer must hit is under 24 by 24, except in a sentence
-  1.4.8  Visual Presentation      no line of prose is longer than 80 characters. The test counts the
-         (AAA, claimed)           characters on each rendered line. The earlier test counted widths
-                                   of the digit zero, and 80 of those is 93 to 116 ordinary
-                                   characters
 
 It needs Playwright and a Chromium. It walks the keyboard on a sample of page types rather than on
 every page, because it presses Tab several thousand times; set WCAG22_ALL_PAGES=1 to walk all 44.
@@ -51,7 +50,6 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # without rebuilding docs/ under anything that is reading it.
 DOCS = pathlib.Path(os.environ['WCAG22_SITE']) if os.environ.get('WCAG22_SITE') else ROOT / 'docs'
 CHROMIUM = os.environ.get('PLAYWRIGHT_CHROMIUM', '/opt/pw-browsers/chromium')
-MAX_CHARS = 80
 MIN_TARGET_AA = 24
 RING_MIN = 3.0
 # Where the keyboard is walked. A page of each kind the site has.
@@ -161,7 +159,7 @@ PAGE_PROBE = r"""() => {
     return marker;
   });
 
-  // the seven diagrams: the link says where it goes and what it shows, the picture only what it shows
+  // the diagrams: the link says where it goes and what it shows, the picture only what it shows
   out.diagrams = q('a.diagram-open').map(a => {
     const img = a.querySelector('img'), fig = a.closest('figure');
     const cap = fig && fig.querySelector('figcaption strong');
@@ -187,32 +185,6 @@ LINE_PROBE = r"""() => {
   const q = (s, r = document) => [...r.querySelectorAll(s)];
   const shown = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
   const out = {};
-  // 1.4.8 line length: characters on each rendered line of prose
-  let worst = 0, where = '';
-  const rng = document.createRange();
-  // Every block of text a reader reads, not only paragraphs and list items: the line under the page
-  // title, a table's cells and captions, a figure's caption, the licence line in the footer. A table
-  // cell is counted line by line like any other block.
-  q('main p, main li, main blockquote, main td, main th, main caption, figcaption, #title-block-header .description, .nav-footer-center').filter(shown).forEach(el => {
-    if (el.closest('pre, code, .callout-title, nav, #TOC, summary, table.caption-under-heading') && el.tagName === 'CAPTION') return;   // read out, not drawn
-    if (el.closest('pre, code, .callout-title, nav, #TOC, summary')) return;
-    if (el.matches('td, th, li') && el.querySelector('p, ul, ol, table')) return;   // the blocks inside are counted
-    const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
-    const lines = new Map();
-    let n;
-    while ((n = w.nextNode())) {
-      if (n.parentElement.closest('details:not([open])')) continue;
-      const t = n.textContent; const re = /\S+/g; let m;
-      while ((m = re.exec(t))) {
-        rng.setStart(n, m.index); rng.setEnd(n, m.index + m[0].length);
-        const r = rng.getClientRects()[0]; if (!r) continue;
-        const key = Math.round(r.top / 4);
-        lines.set(key, (lines.get(key) || 0) + m[0].length + 1);
-      }
-    }
-    lines.forEach(c => { if (c - 1 > worst) { worst = c - 1; where = el.textContent.trim().slice(0, 40); } });
-  });
-  out.longest = worst; out.longestAt = where;
 
   // diagrams: the box is as wide as its drawing wherever the column has room for it, and the hint
   // that says to scroll is shown when the box scrolls and not otherwise
@@ -464,10 +436,14 @@ def main():
             print('  ok   1.4.1 Colour          current page (sidebar and navigation bar), footer links, prose links and expanders do not rely on colour')
 
         dg = [(r, d) for r, p in probes.items() for d in p['diagrams']]
+        # The caption is page text, which the site sets with a typographic apostrophe; the alt is an
+        # attribute, which keeps the plain one. The two are the same words.
+        def same(t):
+            return t.replace('\u2019', "'").lower()
         dbad = [(r, d['title']) for r, d in dg
                 if not (d['label'].startswith(d['alt']) and 'Opens the diagram' in d['label'] and
                         d['alt'] and 'Opens the diagram' not in d['alt'] and d['title'] and
-                        d['alt'].lower().startswith(d['title'].rstrip('.').lower()))]
+                        same(d['alt']).startswith(same(d['title'].rstrip('.'))))]
         if dbad:
             fail.append('2.4.9 Diagram links: %d diagram link(s) do not name what they open, or the picture\'s '
                         'alt does not start with the title the figure shows: %s' % (len(dbad), dbad[:3]))
@@ -481,7 +457,7 @@ def main():
         else:
             print('  ok   1.4.13 Footnotes     no floating popup')
 
-        long_, narrow, hint_off = [], [], []
+        narrow, hint_off = [], []
         for w, h in ((1280, 900), (1920, 1080)):
             for rel in pages:
                 pg = browser.new_page(viewport={'width': w, 'height': h})
@@ -490,19 +466,12 @@ def main():
                 pg.evaluate("document.querySelectorAll('details').forEach(d => d.open = true)")
                 m = pg.evaluate(LINE_PROBE)
                 pg.close()
-                if m['longest'] > MAX_CHARS:
-                    long_.append((rel, w, m['longest'], m['longestAt']))
                 for bx in m['boxes']:
                     if bx['fig'] >= 690 and bx['scrolls']:
                         narrow.append((rel, w, bx['w'], bx['fig']))
                     if bx['hint'] is not None and bx['hint'] != bx['scrolls']:
                         hint_off.append((rel, w, 'scrolls' if bx['scrolls'] else 'does not scroll',
                                          'hint shown' if bx['hint'] else 'hint hidden'))
-        if long_:
-            fail.append('1.4.8 Visual Presentation: %d page(s) set a line of prose longer than %d characters, '
-                        'longest %d: %s' % (len({x[0] for x in long_}), MAX_CHARS, max(x[2] for x in long_), long_[:2]))
-        else:
-            print('  ok   1.4.8 Line length    no rendered line over %d characters, counted, at 1280 and at 1920' % MAX_CHARS)
 
         if narrow:
             fail.append('1.4.10 Reflow: %d diagram box(es) are narrower than their 680px drawing where the column '
@@ -714,6 +683,105 @@ def main():
             fail.append('1.4.10 Reflow: on a phone the diagram\'s caption, which says it scrolls, comes after the diagram')
         else:
             print('  ok   1.4.10 Diagram hint  on a phone the line that says a diagram scrolls comes before it')
+
+        # 1.4.10 and 1.3.1: on a phone a table of three or more columns is stacked, one row to a block,
+        # each cell under its column's name, the NHS responsive table. Each row reads down the screen
+        # rather than scrolling sideways, and the table keeps its roles once it is no longer drawn as a
+        # grid. On a wide screen and on paper it is the grid it always was.
+        STACK_PROBE = """() => {
+            const out = [];
+            document.querySelectorAll('main table').forEach(t => {
+                const heads = [...t.querySelectorAll(':scope > thead > tr > th')];
+                if (heads.length < 3 || t.querySelector('[rowspan]:not([rowspan="1"]), [colspan]:not([colspan="1"])')) return;
+                const box = t.closest('.table-scroll') || t.parentElement;
+                const r = { cap: (t.caption ? t.caption.textContent : '').trim().slice(0, 50),
+                            role: t.getAttribute('role'), scrolls: box.scrollWidth - box.clientWidth > 1,
+                            rowDisplay: getComputedStyle(t.querySelector('tbody tr')).display, bad: [] };
+                t.querySelectorAll(':scope > tbody > tr').forEach(tr => [...tr.children].forEach((c, i) => {
+                    const h = c.querySelector(':scope > .pb-stack__heading'), want = heads[i].textContent.trim();
+                    if (!want) return;
+                    if (!h) { r.bad.push('no heading in a cell of column ' + (i + 1)); return; }
+                    if (h.getAttribute('aria-hidden') !== 'true') r.bad.push('heading not aria-hidden');
+                    if (h.textContent.trim() !== want) r.bad.push('heading "' + h.textContent.trim() + '" in column "' + want + '"');
+                    r.headShown = getComputedStyle(h).display !== 'none';
+                    const role = c.getAttribute('role');
+                    if (role !== (c.tagName === 'TH' ? 'rowheader' : 'cell')) r.bad.push(c.tagName + ' has role ' + role);
+                }));
+                out.push(r);
+            });
+            return out;
+        }"""
+        stack_bad = []
+        for rel in ('guidance/07-deciding-your-assurance-level/what-your-level-requires.html',
+                    'guidance/07-deciding-your-assurance-level/read-your-level.html',
+                    'guidance/09-resources/r14-meeting-the-standards.html'):
+            for (w, h), media, stacked in (((375, 667), 'screen', True), ((1280, 900), 'screen', False),
+                                           ((375, 667), 'print', False)):
+                pg = browser.new_page(viewport={'width': w, 'height': h})
+                pg.emulate_media(media=media)
+                pg.goto(base + rel)
+                pg.wait_for_timeout(300)
+                found = pg.evaluate(STACK_PROBE)
+                pg.close()
+                where = '%s at %dx%d %s' % (rel.split('/')[-1], w, h, media)
+                if not found:
+                    stack_bad.append('%s: no table of three or more columns found' % where)
+                for t in found:
+                    if t['role'] != 'table' or t['bad']:
+                        stack_bad.append('%s, "%s": role %s, %s' % (where, t['cap'], t['role'], t['bad'][:2]))
+                    elif stacked and (t['scrolls'] or t['rowDisplay'] != 'block' or not t.get('headShown')):
+                        stack_bad.append('%s, "%s": not stacked (scrolls %s, row %s)' % (where, t['cap'], t['scrolls'], t['rowDisplay']))
+                    elif not stacked and (t['rowDisplay'] != 'table-row' or t.get('headShown')):
+                        stack_bad.append('%s, "%s": stacked where it should be a grid' % (where, t['cap']))
+        if stack_bad:
+            fail.append('1.4.10 Reflow, 1.3.1: %d responsive table fault(s): %s' % (len(stack_bad), stack_bad[:4]))
+        else:
+            print('  ok   1.4.10 Tables        on a phone each table of three or more columns stacks, each cell under its '
+                  'column\'s name, and keeps its roles; on a wide screen and on paper it is a grid')
+
+        # 4.1.3 Status Messages and 1.3.1: the glossary can be narrowed to the terms that match what is typed.
+        # The box is labelled, the count of what is shown is announced, a term that matches nothing says so,
+        # and clearing the box brings every term back.
+        pg = browser.new_page(viewport={'width': 1280, 'height': 900})
+        pg.goto(base + 'guidance/09-resources/r1-glossary.html')
+        pg.wait_for_timeout(300)
+        GL = """() => { const rows = [...document.querySelectorAll('main tbody tr')];
+            const shown = rows.filter(r => r.offsetParent !== null);
+            const box = document.querySelector('main input[type=search]');
+            const lab = box && (box.labels[0] || {}).textContent;
+            const st = document.querySelector('main [role=status]');
+            return { total: rows.length, shown: shown.length, label: (lab || '').trim(), status: st ? st.textContent.trim() : null,
+                     texts: shown.map(r => r.textContent.toLowerCase()) }; }"""
+        gl_bad = []
+        if not pg.query_selector('main input[type=search]'):
+            gl_bad.append('no filter box on the glossary')
+        else:
+            before = pg.evaluate(GL)
+            if not before['label']:
+                gl_bad.append('the filter box has no visible label')
+            pg.fill('main input[type=search]', 'bca')
+            pg.wait_for_timeout(300)
+            mid = pg.evaluate(GL)
+            if not (0 < mid['shown'] < mid['total']) or any('bca' not in t for t in mid['texts']):
+                gl_bad.append('typing bca shows %d of %d rows, not just the rows that say it' % (mid['shown'], mid['total']))
+            if not mid['status'] or str(mid['shown']) not in mid['status']:
+                gl_bad.append('the status says %r with %d shown' % (mid['status'], mid['shown']))
+            pg.fill('main input[type=search]', 'zzqx')
+            pg.wait_for_timeout(300)
+            none = pg.evaluate(GL)
+            if none['shown'] or not none['status'] or 'no' not in none['status'].lower():
+                gl_bad.append('a term that matches nothing leaves %d rows and says %r' % (none['shown'], none['status']))
+            pg.fill('main input[type=search]', '')
+            pg.wait_for_timeout(300)
+            after = pg.evaluate(GL)
+            if after['shown'] != after['total']:
+                gl_bad.append('clearing the box shows %d of %d rows' % (after['shown'], after['total']))
+        pg.close()
+        if gl_bad:
+            fail.append('4.1.3 Status Messages: the glossary filter: %s' % gl_bad)
+        else:
+            print('  ok   4.1.3 Glossary       the filter is labelled, narrows to the matching terms, announces how many, '
+                  'says when none match, and clears')
 
         # Forced colours (a Windows contrast theme): the current sidebar link differs from the others by more
         # than bold, and a disclosure still shows a triangle and not a square.

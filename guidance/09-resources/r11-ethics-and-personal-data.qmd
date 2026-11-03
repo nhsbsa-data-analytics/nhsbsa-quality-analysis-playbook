@@ -1,5 +1,5 @@
 ---
-title: "R11. Data ethics and personal data"
+title: "R10. Data ethics and personal data"
 description: "The data ethics position, raising a concern, and personal data."
 ---
 
@@ -15,36 +15,34 @@ public service codes of conduct.[^src-govs-010-principle-5]
 The **Data and AI Ethics Framework** provides guidance on using data appropriately and responsibly
 when planning, implementing and evaluating a policy or service.[^src-govs-010-section-6-1]
 
-### Use the Data and AI Ethics Framework, not the title GovS 010 names
+### Use the Data and AI Ethics Framework, the current title {#use-the-data-and-ai-ethics-framework-not-the-title-govs-010-names}
 
 Government Functional Standard GovS 010: Analysis cites it as the **Data Ethics Framework**, which
 is the 2020 edition. On 18 December 2025 it was retitled the **Data and AI Ethics Framework**. Its
 scope was extended to AI and algorithmic technologies, and four principles were added. Use the
 current framework.
 
-It publishes a **self-assessment tool**. Use that rather than writing your own checklist.
+The framework includes a **self-assessment tool**. Use it instead of writing your own checklist.
 
-Ethics is a design activity, not a compliance check at the end. The framework has seven principles,
-and each one is a question worth asking before the work starts.
+Consider ethics when you design the work, not as a check at the end. The framework has seven
+principles. Ask each one as a question before the work starts.
 
 - **Transparency.** Could you explain to the people in the data what you did and why?
 - **Accountability.** Who is answerable if this turns out to be wrong?
 - **Fairness.** Could the analysis, or the decision it informs, affect some groups differently? Five
-  questions turn that from open-ended into answerable. Who is **represented** in the data, and in
+  questions make it answerable. Who is **represented** in the data, and in
   what proportion? Who is **missing** from it altogether? Is any variable acting as a **proxy** for
   a protected or sensitive characteristic? Do **outcomes differ** across groups once you look? How
   much fairness work is **proportionate** to what this analysis decides? An exploratory count at
   Level 1 does not need a bias audit. A model that decides who is eligible for something does.
-- **Privacy.** Is the data being used no more than the question requires? NHSBSA's Statistical Disclosure Control protocol is where this is already answered. [NHSBSA templates and documents](r2-templates-and-documents.qmd) lists the protocol with the other
-  NHSBSA documents this playbook draws on. Follow them rather than this page: a disclosure control
-  protocol summarised in a playbook is a protocol with two versions.
+- **Privacy.** Do you use only the data the question requires? NHSBSA's Statistical Disclosure Control protocol already answers this. [NHSBSA templates and documents](r2-templates-and-documents.qmd) lists the protocol with the other
+  NHSBSA documents this playbook draws on. Follow those documents directly.
 - **Environmental sustainability.** What does producing and running this analysis cost, and is that
   proportionate to what it is for? This matters most for repeated pipelines and for anything using
   large models.
 - **Societal impact.** Who is affected by the decision this analysis informs, beyond the people in
-  the data? This is a scoping question, so it belongs in
-  [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd) as well
-  as here.
+  the data? Ask it at scoping, in
+  [Phase 1, engagement and scoping](../01-engagement-and-scoping/index.qmd).
 - **Safety.** What harm could follow if this is wrong, misread, or used for something it was not
   built for?
 
@@ -63,16 +61,14 @@ from it.
 A gap in coverage is not only a wider interval. It is a blind spot in the conclusion, because the
 analysis cannot see the group that is missing. It is also a risk of affecting one group differently.
 
-Fairness asks who is missing from the data altogether, as one of its five questions.
 [Uncertainty, assumptions and limitations](r10-uncertainty.qmd#limitations) covers the uncertainty
 side, where a gap in coverage limits what the figures can be used for.
 
 ## When a question raises something {#when-a-question-raises-something}
 
-Where one of the seven questions raises a concern, record the concern and what you decided about it,
-rather than leaving it in an email.
+Where one of the seven questions raises a concern, record the concern and what you decided about it.
 
-**Record six things.** They fit in a short block in the project record. They are the same six
+**Record six things.** Put them in a short block in the project record. They are the same six
 whether the concern is fairness, privacy, safety or societal impact.
 
 | Field | What goes in it |
@@ -80,25 +76,24 @@ whether the concern is fairness, privacy, safety or societal impact.
 | **Affected groups** | Who is affected by this, in the data and beyond it |
 | **Harms and benefits** | What could go wrong, and what the analysis is for. Record both |
 | **Mitigations** | What you actually changed: the method, the caveat, the scope, the publication decision |
-| **Residual risk** | What is still there after the mitigations, stated plainly rather than implied by silence |
-| **Accountable decision-maker** | The role that accepted that residual risk. Not the analyst, unless the analyst genuinely holds that authority |
+| **Residual risk** | What is still there after the mitigations, stated plainly |
+| **Accountable decision-maker** | The role that accepted that residual risk. The analyst only if they hold that authority |
 | **Escalation route** | Where it went, if the analyst and the commissioner could not settle it between them |
 
 : The six fields to record for a concern, and what goes in each
 
-Record the six fields whether or not the concern was settled. Six lines in the project record is
-enough.
+Record the six fields whether or not the concern was settled.
 
-### Where an ethical concern goes if it is not settled
+### Escalating an ethical concern {#where-an-ethical-concern-goes-if-it-is-not-settled}
 
 A design and plan should cover escalation routes that let analysts and stakeholders raise
 concerns.[^src-govs-010-section-5-3]
 
 Take it to the commissioner first, because they own the decision the analysis informs. This is the
-same route as in [roles and responsibilities](../06-roles/index.qmd). Unresolved, it goes to the
+same route as in [roles and responsibilities](../06-roles/index.qmd). If it is still not settled, take it to the
 **Analytical Quality and Assurance Lead**.
 
-Where the concern is about something that will be published as an official statistic, it goes
+If the concern is about something that will be published as an official statistic, take it
 to the **Lead Official for Statistics**. That is already the route for whether an output is fit
 to publish.
 
@@ -107,7 +102,7 @@ analyst's alone to take. That is what the accountable decision-maker field is fo
 
 ## Personal data
 
-Where personal data is used in analysis, this must be in accordance with NHSBSA policy and
+If you use personal data in analysis, you must use it in line with NHSBSA policy and
 prevailing legislation. GovS 010 says the same, as a recommendation: the use should be in accordance with the organisation's policies and prevailing legislation.[^src-govs-010-section-6-14]
 
 Where analysis using personal data is published, you may include in the publication:[^src-govs-010-section-6-14]
@@ -120,12 +115,12 @@ Information and data should be classified and securely managed in line with GovS
 should also be retained to meet statutory and contractual requirements, and those of the Data and AI
 Ethics Framework.[^src-govs-010-section-6-7]
 
-**Ask before the work starts, not at sign-off.** Information governance advice, and the corporate
-data protection impact assessment (DPIA) process, sit with the information governance function.
+**Ask before the work starts, not at sign-off.** The information governance function provides
+information governance advice and owns the corporate data protection impact assessment (DPIA) process.
 Ask your team lead, or use the routes in [who to ask](r3-who-to-ask.qmd), to start a DPIA.
 
-Go there while the question is still what data to use. A data protection impact assessment raised
-after the analysis is built is a review of a decision already taken.
+Ask while you are still deciding what data to use. A DPIA raised after the analysis is built can
+only review a decision already taken.
 
 [^src-govs-010-principle-5]: [GovS 010 principle 5](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#principles)
 [^src-govs-010-section-5-3]: [GovS 010 section 5.3](https://www.gov.uk/government/publications/government-analysis-functional-standard--2/government-functional-standard-govs-010-analysis#DtA)

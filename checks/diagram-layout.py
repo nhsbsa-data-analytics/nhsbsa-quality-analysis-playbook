@@ -97,7 +97,10 @@ MEASURE = r"""() => {
     ink.w = ink.r - ink.x; ink.h = ink.b - ink.y;
     labels.push({fo, ink, group: top(fo), words: words.slice(0, 64),
                  boxW: fo.width.baseVal.value, boxH: fo.height.baseVal.value,
-                 textH: t.getBoundingClientRect().height,
+                 // A label turned to read upwards (the matrix's side axis) is measured as laid
+                 // out, before the turn, or its height on screen is the length of its line.
+                 textH: fo.closest('[transform*="rotate"]') ? t.offsetHeight
+                                                           : t.getBoundingClientRect().height,
                  scrollW: t.scrollWidth, clientW: t.clientWidth});
   });
 

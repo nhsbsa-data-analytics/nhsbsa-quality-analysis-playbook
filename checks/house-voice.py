@@ -16,7 +16,7 @@ Twelve assertions, over every page the playbook ships and every diagram drawn on
   7. no table cell with a run of words too long to read in a narrow column
   8. every page's one-line description, which sits under its title, is short enough to stay one line
   9. every step a phase page tells you to do says which levels must do it
- 10. the Quick start on the home page is one line per phase, Phase 1 to Phase 5 in order
+ 10. the home page opens with the four sections NHSBSA wrote for it, and its four ways in
  11. the rule for work with an impact of 4 is stated on the Business Critical page, not restated
  12. the Phase 1 steps NHSBSA quoted as strong examples are still worded as they quoted them
 
@@ -133,10 +133,15 @@ PHASE_PAGES = ['guidance/01-engagement-and-scoping/index.qmd', 'guidance/02-desi
                'guidance/03-analysis/index.qmd', 'guidance/04-delivery-and-sign-off/index.qmd',
                'guidance/05-review/index.qmd']
 LEVEL_MARK = re.compile(r'^\d+\. \[(?:Every level|From Level 2|From Level 3|Level 4 BCA)\[:\]\{\.visually-hidden\}\]\{\.pb-level\} ')
-# The same review asked for the opening to say where to start (observation 2). The Quick start is
-# the five phases in order, one line each, with scoring inside Phase 1 and Phase 2 rather than four
-# steps of its own.
-QUICK_START_PHASES = [p.replace('.qmd', '.html') for p in PHASE_PAGES]
+# The same review asked for the opening to say where to start (observation 2). NHSBSA's review of
+# 29 October found too much on the home page before a reader knew where they were, whether the
+# playbook applied to them, or how it was organised, and supplied the opening in its place: what
+# the playbook is, who should use it, how it is organised, and four ways in. The Quick start and
+# the role cards went, because the four ways in and the roles table now do their job.
+HOME_SECTIONS = ['About this playbook', 'Who should use it', 'How is the playbook organised?',
+                 'Find what you need']
+HOME_WAYS_IN = ['guidance/01-engagement-and-scoping/index.qmd', 'guidance/06-roles/commissioner.qmd',
+                'guidance/06-roles/critical-friend.qmd', 'guidance/08-business-critical/index.qmd']
 # The illustrative feedback (theme 7) named "repeated explanations of Level 4" and "of why levels
 # are decided at scoping". The rule lives on the Business Critical page; everywhere else says "If
 # an impact dimension scored 4, go to Business Critical analysis". These are the shapes it was
@@ -274,17 +279,17 @@ def main():
                     % len(unmarked))
         fail.extend('    ' + x for x in unmarked)
 
-    # Assertion 10. The Quick start is the five phases, in order, one line each.
+    # Assertion 10. The home page is the opening NHSBSA wrote, with its four ways in.
     home = (ROOT / 'index.qmd').read_text(encoding='utf-8')
-    qs = re.search(r'^## Quick start\n(.*?)(?=^## )', home, re.S | re.M)
-    items = re.findall(r'<li>\s*<h3><a href="([^"]+)">.*?</h3>\s*<p>(.*?)</p>\s*</li>',
-                       qs.group(1), re.S) if qs else []
-    if [h for h, _ in items] != QUICK_START_PHASES:
-        fail.append('the Quick start is not the five phases in order, one item each. It lists %s'
-                    % ([h for h, _ in items] or 'nothing'))
-    for href, line in items:
-        if len(re.findall(r'[.!?](?:\s|$)', re.sub(r'<[^>]+>', '', line))) > 1:
-            fail.append('the Quick start line for %s runs past one sentence' % href)
+    sections = re.findall(r'^## (.+?)\s*$', home, re.M)
+    if sections != HOME_SECTIONS:
+        fail.append('the home page sections are %s, not the four NHSBSA wrote: %s'
+                    % (sections, HOME_SECTIONS))
+    ways = re.search(r'^## Find what you need\n(.*)', home, re.S | re.M)
+    targets = re.findall(r'^- .*?\]\(([^)#]+)[^)]*\)\s*$', ways.group(1), re.M) if ways else []
+    if targets != HOME_WAYS_IN:
+        fail.append('Find what you need on the home page goes to %s, not %s'
+                    % (targets or 'nothing', HOME_WAYS_IN))
 
     # Assertion 12. NHSBSA's own examples keep their wording.
     phase1 = ' '.join((ROOT / PHASE_PAGES[0]).read_text(encoding='utf-8').split())
@@ -389,7 +394,7 @@ def main():
     print('  ok  no table cell runs more than %d words without a break' % CELL_RUN)
     print('  ok  every page description is %d characters or fewer' % DESCRIPTION_MAX)
     print('  ok  every step on the %d phase pages says which levels must do it' % len(PHASE_PAGES))
-    print('  ok  the Quick start is the five phases in order, one line each')
+    print('  ok  the home page is the opening NHSBSA wrote, with its four ways in')
     print('  ok  the rule for an impact of 4 is stated on the Business Critical page and pointed at elsewhere')
     print('  ok  the %d Phase 1 steps NHSBSA quoted as strong examples keep their wording' % len(PRAISED))
     for name in skipped:

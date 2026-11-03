@@ -1,17 +1,17 @@
 ---
-title: "R13. Publishing analysis"
+title: "R12. Publishing analysis"
 description: "Intelligent transparency, and where NHSBSA publishes analysis."
 ---
 
-Publishing a figure puts it beyond your control. This page carries what that asks of you, and
-where NHSBSA analysis is published.
+Once you publish a figure, you cannot control how it is used. This page sets out what that asks of
+you, and where NHSBSA analysis is published.
 
 ## Intelligent transparency
 
 The Code of Practice for Statistics sets out **intelligent transparency**: taking an open, clear and accessible approach to the use of data, statistics and wider analysis in
-the public domain. It is the default, not a decision to be made each time.
+the public domain. Take this approach by default, every time.
 
-**It binds more than official statistics.** The Code's Standards for the Public Use of Statistics, Data and Wider Analysis apply to public
+**It applies to more than official statistics.** The Code's Standards for the Public Use of Statistics, Data and Wider Analysis apply to public
 bodies using statistics, data and wider analysis in the public domain. They apply to everyone
 involved in that use, not to analysts alone. A figure quoted
 in a press release, a board paper made public, or a number given to a journalist is in scope. There
@@ -39,15 +39,15 @@ the public domain.
 
 ### Quoting an unpublished figure in public commits you to publishing it
 
-Under equality of access, a number quoted in public before it is published should be published as soon
-as possible, ideally the same day, because until it is published nobody can check the claim made from it.
+Under equality of access, publish a number quoted in public as soon as possible, ideally the same
+day. Until it is published, nobody can check the claim made from it.
 
-If an analysis is going to be quoted before it is published, that is a conversation to have while
-the analysis is being scoped, not after the quotation appears.
+If an analysis is going to be quoted before it is published, discuss this while the analysis is
+being scoped.
 
 ## Transparency of the analysis itself
 
-Beyond algorithmic tools, transparency means the ordinary discipline of being open about how a
+Beyond algorithmic tools, transparency means being open about how a
 result was reached:
 
 - the assurance level applied, and why. See

@@ -5,6 +5,10 @@ description: "Your steps as the analyst, phase by phase, and their outputs."
 
 {{< include /guidance/_partials/role-analyst.qmd >}}
 
+## Your journey
+
+{{< include /guidance/_partials/diagram-journey-analyst.qmd >}}
+
 ## Your checklist
 
 {{< include /guidance/_partials/table-journey-analyst.qmd >}}

@@ -20,9 +20,8 @@ sees it.
 
 This is a Level 2 Enhanced statement. Bracketed prompts show what belongs in each place.
 
-**It is illustrative rather than approved wording.** It shows what a statement contains and what
-each part is for. It has not been cleared as a form of words, so write your own from it rather
-than lifting it whole.
+**It is illustrative, not approved wording.** Use it to see what a statement contains and what
+each part is for, then write your own.
 
 > This analysis was produced by [analyst], [team], NHS Business Services Authority, in [month year]
 > to support [the decision it informs].
@@ -44,7 +43,7 @@ than lifting it whole.
 
 ## What each level's statement carries
 
-What a Level 3 statement carries is on [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd). What a Level 4 BCA statement adds is on [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked). Both are the playbook's own requirements, so they sit with the steps that act on them.
+What a Level 3 statement carries is on [Phase 4, delivery, communication and sign-off](../04-delivery-and-sign-off/index.qmd). What a Level 4 BCA statement adds is on [Business Critical analysis, step 7](../08-business-critical/index.qmd#step-7-publish-what-was-checked). Both are the playbook's own requirements.
 
 ## What GovS 010 says about the statement {#what-govs-010-says-about-the-statement}
 

@@ -1,0 +1,64 @@
+<script>
+  // A filter for the glossary. The glossary is ninety-odd rows in letter groups, and the way to a
+  // term was to scroll or to use the browser's own find. This puts a labelled box above it: what is
+  // typed narrows the rows to those whose term or meaning contains it, and a letter group with no
+  // row left is hidden with its heading.
+  //
+  // It is built here, into an empty placeholder the glossary page carries, so that a page without
+  // JavaScript, the PDF, the Word copy and the search index have no box that does nothing. It does
+  // nothing on a page without the placeholder.
+  //
+  // How many rows are showing is a status message, announced without moving focus (WCAG 2.2 4.1.3).
+  // It says nothing on load, so it is heard only when the reader has typed. A search that matches
+  // nothing says so, rather than leaving an empty page. The box is a plain input with a visible
+  // label and a hint, styled as the search page's box is.
+  (function () {
+    function run() {
+      var slot = document.getElementById('pb-glossary-filter');
+      if (!slot) return;
+      var rows = Array.prototype.slice.call(document.querySelectorAll('main tbody tr'));
+      if (!rows.length) return;
+      var texts = rows.map(function (tr) { return tr.textContent.replace(/\s+/g, ' ').toLowerCase(); });
+      var sections = Array.prototype.slice.call(document.querySelectorAll('main section'))
+        .filter(function (s) { return s.querySelector('tbody tr'); });
+
+      slot.className = 'pb-search pb-filter';
+      slot.innerHTML =
+        '<label for="pb-glossary-q"><strong>Filter the glossary</strong></label>' +
+        '<p class="pb-search-hint" id="pb-glossary-hint">Type part of a term or of its meaning. ' +
+        'The list narrows as you type.</p>' +
+        '<div class="pb-search-row"><input type="search" id="pb-glossary-q" autocomplete="off" ' +
+        'spellcheck="false" aria-describedby="pb-glossary-hint"></div>' +
+        '<p class="pb-search-count" id="pb-glossary-count" role="status" aria-live="polite"></p>';
+      var box = document.getElementById('pb-glossary-q');
+      var count = document.getElementById('pb-glossary-count');
+
+      function filter() {
+        var q = box.value.replace(/\s+/g, ' ').trim().toLowerCase();
+        var shown = 0;
+        rows.forEach(function (tr, i) {
+          var on = !q || texts[i].indexOf(q) !== -1;
+          tr.hidden = !on;
+          if (on) shown++;
+        });
+        sections.forEach(function (s) {
+          s.hidden = !Array.prototype.some.call(s.querySelectorAll('tbody tr'), function (tr) { return !tr.hidden; });
+        });
+        if (!q) {
+          count.textContent = 'Showing all ' + rows.length + ' entries';
+        } else if (!shown) {
+          count.textContent = 'No entry matches "' + box.value.trim() + '". Clear the box to see them all.';
+        } else {
+          count.textContent = 'Showing ' + shown + ' of ' + rows.length + ' entries';
+        }
+      }
+      box.addEventListener('input', filter);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', run);
+    } else {
+      run();
+    }
+  })();
+</script>

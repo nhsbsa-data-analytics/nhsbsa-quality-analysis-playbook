@@ -20,10 +20,6 @@ Take your highest impact score from [Step 1, score the impact](score-the-impact.
 
 Each level includes the checks of every lower level.
 
-Read your level from the matrix. Do not choose a level because time is short.
-
-An older NHSBSA document may say Tier where this says Level. They map one for one: Tier 3 is Level 3 Comprehensive.
-
 ## What your level means
 
 {{< include /guidance/_partials/diagram-what-changes-as-the-level-rises.qmd >}}
@@ -37,30 +33,11 @@ An older NHSBSA document may say Tier where this says Level. They map one for on
 
 : What each assurance level is for, and what you do beyond what the picture shows
 
-Very limited time does not lower your level. The tool says to carry out the Level 1 checks, add the others where time permits, and record what was left out. See [when there is not enough time](after-you-have-your-level.qmd#when-there-is-not-enough-time).
+If time is very limited, keep your level. See [when time is short](after-you-have-your-level.qmd#when-there-is-not-enough-time).
 
 ### Independence applies at every level
 
-The assurer and the analyst shall be independent. See [how independent you have to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be) for how far apart they must be at your level.
-
-You still assure your own work at every level. There shall also be formal independent assurance.
-
-## NHSBSA's worked examples for impact
-
-NHSBSA marks these examples as still to be developed. Read your level from the matrix, using your own likelihood score.
-
-| Impact | NHSBSA's examples | Levels it can give |
-|--------|------------------------------------------------|-------------------------------|
-| **4** | Funding allocation formula, eligibility model, payment methodology, major policy appraisal | Level 4 BCA, at every likelihood |
-| **3** | Principal Component Analysis (PCA), Dental Statistics, Freedom of Information (FOI) response, Board report, ministerial briefing | Level 1 Standard to Level 3 Comprehensive |
-| **2** | Monthly operational dashboard, team workforce planning | Level 1 Standard to Level 3 Comprehensive |
-| **1** | Exploratory analysis, internal data investigation | Level 1 Standard or Level 2 Enhanced |
-
-: NHSBSA examples of work at each impact score, and the levels it can give
-
-Score your own work. Do not match it to the nearest row.
-
-Do not score a Board report, FOI response or ministerial briefing at impact 4 on visibility alone. See [what does not, by itself, justify Level 4](score-the-impact.qmd#what-does-not-by-itself-justify-level-4).
+You assure your own work at every level, and there shall also be formal independent assurance. See [how independent the assurer has to be](../06-roles/critical-friend.qmd#how-independent-you-have-to-be) at your level.
 
 ## What you do next
 
@@ -73,7 +50,8 @@ Do not score a Board report, FOI response or ministerial briefing at impact 4 on
 ## More detail in Resources
 
 ::: {.more-detail}
-- [Each level includes the checks of the levels below it](../09-resources/r15-scoring-the-assurance-level.qmd#each-level-includes-the-checks-below-it)
+- [Each level includes the checks of the levels below it, and Tier and Level](../09-resources/r15-scoring-the-assurance-level.qmd#each-level-includes-the-checks-below-it)
+- [Working to a deadline](../09-resources/r15-scoring-the-assurance-level.qmd#working-to-a-deadline)
 - [The likelihood and a Level 4 BCA level](../09-resources/r16-what-makes-work-business-critical.qmd#the-likelihood-cannot-move-a-level-4-bca-level)
 - [One impact score, two levels](../09-resources/r19-worked-examples.qmd#one-impact-score-two-levels)
 - [Publication status and Business Critical status](../09-resources/r16-what-makes-work-business-critical.qmd#what-does-not-make-work-business-critical)

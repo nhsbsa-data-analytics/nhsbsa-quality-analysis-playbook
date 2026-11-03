@@ -4,13 +4,15 @@ description: "Go to the phase you are in, from scoping to review."
 toc: false
 ---
 
-Work through the five phases in order. When you scope the next piece of work, use the lessons recorded in Phase 5. Each phase has its own page, linked from the cards below the picture.
+The NHSBSA uses a five-phase analytical lifecycle to plan, produce, assure, communicate and review
+analysis. The lifecycle supports a consistent approach while ensuring lessons learned are carried
+forward into future work.
 
 ## The lifecycle
 
 {{< include /guidance/_partials/diagram-lifecycle.qmd >}}
 
-## Go to a phase
+## The five phases
 
 ```{=html}
 <ul class="pb-phase-cards">
@@ -20,7 +22,7 @@ Work through the five phases in order. When you scope the next piece of work, us
       <div class="pb-phase-body">
         <span class="pb-phase-n">Phase 1</span>
         <span class="pb-phase-name">Engagement and scoping</span>
-        <p>Agree the question and the decision it informs, then score the impact.</p>
+        <p>Define the requirement, intended use and impact of the analysis.</p>
       </div>
     </a>
   </li>
@@ -30,7 +32,7 @@ Work through the five phases in order. When you scope the next piece of work, us
       <div class="pb-phase-body">
         <span class="pb-phase-n">Phase 2</span>
         <span class="pb-phase-name">Design</span>
-        <p>Choose the method, score the likelihood to finish your level, then plan the assurance it asks for.</p>
+        <p>Select the most appropriate analytical approach and plan assurance activities.</p>
       </div>
     </a>
   </li>
@@ -40,7 +42,7 @@ Work through the five phases in order. When you scope the next piece of work, us
       <div class="pb-phase-body">
         <span class="pb-phase-n">Phase 3</span>
         <span class="pb-phase-name">Analysis</span>
-        <p>Do the work, check it, and have it reviewed.</p>
+        <p>Produce, document and assure the analysis.</p>
       </div>
     </a>
   </li>
@@ -50,7 +52,7 @@ Work through the five phases in order. When you scope the next piece of work, us
       <div class="pb-phase-body">
         <span class="pb-phase-n">Phase 4</span>
         <span class="pb-phase-name">Delivery, communication and sign-off</span>
-        <p>Hand it over with its caveats, and get it approved.</p>
+        <p>Communicate findings, limitations and assurance outcomes.</p>
       </div>
     </a>
   </li>
@@ -60,7 +62,7 @@ Work through the five phases in order. When you scope the next piece of work, us
       <div class="pb-phase-body">
         <span class="pb-phase-n">Phase 5</span>
         <span class="pb-phase-name">Review</span>
-        <p>Ask whether it worked, and whether it is still right.</p>
+        <p>Evaluate the effectiveness of the analysis and identify lessons learned.</p>
       </div>
     </a>
   </li>
@@ -68,10 +70,9 @@ Work through the five phases in order. When you scope the next piece of work, us
 ```
 
 [**Photographs.** Phases 1 and 4 by Vitaly Gariev, Phase 2 by ThisIsEngineering, Phases 3
-and 5 by RDNE Stock project. Used under the Unsplash and Pexels licences, neither of which
-requires attribution. Cropped, resized and in one case retouched for this page.]{.pb-photo-credit}
+and 5 by RDNE Stock project. Used under the Unsplash and Pexels licences. Cropped, resized and in one case retouched for this page.]{.pb-photo-credit}
 
-Find your role in [roles and responsibilities](../06-roles/index.qmd) to see your steps in each phase.
+To see your steps in each phase, find your role in [roles and responsibilities](../06-roles/index.qmd).
 
 ## More detail in Resources
 

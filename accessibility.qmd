@@ -25,6 +25,9 @@ pictures of them. Each diagram is described in words.
   nothing pops up over the text
 - Every table has a caption and a header row. Where a first column names each row, it is marked as
   row headers, so a screen reader can say which row a cell is in
+- On a phone a table of three or more columns is shown one row at a time, each cell under the name
+  of its column, and is still announced as a table
+- The glossary has a filter box. It says how many entries match as you type
 - Text reflows to one column at 320 pixels wide, and at 400 percent zoom, without sideways
   scrolling. On a phone or a short window the bars stay in the page and are not pinned over it
 - On a phone the sidebar takes focus when it opens, gives it back when it closes, and puts the page
@@ -32,9 +35,7 @@ pictures of them. Each diagram is described in words.
 - Every control that takes keyboard focus shows a ring of two colours, so that it can be seen on a
   light or a dark ground
 - Each diagram has a text description under it, and opens on its own page as an SVG that scales to
-  any zoom. On a narrow screen it scrolls sideways inside its own box, which WCAG 1.4.10 allows for
-  content that needs two dimensions to mean anything. Its labels sit beside the shapes they name, so
-  they are part of a picture and not an image of text
+  any zoom. On a narrow screen it scrolls sideways inside its own box, as WCAG 1.4.10 allows
 - Animation is switched off for anyone who has asked their device for less motion
 - Text and interface colours meet the required contrast, and nothing relies on colour alone
 
@@ -45,24 +46,19 @@ every picture, and captions and header rows on every table.
 
 ## What we have checked, and how
 
-These claims are checked against the built pages every time the site is rebuilt, rather than being
-asserted once. An accessibility engine tests every page against WCAG 2.0, 2.1 and 2.2 at levels A
-and AA, on a laptop window, a phone window and a phone window at 400 percent zoom. Our own checks
-then test what an engine cannot see: that every table has a caption and row headers, that the skip
-link lands at the top of the page, that the current page is the one marked as current, that Tab
-never leaves a control off screen or under a fixed bar, and that no line of text runs past 80
-characters, counted rather than estimated. Two checks work from a photograph of the screen: every
-kind of control is given keyboard focus and photographed either side, and the words printed on a
-control are compared with the name it speaks.
+These claims are checked against the built pages every time the site is rebuilt. An accessibility
+engine tests every page against WCAG 2.0, 2.1 and 2.2 at levels A and AA, on a laptop, a phone and a
+phone at 400 percent zoom. Our own checks then test what an engine cannot see, such as where the
+skip link lands, whether Tab ever leaves a control off screen, and whether every focus ring can be
+seen, from a photograph of the screen.
 
 ## Where we go beyond level AA
 
-Five level AAA criteria are met and checked the same way.
+Four level AAA criteria are met and checked the same way.
 
 | Criterion | What it asks | What the site does |
 |---|---|---|
 | 1.4.6 Contrast (Enhanced) | 7:1 for body text, 4.5:1 for large text | Links are NHS Dark Blue at 11.85:1, quiet text is NHS Dark Grey at 7.75:1, and white on the title banner clears 7:1 |
-| 1.4.8 Visual Presentation | No line longer than 80 characters, no justified text, generous spacing | No line of text is longer than 80 characters on any page at two window widths, set ragged right, with line spacing of 1.5 or more |
 | 2.5.5 Target Size (Enhanced) | Anything you click or tap is at least 44 by 44 pixels | Navigation, footer, contents and card links, and the menu and sidebar buttons, are 44 pixels each way. A link in a sentence takes the exception for inline targets |
 | 2.4.9 Link Purpose (Link Only) | Every link makes sense on its own | No link reads "click here" or "read more", or uses a web address as its text. Every link is checked on every build |
 | 2.4.10 Section Headings | Content is organised under headings | Every page of any length carries headings, so the on-this-page list is a usable route |
@@ -73,7 +69,7 @@ Five level AAA criteria are met and checked the same way.
 
 We do not claim level AAA for the whole site. The W3C advises against requiring it as a general
 policy, because some content cannot meet every AAA criterion. Two are out of reach for guidance of
-this kind.
+this kind, and a third is not claimed.
 
 **3.1.4 Expansion of short forms** asks that the meaning of every short form is available. Most are
 spelled out where they first appear, and a few, such as ARIMA, are not.
@@ -82,6 +78,11 @@ spelled out where they first appear, and a few, such as ARIMA, are not.
 simpler version. The Resource pages cite clause numbers from GovS 010 and the AQuA Book and use the
 vocabulary of analytical assurance, because their readers need the exact terms. The glossary in
 Resources is a partial answer.
+
+**1.4.8 Visual Presentation** asks, among other things, for lines of no more than 80 characters.
+WCAG sets no limit on line length at level AA, which is the level the site meets here. The text
+column is set for reading, at about 67 characters on an ordinary line, and grows with the reader's
+text size. Some lines are longer.
 
 ## What we have not tested
 

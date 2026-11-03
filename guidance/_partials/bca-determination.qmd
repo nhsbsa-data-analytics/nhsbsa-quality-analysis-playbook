@@ -1,16 +1,17 @@
 Do this when the Scope is complete, before the Specification is written.
 
-1. Score the six impact dimensions with your commissioner on the Analytical Assurance Decision
-   Tool ([where it is held](/guidance/09-resources/r2-templates-and-documents.qmd)). Score each from
-   Level 1 to Level 4 and take the highest. Use
-   [score the impact](/guidance/07-deciding-your-assurance-level/score-the-impact.qmd) for the scales.
+1. Score the six impact dimensions with your commissioner in the
+   [Analytical Assurance Decision Tool spreadsheet]({{< var decision-tool >}}), which describes each
+   dimension at each level. Score each from Level 1 to Level 4 and take the highest. Opening it needs
+   an NHSBSA account with access to the Analytical Quality and Assurance site.
 2. **The work is Business Critical if any one dimension scores Level 4.**
-3. Do not score Level 4 on publication status, Official Statistics designation, FOI disclosure or any
-   other sign of visibility alone. See
-   [what does not justify a Level 4 score](/guidance/07-deciding-your-assurance-level/score-the-impact.qmd#what-does-not-by-itself-justify-level-4).
+3. Keep Level 4 for a material consequence. The tool says: "Publication status, Board
+   consideration, Official Statistics designation, media interest, national visibility, FOI
+   disclosure, ministerial interest or parliamentary scrutiny do not by themselves justify a Level 4
+   score." Score those under public visibility and reach.
 4. If you and your commissioner disagree, escalate to the Analytical Quality and Assurance Lead.
-5. Save the completed Analytical Assurance Decision Tool and attach it to the Specification. Record
-   a no as well as a yes.
+5. Save the completed Analytical Assurance Decision Tool and append it to the quality assurance plan,
+   as its template asks. Record the answer, yes or no.
 6. Check whether the Algorithmic Transparency Recording Standard applies to any algorithmic tool in the work. It does if the tool:
    - has a significant influence on a decision-making process with public effect, or
    - interacts directly with the general public.

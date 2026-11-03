@@ -1,14 +1,18 @@
-Read your level in the Analytical Assurance Decision Tool you used in step 1. If any impact
-dimension scores Level 4, your level is Level 4 BCA at every likelihood. The Analytical Quality and
+Read your level in the Analytical Assurance Decision Tool you used in step 1. The Analytical Quality and
 Assurance Lead confirms a Level 4 BCA level.
 
-Score the likelihood now, at scoping, before you finish with the tool:
+{{< include /guidance/_partials/diagram-assurance-level-matrix.qmd >}}
 
-- score the six likelihood dimensions against the data and the method you intend to use
-- score them again at design if either changes materially
+### The likelihood {#the-likelihood}
 
-Use [score the likelihood](/guidance/07-deciding-your-assurance-level/score-the-likelihood.qmd) for the scales.
+::: {.nhsuk-inset-text}
+**Note:** a full check of the likelihood in the Analytical Assurance Decision Tool is not required. An impact dimension has already scored Level 4, so the
+work is Business Critical. In the impact 4 row of the matrix, every likelihood from Level 1 to
+Level 4 gives Level 4 BCA.
+:::
+
+Write Level 4 BCA into the Specification and go on to step 4.
 
 The Analytical Risk Assessment and Quality Assurance Framework may escalate work to Business
-Critical Analysis. If it does and the work was not designated, score the six impact dimensions
+Critical analysis. If it does, and the work was not designated Business Critical, score the six impact dimensions
 again with your commissioner. The work is Business Critical only if a dimension then scores Level 4.

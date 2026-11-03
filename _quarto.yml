@@ -68,6 +68,8 @@ website:
       # met: the sidebar, the search page and this menu are three routes to every page.
       - text: "Guidance"
         menu:
+          - href: guidance/00-principles/index.qmd
+            text: "The seven quality principles"
           - href: guidance/07-deciding-your-assurance-level/check-it-applies.qmd
             text: "Check the playbook applies"
           - href: guidance/01-engagement-and-scoping/index.qmd
@@ -77,7 +79,7 @@ website:
           - href: guidance/03-analysis/index.qmd
             text: "Phase 3. Analysis"
           - href: guidance/04-delivery-and-sign-off/index.qmd
-            text: "Phase 4. Delivery and sign-off"
+            text: "Phase 4. Delivery, communication and sign-off"
           - href: guidance/05-review/index.qmd
             text: "Phase 5. Review"
           - href: guidance/06-roles/index.qmd
@@ -86,6 +88,10 @@ website:
             text: "Analytical Assurance Decision Tool"
           - href: guidance/08-business-critical/index.qmd
             text: "Business Critical analysis"
+          - href: guidance/09-resources/r5-quality-assurance-statement.qmd
+            text: "Writing a quality assurance statement"
+          - href: guidance/09-resources/r6-when-something-is-wrong.qmd
+            text: "Correcting a published figure"
           - href: guidance/09-resources/r2-templates-and-documents.qmd
             text: "NHSBSA templates and documents"
           - href: guidance/09-resources/r3-who-to-ask.qmd
@@ -190,6 +196,11 @@ website:
       # The pages in the first three groups say what to do. The
       # reasons, the method detail and the standards behind them are in Resources, where each
       # task page links to the part it needs.
+      # The principles come first, before the work itself, because every phase answers to them.
+      # One page, so the group is a heading over it rather than a list, as NHSBSA's reviewer asked.
+      - section: "The principles"
+        contents:
+          - guidance/00-principles/index.qmd
       - section: "The analytical lifecycle"
         contents:
           - guidance/analytical-cycle/index.qmd
@@ -225,13 +236,18 @@ website:
           - guidance/07-deciding-your-assurance-level/read-your-level.qmd
           - guidance/07-deciding-your-assurance-level/what-your-level-requires.qmd
           - guidance/07-deciding-your-assurance-level/after-you-have-your-level.qmd
+      # Business Critical work has its own group, so a reader reaches it from the sidebar in one
+      # click rather than from inside the assurance level steps, as NHSBSA's reviewer asked. The
+      # group label differs from the page title, for the same 2.4.9 reason as the others.
+      - section: "Business Critical"
+        contents:
           - guidance/08-business-critical/index.qmd
       # Resources is a group, not a page. It was a page whose only content was links to the
       # pages below it, so a reader clicked twice to reach anything and the sidebar carried
       # the same word at two levels. The appendices held the other half of the same kind of
       # material and are merged in here. The pages are numbered R1 to R19 in the order a reader
       # wants them: definitions, then what you need while working, then the reference behind it,
-      # then the mapping to the standards at R14, and the explanation pages R15 to R19 after it.
+      # then the mapping to the standards at R13, and the explanation pages R14 to R18 after it.
       # No page is named "Resources", so the group does not collide with what it holds under
       # WCAG 2.4.9.
       - section: "Resources"
@@ -242,7 +258,6 @@ website:
           - guidance/09-resources/r4-standards-and-guidance.qmd
           - guidance/09-resources/r5-quality-assurance-statement.qmd
           - guidance/09-resources/r6-when-something-is-wrong.qmd
-          - guidance/09-resources/r7-the-six-principles.qmd
           - guidance/09-resources/r8-the-standards-landscape.qmd
           - guidance/09-resources/r9-what-each-standard-asks-for.qmd
           - guidance/09-resources/r10-uncertainty.qmd
@@ -255,21 +270,18 @@ website:
           - guidance/09-resources/r17-roles-independence-and-escalation.qmd
           - guidance/09-resources/r18-review-reuse-and-records.qmd
           - guidance/09-resources/r19-worked-examples.qmd
+          - guidance/09-resources/r20-standards-to-principles-mapping.qmd
 
 format:
   html:
     grid:
       sidebar-width: 25%
-      # The reading measure for prose is set in styles.css at 80 characters, for WCAG
-      # 1.4.8. This is the measure for everything that is not prose: tables, diagrams
-      # and code. Quarto's default capped the content column at 938px, so a five-column
-      # route table divided that between its columns and the one a reader reads wrapped
-      # at four words a line, while 274px sat unused to the right of the contents list
-      # on a 1920 screen. 1400px saturates 1920 and leaves an ultrawide screen a little
-      # more; below about 1700 the grid is already filling the space and this changes
-      # nothing. Paragraphs are unaffected at every width, because their own cap is
-      # narrower than any of these.
-      body-width: 1400px
+      # The reading measure for prose is set in styles.css, and the
+      # content column is held to 46rem there, the width of the NHS page container, so
+      # that headings, diagrams and cards line up with the text. The grid's own body
+      # column matches it, so that a wide window puts its spare space at the edges and
+      # not between the content and the contents list.
+      body-width: 960px
     # There is deliberately no project-level pagetitle. Setting one gives every
     # page in the site the same browser title, which fails WCAG 2.4.2 Page
     # Titled at Level A and makes a tab strip, a bookmark list and a browser
@@ -301,10 +313,16 @@ format:
     # post-load makes aria-hidden icon tags unfocusable, which Quarto does not
     # do. callout-remove strips aria-expanded from callout headers that are not
     # collapsible. WCAG 2.4.3 Focus Order and 4.1.2 Name, Role, Value.
+    # responsive-tables stacks a table of three or more columns on a phone, the NHS
+    # responsive table, and comes before scrollable-tables so that a table is measured
+    # as it is drawn. glossary-filter builds the filter box on the glossary and does
+    # nothing on any other page. WCAG 1.4.10 Reflow, 1.3.1 and 4.1.3 Status Messages.
     include-after-body:
       - post-load-accessibility-fixes.html
       - callout-remove-aria-expanded.html
+      - responsive-tables.html
       - scrollable-tables.html
+      - glossary-filter.html
       - sticky-title.html
       - sidebar-collapse.html
 
