@@ -1,14 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NHSBSA Producing Quality Analysis Playbook",
+    "objectID": "CONTRIBUTE.html",
+    "href": "CONTRIBUTE.html",
+    "title": "How to contribute",
     "section": "",
-    "text": "This playbook sets out the NHSBSA’s expectations for planning and doing analysis.\nIt provides direction and guidance for everyone at the NHSBSA. It is especially for:\n\nDirectors and Heads of Service to ensure appropriate governance of analysis in their areas.\nCommissioners, users, analysts and analytical assurers. This includes non-analysts and third-party suppliers.\n\nIt covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.\n\n\n\n\n\n\nNoteExamples of Analytical Outputs\n\n\n\n Data requests – responses to Freedom of Information (FOI) requests, Parliamentary Questions (PQs), data for sponsors and other adhoc requests.\nData products and reports – for colleagues in the NHS, or external partners, including performance data, customer insight reports, operational forecasts and cost/benfit evaluations.\nOpen datasets – such as those on the Open Data Portal (ODP).\nOfficial Statistics – including publications and data releases.\nData Science releases - including articles, reports, models and code.\n\n\nThis will ensure quality and consistency of analysis and support well-informed decisions.\nThis Playbook is based on:\n\nGovernment functional standard 010: analysis\nThe Aqua Book: guidance on producing quality analysis for government\nCode of Practice for Statistics\n\nThe Green Book and Magenta Book also cover analysis involving appraisal and evaluation.\n\n\n\n\n\n\nNoteRoles\n\n\n\n Commissioner – the person requesting the analysis. This could be an internal team, external partner or sponsor such as DHSC or NHS England.\nAnalyst – the person planning, undertaking and documenting the analysis. This includes Data Analysts and Performance Analysts. It also includes Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.\nCritical friend/analytical assurer – the person who signs off that the analysis is fit-for-purpose. This person should not be delivering the analysis. They are usually a Senior Analyst but need not always be an analyst. Ideally, they will have prior knowledge of the subject matter and/or techniques being used.\nSenior Responsible Owner (SRO) – the person who takes responsibility of a ‘Business-Critical Model’ resulting from the analysis throughout its lifecycle. The SRO signs-off that a model is fit-for-purpose prior to its use. This may be the Commissioner.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalytical Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResponsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness-Critical Analysis\n\n\nIdentifying and managing business-critical analysis within the NHSBSA\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "NHSBSA Producing Quality Analysis Playbook"
-    ]
+    "text": "Hi there! Thank you for considering contributing to the NHSBSA Producing Quality Analysis Playbook. The Playbook is meant to serve the D&A community, so contributions from community members themselves are super important in making this a reality!\n\n\nIf you think of something worth including, improving, or want to contribute, please raise an issue on GitHub.\n\n\n\nPlease submit new contributions via a pull request:\n\nFork or clone the repository\nIf you want to run the page on your machine, configure and install the dependencies. See the README for details.\nCreate a new branch: (e.g. git checkout -b my-branch-name)\nMake your change\nPush to your fork and submit a pull request\n\nYour pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.\n\n\n\nIf you are making visual changes, include a screenshot of what the affected element looks like, both before and after.  \nKeep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.\nWrite good commit messages.\n\n\n\n\n\n\n\n\n\nThe easiest way is just to open the repo in Github Codespaces - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment.\n\n\n\nIf you don’t want to use Github codespaces (or can’t because it’s blocked, or you’ve run out of credits), then you can make changes to the repo locally on your machine.\n\n\n\n\nSee the README for guidance on installing the dependencies and getting started with development.\n\n\n\n\n\n\nNavigate to the relevant subfolder within guidance (e.g. guidance/03-responsibilities/pages)\nAdd a qmd file with the following header fields: ---  title: \"This is the title of your page\"  description: \"This is a brief description of your page\"  image-alt: \"This text will show if your image can't be displayed\"  image: &lt;name of a .jpg file stored in the same subfolder to use for the card&gt;  ---\nAdd the content below the header using standard markdown syntax.\nA link to the page will be added as a card on the landing page. If you want to show an image on the card, add a jpeg file to the same subfolder as the content and include the name in the header fields as above.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\nCreate the a subfolder within guidance and name it appropriately (e.g. 04-business-critical-models). Note that the sections will be ordered in the dropdown on the website according to the numbers in front of the subfolders (i.e. first 01- then 02- and so on)\nAdd an index.qmd file to the subfolder (you can use one of the existing files as an example!)\nFollow the steps above to add the new page within the section you’ve just created.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\n\n\nContributing to Projects\nUsing Pull Requests\nGitHub Help\n\n\n\n\nThank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
+  },
+  {
+    "objectID": "CONTRIBUTE.html#creating-an-issue",
+    "href": "CONTRIBUTE.html#creating-an-issue",
+    "title": "How to contribute",
+    "section": "",
+    "text": "If you think of something worth including, improving, or want to contribute, please raise an issue on GitHub."
+  },
+  {
+    "objectID": "CONTRIBUTE.html#submitting-a-pull-request",
+    "href": "CONTRIBUTE.html#submitting-a-pull-request",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Please submit new contributions via a pull request:\n\nFork or clone the repository\nIf you want to run the page on your machine, configure and install the dependencies. See the README for details.\nCreate a new branch: (e.g. git checkout -b my-branch-name)\nMake your change\nPush to your fork and submit a pull request\n\nYour pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.\n\n\n\nIf you are making visual changes, include a screenshot of what the affected element looks like, both before and after.  \nKeep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.\nWrite good commit messages."
+  },
+  {
+    "objectID": "CONTRIBUTE.html#getting-started-with-development",
+    "href": "CONTRIBUTE.html#getting-started-with-development",
+    "title": "How to contribute",
+    "section": "",
+    "text": "The easiest way is just to open the repo in Github Codespaces - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment.\n\n\n\nIf you don’t want to use Github codespaces (or can’t because it’s blocked, or you’ve run out of credits), then you can make changes to the repo locally on your machine.\n\n\n\n\nSee the README for guidance on installing the dependencies and getting started with development.\n\n\n\n\n\n\nNavigate to the relevant subfolder within guidance (e.g. guidance/03-responsibilities/pages)\nAdd a qmd file with the following header fields: ---  title: \"This is the title of your page\"  description: \"This is a brief description of your page\"  image-alt: \"This text will show if your image can't be displayed\"  image: &lt;name of a .jpg file stored in the same subfolder to use for the card&gt;  ---\nAdd the content below the header using standard markdown syntax.\nA link to the page will be added as a card on the landing page. If you want to show an image on the card, add a jpeg file to the same subfolder as the content and include the name in the header fields as above.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\nCreate the a subfolder within guidance and name it appropriately (e.g. 04-business-critical-models). Note that the sections will be ordered in the dropdown on the website according to the numbers in front of the subfolders (i.e. first 01- then 02- and so on)\nAdd an index.qmd file to the subfolder (you can use one of the existing files as an example!)\nFollow the steps above to add the new page within the section you’ve just created.\nOnce you are happy with your changes submit a pull request!"
+  },
+  {
+    "objectID": "CONTRIBUTE.html#resources",
+    "href": "CONTRIBUTE.html#resources",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Contributing to Projects\nUsing Pull Requests\nGitHub Help"
+  },
+  {
+    "objectID": "CONTRIBUTE.html#acknowledgements",
+    "href": "CONTRIBUTE.html#acknowledgements",
+    "title": "How to contribute",
+    "section": "",
+    "text": "Thank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
   },
   {
     "objectID": "about.html",
@@ -29,46 +60,34 @@
     ]
   },
   {
+    "objectID": "guidance/03-responsibilities/pages/11-critical-friend.html",
+    "href": "guidance/03-responsibilities/pages/11-critical-friend.html",
+    "title": "Critical Friend/Analytical Assurer Responsibilities",
+    "section": "",
+    "text": "The critical friend/analytical assurer provides independent advice to the Commissioner on the analysis being undertaken throughout project\nThey will provide assurance that:\n\nthe question is answered.\nthe analytical plan is appropriate and meets scope.\nthe quality assurance plan is at the right level to support decision making.\nthe team followed the quality assurance plan. It includes an appropriate audit trail.\nthe analysis is fit for purpose. It makes clear any risks associated with the analysis.",
+    "crumbs": [
+      "Home",
+      "Responsibilities",
+      "Critical Friend/Analytical Assurer Responsibilities"
+    ]
+  },
+  {
     "objectID": "guidance/03-responsibilities/index.html",
     "href": "guidance/03-responsibilities/index.html",
     "title": "Responsibilities",
     "section": "",
-    "text": "Commissioner Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyst Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Friend/Analytical Assurer Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Commissioner Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyst Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Friend/Analytical Assurer Responsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
-    "href": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
-    "title": "Analyst Responsibilities",
+    "objectID": "guidance/02-analytical-cycle/pages/05-conducting-the-analysis.html",
+    "href": "guidance/02-analytical-cycle/pages/05-conducting-the-analysis.html",
+    "title": "Conducting and Checking the Analysis",
     "section": "",
-    "text": "The analyst is accountable to the analysis commissioner. They design, conduct and deliver the analysis.\nThe analyst:\n\nAssists the Commissioner to structure the question(s). This is to ensure the right analysis is done.\nAgrees and documents the scope, boundaries, and assumptions of the analysis with the Commissioner and key stakeholders\nManages stakeholder expectations in line with what can be delivered\nCollects data and understands data quality\nChooses the models and methods and produces the plan and design documentation\nConducts the analysis and quality assurance in line with the agreed plan\nCommunicates timely, clear, and insightful results. They include appropriate caveats, limitations and uncertainty. This is so that commissioners and users of analysis can make informed decisions.\nProvides the right level of documentation. This outlines the verification and validation activities undertaken and the associated conclusions.",
-    "crumbs": [
-      "Home",
-      "Responsibilities",
-      "Analyst Responsibilities"
-    ]
-  },
-  {
-    "objectID": "guidance/02-analytical-cycle/index.html",
-    "href": "guidance/02-analytical-cycle/index.html",
-    "title": "Analytical Cycle",
-    "section": "",
-    "text": "The analytical cycle is an iterative process. Initial scoping, design, the analysis itself and delivery may be repeated multiple times, before final distribution and review. Quality assurance is an essential action throughout the cycle.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomer Engagement/Scoping\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConducting and Checking the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery of the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproval and Distribution\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "The analyst will work through their analytical plan. Activities include:\n\nCollecting the data and understanding accuracy and uncertainties. This will include checking in with Subject Matter Experts as needed.\nRecording data and assumptions, including uncertainties and accuracy\nPerforming analysis/creating models according to the plan\nPerforming and documenting their own tests to check their analysis. This may include:\n\ntesting code quality\n\ncomparison to other analysis, models or data\ntesting the analysis with alternative input data or assumptions.\n\nCommissioning any other verification and validation activities as needed.\nKeeping a record of their analysis and tests, noting any differences from the plan.\nUnderstanding all sources of uncertainty and the impact it has on the analysis. This will help the decision-maker to give the right weight to the results of the analysis.\nPresenting the analysis accurately and clearly, following NHSBSA data visualisation standards.\n\nThe analyst will discuss emerging findings with the commissioner and relevant stakeholders. This will help to shape the work.\n\n\n\n\n\n\nNoteConducting Analysis Assurance\n\n\n\n\nA critical friend/analytical assurer will ensure that the analysis if fit for purpose. This includes:\n\nthat the analysis meets the needs of the commissioner\nthat the analyst has done the correct type of analysis (validation)\nthat the analyst has done the analysis correctly and it is accurate (verification)\nIt is comparable and repeatable\n\nThey ensure that quality checking is at the right level for the decision being made. They can approve the analysis, once it meets requirements.",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Analytical Cycle"
-    ]
-  },
-  {
-    "objectID": "guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
-    "href": "guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
-    "title": "Delivery of the Analysis",
-    "section": "",
-    "text": "Analysts must communicate clearly and effectively:\n\nThe results of the analysis\nThe level of quality assurance associated with the analysis\nUncertainty, risk, limitations, constraints and appropriate use of results to the commissioner, decision-makers and in any onward communication to enable wider use.\n\nThey will work with the commissioner and others to interpret the results correctly. This will help to understand whether the analysis has answered the question.\nThe analyst will note successes and lessons learned. They will ensure these are available to improve future analysis.\n\n\n\n\n\n\nNoteDelivery Assurance\n\n\n\n\nA critical friend/analytical assurer must be content that the analyst is showing a true representation of the analysis. This includes ensuring a suitable audit trail is in place that clarifies the level of validation, scope, and risks associated with the analysis.",
-    "crumbs": [
-      "Home",
-      "Analytical Cycle",
-      "Delivery of the Analysis"
+      "Conducting and Checking the Analysis"
     ]
   },
   {
@@ -84,15 +103,39 @@
     ]
   },
   {
-    "objectID": "guidance/02-analytical-cycle/pages/05-conducting-the-analysis.html",
-    "href": "guidance/02-analytical-cycle/pages/05-conducting-the-analysis.html",
-    "title": "Conducting and Checking the Analysis",
+    "objectID": "guidance/02-analytical-cycle/pages/08-review.html",
+    "href": "guidance/02-analytical-cycle/pages/08-review.html",
+    "title": "Review",
     "section": "",
-    "text": "The analyst will work through their analytical plan. Activities include:\n\nCollecting the data and understanding accuracy and uncertainties. This will include checking in with Subject Matter Experts as needed.\nRecording data and assumptions, including uncertainties and accuracy\nPerforming analysis/creating models according to the plan\nPerforming and documenting their own tests to check their analysis. This may include:\n\ntesting code quality\n\ncomparison to other analysis, models or data\ntesting the analysis with alternative input data or assumptions.\n\nCommissioning any other verification and validation activities as needed.\nKeeping a record of their analysis and tests, noting any differences from the plan.\nUnderstanding all sources of uncertainty and the impact it has on the analysis. This will help the decision-maker to give the right weight to the results of the analysis.\nPresenting the analysis accurately and clearly, following NHSBSA data visualisation standards.\n\nThe analyst will discuss emerging findings with the commissioner and relevant stakeholders. This will help to shape the work.\n\n\n\n\n\n\nNoteConducting Analysis Assurance\n\n\n\n\nA critical friend/analytical assurer will ensure that the analysis if fit for purpose. This includes:\n\nthat the analysis meets the needs of the commissioner\nthat the analyst has done the correct type of analysis (validation)\nthat the analyst has done the analysis correctly and it is accurate (verification)\nIt is comparable and repeatable\n\nThey ensure that quality checking is at the right level for the decision being made. They can approve the analysis, once it meets requirements.",
+    "text": "Once we produce data or analysis, it is important to understand how it is being used. This is especially true if it is updated regularly.\nActivities may include:\n\nmonitoring any decisions taken or policy changes which the analysis has informed\nmonitoring usage statistics\nuser research to understand ongoing usefulness and usability\nidentifying future improvements to analysis which is regular/ongoing\ncollecting case studies that show how the data has been used\nmonitoring changes in trends, which the data may have influenced\ndecommissioning analysis where it is no longer useful or relevant.",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Conducting and Checking the Analysis"
+      "Review"
+    ]
+  },
+  {
+    "objectID": "guidance/14-uncertainty.html",
+    "href": "guidance/14-uncertainty.html",
+    "title": "Uncertainty",
+    "section": "",
+    "text": "What is Uncertainty in Analysis?\nUncertainty describes the difference between an estimate and true value in analysis. It helps to show the limitations of our data, statistics and insights. Uncertainty relates to a range of possible factors that can affect accuracy. This includes the impact of measurement or sampling error, how the data had been collected and analysed, missing data or under-reporting.\n\n\nDirect uncertainty\nDirect uncertainty refers to uncertainty about an estimate (or fact).It can be explicitly measured or quantified during data collection or as part of data analysis. Direct uncertainty can be communicated in absolute terms (such as a standard error, confidence intervals, credible intervals and statistical significance).\n\n\nIndirect uncertainty\nIndirect uncertainty refers to uncertainty about the underlying quality of knowledge that surrounds an estimate (or fact). It is not directly measured or quantified but is inferred from uncertainties associated with the analysis. This will often be communicated as a list of caveats about the underlying statistics or data, or it can be summarised into a qualitative or ordered categorical scale. One such example is the GRADE scale.\n\n\nWhy Uncertainty matters\nA good understanding of sources and levels of uncertainty helps us to recognise how reliable numbers are. It is important to communicate this clearly to enable users to apply appropriate weight to the results of the analysis. This can help to reduce misinterpretation, maintain confidence, and protect the integrity of the data, the analysis, and the communicator.\n\n\nCommunicating uncertainty\n\nBe transparent about any uncertainty to avoid misinterpretation and misuse.\nBe specific about what exactly is uncertain and why, how the uncertainty has been quantified, the limitations of the data and any assumptions made in the analysis.\nUse plain and accessible language to make sure that when you write about uncertainty it can be understood by all.\nShow uncertainty in your data visualisations, datasets, data tables etc and explain to readers what the uncertainty represents. It is not enough to only include in Quality and Methods\n\n\n\nDetailed guidance\nCommunicating quality, uncertainty and change – Government Analysis Function\nApproaches to presenting uncertainty in the statistical system",
+    "crumbs": [
+      "Home",
+      "Additional Guidance",
+      "Uncertainty"
+    ]
+  },
+  {
+    "objectID": "guidance/13-types-of-analytical-model.html",
+    "href": "guidance/13-types-of-analytical-model.html",
+    "title": "Types of analytical model",
+    "section": "",
+    "text": "Policy simulation: to better understand policy options that drive government decisions.Ministers make policy decisions. They base them on assessments of the likely cost and impact of policy choices. For example, the Intra Government Tax Benefit Model is used to analyse the distributional impact of tax and benefit changes.\nForecasting: to predict the future and inform today’s policy choices. For example, demographic projections are essential to understand future cost pressures for education and healthcare. Equally, DECC use the updated Energy and Emissions Model to forecast the energy demand and emissions by fuel type and business sector under existing firm and funded policies.\nFinancial evaluation: to better understand future liabilities or costs. For example, modelling to understand the future cost implications of current pension commitments or the future cost of decommissioning existing nuclear energy plants.\nProcurement and commercial evaluation: for the letting and management of large contracts, and to ensure value for money – for example, where a key service is to be contracted out as in the case of railway franchises or where a major IT upgrades/ new system is being introduced.\nPlanning: to make workforce decisions which affect the delivery of future services. For example, these models may be used to assess the number of trainee teachers, doctors and nurses required to deliver education and healthcare into the future.\nScience based: to better understand and simulate the physical environment, in order to evaluate possible solutions or to mitigate potentially devastating impacts – for example, climate change and flood risk.\nAllocation of funds: to determine how funds allocated to departments are then distributed to, for example: local authorities, schools or across the health service. These models are essential to ensure funds are allocated properly across the country to underpin local service delivery.\nConceptual: to help understand the key influences that are important to a system being modelled. A variety of problem-structuring techniques are used to develop conceptual models",
+    "crumbs": [
+      "Home",
+      "Additional Guidance",
+      "Types of analytical model"
     ]
   },
   {
@@ -144,76 +187,58 @@
     "href": "guidance/04-business-critical-analysis/index.html#what-to-do-if-the-analysis-is-business-critical",
     "title": "Business-Critical Analysis",
     "section": "What to do if the analysis is business-critical",
-    "text": "What to do if the analysis is business-critical\nThe flowchart shows the additional steps to take if the analysis is business-critical.\n\n\n\nThe flowchart shows the additional steps to take if the analysis is business-critical.\n\n\nIf the analysis meets the criteria for business critical, the following actions should be completed:\n\nAt the start of the analysis\n\nComplete the impact assessment in the Analytical Assurance Decision Tool\nThe commissioner should log the analysis on the NHSBSA Business Critical Analysis Register\nName the Analysis Senior Responsible Officer. This person may also be the commissioner\nArrange a suitable independent assurer to provide additional scrutiny, challenge and testing\nEnsure that everyone delivering and assuring the work has the skills and knowledge for it\n\n\n\nDuring analysis\n\nLog all data, analytical risks and assumptions in the BCA appraisal document\nUse the Analytical Quality and Assurance Checklist for Building Analytical Solution template to ensure that your analysis meets the requirements for business-critical assurance\nBusiness critical analysis must be supported by sufficient documentation to demonstrate governance, methods, assumptions, quality assurance activities and decision-making\nComplete all the BCA documentation: scope, specification, user guide, technical guide Data & AI-Analytical Quality and Assurance - Analytical Quality Assurance Templates - All Documents\nComplete and deliver the Analysis Plan, and the Quality Assurance Plan plan\nRefer to the Section about uncertainty to ensure you have considered and communicated uncertainty\n\n\n\nDelivery, approval and sign-off\n\nThe Lead Assurer must review all documentation and score the analysis using the BCA appraisal document, and complete the assurance report in the same document\nThe Analysis Senior Responsible Officer must complete the Approval Statement in the BCA appraisal document and sign-off the analysis when it is fit for purpose\nAny assumptions, limitations, uncertainties and residual risks must be documented and communicated to those commissioning, approving, interpreting or using the analysis\nThe commissioner must update the NHSBSA Business Critical Analysis Register when the work is signed-off\nThe Analysis Senior Responsible Officer must set a review date with the commissioner. This should be at least annually\nA copy of the completed BCA appraisal document must be saved in Analytical Quality and Assurance SharePoint directory Completed BCA appraisal documents",
+    "text": "What to do if the analysis is business-critical\nThe flowchart shows the additional steps to take if the analysis is business-critical.\n\n\n\nThe flowchart shows the additional steps to take if the analysis is business-critical.\n\n\nIf the analysis meets the criteria for business critical, the following actions should be completed:\n\nAt the start of the analysis\n\nComplete the impact assessment in the Analytical Assurance Decision Tool\nThe commissioner should log the analysis on the NHSBSA Business Critical Analysis Register\nName the Analysis Senior Responsible Officer. This person may also be the commissioner\nArrange a suitable independent assurer to provide additional scrutiny, challenge and testing\nEnsure that everyone delivering and assuring the work has the skills and knowledge for it\n\n\n\nDuring analysis\n\nLog all data, analytical risks and assumptions in the BCA appraisal document\nUse the Analytical Quality and Assurance Checklist for Building Analytical Solution template to ensure that your analysis meets the requirements for business-critical assurance\nBusiness critical analysis must be supported by sufficient documentation to demonstrate governance, methods, assumptions, quality assurance activities and decision-making\nComplete all the BCA documentation: scope, specification, user guide, technical guide Templates\nComplete and deliver the Analysis Plan, and the Quality Assurance Plan plan\nRefer to the Section about uncertainty to ensure you have considered and communicated uncertainty\n\n\n\nDelivery, approval and sign-off\n\nThe Lead Assurer must review all documentation and score the analysis using the BCA appraisal document, and complete the assurance report in the same document\nThe Analysis Senior Responsible Officer must complete the Approval Statement in the BCA appraisal document and sign-off the analysis when it is fit for purpose\nAny assumptions, limitations, uncertainties and residual risks must be documented and communicated to those commissioning, approving, interpreting or using the analysis\nThe commissioner must update the NHSBSA Business Critical Analysis Register when the work is signed-off\nThe Analysis Senior Responsible Officer must set a review date with the commissioner. This should be at least annually\nA copy of the completed BCA appraisal document must be saved in Analytical Quality and Assurance SharePoint directory Completed BCA appraisal documents",
     "crumbs": [
       "Home",
       "Business-Critical Analysis"
     ]
   },
   {
-    "objectID": "CONTRIBUTE.html",
-    "href": "CONTRIBUTE.html",
-    "title": "How to contribute",
+    "objectID": "guidance/12-RIGOUR.html",
+    "href": "guidance/12-RIGOUR.html",
+    "title": "RIGOUR",
     "section": "",
-    "text": "Hi there! Thank you for considering contributing to the NHSBSA Producing Quality Analysis Playbook. The Playbook is meant to serve the D&A community, so contributions from community members themselves are super important in making this a reality!\n\n\nIf you think of something worth including, improving, or want to contribute, please raise an issue on GitHub.\n\n\n\nPlease submit new contributions via a pull request:\n\nFork or clone the repository\nIf you want to run the page on your machine, configure and install the dependencies. See the README for details.\nCreate a new branch: (e.g. git checkout -b my-branch-name)\nMake your change\nPush to your fork and submit a pull request\n\nYour pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.\n\n\n\nIf you are making visual changes, include a screenshot of what the affected element looks like, both before and after.  \nKeep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.\nWrite good commit messages.\n\n\n\n\n\n\n\n\n\nThe easiest way is just to open the repo in Github Codespaces - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment.\n\n\n\nIf you don’t want to use Github codespaces (or can’t because it’s blocked, or you’ve run out of credits), then you can make changes to the repo locally on your machine.\n\n\n\n\nSee the README for guidance on installing the dependencies and getting started with development.\n\n\n\n\n\n\nNavigate to the relevant subfolder within guidance (e.g. guidance/03-responsibilities/pages)\nAdd a qmd file with the following header fields: ---  title: \"This is the title of your page\"  description: \"This is a brief description of your page\"  image-alt: \"This text will show if your image can't be displayed\"  image: &lt;name of a .jpg file stored in the same subfolder to use for the card&gt;  ---\nAdd the content below the header using standard markdown syntax.\nA link to the page will be added as a card on the landing page. If you want to show an image on the card, add a jpeg file to the same subfolder as the content and include the name in the header fields as above.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\nCreate the a subfolder within guidance and name it appropriately (e.g. 04-business-critical-models). Note that the sections will be ordered in the dropdown on the website according to the numbers in front of the subfolders (i.e. first 01- then 02- and so on)\nAdd an index.qmd file to the subfolder (you can use one of the existing files as an example!)\nFollow the steps above to add the new page within the section you’ve just created.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\n\n\nContributing to Projects\nUsing Pull Requests\nGitHub Help\n\n\n\n\nThank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
-  },
-  {
-    "objectID": "CONTRIBUTE.html#creating-an-issue",
-    "href": "CONTRIBUTE.html#creating-an-issue",
-    "title": "How to contribute",
-    "section": "",
-    "text": "If you think of something worth including, improving, or want to contribute, please raise an issue on GitHub."
-  },
-  {
-    "objectID": "CONTRIBUTE.html#submitting-a-pull-request",
-    "href": "CONTRIBUTE.html#submitting-a-pull-request",
-    "title": "How to contribute",
-    "section": "",
-    "text": "Please submit new contributions via a pull request:\n\nFork or clone the repository\nIf you want to run the page on your machine, configure and install the dependencies. See the README for details.\nCreate a new branch: (e.g. git checkout -b my-branch-name)\nMake your change\nPush to your fork and submit a pull request\n\nYour pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.\n\n\n\nIf you are making visual changes, include a screenshot of what the affected element looks like, both before and after.  \nKeep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.\nWrite good commit messages."
-  },
-  {
-    "objectID": "CONTRIBUTE.html#getting-started-with-development",
-    "href": "CONTRIBUTE.html#getting-started-with-development",
-    "title": "How to contribute",
-    "section": "",
-    "text": "The easiest way is just to open the repo in Github Codespaces - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment.\n\n\n\nIf you don’t want to use Github codespaces (or can’t because it’s blocked, or you’ve run out of credits), then you can make changes to the repo locally on your machine.\n\n\n\n\nSee the README for guidance on installing the dependencies and getting started with development.\n\n\n\n\n\n\nNavigate to the relevant subfolder within guidance (e.g. guidance/03-responsibilities/pages)\nAdd a qmd file with the following header fields: ---  title: \"This is the title of your page\"  description: \"This is a brief description of your page\"  image-alt: \"This text will show if your image can't be displayed\"  image: &lt;name of a .jpg file stored in the same subfolder to use for the card&gt;  ---\nAdd the content below the header using standard markdown syntax.\nA link to the page will be added as a card on the landing page. If you want to show an image on the card, add a jpeg file to the same subfolder as the content and include the name in the header fields as above.\nOnce you are happy with your changes submit a pull request!\n\n\n\n\n\nCreate the a subfolder within guidance and name it appropriately (e.g. 04-business-critical-models). Note that the sections will be ordered in the dropdown on the website according to the numbers in front of the subfolders (i.e. first 01- then 02- and so on)\nAdd an index.qmd file to the subfolder (you can use one of the existing files as an example!)\nFollow the steps above to add the new page within the section you’ve just created.\nOnce you are happy with your changes submit a pull request!"
-  },
-  {
-    "objectID": "CONTRIBUTE.html#resources",
-    "href": "CONTRIBUTE.html#resources",
-    "title": "How to contribute",
-    "section": "",
-    "text": "Contributing to Projects\nUsing Pull Requests\nGitHub Help"
-  },
-  {
-    "objectID": "CONTRIBUTE.html#acknowledgements",
-    "href": "CONTRIBUTE.html#acknowledgements",
-    "title": "How to contribute",
-    "section": "",
-    "text": "Thank you to the NHS England RAP Community of Practice from which this guide took heavy inspiration!"
-  },
-  {
-    "objectID": "guidance/14-uncertainty.html",
-    "href": "guidance/14-uncertainty.html",
-    "title": "Uncertainty",
-    "section": "",
-    "text": "What is Uncertainty in Analysis?\nUncertainty describes the difference between an estimate and true value in analysis. It helps to show the limitations of our data, statistics and insights. Uncertainty relates to a range of possible factors that can affect accuracy. This includes the impact of measurement or sampling error, how the data had been collected and analysed, missing data or under-reporting.\n\n\nDirect uncertainty\nDirect uncertainty refers to uncertainty about an estimate (or fact).It can be explicitly measured or quantified during data collection or as part of data analysis. Direct uncertainty can be communicated in absolute terms (such as a standard error, confidence intervals, credible intervals and statistical significance).\n\n\nIndirect uncertainty\nIndirect uncertainty refers to uncertainty about the underlying quality of knowledge that surrounds an estimate (or fact). It is not directly measured or quantified but is inferred from uncertainties associated with the analysis. This will often be communicated as a list of caveats about the underlying statistics or data, or it can be summarised into a qualitative or ordered categorical scale. One such example is the GRADE scale.\n\n\nWhy Uncertainty matters\nA good understanding of sources and levels of uncertainty helps us to recognise how reliable numbers are. It is important to communicate this clearly to enable users to apply appropriate weight to the results of the analysis. This can help to reduce misinterpretation, maintain confidence, and protect the integrity of the data, the analysis, and the communicator.\n\n\nCommunicating uncertainty\n\nBe transparent about any uncertainty to avoid misinterpretation and misuse.\nBe specific about what exactly is uncertain and why, how the uncertainty has been quantified, the limitations of the data and any assumptions made in the analysis.\nUse plain and accessible language to make sure that when you write about uncertainty it can be understood by all.\nShow uncertainty in your data visualisations, datasets, data tables etc and explain to readers what the uncertainty represents. It is not enough to only include in Quality and Methods\n\n\n\nDetailed guidance\nCommunicating quality, uncertainty and change – Government Analysis Function\nApproaches to presenting uncertainty in the statistical system",
+    "text": "Repeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected. See additional notes in Reproducible vs. Automated Analysis.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem – which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately.",
     "crumbs": [
       "Home",
       "Additional Guidance",
-      "Uncertainty"
+      "RIGOUR"
     ]
   },
   {
-    "objectID": "guidance/02-analytical-cycle/pages/08-review.html",
-    "href": "guidance/02-analytical-cycle/pages/08-review.html",
-    "title": "Review",
+    "objectID": "guidance/12-RIGOUR.html#reproducible-vs.-automated-analysis",
+    "href": "guidance/12-RIGOUR.html#reproducible-vs.-automated-analysis",
+    "title": "RIGOUR",
+    "section": "Reproducible vs. Automated Analysis",
+    "text": "Reproducible vs. Automated Analysis\nWhile both reproducible and automated analysis aim for efficiency and reliability, they focus on different aspects of the process. Automation can contribute to reproducibility, but automation alone is not enough.\n\nReproducibility: Can someone else (or even yourself, later on), given the same inputs, understand and recreate your work?\nAutomation: Can a computer run the analysis, with any valid inputs, with minimal (even none at all) human intervention?\n\nBest practice is to have a fully reproducible analysis, that includes a level of automation appropriate to the complexity and effort of repeating it manually.\n\n\n\n\n\n\n\n\nConsideration\nReproducible Data Analysis\nAutomated Data Analysis\n\n\n\n\nPrimary goal\nVerifiability, transparency, reusability\nEfficiency, scalability, speed\n\n\nMain activities\nDocumenting all steps and key decisions, managing versions\nScripting, scheduling, pipelines, monitoring\n\n\nDoes it require automation?\nNo\nYes\n\n\nIs it essential?\nYes\nNo, but is desirable, especially as an analysis grows in complexity\n\n\nTesting the analysis\nUse static input data, for known results\nInclude tests that automatically run when the analysis changes\n\n\nConsistency\nIn results\nIn processes\n\n\n\n\nFurther guidance\n\nQuality Assurance of Code for Analysis and Research (ONS)\nWhat is RAP? (NHS Digital)\nThe NHSBSA Analytical Code Assurance Playbook (Work in progress) offers specific advice on testing analytical pipelines in addition to topics such as documentation and a modular approach to analysis.",
+    "crumbs": [
+      "Home",
+      "Additional Guidance",
+      "RIGOUR"
+    ]
+  },
+  {
+    "objectID": "guidance/02-analytical-cycle/index.html",
+    "href": "guidance/02-analytical-cycle/index.html",
+    "title": "Analytical Cycle",
     "section": "",
-    "text": "Once we produce data or analysis, it is important to understand how it is being used. This is especially true if it is updated regularly.\nActivities may include:\n\nmonitoring any decisions taken or policy changes which the analysis has informed\nmonitoring usage statistics\nuser research to understand ongoing usefulness and usability\nidentifying future improvements to analysis which is regular/ongoing\ncollecting case studies that show how the data has been used\nmonitoring changes in trends, which the data may have influenced\ndecommissioning analysis where it is no longer useful or relevant.",
+    "text": "The analytical cycle is an iterative process. Initial scoping, design, the analysis itself and delivery may be repeated multiple times, before final distribution and review. Quality assurance is an essential action throughout the cycle.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomer Engagement/Scoping\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConducting and Checking the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery of the Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproval and Distribution\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "Analytical Cycle",
-      "Review"
+      "Analytical Cycle"
+    ]
+  },
+  {
+    "objectID": "guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
+    "href": "guidance/02-analytical-cycle/pages/06-delivery-and-approval.html",
+    "title": "Delivery of the Analysis",
+    "section": "",
+    "text": "Analysts must communicate clearly and effectively:\n\nThe results of the analysis\nThe level of quality assurance associated with the analysis\nUncertainty, risk, limitations, constraints and appropriate use of results to the commissioner, decision-makers and in any onward communication to enable wider use.\n\nThey will work with the commissioner and others to interpret the results correctly. This will help to understand whether the analysis has answered the question.\nThe analyst will note successes and lessons learned. They will ensure these are available to improve future analysis.\n\n\n\n\n\n\nNoteDelivery Assurance\n\n\n\n\nA critical friend/analytical assurer must be content that the analyst is showing a true representation of the analysis. This includes ensuring a suitable audit trail is in place that clarifies the level of validation, scope, and risks associated with the analysis.",
+    "crumbs": [
+      "Home",
+      "Analytical Cycle",
+      "Delivery of the Analysis"
     ]
   },
   {
@@ -241,18 +266,6 @@
     ]
   },
   {
-    "objectID": "guidance/03-responsibilities/pages/11-critical-friend.html",
-    "href": "guidance/03-responsibilities/pages/11-critical-friend.html",
-    "title": "Critical Friend/Analytical Assurer Responsibilities",
-    "section": "",
-    "text": "The critical friend/analytical assurer provides independent advice to the Commissioner on the analysis being undertaken throughout project\nThey will provide assurance that:\n\nthe question is answered.\nthe analytical plan is appropriate and meets scope.\nthe quality assurance plan is at the right level to support decision making.\nthe team followed the quality assurance plan. It includes an appropriate audit trail.\nthe analysis is fit for purpose. It makes clear any risks associated with the analysis.",
-    "crumbs": [
-      "Home",
-      "Responsibilities",
-      "Critical Friend/Analytical Assurer Responsibilities"
-    ]
-  },
-  {
     "objectID": "guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
     "href": "guidance/03-responsibilities/pages/09-commissioner-responsibilities.html",
     "title": "Commissioner Responsibilities",
@@ -265,39 +278,26 @@
     ]
   },
   {
-    "objectID": "guidance/13-types-of-analytical-model.html",
-    "href": "guidance/13-types-of-analytical-model.html",
-    "title": "Types of analytical model",
+    "objectID": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
+    "href": "guidance/03-responsibilities/pages/10-analyst-responsibilities.html",
+    "title": "Analyst Responsibilities",
     "section": "",
-    "text": "Policy simulation: to better understand policy options that drive government decisions.Ministers make policy decisions. They base them on assessments of the likely cost and impact of policy choices. For example, the Intra Government Tax Benefit Model is used to analyse the distributional impact of tax and benefit changes.\nForecasting: to predict the future and inform today’s policy choices. For example, demographic projections are essential to understand future cost pressures for education and healthcare. Equally, DECC use the updated Energy and Emissions Model to forecast the energy demand and emissions by fuel type and business sector under existing firm and funded policies.\nFinancial evaluation: to better understand future liabilities or costs. For example, modelling to understand the future cost implications of current pension commitments or the future cost of decommissioning existing nuclear energy plants.\nProcurement and commercial evaluation: for the letting and management of large contracts, and to ensure value for money – for example, where a key service is to be contracted out as in the case of railway franchises or where a major IT upgrades/ new system is being introduced.\nPlanning: to make workforce decisions which affect the delivery of future services. For example, these models may be used to assess the number of trainee teachers, doctors and nurses required to deliver education and healthcare into the future.\nScience based: to better understand and simulate the physical environment, in order to evaluate possible solutions or to mitigate potentially devastating impacts – for example, climate change and flood risk.\nAllocation of funds: to determine how funds allocated to departments are then distributed to, for example: local authorities, schools or across the health service. These models are essential to ensure funds are allocated properly across the country to underpin local service delivery.\nConceptual: to help understand the key influences that are important to a system being modelled. A variety of problem-structuring techniques are used to develop conceptual models",
+    "text": "The analyst is accountable to the analysis commissioner. They design, conduct and deliver the analysis.\nThe analyst:\n\nAssists the Commissioner to structure the question(s). This is to ensure the right analysis is done.\nAgrees and documents the scope, boundaries, and assumptions of the analysis with the Commissioner and key stakeholders\nManages stakeholder expectations in line with what can be delivered\nCollects data and understands data quality\nChooses the models and methods and produces the plan and design documentation\nConducts the analysis and quality assurance in line with the agreed plan\nCommunicates timely, clear, and insightful results. They include appropriate caveats, limitations and uncertainty. This is so that commissioners and users of analysis can make informed decisions.\nProvides the right level of documentation. This outlines the verification and validation activities undertaken and the associated conclusions.",
     "crumbs": [
       "Home",
-      "Additional Guidance",
-      "Types of analytical model"
+      "Responsibilities",
+      "Analyst Responsibilities"
     ]
   },
   {
-    "objectID": "guidance/12-RIGOUR.html",
-    "href": "guidance/12-RIGOUR.html",
-    "title": "RIGOUR",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NHSBSA Producing Quality Analysis Playbook",
     "section": "",
-    "text": "Repeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected. See additional notes in Reproducible vs. Automated Analysis.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem – which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations in order to ensure it is used appropriately.",
+    "text": "This playbook sets out the NHSBSA’s expectations for planning and doing analysis.\nIt provides direction and guidance for everyone at the NHSBSA. It is especially for:\n\nDirectors and Heads of Service to ensure appropriate governance of analysis in their areas.\nCommissioners, users, analysts and analytical assurers. This includes non-analysts and third-party suppliers.\n\nIt covers all analysis and datasets. This includes analysis and data published externally and used for internal decisions. It also includes analysis/data given to our sponsors/partners.\n\n\n\n\n\n\nNoteExamples of Analytical Outputs\n\n\n\n Data requests – responses to Freedom of Information (FOI) requests, Parliamentary Questions (PQs), data for sponsors and other adhoc requests.\nData products and reports – for colleagues in the NHS, or external partners, including performance data, customer insight reports, operational forecasts and cost/benfit evaluations.\nOpen datasets – such as those on the Open Data Portal (ODP).\nOfficial Statistics – including publications and data releases.\nData Science releases - including articles, reports, models and code.\n\n\nThis will ensure quality and consistency of analysis and support well-informed decisions.\nThis Playbook is based on:\n\nGovernment functional standard 010: analysis\nThe Aqua Book: guidance on producing quality analysis for government\nCode of Practice for Statistics\n\nThe Green Book and Magenta Book also cover analysis involving appraisal and evaluation.\n\n\n\n\n\n\nNoteRoles\n\n\n\n Commissioner – the person requesting the analysis. This could be an internal team, external partner or sponsor such as DHSC or NHS England.\nAnalyst – the person planning, undertaking and documenting the analysis. This includes Data Analysts and Performance Analysts. It also includes Customer Insight Officers, Statistical Officers, Statisticians and Data Scientists.\nCritical friend/analytical assurer – the person who signs off that the analysis is fit-for-purpose. This person should not be delivering the analysis. They are usually a Senior Analyst but need not always be an analyst. Ideally, they will have prior knowledge of the subject matter and/or techniques being used.\nSenior Responsible Owner (SRO) – the person who takes responsibility of a ‘Business-Critical Model’ resulting from the analysis throughout its lifecycle. The SRO signs-off that a model is fit-for-purpose prior to its use. This may be the Commissioner.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalytical Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResponsibilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness-Critical Analysis\n\n\nIdentifying and managing business-critical analysis within the NHSBSA\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "Additional Guidance",
-      "RIGOUR"
-    ]
-  },
-  {
-    "objectID": "guidance/12-RIGOUR.html#reproducible-vs.-automated-analysis",
-    "href": "guidance/12-RIGOUR.html#reproducible-vs.-automated-analysis",
-    "title": "RIGOUR",
-    "section": "Reproducible vs. Automated Analysis",
-    "text": "Reproducible vs. Automated Analysis\nWhile both reproducible and automated analysis aim for efficiency and reliability, they focus on different aspects of the process. Automation can contribute to reproducibility, but automation alone is not enough.\n\nReproducibility: Can someone else (or even yourself, later on), given the same inputs, understand and recreate your work?\nAutomation: Can a computer run the analysis, with any valid inputs, with minimal (even none at all) human intervention?\n\nBest practice is to have a fully reproducible analysis, that includes a level of automation appropriate to the complexity and effort of repeating it manually.\n\n\n\n\n\n\n\n\nConsideration\nReproducible Data Analysis\nAutomated Data Analysis\n\n\n\n\nPrimary goal\nVerifiability, transparency, reusability\nEfficiency, scalability, speed\n\n\nMain activities\nDocumenting all steps and key decisions, managing versions\nScripting, scheduling, pipelines, monitoring\n\n\nDoes it require automation?\nNo\nYes\n\n\nIs it essential?\nYes\nNo, but is desirable, especially as an analysis grows in complexity\n\n\nTesting the analysis\nUse static input data, for known results\nInclude tests that automatically run when the analysis changes\n\n\nConsistency\nIn results\nIn processes\n\n\n\n\nFurther guidance\n\nQuality Assurance of Code for Analysis and Research (ONS)\nWhat is RAP? (NHS Digital)\nThe NHSBSA Analytical Code Assurance Playbook (Work in progress) offers specific advice on testing analytical pipelines in addition to topics such as documentation and a modular approach to analysis.",
-    "crumbs": [
-      "Home",
-      "Additional Guidance",
-      "RIGOUR"
+      "NHSBSA Producing Quality Analysis Playbook"
     ]
   },
   {
